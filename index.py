@@ -21,13 +21,13 @@ SpecifierSet = lru_cache()(SpecifierSet)
 
 class UpstreamPackage(sprat.Package):
     def __init__(self, name, classifiers, keywords, license_expression, summary, urls, versions):
-        super().__init__(sprat.sluggify(name), name, classifiers, keywords, license_expression, summary, urls, versions)
+        super().__init__(name, classifiers, keywords, license_expression, summary, urls, versions)
 
         sanitize(name, "\r\n")
         [sanitize(i, "\r\n") for i in classifiers]
         [sanitize(i, "\r\n,") for i in keywords if i.strip()]
         sanitize(license_expression, "\r\n")
-        self.summary = re.sub("[\r\n]+", " ", summary)
+        self.summary = " ".join(summary.split())
 
         self.urls = {}
         for (key, url) in urls.items():
@@ -78,7 +78,7 @@ class UpstreamPackage(sprat.Package):
             if release["yanked"]:
                 _info["yanked"] = release["yanked_reason"] or ""
             versions.append((version, _info))
-        versions.sort(key=lambda x: releases[x[0]][0]["upload_time"])
+        versions.sort(key=lambda x: min(file["upload_time"] for file in releases[x[0]]))
 
         return cls(
             info["name"],
@@ -166,7 +166,7 @@ def update(old_index, new_index, files):
                 if id in packages:
                     packages[id]._update(block)
                 else:
-                    packages[id] = sprat.Package._parse(id, block)
+                    packages[id] = sprat.Package.parse(id, block)
             except sprat.PackageDeleted:
                 packages.pop(id, None)
     try:

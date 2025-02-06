@@ -116,18 +116,27 @@ def search(options):
     else:
         if all_terms:
             term = max(all_terms, key=lambda t: 2 * len(t) - len(re.escape(t)))
-            filtered = sprat.crude_search(term)
+            filtered = sprat.crude_search(term, case_sensitive=False)
         else:
             filtered = sprat.iter()
     filter = Filter(options.terms, options.name, options.summary, options.keyword, options.classifier)
+
+    if filter.name and not (prefix and len(filter.name) == 1 == len(filter.all)):
+        filtered = (i for i in filtered if filter.filter_name(i[0].decode()))
+
     found = 0
-    for (id, block) in filtered:
-        #package = sprat.Package._parse(id.decode(), block, ignore_versions=True)
-        if 1 or filter.filter(package):
+    if options.quiet and len(filter.name) == len(filter.all):
+        for (name, _) in filtered:
+            print(name.decode())
+            found += 1
+        return found
+
+    for (name, block) in filtered:
+        package = sprat.Package.parse(name.decode(), block, ignore_versions=True)
+        if filter.filter(package):
             found += 1
             if options.quiet:
-#                print(package.name)
-                print(sprat.name(id, block).decode())
+                print(name.decode())
                 continue
             print(_highlight(package.name, *filter.name, *filter.any))
             [print("   ", i) for i in textwrap.wrap(_highlight_grey(package.summary, *filter.summary, *filter.any), 120)]
@@ -192,12 +201,15 @@ class Filter:
     def strongest(self):
         return max(self.all, key=lambda p: 2 * len(p.pattern) - len(re.escape(p.pattern)))
 
+    def filter_name(self, name):
+        return all(pattern.search(name) for pattern in self.name)
+
     def filter(self, package):
         import itertools
         for pattern in self.any:
             if not any(map(pattern.search, itertools.chain((package.summary, package.name), package.keywords, package.classifiers))):
                 return False
-        if not all(pattern.search(package.name) for pattern in self.name):
+        if not self.filter_name(package.name):
             return False
         if not all(pattern.search(package.summary) for pattern in self.summary):
             return False
@@ -250,5 +262,4 @@ def _parse_args(args=None):
 
 
 if __name__ == "__main__":
-    assert any(i != i.lower() for (i, _) in sprat.iter_names())
     cli()

@@ -14,25 +14,9 @@ def _join(delta):
     return "".join(map("%s:%s\n".__mod__, delta)).encode()
 
 
-def test_name():
-    self = sprat.Package._new("foo", "foo")
-    serialised = _join(self.delta(self.null))
-    assert b"n:" not in serialised
-    assert sprat.Package._parse("foo", serialised) == self
-
-    self = sprat.Package._new("foo", "..-fOo")
-    serialised = _join(self.delta(self.null))
-    assert b"n:..-fOo" in serialised
-    assert sprat.Package._parse("foo", serialised) == self
-
-    assert sprat.Package._new("foo", "..-fOo").delta(self) == []
-    assert ("n", "FOO") in sprat.Package._new("foo", "FOO").delta(self)
-    assert ("n", "foo") in sprat.Package._new("foo", "foo").delta(self)
-
-
 def test_requires_python():
     old = sprat.Package._parse("foo", _index("""
-        i:foo
+        n:foo
         v:0.19.0
         p:>=3.8
         v:0.19.1
@@ -43,13 +27,13 @@ def test_requires_python():
         "0.19.1": {},
         "0.19.2": {},
     })
-    assert self.delta(old) == [("i", "foo"), ("v", "0.19.2")]
+    assert self.delta(old) == [("n", "foo"), ("v", "0.19.2")]
 
     self = sprat.Package._new("foo", versions={
         "0.19.0": {"requires_python": ">=3.9"},
         "0.19.1": {},
     })
-    assert self.delta(old) == [("i", "foo"), ("v", "0.19.0"), ("p", ">=3.9")]
+    assert self.delta(old) == [("n", "foo"), ("v", "0.19.0"), ("p", ">=3.9")]
 
     old._update(_join(self.delta(old)))
     assert self == old
@@ -62,13 +46,12 @@ def test_requires_python():
         'v0': {},
         'v2': {'yanked': 'broken version handling'},
     })
-    assert new.delta(old) == [("i", "foo"), ("V", "v1"), ("v", "v0"), ("p", ""), ("v", "v2"), ("p", ""), ("y", "broken version handling")]
+    assert new.delta(old) == [("n", "foo"), ("V", "v1"), ("v", "v0"), ("p", ""), ("v", "v2"), ("p", ""), ("y", "broken version handling")]
 
 
 def _random_package(seed):
     _random = random.Random(seed)
     return sprat.Package(
-        "foo",
         _random.choice(["foo", "FOO", "Foo"]),
         {f"classifier {i}" for i in range(3) if _random.random() > 0.6},
         {f"keyword {i}" for i in range(3) if _random.random() > 0.6},

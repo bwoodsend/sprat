@@ -14,9 +14,15 @@ def sluggify(name):
     return re.sub(r"[-_.]+", "-", name).lower()
 
 
+_sluggify_b_re = re.compile(rb"[-_.]+")
+
+
+def sluggify_b(name):
+    return _sluggify_b_re.sub(b"-", name).lower()
+
+
 @dataclass
 class BasePackage:
-    id: str
     name: str
     classifiers: set
     keywords: set
@@ -26,14 +32,11 @@ class BasePackage:
     versions: dict
 
     @classmethod
-    def _new(cls, id="", name="", classifiers=None, keywords=None, license_expression="", summary="", urls=None, versions=None):
-        return cls(id, name or id, classifiers or set(), keywords or set(), license_expression, summary, urls or {}, versions or {})
+    def _new(cls, name="", classifiers=None, keywords=None, license_expression="", summary="", urls=None, versions=None):
+        return cls(name, classifiers or set(), keywords or set(), license_expression, summary, urls or {}, versions or {})
 
     def delta(self, old):
-        out = [("i", self.id)]
-        if self.name != old.name:
-            if not (old is self.null and self.name == self.id):
-                out.append(("n", self.name))
+        out = [("n", self.name)]
         for classifier in sorted(self.classifiers - old.classifiers):
             out.append(("c", classifier))
         for classifier in sorted(old.classifiers - self.classifiers):
@@ -100,7 +103,7 @@ class BasePackage:
         self.__latest_requires_python = value
 
 
-BasePackage.null = BasePackage("", "", set(), set(), "", "", {}, {})
+BasePackage.null = BasePackage("", set(), set(), "", "", {}, {})
 
 anchors = [
     b'aiohttp-csrf2', b'animalai-train', b'aspose-barcode-for-python-via-java',
@@ -136,8 +139,8 @@ def _read_index(path):
         while True:
             chunks = buffer.split(b"\n\n")
             for chunk in chunks[:-1]:
-                id, payload = chunk.split(b"\n", maxsplit=1)
-                yield (id[2:], payload + b"\n")
+                name, payload = chunk.split(b"\n", maxsplit=1)
+                yield (name[2:], payload + b"\n")
             remainder = chunks[-1]
             buffer = remainder + f.read(500_000)
             if len(buffer) == len(remainder):
@@ -148,8 +151,8 @@ def _read_index(path):
 def disassemble(source, dest_dir):
     try:
         dest_files = [open(dest_dir / f"_{i:02}", "wb") for i in range(len(anchors) + 1)]
-        for (id, chunk) in _read_index(source):
-            dest_files[hash_id(id)].write(b"i:%s\n%s\n" % (id, chunk))
+        for (name, chunk) in _read_index(source):
+            dest_files[hash_id(sluggify_b(name))].write(b"n:%s\n%s\n" % (name, chunk))
     finally:
         [i.close() for i in dest_files]
     [repack_index(dest_dir / f"_{i:02}", dest_dir / f"{i:02}") for i in range(len(anchors) + 1)]
@@ -158,35 +161,34 @@ def disassemble(source, dest_dir):
 
 def repack_index(path, dest):
     package_blocks = {}
-    for (id, source) in _read_index(path):
+    for (name, source) in _read_index(path):
+        id = sluggify_b(name)
         if id in package_blocks:
-            if source == b"I:\n":
+            if source == b"N:\n":
                 del package_blocks[id]
             else:
-                package_blocks[id] += source
+                package_blocks[id] = (name, package_blocks[id][1] + source)
         else:
-            package_blocks[id] = source
+            package_blocks[id] = (name, source)
     with open(dest, "wb") as f:
-        f.writelines(map(b"i:%s\n%s\n".__mod__, sorted(package_blocks.items())))
-
-
+        f.writelines(map(b"n:%s\n%s\n".__mod__, (i[1] for i in sorted(package_blocks.items()))))
 
 
 class Package(BasePackage):
     _last_modified_version = None
 
     @classmethod
-    def _parse(cls, id, source, ignore_versions=False):
-        self = cls._new(id, id)
+    def parse(cls, name, source, ignore_versions=False):
+        self = cls._new(name)
         self._update(source, ignore_versions=ignore_versions)
         return self
 
     def _update(self, source, ignore_versions=False):
-        for line in bytes(source).decode().splitlines():
+        for line in source.decode().splitlines():
             key = line[0]
-            value = line[2:]
             if ignore_versions and key in "vVyYp":
                 continue
+            value = line[2:]
             if key == "v":
                 if value in self.versions:
                     self._last_modified_version = self.versions[value]
@@ -194,8 +196,8 @@ class Package(BasePackage):
                     self._last_modified_version = self.versions[value] = {}
                     if self._latest_requires_python:
                         self._last_modified_version["requires_python"] = self._latest_requires_python
-            elif key == "i":
-                continue
+            elif key == "n":
+                self.name = value
             elif key == "c":
                 self.classifiers.add(value)
             elif key == "u":
@@ -217,8 +219,6 @@ class Package(BasePackage):
                 self.classifiers.remove(value)
             elif key == "U":
                 del self.urls[value]
-            elif key == "n":
-                self.name = value
             elif key == "y":
                 self._last_modified_version["yanked"] = value
             elif key == "K":
@@ -237,77 +237,31 @@ class PackageDeleted(Exception):
     pass
 
 
-def filter_by_name(index, names):
-    ids = {"i:" + sluggify(i) + "\n" for i in names}
-    with gzip.open(index, "rt") as f:
-        grouped = {}
-        id = False
-        for line in f:
-            if line[0] == "i":
-                if line in ids:
-                    id = line[2:-1]
-                    grouped.setdefault(id, [])
-                else:
-                    id = False
-            elif id:
-                grouped[id].append((line[0], line[2:-1]))
-    return grouped
-
-
-def info(name):
-    id = sluggify(name).encode()
-    for (_id, source) in _read_index(Path("disassembled") / f"{hash_id(id):02}"):
-        if _id == id:
-            print(Package._parse(id.decode(), source))
-            break
-
-
 def index_path(index_id):
     return cache_root / "unpacked" / format(index_id, "02")
 
 
 def with_prefix(prefix):
+    if not prefix:
+        return iter()
     prefix = sluggify(prefix).encode()
     start = prefix
     end = prefix[:-1] + bytes([prefix[-1] + 1])
     for index_id in range(hash_id(start), hash_id(end) + 1):
         _iter = _read_index(index_path(index_id))
-        for (id, block) in _iter:
-            if id.startswith(prefix):
-                yield id, block
+        for (name, block) in _iter:
+            if sluggify_b(name).startswith(prefix):
+                yield name, block
                 break
-        for (id, block) in _iter:
-            if not id.startswith(prefix):
+        for (name, block) in _iter:
+            if not sluggify_b(name).startswith(prefix):
                 break
-            yield id, block
+            yield name, block
 
 
 def iter():
     for index_id in range(len(anchors) + 1):
         yield from _read_index(index_path(index_id))
-
-
-def name(id, block):
-    start = block.rfind(b"\nn:")
-    if start == -1:
-        if block[0] == b"n"[0]:
-           return block[:block.find(b"\n")]
-        else:
-            return id
-    else:
-        return block[start + 3 :block.find(b"\n", start + 3)]
-
-
-def iter_names():
-    for (id, block) in iter():
-        start = block.rfind(b"\nn:")
-        if start == -1:
-            if block[0] == b"n"[0]:
-                yield block[:block.find(b"\n")], block
-            else:
-                yield id, block
-        else:
-            yield block[start + 3 :block.find(b"\n", start + 3)], block
 
 
 def crude_search(pattern, case_sensitive=True):
@@ -324,8 +278,8 @@ def crude_search(pattern, case_sensitive=True):
             start = 0 if start == -1 else start + 2
             end = source.find(b"\n\n", match.end())
             _source = source[start:end]
-            id, block = _source.split(b"\n", maxsplit=1)
-            yield id[2:], block
+            name, block = _source.split(b"\n", maxsplit=1)
+            yield name[2:], block
 
 
 def bulk_lookup(names):
@@ -337,9 +291,10 @@ def bulk_lookup(names):
     for (index_id, targets) in grouped.items():
         index_iter = _read_index(index_path(index_id))
         for (target_id, target_name) in targets:
-            for (id, block) in index_iter:
+            for (name, block) in index_iter:
+                id = sluggify_b(name)
                 if id == target_id:
-                    packages[id] = Package._parse(id.decode(), block)
+                    packages[id] = Package.parse(name.decode(), block)
                     break
             else:
                 raise NoSuchPackageError(target_name)
