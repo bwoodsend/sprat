@@ -2,13 +2,11 @@ import re
 import sys
 import textwrap
 
-import termcolor
-
 import sprat
 
 
 def red(string):
-    return termcolor.colored(string, "red")
+    return RED + string + RESET
 
 
 def info(options):
