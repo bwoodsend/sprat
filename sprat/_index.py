@@ -288,6 +288,7 @@ def bulk_lookup(names):
     [grouped[hash_id(i[0])].append(i) for i in ids]
     [i.sort() for i in grouped.values()]
     packages = {}
+    _id_i = 0
     for (index_id, targets) in grouped.items():
         index_iter = _read_index(index_path(index_id))
         for (target_id, target_name) in targets:
@@ -298,7 +299,13 @@ def bulk_lookup(names):
                     break
             else:
                 raise NoSuchPackageError(target_name)
-    return [packages[id] for (id, _) in ids]
+        while _id_i < len(ids):
+            id = ids[_id_i][0]
+            if id in packages:
+                yield packages[id]
+                _id_i += 1
+            else:
+                break
 
 
 class NoSuchPackageError(Exception):
