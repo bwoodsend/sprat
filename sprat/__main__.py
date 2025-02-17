@@ -221,14 +221,19 @@ class Filter:
 
 
 def cli(args=None):
-    options = _parse_args(args)
-    if options.command == "update":
-        sprat.update(options.index_file)
-    if options.command == "info":
-        info(options)
-    if options.command == "search":
-        if not search(options):
-            sys.exit(2)
+    try:
+        options = _parse_args(args)
+        if options.command == "update":
+            sprat.update(options.index_file)
+        if options.command == "info":
+            info(options)
+        if options.command == "search":
+            if not search(options):
+                sys.exit(2)
+    except KeyboardInterrupt:
+        sys.exit(130)
+    except BrokenPipeError:
+        pass
 
 
 def _parse_args(args=None):
