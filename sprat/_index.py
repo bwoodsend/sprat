@@ -243,7 +243,8 @@ def index_path(index_id):
 
 def with_prefix(prefix):
     if not prefix:
-        return iter()
+        yield from iter()
+        return
     prefix = sluggify(prefix).encode()
     start = prefix
     end = prefix[:-1] + bytes([prefix[-1] + 1])

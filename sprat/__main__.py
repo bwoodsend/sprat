@@ -11,7 +11,13 @@ def red(string):
 
 def info(options):
     try:
-        packages = sprat.bulk_lookup(options.packages)
+        if any("*" in i for i in options.packages):
+            packages = []
+            for glob in options.packages:
+                regex = re.compile(glob.encode().replace(b"*", b".*"))
+                packages += (sprat.Package.parse(i[0].decode(), i[1]) for i in sprat.with_prefix(glob.split("*")[0]) if regex.fullmatch(i[0]))
+        else:
+            packages = sprat.bulk_lookup(options.packages)
     except sprat.NoSuchPackageError as ex:
         raise SystemExit(f"No such package '{ex.args[0]}'")
     lines = []
