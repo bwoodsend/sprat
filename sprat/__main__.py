@@ -16,17 +16,8 @@ def info(options):
         raise SystemExit(f"No such package '{ex.args[0]}'")
     lines = []
     if options.json:
-        import json
         for package in packages:
-            print(json.dumps({
-                "name": package.name,
-                "summary": package.summary,
-                "keywords": sorted(package.keywords),
-                "urls": package.urls,
-                "classifiers": sorted(package.classifiers, key=sprat.classifier_sort_key),
-                "license": package.license_expression,
-                "versions": package.versions,
-            }, separators=(",", ":")))
+            print(jsonify(package))
         return
 
     for package in packages:
@@ -83,6 +74,19 @@ def info(options):
     print_table(lines)
 
 
+def jsonify(package):
+    import json
+    return json.dumps({
+        "name": package.name,
+        "summary": package.summary,
+        "keywords": sorted(package.keywords),
+        "urls": package.urls,
+        "classifiers": sorted(package.classifiers, key=sprat.classifier_sort_key),
+        "license": package.license_expression,
+        "versions": package.versions,
+    }, separators=(",", ":"))
+
+
 def print_table(lines):
     width = max(len(i[0]) for i in lines) + 2
     [print(i.ljust(width), ": ", j, sep="") if i or j else print() for (i, j) in lines[:-1]]
@@ -136,9 +140,16 @@ def search(options):
             if options.quiet:
                 print(name.decode())
                 continue
-            print(_highlight(package.name, *filter.name, *filter.any))
-            [print("   ", i) for i in textwrap.wrap(_highlight_grey(package.summary, *filter.summary, *filter.any), 120)]
-            continue
+            if options.json:
+                print(jsonify(package))
+                continue
+            if not options.long:
+                print(_highlight(package.name, *filter.name, *filter.any))
+                _summary = _highlight_grey(package.summary, *filter.summary, *filter.any)
+                for line in textwrap.wrap(_summary, 120):
+                    print("   ", line)
+                continue
+
             if found > 1:
                 print()
             lines = [
@@ -157,6 +168,7 @@ def search(options):
             if classifier_match:
                 lines += classifier_lines
             [print(i.ljust(13), ": ", j, sep="") for (i, j) in lines]
+
     return found > 0
 
 
@@ -250,7 +262,9 @@ def _parse_args(args=None):
     search.add_argument("--summary", nargs="+", dest="summary")
     search.add_argument("--keywords", nargs="+", dest="keyword")
     search.add_argument("--classifiers", nargs="+", dest="classifier")
+    search.add_argument("--long", "-l", action="store_true")
     search.add_argument("--quiet", "-q", action="store_true")
+    search.add_argument("--json",  "-j", action="store_true", help="Export to JSON")
 
     info = subparsers.add_parser("info", help="Show details of a given package")
     info.add_argument("packages", nargs="+")
