@@ -275,6 +275,8 @@ def crude_search(pattern, case_sensitive=True):
         for match in pattern.finditer(source if case_sensitive else source.lower()):
             if match.start() < end:
                 continue
+            if not match[0]:
+                continue
             start = source.rfind(b"\n\n", 0, match.start())
             start = 0 if start == -1 else start + 2
             end = source.find(b"\n\n", match.end())
