@@ -238,7 +238,10 @@ class PackageDeleted(Exception):
 
 
 def index_path(index_id):
-    return cache_root / "unpacked" / format(index_id, "02")
+    unpacked = cache_root / "unpacked"
+    if not unpacked.is_dir():
+        raise DatabaseUninitializedError
+    return unpacked / format(index_id, "02")
 
 
 def with_prefix(prefix):
@@ -313,6 +316,11 @@ def bulk_lookup(names):
 
 class NoSuchPackageError(Exception):
     pass
+
+
+class DatabaseUninitializedError(Exception):
+    def __str__(self):
+        return "Repository database has not been downloaded. Please run: sprat.update()"
 
 
 def classifier_sort_key(classifier):

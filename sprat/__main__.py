@@ -15,69 +15,72 @@ def info(options):
             packages = []
             for glob in options.packages:
                 regex = re.compile(glob.encode().replace(b"*", b".*"))
-                packages += (sprat.Package.parse(i[0].decode(), i[1]) for i in sprat.with_prefix(glob.split("*")[0]) if regex.fullmatch(i[0]))
+                new = [sprat.Package.parse(i[0].decode(), i[1]) for i in sprat.with_prefix(glob.split("*")[0]) if regex.fullmatch(i[0])]
+                if not new:
+                    die(1, f"No package matching pattern '{glob}'")
+                packages += new
         else:
             packages = sprat.bulk_lookup(options.packages)
-    except sprat.NoSuchPackageError as ex:
-        raise SystemExit(f"No such package '{ex.args[0]}'")
-    lines = []
-    if options.json:
-        for package in packages:
-            print(jsonify(package))
-        return
+        lines = []
+        if options.json:
+            for package in packages:
+                print(jsonify(package))
+            return
 
-    for package in packages:
-        try:
-            latest = [i for i in package.versions if "yanked" not in package.versions[i]][-1]
-        except IndexError:
-            latest = ""
-        if options.urls or options.all:
-            urls = sorted(package.urls.items())
-        else:
-            urls = [(i, j) for (i, j) in package.urls.items() if i == "Homepage"]
-        if options.classifiers or options.all:
-            _classifiers = sorted(package.classifiers, key=sprat.classifier_sort_key)
-            classifiers = [("Classifiers", i) for i in _classifiers[:1]]
-            classifiers += [("", i) for i in _classifiers[1:]]
-        else:
-            classifiers = []
-        if (options.versions or options.all) and package.versions:
-            version_width = 0
-            for (version, info) in package.versions.items():
-                version_width = max(version_width, len(version) + 8 * ("yanked" in info))
-            versions = []
-            last_requires_python = ""
-            for (version, info) in package.versions.items():
-                entry = version
-                if "yanked" in info:
-                    entry += " (yanked)"
-                entry = entry.ljust(version_width + 2) + ":"
-                if info.get("requires_python", "") != last_requires_python:
-                    last_requires_python = info.get("requires_python", "")
-                    entry += " Python" + info.get("requires_python", "=any")
-                if "yanked" in info:
-                    entry = red(entry)
-                versions.append(("", entry))
-                if "yanked" in info:
-                    if info["yanked"]:
-                        reason = textwrap.wrap(info["yanked"])
-                        versions.append(("", red(reason[0])))
-                        versions += (("", red(i)) for i in reason[1:])
-            versions[0] = ("Versions", versions[0][1])
-        else:
-            versions = []
-        lines += [
-            ("Name", package.name),
-            ("Version", latest),
-            ("Summary", package.summary),
-            ("Keywords", ", ".join(sorted(package.keywords))),
-            *urls,
-            *classifiers,
-            ("License", package.license_expression),
-            *versions,
-            ("", ""),
-        ]
-    print_table(lines)
+        for package in packages:
+            try:
+                latest = [i for i in package.versions if "yanked" not in package.versions[i]][-1]
+            except IndexError:
+                latest = ""
+            if options.urls or options.all:
+                urls = sorted(package.urls.items())
+            else:
+                urls = [(i, j) for (i, j) in package.urls.items() if i == "Homepage"]
+            if options.classifiers or options.all:
+                _classifiers = sorted(package.classifiers, key=sprat.classifier_sort_key)
+                classifiers = [("Classifiers", i) for i in _classifiers[:1]]
+                classifiers += [("", i) for i in _classifiers[1:]]
+            else:
+                classifiers = []
+            if (options.versions or options.all) and package.versions:
+                version_width = 0
+                for (version, info) in package.versions.items():
+                    version_width = max(version_width, len(version) + 8 * ("yanked" in info))
+                versions = []
+                last_requires_python = ""
+                for (version, info) in package.versions.items():
+                    entry = version
+                    if "yanked" in info:
+                        entry += " (yanked)"
+                    entry = entry.ljust(version_width + 2) + ":"
+                    if info.get("requires_python", "") != last_requires_python:
+                        last_requires_python = info.get("requires_python", "")
+                        entry += " Python" + info.get("requires_python", "=any")
+                    if "yanked" in info:
+                        entry = RED + entry + GREY
+                    versions.append(("", entry))
+                    if "yanked" in info:
+                        if info["yanked"]:
+                            reason = textwrap.wrap(info["yanked"])
+                            versions.append(("", RED + reason[0] + GREY))
+                            versions += (("", RED + i + GREY) for i in reason[1:])
+                versions[0] = ("Versions", versions[0][1])
+            else:
+                versions = []
+            lines += [
+                ("Name", package.name),
+                ("Version", latest),
+                ("Summary", package.summary),
+                ("Keywords", ", ".join(sorted(package.keywords))),
+                *urls,
+                ("License", package.license_expression),
+                *classifiers,
+                *versions,
+                ("", ""),
+            ]
+        print_table(lines)
+    except sprat.NoSuchPackageError as ex:
+        die(1, f"No such package '{ex.args[0]}'")
 
 
 def jsonify(package):
@@ -110,6 +113,9 @@ def search(options):
     for _terms in (options.terms, options.name, options.summary, options.keyword, options.classifier):
         if _terms:
             all_terms += _terms
+    for term in all_terms:
+        if not term:
+            die(2, "Empty search terms are not allowed")
     if len(all_terms) == 0:
         if options.quiet:
             for (id, block) in sprat.iter():
@@ -247,11 +253,18 @@ def cli(args=None):
             info(options)
         if options.command == "search":
             if not search(options):
-                sys.exit(2)
+                sys.exit(1)
     except KeyboardInterrupt:
         sys.exit(130)
     except BrokenPipeError:
         pass
+    except sprat.DatabaseUninitializedError:
+        die(3, "Repository database has not been downloaded. Please run: sprat update")
+
+
+def die(code, message):
+    print("sprat error: " + message, file=sys.stderr)
+    sys.exit(code)
 
 
 def _parse_args(args=None):
