@@ -4,10 +4,12 @@ from pathlib import Path
 from dataclasses import dataclass
 import bisect
 import collections
+import os
 
 import appdirs
 
-cache_root = Path(appdirs.user_cache_dir("sprat"), "v1")
+cache_root = Path(os.environ.get("SPRAT_CACHE_ROOT") or
+                  appdirs.user_cache_dir("sprat", False, "v1", False))
 
 
 def sluggify(name):
