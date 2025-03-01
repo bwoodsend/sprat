@@ -1,3 +1,5 @@
+import io
+import os
 import re
 import sys
 import textwrap
@@ -184,9 +186,24 @@ def search(options):
     return found > 0
 
 
-RESET = "\x1b[0m"
-GREY = "\x1b[30m"
-RED = "\x1b[31m"
+if "FORCE_COLOR" in os.environ:
+    color_output = True
+elif "ANSI_COLORS_DISABLED" in os.environ or "NO_COLOR" in os.environ:
+    color_output = False
+elif os.environ.get("TERM") == "dumb":
+    color_output = False
+else:
+    try:
+        color_output = os.isatty(sys.stdout.fileno())
+    except (io.UnsupportedOperation, AttributeError):
+        color_output = False
+
+if color_output:
+    RESET = "\x1b[0m"
+    GREY = "\x1b[37m"
+    RED = "\x1b[31m"
+else:
+    RESET = GREY = RED = ""
 
 
 def _highlight_n(word, *patterns):
