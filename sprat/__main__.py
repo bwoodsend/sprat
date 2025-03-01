@@ -7,10 +7,6 @@ import textwrap
 import sprat
 
 
-def red(string):
-    return RED + string + RESET
-
-
 def info(options):
     try:
         if any("*" in i for i in options.packages):
@@ -80,7 +76,7 @@ def info(options):
                 *versions,
                 ("", ""),
             ]
-        print_table(lines)
+        print_info_table(lines)
     except sprat.NoSuchPackageError as ex:
         die(1, f"No such package '{ex.args[0]}'")
 
@@ -98,9 +94,13 @@ def jsonify(package):
     }, separators=(",", ":"))
 
 
-def print_table(lines):
+def print_info_table(lines):
     width = max(len(i[0]) for i in lines) + 2
-    [print(i.ljust(width), ": ", j, sep="") if i or j else print() for (i, j) in lines[:-1]]
+    for (caption, content) in lines[:-1]:
+        if caption == "Name":
+            print(RESET, caption.ljust(width), ": ", content, sep="")
+        else:
+            print(caption.ljust(width), ": ", GREY, content, RESET, sep="")
 
 
 def _literal_length(regex):
@@ -124,7 +124,8 @@ def search(options):
                 print(id.decode())
             return True
     try:
-        prefix = max((pattern[1:] for pattern in options.name or () if pattern.startswith("^")), key=_literal_length)
+        prefixes = (pattern[1:] for pattern in options.name or () if pattern.startswith("^"))
+        prefix = max(prefixes, key=_literal_length)
     except ValueError:
         prefix = ""
     if prefix:
@@ -168,15 +169,17 @@ def search(options):
                 print()
             lines = [
                 ("Name", _highlight(package.name, *filter.name, *filter.any)),
-                ("Summary", _highlight(package.summary, *filter.summary, *filter.any)),
+                ("Summary", _highlight_grey(package.summary, *filter.summary, *filter.any)),
             ]
             if package.keywords:
-                lines.append(("Keywords", ", ".join(_highlight(word, *filter.keyword, *filter.any) for word in package.keywords)))
+                lines.append(("Keywords", _highlight_keywords(package.keywords, *filter.keyword, *filter.any)))
+            homepage = package.urls.get("Homepage", f"https://pypi.org/p/{package.name}")
+            lines.append(("Homepage", GREY + homepage + RESET))
 
             classifier_match = False
             classifier_lines = []
             for classifier in sorted(package.classifiers, key=sprat.classifier_sort_key):
-                highlighted, n = _highlight_n(classifier, *filter.classifier, *filter.any)
+                highlighted, n = _highlight_n_grey(classifier, *filter.classifier, *filter.any)
                 classifier_match |= bool(n)
                 classifier_lines.append(("Classifiers" if not classifier_lines else "", highlighted))
             if classifier_match:
@@ -206,22 +209,31 @@ else:
     RESET = GREY = RED = ""
 
 
-def _highlight_n(word, *patterns):
+def _highlight_n_grey(word, *patterns):
     n = 0
     for pattern in patterns:
-        word, _n = pattern.subn(lambda m: red(m[0]), word)
+        word, _n = pattern.subn(lambda m: RED + m[0] + GREY, word)
         n += _n
-    return word, n
-
-
-def _highlight(word, *patterns):
-    return _highlight_n(word, *patterns)[0]
+    return GREY + word + RESET, n
 
 
 def _highlight_grey(word, *patterns):
+    return _highlight_n_grey(word, *patterns)[0]
+
+
+def _highlight_keywords(words, *patterns):
+    _words = []
+    for word in words:
+        for pattern in patterns:
+            word = pattern.sub(lambda m: RED + m[0] + GREY, word)
+        _words.append(word)
+    return GREY + ", ".join(_words) + RESET
+
+
+def _highlight(word, *patterns):
     for pattern in patterns:
-        word = pattern.sub(lambda m: RED + m[0] + GREY, word)
-    return GREY + word + RESET
+        word = pattern.sub(lambda m: RED + m[0] + RESET, word)
+    return RESET + word + RESET
 
 
 class Filter:
