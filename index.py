@@ -181,7 +181,7 @@ def update(old_index, new_index, files):
             new_data = json.loads(gzip.decompress(file.read_bytes()))
             if new_data.get("empty"):
                 if old is not UpstreamPackage.null:
-                    delta = [("i", id), ("I", "")]
+                    delta = [("n", id), ("N", "")]
                 else:
                     delta = []
             else:

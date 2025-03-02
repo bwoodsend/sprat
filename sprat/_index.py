@@ -229,7 +229,7 @@ class Package(BasePackage):
                 self.license_expression = value
             elif key == "Y":
                 del self._last_modified_version["yanked"]
-            elif key == "I":
+            elif key == "N":
                 raise PackageDeleted
             else:
                 assert 0, (key, value)
