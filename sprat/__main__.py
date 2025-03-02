@@ -148,6 +148,7 @@ def search(options):
             found += 1
         return found
 
+    highlighter = Highlighter(options.terms, options.name, options.summary, options.keyword, options.classifier)
     for (name, block) in filtered:
         package = sprat.Package.parse(name.decode(), block, ignore_versions=True)
         if filter.filter(package):
@@ -159,8 +160,8 @@ def search(options):
                 print(jsonify(package))
                 continue
             if not options.long:
-                print(_highlight(package.name, *filter.name, *filter.any))
-                _summary = _highlight_grey(package.summary, *filter.summary, *filter.any)
+                print(highlighter.name.on_default(package.name))
+                _summary = highlighter.summary.on_grey(package.summary)
                 for line in textwrap.wrap(_summary, 120):
                     print("   ", line)
                 continue
@@ -168,18 +169,20 @@ def search(options):
             if found > 1:
                 print()
             lines = [
-                ("Name", _highlight(package.name, *filter.name, *filter.any)),
-                ("Summary", _highlight_grey(package.summary, *filter.summary, *filter.any)),
+                ("Name", highlighter.name.on_default(package.name)),
+                ("Summary", highlighter.summary.on_grey(package.summary)),
             ]
             if package.keywords:
-                lines.append(("Keywords", _highlight_keywords(package.keywords, *filter.keyword, *filter.any)))
+                _joined = ", ".join(highlighter.keyword.raw(GREY, w)[0] for w in package.keywords)
+                lines.append(("Keywords", GREY + _joined + RESET))
             homepage = package.urls.get("Homepage", f"https://pypi.org/p/{package.name}")
             lines.append(("Homepage", GREY + homepage + RESET))
 
             classifier_match = False
             classifier_lines = []
             for classifier in sorted(package.classifiers, key=sprat.classifier_sort_key):
-                highlighted, n = _highlight_n_grey(classifier, *filter.classifier, *filter.any)
+                highlighted, n = highlighter.classifier.raw(GREY, classifier)
+                highlighted = GREY + highlighted + RESET
                 classifier_match |= bool(n)
                 classifier_lines.append(("Classifiers" if not classifier_lines else "", highlighted))
             if classifier_match:
@@ -207,33 +210,6 @@ if color_output:
     RED = "\x1b[31m"
 else:
     RESET = GREY = RED = ""
-
-
-def _highlight_n_grey(word, *patterns):
-    n = 0
-    for pattern in patterns:
-        word, _n = pattern.subn(lambda m: RED + m[0] + GREY, word)
-        n += _n
-    return GREY + word + RESET, n
-
-
-def _highlight_grey(word, *patterns):
-    return _highlight_n_grey(word, *patterns)[0]
-
-
-def _highlight_keywords(words, *patterns):
-    _words = []
-    for word in words:
-        for pattern in patterns:
-            word = pattern.sub(lambda m: RED + m[0] + GREY, word)
-        _words.append(word)
-    return GREY + ", ".join(_words) + RESET
-
-
-def _highlight(word, *patterns):
-    for pattern in patterns:
-        word = pattern.sub(lambda m: RED + m[0] + RESET, word)
-    return RESET + word + RESET
 
 
 class Filter:
@@ -271,6 +247,29 @@ class Filter:
             if not any(map(pattern.search, package.classifiers)):
                 return False
         return True
+
+
+class Highlighter:
+    def __init__(self, any, name, summary, keyword, classifier):
+        self.any = self.Group(any, name, summary, keyword, classifier)
+        self.name = self.Group(name, any)
+        self.summary = self.Group(summary, any)
+        self.keyword = self.Group(keyword, any)
+        self.classifier = self.Group(classifier, any)
+
+    class Group:
+        def __init__(self, *terms):
+            pattern = "|".join("(?:" + i + ")" for j in terms for i in j or ())
+            self.pattern = re.compile(pattern or "$^", flags=re.I)
+
+        def raw(self, background, word):
+            return self.pattern.subn(lambda m: RED + m[0] + background, word)
+
+        def on_grey(self, word):
+            return GREY + self.raw(GREY, word)[0] + RESET
+
+        def on_default(self, word):
+            return self.raw(RESET, word)[0]
 
 
 def cli(args=None):
