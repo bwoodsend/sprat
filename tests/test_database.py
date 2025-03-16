@@ -22,14 +22,14 @@ def test_requires_python():
         v:0.19.1
         p:
     """))
-    self = sprat.Package._new("foo", versions={
+    self = sprat.Package("foo", versions={
         "0.19.0": {"requires_python": ">=3.8"},
         "0.19.1": {},
         "0.19.2": {},
     })
     assert self.delta(old) == [("n", "foo"), ("v", "0.19.2")]
 
-    self = sprat.Package._new("foo", versions={
+    self = sprat.Package("foo", versions={
         "0.19.0": {"requires_python": ">=3.9"},
         "0.19.1": {},
     })
@@ -38,11 +38,11 @@ def test_requires_python():
     old._update(_join(self.delta(old)))
     assert self == old
 
-    old = sprat.Package._new("foo", versions={
+    old = sprat.Package("foo", versions={
         'v1': {'requires_python': '>=3.8', 'yanked': 'broken version handling'},
         'v2': {'requires_python': '>=3.8', 'yanked': 'crashes on windows'},
     })
-    new = sprat.Package._new("foo", versions={
+    new = sprat.Package("foo", versions={
         'v0': {},
         'v2': {'yanked': 'broken version handling'},
     })

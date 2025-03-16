@@ -33,9 +33,15 @@ class BasePackage:
     urls: dict
     versions: dict
 
-    @classmethod
-    def _new(cls, name="", classifiers=None, keywords=None, license_expression="", summary="", urls=None, versions=None):
-        return cls(name, classifiers or set(), keywords or set(), license_expression, summary, urls or {}, versions or {})
+    def __init__(self, name="", classifiers=None, keywords=None, license_expression="", summary="", urls=None, versions=None):
+        self.name = name
+        self.classifiers = classifiers or set()
+        self.keywords = keywords or set()
+        self.license_expression = license_expression
+        self.summary = summary
+        self.urls = urls or {}
+        self.versions = versions or {}
+
 
     def delta(self, old):
         out = [("n", self.name)]
@@ -181,7 +187,7 @@ class Package(BasePackage):
 
     @classmethod
     def parse(cls, name, source, ignore_versions=False):
-        self = cls._new(name)
+        self = cls(name)
         self._update(source, ignore_versions=ignore_versions)
         return self
 
