@@ -162,8 +162,7 @@ def search(options):
             if not options.long:
                 print(highlighter.name.on_default(package.name))
                 _summary = highlighter.summary.on_grey(package.summary)
-                for line in textwrap.wrap(_summary, 120):
-                    print("   ", line)
+                print(color_textwrap(_summary, "    ", 80), end="")
                 continue
 
             if found > 1:
@@ -210,6 +209,46 @@ if color_output:
     RED = "\x1b[31m"
 else:
     RESET = GREY = RED = ""
+
+
+def color_textwrap(text, indentation, width):
+    """textwrap.wrap() replacement that knows to ignore ANSI color sequences"""
+    width -= len(indentation)
+    line_length = 0
+    word_length = 0
+    last_space = None
+    breaking_space = []
+    for match in re.finditer("\x1b\\[(?:37|0|31)m|(\\s+)|([^\\s\x1b]+)", text):
+        #print(word_length, line_length, last_space, match)
+        if match[1]:  # whitespace
+            last_space = match
+            line_length += word_length
+            word_length = 0
+            if len(match[0]) + line_length > width:
+                breaking_space.append(match)
+                last_space = None
+                line_length = 0
+            else:
+                line_length += len(match[0])
+        elif match[2]:  # significant (not space or ANSI) text
+            word_length += len(match[2])
+            if last_space and line_length + word_length > width:
+                breaking_space.append(last_space)
+                line_length = 0
+                last_space = None
+    start = 0
+    chunks = []
+    for match in breaking_space:
+        if match is None:  # word too long to wrap
+            continue
+        chunks.append(indentation)
+        chunks.append(text[start:match.start()])
+        chunks.append("\n")
+        start = match.end()
+    chunks.append(indentation)
+    chunks.append(text[start:])
+    chunks.append("\n")
+    return "".join(chunks)
 
 
 class Filter:
@@ -260,7 +299,10 @@ class Highlighter:
     class Group:
         def __init__(self, *terms):
             pattern = "|".join("(?:" + i + ")" for j in terms for i in j or ())
-            self.pattern = re.compile(pattern or "$^", flags=re.I)
+            if pattern:
+                self.pattern = re.compile("(?:" + pattern + ")+", flags=re.I)
+            else:
+                self.pattern = self._no_op_pattern
 
         def raw(self, background, word):
             return self.pattern.subn(lambda m: RED + m[0] + background, word)
@@ -270,6 +312,10 @@ class Highlighter:
 
         def on_default(self, word):
             return self.raw(RESET, word)[0]
+
+        class _no_op_pattern:
+            def subn(x, y):
+                return y, 0
 
 
 def cli(args=None):
