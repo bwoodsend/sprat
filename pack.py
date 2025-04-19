@@ -13,7 +13,7 @@ from packaging.version import Version, InvalidVersion
 from packaging.specifiers import SpecifierSet, InvalidSpecifier
 
 import sprat
-from sprat._index import _read_index
+from sprat._database import _read_database
 
 Version = lru_cache()(Version)
 SpecifierSet = lru_cache()(SpecifierSet)
@@ -149,19 +149,21 @@ def main(output, files):
     return int(file.stem.rsplit("-", maxsplit=1)[1])
 
 
-def update(old_index, new_index, files):
-    with open(str(old_index) + ".lastserial") as f:
+def update(old_database, new_database, files):
+    with open(str(old_database) + ".lastserial") as f:
         last_serial = int(f.read().strip())
-    if new_index and new_index != old_index:
-        shutil.copy(old_index, new_index)
-        shutil.copy(str(old_index) + ".lastserial", str(new_index) + ".lastserial")
+    if new_database and new_database != old_database:
+        shutil.copy(old_database, new_database)
+        shutil.copy(str(old_database) + ".lastserial", str(new_database) + ".lastserial")
 
     files = [i for i in files if split_path(i)[1] > last_serial]
     ids = {sprat.sluggify(split_path(i)[0]).encode() for i in files}
     packages = {}
-    for (id, block) in _read_index(old_index):
-        if id in ids:
-            id = id.decode()
+    for (name, block) in _read_database(old_database):
+        if name not in ids:
+            name = sprat.sluggify_b(name)
+        if name in ids:
+            id = name.decode()
             try:
                 if id in packages:
                     packages[id]._update(block)
@@ -170,8 +172,8 @@ def update(old_index, new_index, files):
             except sprat.PackageDeleted:
                 packages.pop(id, None)
     try:
-        if new_index:
-            f = io.TextIOWrapper(gzip.GzipFile(new_index, "a"))
+        if new_database:
+            f = io.TextIOWrapper(gzip.GzipFile(new_database, "a"))
         else:
             f = sys.stdout
         for file in files:
@@ -191,10 +193,10 @@ def update(old_index, new_index, files):
                 f.writelines(map("%s:%s\n".__mod__, delta))
                 f.write("\n")
     finally:
-        if new_index:
+        if new_database:
             f.close()
-    if new_index:
-        with open(new_index + ".lastserial", "w") as f:
+    if new_database:
+        with open(new_database + ".lastserial", "w") as f:
             f.write(str(last_serial))
 
 

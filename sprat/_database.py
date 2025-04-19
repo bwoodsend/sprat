@@ -140,7 +140,7 @@ def hash_id(id):
     return bisect.bisect(anchors, id)
 
 
-def _read_index(path):
+def _read_database(path):
     path = Path(path)
     with (gzip.open if path.suffix == ".gz" else open)(path, "rb") as f:
         buffer = f.read(500_000)
@@ -159,17 +159,17 @@ def _read_index(path):
 def disassemble(source, dest_dir):
     try:
         dest_files = [open(dest_dir / f"_{i:02}", "wb") for i in range(len(anchors) + 1)]
-        for (name, chunk) in _read_index(source):
+        for (name, chunk) in _read_database(source):
             dest_files[hash_id(sluggify_b(name))].write(b"n:%s\n%s\n" % (name, chunk))
     finally:
         [i.close() for i in dest_files]
-    [repack_index(dest_dir / f"_{i:02}", dest_dir / f"{i:02}") for i in range(len(anchors) + 1)]
+    [repack_database(dest_dir / f"_{i:02}", dest_dir / f"{i:02}") for i in range(len(anchors) + 1)]
     [(dest_dir / f"_{i:02}").unlink() for i in range(len(anchors) + 1)]
 
 
-def repack_index(path, dest):
+def repack_database(path, dest):
     package_blocks = {}
-    for (name, source) in _read_index(path):
+    for (name, source) in _read_database(path):
         id = sluggify_b(name)
         if id in package_blocks:
             if source == b"N:\n":
@@ -245,11 +245,11 @@ class PackageDeleted(Exception):
     pass
 
 
-def index_path(index_id):
+def database_path(database_id):
     unpacked = cache_root / "unpacked"
     if not unpacked.is_dir():
         raise DatabaseUninitializedError
-    return unpacked / format(index_id, "02")
+    return unpacked / format(database_id, "02")
 
 
 def with_prefix(prefix):
@@ -259,8 +259,8 @@ def with_prefix(prefix):
     prefix = sluggify(prefix).encode()
     start = prefix
     end = prefix[:-1] + bytes([prefix[-1] + 1])
-    for index_id in range(hash_id(start), hash_id(end) + 1):
-        _iter = _read_index(index_path(index_id))
+    for database_id in range(hash_id(start), hash_id(end) + 1):
+        _iter = _read_database(database_path(database_id))
         for (name, block) in _iter:
             if sluggify_b(name).startswith(prefix):
                 yield name, block
@@ -272,16 +272,16 @@ def with_prefix(prefix):
 
 
 def iter():
-    for index_id in range(len(anchors) + 1):
-        yield from _read_index(index_path(index_id))
+    for database_id in range(len(anchors) + 1):
+        yield from _read_database(database_path(database_id))
 
 
 def crude_search(pattern, case_sensitive=True):
     if not case_sensitive:
         pattern = re.sub(r"(\\\\)|(\\.)|(.)", lambda m: m[1] or m[2] or m[3].lower(), pattern)
     pattern = re.compile(pattern.encode().lstrip(b"^").rstrip(b"$"))
-    for index_id in range(len(anchors) + 1):
-        source = index_path(index_id).read_bytes()
+    for database_id in range(len(anchors) + 1):
+        source = database_path(database_id).read_bytes()
         end = -1
         for match in pattern.finditer(source if case_sensitive else source.lower()):
             if match.start() < end:
@@ -303,10 +303,14 @@ def bulk_lookup(names):
     [i.sort() for i in grouped.values()]
     packages = {}
     _id_i = 0
-    for (index_id, targets) in grouped.items():
-        index_iter = _read_index(index_path(index_id))
+    last_id = None
+    for (database_id, targets) in grouped.items():
+        database_iter = _read_database(database_path(database_id))
         for (target_id, target_name) in targets:
-            for (name, block) in index_iter:
+            if target_id == last_id:
+                continue
+            last_id = target_id
+            for (name, block) in database_iter:
                 id = sluggify_b(name)
                 if id == target_id:
                     packages[id] = Package.parse(name.decode(), block)
