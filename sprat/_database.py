@@ -24,7 +24,7 @@ def sluggify_b(name):
 
 
 @dataclass
-class BasePackage:
+class Package:
     name: str
     classifiers: set
     keywords: set
@@ -41,7 +41,6 @@ class BasePackage:
         self.summary = summary
         self.urls = urls or {}
         self.versions = versions or {}
-
 
     def delta(self, old):
         out = [("n", self.name)]
@@ -110,8 +109,65 @@ class BasePackage:
     def _latest_requires_python(self, value):
         self.__latest_requires_python = value
 
+    _last_modified_version = None
 
-BasePackage.null = BasePackage("", set(), set(), "", "", {}, {})
+    @classmethod
+    def parse(cls, name, source, ignore_versions=False):
+        self = cls(name)
+        self._update(source, ignore_versions=ignore_versions)
+        return self
+
+    def _update(self, source, ignore_versions=False):
+        for line in source.decode().splitlines():
+            key = line[0]
+            if ignore_versions and key in "vVyYp":
+                continue
+            value = line[2:]
+            if key == "v":
+                if value in self.versions:
+                    self._last_modified_version = self.versions[value]
+                else:
+                    self._last_modified_version = self.versions[value] = {}
+                    if self._latest_requires_python:
+                        self._last_modified_version["requires_python"] = self._latest_requires_python
+            elif key == "n":
+                self.name = value
+            elif key == "c":
+                self.classifiers.add(value)
+            elif key == "u":
+                _key, _value = value.split("=", maxsplit=1)
+                self.urls[_key] = _value
+            elif key == "p":
+                if value:
+                    self._last_modified_version["requires_python"] = value
+                else:
+                    del self._last_modified_version["requires_python"]
+                self._latest_requires_python = value
+            elif key == "k":
+                self.keywords.add(value)
+            elif key == "s":
+                self.summary = value
+            elif key == "V":
+                del self.versions[value]
+            elif key == "C":
+                self.classifiers.remove(value)
+            elif key == "U":
+                del self.urls[value]
+            elif key == "y":
+                self._last_modified_version["yanked"] = value
+            elif key == "K":
+                self.keywords.remove(value)
+            elif key == "l":
+                self.license_expression = value
+            elif key == "Y":
+                del self._last_modified_version["yanked"]
+            elif key == "N":
+                raise PackageDeleted
+            else:
+                assert 0, (key, value)
+
+
+Package.null = Package("", set(), set(), "", "", {}, {})
 
 anchors = [
     b'aiohttp-csrf2', b'animalai-train', b'aspose-barcode-for-python-via-java',
@@ -180,65 +236,6 @@ def repack_database(path, dest):
             package_blocks[id] = (name, source)
     with open(dest, "wb") as f:
         f.writelines(map(b"n:%s\n%s\n".__mod__, (i[1] for i in sorted(package_blocks.items()))))
-
-
-class Package(BasePackage):
-    _last_modified_version = None
-
-    @classmethod
-    def parse(cls, name, source, ignore_versions=False):
-        self = cls(name)
-        self._update(source, ignore_versions=ignore_versions)
-        return self
-
-    def _update(self, source, ignore_versions=False):
-        for line in source.decode().splitlines():
-            key = line[0]
-            if ignore_versions and key in "vVyYp":
-                continue
-            value = line[2:]
-            if key == "v":
-                if value in self.versions:
-                    self._last_modified_version = self.versions[value]
-                else:
-                    self._last_modified_version = self.versions[value] = {}
-                    if self._latest_requires_python:
-                        self._last_modified_version["requires_python"] = self._latest_requires_python
-            elif key == "n":
-                self.name = value
-            elif key == "c":
-                self.classifiers.add(value)
-            elif key == "u":
-                _key, _value = value.split("=", maxsplit=1)
-                self.urls[_key] = _value
-            elif key == "p":
-                if value:
-                    self._last_modified_version["requires_python"] = value
-                else:
-                    del self._last_modified_version["requires_python"]
-                self._latest_requires_python = value
-            elif key == "k":
-                self.keywords.add(value)
-            elif key == "s":
-                self.summary = value
-            elif key == "V":
-                del self.versions[value]
-            elif key == "C":
-                self.classifiers.remove(value)
-            elif key == "U":
-                del self.urls[value]
-            elif key == "y":
-                self._last_modified_version["yanked"] = value
-            elif key == "K":
-                self.keywords.remove(value)
-            elif key == "l":
-                self.license_expression = value
-            elif key == "Y":
-                del self._last_modified_version["yanked"]
-            elif key == "N":
-                raise PackageDeleted
-            else:
-                assert 0, (key, value)
 
 
 class PackageDeleted(Exception):
