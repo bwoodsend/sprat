@@ -1,0 +1,19 @@
+[project]
+name = "sprat"
+version = "0.1.0"
+description = "A CLI and API for searching PyPI (replacement for pip search)"
+requires-python = ">=3.7"
+license = "BlueOak-1.0.0"
+authors = [{name="Brénainn Woodsend", email="bwoodsend@gmail.com"}]
+keywords = ["pypi", "search"]
+dependencies = ["appdirs"]
+
+[project.scripts]
+sprat = "sprat.__main__:cli"
+
+[project.urls]
+homepage = "https://github.com/bwoodsend/sprat"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
