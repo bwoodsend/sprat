@@ -1,0 +1,94 @@
+{
+  "info": {
+    "author": "x2polygons",
+    "author_email": "x2polygons@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+      "Operating System :: Microsoft :: Windows :: Windows 10",
+      "Programming Language :: Python :: 3",
+      "Topic :: Scientific/Engineering :: GIS",
+      "Topic :: Scientific/Engineering :: Information Analysis",
+      "Topic :: Scientific/Engineering :: Mathematics",
+      "Topic :: Scientific/Engineering :: Visualization"
+    ],
+    "description": "This Python package allows the calculation of distance between two polygons. Polygons may have thematic attributes (e.g. name) to add further description.\n\nThe available geometric distance functions between polygons are:\n* Hausdorff distance\n* Chamfer distance\n* PoLis distance\n* Turn function distance\n\nThe avaiable thematic distance functions are:\n* Levenshtein distance\n\n\nFor Windows:\n1. Follow the steps described [here](https://stackoverflow.com/a/58943939/1959766) to download geopandas.\n2. Resolve the *geos_c.dll file missing* error by running *conda install shapely* as described [here](https://github.com/Toblerity/Shapely/issues/1032).",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": "",
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": "",
+    "keywords": "GIS,spatial analysis",
+    "license": "GNU General Public License v2.0",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "",
+    "maintainer_email": "",
+    "name": "x2polygons",
+    "package_url": "https://pypi.org/project/x2polygons/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/x2polygons/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/x2polygons/0.171/",
+    "requires_dist": null,
+    "requires_python": "",
+    "summary": "Distance computation between matching georeferenced polygons",
+    "version": "0.171",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 15140119,
+  "releases": {
+    "0.17": [
+      {
+        "filename": "x2polygons-0.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17064,
+        "upload_time": "2022-09-19T06:28:26",
+        "upload_time_iso_8601": "2022-09-19T06:28:26.028668Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.171": [
+      {
+        "filename": "x2polygons-0.171.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17100,
+        "upload_time": "2022-09-19T06:32:17",
+        "upload_time_iso_8601": "2022-09-19T06:32:17.843898Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18": [
+      {
+        "filename": "x2polygons-0.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17088,
+        "upload_time": "2022-09-19T06:39:28",
+        "upload_time_iso_8601": "2022-09-19T06:39:28.135148Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

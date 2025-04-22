@@ -1,0 +1,1011 @@
+{
+  "info": {
+    "author": "Mausy5043",
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Home Automation"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "pylywsdxx",
+    "package_url": "https://pypi.org/project/pylywsdxx/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/pylywsdxx/",
+    "project_urls": {
+      "Bug Tracker": "https://github.com/Mausy5043/pylywsdxx/issues",
+      "Homepage": "https://github.com/Mausy5043/pylywsdxx"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/pylywsdxx/2.6.4/",
+    "requires_dist": [
+      "bluepy3==2.18.1",
+      "typing-extensions"
+    ],
+    "requires_python": ">=3.9",
+    "summary": "A Python3 class to interrogate Xiaomi Mijia LYWSD* sensors.",
+    "version": "2.6.4",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27022460,
+  "releases": {
+    "0.0.1": [
+      {
+        "filename": "pylywsdxx-0.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 2622,
+        "upload_time": "2023-02-12T11:13:39",
+        "upload_time_iso_8601": "2023-02-12T11:13:39.507210Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 4521,
+        "upload_time": "2023-02-12T11:13:41",
+        "upload_time_iso_8601": "2023-02-12T11:13:41.281041Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.10": [
+      {
+        "filename": "pylywsdxx-0.0.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6019,
+        "upload_time": "2023-02-19T17:54:35",
+        "upload_time_iso_8601": "2023-02-19T17:54:35.378983Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8473,
+        "upload_time": "2023-02-19T17:54:37",
+        "upload_time_iso_8601": "2023-02-19T17:54:37.019836Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.12": [
+      {
+        "filename": "pylywsdxx-0.0.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6062,
+        "upload_time": "2023-02-25T07:30:04",
+        "upload_time_iso_8601": "2023-02-25T07:30:04.892042Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8578,
+        "upload_time": "2023-02-25T07:30:06",
+        "upload_time_iso_8601": "2023-02-25T07:30:06.714209Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.13": [
+      {
+        "filename": "pylywsdxx-0.0.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6069,
+        "upload_time": "2023-03-11T06:50:06",
+        "upload_time_iso_8601": "2023-03-11T06:50:06.197971Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8588,
+        "upload_time": "2023-03-11T06:50:08",
+        "upload_time_iso_8601": "2023-03-11T06:50:08.037910Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.14": [
+      {
+        "filename": "pylywsdxx-0.0.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6106,
+        "upload_time": "2023-03-11T09:09:03",
+        "upload_time_iso_8601": "2023-03-11T09:09:03.030878Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8629,
+        "upload_time": "2023-03-11T09:09:04",
+        "upload_time_iso_8601": "2023-03-11T09:09:04.611669Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.15": [
+      {
+        "filename": "pylywsdxx-0.0.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6107,
+        "upload_time": "2023-03-12T09:59:37",
+        "upload_time_iso_8601": "2023-03-12T09:59:37.507461Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8559,
+        "upload_time": "2023-03-12T09:59:39",
+        "upload_time_iso_8601": "2023-03-12T09:59:39.022892Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.2": [
+      {
+        "filename": "pylywsdxx-0.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 2624,
+        "upload_time": "2023-02-12T11:34:38",
+        "upload_time_iso_8601": "2023-02-12T11:34:38.624465Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 4513,
+        "upload_time": "2023-02-12T11:34:39",
+        "upload_time_iso_8601": "2023-02-12T11:34:39.791462Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.3": [
+      {
+        "filename": "pylywsdxx-0.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 4576,
+        "upload_time": "2023-02-12T12:03:34",
+        "upload_time_iso_8601": "2023-02-12T12:03:34.491127Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 6315,
+        "upload_time": "2023-02-12T12:03:36",
+        "upload_time_iso_8601": "2023-02-12T12:03:36.038112Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.4": [
+      {
+        "filename": "pylywsdxx-0.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 4573,
+        "upload_time": "2023-02-12T12:07:48",
+        "upload_time_iso_8601": "2023-02-12T12:07:48.939456Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 6320,
+        "upload_time": "2023-02-12T12:07:50",
+        "upload_time_iso_8601": "2023-02-12T12:07:50.677458Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.6": [
+      {
+        "filename": "pylywsdxx-0.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6473,
+        "upload_time": "2023-02-12T15:09:06",
+        "upload_time_iso_8601": "2023-02-12T15:09:06.027872Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8239,
+        "upload_time": "2023-02-12T15:09:07",
+        "upload_time_iso_8601": "2023-02-12T15:09:07.727970Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.7": [
+      {
+        "filename": "pylywsdxx-0.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 5780,
+        "upload_time": "2023-02-19T09:28:02",
+        "upload_time_iso_8601": "2023-02-19T09:28:02.534051Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8258,
+        "upload_time": "2023-02-19T09:28:04",
+        "upload_time_iso_8601": "2023-02-19T09:28:04.233957Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.8": [
+      {
+        "filename": "pylywsdxx-0.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 5892,
+        "upload_time": "2023-02-19T11:33:21",
+        "upload_time_iso_8601": "2023-02-19T11:33:21.025278Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8390,
+        "upload_time": "2023-02-19T11:33:22",
+        "upload_time_iso_8601": "2023-02-19T11:33:22.637533Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.0": [
+      {
+        "filename": "pylywsdxx-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6090,
+        "upload_time": "2023-03-12T10:10:32",
+        "upload_time_iso_8601": "2023-03-12T10:10:32.300524Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8551,
+        "upload_time": "2023-03-12T10:10:33",
+        "upload_time_iso_8601": "2023-03-12T10:10:33.399521Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "pylywsdxx-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6122,
+        "upload_time": "2023-03-19T06:08:10",
+        "upload_time_iso_8601": "2023-03-19T06:08:10.333979Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8584,
+        "upload_time": "2023-03-19T06:08:12",
+        "upload_time_iso_8601": "2023-03-19T06:08:12.136385Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "pylywsdxx-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6155,
+        "upload_time": "2023-03-19T09:20:10",
+        "upload_time_iso_8601": "2023-03-19T09:20:10.954847Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8608,
+        "upload_time": "2023-03-19T09:20:12",
+        "upload_time_iso_8601": "2023-03-19T09:20:12.716744Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.1": [
+      {
+        "filename": "pylywsdxx-0.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6150,
+        "upload_time": "2023-03-25T12:56:11",
+        "upload_time_iso_8601": "2023-03-25T12:56:11.949821Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8607,
+        "upload_time": "2023-03-25T12:56:13",
+        "upload_time_iso_8601": "2023-03-25T12:56:13.592703Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.2": [
+      {
+        "filename": "pylywsdxx-0.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6251,
+        "upload_time": "2023-03-26T08:01:12",
+        "upload_time_iso_8601": "2023-03-26T08:01:12.672110Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-0.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8703,
+        "upload_time": "2023-03-26T08:01:14",
+        "upload_time_iso_8601": "2023-03-26T08:01:14.452258Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.10.1": [
+      {
+        "filename": "pylywsdxx-1.10.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 7846,
+        "upload_time": "2023-07-15T04:39:28",
+        "upload_time_iso_8601": "2023-07-15T04:39:28.900838Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-1.10.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 10776,
+        "upload_time": "2023-07-15T04:39:30",
+        "upload_time_iso_8601": "2023-07-15T04:39:30.346607Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.10.2": [
+      {
+        "filename": "pylywsdxx-1.10.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 7846,
+        "upload_time": "2023-07-15T04:55:26",
+        "upload_time_iso_8601": "2023-07-15T04:55:26.283687Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-1.10.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 10777,
+        "upload_time": "2023-07-15T04:55:27",
+        "upload_time_iso_8601": "2023-07-15T04:55:27.697913Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.10.3": [
+      {
+        "filename": "pylywsdxx-1.10.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 8134,
+        "upload_time": "2023-08-07T06:24:39",
+        "upload_time_iso_8601": "2023-08-07T06:24:39.642552Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-1.10.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 11018,
+        "upload_time": "2023-08-07T06:24:41",
+        "upload_time_iso_8601": "2023-08-07T06:24:41.419268Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.10.4": [
+      {
+        "filename": "pylywsdxx-1.10.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 8165,
+        "upload_time": "2023-10-29T10:39:13",
+        "upload_time_iso_8601": "2023-10-29T10:39:13.466454Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-1.10.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18141,
+        "upload_time": "2023-10-29T10:39:14",
+        "upload_time_iso_8601": "2023-10-29T10:39:14.870300Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.12.1": [
+      {
+        "filename": "pylywsdxx-1.12.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 8361,
+        "upload_time": "2023-11-26T13:40:54",
+        "upload_time_iso_8601": "2023-11-26T13:40:54.806051Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-1.12.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 19684,
+        "upload_time": "2023-11-26T13:40:56",
+        "upload_time_iso_8601": "2023-11-26T13:40:56.388547Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.1": [
+      {
+        "filename": "pylywsdxx-1.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6216,
+        "upload_time": "2023-03-31T16:13:22",
+        "upload_time_iso_8601": "2023-03-31T16:13:22.981369Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-1.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 8666,
+        "upload_time": "2023-03-31T16:13:24",
+        "upload_time_iso_8601": "2023-03-31T16:13:24.974033Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.2": [
+      {
+        "filename": "pylywsdxx-1.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6219,
+        "upload_time": "2023-04-16T10:24:28",
+        "upload_time_iso_8601": "2023-04-16T10:24:28.428682Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-1.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 9493,
+        "upload_time": "2023-04-16T10:24:29",
+        "upload_time_iso_8601": "2023-04-16T10:24:29.998999Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.1": [
+      {
+        "filename": "pylywsdxx-1.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6891,
+        "upload_time": "2023-04-20T15:16:39",
+        "upload_time_iso_8601": "2023-04-20T15:16:39.678196Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-1.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 9919,
+        "upload_time": "2023-04-20T15:16:42",
+        "upload_time_iso_8601": "2023-04-20T15:16:42.776591Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.2": [
+      {
+        "filename": "pylywsdxx-1.4.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6897,
+        "upload_time": "2023-04-22T06:18:30",
+        "upload_time_iso_8601": "2023-04-22T06:18:30.118464Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-1.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 9930,
+        "upload_time": "2023-04-22T06:18:31",
+        "upload_time_iso_8601": "2023-04-22T06:18:31.627421Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.1": [
+      {
+        "filename": "pylywsdxx-1.6.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 6976,
+        "upload_time": "2023-04-30T08:42:53",
+        "upload_time_iso_8601": "2023-04-30T08:42:53.179908Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-1.6.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 9998,
+        "upload_time": "2023-04-30T08:42:54",
+        "upload_time_iso_8601": "2023-04-30T08:42:54.733885Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.8.1": [
+      {
+        "filename": "pylywsdxx-1.8.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 7203,
+        "upload_time": "2023-05-24T14:44:29",
+        "upload_time_iso_8601": "2023-05-24T14:44:29.268060Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-1.8.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 10227,
+        "upload_time": "2023-05-24T14:44:31",
+        "upload_time_iso_8601": "2023-05-24T14:44:31.115677Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.1": [
+      {
+        "filename": "pylywsdxx-2.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 13477,
+        "upload_time": "2024-07-07T08:46:56",
+        "upload_time_iso_8601": "2024-07-07T08:46:56.043442Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-2.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 12289,
+        "upload_time": "2024-07-07T08:47:07",
+        "upload_time_iso_8601": "2024-07-07T08:47:07.654902Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.2": [
+      {
+        "filename": "pylywsdxx-2.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 13579,
+        "upload_time": "2024-09-23T06:11:26",
+        "upload_time_iso_8601": "2024-09-23T06:11:26.871817Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-2.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 12746,
+        "upload_time": "2024-09-23T06:11:29",
+        "upload_time_iso_8601": "2024-09-23T06:11:29.072019Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.1": [
+      {
+        "filename": "pylywsdxx-2.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 24970,
+        "upload_time": "2024-12-15T08:06:46",
+        "upload_time_iso_8601": "2024-12-15T08:06:46.944772Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-2.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 23974,
+        "upload_time": "2024-12-15T08:06:48",
+        "upload_time_iso_8601": "2024-12-15T08:06:48.165636Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.2": [
+      {
+        "filename": "pylywsdxx-2.4.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 24970,
+        "upload_time": "2024-12-15T08:09:59",
+        "upload_time_iso_8601": "2024-12-15T08:09:59.742136Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-2.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 23976,
+        "upload_time": "2024-12-15T08:10:02",
+        "upload_time_iso_8601": "2024-12-15T08:10:02.008453Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.3": [
+      {
+        "filename": "pylywsdxx-2.4.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 24970,
+        "upload_time": "2024-12-15T08:12:03",
+        "upload_time_iso_8601": "2024-12-15T08:12:03.108673Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-2.4.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 23977,
+        "upload_time": "2024-12-15T08:12:04",
+        "upload_time_iso_8601": "2024-12-15T08:12:04.182441Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.6.1": [
+      {
+        "filename": "pylywsdxx-2.6.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 24995,
+        "upload_time": "2025-01-01T08:57:31",
+        "upload_time_iso_8601": "2025-01-01T08:57:31.542709Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-2.6.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 24201,
+        "upload_time": "2025-01-01T08:57:33",
+        "upload_time_iso_8601": "2025-01-01T08:57:33.714284Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.6.2": [
+      {
+        "filename": "pylywsdxx-2.6.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 25005,
+        "upload_time": "2025-01-01T09:23:29",
+        "upload_time_iso_8601": "2025-01-01T09:23:29.295596Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-2.6.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 24208,
+        "upload_time": "2025-01-01T09:23:31",
+        "upload_time_iso_8601": "2025-01-01T09:23:31.354466Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.6.3": [
+      {
+        "filename": "pylywsdxx-2.6.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 25018,
+        "upload_time": "2025-01-01T10:02:17",
+        "upload_time_iso_8601": "2025-01-01T10:02:17.892934Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-2.6.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 24218,
+        "upload_time": "2025-01-01T10:02:21",
+        "upload_time_iso_8601": "2025-01-01T10:02:21.168171Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.6.4": [
+      {
+        "filename": "pylywsdxx-2.6.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 25019,
+        "upload_time": "2025-01-19T11:20:31",
+        "upload_time_iso_8601": "2025-01-19T11:20:31.615646Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pylywsdxx-2.6.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 24224,
+        "upload_time": "2025-01-19T11:20:33",
+        "upload_time_iso_8601": "2025-01-19T11:20:33.092121Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

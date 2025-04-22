@@ -1,0 +1,315 @@
+{
+  "info": {
+    "author": "Nathan O'Sullivan",
+    "author_email": "nathan.osullivan@mammoth.com.au",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "description": "# `bl`: BinaryLane command-line interface\n\n```\n$ bl --help\nusage: bl [OPTIONS] COMMAND\n\nbl is a command-line interface for the BinaryLane API\n\nOptions:\n  --help                Display available commands and descriptions\n\nAvailable Commands:\n    account             Access account commands\n    action              Access action commands\n    configure           Configure access to BinaryLane API\n    domain              Access domain commands\n    image               Access image commands\n    load-balancer       Access load-balancer commands\n    region              Access region commands\n    server              Access server commands\n    size                Access size commands\n    software            Access software commands\n    ssh-key             Access ssh-key commands\n    version             Show the current version\n    vpc                 Access vpc commands\n```\n\n## Installation\n\n`bl` requires Python 3.7 or later and has been tested on a variety of Linux\ndistributions, Windows and Mac OSX. To install:\n\n```\npip install binarylane-cli\n```\n\n### Portable install (without Python)\n\nThe [releases page](https://github.com/binarylane/binarylane-cli/releases) has\na standalone `bl.exe` for use on Windows.\n\n\n## Getting Started\n\nThe BinaryLane CLI program is invoked by running `bl` (or `bl.exe` on Windows).\nTo use `bl` you must configure the program with a BinaryLane customer access\ntoken.\n\n 1. To start the configuration process, run:\n```\nbl configure\n```\n\n 2. A prompt will be shown requesting access token. Go to [Developer API](https://home.binarylane.com.au/api-info) section of BinaryLane website and select **+ Create Token**, enter a name such as *CLI* and **Create**. \n\n 3. Copy the displayed token and paste at the `bl` *Enter your API access token:*\nprompt.\n\n 4. To confirm token is working correctly, use `bl` to display BinaryLane account details:\n```\nbl account get\n``` \n\n## Usage\n\n`bl` provides commands to access all functionality provided by the [BinaryLane\nAPI](https://api.binarylane.com.au/reference/), organised into a *command\ntree*. The general form for invoking an command is `bl NOUN [NOUN] VERB`.\nFor example:\n\n - `bl server list`: Displays list of servers\n - `bl domain record create`: Create a DNS record\n\nThe available commands at each level of the tree are displayed by running `bl`\nwith no arguments:\n\n```\n$ bl\n\nusage: bl [OPTIONS] COMMAND\n\nbl is a command-line interface for the binaryLane API\n\nOptions:\n  --help                Display available commands and descriptions\n\nAvailable Commands:\n    account             Access account commands\n    action              Access action commands\n    configure           Configure access to binaryLane API\n    domain              Access domain commands\n    image               Access image commands\n    load-balancer       Access load-balancer commands\n    region              Access region commands\n    server              Access server commands\n    size                Access size commands\n    software            Access software commands\n    ssh-key             Access ssh-key commands\n    version             Show the current version\n    vpc                 Access vpc commands\n```\n\nTo see the available commands within the tree:\n\n```\nbl NOUN [NOUN]\n```\n\nFor example:\n\n```\n$ bl domain\nusage: bl domain [OPTIONS] COMMAND\n\nAccess domain commands\n\nOptions:\n  --help                Display available commands and descriptions\n\nAvailable Commands:\n    create              Create a new domain\n    delete              Delete an existing domain\n    get                 Fetch an existing domain\n    list                List all domains\n    nameservers         Access domain nameservers commands\n    record              Access domain record commands\n```\n\nTo see the required arguments and optional parameters for a command:\n\n```\nbl NOUN [NOUN] VERB --help\n```\n\nFor example:\n\n```\n$ bl domain create --help\nusage: bl domain create [OPTIONS] --name NAME [PARAMETERS]\n\nCreate a New Domain\n\nOptions:\n  --help                Display command options and descriptions\n  --curl                Display API request as a 'curl' command-line\n  --no-header           Display columns without field labels\n  --output OUTPUT       Desired output format [plain, table, tsv, json] (Default: \"table\")\n\nArguments:\n  --name NAME           The domain name to add to the DNS management system.\n\nParameters:\n  --ip-address IP_ADDRESS\n                        An optional IPv4 address that will be used to create an A record for the root domain.\n```\n\n### Walkthrough: Creating a server\n\nServer creation is provided by the `bl server create` command. Use `--help` to\nview all arguments and parameters:\n\n```\n$ bl server list --help\nusage: bl server create [OPTIONS] --size SIZE --image IMAGE --region REGION [PARAMETERS]\n\nCreate a new server.\n\nOptions:\n  --help                Display command options and descriptions\n  --curl                Display API request as a 'curl' command-line\n  --no-header           Display columns without field labels\n  --output OUTPUT       Desired output format [plain, table, tsv, json] (Default: \"table\")\n  --async               Do not wait for requested action to complete\n  --quiet               Do not show progress while waiting for requested action to complete\n\nArguments:\n  --size SIZE           The slug of the selected size.\n  --image IMAGE         The slug or id of the selected operating system.\n  --region REGION       The slug of the selected region.\n\nParameters:\n  --name NAME           The hostname of your server, such as vps01.yourcompany.com. If not\n                        provided, the server will be created with a random name.\n  --backups, --no-backups\n                        If true this will enable two daily backups for the server.\n                        Options.daily_backups will override this value if provided. Setting\n                        this to false has no effect.\n  --ipv6, --no-ipv6     If true this will enable IPv6 for this server.\n  --ssh-keys [SSH_KEYS [SSH_KEYS ...]]\n                        This may be either the SSH keys Ids or fingerprints. If this is null\n                        or not provided any SSH keys that have been marked as default will be\n                        deployed (if the operating system supports SSH keys). Submit an empty\n                        array to disable deployment of default keys.\n  --password PASSWORD   If this is provided the default remote user account's password will be\n                        set to this value. If this is null a random password will be generated\n                        and emailed to the account email address.\n  <additional parameters omitted for brevity>\n```\n\nIn the help displayed by `bl`, **Arguments** are required and **Parameters**\nare optional. For the `bl server list` command `--size SIZE`, `--image IMAGE`,\nand `--region REGION` are required. A list of available choices for each can be\ndisplayed by running:\n\n```\nbl size list\nbl image list\nbl region list\n```\n\nFor example, to create a minimum-sized Ubuntu 22.04 LTS server in Sydney using\nSSH public key authentication:\n\n```\n$ bl server create --size std-min --image ubuntu-22.04-lts --region syd\ncompleted.\n┌───────────────────────────┬─────────────────────────────────────────────────────────────────────────────────────┐\n│ name                      │ value                                                                               │\n├───────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────┤\n│ id                        │ 210658                                                                              │\n│ name                      │ giant-rudolf.bnr.la                                                                 │\n│ memory                    │ 1024                                                                                │\n│ vcpus                     │ 1                                                                                   │\n│ disk                      │ 20                                                                                  │\n│ created_at                │ 2023-01-20T02:02:32+00:00                                                           │\n│ status                    │ new                                                                                 │\n│ region                    │ Sydney                                                                              │\n│ image                     │ 20.04 LTS                                                                           │\n│ size                      │ std-min                                                                             │\n│ size_slug                 │ std-min                                                                             │\n│ networks                  │ v4: [{'ip_address': '175.45.180.1',  'type': 'public', 'netmask': '255.255.255.0... │\n  <additional rows omitted for brevity>\n└───────────────────────────┴─────────────────────────────────────────────────────────────────────────────────────┘\n```\n\n### Server passwords\n\nThe use of SSH public key authentication is strongly recommended where\npossible. When public key authentication is not suitable or the image being\ndeployed does not support SSH public key authentication (e.g. Windows Server),\ncommands such as `bl server create` and `bl server action password-reset` have\nan optional `--password PASSWORD` parameter that specifies the password to use.\n\nFor example, to create a server per the previous example with password\nauthentication:\n\n```\n$ bl server create --size std-min --image ubuntu-22.04-lts --region syd --password 'qq7s6GYZgbiVG3'\n```\n\nUpon completion, the root password for the server in this example would be `qq7s6GYZgbiVG3`.\n\n:warning: **Internet-connected servers with password-based authentication enabled\nmust have a strong, randomly generated password.** Brute-force login attempts\nare pervasive on the public internet: if a server password is not randomly\ngenerated, unauthorised access is likely to occur.\n\n### Server actions\n\n`bl` can be used to perform any action that the BinaryLane website can perform,\nincluding:\n\n - Take and restore backups\n - Change plan, operating system, or reinstall\n - Restart and power cycle\n - and many more...\n\nA list of available commands is displayed by running `bl server action`:\n\n```\n$ bl server action\n\nAvailable Commands:\n    add-disk            Create an additional disk for a server\n    attach-backup       Attach a backup to a server\n    change-advanced-features\n                        Change the advanced features of a server\n    change-advanced-firewall-rules\n                        Change the advanced firewall rules for a server\n    change-backup-schedule\n                        Change the backup schedule of a server\n    change-ipv6         Enable or disable IPv6 for a server\n    change-ipv6-reverse-nameservers\n                        Update the IPv6 reverse name servers for a server\n    change-kernel       Change the kernel of a server\n  <additional actions omitted for brevity>\n    ping                Attempt to ping a server\n    power-cycle         Power a server off and then on\n    power-off           Power a server off\n    power-on            Power a server on\n    reboot              Request a server perform a reboot\n    rebuild             Rebuild an existing server\n    rename              Rename a server\n    resize              Update the size and related options for a server\n    resize-disk         Alter the size of an existing disk for a server\n    restore             Restore a backup to a server\n    shutdown            Request a server perform a shutdown\n    take-backup         Take a backup of a server\n    uncancel            Revert the cancellation of a server\n    uptime              Check the uptime of a server\n```\n\nEach server action has a mandatory `SERVER_ID` argument  which can be obtained\nfrom `bl server list`.\n\nMany actions have additional *action-specific* arguments and parameters. Run\n`bl server action COMMAND --help` to see what a particular action supports.\n\n#### Example: password reset\n\n 1. Use `--help` to see the available arguments and parameters:\n\n\n```\n$ bl server action password-reset --help\nusage: bl server action password-reset [OPTIONS] SERVER_ID [PARAMETERS]\n\nReset the Password of a Server\n\n<options omitted for brevity>\n\nArguments:\n  SERVER_ID            The ID of the server on which the action should be performed.\n\nParameters:\n  --username USERNAME  The username of the user to change the password.\n  --password PASSWORD  If this is provided the specified or default remote user's account\n                       password will be set to this value.\n```\n\n 2. Use `bl server list` to obtain the numeric server ID. In this example, the\nserver requiring a password reset is ID 123456.\n\n 3. Provide the server ID and desired password to the `password-reset` command:\n\n```\nbl server action password-reset 123456 --password 'qq7s6GYZgbiVG3'\n```\n\n### Asynchronous actions\n\n`bl` commands that perform an action - `bl create server`, `bl server\naction restore-backup`, and many others - default to *synchronous* handling\nwhere `bl` will display progress information to the console and not exit until\nthe command finishes.\n\nIn some scenarios such as when creating multiple servers, it may be desirable\nrun the command with *asynchronous* handling where `bl` will exit as\nsoon as the BinaryLane API accepts the requested command. To do so, include the\n`--async` option in the command invocation. For example:\n\n```\n$ bl server create --size std-min --image ubuntu-22.04-lts --region syd --async\n```\n\n### Configuration file\n\n`bl configure` creates a configuration file containing the API token, and reads\nthat configuration file on subsequent invocations. The configuration file is\nstored at:\n\n * `$XDG_CONFIG_HOME/binarylane/config.ini`\n\nTypically the environment variable `$XDG_CONFIG_HOME` is not set, in which case\nthe configuration file stored at:\n\n - **Linux/Mac/etc**: `$HOME/.config` - typical file location is\n   `/home/username/.config/binarylane/config.ini`\n - **Windows**: `$APPDATA` - typical file location is\n   `C:\\Users\\UserName\\AppData\\Roaming\\binarylane\\config.ini`\n\n\n### Environment variables\n\nFor environments where the use of `bl configure` and a permanent configuration\nfile are not suitable, environment variables may be utilised instead.\n\nThe environment variable `BL_API_TOKEN` may be used to provide the API token\nrequired to perform `bl` commands.\n\n## Versioning\n\n`bl` uses [semantic versioning](https://semver.org/spec/v2.0.0.html) to version\n[releases](https://github.com/binarylane/binarylane-cli/releases).\n\nSemantic versions are in the form of `MAJOR.MINOR.PATCH`. The value of `MAJOR`\nis currently **0**, which indicates that each new release of the `bl` program may\ncontain changes to its interface that are not backwards-compatible with\nprevious releases such as:\n\n - Command names may change, or moved within the command tree\n - Parameter names may change, or be removed entirely\n - Available field names may change, or be removed entirely\n - Default set of displayed fields displayed in output may change\n\nSuch changes in a new release are not likely to impact interactive use of `bl`,\nbut may cause problems for customers who integrate `bl` into non-interactive\nenvironments such as automation.\n\nIn non-interactive environments, customers should review the release\nChangelog prior to deploying an updated `0.x.y` release, and  ensure that any\nrequired adjustments to the non-interactive environment are made prior to\nupgrading the `bl` program itself.\n",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": "",
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": "",
+    "keywords": "",
+    "license": "",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "",
+    "maintainer_email": "",
+    "name": "binarylane-cli",
+    "package_url": "https://pypi.org/project/binarylane-cli/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/binarylane-cli/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/binarylane-cli/0.16.0/",
+    "requires_dist": [
+      "terminaltables (>=3.1.10,<4.0.0)",
+      "httpx (>=0.23.0,<0.24.0)",
+      "attrs (>=22.2.0,<23.0.0)",
+      "python-dateutil (>=2.8.2,<3.0.0)",
+      "backports.cached-property (>=1.0.2,<2.0.0) ; python_version < \"3.8\"",
+      "typing-extensions (>=4.0.0,<5.0.0) ; python_version < \"3.8\"",
+      "importlib-metadata ; python_version < \"3.8\""
+    ],
+    "requires_python": ">=3.7.2,<4.0.0",
+    "summary": "",
+    "version": "0.16.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 17795909,
+  "releases": {
+    "0.11.0": [
+      {
+        "filename": "binarylane_cli-0.11.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 579414,
+        "upload_time": "2023-01-25T03:44:13",
+        "upload_time_iso_8601": "2023-01-25T03:44:13.517952Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "binarylane-cli-0.11.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 170863,
+        "upload_time": "2023-01-25T03:44:09",
+        "upload_time_iso_8601": "2023-01-25T03:44:09.713858Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.1": [
+      {
+        "filename": "binarylane_cli-0.11.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 579547,
+        "upload_time": "2023-01-25T06:06:14",
+        "upload_time_iso_8601": "2023-01-25T06:06:14.711858Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "binarylane-cli-0.11.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 170988,
+        "upload_time": "2023-01-25T06:06:11",
+        "upload_time_iso_8601": "2023-01-25T06:06:11.549920Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.12.0": [
+      {
+        "filename": "binarylane_cli-0.12.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 584730,
+        "upload_time": "2023-02-18T01:14:24",
+        "upload_time_iso_8601": "2023-02-18T01:14:24.652349Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "binarylane_cli-0.12.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 180826,
+        "upload_time": "2023-02-18T01:14:26",
+        "upload_time_iso_8601": "2023-02-18T01:14:26.195467Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.13.0": [
+      {
+        "filename": "binarylane_cli-0.13.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 588541,
+        "upload_time": "2023-03-02T00:54:42",
+        "upload_time_iso_8601": "2023-03-02T00:54:42.017787Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "binarylane_cli-0.13.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 185509,
+        "upload_time": "2023-03-02T00:54:46",
+        "upload_time_iso_8601": "2023-03-02T00:54:46.385312Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.0": [
+      {
+        "filename": "binarylane_cli-0.14.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 580498,
+        "upload_time": "2023-03-15T05:24:08",
+        "upload_time_iso_8601": "2023-03-15T05:24:08.413072Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "binarylane_cli-0.14.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 185434,
+        "upload_time": "2023-03-15T05:24:12",
+        "upload_time_iso_8601": "2023-03-15T05:24:12.842627Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0": [
+      {
+        "filename": "binarylane_cli-0.15.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 585070,
+        "upload_time": "2023-03-21T04:45:26",
+        "upload_time_iso_8601": "2023-03-21T04:45:26.091051Z",
+        "yanked": true,
+        "yanked_reason": "Faulty handling of 200 responses"
+      },
+      {
+        "filename": "binarylane_cli-0.15.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 185854,
+        "upload_time": "2023-03-21T04:45:28",
+        "upload_time_iso_8601": "2023-03-21T04:45:28.139458Z",
+        "yanked": true,
+        "yanked_reason": "Faulty handling of 200 responses"
+      }
+    ],
+    "0.15.1": [
+      {
+        "filename": "binarylane_cli-0.15.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 585086,
+        "upload_time": "2023-03-21T06:01:03",
+        "upload_time_iso_8601": "2023-03-21T06:01:03.877894Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "binarylane_cli-0.15.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 185903,
+        "upload_time": "2023-03-21T06:01:06",
+        "upload_time_iso_8601": "2023-03-21T06:01:06.935909Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.2": [
+      {
+        "filename": "binarylane_cli-0.15.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 584915,
+        "upload_time": "2023-03-22T00:38:52",
+        "upload_time_iso_8601": "2023-03-22T00:38:52.520497Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "binarylane_cli-0.15.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 185853,
+        "upload_time": "2023-03-22T00:38:55",
+        "upload_time_iso_8601": "2023-03-22T00:38:55.300102Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.3": [
+      {
+        "filename": "binarylane_cli-0.15.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 585557,
+        "upload_time": "2023-03-29T03:11:52",
+        "upload_time_iso_8601": "2023-03-29T03:11:52.875555Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "binarylane_cli-0.15.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 187058,
+        "upload_time": "2023-03-29T03:11:54",
+        "upload_time_iso_8601": "2023-03-29T03:11:54.905954Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.0": [
+      {
+        "filename": "binarylane_cli-0.16.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 592052,
+        "upload_time": "2023-04-21T00:31:12",
+        "upload_time_iso_8601": "2023-04-21T00:31:12.259599Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "binarylane_cli-0.16.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7.2,<4.0.0",
+        "size": 186575,
+        "upload_time": "2023-04-21T00:31:14",
+        "upload_time_iso_8601": "2023-04-21T00:31:14.427536Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

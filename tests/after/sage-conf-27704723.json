@@ -1,0 +1,2079 @@
+{
+  "info": {
+    "author": "The Sage Developers",
+    "author_email": "sage-support@googlegroups.com",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://www.sagemath.org",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "sage-conf",
+    "package_url": "https://pypi.org/project/sage-conf/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/sage-conf/",
+    "project_urls": {
+      "Homepage": "https://www.sagemath.org"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/sage-conf/10.5/",
+    "requires_dist": null,
+    "requires_python": null,
+    "summary": "Sage: Open Source Mathematics Software: Configuration module for the SageMath library",
+    "version": "10.5",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27704723,
+  "releases": {
+    "10.0": [
+      {
+        "filename": "sage-conf-10.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2902694,
+        "upload_time": "2023-05-20T10:00:21",
+        "upload_time_iso_8601": "2023-05-20T10:00:21.372494Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0b0": [
+      {
+        "filename": "sage-conf-10.0b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3436273,
+        "upload_time": "2023-02-13T00:00:01",
+        "upload_time_iso_8601": "2023-02-13T00:00:01.854513Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0b1": [
+      {
+        "filename": "sage-conf-10.0b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3433562,
+        "upload_time": "2023-02-19T22:23:09",
+        "upload_time_iso_8601": "2023-02-19T22:23:09.497233Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0b2": [
+      {
+        "filename": "sage-conf-10.0b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3433390,
+        "upload_time": "2023-02-24T00:32:18",
+        "upload_time_iso_8601": "2023-02-24T00:32:18.304122Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0b4": [
+      {
+        "filename": "sage-conf-10.0b4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3435316,
+        "upload_time": "2023-03-13T00:24:14",
+        "upload_time_iso_8601": "2023-03-13T00:24:14.503310Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0b5": [
+      {
+        "filename": "sage-conf-10.0b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3425112,
+        "upload_time": "2023-03-19T15:58:02",
+        "upload_time_iso_8601": "2023-03-19T15:58:02.243286Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0b6": [
+      {
+        "filename": "sage-conf-10.0b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2900665,
+        "upload_time": "2023-03-26T12:07:18",
+        "upload_time_iso_8601": "2023-03-26T12:07:18.099614Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0b7": [
+      {
+        "filename": "sage-conf-10.0b7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2901843,
+        "upload_time": "2023-04-01T16:39:18",
+        "upload_time_iso_8601": "2023-04-01T16:39:18.584006Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0b8": [
+      {
+        "filename": "sage-conf-10.0b8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2904172,
+        "upload_time": "2023-04-06T23:12:39",
+        "upload_time_iso_8601": "2023-04-06T23:12:39.975228Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0b9": [
+      {
+        "filename": "sage-conf-10.0b9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2900796,
+        "upload_time": "2023-04-13T23:02:20",
+        "upload_time_iso_8601": "2023-04-13T23:02:20.008419Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0rc0": [
+      {
+        "filename": "sage-conf-10.0rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2901209,
+        "upload_time": "2023-04-23T11:45:35",
+        "upload_time_iso_8601": "2023-04-23T11:45:35.297876Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0rc1": [
+      {
+        "filename": "sage-conf-10.0rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2901939,
+        "upload_time": "2023-04-28T21:33:50",
+        "upload_time_iso_8601": "2023-04-28T21:33:50.402277Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0rc2": [
+      {
+        "filename": "sage-conf-10.0rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2902563,
+        "upload_time": "2023-05-07T11:24:44",
+        "upload_time_iso_8601": "2023-05-07T11:24:44.158112Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.0rc3": [
+      {
+        "filename": "sage-conf-10.0rc3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2902472,
+        "upload_time": "2023-05-12T20:39:37",
+        "upload_time_iso_8601": "2023-05-12T20:39:37.388480Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.1": [
+      {
+        "filename": "sage-conf-10.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2913104,
+        "upload_time": "2023-08-20T11:45:40",
+        "upload_time_iso_8601": "2023-08-20T11:45:40.402692Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.1b0": [
+      {
+        "filename": "sage-conf-10.1b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2903304,
+        "upload_time": "2023-05-22T22:47:54",
+        "upload_time_iso_8601": "2023-05-22T22:47:54.123400Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.1b1": [
+      {
+        "filename": "sage-conf-10.1b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2902795,
+        "upload_time": "2023-05-28T10:06:14",
+        "upload_time_iso_8601": "2023-05-28T10:06:14.381097Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.1b2": [
+      {
+        "filename": "sage-conf-10.1b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2902729,
+        "upload_time": "2023-06-03T23:34:24",
+        "upload_time_iso_8601": "2023-06-03T23:34:24.389498Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.1b3": [
+      {
+        "filename": "sage-conf-10.1b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2900610,
+        "upload_time": "2023-06-11T10:43:15",
+        "upload_time_iso_8601": "2023-06-11T10:43:15.825005Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.1b4": [
+      {
+        "filename": "sage-conf-10.1b4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2900899,
+        "upload_time": "2023-06-21T21:28:02",
+        "upload_time_iso_8601": "2023-06-21T21:28:02.590802Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.1b5": [
+      {
+        "filename": "sage-conf-10.1b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2899306,
+        "upload_time": "2023-07-01T21:16:57",
+        "upload_time_iso_8601": "2023-07-01T21:16:57.603616Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.1b6": [
+      {
+        "filename": "sage-conf-10.1b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2905559,
+        "upload_time": "2023-07-09T00:31:04",
+        "upload_time_iso_8601": "2023-07-09T00:31:04.213430Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.1b7": [
+      {
+        "filename": "sage-conf-10.1b7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2907793,
+        "upload_time": "2023-07-20T23:04:21",
+        "upload_time_iso_8601": "2023-07-20T23:04:21.837790Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.1b9": [
+      {
+        "filename": "sage-conf-10.1b9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2913620,
+        "upload_time": "2023-08-05T23:33:53",
+        "upload_time_iso_8601": "2023-08-05T23:33:53.816667Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.1rc0": [
+      {
+        "filename": "sage-conf-10.1rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2913755,
+        "upload_time": "2023-08-13T12:04:01",
+        "upload_time_iso_8601": "2023-08-13T12:04:01.695765Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2": [
+      {
+        "filename": "sage-conf-10.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2998959,
+        "upload_time": "2023-12-03T10:33:28",
+        "upload_time_iso_8601": "2023-12-03T10:33:28.529699Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2b0": [
+      {
+        "filename": "sage-conf-10.2b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2913897,
+        "upload_time": "2023-08-27T20:15:10",
+        "upload_time_iso_8601": "2023-08-27T20:15:10.404135Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2b1": [
+      {
+        "filename": "sage-conf-10.2b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2914523,
+        "upload_time": "2023-09-01T20:24:18",
+        "upload_time_iso_8601": "2023-09-01T20:24:18.076043Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2b2": [
+      {
+        "filename": "sage-conf-10.2b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2983886,
+        "upload_time": "2023-09-10T22:45:20",
+        "upload_time_iso_8601": "2023-09-10T22:45:20.589832Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2b3": [
+      {
+        "filename": "sage-conf-10.2b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2993201,
+        "upload_time": "2023-09-16T14:42:09",
+        "upload_time_iso_8601": "2023-09-16T14:42:09.980151Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2b4": [
+      {
+        "filename": "sage-conf-10.2b4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2993873,
+        "upload_time": "2023-09-24T20:44:30",
+        "upload_time_iso_8601": "2023-09-24T20:44:30.405403Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2b5": [
+      {
+        "filename": "sage-conf-10.2b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2994962,
+        "upload_time": "2023-09-27T22:28:31",
+        "upload_time_iso_8601": "2023-09-27T22:28:31.942427Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2b6": [
+      {
+        "filename": "sage-conf-10.2b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2987206,
+        "upload_time": "2023-10-08T13:59:42",
+        "upload_time_iso_8601": "2023-10-08T13:59:42.847854Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2b7": [
+      {
+        "filename": "sage-conf-10.2b7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2987226,
+        "upload_time": "2023-10-14T23:36:47",
+        "upload_time_iso_8601": "2023-10-14T23:36:47.053647Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2b8": [
+      {
+        "filename": "sage-conf-10.2b8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2992324,
+        "upload_time": "2023-10-21T15:35:54",
+        "upload_time_iso_8601": "2023-10-21T15:35:54.663823Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2b9": [
+      {
+        "filename": "sage-conf-10.2b9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2994774,
+        "upload_time": "2023-10-31T00:32:31",
+        "upload_time_iso_8601": "2023-10-31T00:32:31.704393Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2rc0": [
+      {
+        "filename": "sage-conf-10.2rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2998397,
+        "upload_time": "2023-11-05T14:32:18",
+        "upload_time_iso_8601": "2023-11-05T14:32:18.417254Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2rc1": [
+      {
+        "filename": "sage-conf-10.2rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2999118,
+        "upload_time": "2023-11-10T16:20:57",
+        "upload_time_iso_8601": "2023-11-10T16:20:57.296057Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2rc2": [
+      {
+        "filename": "sage-conf-10.2rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2999462,
+        "upload_time": "2023-11-12T18:28:33",
+        "upload_time_iso_8601": "2023-11-12T18:28:33.724469Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2rc3": [
+      {
+        "filename": "sage-conf-10.2rc3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2999398,
+        "upload_time": "2023-11-14T22:39:38",
+        "upload_time_iso_8601": "2023-11-14T22:39:38.847475Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2rc4": [
+      {
+        "filename": "sage-conf-10.2rc4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2999315,
+        "upload_time": "2023-11-17T22:48:07",
+        "upload_time_iso_8601": "2023-11-17T22:48:07.550822Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.2rc5": [
+      {
+        "filename": "sage-conf-10.2rc5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2999489,
+        "upload_time": "2023-11-30T22:22:34",
+        "upload_time_iso_8601": "2023-11-30T22:22:34.017245Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3": [
+      {
+        "filename": "sage-conf-10.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3007359,
+        "upload_time": "2024-03-19T23:26:46",
+        "upload_time_iso_8601": "2024-03-19T23:26:46.583302Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3b0": [
+      {
+        "filename": "sage-conf-10.3b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3014604,
+        "upload_time": "2023-12-06T00:13:38",
+        "upload_time_iso_8601": "2023-12-06T00:13:38.309956Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3b1": [
+      {
+        "filename": "sage-conf-10.3b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3018569,
+        "upload_time": "2023-12-10T12:39:08",
+        "upload_time_iso_8601": "2023-12-10T12:39:08.094242Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3b2": [
+      {
+        "filename": "sage-conf-10.3b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3007649,
+        "upload_time": "2023-12-14T00:22:12",
+        "upload_time_iso_8601": "2023-12-14T00:22:12.761779Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3b3": [
+      {
+        "filename": "sage-conf-10.3b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3005836,
+        "upload_time": "2023-12-19T00:13:47",
+        "upload_time_iso_8601": "2023-12-19T00:13:47.352109Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3b4": [
+      {
+        "filename": "sage-conf-10.3b4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3008545,
+        "upload_time": "2023-12-26T12:40:11",
+        "upload_time_iso_8601": "2023-12-26T12:40:11.871818Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3b5": [
+      {
+        "filename": "sage-conf-10.3b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3009461,
+        "upload_time": "2024-01-14T21:03:56",
+        "upload_time_iso_8601": "2024-01-14T21:03:56.234981Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3b6": [
+      {
+        "filename": "sage-conf-10.3b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3009835,
+        "upload_time": "2024-01-22T00:14:03",
+        "upload_time_iso_8601": "2024-01-22T00:14:03.869438Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3b7": [
+      {
+        "filename": "sage-conf-10.3b7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3011356,
+        "upload_time": "2024-02-02T21:43:13",
+        "upload_time_iso_8601": "2024-02-02T21:43:13.306843Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3b8": [
+      {
+        "filename": "sage-conf-10.3b8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3003853,
+        "upload_time": "2024-02-13T23:46:27",
+        "upload_time_iso_8601": "2024-02-13T23:46:27.775688Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3rc0": [
+      {
+        "filename": "sage-conf-10.3rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3004425,
+        "upload_time": "2024-02-25T11:23:23",
+        "upload_time_iso_8601": "2024-02-25T11:23:23.583091Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3rc1": [
+      {
+        "filename": "sage-conf-10.3rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3005291,
+        "upload_time": "2024-02-29T20:38:10",
+        "upload_time_iso_8601": "2024-02-29T20:38:10.704217Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3rc2": [
+      {
+        "filename": "sage-conf-10.3rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3005686,
+        "upload_time": "2024-03-04T23:03:24",
+        "upload_time_iso_8601": "2024-03-04T23:03:24.959897Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3rc3": [
+      {
+        "filename": "sage-conf-10.3rc3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3006102,
+        "upload_time": "2024-03-10T14:47:57",
+        "upload_time_iso_8601": "2024-03-10T14:47:57.660624Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.3rc4": [
+      {
+        "filename": "sage-conf-10.3rc4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3007659,
+        "upload_time": "2024-03-17T14:36:05",
+        "upload_time_iso_8601": "2024-03-17T14:36:05.492341Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4": [
+      {
+        "filename": "sage_conf-10.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3011621,
+        "upload_time": "2024-07-19T23:03:44",
+        "upload_time_iso_8601": "2024-07-19T23:03:44.400556Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4b0": [
+      {
+        "filename": "sage-conf-10.4b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3043743,
+        "upload_time": "2024-03-25T23:53:57",
+        "upload_time_iso_8601": "2024-03-25T23:53:57.331686Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4b1": [
+      {
+        "filename": "sage-conf-10.4b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3051591,
+        "upload_time": "2024-03-31T23:22:49",
+        "upload_time_iso_8601": "2024-03-31T23:22:49.716130Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4b2": [
+      {
+        "filename": "sage-conf-10.4b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3054516,
+        "upload_time": "2024-04-08T22:55:26",
+        "upload_time_iso_8601": "2024-04-08T22:55:26.866473Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4b3": [
+      {
+        "filename": "sage-conf-10.4b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3055367,
+        "upload_time": "2024-04-12T23:05:56",
+        "upload_time_iso_8601": "2024-04-12T23:05:56.247639Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4b4": [
+      {
+        "filename": "sage-conf-10.4b4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3043716,
+        "upload_time": "2024-04-27T16:06:06",
+        "upload_time_iso_8601": "2024-04-27T16:06:06.536875Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4b5": [
+      {
+        "filename": "sage_conf-10.4b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3042792,
+        "upload_time": "2024-05-02T23:00:19",
+        "upload_time_iso_8601": "2024-05-02T23:00:19.496221Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4b6": [
+      {
+        "filename": "sage_conf-10.4b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3021865,
+        "upload_time": "2024-05-12T19:59:47",
+        "upload_time_iso_8601": "2024-05-12T19:59:47.498785Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4b7": [
+      {
+        "filename": "sage_conf-10.4b7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3013468,
+        "upload_time": "2024-05-25T10:17:35",
+        "upload_time_iso_8601": "2024-05-25T10:17:35.787126Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4b8": [
+      {
+        "filename": "sage_conf-10.4b8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3013394,
+        "upload_time": "2024-06-01T22:47:58",
+        "upload_time_iso_8601": "2024-06-01T22:47:58.526818Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4b9": [
+      {
+        "filename": "sage_conf-10.4b9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3010648,
+        "upload_time": "2024-06-09T10:32:35",
+        "upload_time_iso_8601": "2024-06-09T10:32:35.204693Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4rc0": [
+      {
+        "filename": "sage_conf-10.4rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3016713,
+        "upload_time": "2024-06-22T19:49:50",
+        "upload_time_iso_8601": "2024-06-22T19:49:50.092423Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4rc1": [
+      {
+        "filename": "sage_conf-10.4rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3016691,
+        "upload_time": "2024-06-27T21:57:18",
+        "upload_time_iso_8601": "2024-06-27T21:57:18.880365Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4rc2": [
+      {
+        "filename": "sage_conf-10.4rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3016383,
+        "upload_time": "2024-07-04T23:12:16",
+        "upload_time_iso_8601": "2024-07-04T23:12:16.654217Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4rc3": [
+      {
+        "filename": "sage_conf-10.4rc3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3011615,
+        "upload_time": "2024-07-12T22:15:45",
+        "upload_time_iso_8601": "2024-07-12T22:15:45.278521Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.4rc4": [
+      {
+        "filename": "sage_conf-10.4rc4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3011551,
+        "upload_time": "2024-07-16T23:06:37",
+        "upload_time_iso_8601": "2024-07-16T23:06:37.782028Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5": [
+      {
+        "filename": "sage_conf-10.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2914331,
+        "upload_time": "2024-12-04T00:35:02",
+        "upload_time_iso_8601": "2024-12-04T00:35:02.084124Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5b0": [
+      {
+        "filename": "sage_conf-10.5b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3006864,
+        "upload_time": "2024-07-24T21:24:30",
+        "upload_time_iso_8601": "2024-07-24T21:24:30.965462Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5b1": [
+      {
+        "filename": "sage_conf-10.5b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3007227,
+        "upload_time": "2024-08-03T11:45:34",
+        "upload_time_iso_8601": "2024-08-03T11:45:34.842364Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5b2": [
+      {
+        "filename": "sage_conf-10.5b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3036865,
+        "upload_time": "2024-08-10T20:32:49",
+        "upload_time_iso_8601": "2024-08-10T20:32:49.301577Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5b3": [
+      {
+        "filename": "sage_conf-10.5b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3027891,
+        "upload_time": "2024-09-03T22:31:02",
+        "upload_time_iso_8601": "2024-09-03T22:31:02.223083Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5b5": [
+      {
+        "filename": "sage_conf-10.5b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3031272,
+        "upload_time": "2024-09-22T10:48:33",
+        "upload_time_iso_8601": "2024-09-22T10:48:33.886423Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5b6": [
+      {
+        "filename": "sage_conf-10.5b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3031138,
+        "upload_time": "2024-09-29T09:17:36",
+        "upload_time_iso_8601": "2024-09-29T09:17:36.410318Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5b7": [
+      {
+        "filename": "sage_conf-10.5b7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3030823,
+        "upload_time": "2024-10-12T09:41:32",
+        "upload_time_iso_8601": "2024-10-12T09:41:32.819386Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5b8": [
+      {
+        "filename": "sage_conf-10.5b8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3034237,
+        "upload_time": "2024-10-26T19:05:45",
+        "upload_time_iso_8601": "2024-10-26T19:05:45.600547Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5b9": [
+      {
+        "filename": "sage_conf-10.5b9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3035323,
+        "upload_time": "2024-11-03T23:27:36",
+        "upload_time_iso_8601": "2024-11-03T23:27:36.937925Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5rc0": [
+      {
+        "filename": "sage_conf-10.5rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2914692,
+        "upload_time": "2024-11-16T11:45:48",
+        "upload_time_iso_8601": "2024-11-16T11:45:48.733593Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5rc1": [
+      {
+        "filename": "sage_conf-10.5rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2914758,
+        "upload_time": "2024-11-23T11:15:59",
+        "upload_time_iso_8601": "2024-11-23T11:15:59.564072Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.5rc2": [
+      {
+        "filename": "sage_conf-10.5rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2914133,
+        "upload_time": "2024-11-30T10:42:16",
+        "upload_time_iso_8601": "2024-11-30T10:42:16.467461Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.6b0": [
+      {
+        "filename": "sage_conf-10.6b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2913848,
+        "upload_time": "2024-12-08T23:04:09",
+        "upload_time_iso_8601": "2024-12-08T23:04:09.863109Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.6b1": [
+      {
+        "filename": "sage_conf-10.6b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2915367,
+        "upload_time": "2024-12-15T12:24:43",
+        "upload_time_iso_8601": "2024-12-15T12:24:43.777139Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.6b2": [
+      {
+        "filename": "sage_conf-10.6b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2917636,
+        "upload_time": "2024-12-22T17:15:23",
+        "upload_time_iso_8601": "2024-12-22T17:15:23.048871Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.6b3": [
+      {
+        "filename": "sage_conf-10.6b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2915980,
+        "upload_time": "2025-01-04T18:18:37",
+        "upload_time_iso_8601": "2025-01-04T18:18:37.891137Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.6b4": [
+      {
+        "filename": "sage_conf-10.6b4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2915834,
+        "upload_time": "2025-01-18T11:49:28",
+        "upload_time_iso_8601": "2025-01-18T11:49:28.088149Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.6b5": [
+      {
+        "filename": "sage_conf-10.6b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2914174,
+        "upload_time": "2025-01-27T00:30:50",
+        "upload_time_iso_8601": "2025-01-27T00:30:50.010189Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.6b6": [
+      {
+        "filename": "sage_conf-10.6b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2908697,
+        "upload_time": "2025-02-11T00:06:55",
+        "upload_time_iso_8601": "2025-02-11T00:06:55.319051Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.6b7": [
+      {
+        "filename": "sage_conf-10.6b7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2910075,
+        "upload_time": "2025-02-21T21:30:48",
+        "upload_time_iso_8601": "2025-02-21T21:30:48.078049Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "10.6b8": [
+      {
+        "filename": "sage_conf-10.6b8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2910650,
+        "upload_time": "2025-02-28T20:53:44",
+        "upload_time_iso_8601": "2025-02-28T20:53:44.505265Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.3": [
+      {
+        "filename": "sage_conf-9.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2716178,
+        "upload_time": "2021-05-11T03:11:31",
+        "upload_time_iso_8601": "2021-05-11T03:11:31.143003Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.3rc0": [
+      {
+        "filename": "sage_conf-9.3rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2801223,
+        "upload_time": "2021-03-24T07:08:29",
+        "upload_time_iso_8601": "2021-03-24T07:08:29.650291Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.3rc2": [
+      {
+        "filename": "sage_conf-9.3rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2711331,
+        "upload_time": "2021-04-07T00:49:54",
+        "upload_time_iso_8601": "2021-04-07T00:49:54.092971Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.4": [
+      {
+        "filename": "sage-conf-9.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2956840,
+        "upload_time": "2021-08-28T05:07:10",
+        "upload_time_iso_8601": "2021-08-28T05:07:10.196211Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.4.post1": [
+      {
+        "filename": "sage-conf-9.4.post1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2957593,
+        "upload_time": "2021-09-15T00:39:40",
+        "upload_time_iso_8601": "2021-09-15T00:39:40.274791Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.4.post2": [
+      {
+        "filename": "sage-conf-9.4.post2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2957545,
+        "upload_time": "2021-09-15T00:42:21",
+        "upload_time_iso_8601": "2021-09-15T00:42:21.270939Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.4.post3": [
+      {
+        "filename": "sage-conf-9.4.post3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2957710,
+        "upload_time": "2021-09-15T01:03:04",
+        "upload_time_iso_8601": "2021-09-15T01:03:04.244308Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.4rc1": [
+      {
+        "filename": "sage-conf-9.4rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2956898,
+        "upload_time": "2021-08-12T23:36:56",
+        "upload_time_iso_8601": "2021-08-12T23:36:56.422643Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.5": [
+      {
+        "filename": "sage-conf-9.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2649495,
+        "upload_time": "2022-01-30T13:58:40",
+        "upload_time_iso_8601": "2022-01-30T13:58:40.214610Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.5b6": [
+      {
+        "filename": "sage-conf-9.5b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2711844,
+        "upload_time": "2021-11-13T22:27:47",
+        "upload_time_iso_8601": "2021-11-13T22:27:47.198609Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.5rc0": [
+      {
+        "filename": "sage-conf-9.5rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2648923,
+        "upload_time": "2022-01-11T06:15:43",
+        "upload_time_iso_8601": "2022-01-11T06:15:43.853567Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.5rc0.post1": [
+      {
+        "filename": "sage-conf-9.5rc0.post1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2668049,
+        "upload_time": "2022-01-12T01:22:56",
+        "upload_time_iso_8601": "2022-01-12T01:22:56.730775Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.5rc1": [
+      {
+        "filename": "sage-conf-9.5rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2648321,
+        "upload_time": "2022-01-13T01:26:58",
+        "upload_time_iso_8601": "2022-01-13T01:26:58.900304Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.5rc2": [
+      {
+        "filename": "sage-conf-9.5rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2648443,
+        "upload_time": "2022-01-16T16:04:38",
+        "upload_time_iso_8601": "2022-01-16T16:04:38.641892Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.5rc3": [
+      {
+        "filename": "sage-conf-9.5rc3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2648408,
+        "upload_time": "2022-01-18T22:18:59",
+        "upload_time_iso_8601": "2022-01-18T22:18:59.936083Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.5rc4": [
+      {
+        "filename": "sage-conf-9.5rc4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2648726,
+        "upload_time": "2022-01-24T21:09:32",
+        "upload_time_iso_8601": "2022-01-24T21:09:32.903533Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6": [
+      {
+        "filename": "sage-conf-9.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3246158,
+        "upload_time": "2022-05-16T04:05:25",
+        "upload_time_iso_8601": "2022-05-16T04:05:25.490024Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6b0": [
+      {
+        "filename": "sage-conf-9.6b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2652693,
+        "upload_time": "2022-02-07T01:24:55",
+        "upload_time_iso_8601": "2022-02-07T01:24:55.976980Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6b1": [
+      {
+        "filename": "sage-conf-9.6b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2655466,
+        "upload_time": "2022-02-13T11:00:16",
+        "upload_time_iso_8601": "2022-02-13T11:00:16.210226Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6b2": [
+      {
+        "filename": "sage-conf-9.6b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2656065,
+        "upload_time": "2022-02-20T22:00:12",
+        "upload_time_iso_8601": "2022-02-20T22:00:12.482273Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6b3": [
+      {
+        "filename": "sage-conf-9.6b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2656456,
+        "upload_time": "2022-02-27T23:57:05",
+        "upload_time_iso_8601": "2022-02-27T23:57:05.087175Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6b4": [
+      {
+        "filename": "sage-conf-9.6b4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2700588,
+        "upload_time": "2022-03-08T12:56:05",
+        "upload_time_iso_8601": "2022-03-08T12:56:05.547850Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6b5": [
+      {
+        "filename": "sage-conf-9.6b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2700473,
+        "upload_time": "2022-03-13T02:02:08",
+        "upload_time_iso_8601": "2022-03-13T02:02:08.769728Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6b6": [
+      {
+        "filename": "sage-conf-9.6b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3233763,
+        "upload_time": "2022-03-27T16:52:18",
+        "upload_time_iso_8601": "2022-03-27T16:52:18.079836Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6b7": [
+      {
+        "filename": "sage-conf-9.6b7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3233345,
+        "upload_time": "2022-04-02T16:55:57",
+        "upload_time_iso_8601": "2022-04-02T16:55:57.247574Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6rc0": [
+      {
+        "filename": "sage-conf-9.6rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3244438,
+        "upload_time": "2022-04-10T16:19:19",
+        "upload_time_iso_8601": "2022-04-10T16:19:19.684268Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6rc1": [
+      {
+        "filename": "sage-conf-9.6rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3244847,
+        "upload_time": "2022-04-20T04:26:45",
+        "upload_time_iso_8601": "2022-04-20T04:26:45.786275Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6rc2": [
+      {
+        "filename": "sage-conf-9.6rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3246669,
+        "upload_time": "2022-04-25T22:47:47",
+        "upload_time_iso_8601": "2022-04-25T22:47:47.482912Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6rc3": [
+      {
+        "filename": "sage-conf-9.6rc3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3247188,
+        "upload_time": "2022-04-29T23:11:42",
+        "upload_time_iso_8601": "2022-04-29T23:11:42.531901Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.6rc4": [
+      {
+        "filename": "sage-conf-9.6rc4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3246335,
+        "upload_time": "2022-05-13T05:01:24",
+        "upload_time_iso_8601": "2022-05-13T05:01:24.643627Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.7": [
+      {
+        "filename": "sage-conf-9.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3287113,
+        "upload_time": "2022-09-20T00:29:05",
+        "upload_time_iso_8601": "2022-09-20T00:29:05.808239Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.7b0": [
+      {
+        "filename": "sage-conf-9.7b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3239912,
+        "upload_time": "2022-05-22T10:16:02",
+        "upload_time_iso_8601": "2022-05-22T10:16:02.893630Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.7b3": [
+      {
+        "filename": "sage-conf-9.7b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3240093,
+        "upload_time": "2022-06-19T15:41:45",
+        "upload_time_iso_8601": "2022-06-19T15:41:45.622889Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.7b4": [
+      {
+        "filename": "sage-conf-9.7b4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3244034,
+        "upload_time": "2022-07-08T06:52:07",
+        "upload_time_iso_8601": "2022-07-08T06:52:07.235878Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.7b5": [
+      {
+        "filename": "sage-conf-9.7b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3246728,
+        "upload_time": "2022-07-10T23:23:50",
+        "upload_time_iso_8601": "2022-07-10T23:23:50.284912Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.7b6": [
+      {
+        "filename": "sage-conf-9.7b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3247304,
+        "upload_time": "2022-07-24T12:36:44",
+        "upload_time_iso_8601": "2022-07-24T12:36:44.321098Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.7b7": [
+      {
+        "filename": "sage-conf-9.7b7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3253109,
+        "upload_time": "2022-08-01T22:55:41",
+        "upload_time_iso_8601": "2022-08-01T22:55:41.328103Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.7b8": [
+      {
+        "filename": "sage-conf-9.7b8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3259428,
+        "upload_time": "2022-08-07T23:18:50",
+        "upload_time_iso_8601": "2022-08-07T23:18:50.564920Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.7rc0": [
+      {
+        "filename": "sage-conf-9.7rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3267413,
+        "upload_time": "2022-08-31T05:01:54",
+        "upload_time_iso_8601": "2022-08-31T05:01:54.294072Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.7rc1": [
+      {
+        "filename": "sage-conf-9.7rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3287263,
+        "upload_time": "2022-09-08T00:44:03",
+        "upload_time_iso_8601": "2022-09-08T00:44:03.087714Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.7rc2": [
+      {
+        "filename": "sage-conf-9.7rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3287716,
+        "upload_time": "2022-09-17T11:11:53",
+        "upload_time_iso_8601": "2022-09-17T11:11:53.510109Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.8": [
+      {
+        "filename": "sage-conf-9.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3434868,
+        "upload_time": "2023-02-11T22:47:32",
+        "upload_time_iso_8601": "2023-02-11T22:47:32.856449Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.8b0": [
+      {
+        "filename": "sage-conf-9.8b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3294511,
+        "upload_time": "2022-09-25T19:04:50",
+        "upload_time_iso_8601": "2022-09-25T19:04:50.146215Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.8b1": [
+      {
+        "filename": "sage-conf-9.8b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3299188,
+        "upload_time": "2022-09-29T22:00:12",
+        "upload_time_iso_8601": "2022-09-29T22:00:12.433443Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.8b2": [
+      {
+        "filename": "sage-conf-9.8b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3292148,
+        "upload_time": "2022-10-16T22:44:54",
+        "upload_time_iso_8601": "2022-10-16T22:44:54.464473Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.8b3": [
+      {
+        "filename": "sage-conf-9.8b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3414250,
+        "upload_time": "2022-10-30T11:06:51",
+        "upload_time_iso_8601": "2022-10-30T11:06:51.468603Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.8b4": [
+      {
+        "filename": "sage-conf-9.8b4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3417851,
+        "upload_time": "2022-11-21T23:21:18",
+        "upload_time_iso_8601": "2022-11-21T23:21:18.912701Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.8b5": [
+      {
+        "filename": "sage-conf-9.8b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3425794,
+        "upload_time": "2022-12-11T11:58:45",
+        "upload_time_iso_8601": "2022-12-11T11:58:45.048994Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.8b6": [
+      {
+        "filename": "sage-conf-9.8b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3421767,
+        "upload_time": "2022-12-21T18:51:42",
+        "upload_time_iso_8601": "2022-12-21T18:51:42.354604Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.8b7": [
+      {
+        "filename": "sage-conf-9.8b7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3432542,
+        "upload_time": "2023-01-19T06:52:12",
+        "upload_time_iso_8601": "2023-01-19T06:52:12.802882Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "9.8rc0": [
+      {
+        "filename": "sage-conf-9.8rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3434823,
+        "upload_time": "2023-01-29T23:47:35",
+        "upload_time_iso_8601": "2023-01-29T23:47:35.635702Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

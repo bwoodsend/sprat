@@ -1,0 +1,423 @@
+{
+  "info": {
+    "author": "Giorgio Alberto Lucia, Roberta Ferioli",
+    "author_email": "giogioalberto@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Classifier",
+      "Description",
+      "Description-Content-Type",
+      "Home-Page",
+      "Provides-Extra",
+      "Requires-Dist",
+      "Requires-Python",
+      "Summary"
+    ],
+    "home_page": "https://github.com/GiorgioAlbertoLucia/torchic",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "torchic",
+    "package_url": "https://pypi.org/project/torchic/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/torchic/",
+    "project_urls": {
+      "Homepage": "https://github.com/GiorgioAlbertoLucia/torchic"
+    },
+    "provides_extra": [
+      "root"
+    ],
+    "release_url": "https://pypi.org/project/torchic/0.5.9/",
+    "requires_dist": [
+      "numpy<2.0",
+      "pandas",
+      "scikit-learn",
+      "pyYAML",
+      "uproot",
+      "ROOT; extra == \"root\""
+    ],
+    "requires_python": ">=3.6",
+    "summary": "A Python library for data analysis in python and ROOT (tailored for high energy physics)",
+    "version": "0.5.9",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27714613,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "torchic-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27439,
+        "upload_time": "2024-10-25T21:07:54",
+        "upload_time_iso_8601": "2024-10-25T21:07:54.526840Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 24862,
+        "upload_time": "2024-10-25T21:07:56",
+        "upload_time_iso_8601": "2024-10-25T21:07:56.382286Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "torchic-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 28753,
+        "upload_time": "2024-10-27T21:58:58",
+        "upload_time_iso_8601": "2024-10-27T21:58:58.704881Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 26099,
+        "upload_time": "2024-10-27T21:58:59",
+        "upload_time_iso_8601": "2024-10-27T21:58:59.897805Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "torchic-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 29492,
+        "upload_time": "2024-10-27T22:45:51",
+        "upload_time_iso_8601": "2024-10-27T22:45:51.415607Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 26375,
+        "upload_time": "2024-10-27T22:45:52",
+        "upload_time_iso_8601": "2024-10-27T22:45:52.861984Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "torchic-0.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 34489,
+        "upload_time": "2024-11-01T22:21:14",
+        "upload_time_iso_8601": "2024-11-01T22:21:14.966775Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 30104,
+        "upload_time": "2024-11-01T22:21:16",
+        "upload_time_iso_8601": "2024-11-01T22:21:16.481783Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.1": [
+      {
+        "filename": "torchic-0.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 34437,
+        "upload_time": "2024-11-01T22:32:11",
+        "upload_time_iso_8601": "2024-11-01T22:32:11.180373Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 30046,
+        "upload_time": "2024-11-01T22:32:12",
+        "upload_time_iso_8601": "2024-11-01T22:32:12.821753Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.2": [
+      {
+        "filename": "torchic-0.4.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 34422,
+        "upload_time": "2024-11-04T08:36:27",
+        "upload_time_iso_8601": "2024-11-04T08:36:27.915528Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 30036,
+        "upload_time": "2024-11-04T08:36:29",
+        "upload_time_iso_8601": "2024-11-04T08:36:29.380611Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.1": [
+      {
+        "filename": "torchic-0.5.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 40321,
+        "upload_time": "2024-12-05T11:18:40",
+        "upload_time_iso_8601": "2024-12-05T11:18:40.064887Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.5.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 35150,
+        "upload_time": "2024-12-05T11:18:41",
+        "upload_time_iso_8601": "2024-12-05T11:18:41.792072Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.2": [
+      {
+        "filename": "torchic-0.5.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 40316,
+        "upload_time": "2024-12-06T09:41:02",
+        "upload_time_iso_8601": "2024-12-06T09:41:02.611050Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.5.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 35107,
+        "upload_time": "2024-12-06T09:41:04",
+        "upload_time_iso_8601": "2024-12-06T09:41:04.472966Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.3": [
+      {
+        "filename": "torchic-0.5.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 42798,
+        "upload_time": "2025-01-21T17:16:40",
+        "upload_time_iso_8601": "2025-01-21T17:16:40.824657Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.5.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 37382,
+        "upload_time": "2025-01-21T17:16:42",
+        "upload_time_iso_8601": "2025-01-21T17:16:42.613834Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.4": [
+      {
+        "filename": "torchic-0.5.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 42819,
+        "upload_time": "2025-01-21T19:20:03",
+        "upload_time_iso_8601": "2025-01-21T19:20:03.709448Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.5.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 37396,
+        "upload_time": "2025-01-21T19:20:06",
+        "upload_time_iso_8601": "2025-01-21T19:20:06.061725Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.5": [
+      {
+        "filename": "torchic-0.5.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 43325,
+        "upload_time": "2025-01-22T17:01:55",
+        "upload_time_iso_8601": "2025-01-22T17:01:55.402266Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.5.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 37877,
+        "upload_time": "2025-01-22T17:01:57",
+        "upload_time_iso_8601": "2025-01-22T17:01:57.039824Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.6": [
+      {
+        "filename": "torchic-0.5.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 43385,
+        "upload_time": "2025-01-25T08:12:58",
+        "upload_time_iso_8601": "2025-01-25T08:12:58.584309Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.5.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 37950,
+        "upload_time": "2025-01-25T08:13:00",
+        "upload_time_iso_8601": "2025-01-25T08:13:00.589578Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.8": [
+      {
+        "filename": "torchic-0.5.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 44164,
+        "upload_time": "2025-02-09T21:53:35",
+        "upload_time_iso_8601": "2025-02-09T21:53:35.601795Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.5.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 38613,
+        "upload_time": "2025-02-09T21:53:37",
+        "upload_time_iso_8601": "2025-02-09T21:53:37.627652Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.9": [
+      {
+        "filename": "torchic-0.5.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 44275,
+        "upload_time": "2025-03-01T17:48:38",
+        "upload_time_iso_8601": "2025-03-01T17:48:38.553105Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "torchic-0.5.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 38736,
+        "upload_time": "2025-03-01T17:48:40",
+        "upload_time_iso_8601": "2025-03-01T17:48:40.737505Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

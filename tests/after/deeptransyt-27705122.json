@@ -1,0 +1,364 @@
+{
+  "info": {
+    "author": "Gonçalo Apolinário Cardoso",
+    "author_email": "goncalocardoso2016@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Description",
+      "Description-Content-Type",
+      "Home-Page",
+      "License",
+      "Requires-Dist",
+      "Requires-Python",
+      "Summary"
+    ],
+    "home_page": "https://github.com/Apolinario8/deeptransyt",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "deeptransyt",
+    "package_url": "https://pypi.org/project/deeptransyt/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/deeptransyt/",
+    "project_urls": {
+      "Homepage": "https://github.com/Apolinario8/deeptransyt"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/deeptransyt/0.0.13/",
+    "requires_dist": [
+      "Bio==1.6.2",
+      "numpy==1.24.4",
+      "pandas==2.0.3",
+      "pytorch_lightning==2.4.0",
+      "torch==2.4.1",
+      "transformers==4.46.3"
+    ],
+    "requires_python": ">=3.8",
+    "summary": "Transporters annotation using LLM's",
+    "version": "0.0.13",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27705122,
+  "releases": {
+    "0.0.1": [
+      {
+        "filename": "deeptransyt-0.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 7593,
+        "upload_time": "2024-09-19T00:01:31",
+        "upload_time_iso_8601": "2024-09-19T00:01:31.596077Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 6260,
+        "upload_time": "2024-09-19T00:01:33",
+        "upload_time_iso_8601": "2024-09-19T00:01:33.719444Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.10": [
+      {
+        "filename": "deeptransyt-0.0.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 9197,
+        "upload_time": "2024-09-30T13:44:40",
+        "upload_time_iso_8601": "2024-09-30T13:44:40.966726Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7950,
+        "upload_time": "2024-09-30T13:44:42",
+        "upload_time_iso_8601": "2024-09-30T13:44:42.366184Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.11": [
+      {
+        "filename": "deeptransyt-0.0.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 9307,
+        "upload_time": "2024-09-30T15:00:44",
+        "upload_time_iso_8601": "2024-09-30T15:00:44.504999Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 8052,
+        "upload_time": "2024-09-30T15:00:46",
+        "upload_time_iso_8601": "2024-09-30T15:00:46.323677Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.12": [
+      {
+        "filename": "deeptransyt-0.0.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 10519,
+        "upload_time": "2025-02-26T14:44:47",
+        "upload_time_iso_8601": "2025-02-26T14:44:47.741235Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 8681,
+        "upload_time": "2025-02-26T14:44:49",
+        "upload_time_iso_8601": "2025-02-26T14:44:49.600054Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.13": [
+      {
+        "filename": "deeptransyt-0.0.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 12202,
+        "upload_time": "2025-02-28T21:36:19",
+        "upload_time_iso_8601": "2025-02-28T21:36:19.681125Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 10967,
+        "upload_time": "2025-02-28T21:36:21",
+        "upload_time_iso_8601": "2025-02-28T21:36:21.444979Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.2": [
+      {
+        "filename": "deeptransyt-0.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 7672,
+        "upload_time": "2024-09-19T00:07:12",
+        "upload_time_iso_8601": "2024-09-19T00:07:12.310652Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 6511,
+        "upload_time": "2024-09-19T00:07:13",
+        "upload_time_iso_8601": "2024-09-19T00:07:13.686768Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.3": [
+      {
+        "filename": "deeptransyt-0.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 7660,
+        "upload_time": "2024-09-19T00:17:22",
+        "upload_time_iso_8601": "2024-09-19T00:17:22.717411Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 6530,
+        "upload_time": "2024-09-19T00:17:23",
+        "upload_time_iso_8601": "2024-09-19T00:17:23.693652Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.4": [
+      {
+        "filename": "deeptransyt-0.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 7676,
+        "upload_time": "2024-09-19T16:07:13",
+        "upload_time_iso_8601": "2024-09-19T16:07:13.911091Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 6548,
+        "upload_time": "2024-09-19T16:07:15",
+        "upload_time_iso_8601": "2024-09-19T16:07:15.229548Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.5": [
+      {
+        "filename": "deeptransyt-0.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 8111,
+        "upload_time": "2024-09-19T18:05:28",
+        "upload_time_iso_8601": "2024-09-19T18:05:28.455183Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 6982,
+        "upload_time": "2024-09-19T18:05:29",
+        "upload_time_iso_8601": "2024-09-19T18:05:29.645879Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.6": [
+      {
+        "filename": "deeptransyt-0.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 8425,
+        "upload_time": "2024-09-19T19:41:19",
+        "upload_time_iso_8601": "2024-09-19T19:41:19.614096Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7240,
+        "upload_time": "2024-09-19T19:41:21",
+        "upload_time_iso_8601": "2024-09-19T19:41:21.002118Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.7": [
+      {
+        "filename": "deeptransyt-0.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 8423,
+        "upload_time": "2024-09-19T20:20:07",
+        "upload_time_iso_8601": "2024-09-19T20:20:07.253138Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7231,
+        "upload_time": "2024-09-19T20:20:08",
+        "upload_time_iso_8601": "2024-09-19T20:20:08.101869Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.8": [
+      {
+        "filename": "deeptransyt-0.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 8422,
+        "upload_time": "2024-09-19T20:43:35",
+        "upload_time_iso_8601": "2024-09-19T20:43:35.958104Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "deeptransyt-0.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7236,
+        "upload_time": "2024-09-19T20:43:37",
+        "upload_time_iso_8601": "2024-09-19T20:43:37.277029Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

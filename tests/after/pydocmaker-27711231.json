@@ -1,0 +1,560 @@
+{
+  "info": {
+    "author": "Tobias Glaubach",
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/TobiasGlaubach/pydocmaker",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "pydocmaker",
+    "package_url": "https://pypi.org/project/pydocmaker/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/pydocmaker/",
+    "project_urls": {
+      "Bug Tracker": "https://github.com/TobiasGlaubach/pydocmaker/issues",
+      "Homepage": "https://github.com/TobiasGlaubach/pydocmaker"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/pydocmaker/2.2.7/",
+    "requires_dist": null,
+    "requires_python": ">=3.8",
+    "summary": "a minimal document maker to make docx, markdown, html, textile, redmine, and tex documents from python. Written in pure python.",
+    "version": "2.2.7",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27711231,
+  "releases": {
+    "1.0.0": [
+      {
+        "filename": "pydocmaker-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 8997,
+        "upload_time": "2024-09-03T22:12:52",
+        "upload_time_iso_8601": "2024-09-03T22:12:52.379251Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "pydocmaker-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 15957,
+        "upload_time": "2024-09-04T13:16:33",
+        "upload_time_iso_8601": "2024-09-04T13:16:33.917168Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1": [
+      {
+        "filename": "pydocmaker-1.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 16600,
+        "upload_time": "2024-09-04T13:33:45",
+        "upload_time_iso_8601": "2024-09-04T13:33:45.170282Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.2": [
+      {
+        "filename": "pydocmaker-1.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 16764,
+        "upload_time": "2024-09-04T13:38:38",
+        "upload_time_iso_8601": "2024-09-04T13:38:38.059044Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.3": [
+      {
+        "filename": "pydocmaker-1.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 22877,
+        "upload_time": "2024-09-04T13:42:02",
+        "upload_time_iso_8601": "2024-09-04T13:42:02.005500Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.4": [
+      {
+        "filename": "pydocmaker-1.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 22960,
+        "upload_time": "2024-09-04T13:51:28",
+        "upload_time_iso_8601": "2024-09-04T13:51:28.186299Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "pydocmaker-1.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 23854,
+        "upload_time": "2024-09-04T15:17:57",
+        "upload_time_iso_8601": "2024-09-04T15:17:57.416099Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.0": [
+      {
+        "filename": "pydocmaker-1.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 28427,
+        "upload_time": "2024-09-05T11:58:29",
+        "upload_time_iso_8601": "2024-09-05T11:58:29.692090Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.1": [
+      {
+        "filename": "pydocmaker-1.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 30883,
+        "upload_time": "2024-09-05T13:55:59",
+        "upload_time_iso_8601": "2024-09-05T13:55:59.570457Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.2": [
+      {
+        "filename": "pydocmaker-1.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 30853,
+        "upload_time": "2024-09-05T15:33:12",
+        "upload_time_iso_8601": "2024-09-05T15:33:12.060883Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.3": [
+      {
+        "filename": "pydocmaker-1.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 31192,
+        "upload_time": "2024-09-05T15:42:02",
+        "upload_time_iso_8601": "2024-09-05T15:42:02.372121Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.4": [
+      {
+        "filename": "pydocmaker-1.3.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 31270,
+        "upload_time": "2024-09-05T20:22:14",
+        "upload_time_iso_8601": "2024-09-05T20:22:14.359638Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.5": [
+      {
+        "filename": "pydocmaker-1.3.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 31220,
+        "upload_time": "2024-09-07T06:34:10",
+        "upload_time_iso_8601": "2024-09-07T06:34:10.744217Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.6": [
+      {
+        "filename": "pydocmaker-1.3.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 31320,
+        "upload_time": "2024-09-11T07:01:07",
+        "upload_time_iso_8601": "2024-09-11T07:01:07.922909Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.7": [
+      {
+        "filename": "pydocmaker-1.3.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 31507,
+        "upload_time": "2024-11-14T15:08:01",
+        "upload_time_iso_8601": "2024-11-14T15:08:01.540453Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.8": [
+      {
+        "filename": "pydocmaker-1.3.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 31604,
+        "upload_time": "2024-11-14T15:16:01",
+        "upload_time_iso_8601": "2024-11-14T15:16:01.785908Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.9": [
+      {
+        "filename": "pydocmaker-1.3.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 31918,
+        "upload_time": "2025-01-29T15:41:11",
+        "upload_time_iso_8601": "2025-01-29T15:41:11.438671Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.0": [
+      {
+        "filename": "pydocmaker-1.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 32353,
+        "upload_time": "2025-01-31T22:48:24",
+        "upload_time_iso_8601": "2025-01-31T22:48:24.049929Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.1": [
+      {
+        "filename": "pydocmaker-1.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 32378,
+        "upload_time": "2025-02-01T13:04:09",
+        "upload_time_iso_8601": "2025-02-01T13:04:09.436356Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.2": [
+      {
+        "filename": "pydocmaker-1.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 32321,
+        "upload_time": "2025-02-07T19:38:47",
+        "upload_time_iso_8601": "2025-02-07T19:38:47.762346Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.3": [
+      {
+        "filename": "pydocmaker-1.4.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 32432,
+        "upload_time": "2025-02-08T00:04:32",
+        "upload_time_iso_8601": "2025-02-08T00:04:32.668384Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.0": [
+      {
+        "filename": "pydocmaker-2.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 42994,
+        "upload_time": "2025-02-14T12:36:56",
+        "upload_time_iso_8601": "2025-02-14T12:36:56.681665Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.0": [
+      {
+        "filename": "pydocmaker-2.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 44089,
+        "upload_time": "2025-02-19T15:27:21",
+        "upload_time_iso_8601": "2025-02-19T15:27:21.804561Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.1": [
+      {
+        "filename": "pydocmaker-2.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46102,
+        "upload_time": "2025-02-19T20:31:30",
+        "upload_time_iso_8601": "2025-02-19T20:31:30.724508Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.2": [
+      {
+        "filename": "pydocmaker-2.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47548,
+        "upload_time": "2025-02-20T11:34:35",
+        "upload_time_iso_8601": "2025-02-20T11:34:35.323441Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.3": [
+      {
+        "filename": "pydocmaker-2.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47580,
+        "upload_time": "2025-02-20T13:36:12",
+        "upload_time_iso_8601": "2025-02-20T13:36:12.256799Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.4": [
+      {
+        "filename": "pydocmaker-2.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47584,
+        "upload_time": "2025-02-21T10:55:29",
+        "upload_time_iso_8601": "2025-02-21T10:55:29.843427Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.5": [
+      {
+        "filename": "pydocmaker-2.1.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 50418,
+        "upload_time": "2025-02-23T17:15:13",
+        "upload_time_iso_8601": "2025-02-23T17:15:13.472877Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.6": [
+      {
+        "filename": "pydocmaker-2.1.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 51239,
+        "upload_time": "2025-02-24T06:26:40",
+        "upload_time_iso_8601": "2025-02-24T06:26:40.710390Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.7": [
+      {
+        "filename": "pydocmaker-2.1.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 51245,
+        "upload_time": "2025-02-24T10:49:01",
+        "upload_time_iso_8601": "2025-02-24T10:49:01.944848Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.0": [
+      {
+        "filename": "pydocmaker-2.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 54990,
+        "upload_time": "2025-02-27T13:41:00",
+        "upload_time_iso_8601": "2025-02-27T13:41:00.060545Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.1": [
+      {
+        "filename": "pydocmaker-2.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 56581,
+        "upload_time": "2025-02-27T15:58:08",
+        "upload_time_iso_8601": "2025-02-27T15:58:08.027804Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.2": [
+      {
+        "filename": "pydocmaker-2.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 56567,
+        "upload_time": "2025-02-27T16:17:51",
+        "upload_time_iso_8601": "2025-02-27T16:17:51.633844Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.3": [
+      {
+        "filename": "pydocmaker-2.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 56583,
+        "upload_time": "2025-02-27T17:11:20",
+        "upload_time_iso_8601": "2025-02-27T17:11:20.176092Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.5": [
+      {
+        "filename": "pydocmaker-2.2.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 57206,
+        "upload_time": "2025-03-01T10:11:13",
+        "upload_time_iso_8601": "2025-03-01T10:11:13.210233Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.6": [
+      {
+        "filename": "pydocmaker-2.2.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 57220,
+        "upload_time": "2025-03-01T10:24:26",
+        "upload_time_iso_8601": "2025-03-01T10:24:26.437536Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.7": [
+      {
+        "filename": "pydocmaker-2.2.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 57228,
+        "upload_time": "2025-03-01T10:29:37",
+        "upload_time_iso_8601": "2025-03-01T10:29:37.073813Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

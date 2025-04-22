@@ -132,9 +132,17 @@ def sanitize(string, bad_characters):
         raise SanitationError(f"{repr(string)} contains illegal characters {pattern.findall(string)}")
 
 
+def load_json(path):
+    path = Path(path)
+    if path.name.endswith("gz"):
+        return json.loads(gzip.decompress(path.read_bytes()))
+    else:
+        return json.loads(path.read_bytes())
+
+
 def main(output, files):
     for file in map(Path, files):
-        source = json.loads(gzip.decompress(file.read_bytes()))
+        source = load_json(file)
         try:
             package = UpstreamPackage._from_json(split_path(file)[0], source)
         except SanitationError as ex:
@@ -169,7 +177,7 @@ def update(old_database, new_database, files):
                     packages[id]._update(block)
                 else:
                     packages[id] = sprat.Package.parse(id, block)
-            except sprat.PackageDeleted:
+            except sprat._database.PackageDeleted:
                 packages.pop(id, None)
     try:
         if new_database:
@@ -180,7 +188,7 @@ def update(old_database, new_database, files):
             name, _ = split_path(file)
             id = sprat.sluggify(name)
             old = packages.get(id, UpstreamPackage.null)
-            new_data = json.loads(gzip.decompress(file.read_bytes()))
+            new_data = load_json(file)
             if new_data.get("empty"):
                 if old is not UpstreamPackage.null:
                     delta = [("n", id), ("N", "")]
@@ -206,16 +214,16 @@ def sort_key(path):
 
 
 def split_path(path):
-    match = re.fullmatch(r"(.+)-(\d+).jsongz", path.name)
+    match = re.fullmatch(r"(.+)-(\d+).json(gz)?", path.name)
     return match[1], int(match[2])
 
 
-def cli():
+def cli(args=None):
     parser = argparse.ArgumentParser()
     parser.add_argument("files", nargs="*")
     parser.add_argument("--output", "-o")
     parser.add_argument("--update")
-    options = parser.parse_args()
+    options = parser.parse_args(args)
     options.files = [Path(i) for i in options.files] or list(Path("pypi").glob("*.jsongz"))
     options.files = sorted(options.files, key=sort_key)
     if options.update:

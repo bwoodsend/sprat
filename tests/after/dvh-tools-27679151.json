@@ -1,0 +1,1322 @@
+{
+  "info": {
+    "author": "NAV",
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "dvh-tools",
+    "package_url": "https://pypi.org/project/dvh-tools/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/dvh-tools/",
+    "project_urls": {
+      "Repository": "https://github.com/navikt/dvh-tools"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/dvh-tools/0.10.5/",
+    "requires_dist": [
+      "google-cloud-bigquery<4.0.0,>=3.29.0",
+      "google-cloud-secret-manager<3.0.0,>=2.22.1",
+      "google-cloud-storage<4.0.0,>=3.0.0",
+      "loguru<0.8.0,>=0.7.3",
+      "oracledb<3.0.0,>=2.5.1",
+      "pandas<3.0.0,>=2.2.3",
+      "toml<0.11.0,>=0.10.2"
+    ],
+    "requires_python": "<4.0,>=3.12",
+    "summary": null,
+    "version": "0.10.5",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27679151,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "dvh_tools-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19083,
+        "upload_time": "2024-06-03T10:41:54",
+        "upload_time_iso_8601": "2024-06-03T10:41:54.391461Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 14224,
+        "upload_time": "2024-06-03T10:41:55",
+        "upload_time_iso_8601": "2024-06-03T10:41:55.802866Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.0": [
+      {
+        "filename": "dvh_tools-0.10.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 29424,
+        "upload_time": "2024-10-11T05:52:18",
+        "upload_time_iso_8601": "2024-10-11T05:52:18.212560Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.10.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 23140,
+        "upload_time": "2024-10-11T05:52:19",
+        "upload_time_iso_8601": "2024-10-11T05:52:19.134734Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.1": [
+      {
+        "filename": "dvh_tools-0.10.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 29421,
+        "upload_time": "2024-10-11T08:56:03",
+        "upload_time_iso_8601": "2024-10-11T08:56:03.968535Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.10.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 23146,
+        "upload_time": "2024-10-11T08:56:04",
+        "upload_time_iso_8601": "2024-10-11T08:56:04.981711Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.2": [
+      {
+        "filename": "dvh_tools-0.10.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 29751,
+        "upload_time": "2024-10-11T12:48:01",
+        "upload_time_iso_8601": "2024-10-11T12:48:01.312256Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.10.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 23453,
+        "upload_time": "2024-10-11T12:48:02",
+        "upload_time_iso_8601": "2024-10-11T12:48:02.698656Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.3": [
+      {
+        "filename": "dvh_tools-0.10.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 32757,
+        "upload_time": "2024-12-09T10:31:59",
+        "upload_time_iso_8601": "2024-12-09T10:31:59.281574Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.10.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 25325,
+        "upload_time": "2024-12-09T10:32:00",
+        "upload_time_iso_8601": "2024-12-09T10:32:00.544687Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.4": [
+      {
+        "filename": "dvh_tools-0.10.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.12",
+        "size": 32726,
+        "upload_time": "2025-02-12T11:44:33",
+        "upload_time_iso_8601": "2025-02-12T11:44:33.403229Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.10.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.12",
+        "size": 24795,
+        "upload_time": "2025-02-12T11:44:35",
+        "upload_time_iso_8601": "2025-02-12T11:44:35.131367Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.5": [
+      {
+        "filename": "dvh_tools-0.10.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.12",
+        "size": 32827,
+        "upload_time": "2025-02-27T13:57:10",
+        "upload_time_iso_8601": "2025-02-27T13:57:10.346947Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.10.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.12",
+        "size": 24882,
+        "upload_time": "2025-02-27T13:57:11",
+        "upload_time_iso_8601": "2025-02-27T13:57:11.687324Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "dvh_tools-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19283,
+        "upload_time": "2024-06-04T08:51:03",
+        "upload_time_iso_8601": "2024-06-04T08:51:03.090398Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 14620,
+        "upload_time": "2024-06-04T08:51:08",
+        "upload_time_iso_8601": "2024-06-04T08:51:08.415111Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "dvh_tools-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19191,
+        "upload_time": "2024-06-10T13:32:23",
+        "upload_time_iso_8601": "2024-06-10T13:32:23.646585Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 14555,
+        "upload_time": "2024-06-10T13:32:25",
+        "upload_time_iso_8601": "2024-06-10T13:32:25.068708Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "dvh_tools-0.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19310,
+        "upload_time": "2024-06-13T13:40:02",
+        "upload_time_iso_8601": "2024-06-13T13:40:02.547336Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 14646,
+        "upload_time": "2024-06-13T13:40:04",
+        "upload_time_iso_8601": "2024-06-13T13:40:04.670763Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.1": [
+      {
+        "filename": "dvh_tools-0.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19518,
+        "upload_time": "2024-06-19T08:43:34",
+        "upload_time_iso_8601": "2024-06-19T08:43:34.034643Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 14698,
+        "upload_time": "2024-06-19T08:43:56",
+        "upload_time_iso_8601": "2024-06-19T08:43:56.634555Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.0": [
+      {
+        "filename": "dvh_tools-0.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19434,
+        "upload_time": "2024-06-25T14:09:06",
+        "upload_time_iso_8601": "2024-06-25T14:09:06.743219Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 14701,
+        "upload_time": "2024-06-25T14:09:07",
+        "upload_time_iso_8601": "2024-06-25T14:09:07.841144Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.1": [
+      {
+        "filename": "dvh_tools-0.5.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19602,
+        "upload_time": "2024-06-25T14:24:42",
+        "upload_time_iso_8601": "2024-06-25T14:24:42.388489Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.5.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 14851,
+        "upload_time": "2024-06-25T14:24:44",
+        "upload_time_iso_8601": "2024-06-25T14:24:44.012930Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.2": [
+      {
+        "filename": "dvh_tools-0.5.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19606,
+        "upload_time": "2024-06-25T14:31:06",
+        "upload_time_iso_8601": "2024-06-25T14:31:06.603491Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.5.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 14847,
+        "upload_time": "2024-06-25T14:31:07",
+        "upload_time_iso_8601": "2024-06-25T14:31:07.861685Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.3": [
+      {
+        "filename": "dvh_tools-0.5.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19789,
+        "upload_time": "2024-06-25T14:45:16",
+        "upload_time_iso_8601": "2024-06-25T14:45:16.916236Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.5.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 14917,
+        "upload_time": "2024-06-25T14:45:18",
+        "upload_time_iso_8601": "2024-06-25T14:45:18.572284Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.4": [
+      {
+        "filename": "dvh_tools-0.5.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19628,
+        "upload_time": "2024-06-25T17:20:21",
+        "upload_time_iso_8601": "2024-06-25T17:20:21.490150Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.5.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 14778,
+        "upload_time": "2024-06-25T17:20:23",
+        "upload_time_iso_8601": "2024-06-25T17:20:23.522763Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.5": [
+      {
+        "filename": "dvh_tools-0.5.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19819,
+        "upload_time": "2024-06-27T07:41:44",
+        "upload_time_iso_8601": "2024-06-27T07:41:44.026901Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.5.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 14989,
+        "upload_time": "2024-06-27T07:41:45",
+        "upload_time_iso_8601": "2024-06-27T07:41:45.645616Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.6": [
+      {
+        "filename": "dvh_tools-0.5.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19902,
+        "upload_time": "2024-06-27T09:36:56",
+        "upload_time_iso_8601": "2024-06-27T09:36:56.822165Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.5.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 15143,
+        "upload_time": "2024-06-27T09:36:58",
+        "upload_time_iso_8601": "2024-06-27T09:36:58.121408Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.7": [
+      {
+        "filename": "dvh_tools-0.5.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19912,
+        "upload_time": "2024-06-27T09:44:00",
+        "upload_time_iso_8601": "2024-06-27T09:44:00.513080Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.5.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 15160,
+        "upload_time": "2024-06-27T09:44:02",
+        "upload_time_iso_8601": "2024-06-27T09:44:02.081538Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.8": [
+      {
+        "filename": "dvh_tools-0.5.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19913,
+        "upload_time": "2024-06-27T09:45:56",
+        "upload_time_iso_8601": "2024-06-27T09:45:56.014313Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.5.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 15181,
+        "upload_time": "2024-06-27T09:45:57",
+        "upload_time_iso_8601": "2024-06-27T09:45:57.687551Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.9": [
+      {
+        "filename": "dvh_tools-0.5.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 19917,
+        "upload_time": "2024-06-27T09:53:59",
+        "upload_time_iso_8601": "2024-06-27T09:53:59.033534Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.5.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 15165,
+        "upload_time": "2024-06-27T09:54:00",
+        "upload_time_iso_8601": "2024-06-27T09:54:00.720424Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.0": [
+      {
+        "filename": "dvh_tools-0.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 20496,
+        "upload_time": "2024-07-09T10:16:45",
+        "upload_time_iso_8601": "2024-07-09T10:16:45.349852Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 15698,
+        "upload_time": "2024-07-09T10:16:47",
+        "upload_time_iso_8601": "2024-07-09T10:16:47.135800Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.1": [
+      {
+        "filename": "dvh_tools-0.6.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 20495,
+        "upload_time": "2024-07-09T10:24:40",
+        "upload_time_iso_8601": "2024-07-09T10:24:40.458442Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.6.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 15687,
+        "upload_time": "2024-07-09T10:24:41",
+        "upload_time_iso_8601": "2024-07-09T10:24:41.904411Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.0": [
+      {
+        "filename": "dvh_tools-0.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 20634,
+        "upload_time": "2024-07-10T16:50:20",
+        "upload_time_iso_8601": "2024-07-10T16:50:20.713457Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 15693,
+        "upload_time": "2024-07-10T16:50:21",
+        "upload_time_iso_8601": "2024-07-10T16:50:21.923048Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.1": [
+      {
+        "filename": "dvh_tools-0.7.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 20651,
+        "upload_time": "2024-07-11T13:59:50",
+        "upload_time_iso_8601": "2024-07-11T13:59:50.536231Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.7.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 15692,
+        "upload_time": "2024-07-11T14:00:00",
+        "upload_time_iso_8601": "2024-07-11T14:00:00.433082Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.2": [
+      {
+        "filename": "dvh_tools-0.7.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 20693,
+        "upload_time": "2024-07-12T08:25:44",
+        "upload_time_iso_8601": "2024-07-12T08:25:44.029806Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.7.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 15726,
+        "upload_time": "2024-07-12T08:25:45",
+        "upload_time_iso_8601": "2024-07-12T08:25:45.191961Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.3": [
+      {
+        "filename": "dvh_tools-0.7.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 20701,
+        "upload_time": "2024-07-18T14:03:22",
+        "upload_time_iso_8601": "2024-07-18T14:03:22.922286Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.7.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 15740,
+        "upload_time": "2024-07-18T14:03:24",
+        "upload_time_iso_8601": "2024-07-18T14:03:24.409067Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.4": [
+      {
+        "filename": "dvh_tools-0.7.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 21149,
+        "upload_time": "2024-07-30T09:31:35",
+        "upload_time_iso_8601": "2024-07-30T09:31:35.744847Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.7.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 16184,
+        "upload_time": "2024-07-30T09:31:37",
+        "upload_time_iso_8601": "2024-07-30T09:31:37.045136Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.5": [
+      {
+        "filename": "dvh_tools-0.7.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 21020,
+        "upload_time": "2024-07-31T12:12:54",
+        "upload_time_iso_8601": "2024-07-31T12:12:54.983044Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.7.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 16047,
+        "upload_time": "2024-07-31T12:12:56",
+        "upload_time_iso_8601": "2024-07-31T12:12:56.288522Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.6": [
+      {
+        "filename": "dvh_tools-0.7.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 21021,
+        "upload_time": "2024-07-31T12:29:55",
+        "upload_time_iso_8601": "2024-07-31T12:29:55.196161Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.7.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 16066,
+        "upload_time": "2024-07-31T12:29:56",
+        "upload_time_iso_8601": "2024-07-31T12:29:56.651982Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.7": [
+      {
+        "filename": "dvh_tools-0.7.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 21165,
+        "upload_time": "2024-08-15T11:59:13",
+        "upload_time_iso_8601": "2024-08-15T11:59:13.889315Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.7.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 16175,
+        "upload_time": "2024-08-15T11:59:15",
+        "upload_time_iso_8601": "2024-08-15T11:59:15.155961Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.8": [
+      {
+        "filename": "dvh_tools-0.7.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 29755,
+        "upload_time": "2024-08-30T11:33:35",
+        "upload_time_iso_8601": "2024-08-30T11:33:35.455603Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.7.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 23514,
+        "upload_time": "2024-08-30T11:33:36",
+        "upload_time_iso_8601": "2024-08-30T11:33:36.364570Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.9": [
+      {
+        "filename": "dvh_tools-0.7.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 29698,
+        "upload_time": "2024-09-02T14:43:41",
+        "upload_time_iso_8601": "2024-09-02T14:43:41.313409Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.7.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 23467,
+        "upload_time": "2024-09-02T14:43:42",
+        "upload_time_iso_8601": "2024-09-02T14:43:42.230711Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.0": [
+      {
+        "filename": "dvh_tools-0.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 31933,
+        "upload_time": "2024-09-11T13:26:33",
+        "upload_time_iso_8601": "2024-09-11T13:26:33.619076Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 25198,
+        "upload_time": "2024-09-11T13:26:34",
+        "upload_time_iso_8601": "2024-09-11T13:26:34.896153Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.1": [
+      {
+        "filename": "dvh_tools-0.8.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 31952,
+        "upload_time": "2024-09-11T13:34:59",
+        "upload_time_iso_8601": "2024-09-11T13:34:59.318539Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.8.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 25208,
+        "upload_time": "2024-09-11T13:35:00",
+        "upload_time_iso_8601": "2024-09-11T13:35:00.878993Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.2": [
+      {
+        "filename": "dvh_tools-0.8.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 31957,
+        "upload_time": "2024-09-11T14:12:12",
+        "upload_time_iso_8601": "2024-09-11T14:12:12.357935Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.8.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 25217,
+        "upload_time": "2024-09-11T14:12:13",
+        "upload_time_iso_8601": "2024-09-11T14:12:13.383185Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.3": [
+      {
+        "filename": "dvh_tools-0.8.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 31945,
+        "upload_time": "2024-09-11T14:41:12",
+        "upload_time_iso_8601": "2024-09-11T14:41:12.714996Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.8.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 25196,
+        "upload_time": "2024-09-11T14:41:13",
+        "upload_time_iso_8601": "2024-09-11T14:41:13.672342Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.4": [
+      {
+        "filename": "dvh_tools-0.8.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 31942,
+        "upload_time": "2024-09-11T15:02:28",
+        "upload_time_iso_8601": "2024-09-11T15:02:28.899962Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.8.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 25198,
+        "upload_time": "2024-09-11T15:02:30",
+        "upload_time_iso_8601": "2024-09-11T15:02:30.296598Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.5": [
+      {
+        "filename": "dvh_tools-0.8.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 31986,
+        "upload_time": "2024-09-12T07:37:10",
+        "upload_time_iso_8601": "2024-09-12T07:37:10.692610Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.8.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 25236,
+        "upload_time": "2024-09-12T07:37:12",
+        "upload_time_iso_8601": "2024-09-12T07:37:12.901438Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.6": [
+      {
+        "filename": "dvh_tools-0.8.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 31936,
+        "upload_time": "2024-09-16T06:03:37",
+        "upload_time_iso_8601": "2024-09-16T06:03:37.880425Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.8.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 25208,
+        "upload_time": "2024-09-16T06:03:39",
+        "upload_time_iso_8601": "2024-09-16T06:03:39.077337Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.7": [
+      {
+        "filename": "dvh_tools-0.8.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 31947,
+        "upload_time": "2024-10-03T06:57:21",
+        "upload_time_iso_8601": "2024-10-03T06:57:21.675097Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.8.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 25213,
+        "upload_time": "2024-10-03T06:57:22",
+        "upload_time_iso_8601": "2024-10-03T06:57:22.869520Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.8": [
+      {
+        "filename": "dvh_tools-0.8.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 31935,
+        "upload_time": "2024-10-03T13:47:52",
+        "upload_time_iso_8601": "2024-10-03T13:47:52.805999Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.8.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 25207,
+        "upload_time": "2024-10-03T13:47:53",
+        "upload_time_iso_8601": "2024-10-03T13:47:53.823926Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.9": [
+      {
+        "filename": "dvh_tools-0.8.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 30706,
+        "upload_time": "2024-10-07T13:10:49",
+        "upload_time_iso_8601": "2024-10-07T13:10:49.503958Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.8.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 24358,
+        "upload_time": "2024-10-07T13:10:50",
+        "upload_time_iso_8601": "2024-10-07T13:10:50.538575Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0": [
+      {
+        "filename": "dvh_tools-0.9.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 30707,
+        "upload_time": "2024-10-07T13:25:52",
+        "upload_time_iso_8601": "2024-10-07T13:25:52.766992Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 24319,
+        "upload_time": "2024-10-07T13:25:53",
+        "upload_time_iso_8601": "2024-10-07T13:25:53.770317Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.1": [
+      {
+        "filename": "dvh_tools-0.9.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 30704,
+        "upload_time": "2024-10-07T15:35:36",
+        "upload_time_iso_8601": "2024-10-07T15:35:36.886512Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.9.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 24330,
+        "upload_time": "2024-10-07T15:35:38",
+        "upload_time_iso_8601": "2024-10-07T15:35:38.240467Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.2": [
+      {
+        "filename": "dvh_tools-0.9.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 30725,
+        "upload_time": "2024-10-08T13:32:15",
+        "upload_time_iso_8601": "2024-10-08T13:32:15.655826Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.9.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 24363,
+        "upload_time": "2024-10-08T13:32:17",
+        "upload_time_iso_8601": "2024-10-08T13:32:17.207997Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.3": [
+      {
+        "filename": "dvh_tools-0.9.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 30725,
+        "upload_time": "2024-10-08T14:46:49",
+        "upload_time_iso_8601": "2024-10-08T14:46:49.337836Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.9.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 24338,
+        "upload_time": "2024-10-08T14:46:50",
+        "upload_time_iso_8601": "2024-10-08T14:46:50.276669Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.4": [
+      {
+        "filename": "dvh_tools-0.9.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 30725,
+        "upload_time": "2024-10-08T14:51:23",
+        "upload_time_iso_8601": "2024-10-08T14:51:23.027478Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.9.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 24330,
+        "upload_time": "2024-10-08T14:51:24",
+        "upload_time_iso_8601": "2024-10-08T14:51:24.563735Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.5": [
+      {
+        "filename": "dvh_tools-0.9.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 30385,
+        "upload_time": "2024-10-09T09:44:07",
+        "upload_time_iso_8601": "2024-10-09T09:44:07.784288Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dvh_tools-0.9.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 24031,
+        "upload_time": "2024-10-09T09:44:08",
+        "upload_time_iso_8601": "2024-10-09T09:44:08.758226Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

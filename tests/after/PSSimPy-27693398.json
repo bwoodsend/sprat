@@ -1,0 +1,402 @@
+{
+  "info": {
+    "author": "Kenneth See, Hanzholah Shobri",
+    "author_email": "see.k@u.nus.edu, hanzhshobri@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "PSSimPy",
+    "package_url": "https://pypi.org/project/PSSimPy/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/PSSimPy/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/PSSimPy/0.1.5/",
+    "requires_dist": [
+      "numpy>=1.22.4",
+      "pandas>=2.0.0",
+      "sortedcontainers==2.4.0",
+      "simpy==4.1.1"
+    ],
+    "requires_python": null,
+    "summary": "A simulator for Large Value Payment Systems",
+    "version": "0.1.5",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27693398,
+  "releases": {
+    "0.0.0": [
+      {
+        "filename": "PSSimPy-0.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 24717,
+        "upload_time": "2024-03-19T10:47:20",
+        "upload_time_iso_8601": "2024-03-19T10:47:20.419604Z",
+        "yanked": true,
+        "yanked_reason": "Not compatible with Python <3.9"
+      },
+      {
+        "filename": "PSSimPy-0.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19167,
+        "upload_time": "2024-03-19T10:47:21",
+        "upload_time_iso_8601": "2024-03-19T10:47:21.921150Z",
+        "yanked": true,
+        "yanked_reason": "Not compatible with Python <3.9"
+      }
+    ],
+    "0.0.0a0": [
+      {
+        "filename": "PSSimPy-0.0.0a0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 24856,
+        "upload_time": "2024-03-19T11:08:22",
+        "upload_time_iso_8601": "2024-03-19T11:08:22.462030Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.0.0a0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19263,
+        "upload_time": "2024-03-19T11:08:23",
+        "upload_time_iso_8601": "2024-03-19T11:08:23.614088Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b0": [
+      {
+        "filename": "PSSimPy-0.0.0b0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 25048,
+        "upload_time": "2024-03-19T17:48:58",
+        "upload_time_iso_8601": "2024-03-19T17:48:58.611557Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.0.0b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14867,
+        "upload_time": "2024-03-19T17:48:59",
+        "upload_time_iso_8601": "2024-03-19T17:48:59.722868Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0rc0": [
+      {
+        "filename": "PSSimPy-0.0.0rc0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 25069,
+        "upload_time": "2024-03-19T18:45:22",
+        "upload_time_iso_8601": "2024-03-19T18:45:22.501380Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.0.0rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14866,
+        "upload_time": "2024-03-19T18:45:25",
+        "upload_time_iso_8601": "2024-03-19T18:45:25.604409Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0rc1": [
+      {
+        "filename": "PSSimPy-0.0.0rc1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 25088,
+        "upload_time": "2024-03-19T19:30:13",
+        "upload_time_iso_8601": "2024-03-19T19:30:13.222513Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.0.0rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14856,
+        "upload_time": "2024-03-19T19:30:15",
+        "upload_time_iso_8601": "2024-03-19T19:30:15.313611Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0rc2": [
+      {
+        "filename": "PSSimPy-0.0.0rc2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 25085,
+        "upload_time": "2024-03-19T19:47:37",
+        "upload_time_iso_8601": "2024-03-19T19:47:37.851078Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.0.0rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14847,
+        "upload_time": "2024-03-19T19:47:39",
+        "upload_time_iso_8601": "2024-03-19T19:47:39.767690Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0rc3": [
+      {
+        "filename": "PSSimPy-0.0.0rc3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 25248,
+        "upload_time": "2024-03-20T17:51:50",
+        "upload_time_iso_8601": "2024-03-20T17:51:50.207882Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.0.0rc3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 15030,
+        "upload_time": "2024-03-20T17:51:51",
+        "upload_time_iso_8601": "2024-03-20T17:51:51.832410Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0rc4": [
+      {
+        "filename": "PSSimPy-0.0.0rc4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 25329,
+        "upload_time": "2024-03-21T12:07:58",
+        "upload_time_iso_8601": "2024-03-21T12:07:58.098353Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.0.0rc4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 15050,
+        "upload_time": "2024-03-21T12:07:59",
+        "upload_time_iso_8601": "2024-03-21T12:07:59.668610Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.0": [
+      {
+        "filename": "PSSimPy-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 30584,
+        "upload_time": "2024-05-08T12:21:57",
+        "upload_time_iso_8601": "2024-05-08T12:21:57.084353Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28702,
+        "upload_time": "2024-05-08T12:21:58",
+        "upload_time_iso_8601": "2024-05-08T12:21:58.732855Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "PSSimPy-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 31763,
+        "upload_time": "2024-07-21T14:59:29",
+        "upload_time_iso_8601": "2024-07-21T14:59:29.852140Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30394,
+        "upload_time": "2024-07-21T14:59:31",
+        "upload_time_iso_8601": "2024-07-21T14:59:31.922101Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.2": [
+      {
+        "filename": "PSSimPy-0.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 31966,
+        "upload_time": "2024-09-28T15:52:22",
+        "upload_time_iso_8601": "2024-09-28T15:52:22.121912Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30623,
+        "upload_time": "2024-09-28T15:52:23",
+        "upload_time_iso_8601": "2024-09-28T15:52:23.418626Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.3": [
+      {
+        "filename": "PSSimPy-0.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 32059,
+        "upload_time": "2024-09-29T05:51:54",
+        "upload_time_iso_8601": "2024-09-29T05:51:54.075623Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30712,
+        "upload_time": "2024-09-29T05:51:55",
+        "upload_time_iso_8601": "2024-09-29T05:51:55.749894Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4": [
+      {
+        "filename": "PSSimPy-0.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 32103,
+        "upload_time": "2024-09-29T07:02:57",
+        "upload_time_iso_8601": "2024-09-29T07:02:57.714884Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30725,
+        "upload_time": "2024-09-29T07:02:59",
+        "upload_time_iso_8601": "2024-09-29T07:02:59.234947Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.5": [
+      {
+        "filename": "PSSimPy-0.1.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 32433,
+        "upload_time": "2025-02-28T07:40:25",
+        "upload_time_iso_8601": "2025-02-28T07:40:25.322682Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "PSSimPy-0.1.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 32205,
+        "upload_time": "2025-02-28T07:40:27",
+        "upload_time_iso_8601": "2025-02-28T07:40:27.028230Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "info": {
+    "author": "Matthew Ballance",
+    "author_email": "matt.ballance@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Description",
+      "Home-Page",
+      "Keywords",
+      "License",
+      "Requires-Dist",
+      "Summary"
+    ],
+    "home_page": "https://github.com/zuspec/zuspec-be-py",
+    "keywords": "PSS, Functional Verification, RTL, Verilog, SystemVerilog",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "zuspec-be-py",
+    "package_url": "https://pypi.org/project/zuspec-be-py/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/zuspec-be-py/",
+    "project_urls": {
+      "Homepage": "https://github.com/zuspec/zuspec-be-py"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/zuspec-be-py/0.0.1.13610532696/",
+    "requires_dist": [
+      "zuspec-arl-dm",
+      "zuspec-arl-eval",
+      "zuspec-fe-parser",
+      "zuspec-parser"
+    ],
+    "requires_python": null,
+    "summary": "Co-specification of hardware, software, design, and test behavior",
+    "version": "0.0.1.13610532696",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27717846,
+  "releases": {
+    "0.0.1.10703132040": [
+      {
+        "filename": "zuspec_be_py-0.0.1.10703132040-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18053,
+        "upload_time": "2024-09-04T13:56:50",
+        "upload_time_iso_8601": "2024-09-04T13:56:50.485047Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13003712741": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13003712741-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18102,
+        "upload_time": "2025-01-28T04:37:41",
+        "upload_time_iso_8601": "2025-01-28T04:37:41.519829Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13043417831": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13043417831-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18101,
+        "upload_time": "2025-01-30T00:52:41",
+        "upload_time_iso_8601": "2025-01-30T00:52:41.895998Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13083379300": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13083379300-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18101,
+        "upload_time": "2025-02-01T00:56:53",
+        "upload_time_iso_8601": "2025-02-01T00:56:53.652528Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13094076670": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13094076670-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18101,
+        "upload_time": "2025-02-02T00:56:31",
+        "upload_time_iso_8601": "2025-02-02T00:56:31.451641Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13125988621": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13125988621-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18102,
+        "upload_time": "2025-02-04T00:53:49",
+        "upload_time_iso_8601": "2025-02-04T00:53:49.269806Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13169535213": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13169535213-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18099,
+        "upload_time": "2025-02-06T00:54:35",
+        "upload_time_iso_8601": "2025-02-06T00:54:35.488793Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13210588485": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13210588485-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18102,
+        "upload_time": "2025-02-08T00:52:57",
+        "upload_time_iso_8601": "2025-02-08T00:52:57.947563Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13220846654": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13220846654-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18102,
+        "upload_time": "2025-02-09T00:57:26",
+        "upload_time_iso_8601": "2025-02-09T00:57:26.265381Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13253583869": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13253583869-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18104,
+        "upload_time": "2025-02-11T00:54:15",
+        "upload_time_iso_8601": "2025-02-11T00:54:15.343943Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13298009550": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13298009550-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18101,
+        "upload_time": "2025-02-13T00:54:54",
+        "upload_time_iso_8601": "2025-02-13T00:54:54.412250Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13321312811": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13321312811-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18099,
+        "upload_time": "2025-02-14T02:34:36",
+        "upload_time_iso_8601": "2025-02-14T02:34:36.396852Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13340097543": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13340097543-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18101,
+        "upload_time": "2025-02-15T00:53:56",
+        "upload_time_iso_8601": "2025-02-15T00:53:56.549298Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13350221364": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13350221364-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18099,
+        "upload_time": "2025-02-16T00:59:06",
+        "upload_time_iso_8601": "2025-02-16T00:59:06.645844Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13381024664": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13381024664-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18100,
+        "upload_time": "2025-02-18T00:54:21",
+        "upload_time_iso_8601": "2025-02-18T00:54:21.673238Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13425465685": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13425465685-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18102,
+        "upload_time": "2025-02-20T00:55:05",
+        "upload_time_iso_8601": "2025-02-20T00:55:05.235744Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13467841337": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13467841337-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18101,
+        "upload_time": "2025-02-22T00:53:08",
+        "upload_time_iso_8601": "2025-02-22T00:53:08.635584Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13478171870": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13478171870-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18101,
+        "upload_time": "2025-02-23T00:59:08",
+        "upload_time_iso_8601": "2025-02-23T00:59:08.102088Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13511175090": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13511175090-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18098,
+        "upload_time": "2025-02-25T00:56:21",
+        "upload_time_iso_8601": "2025-02-25T00:56:21.390204Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13556490381": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13556490381-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18102,
+        "upload_time": "2025-02-27T00:56:07",
+        "upload_time_iso_8601": "2025-02-27T00:56:07.616926Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13599243180": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13599243180-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18103,
+        "upload_time": "2025-03-01T01:00:28",
+        "upload_time_iso_8601": "2025-03-01T01:00:28.933214Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13610532696": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13610532696-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18102,
+        "upload_time": "2025-03-02T00:59:30",
+        "upload_time_iso_8601": "2025-03-02T00:59:30.759317Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.8427800336": [
+      {
+        "filename": "zuspec_be_py-0.0.1.8427800336-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18041,
+        "upload_time": "2024-03-25T22:25:10",
+        "upload_time_iso_8601": "2024-03-25T22:25:10.808100Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "floris vernieuwe <floris@vernieuwe.eu>",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "node-hermes-core",
+    "package_url": "https://pypi.org/project/node-hermes-core/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/node-hermes-core/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/node-hermes-core/1.2.0/",
+    "requires_dist": [
+      "numpy>=2.2.3",
+      "polars>=1.23.0",
+      "pydantic-yaml>=1.4.0",
+      "pydantic>=2.10.6"
+    ],
+    "requires_python": ">=3.10",
+    "summary": "Core libary for the Node Hermes project.",
+    "version": "1.2.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27725251,
+  "releases": {
+    "1.0.0": [
+      {
+        "filename": "node_hermes_core-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 27448,
+        "upload_time": "2024-10-04T21:27:45",
+        "upload_time_iso_8601": "2024-10-04T21:27:45.514552Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "node_hermes_core-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 15518,
+        "upload_time": "2024-10-04T21:27:46",
+        "upload_time_iso_8601": "2024-10-04T21:27:46.730826Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.0.post1": [
+      {
+        "filename": "node_hermes_core-1.0.0.post1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 27558,
+        "upload_time": "2024-10-04T21:59:43",
+        "upload_time_iso_8601": "2024-10-04T21:59:43.484645Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "node_hermes_core-1.0.0.post1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 15391,
+        "upload_time": "2024-10-04T21:59:45",
+        "upload_time_iso_8601": "2024-10-04T21:59:45.069531Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.1": [
+      {
+        "filename": "node_hermes_core-1.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 27503,
+        "upload_time": "2024-10-04T22:00:22",
+        "upload_time_iso_8601": "2024-10-04T22:00:22.820812Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "node_hermes_core-1.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 15384,
+        "upload_time": "2024-10-04T22:00:24",
+        "upload_time_iso_8601": "2024-10-04T22:00:24.156755Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "node_hermes_core-1.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 30023,
+        "upload_time": "2025-03-02T15:07:46",
+        "upload_time_iso_8601": "2025-03-02T15:07:46.665052Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "node_hermes_core-1.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 40914,
+        "upload_time": "2025-03-02T15:07:48",
+        "upload_time_iso_8601": "2025-03-02T15:07:48.918974Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

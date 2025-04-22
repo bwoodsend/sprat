@@ -1,0 +1,598 @@
+{
+  "info": {
+    "author": "Lovi-0",
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/Lovi-0/StreamingCommunity",
+    "keywords": "streaming community",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "StreamingCommunity",
+    "package_url": "https://pypi.org/project/StreamingCommunity/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/StreamingCommunity/",
+    "project_urls": {
+      "Bug Reports": "https://github.com/Lovi-0/StreamingCommunity/issues",
+      "Homepage": "https://github.com/Lovi-0/StreamingCommunity",
+      "Source": "https://github.com/Lovi-0/StreamingCommunity"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/StreamingCommunity/2.9.1/",
+    "requires_dist": [
+      "httpx",
+      "bs4",
+      "rich",
+      "tqdm",
+      "m3u8",
+      "certifi",
+      "psutil",
+      "unidecode",
+      "jsbeautifier",
+      "pathvalidate",
+      "pycryptodomex",
+      "ua-generator",
+      "qbittorrent-api",
+      "pyTelegramBotAPI"
+    ],
+    "requires_python": ">=3.8",
+    "summary": null,
+    "version": "2.9.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27724200,
+  "releases": {
+    "1.8.0": [
+      {
+        "filename": "StreamingCommunity-1.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 141645,
+        "upload_time": "2024-11-28T10:31:10",
+        "upload_time_iso_8601": "2024-11-28T10:31:10.671001Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "streamingcommunity-1.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 98182,
+        "upload_time": "2024-11-28T10:31:13",
+        "upload_time_iso_8601": "2024-11-28T10:31:13.346171Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.9.1": [
+      {
+        "filename": "StreamingCommunity-1.9.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 141948,
+        "upload_time": "2024-12-03T20:31:23",
+        "upload_time_iso_8601": "2024-12-03T20:31:23.714446Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "streamingcommunity-1.9.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 103320,
+        "upload_time": "2024-12-03T20:31:26",
+        "upload_time_iso_8601": "2024-12-03T20:31:26.072627Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.9.2": [
+      {
+        "filename": "StreamingCommunity-1.9.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20865,
+        "upload_time": "2024-12-10T10:13:34",
+        "upload_time_iso_8601": "2024-12-10T10:13:34.137070Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-1.9.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 23084,
+        "upload_time": "2024-12-10T10:13:35",
+        "upload_time_iso_8601": "2024-12-10T10:13:35.379735Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.9.4": [
+      {
+        "filename": "StreamingCommunity-1.9.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20888,
+        "upload_time": "2024-12-16T21:18:22",
+        "upload_time_iso_8601": "2024-12-16T21:18:22.413807Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-1.9.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 23140,
+        "upload_time": "2024-12-16T21:18:24",
+        "upload_time_iso_8601": "2024-12-16T21:18:24.729180Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.9.5": [
+      {
+        "filename": "StreamingCommunity-1.9.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20883,
+        "upload_time": "2024-12-16T21:27:20",
+        "upload_time_iso_8601": "2024-12-16T21:27:20.991265Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-1.9.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 23123,
+        "upload_time": "2024-12-16T21:27:28",
+        "upload_time_iso_8601": "2024-12-16T21:27:28.679122Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.9.8": [
+      {
+        "filename": "StreamingCommunity-1.9.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20713,
+        "upload_time": "2024-12-23T15:59:38",
+        "upload_time_iso_8601": "2024-12-23T15:59:38.927119Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-1.9.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 22909,
+        "upload_time": "2024-12-23T15:59:40",
+        "upload_time_iso_8601": "2024-12-23T15:59:40.656683Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.0": [
+      {
+        "filename": "StreamingCommunity-2.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 145103,
+        "upload_time": "2024-12-27T11:23:14",
+        "upload_time_iso_8601": "2024-12-27T11:23:14.654862Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "streamingcommunity-2.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 106614,
+        "upload_time": "2024-12-27T11:23:17",
+        "upload_time_iso_8601": "2024-12-27T11:23:17.424216Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.5": [
+      {
+        "filename": "StreamingCommunity-2.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 145977,
+        "upload_time": "2024-12-31T16:14:51",
+        "upload_time_iso_8601": "2024-12-31T16:14:51.309285Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 99183,
+        "upload_time": "2024-12-31T16:14:53",
+        "upload_time_iso_8601": "2024-12-31T16:14:53.125858Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.0": [
+      {
+        "filename": "StreamingCommunity-2.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 146267,
+        "upload_time": "2025-01-01T14:28:53",
+        "upload_time_iso_8601": "2025-01-01T14:28:53.544265Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 99599,
+        "upload_time": "2025-01-01T14:28:56",
+        "upload_time_iso_8601": "2025-01-01T14:28:56.607500Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.0": [
+      {
+        "filename": "StreamingCommunity-2.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 146963,
+        "upload_time": "2025-01-04T09:51:51",
+        "upload_time_iso_8601": "2025-01-04T09:51:51.686243Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 99817,
+        "upload_time": "2025-01-04T09:51:54",
+        "upload_time_iso_8601": "2025-01-04T09:51:54.565249Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.0": [
+      {
+        "filename": "StreamingCommunity-2.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 149712,
+        "upload_time": "2025-01-23T09:59:23",
+        "upload_time_iso_8601": "2025-01-23T09:59:23.610008Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 104387,
+        "upload_time": "2025-01-23T09:59:26",
+        "upload_time_iso_8601": "2025-01-23T09:59:26.128913Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.0": [
+      {
+        "filename": "StreamingCommunity-2.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 22989,
+        "upload_time": "2025-01-30T10:51:15",
+        "upload_time_iso_8601": "2025-01-30T10:51:15.241635Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 16978,
+        "upload_time": "2025-01-30T10:51:16",
+        "upload_time_iso_8601": "2025-01-30T10:51:16.491407Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.6": [
+      {
+        "filename": "StreamingCommunity-2.5.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 154323,
+        "upload_time": "2025-02-07T13:53:37",
+        "upload_time_iso_8601": "2025-02-07T13:53:37.526966Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.5.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 113586,
+        "upload_time": "2025-02-07T13:53:39",
+        "upload_time_iso_8601": "2025-02-07T13:53:39.414157Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.7": [
+      {
+        "filename": "StreamingCommunity-2.5.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 154303,
+        "upload_time": "2025-02-07T15:18:22",
+        "upload_time_iso_8601": "2025-02-07T15:18:22.415056Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.5.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 113522,
+        "upload_time": "2025-02-07T15:18:24",
+        "upload_time_iso_8601": "2025-02-07T15:18:24.701280Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.8": [
+      {
+        "filename": "StreamingCommunity-2.5.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 148789,
+        "upload_time": "2025-02-13T09:53:54",
+        "upload_time_iso_8601": "2025-02-13T09:53:54.689015Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.5.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 113453,
+        "upload_time": "2025-02-13T09:53:56",
+        "upload_time_iso_8601": "2025-02-13T09:53:56.970075Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.6.0": [
+      {
+        "filename": "StreamingCommunity-2.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 148779,
+        "upload_time": "2025-02-14T09:41:16",
+        "upload_time_iso_8601": "2025-02-14T09:41:16.295178Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 113408,
+        "upload_time": "2025-02-14T09:41:18",
+        "upload_time_iso_8601": "2025-02-14T09:41:18.389599Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.6.1": [
+      {
+        "filename": "StreamingCommunity-2.6.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 144701,
+        "upload_time": "2025-02-15T14:28:02",
+        "upload_time_iso_8601": "2025-02-15T14:28:02.603754Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.6.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 112131,
+        "upload_time": "2025-02-15T14:28:04",
+        "upload_time_iso_8601": "2025-02-15T14:28:04.393388Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.7.0": [
+      {
+        "filename": "StreamingCommunity-2.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 141725,
+        "upload_time": "2025-02-23T08:59:18",
+        "upload_time_iso_8601": "2025-02-23T08:59:18.007234Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 111077,
+        "upload_time": "2025-02-23T08:59:20",
+        "upload_time_iso_8601": "2025-02-23T08:59:20.009017Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.8.0": [
+      {
+        "filename": "StreamingCommunity-2.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 136305,
+        "upload_time": "2025-02-27T17:54:22",
+        "upload_time_iso_8601": "2025-02-27T17:54:22.446371Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 106692,
+        "upload_time": "2025-02-27T17:54:23",
+        "upload_time_iso_8601": "2025-02-27T17:54:23.852381Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.9.0": [
+      {
+        "filename": "StreamingCommunity-2.9.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 136483,
+        "upload_time": "2025-02-28T12:57:55",
+        "upload_time_iso_8601": "2025-02-28T12:57:55.669774Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 106953,
+        "upload_time": "2025-02-28T12:57:57",
+        "upload_time_iso_8601": "2025-02-28T12:57:57.645625Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.9.1": [
+      {
+        "filename": "StreamingCommunity-2.9.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 136303,
+        "upload_time": "2025-03-02T13:39:56",
+        "upload_time_iso_8601": "2025-03-02T13:39:56.728705Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "StreamingCommunity-2.9.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 106793,
+        "upload_time": "2025-03-02T13:39:57",
+        "upload_time_iso_8601": "2025-03-02T13:39:57.984403Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

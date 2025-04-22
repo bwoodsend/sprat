@@ -1,0 +1,254 @@
+{
+  "info": {
+    "author": "Ankit Gupta",
+    "author_email": "devankitgupta01@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/devankit01/pii_scanner",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "pii-Scanner",
+    "package_url": "https://pypi.org/project/pii-Scanner/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/pii-Scanner/",
+    "project_urls": {
+      "Homepage": "https://github.com/devankit01/pii_scanner"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/pii-Scanner/0.1.19/",
+    "requires_dist": [
+      "presidio-analyzer==2.2.32",
+      "openpyxl==3.1.5",
+      "pydantic==2.10.3",
+      "numpy==2.0.2",
+      "unstructured[docx,pptx]",
+      "unstructured[pdf]",
+      "python-stdnum==1.20",
+      "pytesseract==0.3.13",
+      "PyPDF2==3.0.1",
+      "xmltodict==0.14.2",
+      "scikit-image==0.25.1",
+      "deskew==1.5.1"
+    ],
+    "requires_python": ">=3.10",
+    "summary": "A library for scanning Personally Identifiable Information (PII).",
+    "version": "0.1.19",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27711799,
+  "releases": {
+    "0.1.1": [
+      {
+        "filename": "pii_Scanner-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 11114,
+        "upload_time": "2024-12-12T16:28:09",
+        "upload_time_iso_8601": "2024-12-12T16:28:09.703002Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.10": [
+      {
+        "filename": "pii_Scanner-0.1.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 22204,
+        "upload_time": "2024-12-24T11:21:32",
+        "upload_time_iso_8601": "2024-12-24T11:21:32.981049Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.11": [
+      {
+        "filename": "pii_Scanner-0.1.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 22205,
+        "upload_time": "2025-02-04T12:10:44",
+        "upload_time_iso_8601": "2025-02-04T12:10:44.192616Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.12": [
+      {
+        "filename": "pii_Scanner-0.1.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 22315,
+        "upload_time": "2025-02-09T09:56:01",
+        "upload_time_iso_8601": "2025-02-09T09:56:01.768820Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.13": [
+      {
+        "filename": "pii_Scanner-0.1.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 22308,
+        "upload_time": "2025-02-09T10:02:49",
+        "upload_time_iso_8601": "2025-02-09T10:02:49.584394Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.14": [
+      {
+        "filename": "pii_Scanner-0.1.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 33270,
+        "upload_time": "2025-02-09T10:05:44",
+        "upload_time_iso_8601": "2025-02-09T10:05:44.559984Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.15": [
+      {
+        "filename": "pii_Scanner-0.1.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 33268,
+        "upload_time": "2025-02-09T10:09:39",
+        "upload_time_iso_8601": "2025-02-09T10:09:39.367977Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.16": [
+      {
+        "filename": "pii_Scanner-0.1.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 171313,
+        "upload_time": "2025-02-09T10:12:51",
+        "upload_time_iso_8601": "2025-02-09T10:12:51.666729Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pii_scanner-0.1.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 160797,
+        "upload_time": "2025-02-09T10:12:53",
+        "upload_time_iso_8601": "2025-02-09T10:12:53.680130Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.17": [
+      {
+        "filename": "pii_Scanner-0.1.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 172085,
+        "upload_time": "2025-02-26T15:58:19",
+        "upload_time_iso_8601": "2025-02-26T15:58:19.027030Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pii_scanner-0.1.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 161251,
+        "upload_time": "2025-02-26T15:58:23",
+        "upload_time_iso_8601": "2025-02-26T15:58:23.713742Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.18": [
+      {
+        "filename": "pii_Scanner-0.1.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 172274,
+        "upload_time": "2025-02-27T13:45:36",
+        "upload_time_iso_8601": "2025-02-27T13:45:36.621759Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pii_scanner-0.1.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 161423,
+        "upload_time": "2025-02-27T13:45:37",
+        "upload_time_iso_8601": "2025-02-27T13:45:37.966526Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.19": [
+      {
+        "filename": "pii_Scanner-0.1.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 171896,
+        "upload_time": "2025-03-01T12:06:38",
+        "upload_time_iso_8601": "2025-03-01T12:06:38.101833Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pii_scanner-0.1.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 161282,
+        "upload_time": "2025-03-01T12:06:41",
+        "upload_time_iso_8601": "2025-03-01T12:06:41.857305Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

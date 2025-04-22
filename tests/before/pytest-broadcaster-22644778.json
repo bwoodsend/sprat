@@ -1,0 +1,268 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Guillaume Charbonnier <gu.charbon@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Framework :: Pytest",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Software Development :: Testing"
+    ],
+    "description": "[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pytest-broadcaster)](https://pypi.org/project/pytest-broadcaster)\n[![GitHub deployments](https://img.shields.io/github/deployments/charbonnierg/pytest-broadcaster/github-pages?label=documentation&link=https%3A%2F%2Fcharbonnierg.github.io%2Fpytest-broadcaster)](https://charbonnierg.github.io/pytest-broadcaster)\n\n# pytest-broadcaster\n\nA plugin to write pytest collect output to various destinations.\n\nAvailable destinations:\n\n- JSON file\n- JSON lines file.\n- HTTP URL (only POST request)\n\nAdditional destinations can be added in the future, and users can also implement their own destinations.\n\n## Project state\n\nThis project is in early development. The plugin is functional, but the API is not stable yet. The plugin is tested with Python 3.8, 3.9, 3.10, 3.11, and 3.12.\n\nIf you find a bug, please open an issue. Contributions are welcome.\n\n## Install\n\n```bash\npip install pytest-broadcaster\n```\n\n## Motivation\n\nIf you ever wanter to build a tool that needs to parse the output of `pytest --collect-only`, you may have noticed that the output is not very easy to parse. This plugin aims to provide a more structured output that can be easily parsed by other tools.\n\nHistorically, this project only parsed the output of `pytest --collect-only`, but it has been extended to parse the output of `pytest` in general.\n\nJSON schemas are provided for clients to help them parse the output of the plugin.\n\n## Usage\n\n- Use the `--collect-report` to generate a JSON file:\n\n```bash\npytest --collect-report=collect.json\n```\n\n- Use the `--collect-log` to generate a JSON lines file:\n\n```bash\npytest --collect-log=collect.jsonl\n```\n\n- Use the `--collect-url` to send session result to an HTTP URL:\n\n```bash\npytest --collect-url=http://localhost:8000/collect\n```\n\n- Use the `--collect-log-url` to send each session event to an HTTP URL:\n\n```bash\npytest --collect-log-url=http://localhost:8000/collect\n```\n\n## JSON Schemas\n\nThe plugin provides JSON schemas to validate the output of the plugin. Generated schemas are located in the [schemas](./schemas/) directory, while the original schemas are located in the [src/pytest_broadcaster/schemas](./src/pytest_broadcaster/schemas) directory.\n\n### `SessionResult`\n\nThe JSON output produced by the plugin follows the [SessionResult JSON Schema](https://github.com/charbonnierg/pytest-broadcaster/tree/main/schemas/session_result.json).\n\nPython tools can also use the [`SessionResult` dataclass](https://github.com/charbonnierg/pytest-broadcaster/tree/main/src/pytest_broadcaster/models/session_result.py) to parse the JSON file.\n\n\n### `SessionEvent`\n\nThe JSON lines output produced by the plugin follows the [SessionEvent JSON Schema](https://github.com/charbonnierg/pytest-broadcaster/tree/main/schemas/session_event.json).\n\nThis schema is the union of the different events that can be emitted by the plugin:\n\n- [`SessionStart` JSON Schema](https://github.com/charbonnierg/pytest-broadcaster/tree/main/schemas/session_start.json)\n- [`WarningMessage` JSON Schema](https://github.com/charbonnierg/pytest-broadcaster/tree/main/schemas/warning_message.json)\n- [`ErrorMessage` JSON Schema](https://github.com/charbonnierg/pytest-broadcaster/tree/main/schemas/error_message.json)\n- [`CollectReport` JSON Schema](https://github.com/charbonnierg/pytest-broadcaster/tree/main/schemas/collect_report.json)\n- [`TestCaseSetup` JSON Schema](https://github.com/charbonnierg/pytest-broadcaster/tree/main/schemas/test_case_setup.json)\n- [`TestCaseCall` JSON Schema](https://github.com/charbonnierg/pytest-broadcaster/tree/main/schemas/test_case_call.json)\n- [`TestCaseTeardown` JSON Schema](https://github.com/charbonnierg/pytest-broadcaster/tree/main/schemas/test_case_teardown.json)\n- [`TestCaseFinished` JSON Schema](https://github.com/charbonnierg/pytest-broadcaster/tree/main/schemas/test_case_finished.json)\n- [`SessionFinish` JSON Schema](https://github.com/charbonnierg/pytest-broadcaster/tree/main/schemas/session_finish.json)\n\nPython tools can also use the [`SessionEvent` dataclass](https://github.com/charbonnierg/pytest-broadcaster/tree/main/src/pytest_broadcaster/models/session_event.py) to parse the JSON lines file, as well as the differnt event classes:\n\n- [`SessionStart` dataclass](https://github.com/charbonnierg/pytest-broadcaster/tree/main/src/pytest_broadcaster/models/session_start.py)\n- [`WarningMessage` dataclass](https://github.com/charbonnierg/pytest-broadcaster/tree/main/src/pytest_broadcaster/models/warning_message.py)\n- [`ErrorMessage` dataclass](https://github.com/charbonnierg/pytest-broadcaster/tree/main/src/pytest_broadcaster/models/error_message.py)\n- [`CollectReport` dataclass](https://github.com/charbonnierg/pytest-broadcaster/tree/main/src/pytest_broadcaster/models/collect_report.py)\n- [`TestCaseSetup` dataclass](https://github.com/charbonnierg/pytest-broadcaster/tree/main/src/pytest_broadcaster/models/test_case_setup.py)\n- [`TestCaseCall` dataclass](https://github.com/charbonnierg/pytest-broadcaster/tree/main/src/pytest_broadcaster/models/test_case_call.py)\n- [`TestCaseTeardown` dataclass](https://github.com/charbonnierg/pytest-broadcaster/tree/main/src/pytest_broadcaster/models/test_case_teardown.py)\n- [`TestCaseFinished` dataclass](https://github.com/charbonnierg/pytest-broadcaster/tree/main/src/pytest_broadcaster/models/test_case_finished.py)\n- [`SessionFinish` dataclass](https://github.com/charbonnierg/pytest-broadcaster/tree/main/src/pytest_broadcaster/models/session_finish.py)\n\n## Hooks\n\n### `pytest_broadcaster_add_destination`\n\nThe plugin provides a hook that can be used by users to add custom destinations. For example, in your `conftest.py` you can add the following code to write the collect output to a JSON file and a JSON lines file:\n\n```python\nfrom pytest_broadcaster import JSONFile, JSONLinesFile\n\n\ndef pytest_broadcaster_add_destination(add):\n    add(JSONFile(\"collect.json\"))\n    add(JSONLinesFile(\"collect.jsonl\"))\n```\n\n### `pytest_broadcaster_set_reporter`\n\nThe plugin provides a hook that can be used by users to set a custom reporter. For example, in your `conftest.py` you can add the following code to use a custom reporter (well the default reporter in this case):\n\n```python\nfrom pytest_broadcaster import DefaultReporter\n\n\ndef pytest_broadcaster_set_reporter(set):\n    set(DefaultReporter())\n```\n\n## Alternatives\n\n- [pytest-json-report](https://github.com/numirias/pytest-json-report): This plugin predates `pytest-broadcaster`, has been used by several organizations, and works well. However, there is no JSON schema to validate the output, nor JSON lines output. Also, it does not allow adding custom destinations as `pytest-broadcaster` does.\n\n- [pytest-report-log](https://github.com/pytest-dev/pytest-reportlog): This package provides both JSON and JSON lines output, but it does not provide a JSON schema to validate the output. Also, it does not allow adding custom destinations as `pytest-broadcaster` does.\n\n## Credits\n\n- [pytest](https://docs.pytest.org/en/8.0.x/): Well, this is a pytest plugin.\n- [pytest-report-log](https://github.com/pytest-dev/pytest-reportlog): This package was heavily inspired by the `report-log` plugin.\n- [pytest-json-report](https://github.com/numirias/pytest-json-report): The `pytest-json-report` plugin was also a source of inspiration.\n- [pytest-csv](https://github.com/nicoulaj/pytest-csv): The `pytest-csv` plugin was also a source of inspiration.\n- [`datamodel-code-generator`](https://github.com/koxudaxi/datamodel-code-generator): The dataclasses generation from JSON schemas is performed using `datamodel-code-generator`.\n- [rye](https://rye-up.com/): Project management is easy thanks to `rye`. It is also used to lint and format the code.\n- [hatch-vcs](https://github.com/ofek/hatch-vcs): Python project version control is easy thanks to `hatch-vcs`.\n- [pyright](https://github.com/microsoft/pyright): `pyright` is used to check the code and find bugs sooner.\n\n## License\n\nThis project is licensed under the terms of the MIT license. See [LICENSE](./LICENSE) for more information.\n",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": null,
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "pytest-broadcaster",
+    "package_url": "https://pypi.org/project/pytest-broadcaster/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/pytest-broadcaster/",
+    "project_urls": {
+      "Source": "https://github.com/charbonnierg/pytest-broadcaster",
+      "Tracker": "https://github.com/charbonnierg/pytest-broadcaster/issues"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/pytest-broadcaster/0.9.0/",
+    "requires_dist": [
+      "pytest",
+      "tomli>=1; python_version < \"3.11\""
+    ],
+    "requires_python": ">=3.8",
+    "summary": "Pytest plugin to broadcast pytest output to various destinations",
+    "version": "0.9.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 22644778,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "pytest_broadcaster-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27352,
+        "upload_time": "2024-04-05T00:00:58",
+        "upload_time_iso_8601": "2024-04-05T00:00:58.482025Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 43919,
+        "upload_time": "2024-04-05T00:01:01",
+        "upload_time_iso_8601": "2024-04-05T00:01:01.200269Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "pytest_broadcaster-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27860,
+        "upload_time": "2024-04-05T12:48:11",
+        "upload_time_iso_8601": "2024-04-05T12:48:11.737230Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46034,
+        "upload_time": "2024-04-05T12:48:13",
+        "upload_time_iso_8601": "2024-04-05T12:48:13.500166Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "pytest_broadcaster-0.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27861,
+        "upload_time": "2024-04-05T12:49:10",
+        "upload_time_iso_8601": "2024-04-05T12:49:10.314570Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46059,
+        "upload_time": "2024-04-05T12:49:13",
+        "upload_time_iso_8601": "2024-04-05T12:49:13.533642Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.0": [
+      {
+        "filename": "pytest_broadcaster-0.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27861,
+        "upload_time": "2024-04-05T13:51:34",
+        "upload_time_iso_8601": "2024-04-05T13:51:34.142387Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46216,
+        "upload_time": "2024-04-05T13:51:37",
+        "upload_time_iso_8601": "2024-04-05T13:51:37.975880Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.0": [
+      {
+        "filename": "pytest_broadcaster-0.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27860,
+        "upload_time": "2024-04-05T14:00:50",
+        "upload_time_iso_8601": "2024-04-05T14:00:50.033180Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47930,
+        "upload_time": "2024-04-05T14:00:51",
+        "upload_time_iso_8601": "2024-04-05T14:00:51.620434Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.0": [
+      {
+        "filename": "pytest_broadcaster-0.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27861,
+        "upload_time": "2024-04-05T14:26:45",
+        "upload_time_iso_8601": "2024-04-05T14:26:45.284777Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 48030,
+        "upload_time": "2024-04-05T14:26:46",
+        "upload_time_iso_8601": "2024-04-05T14:26:46.500070Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.0": [
+      {
+        "filename": "pytest_broadcaster-0.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 31564,
+        "upload_time": "2024-04-06T00:40:19",
+        "upload_time_iso_8601": "2024-04-06T00:40:19.662862Z",
+        "yanked": true,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 51740,
+        "upload_time": "2024-04-06T00:40:20",
+        "upload_time_iso_8601": "2024-04-06T00:40:20.929751Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0": [
+      {
+        "filename": "pytest_broadcaster-0.9.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 31592,
+        "upload_time": "2024-04-06T01:40:07",
+        "upload_time_iso_8601": "2024-04-06T01:40:07.024676Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 52764,
+        "upload_time": "2024-04-06T01:40:08",
+        "upload_time_iso_8601": "2024-04-06T01:40:08.903206Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

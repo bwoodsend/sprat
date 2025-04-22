@@ -1,0 +1,106 @@
+{
+  "info": {
+    "author": "Odoonix",
+    "author_email": "info@odoonix.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Programming Language :: Python"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/odoonix/utils",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "otoolbox",
+    "package_url": "https://pypi.org/project/otoolbox/",
+    "platform": "linux",
+    "project_url": "https://pypi.org/project/otoolbox/",
+    "project_urls": {
+      "Changelog": "https://github.com/odoonix/utils/blob/main/CHANGELOG.md",
+      "Documentation": "https://odoonix.com/",
+      "Download": "https://github.com/odoonix/utils/",
+      "Homepage": "https://github.com/odoonix/utils",
+      "Source": "https://github.com/odoonix/utils/",
+      "Tracker": "https://github.com/odoonix/utils/issues"
+    },
+    "provides_extra": [
+      "testing"
+    ],
+    "release_url": "https://pypi.org/project/otoolbox/0.1.2/",
+    "requires_dist": [
+      "importlib-metadata; python_version < \"3.8\"",
+      "rich>=13.9.4",
+      "typer",
+      "chevron",
+      "setuptools",
+      "setuptools; extra == \"testing\"",
+      "pytest; extra == \"testing\"",
+      "pytest-cov; extra == \"testing\""
+    ],
+    "requires_python": ">=3.8",
+    "summary": "Utilities for Odoo from Odoonix",
+    "version": "0.1.2",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27262342,
+  "releases": {
+    "0.1.1": [
+      {
+        "filename": "otoolbox-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26201,
+        "upload_time": "2025-02-03T07:15:29",
+        "upload_time_iso_8601": "2025-02-03T07:15:29.482896Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "otoolbox-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 49382,
+        "upload_time": "2025-02-03T07:15:32",
+        "upload_time_iso_8601": "2025-02-03T07:15:32.653458Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.2": [
+      {
+        "filename": "otoolbox-0.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26319,
+        "upload_time": "2025-02-03T15:18:06",
+        "upload_time_iso_8601": "2025-02-03T15:18:06.670751Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "otoolbox-0.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 49517,
+        "upload_time": "2025-02-03T15:18:09",
+        "upload_time_iso_8601": "2025-02-03T15:18:09.193495Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

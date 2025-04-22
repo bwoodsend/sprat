@@ -1,0 +1,1730 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Andres Artigas <andres@artigas.cl>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "smallneuron",
+    "package_url": "https://pypi.org/project/smallneuron/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/smallneuron/",
+    "project_urls": {
+      "Homepage": "https://github.com/pypa/sampleproject",
+      "Issues": "https://github.com/pypa/sampleproject/issues"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/smallneuron/2.4.1/",
+    "requires_dist": null,
+    "requires_python": ">=3.7",
+    "summary": "Small Neuron Workflow",
+    "version": "2.4.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27144394,
+  "releases": {
+    "0.1.4": [
+      {
+        "filename": "smallneuron-0.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 14006,
+        "upload_time": "2024-02-14T20:43:47",
+        "upload_time_iso_8601": "2024-02-14T20:43:47.008709Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-0.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 11650,
+        "upload_time": "2024-02-14T20:43:48",
+        "upload_time_iso_8601": "2024-02-14T20:43:48.810637Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.5": [
+      {
+        "filename": "smallneuron-0.1.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 14013,
+        "upload_time": "2024-02-18T19:14:39",
+        "upload_time_iso_8601": "2024-02-18T19:14:39.647521Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-0.1.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 11502,
+        "upload_time": "2024-02-18T19:14:40",
+        "upload_time_iso_8601": "2024-02-18T19:14:40.790275Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.6": [
+      {
+        "filename": "smallneuron-0.1.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 13982,
+        "upload_time": "2024-02-20T00:56:59",
+        "upload_time_iso_8601": "2024-02-20T00:56:59.463621Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-0.1.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 11507,
+        "upload_time": "2024-02-20T00:57:00",
+        "upload_time_iso_8601": "2024-02-20T00:57:00.883949Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.7": [
+      {
+        "filename": "smallneuron-0.1.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 13989,
+        "upload_time": "2024-02-20T21:40:03",
+        "upload_time_iso_8601": "2024-02-20T21:40:03.108855Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-0.1.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 11523,
+        "upload_time": "2024-02-20T21:40:05",
+        "upload_time_iso_8601": "2024-02-20T21:40:05.728052Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.8": [
+      {
+        "filename": "smallneuron-0.1.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 13987,
+        "upload_time": "2024-02-20T22:00:34",
+        "upload_time_iso_8601": "2024-02-20T22:00:34.361099Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-0.1.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 11521,
+        "upload_time": "2024-02-20T22:00:36",
+        "upload_time_iso_8601": "2024-02-20T22:00:36.145736Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "smallneuron-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 14003,
+        "upload_time": "2024-02-20T22:33:45",
+        "upload_time_iso_8601": "2024-02-20T22:33:45.057398Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 11568,
+        "upload_time": "2024-02-20T22:33:47",
+        "upload_time_iso_8601": "2024-02-20T22:33:47.038498Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.1": [
+      {
+        "filename": "smallneuron-0.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 14011,
+        "upload_time": "2024-02-20T23:03:52",
+        "upload_time_iso_8601": "2024-02-20T23:03:52.778210Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-0.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 11567,
+        "upload_time": "2024-02-20T23:03:54",
+        "upload_time_iso_8601": "2024-02-20T23:03:54.564874Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.2": [
+      {
+        "filename": "smallneuron-0.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27333,
+        "upload_time": "2024-02-26T20:33:54",
+        "upload_time_iso_8601": "2024-02-26T20:33:54.971652Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-0.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26428,
+        "upload_time": "2024-02-26T20:33:56",
+        "upload_time_iso_8601": "2024-02-26T20:33:56.979356Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.3": [
+      {
+        "filename": "smallneuron-0.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27373,
+        "upload_time": "2024-03-01T20:11:45",
+        "upload_time_iso_8601": "2024-03-01T20:11:45.460679Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-0.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26446,
+        "upload_time": "2024-03-01T20:11:48",
+        "upload_time_iso_8601": "2024-03-01T20:11:48.120933Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.4": [
+      {
+        "filename": "smallneuron-0.2.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27389,
+        "upload_time": "2024-03-04T20:40:11",
+        "upload_time_iso_8601": "2024-03-04T20:40:11.589810Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-0.2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26488,
+        "upload_time": "2024-03-04T20:40:13",
+        "upload_time_iso_8601": "2024-03-04T20:40:13.012200Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.0": [
+      {
+        "filename": "smallneuron-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27477,
+        "upload_time": "2024-04-14T21:38:38",
+        "upload_time_iso_8601": "2024-04-14T21:38:38.108012Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26588,
+        "upload_time": "2024-04-14T21:38:39",
+        "upload_time_iso_8601": "2024-04-14T21:38:39.806814Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.1": [
+      {
+        "filename": "smallneuron-1.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27657,
+        "upload_time": "2024-04-17T20:55:24",
+        "upload_time_iso_8601": "2024-04-17T20:55:24.293701Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26682,
+        "upload_time": "2024-04-17T20:55:26",
+        "upload_time_iso_8601": "2024-04-17T20:55:26.005713Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.2": [
+      {
+        "filename": "smallneuron-1.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27651,
+        "upload_time": "2024-04-19T14:51:19",
+        "upload_time_iso_8601": "2024-04-19T14:51:19.274887Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26696,
+        "upload_time": "2024-04-19T14:51:21",
+        "upload_time_iso_8601": "2024-04-19T14:51:21.009037Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "smallneuron-1.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27655,
+        "upload_time": "2024-04-19T22:24:43",
+        "upload_time_iso_8601": "2024-04-19T22:24:43.239161Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26719,
+        "upload_time": "2024-04-19T22:24:45",
+        "upload_time_iso_8601": "2024-04-19T22:24:45.056270Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1": [
+      {
+        "filename": "smallneuron-1.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27908,
+        "upload_time": "2024-04-26T20:45:23",
+        "upload_time_iso_8601": "2024-04-26T20:45:23.768068Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27021,
+        "upload_time": "2024-04-26T20:45:25",
+        "upload_time_iso_8601": "2024-04-26T20:45:25.103074Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.10": [
+      {
+        "filename": "smallneuron-1.1.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28146,
+        "upload_time": "2024-05-15T20:37:19",
+        "upload_time_iso_8601": "2024-05-15T20:37:19.083478Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.1.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27206,
+        "upload_time": "2024-05-15T20:37:20",
+        "upload_time_iso_8601": "2024-05-15T20:37:20.943937Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.2": [
+      {
+        "filename": "smallneuron-1.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27950,
+        "upload_time": "2024-05-14T20:55:48",
+        "upload_time_iso_8601": "2024-05-14T20:55:48.395218Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27080,
+        "upload_time": "2024-05-14T20:55:50",
+        "upload_time_iso_8601": "2024-05-14T20:55:50.205008Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.5": [
+      {
+        "filename": "smallneuron-1.1.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27955,
+        "upload_time": "2024-05-14T21:07:25",
+        "upload_time_iso_8601": "2024-05-14T21:07:25.417941Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.1.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27086,
+        "upload_time": "2024-05-14T21:07:27",
+        "upload_time_iso_8601": "2024-05-14T21:07:27.277929Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.6": [
+      {
+        "filename": "smallneuron-1.1.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28021,
+        "upload_time": "2024-05-15T19:50:11",
+        "upload_time_iso_8601": "2024-05-15T19:50:11.294416Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.1.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27141,
+        "upload_time": "2024-05-15T19:50:13",
+        "upload_time_iso_8601": "2024-05-15T19:50:13.097888Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.7": [
+      {
+        "filename": "smallneuron-1.1.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28038,
+        "upload_time": "2024-05-15T19:57:51",
+        "upload_time_iso_8601": "2024-05-15T19:57:51.424330Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.1.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27160,
+        "upload_time": "2024-05-15T19:57:52",
+        "upload_time_iso_8601": "2024-05-15T19:57:52.789012Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.8": [
+      {
+        "filename": "smallneuron-1.1.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28120,
+        "upload_time": "2024-05-15T20:23:27",
+        "upload_time_iso_8601": "2024-05-15T20:23:27.949978Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.1.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27196,
+        "upload_time": "2024-05-15T20:23:29",
+        "upload_time_iso_8601": "2024-05-15T20:23:29.173854Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.9": [
+      {
+        "filename": "smallneuron-1.1.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28134,
+        "upload_time": "2024-05-15T20:35:07",
+        "upload_time_iso_8601": "2024-05-15T20:35:07.220497Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.1.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27198,
+        "upload_time": "2024-05-15T20:35:09",
+        "upload_time_iso_8601": "2024-05-15T20:35:09.125121Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "smallneuron-1.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28152,
+        "upload_time": "2024-05-15T20:52:44",
+        "upload_time_iso_8601": "2024-05-15T20:52:44.833177Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27229,
+        "upload_time": "2024-05-15T20:52:46",
+        "upload_time_iso_8601": "2024-05-15T20:52:46.702308Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.1": [
+      {
+        "filename": "smallneuron-1.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28197,
+        "upload_time": "2024-05-15T21:12:38",
+        "upload_time_iso_8601": "2024-05-15T21:12:38.410286Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27292,
+        "upload_time": "2024-05-15T21:12:39",
+        "upload_time_iso_8601": "2024-05-15T21:12:39.730436Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.2": [
+      {
+        "filename": "smallneuron-1.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28175,
+        "upload_time": "2024-05-15T21:29:04",
+        "upload_time_iso_8601": "2024-05-15T21:29:04.051187Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27266,
+        "upload_time": "2024-05-15T21:29:06",
+        "upload_time_iso_8601": "2024-05-15T21:29:06.201871Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.3": [
+      {
+        "filename": "smallneuron-1.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28207,
+        "upload_time": "2024-05-15T21:52:46",
+        "upload_time_iso_8601": "2024-05-15T21:52:46.187406Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-1.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27288,
+        "upload_time": "2024-05-15T21:52:48",
+        "upload_time_iso_8601": "2024-05-15T21:52:48.099197Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.0": [
+      {
+        "filename": "smallneuron-2.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28335,
+        "upload_time": "2024-06-17T17:12:26",
+        "upload_time_iso_8601": "2024-06-17T17:12:26.651453Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27138,
+        "upload_time": "2024-06-17T17:12:29",
+        "upload_time_iso_8601": "2024-06-17T17:12:29.000250Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.1": [
+      {
+        "filename": "smallneuron-2.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28328,
+        "upload_time": "2024-06-17T17:22:56",
+        "upload_time_iso_8601": "2024-06-17T17:22:56.586671Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27147,
+        "upload_time": "2024-06-17T17:23:01",
+        "upload_time_iso_8601": "2024-06-17T17:23:01.421643Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.2": [
+      {
+        "filename": "smallneuron-2.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28328,
+        "upload_time": "2024-06-17T17:32:57",
+        "upload_time_iso_8601": "2024-06-17T17:32:57.253852Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27153,
+        "upload_time": "2024-06-17T17:33:01",
+        "upload_time_iso_8601": "2024-06-17T17:33:01.227775Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.3": [
+      {
+        "filename": "smallneuron-2.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28331,
+        "upload_time": "2024-06-17T17:40:24",
+        "upload_time_iso_8601": "2024-06-17T17:40:24.511125Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27142,
+        "upload_time": "2024-06-17T17:40:27",
+        "upload_time_iso_8601": "2024-06-17T17:40:27.185444Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.4": [
+      {
+        "filename": "smallneuron-2.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28331,
+        "upload_time": "2024-06-17T17:44:40",
+        "upload_time_iso_8601": "2024-06-17T17:44:40.789391Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27129,
+        "upload_time": "2024-06-17T17:44:44",
+        "upload_time_iso_8601": "2024-06-17T17:44:44.606589Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.5": [
+      {
+        "filename": "smallneuron-2.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28342,
+        "upload_time": "2024-06-17T17:59:02",
+        "upload_time_iso_8601": "2024-06-17T17:59:02.133987Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27155,
+        "upload_time": "2024-06-17T17:59:04",
+        "upload_time_iso_8601": "2024-06-17T17:59:04.282901Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.6": [
+      {
+        "filename": "smallneuron-2.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28348,
+        "upload_time": "2024-06-17T18:09:49",
+        "upload_time_iso_8601": "2024-06-17T18:09:49.369749Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27169,
+        "upload_time": "2024-06-17T18:09:51",
+        "upload_time_iso_8601": "2024-06-17T18:09:51.524613Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.7": [
+      {
+        "filename": "smallneuron-2.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28363,
+        "upload_time": "2024-06-17T18:26:31",
+        "upload_time_iso_8601": "2024-06-17T18:26:31.933222Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27179,
+        "upload_time": "2024-06-17T18:26:55",
+        "upload_time_iso_8601": "2024-06-17T18:26:55.125908Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.8": [
+      {
+        "filename": "smallneuron-2.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28357,
+        "upload_time": "2024-06-17T18:53:01",
+        "upload_time_iso_8601": "2024-06-17T18:53:01.385266Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27160,
+        "upload_time": "2024-06-17T18:53:41",
+        "upload_time_iso_8601": "2024-06-17T18:53:41.799473Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.9": [
+      {
+        "filename": "smallneuron-2.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28362,
+        "upload_time": "2024-06-27T19:32:46",
+        "upload_time_iso_8601": "2024-06-27T19:32:46.525932Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27140,
+        "upload_time": "2024-06-27T19:32:48",
+        "upload_time_iso_8601": "2024-06-27T19:32:48.257597Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.0": [
+      {
+        "filename": "smallneuron-2.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28383,
+        "upload_time": "2024-07-03T22:50:10",
+        "upload_time_iso_8601": "2024-07-03T22:50:10.496791Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 27175,
+        "upload_time": "2024-07-03T22:50:12",
+        "upload_time_iso_8601": "2024-07-03T22:50:12.508553Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.1": [
+      {
+        "filename": "smallneuron-2.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26776,
+        "upload_time": "2024-07-04T14:36:28",
+        "upload_time_iso_8601": "2024-07-04T14:36:28.363678Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 25822,
+        "upload_time": "2024-07-04T14:36:29",
+        "upload_time_iso_8601": "2024-07-04T14:36:29.767789Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.2": [
+      {
+        "filename": "smallneuron-2.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26777,
+        "upload_time": "2024-07-04T14:40:42",
+        "upload_time_iso_8601": "2024-07-04T14:40:42.510936Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 25822,
+        "upload_time": "2024-07-04T14:40:44",
+        "upload_time_iso_8601": "2024-07-04T14:40:44.213234Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.3": [
+      {
+        "filename": "smallneuron-2.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26776,
+        "upload_time": "2024-07-04T14:42:23",
+        "upload_time_iso_8601": "2024-07-04T14:42:23.374685Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 25843,
+        "upload_time": "2024-07-04T14:42:25",
+        "upload_time_iso_8601": "2024-07-04T14:42:25.030054Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.4": [
+      {
+        "filename": "smallneuron-2.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26917,
+        "upload_time": "2024-07-20T15:28:30",
+        "upload_time_iso_8601": "2024-07-20T15:28:30.571720Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 25961,
+        "upload_time": "2024-07-20T15:28:32",
+        "upload_time_iso_8601": "2024-07-20T15:28:32.184414Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.0": [
+      {
+        "filename": "smallneuron-2.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27082,
+        "upload_time": "2024-07-24T18:42:39",
+        "upload_time_iso_8601": "2024-07-24T18:42:39.444862Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26136,
+        "upload_time": "2024-07-24T18:42:41",
+        "upload_time_iso_8601": "2024-07-24T18:42:41.107733Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.1": [
+      {
+        "filename": "smallneuron-2.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27049,
+        "upload_time": "2024-07-24T18:50:44",
+        "upload_time_iso_8601": "2024-07-24T18:50:44.803261Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26095,
+        "upload_time": "2024-07-24T18:50:46",
+        "upload_time_iso_8601": "2024-07-24T18:50:46.379393Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.2": [
+      {
+        "filename": "smallneuron-2.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26992,
+        "upload_time": "2024-07-24T19:36:19",
+        "upload_time_iso_8601": "2024-07-24T19:36:19.080567Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26047,
+        "upload_time": "2024-07-24T19:36:20",
+        "upload_time_iso_8601": "2024-07-24T19:36:20.792961Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.3": [
+      {
+        "filename": "smallneuron-2.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26993,
+        "upload_time": "2024-07-24T19:47:35",
+        "upload_time_iso_8601": "2024-07-24T19:47:35.930054Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26037,
+        "upload_time": "2024-07-24T19:47:37",
+        "upload_time_iso_8601": "2024-07-24T19:47:37.788692Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.4": [
+      {
+        "filename": "smallneuron-2.2.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26999,
+        "upload_time": "2024-07-24T19:50:23",
+        "upload_time_iso_8601": "2024-07-24T19:50:23.244191Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26060,
+        "upload_time": "2024-07-24T19:50:24",
+        "upload_time_iso_8601": "2024-07-24T19:50:24.554085Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.5": [
+      {
+        "filename": "smallneuron-2.2.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27052,
+        "upload_time": "2024-07-25T15:26:53",
+        "upload_time_iso_8601": "2024-07-25T15:26:53.965347Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.2.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26102,
+        "upload_time": "2024-07-25T15:26:55",
+        "upload_time_iso_8601": "2024-07-25T15:26:55.204614Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.6": [
+      {
+        "filename": "smallneuron-2.2.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27058,
+        "upload_time": "2024-07-26T12:46:57",
+        "upload_time_iso_8601": "2024-07-26T12:46:57.850895Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.2.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26111,
+        "upload_time": "2024-07-26T12:46:59",
+        "upload_time_iso_8601": "2024-07-26T12:46:59.640247Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.7": [
+      {
+        "filename": "smallneuron-2.2.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27132,
+        "upload_time": "2024-07-31T14:34:17",
+        "upload_time_iso_8601": "2024-07-31T14:34:17.683616Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.2.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26188,
+        "upload_time": "2024-07-31T14:34:19",
+        "upload_time_iso_8601": "2024-07-31T14:34:19.224990Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.8": [
+      {
+        "filename": "smallneuron-2.2.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27201,
+        "upload_time": "2024-08-12T21:30:16",
+        "upload_time_iso_8601": "2024-08-12T21:30:16.560722Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.2.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 25995,
+        "upload_time": "2024-08-12T21:30:18",
+        "upload_time_iso_8601": "2024-08-12T21:30:18.698887Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.0": [
+      {
+        "filename": "smallneuron-2.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27070,
+        "upload_time": "2024-08-15T23:02:09",
+        "upload_time_iso_8601": "2024-08-15T23:02:09.650596Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26065,
+        "upload_time": "2024-08-15T23:02:11",
+        "upload_time_iso_8601": "2024-08-15T23:02:11.146941Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.1": [
+      {
+        "filename": "smallneuron-2.3.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27277,
+        "upload_time": "2024-08-30T21:31:19",
+        "upload_time_iso_8601": "2024-08-30T21:31:19.081991Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26316,
+        "upload_time": "2024-08-30T21:31:20",
+        "upload_time_iso_8601": "2024-08-30T21:31:20.244284Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.10": [
+      {
+        "filename": "smallneuron-2.3.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27666,
+        "upload_time": "2025-01-25T15:30:27",
+        "upload_time_iso_8601": "2025-01-25T15:30:27.014746Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26662,
+        "upload_time": "2025-01-25T15:30:28",
+        "upload_time_iso_8601": "2025-01-25T15:30:28.883088Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.11": [
+      {
+        "filename": "smallneuron-2.3.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27677,
+        "upload_time": "2025-01-25T15:41:11",
+        "upload_time_iso_8601": "2025-01-25T15:41:11.786494Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26666,
+        "upload_time": "2025-01-25T15:41:13",
+        "upload_time_iso_8601": "2025-01-25T15:41:13.909137Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.12": [
+      {
+        "filename": "smallneuron-2.3.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27681,
+        "upload_time": "2025-01-26T22:22:33",
+        "upload_time_iso_8601": "2025-01-26T22:22:33.261178Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26680,
+        "upload_time": "2025-01-26T22:22:35",
+        "upload_time_iso_8601": "2025-01-26T22:22:35.165794Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.2": [
+      {
+        "filename": "smallneuron-2.3.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27280,
+        "upload_time": "2024-08-30T22:21:39",
+        "upload_time_iso_8601": "2024-08-30T22:21:39.054786Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26312,
+        "upload_time": "2024-08-30T22:21:40",
+        "upload_time_iso_8601": "2024-08-30T22:21:40.609771Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.3": [
+      {
+        "filename": "smallneuron-2.3.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27270,
+        "upload_time": "2024-09-07T14:21:09",
+        "upload_time_iso_8601": "2024-09-07T14:21:09.132528Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26309,
+        "upload_time": "2024-09-07T14:21:10",
+        "upload_time_iso_8601": "2024-09-07T14:21:10.744389Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.4": [
+      {
+        "filename": "smallneuron-2.3.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27255,
+        "upload_time": "2024-09-11T21:11:00",
+        "upload_time_iso_8601": "2024-09-11T21:11:00.335417Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26304,
+        "upload_time": "2024-09-11T21:11:01",
+        "upload_time_iso_8601": "2024-09-11T21:11:01.974497Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.5": [
+      {
+        "filename": "smallneuron-2.3.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27317,
+        "upload_time": "2024-10-24T00:42:11",
+        "upload_time_iso_8601": "2024-10-24T00:42:11.888241Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26333,
+        "upload_time": "2024-10-24T00:42:13",
+        "upload_time_iso_8601": "2024-10-24T00:42:13.835090Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.6": [
+      {
+        "filename": "smallneuron-2.3.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27350,
+        "upload_time": "2024-10-24T11:42:43",
+        "upload_time_iso_8601": "2024-10-24T11:42:43.005273Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26362,
+        "upload_time": "2024-10-24T11:42:44",
+        "upload_time_iso_8601": "2024-10-24T11:42:44.855114Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.7": [
+      {
+        "filename": "smallneuron-2.3.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27376,
+        "upload_time": "2025-01-22T17:12:49",
+        "upload_time_iso_8601": "2025-01-22T17:12:49.895440Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26409,
+        "upload_time": "2025-01-22T17:12:51",
+        "upload_time_iso_8601": "2025-01-22T17:12:51.226727Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.8": [
+      {
+        "filename": "smallneuron-2.3.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27441,
+        "upload_time": "2025-01-25T13:12:02",
+        "upload_time_iso_8601": "2025-01-25T13:12:02.430117Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26492,
+        "upload_time": "2025-01-25T13:12:04",
+        "upload_time_iso_8601": "2025-01-25T13:12:04.486507Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.9": [
+      {
+        "filename": "smallneuron-2.3.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27638,
+        "upload_time": "2025-01-25T15:01:22",
+        "upload_time_iso_8601": "2025-01-25T15:01:22.879918Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.3.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26673,
+        "upload_time": "2025-01-25T15:01:24",
+        "upload_time_iso_8601": "2025-01-25T15:01:24.831720Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4": [
+      {
+        "filename": "smallneuron-2.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27719,
+        "upload_time": "2025-01-26T23:52:26",
+        "upload_time_iso_8601": "2025-01-26T23:52:26.944732Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26770,
+        "upload_time": "2025-01-26T23:52:28",
+        "upload_time_iso_8601": "2025-01-26T23:52:28.954871Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.1": [
+      {
+        "filename": "smallneuron-2.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27742,
+        "upload_time": "2025-01-26T23:59:31",
+        "upload_time_iso_8601": "2025-01-26T23:59:31.251275Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "smallneuron-2.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 26779,
+        "upload_time": "2025-01-26T23:59:33",
+        "upload_time_iso_8601": "2025-01-26T23:59:33.150937Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

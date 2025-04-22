@@ -1,0 +1,3298 @@
+{
+  "info": {
+    "author": null,
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Web Environment",
+      "Framework :: Flask",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": "llc <luolingchun@outlook.com>",
+    "name": "flask-openapi3-scalar",
+    "package_url": "https://pypi.org/project/flask-openapi3-scalar/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/flask-openapi3-scalar/",
+    "project_urls": {
+      "Documentation": "https://luolingchun.github.io/flask-openapi3/latest/Usage/UI_Templates/",
+      "Homepage": "https://github.com/luolingchun/flask-openapi3-plugins/tree/master/flask-openapi3-scalar"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/flask-openapi3-scalar/1.25.113/",
+    "requires_dist": [
+      "flask-openapi3"
+    ],
+    "requires_python": ">=3.8",
+    "summary": "Provide Scalar UI for flask-openapi3.",
+    "version": "1.25.113",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27215132,
+  "releases": {
+    "1.22.52": [
+      {
+        "filename": "flask_openapi3_scalar-1.22.52-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 638539,
+        "upload_time": "2024-05-28T01:32:28",
+        "upload_time_iso_8601": "2024-05-28T01:32:28.263458Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.22.52.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 636386,
+        "upload_time": "2024-05-28T01:32:30",
+        "upload_time_iso_8601": "2024-05-28T01:32:30.743396Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.22.53": [
+      {
+        "filename": "flask_openapi3_scalar-1.22.53-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 638569,
+        "upload_time": "2024-05-29T01:36:22",
+        "upload_time_iso_8601": "2024-05-29T01:36:22.498697Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.22.53.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 636410,
+        "upload_time": "2024-05-29T01:36:23",
+        "upload_time_iso_8601": "2024-05-29T01:36:23.994787Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.23.5": [
+      {
+        "filename": "flask_openapi3_scalar-1.23.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 638449,
+        "upload_time": "2024-06-03T01:35:52",
+        "upload_time_iso_8601": "2024-06-03T01:35:52.423440Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.23.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 636243,
+        "upload_time": "2024-06-03T01:35:53",
+        "upload_time_iso_8601": "2024-06-03T01:35:53.718990Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.10": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 639285,
+        "upload_time": "2024-06-18T01:36:09",
+        "upload_time_iso_8601": "2024-06-18T01:36:09.212693Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 636955,
+        "upload_time": "2024-06-18T01:36:20",
+        "upload_time_iso_8601": "2024-06-18T01:36:20.561084Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.12": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 571361,
+        "upload_time": "2024-06-19T01:36:14",
+        "upload_time_iso_8601": "2024-06-19T01:36:14.647626Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 568676,
+        "upload_time": "2024-06-19T01:36:22",
+        "upload_time_iso_8601": "2024-06-19T01:36:22.366680Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.15": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 579129,
+        "upload_time": "2024-06-20T01:33:52",
+        "upload_time_iso_8601": "2024-06-20T01:33:52.844664Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 577377,
+        "upload_time": "2024-06-20T01:33:56",
+        "upload_time_iso_8601": "2024-06-20T01:33:56.707172Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.16": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 646358,
+        "upload_time": "2024-06-22T01:33:19",
+        "upload_time_iso_8601": "2024-06-22T01:33:19.379988Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 643717,
+        "upload_time": "2024-06-22T01:33:21",
+        "upload_time_iso_8601": "2024-06-22T01:33:21.449196Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.17": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 648381,
+        "upload_time": "2024-06-25T01:35:36",
+        "upload_time_iso_8601": "2024-06-25T01:35:36.265702Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 645740,
+        "upload_time": "2024-06-25T01:35:38",
+        "upload_time_iso_8601": "2024-06-25T01:35:38.779071Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.19": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 649969,
+        "upload_time": "2024-06-26T01:35:27",
+        "upload_time_iso_8601": "2024-06-26T01:35:27.061165Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 647332,
+        "upload_time": "2024-06-26T01:35:31",
+        "upload_time_iso_8601": "2024-06-26T01:35:31.089298Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.21": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 658534,
+        "upload_time": "2024-06-28T01:36:18",
+        "upload_time_iso_8601": "2024-06-28T01:36:18.031249Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 656170,
+        "upload_time": "2024-06-28T01:36:22",
+        "upload_time_iso_8601": "2024-06-28T01:36:22.506938Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.25": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 640313,
+        "upload_time": "2024-06-29T01:34:02",
+        "upload_time_iso_8601": "2024-06-29T01:34:02.251826Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 638109,
+        "upload_time": "2024-06-29T01:34:04",
+        "upload_time_iso_8601": "2024-06-29T01:34:04.157417Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.26": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.26-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 640324,
+        "upload_time": "2024-06-30T01:42:36",
+        "upload_time_iso_8601": "2024-06-30T01:42:36.894155Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 638118,
+        "upload_time": "2024-06-30T01:42:39",
+        "upload_time_iso_8601": "2024-06-30T01:42:39.312836Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.27": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 640339,
+        "upload_time": "2024-07-01T01:45:37",
+        "upload_time_iso_8601": "2024-07-01T01:45:37.003861Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 638129,
+        "upload_time": "2024-07-01T01:45:38",
+        "upload_time_iso_8601": "2024-07-01T01:45:38.839113Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.28": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.28-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 640379,
+        "upload_time": "2024-07-02T01:36:33",
+        "upload_time_iso_8601": "2024-07-02T01:36:33.624891Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 638164,
+        "upload_time": "2024-07-02T01:36:35",
+        "upload_time_iso_8601": "2024-07-02T01:36:35.500043Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.29": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.29-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 642930,
+        "upload_time": "2024-07-03T01:35:58",
+        "upload_time_iso_8601": "2024-07-03T01:35:58.658580Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.29.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 640643,
+        "upload_time": "2024-07-03T01:36:00",
+        "upload_time_iso_8601": "2024-07-03T01:36:00.747216Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.30": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.30-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 642913,
+        "upload_time": "2024-07-04T01:36:39",
+        "upload_time_iso_8601": "2024-07-04T01:36:39.672369Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.30.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 640622,
+        "upload_time": "2024-07-04T01:36:43",
+        "upload_time_iso_8601": "2024-07-04T01:36:43.821664Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.33": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.33-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 653092,
+        "upload_time": "2024-07-05T01:36:17",
+        "upload_time_iso_8601": "2024-07-05T01:36:17.064912Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 651084,
+        "upload_time": "2024-07-05T01:36:18",
+        "upload_time_iso_8601": "2024-07-05T01:36:18.931292Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.35": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.35-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 653279,
+        "upload_time": "2024-07-06T01:33:45",
+        "upload_time_iso_8601": "2024-07-06T01:33:45.521958Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.35.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 651224,
+        "upload_time": "2024-07-06T01:33:49",
+        "upload_time_iso_8601": "2024-07-06T01:33:49.233089Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.36": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.36-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 653883,
+        "upload_time": "2024-07-07T01:43:31",
+        "upload_time_iso_8601": "2024-07-07T01:43:31.388504Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.36.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 651760,
+        "upload_time": "2024-07-07T01:43:33",
+        "upload_time_iso_8601": "2024-07-07T01:43:33.180255Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.39": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.39-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 659758,
+        "upload_time": "2024-07-09T01:38:16",
+        "upload_time_iso_8601": "2024-07-09T01:38:16.815462Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.39.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 657714,
+        "upload_time": "2024-07-09T01:38:19",
+        "upload_time_iso_8601": "2024-07-09T01:38:19.277168Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.42": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.42-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 659495,
+        "upload_time": "2024-07-13T01:37:31",
+        "upload_time_iso_8601": "2024-07-13T01:37:31.344880Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.42.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 657412,
+        "upload_time": "2024-07-13T01:37:35",
+        "upload_time_iso_8601": "2024-07-13T01:37:35.201139Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.44": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.44-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 659642,
+        "upload_time": "2024-07-14T01:45:21",
+        "upload_time_iso_8601": "2024-07-14T01:45:21.257335Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.44.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 657552,
+        "upload_time": "2024-07-14T01:45:23",
+        "upload_time_iso_8601": "2024-07-14T01:45:23.096544Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.46": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.46-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 652504,
+        "upload_time": "2024-07-16T01:39:51",
+        "upload_time_iso_8601": "2024-07-16T01:39:51.754066Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.46.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 650377,
+        "upload_time": "2024-07-16T01:39:53",
+        "upload_time_iso_8601": "2024-07-16T01:39:53.529806Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.49": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.49-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 651940,
+        "upload_time": "2024-07-18T01:37:01",
+        "upload_time_iso_8601": "2024-07-18T01:37:01.409622Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.49.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 649852,
+        "upload_time": "2024-07-18T01:37:03",
+        "upload_time_iso_8601": "2024-07-18T01:37:03.251870Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.50": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.50-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 651012,
+        "upload_time": "2024-07-20T01:35:58",
+        "upload_time_iso_8601": "2024-07-20T01:35:58.386066Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.50.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 648927,
+        "upload_time": "2024-07-20T01:35:59",
+        "upload_time_iso_8601": "2024-07-20T01:35:59.840624Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.51": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.51-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 651032,
+        "upload_time": "2024-07-21T01:44:14",
+        "upload_time_iso_8601": "2024-07-21T01:44:14.994870Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.51.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 648934,
+        "upload_time": "2024-07-21T01:44:16",
+        "upload_time_iso_8601": "2024-07-21T01:44:16.516859Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.52": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.52-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 650387,
+        "upload_time": "2024-07-22T01:41:34",
+        "upload_time_iso_8601": "2024-07-22T01:41:34.314287Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.52.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 648526,
+        "upload_time": "2024-07-22T01:41:36",
+        "upload_time_iso_8601": "2024-07-22T01:41:36.071277Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.53": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.53-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 650651,
+        "upload_time": "2024-07-23T01:39:10",
+        "upload_time_iso_8601": "2024-07-23T01:39:10.017914Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.53.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 648786,
+        "upload_time": "2024-07-23T01:39:11",
+        "upload_time_iso_8601": "2024-07-23T01:39:11.777246Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.54": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.54-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 650780,
+        "upload_time": "2024-07-24T01:39:02",
+        "upload_time_iso_8601": "2024-07-24T01:39:02.377403Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.54.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 648912,
+        "upload_time": "2024-07-24T01:39:04",
+        "upload_time_iso_8601": "2024-07-24T01:39:04.212994Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.56": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.56-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 650940,
+        "upload_time": "2024-07-25T01:38:47",
+        "upload_time_iso_8601": "2024-07-25T01:38:47.273981Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.56.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 649053,
+        "upload_time": "2024-07-25T01:38:49",
+        "upload_time_iso_8601": "2024-07-25T01:38:49.431950Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.57": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.57-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 650939,
+        "upload_time": "2024-07-26T01:38:06",
+        "upload_time_iso_8601": "2024-07-26T01:38:06.285341Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.57.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 649052,
+        "upload_time": "2024-07-26T01:38:07",
+        "upload_time_iso_8601": "2024-07-26T01:38:07.970410Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.58": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.58-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 651024,
+        "upload_time": "2024-07-27T01:36:51",
+        "upload_time_iso_8601": "2024-07-27T01:36:51.455062Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.58.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 649045,
+        "upload_time": "2024-07-27T01:36:53",
+        "upload_time_iso_8601": "2024-07-27T01:36:53.487614Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.59": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.59-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 650893,
+        "upload_time": "2024-07-29T01:42:03",
+        "upload_time_iso_8601": "2024-07-29T01:42:03.597098Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.59.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 648911,
+        "upload_time": "2024-07-29T01:42:05",
+        "upload_time_iso_8601": "2024-07-29T01:42:05.654137Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.62": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.62-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 658627,
+        "upload_time": "2024-07-31T01:17:30",
+        "upload_time_iso_8601": "2024-07-31T01:17:30.899217Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.62.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 656658,
+        "upload_time": "2024-07-31T01:17:33",
+        "upload_time_iso_8601": "2024-07-31T01:17:33.010496Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.64": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.64-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 659566,
+        "upload_time": "2024-08-01T01:46:34",
+        "upload_time_iso_8601": "2024-08-01T01:46:34.378159Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.64.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 657586,
+        "upload_time": "2024-08-01T01:46:36",
+        "upload_time_iso_8601": "2024-08-01T01:46:36.402303Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.66": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.66-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 668910,
+        "upload_time": "2024-08-02T01:38:55",
+        "upload_time_iso_8601": "2024-08-02T01:38:55.142687Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.66.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 666951,
+        "upload_time": "2024-08-02T01:38:57",
+        "upload_time_iso_8601": "2024-08-02T01:38:57.135661Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.68": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.68-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 669779,
+        "upload_time": "2024-08-03T01:37:29",
+        "upload_time_iso_8601": "2024-08-03T01:37:29.037156Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.68.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 667770,
+        "upload_time": "2024-08-03T01:37:31",
+        "upload_time_iso_8601": "2024-08-03T01:37:31.064666Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.69": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.69-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 670139,
+        "upload_time": "2024-08-05T01:41:45",
+        "upload_time_iso_8601": "2024-08-05T01:41:45.270611Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.69.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 668099,
+        "upload_time": "2024-08-05T01:41:47",
+        "upload_time_iso_8601": "2024-08-05T01:41:47.105011Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.70": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.70-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 670907,
+        "upload_time": "2024-08-06T01:39:35",
+        "upload_time_iso_8601": "2024-08-06T01:39:35.072611Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.70.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 668938,
+        "upload_time": "2024-08-06T01:39:36",
+        "upload_time_iso_8601": "2024-08-06T01:39:36.999291Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.72": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.72-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 675474,
+        "upload_time": "2024-08-08T01:40:37",
+        "upload_time_iso_8601": "2024-08-08T01:40:37.338271Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.72.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 672986,
+        "upload_time": "2024-08-08T01:40:39",
+        "upload_time_iso_8601": "2024-08-08T01:40:39.369983Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.73": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.73-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 688046,
+        "upload_time": "2024-08-10T01:40:46",
+        "upload_time_iso_8601": "2024-08-10T01:40:46.040402Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.73.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 685295,
+        "upload_time": "2024-08-10T01:40:47",
+        "upload_time_iso_8601": "2024-08-10T01:40:47.758847Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.74": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.74-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 687553,
+        "upload_time": "2024-08-12T01:43:19",
+        "upload_time_iso_8601": "2024-08-12T01:43:19.805076Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.74.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 684721,
+        "upload_time": "2024-08-12T01:43:22",
+        "upload_time_iso_8601": "2024-08-12T01:43:22.463566Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.75": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.75-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 688247,
+        "upload_time": "2024-08-13T01:42:31",
+        "upload_time_iso_8601": "2024-08-13T01:42:31.795762Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.75.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 685328,
+        "upload_time": "2024-08-13T01:42:33",
+        "upload_time_iso_8601": "2024-08-13T01:42:33.350468Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.76": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.76-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 688060,
+        "upload_time": "2024-08-15T01:34:33",
+        "upload_time_iso_8601": "2024-08-15T01:34:33.200205Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.76.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 685149,
+        "upload_time": "2024-08-15T01:34:34",
+        "upload_time_iso_8601": "2024-08-15T01:34:34.942646Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.24.8": [
+      {
+        "filename": "flask_openapi3_scalar-1.24.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 644169,
+        "upload_time": "2024-06-17T01:38:40",
+        "upload_time_iso_8601": "2024-06-17T01:38:40.583706Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.24.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 641834,
+        "upload_time": "2024-06-17T01:38:42",
+        "upload_time_iso_8601": "2024-06-17T01:38:42.861084Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.0": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 688084,
+        "upload_time": "2024-08-16T01:40:18",
+        "upload_time_iso_8601": "2024-08-16T01:40:18.459070Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 685183,
+        "upload_time": "2024-08-16T01:40:20",
+        "upload_time_iso_8601": "2024-08-16T01:40:20.181748Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.10": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 680285,
+        "upload_time": "2024-09-09T01:48:43",
+        "upload_time_iso_8601": "2024-09-09T01:48:43.152824Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 678116,
+        "upload_time": "2024-09-09T01:48:44",
+        "upload_time_iso_8601": "2024-09-09T01:48:44.961871Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.100": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.100-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 746749,
+        "upload_time": "2025-01-08T01:52:13",
+        "upload_time_iso_8601": "2025-01-08T01:52:13.959366Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.100.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 743505,
+        "upload_time": "2025-01-08T01:52:16",
+        "upload_time_iso_8601": "2025-01-08T01:52:16.382059Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.101": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.101-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 746787,
+        "upload_time": "2025-01-09T02:23:01",
+        "upload_time_iso_8601": "2025-01-09T02:23:01.379410Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.101.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 743520,
+        "upload_time": "2025-01-09T02:23:04",
+        "upload_time_iso_8601": "2025-01-09T02:23:04.132287Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.102": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.102-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 747306,
+        "upload_time": "2025-01-12T02:00:51",
+        "upload_time_iso_8601": "2025-01-12T02:00:51.372182Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.102.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 744090,
+        "upload_time": "2025-01-12T02:00:54",
+        "upload_time_iso_8601": "2025-01-12T02:00:54.436298Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.103": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.103-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 747441,
+        "upload_time": "2025-01-14T01:47:32",
+        "upload_time_iso_8601": "2025-01-14T01:47:32.710940Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.103.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 744230,
+        "upload_time": "2025-01-14T01:47:35",
+        "upload_time_iso_8601": "2025-01-14T01:47:35.619588Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.105": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.105-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 749577,
+        "upload_time": "2025-01-17T01:47:43",
+        "upload_time_iso_8601": "2025-01-17T01:47:43.612143Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.105.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 746603,
+        "upload_time": "2025-01-17T01:47:46",
+        "upload_time_iso_8601": "2025-01-17T01:47:46.292516Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.106": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.106-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 749734,
+        "upload_time": "2025-01-21T01:48:32",
+        "upload_time_iso_8601": "2025-01-21T01:48:32.908392Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.106.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 746774,
+        "upload_time": "2025-01-21T01:48:34",
+        "upload_time_iso_8601": "2025-01-21T01:48:34.761538Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.108": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.108-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 749850,
+        "upload_time": "2025-01-23T01:49:04",
+        "upload_time_iso_8601": "2025-01-23T01:49:04.592473Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.108.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 746826,
+        "upload_time": "2025-01-23T01:49:06",
+        "upload_time_iso_8601": "2025-01-23T01:49:06.676458Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.109": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.109-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 751435,
+        "upload_time": "2025-01-28T01:48:39",
+        "upload_time_iso_8601": "2025-01-28T01:48:39.220903Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.109.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 748495,
+        "upload_time": "2025-01-28T01:48:40",
+        "upload_time_iso_8601": "2025-01-28T01:48:40.833050Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.11": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 680664,
+        "upload_time": "2024-09-13T01:46:50",
+        "upload_time_iso_8601": "2024-09-13T01:46:50.357931Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 677817,
+        "upload_time": "2024-09-13T01:46:52",
+        "upload_time_iso_8601": "2024-09-13T01:46:52.362873Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.111": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.111-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 751464,
+        "upload_time": "2025-01-29T01:48:44",
+        "upload_time_iso_8601": "2025-01-29T01:48:44.695294Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.111.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 748523,
+        "upload_time": "2025-01-29T01:48:48",
+        "upload_time_iso_8601": "2025-01-29T01:48:48.258754Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.113": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.113-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 749772,
+        "upload_time": "2025-01-31T01:49:26",
+        "upload_time_iso_8601": "2025-01-31T01:49:26.238309Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.113.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 746462,
+        "upload_time": "2025-01-31T01:49:28",
+        "upload_time_iso_8601": "2025-01-31T01:49:28.611265Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.13": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 688421,
+        "upload_time": "2024-09-20T01:48:36",
+        "upload_time_iso_8601": "2024-09-20T01:48:36.403109Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 685338,
+        "upload_time": "2024-09-20T01:48:38",
+        "upload_time_iso_8601": "2024-09-20T01:48:38.462278Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.14": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 688420,
+        "upload_time": "2024-09-21T01:46:34",
+        "upload_time_iso_8601": "2024-09-21T01:46:34.967388Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 685340,
+        "upload_time": "2024-09-21T01:46:36",
+        "upload_time_iso_8601": "2024-09-21T01:46:36.680141Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.17": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 689143,
+        "upload_time": "2024-09-22T01:56:55",
+        "upload_time_iso_8601": "2024-09-22T01:56:55.317462Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 686030,
+        "upload_time": "2024-09-22T01:56:56",
+        "upload_time_iso_8601": "2024-09-22T01:56:56.849771Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.19": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 699787,
+        "upload_time": "2024-09-25T01:52:48",
+        "upload_time_iso_8601": "2024-09-25T01:52:48.890779Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 696985,
+        "upload_time": "2024-09-25T01:52:50",
+        "upload_time_iso_8601": "2024-09-25T01:52:50.730894Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.21": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 699795,
+        "upload_time": "2024-09-26T01:50:51",
+        "upload_time_iso_8601": "2024-09-26T01:50:51.420477Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 696986,
+        "upload_time": "2024-09-26T01:50:53",
+        "upload_time_iso_8601": "2024-09-26T01:50:53.344694Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.22": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 708699,
+        "upload_time": "2024-09-27T01:51:28",
+        "upload_time_iso_8601": "2024-09-27T01:51:28.932880Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 705778,
+        "upload_time": "2024-09-27T01:51:31",
+        "upload_time_iso_8601": "2024-09-27T01:51:31.192980Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.23": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 708984,
+        "upload_time": "2024-09-28T01:50:29",
+        "upload_time_iso_8601": "2024-09-28T01:50:29.236848Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 705999,
+        "upload_time": "2024-09-28T01:50:30",
+        "upload_time_iso_8601": "2024-09-28T01:50:30.963092Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.24": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 708937,
+        "upload_time": "2024-09-30T01:55:01",
+        "upload_time_iso_8601": "2024-09-30T01:55:01.759946Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 705955,
+        "upload_time": "2024-09-30T01:55:03",
+        "upload_time_iso_8601": "2024-09-30T01:55:03.429150Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.25": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 709102,
+        "upload_time": "2024-10-01T02:00:43",
+        "upload_time_iso_8601": "2024-10-01T02:00:43.082260Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 706099,
+        "upload_time": "2024-10-01T02:00:44",
+        "upload_time_iso_8601": "2024-10-01T02:00:44.458337Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.26": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.26-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 709784,
+        "upload_time": "2024-10-03T01:51:24",
+        "upload_time_iso_8601": "2024-10-03T01:51:24.390140Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 706833,
+        "upload_time": "2024-10-03T01:51:26",
+        "upload_time_iso_8601": "2024-10-03T01:51:26.249346Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.27": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 709723,
+        "upload_time": "2024-10-04T01:51:40",
+        "upload_time_iso_8601": "2024-10-04T01:51:40.588024Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 706776,
+        "upload_time": "2024-10-04T01:51:42",
+        "upload_time_iso_8601": "2024-10-04T01:51:42.012822Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.28": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.28-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 709759,
+        "upload_time": "2024-10-07T01:54:50",
+        "upload_time_iso_8601": "2024-10-07T01:54:50.127612Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 706817,
+        "upload_time": "2024-10-07T01:54:51",
+        "upload_time_iso_8601": "2024-10-07T01:54:51.629636Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.3": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 688265,
+        "upload_time": "2024-08-17T01:37:21",
+        "upload_time_iso_8601": "2024-08-17T01:37:21.072507Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 685394,
+        "upload_time": "2024-08-17T01:37:22",
+        "upload_time_iso_8601": "2024-08-17T01:37:22.723886Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.30": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.30-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 709918,
+        "upload_time": "2024-10-08T01:51:55",
+        "upload_time_iso_8601": "2024-10-08T01:51:55.544557Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.30.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 706954,
+        "upload_time": "2024-10-08T01:51:57",
+        "upload_time_iso_8601": "2024-10-08T01:51:57.574791Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.31": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.31-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 699590,
+        "upload_time": "2024-10-09T01:50:48",
+        "upload_time_iso_8601": "2024-10-09T01:50:48.526623Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.31.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 696624,
+        "upload_time": "2024-10-09T01:50:50",
+        "upload_time_iso_8601": "2024-10-09T01:50:50.806078Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.32": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.32-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 698603,
+        "upload_time": "2024-10-10T01:51:12",
+        "upload_time_iso_8601": "2024-10-10T01:51:12.629454Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.32.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 695589,
+        "upload_time": "2024-10-10T01:51:14",
+        "upload_time_iso_8601": "2024-10-10T01:51:14.021103Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.33": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.33-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 702985,
+        "upload_time": "2024-10-11T01:50:41",
+        "upload_time_iso_8601": "2024-10-11T01:50:41.945353Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 700032,
+        "upload_time": "2024-10-11T01:50:43",
+        "upload_time_iso_8601": "2024-10-11T01:50:43.759075Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.34": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.34-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 704209,
+        "upload_time": "2024-10-12T01:48:22",
+        "upload_time_iso_8601": "2024-10-12T01:48:22.666497Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.34.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 701200,
+        "upload_time": "2024-10-12T01:48:24",
+        "upload_time_iso_8601": "2024-10-12T01:48:24.693341Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.35": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.35-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 704946,
+        "upload_time": "2024-10-14T01:54:12",
+        "upload_time_iso_8601": "2024-10-14T01:54:12.306817Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.35.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 701818,
+        "upload_time": "2024-10-14T01:54:14",
+        "upload_time_iso_8601": "2024-10-14T01:54:14.215404Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.37": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.37-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 705320,
+        "upload_time": "2024-10-15T01:52:53",
+        "upload_time_iso_8601": "2024-10-15T01:52:53.555261Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.37.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 701794,
+        "upload_time": "2024-10-15T01:52:54",
+        "upload_time_iso_8601": "2024-10-15T01:52:54.865046Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.4": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 688213,
+        "upload_time": "2024-08-18T01:45:31",
+        "upload_time_iso_8601": "2024-08-18T01:45:31.821453Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 685296,
+        "upload_time": "2024-08-18T01:45:33",
+        "upload_time_iso_8601": "2024-08-18T01:45:33.668277Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.40": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.40-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 707728,
+        "upload_time": "2024-10-18T01:52:19",
+        "upload_time_iso_8601": "2024-10-18T01:52:19.005094Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.40.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 704247,
+        "upload_time": "2024-10-18T01:52:20",
+        "upload_time_iso_8601": "2024-10-18T01:52:20.860922Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.42": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.42-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 712963,
+        "upload_time": "2024-10-19T01:50:12",
+        "upload_time_iso_8601": "2024-10-19T01:50:12.472948Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.42.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 709495,
+        "upload_time": "2024-10-19T01:50:15",
+        "upload_time_iso_8601": "2024-10-19T01:50:15.026411Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.44": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.44-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 713182,
+        "upload_time": "2024-10-20T02:00:06",
+        "upload_time_iso_8601": "2024-10-20T02:00:06.841164Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.44.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 709717,
+        "upload_time": "2024-10-20T02:00:08",
+        "upload_time_iso_8601": "2024-10-20T02:00:08.558911Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.46": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.46-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 713411,
+        "upload_time": "2024-10-21T01:54:28",
+        "upload_time_iso_8601": "2024-10-21T01:54:28.487459Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.46.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 710094,
+        "upload_time": "2024-10-21T01:54:30",
+        "upload_time_iso_8601": "2024-10-21T01:54:30.166284Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.47": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.47-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 713879,
+        "upload_time": "2024-10-23T01:51:31",
+        "upload_time_iso_8601": "2024-10-23T01:51:31.098705Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.47.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 710700,
+        "upload_time": "2024-10-23T01:51:33",
+        "upload_time_iso_8601": "2024-10-23T01:51:33.269931Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.48": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.48-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 713883,
+        "upload_time": "2024-10-24T01:51:32",
+        "upload_time_iso_8601": "2024-10-24T01:51:32.131901Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.48.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 710708,
+        "upload_time": "2024-10-24T01:51:34",
+        "upload_time_iso_8601": "2024-10-24T01:51:34.132777Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.49": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.49-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 712188,
+        "upload_time": "2024-10-25T01:52:45",
+        "upload_time_iso_8601": "2024-10-25T01:52:45.273709Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.49.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 708680,
+        "upload_time": "2024-10-25T01:52:47",
+        "upload_time_iso_8601": "2024-10-25T01:52:47.172429Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.5": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 690545,
+        "upload_time": "2024-08-23T01:40:57",
+        "upload_time_iso_8601": "2024-08-23T01:40:57.560891Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 687775,
+        "upload_time": "2024-08-23T01:40:58",
+        "upload_time_iso_8601": "2024-08-23T01:40:58.807511Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.50": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.50-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 712717,
+        "upload_time": "2024-10-28T01:56:26",
+        "upload_time_iso_8601": "2024-10-28T01:56:26.590429Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.50.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 709040,
+        "upload_time": "2024-10-28T01:56:28",
+        "upload_time_iso_8601": "2024-10-28T01:56:28.274640Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.51": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.51-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 728756,
+        "upload_time": "2024-10-29T01:54:00",
+        "upload_time_iso_8601": "2024-10-29T01:54:00.114546Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.51.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 726448,
+        "upload_time": "2024-10-29T01:54:01",
+        "upload_time_iso_8601": "2024-10-29T01:54:01.389670Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.52": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.52-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 728261,
+        "upload_time": "2024-10-30T01:53:03",
+        "upload_time_iso_8601": "2024-10-30T01:53:03.746405Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.52.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 725173,
+        "upload_time": "2024-10-30T01:53:05",
+        "upload_time_iso_8601": "2024-10-30T01:53:05.253930Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.54": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.54-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 730290,
+        "upload_time": "2024-10-31T01:54:04",
+        "upload_time_iso_8601": "2024-10-31T01:54:04.994013Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.54.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 727565,
+        "upload_time": "2024-10-31T01:54:07",
+        "upload_time_iso_8601": "2024-10-31T01:54:07.184878Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.56": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.56-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 730946,
+        "upload_time": "2024-11-02T01:50:31",
+        "upload_time_iso_8601": "2024-11-02T01:50:31.405545Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.56.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 728252,
+        "upload_time": "2024-11-02T01:50:33",
+        "upload_time_iso_8601": "2024-11-02T01:50:33.762244Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.57": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.57-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 730939,
+        "upload_time": "2024-11-05T01:50:11",
+        "upload_time_iso_8601": "2024-11-05T01:50:11.396663Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.57.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 728246,
+        "upload_time": "2024-11-05T01:50:13",
+        "upload_time_iso_8601": "2024-11-05T01:50:13.416518Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.58": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.58-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 731487,
+        "upload_time": "2024-11-06T01:49:51",
+        "upload_time_iso_8601": "2024-11-06T01:49:51.569498Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.58.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 728756,
+        "upload_time": "2024-11-06T01:49:53",
+        "upload_time_iso_8601": "2024-11-06T01:49:53.376898Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.6": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 690823,
+        "upload_time": "2024-08-24T01:39:04",
+        "upload_time_iso_8601": "2024-08-24T01:39:04.586068Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 688095,
+        "upload_time": "2024-08-24T01:39:06",
+        "upload_time_iso_8601": "2024-08-24T01:39:06.491063Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.60": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.60-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 731562,
+        "upload_time": "2024-11-08T01:50:34",
+        "upload_time_iso_8601": "2024-11-08T01:50:34.191974Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.60.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 728844,
+        "upload_time": "2024-11-08T01:50:36",
+        "upload_time_iso_8601": "2024-11-08T01:50:36.033319Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.61": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.61-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 738705,
+        "upload_time": "2024-11-10T01:55:52",
+        "upload_time_iso_8601": "2024-11-10T01:55:52.068800Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.61.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 736128,
+        "upload_time": "2024-11-10T01:55:54",
+        "upload_time_iso_8601": "2024-11-10T01:55:54.026552Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.62": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.62-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 739008,
+        "upload_time": "2024-11-13T01:51:15",
+        "upload_time_iso_8601": "2024-11-13T01:51:15.746493Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.62.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 736522,
+        "upload_time": "2024-11-13T01:51:17",
+        "upload_time_iso_8601": "2024-11-13T01:51:17.396649Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.63": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.63-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 738968,
+        "upload_time": "2024-11-14T01:51:23",
+        "upload_time_iso_8601": "2024-11-14T01:51:23.505132Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.63.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 736627,
+        "upload_time": "2024-11-14T01:51:25",
+        "upload_time_iso_8601": "2024-11-14T01:51:25.820572Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.64": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.64-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 741174,
+        "upload_time": "2024-11-15T01:57:35",
+        "upload_time_iso_8601": "2024-11-15T01:57:35.970582Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.64.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 739029,
+        "upload_time": "2024-11-15T01:57:37",
+        "upload_time_iso_8601": "2024-11-15T01:57:37.752919Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.66": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.66-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 742106,
+        "upload_time": "2024-11-17T02:02:15",
+        "upload_time_iso_8601": "2024-11-17T02:02:15.463394Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.66.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 739512,
+        "upload_time": "2024-11-17T02:02:17",
+        "upload_time_iso_8601": "2024-11-17T02:02:17.950453Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.67": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.67-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 742903,
+        "upload_time": "2024-11-20T01:56:11",
+        "upload_time_iso_8601": "2024-11-20T01:56:11.657014Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.67.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 740386,
+        "upload_time": "2024-11-20T01:56:13",
+        "upload_time_iso_8601": "2024-11-20T01:56:13.656237Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.68": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.68-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 743670,
+        "upload_time": "2024-11-21T01:56:07",
+        "upload_time_iso_8601": "2024-11-21T01:56:07.288718Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.68.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 741122,
+        "upload_time": "2024-11-21T01:56:08",
+        "upload_time_iso_8601": "2024-11-21T01:56:08.804022Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.69": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.69-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 743943,
+        "upload_time": "2024-11-22T01:57:22",
+        "upload_time_iso_8601": "2024-11-22T01:57:22.741241Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.69.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 741362,
+        "upload_time": "2024-11-22T01:57:24",
+        "upload_time_iso_8601": "2024-11-22T01:57:24.150334Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.7": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 690892,
+        "upload_time": "2024-08-27T01:43:02",
+        "upload_time_iso_8601": "2024-08-27T01:43:02.327151Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 688172,
+        "upload_time": "2024-08-27T01:43:03",
+        "upload_time_iso_8601": "2024-08-27T01:43:03.990852Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.70": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.70-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 743920,
+        "upload_time": "2024-11-23T01:53:17",
+        "upload_time_iso_8601": "2024-11-23T01:53:17.412116Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.70.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 741124,
+        "upload_time": "2024-11-23T01:53:19",
+        "upload_time_iso_8601": "2024-11-23T01:53:19.415429Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.71": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.71-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 743922,
+        "upload_time": "2024-11-24T02:03:17",
+        "upload_time_iso_8601": "2024-11-24T02:03:17.560030Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.71.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 741122,
+        "upload_time": "2024-11-24T02:03:19",
+        "upload_time_iso_8601": "2024-11-24T02:03:19.643267Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.72": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.72-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 744978,
+        "upload_time": "2024-11-28T01:59:31",
+        "upload_time_iso_8601": "2024-11-28T01:59:31.115397Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.72.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 742133,
+        "upload_time": "2024-11-28T01:59:33",
+        "upload_time_iso_8601": "2024-11-28T01:59:33.504990Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.74": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.74-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 745474,
+        "upload_time": "2024-12-05T02:02:04",
+        "upload_time_iso_8601": "2024-12-05T02:02:04.183795Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.74.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 742652,
+        "upload_time": "2024-12-05T02:02:06",
+        "upload_time_iso_8601": "2024-12-05T02:02:06.513331Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.75": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.75-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 747185,
+        "upload_time": "2024-12-06T02:00:52",
+        "upload_time_iso_8601": "2024-12-06T02:00:52.262676Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.75.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 744287,
+        "upload_time": "2024-12-06T02:00:53",
+        "upload_time_iso_8601": "2024-12-06T02:00:53.967808Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.76": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.76-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 747190,
+        "upload_time": "2024-12-07T01:59:46",
+        "upload_time_iso_8601": "2024-12-07T01:59:46.287897Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.76.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 744297,
+        "upload_time": "2024-12-07T01:59:47",
+        "upload_time_iso_8601": "2024-12-07T01:59:47.942760Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.77": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.77-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 747452,
+        "upload_time": "2024-12-10T02:03:34",
+        "upload_time_iso_8601": "2024-12-10T02:03:34.266974Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.77.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 744789,
+        "upload_time": "2024-12-10T02:03:36",
+        "upload_time_iso_8601": "2024-12-10T02:03:36.812311Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.78": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.78-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 759856,
+        "upload_time": "2024-12-11T02:01:44",
+        "upload_time_iso_8601": "2024-12-11T02:01:44.856327Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.78.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 756767,
+        "upload_time": "2024-12-11T02:01:47",
+        "upload_time_iso_8601": "2024-12-11T02:01:47.453561Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.80": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.80-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 759837,
+        "upload_time": "2024-12-12T02:01:32",
+        "upload_time_iso_8601": "2024-12-12T02:01:32.365935Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.80.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 756749,
+        "upload_time": "2024-12-12T02:01:35",
+        "upload_time_iso_8601": "2024-12-12T02:01:35.027324Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.82": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.82-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 742077,
+        "upload_time": "2024-12-14T01:57:56",
+        "upload_time_iso_8601": "2024-12-14T01:57:56.822928Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.82.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 738835,
+        "upload_time": "2024-12-14T01:57:59",
+        "upload_time_iso_8601": "2024-12-14T01:57:59.594413Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.83": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.83-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 742126,
+        "upload_time": "2024-12-16T02:05:08",
+        "upload_time_iso_8601": "2024-12-16T02:05:08.931628Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.83.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 738883,
+        "upload_time": "2024-12-16T02:05:12",
+        "upload_time_iso_8601": "2024-12-16T02:05:12.412221Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.86": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.86-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 742276,
+        "upload_time": "2024-12-17T02:01:20",
+        "upload_time_iso_8601": "2024-12-17T02:01:20.374308Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.86.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 739060,
+        "upload_time": "2024-12-17T02:01:23",
+        "upload_time_iso_8601": "2024-12-17T02:01:23.302872Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.9": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 678733,
+        "upload_time": "2024-09-03T01:44:25",
+        "upload_time_iso_8601": "2024-09-03T01:44:25.987540Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 676824,
+        "upload_time": "2024-09-03T01:44:28",
+        "upload_time_iso_8601": "2024-09-03T01:44:28.063200Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.90": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.90-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 742833,
+        "upload_time": "2024-12-18T01:57:10",
+        "upload_time_iso_8601": "2024-12-18T01:57:10.525526Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.90.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 739593,
+        "upload_time": "2024-12-18T01:57:13",
+        "upload_time_iso_8601": "2024-12-18T01:57:13.360384Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.91": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.91-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 742833,
+        "upload_time": "2024-12-19T01:58:08",
+        "upload_time_iso_8601": "2024-12-19T01:58:08.904384Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.91.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 739592,
+        "upload_time": "2024-12-19T01:58:11",
+        "upload_time_iso_8601": "2024-12-19T01:58:11.493133Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.93": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.93-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 745344,
+        "upload_time": "2024-12-20T01:52:32",
+        "upload_time_iso_8601": "2024-12-20T01:52:32.219866Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.93.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 742095,
+        "upload_time": "2024-12-20T01:52:34",
+        "upload_time_iso_8601": "2024-12-20T01:52:34.946123Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.95": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.95-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 746704,
+        "upload_time": "2024-12-21T01:50:08",
+        "upload_time_iso_8601": "2024-12-21T01:50:08.344053Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.95.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 743475,
+        "upload_time": "2024-12-21T01:50:10",
+        "upload_time_iso_8601": "2024-12-21T01:50:10.965535Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.96": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.96-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 746661,
+        "upload_time": "2024-12-23T01:53:59",
+        "upload_time_iso_8601": "2024-12-23T01:53:59.070227Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.96.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 743438,
+        "upload_time": "2024-12-23T01:54:01",
+        "upload_time_iso_8601": "2024-12-23T01:54:01.604462Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.98": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.98-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 746662,
+        "upload_time": "2024-12-24T01:51:52",
+        "upload_time_iso_8601": "2024-12-24T01:51:52.171577Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.98.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 743442,
+        "upload_time": "2024-12-24T01:51:54",
+        "upload_time_iso_8601": "2024-12-24T01:51:54.917337Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.25.99": [
+      {
+        "filename": "flask_openapi3_scalar-1.25.99-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 746551,
+        "upload_time": "2024-12-25T01:50:24",
+        "upload_time_iso_8601": "2024-12-25T01:50:24.348135Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "flask_openapi3_scalar-1.25.99.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 743344,
+        "upload_time": "2024-12-25T01:50:27",
+        "upload_time_iso_8601": "2024-12-25T01:50:27.130013Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

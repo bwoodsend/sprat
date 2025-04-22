@@ -1,0 +1,210 @@
+{
+  "info": {
+    "author": "Marcus Kertesz",
+    "author_email": "",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "description": "# Relic Tool - SGA - Core\n[![PyPI](https://img.shields.io/pypi/v/relic-tool-sga-core)](https://pypi.org/project/relic-tool-sga-core/)\n[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/relic-tool-sga-core)](https://www.python.org/downloads/)\n[![PyPI - License](https://img.shields.io/pypi/l/relic-tool-sga-core)](https://github.com/MAK-Relic-Tool/Relic-Tool-SGA-Core/blob/main/LICENSE.txt)\n[![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)\n[![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n[![Pytest](https://github.com/MAK-Relic-Tool/Relic-Tool-SGA-Core/actions/workflows/pytest.yml/badge.svg)](https://github.com/MAK-Relic-Tool/Relic-Tool-SGA-Core/actions/workflows/pytest.yml)\n[![Pylint](https://github.com/MAK-Relic-Tool/Relic-Tool-SGA-Core/actions/workflows/pylint.yml/badge.svg)](https://github.com/MAK-Relic-Tool/Relic-Tool-SGA-Core/actions/workflows/pylint.yml)\n[![MyPy](https://github.com/MAK-Relic-Tool/Relic-Tool-SGA-Core/actions/workflows/mypy.yml/badge.svg)](https://github.com/MAK-Relic-Tool/Relic-Tool-SGA-Core/actions/workflows/mypy.yml)\n#### Disclaimer\nNot affiliated with Sega, Relic Entertainment, or THQ.\n## Developer Package\nThis is a developer package; used internally by other Relic-Tool packages.\n\nAre you looking for the [SGA Sub-Tool](https://github.com/MAK-Relic-Tool/Relic-Tool-SGA), or the [Relic Tool](https://github.com/MAK-Relic-Tool/Relic-Tool)?\n\n## Installation (Pip)\n### Installing from PyPI (Recommended)\n```\npip install relic-tool-sga-core\n```\n### Installing from GitHub\nFor more information, see [pip VCS support](https://pip.pypa.io/en/stable/topics/vcs-support/#git)\n```\npip install git+https://github.com/MAK-Relic-Tool/Relic-Tool-SGA-Core\n```\n",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": "",
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": "https://github.com/MAK-Relic-Tool/Relic-Tool-SGA-Core",
+    "keywords": "",
+    "license": "",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "",
+    "maintainer_email": "",
+    "name": "relic-tool-sga-core",
+    "package_url": "https://pypi.org/project/relic-tool-sga-core/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/relic-tool-sga-core/",
+    "project_urls": {
+      "Bug Tracker": "https://github.com/MAK-Relic-Tool/Issue-Tracker/issues",
+      "Homepage": "https://github.com/MAK-Relic-Tool/Relic-Tool-SGA-Core"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/relic-tool-sga-core/1.1.4/",
+    "requires_dist": [
+      "mak-serialization-tools >=2022.0a19",
+      "relic-tool-core >=1.1.1",
+      "fs"
+    ],
+    "requires_python": ">=3.9",
+    "summary": "Core files shared by versioned SGA files.",
+    "version": "1.1.4",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 20255848,
+  "releases": {
+    "1.0.0": [
+      {
+        "filename": "relic_tool_sga_core-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 28577,
+        "upload_time": "2022-09-28T18:15:51",
+        "upload_time_iso_8601": "2022-09-28T18:15:51.756025Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "relic-tool-sga-core-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 27499,
+        "upload_time": "2022-09-28T18:15:53",
+        "upload_time_iso_8601": "2022-09-28T18:15:53.441844Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "relic_tool_sga_core-1.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 29582,
+        "upload_time": "2023-10-15T07:39:39",
+        "upload_time_iso_8601": "2023-10-15T07:39:39.265800Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "relic-tool-sga-core-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 29870,
+        "upload_time": "2023-10-15T07:39:40",
+        "upload_time_iso_8601": "2023-10-15T07:39:40.715004Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1": [
+      {
+        "filename": "relic_tool_sga_core-1.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 29683,
+        "upload_time": "2023-10-15T18:51:03",
+        "upload_time_iso_8601": "2023-10-15T18:51:03.819604Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "relic-tool-sga-core-1.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 29949,
+        "upload_time": "2023-10-15T18:51:05",
+        "upload_time_iso_8601": "2023-10-15T18:51:05.608940Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.2": [
+      {
+        "filename": "relic_tool_sga_core-1.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 30154,
+        "upload_time": "2023-10-19T00:03:27",
+        "upload_time_iso_8601": "2023-10-19T00:03:27.429992Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "relic-tool-sga-core-1.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 30372,
+        "upload_time": "2023-10-19T00:03:29",
+        "upload_time_iso_8601": "2023-10-19T00:03:29.466731Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.3": [
+      {
+        "filename": "relic_tool_sga_core-1.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 30266,
+        "upload_time": "2023-10-19T09:48:38",
+        "upload_time_iso_8601": "2023-10-19T09:48:38.998567Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "relic-tool-sga-core-1.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 30468,
+        "upload_time": "2023-10-19T09:48:40",
+        "upload_time_iso_8601": "2023-10-19T09:48:40.092373Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.4": [
+      {
+        "filename": "relic_tool_sga_core-1.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 31768,
+        "upload_time": "2023-10-20T02:11:03",
+        "upload_time_iso_8601": "2023-10-20T02:11:03.810943Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "relic-tool-sga-core-1.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 31882,
+        "upload_time": "2023-10-20T02:11:05",
+        "upload_time_iso_8601": "2023-10-20T02:11:05.024170Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

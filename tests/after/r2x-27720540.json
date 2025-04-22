@@ -1,0 +1,419 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Pedro Sanchez <psanchez@nrel.gov>, Obika Kodi <kodi.obika@nrel.gov>, Vivienne Liu <vivienne.liu@nrel.gov>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: BSD License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Topic :: Software Development :: Build Tools"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": [
+      "LICENCE.txt"
+    ],
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "r2x",
+    "package_url": "https://pypi.org/project/r2x/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/r2x/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/r2x/1.1.1/",
+    "requires_dist": [
+      "cvxpy~=1.5.3",
+      "h5py",
+      "infrasys~=0.3.2",
+      "jsonschema~=4.23",
+      "loguru~=0.7.2",
+      "pandas>=2.2",
+      "plexosdb~=0.1.0",
+      "polars~=1.1.0",
+      "pyyaml~=6.0.1",
+      "rich~=13.7.1",
+      "tables~=3.10.1"
+    ],
+    "requires_python": "<3.13,>=3.11",
+    "summary": "ReEDS to X parser",
+    "version": "1.1.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27720540,
+  "releases": {
+    "1.0.0": [
+      {
+        "filename": "r2x-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 483013,
+        "upload_time": "2025-01-15T22:27:38",
+        "upload_time_iso_8601": "2025-01-15T22:27:38.868205Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 473434,
+        "upload_time": "2025-01-15T22:27:40",
+        "upload_time_iso_8601": "2025-01-15T22:27:40.201085Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.0rc0": [
+      {
+        "filename": "r2x-1.0.0rc0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 80316,
+        "upload_time": "2024-09-17T19:51:09",
+        "upload_time_iso_8601": "2024-09-17T19:51:09.354961Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.0.0rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 75314,
+        "upload_time": "2024-09-17T19:51:11",
+        "upload_time_iso_8601": "2024-09-17T19:51:11.098948Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.1": [
+      {
+        "filename": "r2x-1.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 483642,
+        "upload_time": "2025-01-23T04:25:51",
+        "upload_time_iso_8601": "2025-01-23T04:25:51.794089Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 474326,
+        "upload_time": "2025-01-23T04:25:53",
+        "upload_time_iso_8601": "2025-01-23T04:25:53.743944Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.2": [
+      {
+        "filename": "r2x-1.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 485974,
+        "upload_time": "2025-01-31T05:22:53",
+        "upload_time_iso_8601": "2025-01-31T05:22:53.473437Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 476892,
+        "upload_time": "2025-01-31T05:22:55",
+        "upload_time_iso_8601": "2025-01-31T05:22:55.408177Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "r2x-1.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 493057,
+        "upload_time": "2025-02-13T07:32:07",
+        "upload_time_iso_8601": "2025-02-13T07:32:07.655348Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 486187,
+        "upload_time": "2025-02-13T07:32:09",
+        "upload_time_iso_8601": "2025-02-13T07:32:09.340614Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1": [
+      {
+        "filename": "r2x-1.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 497686,
+        "upload_time": "2025-02-26T23:44:02",
+        "upload_time_iso_8601": "2025-02-26T23:44:02.705651Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 489151,
+        "upload_time": "2025-02-26T23:44:04",
+        "upload_time_iso_8601": "2025-02-26T23:44:04.727118Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1a0": [
+      {
+        "filename": "r2x-1.1.1a0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 497712,
+        "upload_time": "2025-03-02T02:29:14",
+        "upload_time_iso_8601": "2025-03-02T02:29:14.506488Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.1.1a0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 550334,
+        "upload_time": "2025-03-02T02:29:16",
+        "upload_time_iso_8601": "2025-03-02T02:29:16.548979Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1b0": [
+      {
+        "filename": "r2x-1.1.1b0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 497714,
+        "upload_time": "2025-03-02T03:15:17",
+        "upload_time_iso_8601": "2025-03-02T03:15:17.388070Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.1.1b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 550417,
+        "upload_time": "2025-03-02T03:15:19",
+        "upload_time_iso_8601": "2025-03-02T03:15:19.520923Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1b1": [
+      {
+        "filename": "r2x-1.1.1b1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 497713,
+        "upload_time": "2025-03-02T03:26:59",
+        "upload_time_iso_8601": "2025-03-02T03:26:59.465363Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.1.1b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 550422,
+        "upload_time": "2025-03-02T03:27:01",
+        "upload_time_iso_8601": "2025-03-02T03:27:01.241556Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1b2": [
+      {
+        "filename": "r2x-1.1.1b2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 497713,
+        "upload_time": "2025-03-02T03:29:26",
+        "upload_time_iso_8601": "2025-03-02T03:29:26.280608Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.1.1b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 550427,
+        "upload_time": "2025-03-02T03:29:28",
+        "upload_time_iso_8601": "2025-03-02T03:29:28.250700Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1b3": [
+      {
+        "filename": "r2x-1.1.1b3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 497713,
+        "upload_time": "2025-03-02T03:38:17",
+        "upload_time_iso_8601": "2025-03-02T03:38:17.203167Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.1.1b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 550404,
+        "upload_time": "2025-03-02T03:38:19",
+        "upload_time_iso_8601": "2025-03-02T03:38:19.109909Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1b4": [
+      {
+        "filename": "r2x-1.1.1b4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 497715,
+        "upload_time": "2025-03-02T03:42:13",
+        "upload_time_iso_8601": "2025-03-02T03:42:13.474318Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.1.1b4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 550416,
+        "upload_time": "2025-03-02T03:42:15",
+        "upload_time_iso_8601": "2025-03-02T03:42:15.308243Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1b5": [
+      {
+        "filename": "r2x-1.1.1b5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 497715,
+        "upload_time": "2025-03-02T03:48:12",
+        "upload_time_iso_8601": "2025-03-02T03:48:12.250236Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.1.1b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 550436,
+        "upload_time": "2025-03-02T03:48:15",
+        "upload_time_iso_8601": "2025-03-02T03:48:15.642968Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1b6": [
+      {
+        "filename": "r2x-1.1.1b6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 497716,
+        "upload_time": "2025-03-02T05:41:22",
+        "upload_time_iso_8601": "2025-03-02T05:41:22.314999Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "r2x-1.1.1b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 550430,
+        "upload_time": "2025-03-02T05:41:24",
+        "upload_time_iso_8601": "2025-03-02T05:41:24.552853Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,892 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "T'rahk Rokym <trahk.rokym@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Environment :: Web Environment",
+      "Framework :: Django",
+      "Framework :: Django :: 4.0",
+      "Framework :: Django :: 4.2",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Internet :: WWW/HTTP",
+      "Topic :: Internet :: WWW/HTTP :: Dynamic Content"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "aa-metenox",
+    "package_url": "https://pypi.org/project/aa-metenox/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/aa-metenox/",
+    "project_urls": {
+      "Changelog": "https://gitlab.com/r0kym/aa-metenox/-/blob/main/CHANGELOG.md",
+      "Homepage": "https://gitlab.com/r0kym/aa-metenox",
+      "Source": "https://gitlab.com/r0kym/aa-metenox",
+      "Tracker": "https://gitlab.com/r0kym/aa-metenox/-/issues"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/aa-metenox/1.1.4/",
+    "requires_dist": [
+      "allianceauth>=4.6.0",
+      "aa-moonmining>=1.11",
+      "allianceauth-app-utils>=1.25.0",
+      "django-datatables-view>=1.20.0",
+      "dhooks-lite>=1.1.0",
+      "responses>=0.25"
+    ],
+    "requires_python": ">=3.8",
+    "summary": "Metenox app config",
+    "version": "1.1.4",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27260200,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "aa_metenox-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 37494,
+        "upload_time": "2024-08-19T16:54:59",
+        "upload_time_iso_8601": "2024-08-19T16:54:59.560220Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 30699,
+        "upload_time": "2024-08-19T16:55:01",
+        "upload_time_iso_8601": "2024-08-19T16:55:01.213080Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "aa_metenox-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 37490,
+        "upload_time": "2024-08-19T17:01:56",
+        "upload_time_iso_8601": "2024-08-19T17:01:56.938303Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 30697,
+        "upload_time": "2024-08-19T17:01:58",
+        "upload_time_iso_8601": "2024-08-19T17:01:58.563862Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.10": [
+      {
+        "filename": "aa_metenox-0.1.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 62771,
+        "upload_time": "2024-09-03T08:12:37",
+        "upload_time_iso_8601": "2024-09-03T08:12:37.323037Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 42178,
+        "upload_time": "2024-09-03T08:12:38",
+        "upload_time_iso_8601": "2024-09-03T08:12:38.448717Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.11": [
+      {
+        "filename": "aa_metenox-0.1.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 62803,
+        "upload_time": "2024-09-04T10:04:25",
+        "upload_time_iso_8601": "2024-09-04T10:04:25.831339Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 42227,
+        "upload_time": "2024-09-04T10:04:28",
+        "upload_time_iso_8601": "2024-09-04T10:04:28.038677Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.12": [
+      {
+        "filename": "aa_metenox-0.1.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 63783,
+        "upload_time": "2024-09-04T11:56:05",
+        "upload_time_iso_8601": "2024-09-04T11:56:05.663054Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 43125,
+        "upload_time": "2024-09-04T11:56:07",
+        "upload_time_iso_8601": "2024-09-04T11:56:07.602466Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.13": [
+      {
+        "filename": "aa_metenox-0.1.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 63844,
+        "upload_time": "2024-09-04T21:39:22",
+        "upload_time_iso_8601": "2024-09-04T21:39:22.191333Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 43304,
+        "upload_time": "2024-09-04T21:39:23",
+        "upload_time_iso_8601": "2024-09-04T21:39:23.444274Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.2": [
+      {
+        "filename": "aa_metenox-0.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 38116,
+        "upload_time": "2024-08-19T21:40:32",
+        "upload_time_iso_8601": "2024-08-19T21:40:32.933177Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 31149,
+        "upload_time": "2024-08-19T21:40:35",
+        "upload_time_iso_8601": "2024-08-19T21:40:35.006733Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.3": [
+      {
+        "filename": "aa_metenox-0.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 38372,
+        "upload_time": "2024-08-19T23:05:30",
+        "upload_time_iso_8601": "2024-08-19T23:05:30.043891Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 31428,
+        "upload_time": "2024-08-19T23:05:32",
+        "upload_time_iso_8601": "2024-08-19T23:05:32.088117Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4": [
+      {
+        "filename": "aa_metenox-0.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 38375,
+        "upload_time": "2024-08-19T23:09:11",
+        "upload_time_iso_8601": "2024-08-19T23:09:11.755092Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 31425,
+        "upload_time": "2024-08-19T23:09:15",
+        "upload_time_iso_8601": "2024-08-19T23:09:15.064535Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.5": [
+      {
+        "filename": "aa_metenox-0.1.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 45805,
+        "upload_time": "2024-08-22T22:18:18",
+        "upload_time_iso_8601": "2024-08-22T22:18:18.015403Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 34815,
+        "upload_time": "2024-08-22T22:18:21",
+        "upload_time_iso_8601": "2024-08-22T22:18:21.199030Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.6": [
+      {
+        "filename": "aa_metenox-0.1.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 57037,
+        "upload_time": "2024-08-29T19:47:58",
+        "upload_time_iso_8601": "2024-08-29T19:47:58.149391Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 39194,
+        "upload_time": "2024-08-29T19:48:01",
+        "upload_time_iso_8601": "2024-08-29T19:48:01.022370Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.7": [
+      {
+        "filename": "aa_metenox-0.1.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 57052,
+        "upload_time": "2024-08-29T20:00:07",
+        "upload_time_iso_8601": "2024-08-29T20:00:07.800248Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 39218,
+        "upload_time": "2024-08-29T20:00:09",
+        "upload_time_iso_8601": "2024-08-29T20:00:09.399150Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.8": [
+      {
+        "filename": "aa_metenox-0.1.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 57099,
+        "upload_time": "2024-08-29T21:21:10",
+        "upload_time_iso_8601": "2024-08-29T21:21:10.778536Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 39251,
+        "upload_time": "2024-08-29T21:21:11",
+        "upload_time_iso_8601": "2024-08-29T21:21:11.880937Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.9": [
+      {
+        "filename": "aa_metenox-0.1.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 59926,
+        "upload_time": "2024-09-02T22:51:58",
+        "upload_time_iso_8601": "2024-09-02T22:51:58.800761Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-0.1.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 41084,
+        "upload_time": "2024-09-02T22:52:01",
+        "upload_time_iso_8601": "2024-09-02T22:52:01.103803Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.0": [
+      {
+        "filename": "aa_metenox-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 59281,
+        "upload_time": "2024-09-05T12:04:11",
+        "upload_time_iso_8601": "2024-09-05T12:04:11.760096Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 42146,
+        "upload_time": "2024-09-05T12:04:14",
+        "upload_time_iso_8601": "2024-09-05T12:04:14.200942Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.1": [
+      {
+        "filename": "aa_metenox-1.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 59383,
+        "upload_time": "2024-09-05T13:31:42",
+        "upload_time_iso_8601": "2024-09-05T13:31:42.734281Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 42190,
+        "upload_time": "2024-09-05T13:31:44",
+        "upload_time_iso_8601": "2024-09-05T13:31:44.572152Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.2": [
+      {
+        "filename": "aa_metenox-1.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60448,
+        "upload_time": "2024-09-06T14:33:47",
+        "upload_time_iso_8601": "2024-09-06T14:33:47.369770Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 42935,
+        "upload_time": "2024-09-06T14:33:48",
+        "upload_time_iso_8601": "2024-09-06T14:33:48.929324Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.3": [
+      {
+        "filename": "aa_metenox-1.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 61724,
+        "upload_time": "2024-09-08T18:42:25",
+        "upload_time_iso_8601": "2024-09-08T18:42:25.493397Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 43660,
+        "upload_time": "2024-09-08T18:42:26",
+        "upload_time_iso_8601": "2024-09-08T18:42:26.811939Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.4": [
+      {
+        "filename": "aa_metenox-1.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 62514,
+        "upload_time": "2024-09-11T09:55:06",
+        "upload_time_iso_8601": "2024-09-11T09:55:06.909196Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 44054,
+        "upload_time": "2024-09-11T09:55:08",
+        "upload_time_iso_8601": "2024-09-11T09:55:08.367474Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.5": [
+      {
+        "filename": "aa_metenox-1.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 67884,
+        "upload_time": "2024-09-15T14:56:03",
+        "upload_time_iso_8601": "2024-09-15T14:56:03.568707Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47448,
+        "upload_time": "2024-09-15T14:56:05",
+        "upload_time_iso_8601": "2024-09-15T14:56:05.175002Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.6": [
+      {
+        "filename": "aa_metenox-1.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 67855,
+        "upload_time": "2024-09-15T22:02:45",
+        "upload_time_iso_8601": "2024-09-15T22:02:45.187986Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47417,
+        "upload_time": "2024-09-15T22:02:47",
+        "upload_time_iso_8601": "2024-09-15T22:02:47.071480Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.7": [
+      {
+        "filename": "aa_metenox-1.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 70305,
+        "upload_time": "2024-09-16T11:53:35",
+        "upload_time_iso_8601": "2024-09-16T11:53:35.465553Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 48584,
+        "upload_time": "2024-09-16T11:53:37",
+        "upload_time_iso_8601": "2024-09-16T11:53:37.214019Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.8": [
+      {
+        "filename": "aa_metenox-1.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 71285,
+        "upload_time": "2024-09-18T23:00:57",
+        "upload_time_iso_8601": "2024-09-18T23:00:57.306627Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 49525,
+        "upload_time": "2024-09-18T23:00:58",
+        "upload_time_iso_8601": "2024-09-18T23:00:58.446533Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.9": [
+      {
+        "filename": "aa_metenox-1.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 71338,
+        "upload_time": "2024-09-23T21:40:56",
+        "upload_time_iso_8601": "2024-09-23T21:40:56.818726Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 49502,
+        "upload_time": "2024-09-23T21:40:57",
+        "upload_time_iso_8601": "2024-09-23T21:40:57.961506Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "aa_metenox-1.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 85007,
+        "upload_time": "2024-10-14T22:13:16",
+        "upload_time_iso_8601": "2024-10-14T22:13:16.994609Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 59696,
+        "upload_time": "2024-10-14T22:13:18",
+        "upload_time_iso_8601": "2024-10-14T22:13:18.699442Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0b1": [
+      {
+        "filename": "aa_metenox-1.1.0b1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 82488,
+        "upload_time": "2024-10-07T22:06:19",
+        "upload_time_iso_8601": "2024-10-07T22:06:19.768237Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.1.0b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 58331,
+        "upload_time": "2024-10-07T22:06:21",
+        "upload_time_iso_8601": "2024-10-07T22:06:21.770540Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0b2": [
+      {
+        "filename": "aa_metenox-1.1.0b2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 83880,
+        "upload_time": "2024-10-08T23:28:09",
+        "upload_time_iso_8601": "2024-10-08T23:28:09.859332Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.1.0b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 59170,
+        "upload_time": "2024-10-08T23:28:12",
+        "upload_time_iso_8601": "2024-10-08T23:28:12.913068Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0b3": [
+      {
+        "filename": "aa_metenox-1.1.0b3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 84746,
+        "upload_time": "2024-10-10T11:40:12",
+        "upload_time_iso_8601": "2024-10-10T11:40:12.221505Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.1.0b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 59703,
+        "upload_time": "2024-10-10T11:40:15",
+        "upload_time_iso_8601": "2024-10-10T11:40:15.742771Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1": [
+      {
+        "filename": "aa_metenox-1.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 85008,
+        "upload_time": "2024-10-24T11:39:59",
+        "upload_time_iso_8601": "2024-10-24T11:39:59.923772Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 59733,
+        "upload_time": "2024-10-24T11:40:01",
+        "upload_time_iso_8601": "2024-10-24T11:40:01.724640Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.3": [
+      {
+        "filename": "aa_metenox-1.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 86764,
+        "upload_time": "2025-01-25T16:22:52",
+        "upload_time_iso_8601": "2025-01-25T16:22:52.343846Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 60792,
+        "upload_time": "2025-01-25T16:22:54",
+        "upload_time_iso_8601": "2025-01-25T16:22:54.652649Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.3b1": [
+      {
+        "filename": "aa_metenox-1.1.3b1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 86110,
+        "upload_time": "2024-11-18T14:08:50",
+        "upload_time_iso_8601": "2024-11-18T14:08:50.593223Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.1.3b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 60606,
+        "upload_time": "2024-11-18T14:08:51",
+        "upload_time_iso_8601": "2024-11-18T14:08:51.751549Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.4": [
+      {
+        "filename": "aa_metenox-1.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 86869,
+        "upload_time": "2025-02-03T13:09:59",
+        "upload_time_iso_8601": "2025-02-03T13:09:59.273053Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aa_metenox-1.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 60893,
+        "upload_time": "2025-02-03T13:10:01",
+        "upload_time_iso_8601": "2025-02-03T13:10:01.218972Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

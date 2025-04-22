@@ -1,0 +1,361 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Grzegorz Śliwiński <fizyk+pypi@fizyk.dev>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Web Environment",
+      "Framework :: Pytest",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+      "Natural Language :: English",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: Software Development :: Testing"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "tests, pytest, fixture, mongodb, mongo",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "pytest-mongo",
+    "package_url": "https://pypi.org/project/pytest-mongo/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/pytest-mongo/",
+    "project_urls": {
+      "Bug Tracker": "https://github.com/dbfixtures/pytest-mongo/issues",
+      "Changelog": "https://github.com/dbfixtures/pytest-mongo/blob/v3.2.0/CHANGES.rst",
+      "Source": "https://github.com/dbfixtures/pytest-mongo"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/pytest-mongo/3.2.0/",
+    "requires_dist": [
+      "pytest>=6.2",
+      "port-for>=0.6.0",
+      "mirakuru",
+      "pymongo"
+    ],
+    "requires_python": ">=3.9",
+    "summary": "MongoDB process and client fixtures plugin for Pytest.",
+    "version": "3.2.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27704966,
+  "releases": {
+    "0.0.0": [],
+    "1.0.0": [
+      {
+        "filename": "pytest_mongo-1.0.0-py2.7.egg",
+        "has_sig": false,
+        "packagetype": "bdist_egg",
+        "python_version": "2.7",
+        "requires_python": null,
+        "size": 13165,
+        "upload_time": "2016-08-30T20:44:11",
+        "upload_time_iso_8601": "2016-08-30T20:44:11.565188Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_mongo-1.0.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 11026,
+        "upload_time": "2016-08-30T20:44:07",
+        "upload_time_iso_8601": "2016-08-30T20:44:07.104015Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest-mongo-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13563,
+        "upload_time": "2016-08-30T20:44:09",
+        "upload_time_iso_8601": "2016-08-30T20:44:09.357799Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "pytest_mongo-1.1.0-py2.7.egg",
+        "has_sig": false,
+        "packagetype": "bdist_egg",
+        "python_version": "2.7",
+        "requires_python": null,
+        "size": 13159,
+        "upload_time": "2016-10-24T23:08:54",
+        "upload_time_iso_8601": "2016-10-24T23:08:54.184229Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_mongo-1.1.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 11027,
+        "upload_time": "2016-10-24T23:08:50",
+        "upload_time_iso_8601": "2016-10-24T23:08:50.016720Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest-mongo-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13562,
+        "upload_time": "2016-10-24T23:08:52",
+        "upload_time_iso_8601": "2016-10-24T23:08:52.248911Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1": [
+      {
+        "filename": "pytest_mongo-1.1.1-py2.7.egg",
+        "has_sig": false,
+        "packagetype": "bdist_egg",
+        "python_version": "2.7",
+        "requires_python": null,
+        "size": 13194,
+        "upload_time": "2016-11-07T21:19:00",
+        "upload_time_iso_8601": "2016-11-07T21:19:00.764716Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_mongo-1.1.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 11166,
+        "upload_time": "2016-11-07T21:18:56",
+        "upload_time_iso_8601": "2016-11-07T21:18:56.878893Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest-mongo-1.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7680,
+        "upload_time": "2016-11-07T21:18:58",
+        "upload_time_iso_8601": "2016-11-07T21:18:58.978975Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.2": [
+      {
+        "filename": "pytest_mongo-1.1.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 11247,
+        "upload_time": "2017-05-05T22:20:32",
+        "upload_time_iso_8601": "2017-05-05T22:20:32.368363Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest-mongo-1.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7769,
+        "upload_time": "2017-05-05T22:20:33",
+        "upload_time_iso_8601": "2017-05-05T22:20:33.712171Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "pytest_mongo-1.2.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 8537,
+        "upload_time": "2018-07-13T13:56:46",
+        "upload_time_iso_8601": "2018-07-13T13:56:46.944163Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.1": [
+      {
+        "filename": "pytest_mongo-1.2.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 8549,
+        "upload_time": "2018-07-14T19:13:05",
+        "upload_time_iso_8601": "2018-07-14T19:13:05.256635Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.0": [
+      {
+        "filename": "pytest_mongo-2.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 11906,
+        "upload_time": "2019-12-03T12:17:38",
+        "upload_time_iso_8601": "2019-12-03T12:17:38.377014Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.0": [
+      {
+        "filename": "pytest_mongo-2.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 13091,
+        "upload_time": "2021-01-12T22:41:25",
+        "upload_time_iso_8601": "2021-01-12T22:41:25.670250Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.1": [
+      {
+        "filename": "pytest_mongo-2.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 11631,
+        "upload_time": "2021-06-07T12:14:09",
+        "upload_time_iso_8601": "2021-06-07T12:14:09.239472Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest-mongo-2.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 12668,
+        "upload_time": "2021-06-07T12:14:10",
+        "upload_time_iso_8601": "2021-06-07T12:14:10.494377Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.0.0": [
+      {
+        "filename": "pytest_mongo-3.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 14354,
+        "upload_time": "2023-07-20T14:15:15",
+        "upload_time_iso_8601": "2023-07-20T14:15:15.022874Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest-mongo-3.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 16483,
+        "upload_time": "2023-07-20T14:15:16",
+        "upload_time_iso_8601": "2023-07-20T14:15:16.709084Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.1.0": [
+      {
+        "filename": "pytest_mongo-3.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 14358,
+        "upload_time": "2024-03-13T14:30:37",
+        "upload_time_iso_8601": "2024-03-13T14:30:37.661248Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest-mongo-3.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 16606,
+        "upload_time": "2024-03-13T14:30:39",
+        "upload_time_iso_8601": "2024-03-13T14:30:39.855863Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.2.0": [
+      {
+        "filename": "pytest_mongo-3.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 14355,
+        "upload_time": "2025-02-28T21:15:52",
+        "upload_time_iso_8601": "2025-02-28T21:15:52.609915Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_mongo-3.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 16744,
+        "upload_time": "2025-02-28T21:15:54",
+        "upload_time_iso_8601": "2025-02-28T21:15:54.099106Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

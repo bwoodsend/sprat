@@ -1,0 +1,126 @@
+{
+  "info": {
+    "author": "Dorian Pustina",
+    "author_email": "\"Brian B. Avants\" <stnava@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "curvanato, caudate, medical image processing",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "curvanato",
+    "package_url": "https://pypi.org/project/curvanato/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/curvanato/",
+    "project_urls": {
+      "homepage": "https://github.com/stnava/curvanato"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/curvanato/1.2.0/",
+    "requires_dist": [
+      "numpy",
+      "antspyx>=0.4.2",
+      "antspynet",
+      "antspyt1w>=0.9.4",
+      "antspymm",
+      "scikit-learn",
+      "requests",
+      "statsmodels",
+      "matplotlib"
+    ],
+    "requires_python": null,
+    "summary": "Anatomical curvature processing for medical images.",
+    "version": "1.2.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27708023,
+  "releases": {
+    "0.0.0": [
+      {
+        "filename": "curvanato-0.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 69505,
+        "upload_time": "2024-12-06T14:02:01",
+        "upload_time_iso_8601": "2024-12-06T14:02:01.490450Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "curvanato-0.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 77021,
+        "upload_time": "2024-12-06T14:02:02",
+        "upload_time_iso_8601": "2024-12-06T14:02:02.824750Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.0": [
+      {
+        "filename": "curvanato-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 85015,
+        "upload_time": "2024-12-06T17:43:06",
+        "upload_time_iso_8601": "2024-12-06T17:43:06.305963Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "curvanato-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 92209,
+        "upload_time": "2024-12-06T17:43:07",
+        "upload_time_iso_8601": "2024-12-06T17:43:07.575322Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "curvanato-1.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 84743,
+        "upload_time": "2025-03-01T02:55:24",
+        "upload_time_iso_8601": "2025-03-01T02:55:24.017201Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "curvanato-1.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 91523,
+        "upload_time": "2025-03-01T02:55:25",
+        "upload_time_iso_8601": "2025-03-01T02:55:25.050450Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

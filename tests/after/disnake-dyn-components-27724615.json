@@ -1,0 +1,112 @@
+{
+  "info": {
+    "author": "Lord_Nodus",
+    "author_email": "LordNodus@mail.ru",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3.12"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/NodusLorden/DisnakeDynComponents",
+    "keywords": "disnake discord bot buttons modals selectmenu",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "disnake-dyn-components",
+    "package_url": "https://pypi.org/project/disnake-dyn-components/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/disnake-dyn-components/",
+    "project_urls": {
+      "GitHub": "https://github.com/NodusLorden/DisnakeDynComponents",
+      "Homepage": "https://github.com/NodusLorden/DisnakeDynComponents"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/disnake-dyn-components/0.2.2/",
+    "requires_dist": [
+      "disnake>=2.10.1"
+    ],
+    "requires_python": ">=3.12",
+    "summary": "Library for quick creation of ui components of discord with the ability to pass additional parameters",
+    "version": "0.2.2",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27724615,
+  "releases": {
+    "0.1.1": [
+      {
+        "filename": "disnake_dyn_components-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 5692,
+        "upload_time": "2024-12-07T17:53:38",
+        "upload_time_iso_8601": "2024-12-07T17:53:38.421970Z",
+        "yanked": true,
+        "yanked_reason": "Error in readme.md file prevents module from being installed via pip"
+      }
+    ],
+    "0.1.2": [
+      {
+        "filename": "disnake_dyn_components-0.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 6120,
+        "upload_time": "2024-12-08T08:42:46",
+        "upload_time_iso_8601": "2024-12-08T08:42:46.275171Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.3": [
+      {
+        "filename": "disnake_dyn_components-0.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 6399,
+        "upload_time": "2024-12-08T09:42:16",
+        "upload_time_iso_8601": "2024-12-08T09:42:16.294838Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.1": [
+      {
+        "filename": "disnake_dyn_components-0.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.12",
+        "size": 12401,
+        "upload_time": "2025-01-06T13:09:31",
+        "upload_time_iso_8601": "2025-01-06T13:09:31.824094Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.2": [
+      {
+        "filename": "disnake_dyn_components-0.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.12",
+        "size": 12440,
+        "upload_time": "2025-03-02T14:05:06",
+        "upload_time_iso_8601": "2025-03-02T14:05:06.329024Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

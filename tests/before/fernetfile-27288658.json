@@ -1,0 +1,92 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "bibi21000 <bibi21000@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Software Development :: Build Tools"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": [
+      "LICENSE"
+    ],
+    "maintainer": null,
+    "maintainer_email": "bibi21000 <bibi21000@gmail.com>",
+    "name": "fernetfile",
+    "package_url": "https://pypi.org/project/fernetfile/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/fernetfile/",
+    "project_urls": {
+      "HomePage": "https://github.com/bibi21000/FernetFile"
+    },
+    "provides_extra": [
+      "benchmark",
+      "build",
+      "test",
+      "zstd"
+    ],
+    "release_url": "https://pypi.org/project/fernetfile/0.0.4/",
+    "requires_dist": [
+      "cryptography>=43.0.0",
+      "pytest-ordering; extra == \"benchmark\"",
+      "build; extra == \"build\"",
+      "twine; extra == \"build\"",
+      "bandit; extra == \"test\"",
+      "coverage[toml]; extra == \"test\"",
+      "pytest; extra == \"test\"",
+      "pytest-cov; extra == \"test\"",
+      "ruff; extra == \"test\"",
+      "pyzstd; extra == \"zstd\""
+    ],
+    "requires_python": ">=3.8",
+    "summary": "A python xxxFile like ( ie GzipFile, BZ2File, ...) for manipulating Fernet encrypted files.",
+    "version": "0.0.4",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27288658,
+  "releases": {
+    "0.0.4": [
+      {
+        "filename": "fernetfile-0.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 9825,
+        "upload_time": "2025-02-04T21:57:56",
+        "upload_time_iso_8601": "2025-02-04T21:57:56.567256Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fernetfile-0.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 10883,
+        "upload_time": "2025-02-04T21:57:58",
+        "upload_time_iso_8601": "2025-02-04T21:57:58.317968Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

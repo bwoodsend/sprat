@@ -1,0 +1,1014 @@
+{
+  "info": {
+    "author": null,
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "Intended Audience :: Developers",
+      "Operating System :: MacOS",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: OS Independent",
+      "Operating System :: POSIX",
+      "Operating System :: POSIX :: Linux",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Typing :: Typed"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "methodwebscan",
+    "package_url": "https://pypi.org/project/methodwebscan/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/methodwebscan/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/methodwebscan/0.0.53/",
+    "requires_dist": [
+      "pydantic>=1.9.2",
+      "pydantic-core<3.0.0,>=2.18.2"
+    ],
+    "requires_python": "<4.0,>=3.8",
+    "summary": null,
+    "version": "0.0.53",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27719831,
+  "releases": {
+    "0.0.17": [
+      {
+        "filename": "methodwebscan-0.0.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 25160,
+        "upload_time": "2024-09-09T12:59:03",
+        "upload_time_iso_8601": "2024-09-09T12:59:03.558600Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 9967,
+        "upload_time": "2024-09-09T12:59:04",
+        "upload_time_iso_8601": "2024-09-09T12:59:04.996828Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.18": [
+      {
+        "filename": "methodwebscan-0.0.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 25161,
+        "upload_time": "2024-09-11T23:03:38",
+        "upload_time_iso_8601": "2024-09-11T23:03:38.598053Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 9942,
+        "upload_time": "2024-09-11T23:03:41",
+        "upload_time_iso_8601": "2024-09-11T23:03:41.463877Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.19": [
+      {
+        "filename": "methodwebscan-0.0.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 25160,
+        "upload_time": "2024-09-13T17:07:27",
+        "upload_time_iso_8601": "2024-09-13T17:07:27.817489Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 9983,
+        "upload_time": "2024-09-13T17:07:28",
+        "upload_time_iso_8601": "2024-09-13T17:07:28.855286Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.20": [
+      {
+        "filename": "methodwebscan-0.0.20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 28488,
+        "upload_time": "2024-09-24T20:18:03",
+        "upload_time_iso_8601": "2024-09-24T20:18:03.230406Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 10348,
+        "upload_time": "2024-09-24T20:18:04",
+        "upload_time_iso_8601": "2024-09-24T20:18:04.147519Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.21": [
+      {
+        "filename": "methodwebscan-0.0.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 31632,
+        "upload_time": "2024-10-06T02:35:10",
+        "upload_time_iso_8601": "2024-10-06T02:35:10.137620Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 10897,
+        "upload_time": "2024-10-06T02:35:11",
+        "upload_time_iso_8601": "2024-10-06T02:35:11.086104Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.22": [
+      {
+        "filename": "methodwebscan-0.0.22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 31643,
+        "upload_time": "2024-10-08T17:09:30",
+        "upload_time_iso_8601": "2024-10-08T17:09:30.449303Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 10940,
+        "upload_time": "2024-10-08T17:09:31",
+        "upload_time_iso_8601": "2024-10-08T17:09:31.680259Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.23": [
+      {
+        "filename": "methodwebscan-0.0.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 41521,
+        "upload_time": "2024-10-10T15:24:12",
+        "upload_time_iso_8601": "2024-10-10T15:24:12.311874Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13041,
+        "upload_time": "2024-10-10T15:24:13",
+        "upload_time_iso_8601": "2024-10-10T15:24:13.271761Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.24": [
+      {
+        "filename": "methodwebscan-0.0.24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 41521,
+        "upload_time": "2024-10-12T12:29:25",
+        "upload_time_iso_8601": "2024-10-12T12:29:25.147368Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13068,
+        "upload_time": "2024-10-12T12:29:26",
+        "upload_time_iso_8601": "2024-10-12T12:29:26.018188Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.25": [
+      {
+        "filename": "methodwebscan-0.0.25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 41521,
+        "upload_time": "2024-10-15T01:54:25",
+        "upload_time_iso_8601": "2024-10-15T01:54:25.688520Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13037,
+        "upload_time": "2024-10-15T01:54:27",
+        "upload_time_iso_8601": "2024-10-15T01:54:27.135855Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.26": [
+      {
+        "filename": "methodwebscan-0.0.26-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 41521,
+        "upload_time": "2024-10-15T20:37:39",
+        "upload_time_iso_8601": "2024-10-15T20:37:39.687368Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13087,
+        "upload_time": "2024-10-15T20:37:40",
+        "upload_time_iso_8601": "2024-10-15T20:37:40.654205Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.27": [
+      {
+        "filename": "methodwebscan-0.0.27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 41524,
+        "upload_time": "2024-10-16T13:03:10",
+        "upload_time_iso_8601": "2024-10-16T13:03:10.508013Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13011,
+        "upload_time": "2024-10-16T13:03:11",
+        "upload_time_iso_8601": "2024-10-16T13:03:11.465958Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.28": [
+      {
+        "filename": "methodwebscan-0.0.28-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 41523,
+        "upload_time": "2024-10-21T16:55:09",
+        "upload_time_iso_8601": "2024-10-21T16:55:09.783035Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13028,
+        "upload_time": "2024-10-21T16:55:11",
+        "upload_time_iso_8601": "2024-10-21T16:55:11.317802Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.29": [
+      {
+        "filename": "methodwebscan-0.0.29-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 41524,
+        "upload_time": "2024-10-22T00:40:46",
+        "upload_time_iso_8601": "2024-10-22T00:40:46.162605Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.29.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13046,
+        "upload_time": "2024-10-22T00:40:47",
+        "upload_time_iso_8601": "2024-10-22T00:40:47.109531Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.30": [
+      {
+        "filename": "methodwebscan-0.0.30-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 41524,
+        "upload_time": "2024-10-22T13:27:25",
+        "upload_time_iso_8601": "2024-10-22T13:27:25.973288Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.30.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13068,
+        "upload_time": "2024-10-22T13:27:27",
+        "upload_time_iso_8601": "2024-10-22T13:27:27.285207Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.31": [
+      {
+        "filename": "methodwebscan-0.0.31-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 41582,
+        "upload_time": "2024-10-22T17:48:42",
+        "upload_time_iso_8601": "2024-10-22T17:48:42.259841Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.31.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13044,
+        "upload_time": "2024-10-22T17:48:43",
+        "upload_time_iso_8601": "2024-10-22T17:48:43.603630Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.32": [
+      {
+        "filename": "methodwebscan-0.0.32-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 41594,
+        "upload_time": "2024-10-28T01:48:50",
+        "upload_time_iso_8601": "2024-10-28T01:48:50.552971Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.32.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13092,
+        "upload_time": "2024-10-28T01:48:51",
+        "upload_time_iso_8601": "2024-10-28T01:48:51.435226Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.33": [
+      {
+        "filename": "methodwebscan-0.0.33-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 43894,
+        "upload_time": "2024-10-29T18:49:14",
+        "upload_time_iso_8601": "2024-10-29T18:49:14.702985Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13466,
+        "upload_time": "2024-10-29T18:49:16",
+        "upload_time_iso_8601": "2024-10-29T18:49:16.070815Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.34": [
+      {
+        "filename": "methodwebscan-0.0.34-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 43895,
+        "upload_time": "2024-10-30T15:21:04",
+        "upload_time_iso_8601": "2024-10-30T15:21:04.003298Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.34.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13522,
+        "upload_time": "2024-10-30T15:21:05",
+        "upload_time_iso_8601": "2024-10-30T15:21:05.170449Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.35": [
+      {
+        "filename": "methodwebscan-0.0.35-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 43897,
+        "upload_time": "2024-11-07T14:56:28",
+        "upload_time_iso_8601": "2024-11-07T14:56:28.141573Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.35.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13448,
+        "upload_time": "2024-11-07T14:56:29",
+        "upload_time_iso_8601": "2024-11-07T14:56:29.172247Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.36": [
+      {
+        "filename": "methodwebscan-0.0.36-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 43897,
+        "upload_time": "2024-11-11T02:31:34",
+        "upload_time_iso_8601": "2024-11-11T02:31:34.019417Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.36.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13527,
+        "upload_time": "2024-11-11T02:31:35",
+        "upload_time_iso_8601": "2024-11-11T02:31:35.449330Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.37": [
+      {
+        "filename": "methodwebscan-0.0.37-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 45458,
+        "upload_time": "2024-11-11T21:21:35",
+        "upload_time_iso_8601": "2024-11-11T21:21:35.903368Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.37.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13792,
+        "upload_time": "2024-11-11T21:21:37",
+        "upload_time_iso_8601": "2024-11-11T21:21:37.410606Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.38": [
+      {
+        "filename": "methodwebscan-0.0.38-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 45513,
+        "upload_time": "2024-11-13T13:57:39",
+        "upload_time_iso_8601": "2024-11-13T13:57:39.454667Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.38.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13776,
+        "upload_time": "2024-11-13T13:57:40",
+        "upload_time_iso_8601": "2024-11-13T13:57:40.982168Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.39": [
+      {
+        "filename": "methodwebscan-0.0.39-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 45512,
+        "upload_time": "2024-11-18T23:26:38",
+        "upload_time_iso_8601": "2024-11-18T23:26:38.056624Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.39.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13830,
+        "upload_time": "2024-11-18T23:26:39",
+        "upload_time_iso_8601": "2024-11-18T23:26:39.587745Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.40": [
+      {
+        "filename": "methodwebscan-0.0.40-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 47044,
+        "upload_time": "2024-11-21T20:42:54",
+        "upload_time_iso_8601": "2024-11-21T20:42:54.053406Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.40.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 14294,
+        "upload_time": "2024-11-21T20:42:55",
+        "upload_time_iso_8601": "2024-11-21T20:42:55.569596Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.41": [
+      {
+        "filename": "methodwebscan-0.0.41-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 53896,
+        "upload_time": "2024-11-27T21:15:34",
+        "upload_time_iso_8601": "2024-11-27T21:15:34.601968Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.41.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 15594,
+        "upload_time": "2024-11-27T21:15:36",
+        "upload_time_iso_8601": "2024-11-27T21:15:36.090088Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.42": [
+      {
+        "filename": "methodwebscan-0.0.42-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 53966,
+        "upload_time": "2024-12-02T03:09:21",
+        "upload_time_iso_8601": "2024-12-02T03:09:21.116698Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.42.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 15660,
+        "upload_time": "2024-12-02T03:09:22",
+        "upload_time_iso_8601": "2024-12-02T03:09:22.639577Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.43": [
+      {
+        "filename": "methodwebscan-0.0.43-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 56888,
+        "upload_time": "2024-12-04T19:09:30",
+        "upload_time_iso_8601": "2024-12-04T19:09:30.495598Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.43.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 16213,
+        "upload_time": "2024-12-04T19:09:31",
+        "upload_time_iso_8601": "2024-12-04T19:09:31.462124Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.44": [
+      {
+        "filename": "methodwebscan-0.0.44-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 50333,
+        "upload_time": "2024-12-19T14:59:15",
+        "upload_time_iso_8601": "2024-12-19T14:59:15.941756Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.44.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13624,
+        "upload_time": "2024-12-19T14:59:16",
+        "upload_time_iso_8601": "2024-12-19T14:59:16.908783Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.45": [
+      {
+        "filename": "methodwebscan-0.0.45-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 50340,
+        "upload_time": "2025-01-08T17:38:04",
+        "upload_time_iso_8601": "2025-01-08T17:38:04.442562Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.45.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13588,
+        "upload_time": "2025-01-08T17:38:06",
+        "upload_time_iso_8601": "2025-01-08T17:38:06.510655Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.46": [
+      {
+        "filename": "methodwebscan-0.0.46-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 50340,
+        "upload_time": "2025-01-23T02:57:40",
+        "upload_time_iso_8601": "2025-01-23T02:57:40.322476Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.46.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13636,
+        "upload_time": "2025-01-23T02:57:41",
+        "upload_time_iso_8601": "2025-01-23T02:57:41.900081Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.47": [
+      {
+        "filename": "methodwebscan-0.0.47-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 50339,
+        "upload_time": "2025-01-26T17:30:30",
+        "upload_time_iso_8601": "2025-01-26T17:30:30.972337Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.47.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13625,
+        "upload_time": "2025-01-26T17:30:32",
+        "upload_time_iso_8601": "2025-01-26T17:30:32.525694Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.48": [
+      {
+        "filename": "methodwebscan-0.0.48-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 50339,
+        "upload_time": "2025-01-30T17:53:23",
+        "upload_time_iso_8601": "2025-01-30T17:53:23.770452Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.48.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13618,
+        "upload_time": "2025-01-30T17:53:24",
+        "upload_time_iso_8601": "2025-01-30T17:53:24.814704Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.49": [
+      {
+        "filename": "methodwebscan-0.0.49-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 50905,
+        "upload_time": "2025-02-06T19:12:44",
+        "upload_time_iso_8601": "2025-02-06T19:12:44.511615Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.49.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13754,
+        "upload_time": "2025-02-06T19:12:46",
+        "upload_time_iso_8601": "2025-02-06T19:12:46.066675Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.50": [
+      {
+        "filename": "methodwebscan-0.0.50-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 50913,
+        "upload_time": "2025-02-07T17:39:57",
+        "upload_time_iso_8601": "2025-02-07T17:39:57.743997Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.50.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13818,
+        "upload_time": "2025-02-07T17:39:58",
+        "upload_time_iso_8601": "2025-02-07T17:39:58.849992Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.51": [
+      {
+        "filename": "methodwebscan-0.0.51-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 47925,
+        "upload_time": "2025-02-12T22:31:56",
+        "upload_time_iso_8601": "2025-02-12T22:31:56.492200Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.51.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13010,
+        "upload_time": "2025-02-12T22:31:58",
+        "upload_time_iso_8601": "2025-02-12T22:31:58.198647Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.52": [
+      {
+        "filename": "methodwebscan-0.0.52-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 47926,
+        "upload_time": "2025-02-17T17:16:32",
+        "upload_time_iso_8601": "2025-02-17T17:16:32.143260Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.52.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 12976,
+        "upload_time": "2025-02-17T17:16:33",
+        "upload_time_iso_8601": "2025-02-17T17:16:33.213882Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.53": [
+      {
+        "filename": "methodwebscan-0.0.53-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 47970,
+        "upload_time": "2025-03-02T03:16:31",
+        "upload_time_iso_8601": "2025-03-02T03:16:31.180513Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "methodwebscan-0.0.53.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 13009,
+        "upload_time": "2025-03-02T03:16:32",
+        "upload_time_iso_8601": "2025-03-02T03:16:32.642678Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

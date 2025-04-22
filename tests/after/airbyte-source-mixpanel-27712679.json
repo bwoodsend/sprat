@@ -1,0 +1,1214 @@
+{
+  "info": {
+    "author": "Airbyte",
+    "author_email": "contact@airbyte.io",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://airbyte.com",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "airbyte-source-mixpanel",
+    "package_url": "https://pypi.org/project/airbyte-source-mixpanel/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/airbyte-source-mixpanel/",
+    "project_urls": {
+      "Documentation": "https://docs.airbyte.com/integrations/sources/mixpanel",
+      "Homepage": "https://airbyte.com",
+      "Repository": "https://github.com/airbytehq/airbyte"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/airbyte-source-mixpanel/3.4.20/",
+    "requires_dist": [
+      "airbyte-cdk<5,>=4"
+    ],
+    "requires_python": "<3.12,>=3.10",
+    "summary": "Source implementation for Mixpanel.",
+    "version": "3.4.20",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27712679,
+  "releases": {
+    "2.0.1": [
+      {
+        "filename": "airbyte_source_mixpanel-2.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 45393,
+        "upload_time": "2024-02-01T13:56:10",
+        "upload_time_iso_8601": "2024-02-01T13:56:10.498363Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte-source-mixpanel-2.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 33557,
+        "upload_time": "2024-02-01T13:56:12",
+        "upload_time_iso_8601": "2024-02-01T13:56:12.402372Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.2": [
+      {
+        "filename": "airbyte_source_mixpanel-2.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 30782,
+        "upload_time": "2024-02-12T12:49:25",
+        "upload_time_iso_8601": "2024-02-12T12:49:25.260148Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-2.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 21589,
+        "upload_time": "2024-02-12T12:49:26",
+        "upload_time_iso_8601": "2024-02-12T12:49:26.932305Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.0": [
+      {
+        "filename": "airbyte_source_mixpanel-2.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 30801,
+        "upload_time": "2024-02-14T10:03:47",
+        "upload_time_iso_8601": "2024-02-14T10:03:47.125344Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-2.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 21602,
+        "upload_time": "2024-02-14T10:03:48",
+        "upload_time_iso_8601": "2024-02-14T10:03:48.904660Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.0": [
+      {
+        "filename": "airbyte_source_mixpanel-2.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 30800,
+        "upload_time": "2024-03-21T02:02:47",
+        "upload_time_iso_8601": "2024-03-21T02:02:47.016674Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-2.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 21594,
+        "upload_time": "2024-03-21T02:02:48",
+        "upload_time_iso_8601": "2024-03-21T02:02:48.686070Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.2": [
+      {
+        "filename": "airbyte_source_mixpanel-2.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 32900,
+        "upload_time": "2024-05-07T13:32:24",
+        "upload_time_iso_8601": "2024-05-07T13:32:24.347113Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-2.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 23444,
+        "upload_time": "2024-05-07T13:32:26",
+        "upload_time_iso_8601": "2024-05-07T13:32:26.108256Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.0": [
+      {
+        "filename": "airbyte_source_mixpanel-2.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31016,
+        "upload_time": "2024-05-08T08:08:07",
+        "upload_time_iso_8601": "2024-05-08T08:08:07.689823Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-2.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 23989,
+        "upload_time": "2024-05-08T08:08:08",
+        "upload_time_iso_8601": "2024-05-08T08:08:08.723098Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.1": [
+      {
+        "filename": "airbyte_source_mixpanel-2.3.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31011,
+        "upload_time": "2024-05-20T17:03:12",
+        "upload_time_iso_8601": "2024-05-20T17:03:12.529277Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-2.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 23998,
+        "upload_time": "2024-05-20T17:03:14",
+        "upload_time_iso_8601": "2024-05-20T17:03:14.153345Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.0.0": [
+      {
+        "filename": "airbyte_source_mixpanel-3.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31020,
+        "upload_time": "2024-05-23T13:11:28",
+        "upload_time_iso_8601": "2024-05-23T13:11:28.306368Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24069,
+        "upload_time": "2024-05-23T13:11:29",
+        "upload_time_iso_8601": "2024-05-23T13:11:29.582480Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.1.0": [
+      {
+        "filename": "airbyte_source_mixpanel-3.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31023,
+        "upload_time": "2024-05-30T08:44:23",
+        "upload_time_iso_8601": "2024-05-30T08:44:23.571175Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24081,
+        "upload_time": "2024-05-30T08:44:25",
+        "upload_time_iso_8601": "2024-05-30T08:44:25.279691Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.1.1": [
+      {
+        "filename": "airbyte_source_mixpanel-3.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31019,
+        "upload_time": "2024-06-05T07:48:01",
+        "upload_time_iso_8601": "2024-06-05T07:48:01.799468Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24078,
+        "upload_time": "2024-06-05T07:48:03",
+        "upload_time_iso_8601": "2024-06-05T07:48:03.047286Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.1.2": [
+      {
+        "filename": "airbyte_source_mixpanel-3.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31039,
+        "upload_time": "2024-06-19T11:12:40",
+        "upload_time_iso_8601": "2024-06-19T11:12:40.366146Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24094,
+        "upload_time": "2024-06-19T11:12:45",
+        "upload_time_iso_8601": "2024-06-19T11:12:45.409892Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.1.3": [
+      {
+        "filename": "airbyte_source_mixpanel-3.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31039,
+        "upload_time": "2024-06-23T00:40:34",
+        "upload_time_iso_8601": "2024-06-23T00:40:34.849120Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24087,
+        "upload_time": "2024-06-23T00:40:36",
+        "upload_time_iso_8601": "2024-06-23T00:40:36.482221Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.1.4": [
+      {
+        "filename": "airbyte_source_mixpanel-3.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31039,
+        "upload_time": "2024-06-26T01:34:16",
+        "upload_time_iso_8601": "2024-06-26T01:34:16.657450Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24080,
+        "upload_time": "2024-06-26T01:34:20",
+        "upload_time_iso_8601": "2024-06-26T01:34:20.162788Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.1.5": [
+      {
+        "filename": "airbyte_source_mixpanel-3.1.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31040,
+        "upload_time": "2024-06-26T22:44:52",
+        "upload_time_iso_8601": "2024-06-26T22:44:52.063959Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.1.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24085,
+        "upload_time": "2024-06-26T22:44:53",
+        "upload_time_iso_8601": "2024-06-26T22:44:53.517615Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.2.0": [
+      {
+        "filename": "airbyte_source_mixpanel-3.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31138,
+        "upload_time": "2024-07-05T17:12:58",
+        "upload_time_iso_8601": "2024-07-05T17:12:58.599880Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24168,
+        "upload_time": "2024-07-05T17:12:59",
+        "upload_time_iso_8601": "2024-07-05T17:12:59.731957Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.2.1": [
+      {
+        "filename": "airbyte_source_mixpanel-3.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31139,
+        "upload_time": "2024-07-07T02:33:12",
+        "upload_time_iso_8601": "2024-07-07T02:33:12.997631Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24165,
+        "upload_time": "2024-07-07T02:33:14",
+        "upload_time_iso_8601": "2024-07-07T02:33:14.730249Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.2.2": [
+      {
+        "filename": "airbyte_source_mixpanel-3.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31138,
+        "upload_time": "2024-07-10T09:26:19",
+        "upload_time_iso_8601": "2024-07-10T09:26:19.642468Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24177,
+        "upload_time": "2024-07-10T09:26:21",
+        "upload_time_iso_8601": "2024-07-10T09:26:21.043381Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.2.3": [
+      {
+        "filename": "airbyte_source_mixpanel-3.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31140,
+        "upload_time": "2024-07-10T15:13:01",
+        "upload_time_iso_8601": "2024-07-10T15:13:01.247719Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24168,
+        "upload_time": "2024-07-10T15:13:02",
+        "upload_time_iso_8601": "2024-07-10T15:13:02.710915Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.2.4": [
+      {
+        "filename": "airbyte_source_mixpanel-3.2.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31142,
+        "upload_time": "2024-07-14T03:49:17",
+        "upload_time_iso_8601": "2024-07-14T03:49:17.892843Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24168,
+        "upload_time": "2024-07-14T03:49:19",
+        "upload_time_iso_8601": "2024-07-14T03:49:19.572525Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.3.0": [
+      {
+        "filename": "airbyte_source_mixpanel-3.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31322,
+        "upload_time": "2024-07-25T16:14:29",
+        "upload_time_iso_8601": "2024-07-25T16:14:29.735343Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24358,
+        "upload_time": "2024-07-25T16:14:31",
+        "upload_time_iso_8601": "2024-07-25T16:14:31.230860Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.3.0.dev202407182048": [
+      {
+        "filename": "airbyte_source_mixpanel-3.3.0.dev202407182048-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 33637,
+        "upload_time": "2024-07-18T20:48:06",
+        "upload_time_iso_8601": "2024-07-18T20:48:06.263587Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.3.0.dev202407182048.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24968,
+        "upload_time": "2024-07-18T20:48:07",
+        "upload_time_iso_8601": "2024-07-18T20:48:07.321741Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.3.1": [
+      {
+        "filename": "airbyte_source_mixpanel-3.3.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31319,
+        "upload_time": "2024-07-28T03:17:11",
+        "upload_time_iso_8601": "2024-07-28T03:17:11.072351Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24360,
+        "upload_time": "2024-07-28T03:17:12",
+        "upload_time_iso_8601": "2024-07-28T03:17:12.541258Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.3.2": [
+      {
+        "filename": "airbyte_source_mixpanel-3.3.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31325,
+        "upload_time": "2024-08-04T02:00:38",
+        "upload_time_iso_8601": "2024-08-04T02:00:38.682562Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24361,
+        "upload_time": "2024-08-04T02:00:40",
+        "upload_time_iso_8601": "2024-08-04T02:00:40.230896Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.3.3": [
+      {
+        "filename": "airbyte_source_mixpanel-3.3.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 31322,
+        "upload_time": "2024-08-11T03:50:05",
+        "upload_time_iso_8601": "2024-08-11T03:50:05.452065Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 24345,
+        "upload_time": "2024-08-11T03:50:06",
+        "upload_time_iso_8601": "2024-08-11T03:50:06.779781Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.0": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33958,
+        "upload_time": "2024-08-14T22:19:43",
+        "upload_time_iso_8601": "2024-08-14T22:19:43.911766Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25285,
+        "upload_time": "2024-08-14T22:19:45",
+        "upload_time_iso_8601": "2024-08-14T22:19:45.253356Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.1": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33956,
+        "upload_time": "2024-08-18T02:08:02",
+        "upload_time_iso_8601": "2024-08-18T02:08:02.297302Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25285,
+        "upload_time": "2024-08-18T02:08:03",
+        "upload_time_iso_8601": "2024-08-18T02:08:03.714159Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.10": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33966,
+        "upload_time": "2024-12-12T12:39:43",
+        "upload_time_iso_8601": "2024-12-12T12:39:43.200299Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25271,
+        "upload_time": "2024-12-12T12:39:45",
+        "upload_time_iso_8601": "2024-12-12T12:39:45.638888Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.11": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33967,
+        "upload_time": "2024-12-14T22:47:14",
+        "upload_time_iso_8601": "2024-12-14T22:47:14.679764Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25277,
+        "upload_time": "2024-12-14T22:47:15",
+        "upload_time_iso_8601": "2024-12-14T22:47:15.643484Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.12": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33963,
+        "upload_time": "2024-12-21T18:29:57",
+        "upload_time_iso_8601": "2024-12-21T18:29:57.709572Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25273,
+        "upload_time": "2024-12-21T18:29:59",
+        "upload_time_iso_8601": "2024-12-21T18:29:59.931468Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.13": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33964,
+        "upload_time": "2024-12-28T20:24:59",
+        "upload_time_iso_8601": "2024-12-28T20:24:59.296358Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25288,
+        "upload_time": "2024-12-28T20:25:01",
+        "upload_time_iso_8601": "2024-12-28T20:25:01.460102Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.14": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33963,
+        "upload_time": "2025-01-04T14:20:24",
+        "upload_time_iso_8601": "2025-01-04T14:20:24.712812Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25280,
+        "upload_time": "2025-01-04T14:20:26",
+        "upload_time_iso_8601": "2025-01-04T14:20:26.786445Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.15": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33966,
+        "upload_time": "2025-01-11T20:38:19",
+        "upload_time_iso_8601": "2025-01-11T20:38:19.854731Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 24449,
+        "upload_time": "2025-01-11T20:38:23",
+        "upload_time_iso_8601": "2025-01-11T20:38:23.710354Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.16": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33970,
+        "upload_time": "2025-01-25T18:47:54",
+        "upload_time_iso_8601": "2025-01-25T18:47:54.099707Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 24448,
+        "upload_time": "2025-01-25T18:47:55",
+        "upload_time_iso_8601": "2025-01-25T18:47:55.122702Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.17": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33970,
+        "upload_time": "2025-02-01T16:23:02",
+        "upload_time_iso_8601": "2025-02-01T16:23:02.304529Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 24447,
+        "upload_time": "2025-02-01T16:23:03",
+        "upload_time_iso_8601": "2025-02-01T16:23:03.477121Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.18": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33968,
+        "upload_time": "2025-02-18T07:27:23",
+        "upload_time_iso_8601": "2025-02-18T07:27:23.672251Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 24486,
+        "upload_time": "2025-02-18T07:27:25",
+        "upload_time_iso_8601": "2025-02-18T07:27:25.399246Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.19": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33969,
+        "upload_time": "2025-02-22T18:33:50",
+        "upload_time_iso_8601": "2025-02-22T18:33:50.728065Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 24486,
+        "upload_time": "2025-02-22T18:33:52",
+        "upload_time_iso_8601": "2025-02-22T18:33:52.630598Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.2": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33957,
+        "upload_time": "2024-08-25T02:27:07",
+        "upload_time_iso_8601": "2024-08-25T02:27:07.627982Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25279,
+        "upload_time": "2024-08-25T02:27:09",
+        "upload_time_iso_8601": "2024-08-25T02:27:09.132215Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.20": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33967,
+        "upload_time": "2025-03-01T14:28:55",
+        "upload_time_iso_8601": "2025-03-01T14:28:55.553614Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 24486,
+        "upload_time": "2025-03-01T14:28:57",
+        "upload_time_iso_8601": "2025-03-01T14:28:57.133250Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.3": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33959,
+        "upload_time": "2024-09-01T00:21:49",
+        "upload_time_iso_8601": "2024-09-01T00:21:49.123008Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25280,
+        "upload_time": "2024-09-01T00:21:50",
+        "upload_time_iso_8601": "2024-09-01T00:21:50.446362Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.4": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33956,
+        "upload_time": "2024-09-08T01:57:34",
+        "upload_time_iso_8601": "2024-09-08T01:57:34.753949Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25296,
+        "upload_time": "2024-09-08T01:57:36",
+        "upload_time_iso_8601": "2024-09-08T01:57:36.038661Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.5": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33961,
+        "upload_time": "2024-09-15T02:21:21",
+        "upload_time_iso_8601": "2024-09-15T02:21:21.382872Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25278,
+        "upload_time": "2024-09-15T02:21:22",
+        "upload_time_iso_8601": "2024-09-15T02:21:22.901132Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.6": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33957,
+        "upload_time": "2024-09-29T02:28:45",
+        "upload_time_iso_8601": "2024-09-29T02:28:45.943205Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25294,
+        "upload_time": "2024-09-29T02:28:47",
+        "upload_time_iso_8601": "2024-09-29T02:28:47.070916Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.7": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33961,
+        "upload_time": "2024-10-06T01:08:47",
+        "upload_time_iso_8601": "2024-10-06T01:08:47.802211Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25285,
+        "upload_time": "2024-10-06T01:08:49",
+        "upload_time_iso_8601": "2024-10-06T01:08:49.441713Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.8": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33958,
+        "upload_time": "2024-10-13T01:52:49",
+        "upload_time_iso_8601": "2024-10-13T01:52:49.664696Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25277,
+        "upload_time": "2024-10-13T01:52:51",
+        "upload_time_iso_8601": "2024-10-13T01:52:51.988795Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.9": [
+      {
+        "filename": "airbyte_source_mixpanel-3.4.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.10",
+        "size": 33957,
+        "upload_time": "2024-11-05T03:09:37",
+        "upload_time_iso_8601": "2024-11-05T03:09:37.241363Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "airbyte_source_mixpanel-3.4.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.10",
+        "size": 25283,
+        "upload_time": "2024-11-05T03:09:38",
+        "upload_time_iso_8601": "2024-11-05T03:09:38.357528Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

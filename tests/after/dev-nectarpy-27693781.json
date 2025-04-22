@@ -1,0 +1,251 @@
+{
+  "info": {
+    "author": "Tamarin Health",
+    "author_email": "phil@tamarin.health",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: Apache Software License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/NectarProtocol/python-nectar-module",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "dev-nectarpy",
+    "package_url": "https://pypi.org/project/dev-nectarpy/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/dev-nectarpy/",
+    "project_urls": {
+      "Homepage": "https://github.com/NectarProtocol/python-nectar-module"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/dev-nectarpy/0.0.9/",
+    "requires_dist": [
+      "hpke",
+      "python-dotenv",
+      "web3<7.0.0"
+    ],
+    "requires_python": "<4,>=3.8",
+    "summary": "A Python API module designed to run queries on Nectar",
+    "version": "0.0.9",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27693781,
+  "releases": {
+    "0.0.1": [
+      {
+        "filename": "dev_nectarpy-0.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4,>=3.8",
+        "size": 32476,
+        "upload_time": "2025-02-21T08:50:40",
+        "upload_time_iso_8601": "2025-02-21T08:50:40.983402Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dev_nectarpy-0.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4,>=3.8",
+        "size": 30773,
+        "upload_time": "2025-02-21T08:50:47",
+        "upload_time_iso_8601": "2025-02-21T08:50:47.148179Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.2": [
+      {
+        "filename": "dev_nectarpy-0.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4,>=3.8",
+        "size": 1890,
+        "upload_time": "2025-02-21T09:30:40",
+        "upload_time_iso_8601": "2025-02-21T09:30:40.666121Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dev_nectarpy-0.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4,>=3.8",
+        "size": 1988,
+        "upload_time": "2025-02-21T09:30:42",
+        "upload_time_iso_8601": "2025-02-21T09:30:42.090142Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.4": [
+      {
+        "filename": "dev_nectarpy-0.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4,>=3.8",
+        "size": 1891,
+        "upload_time": "2025-02-21T09:35:52",
+        "upload_time_iso_8601": "2025-02-21T09:35:52.102635Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dev_nectarpy-0.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4,>=3.8",
+        "size": 2002,
+        "upload_time": "2025-02-21T09:35:53",
+        "upload_time_iso_8601": "2025-02-21T09:35:53.969971Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.5": [
+      {
+        "filename": "dev_nectarpy-0.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4,>=3.8",
+        "size": 32086,
+        "upload_time": "2025-02-21T09:54:30",
+        "upload_time_iso_8601": "2025-02-21T09:54:30.635868Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dev_nectarpy-0.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4,>=3.8",
+        "size": 30560,
+        "upload_time": "2025-02-21T09:54:32",
+        "upload_time_iso_8601": "2025-02-21T09:54:32.895603Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.6": [
+      {
+        "filename": "dev_nectarpy-0.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4,>=3.8",
+        "size": 32085,
+        "upload_time": "2025-02-21T09:59:23",
+        "upload_time_iso_8601": "2025-02-21T09:59:23.955252Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dev_nectarpy-0.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4,>=3.8",
+        "size": 30556,
+        "upload_time": "2025-02-21T09:59:25",
+        "upload_time_iso_8601": "2025-02-21T09:59:25.623728Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.7": [
+      {
+        "filename": "dev_nectarpy-0.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4,>=3.8",
+        "size": 1488,
+        "upload_time": "2025-02-27T06:42:23",
+        "upload_time_iso_8601": "2025-02-27T06:42:23.462169Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dev_nectarpy-0.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4,>=3.8",
+        "size": 1585,
+        "upload_time": "2025-02-27T06:42:24",
+        "upload_time_iso_8601": "2025-02-27T06:42:24.562283Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.8": [
+      {
+        "filename": "dev_nectarpy-0.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4,>=3.8",
+        "size": 32084,
+        "upload_time": "2025-02-28T07:46:30",
+        "upload_time_iso_8601": "2025-02-28T07:46:30.924159Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dev_nectarpy-0.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4,>=3.8",
+        "size": 30542,
+        "upload_time": "2025-02-28T07:46:32",
+        "upload_time_iso_8601": "2025-02-28T07:46:32.326490Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.9": [
+      {
+        "filename": "dev_nectarpy-0.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4,>=3.8",
+        "size": 32048,
+        "upload_time": "2025-02-28T08:13:40",
+        "upload_time_iso_8601": "2025-02-28T08:13:40.695050Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dev-nectarpy-0.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4,>=3.8",
+        "size": 30474,
+        "upload_time": "2025-02-28T08:13:42",
+        "upload_time_iso_8601": "2025-02-28T08:13:42.714810Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

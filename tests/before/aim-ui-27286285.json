@@ -1,0 +1,6337 @@
+{
+  "info": {
+    "author": null,
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "aim-ui",
+    "package_url": "https://pypi.org/project/aim-ui/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/aim-ui/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/aim-ui/3.27.0/",
+    "requires_dist": null,
+    "requires_python": null,
+    "summary": "Aim UI",
+    "version": "3.27.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27286285,
+  "releases": {
+    "3.10.0": [
+      {
+        "filename": "aim-ui-3.10.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22125675,
+        "upload_time": "2022-05-17T18:45:08",
+        "upload_time_iso_8601": "2022-05-17T18:45:08.646955Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.10.0.dev9": [
+      {
+        "filename": "aim-ui-3.10.0.dev9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21895125,
+        "upload_time": "2022-05-16T21:25:06",
+        "upload_time_iso_8601": "2022-05-16T21:25:06.211021Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "3.10.1": [
+      {
+        "filename": "aim-ui-3.10.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22124403,
+        "upload_time": "2022-05-18T18:13:09",
+        "upload_time_iso_8601": "2022-05-18T18:13:09.425076Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.10.2": [
+      {
+        "filename": "aim-ui-3.10.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22126959,
+        "upload_time": "2022-05-26T14:46:07",
+        "upload_time_iso_8601": "2022-05-26T14:46:07.489794Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.10.3": [
+      {
+        "filename": "aim-ui-3.10.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22124974,
+        "upload_time": "2022-05-31T16:23:39",
+        "upload_time_iso_8601": "2022-05-31T16:23:39.617713Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.11.0": [
+      {
+        "filename": "aim-ui-3.11.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18636065,
+        "upload_time": "2022-06-21T18:00:47",
+        "upload_time_iso_8601": "2022-06-21T18:00:47.592908Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.11.0.dev1": [
+      {
+        "filename": "aim-ui-3.11.0.dev1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18625643,
+        "upload_time": "2022-06-15T13:29:00",
+        "upload_time_iso_8601": "2022-06-15T13:29:00.940320Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "3.11.0.dev2": [
+      {
+        "filename": "aim-ui-3.11.0.dev2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18626058,
+        "upload_time": "2022-06-15T13:49:20",
+        "upload_time_iso_8601": "2022-06-15T13:49:20.301122Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "3.11.0.dev4": [
+      {
+        "filename": "aim-ui-3.11.0.dev4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18634130,
+        "upload_time": "2022-06-20T21:19:51",
+        "upload_time_iso_8601": "2022-06-20T21:19:51.654480Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "3.11.1": [
+      {
+        "filename": "aim-ui-3.11.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18548935,
+        "upload_time": "2022-06-27T18:51:40",
+        "upload_time_iso_8601": "2022-06-27T18:51:40.532154Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.11.1.dev1": [
+      {
+        "filename": "aim-ui-3.11.1.dev1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18610952,
+        "upload_time": "2022-06-25T22:02:14",
+        "upload_time_iso_8601": "2022-06-25T22:02:14.255624Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "3.11.2": [
+      {
+        "filename": "aim-ui-3.11.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18568326,
+        "upload_time": "2022-07-08T16:00:11",
+        "upload_time_iso_8601": "2022-07-08T16:00:11.604704Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.12.0": [
+      {
+        "filename": "aim-ui-3.12.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18585261,
+        "upload_time": "2022-07-22T18:22:11",
+        "upload_time_iso_8601": "2022-07-22T18:22:11.020880Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.12.0.dev1": [
+      {
+        "filename": "aim-ui-3.12.0.dev1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18549540,
+        "upload_time": "2022-07-06T18:01:11",
+        "upload_time_iso_8601": "2022-07-06T18:01:11.813975Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "3.12.0.dev2": [
+      {
+        "filename": "aim-ui-3.12.0.dev2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18549300,
+        "upload_time": "2022-07-07T17:20:29",
+        "upload_time_iso_8601": "2022-07-07T17:20:29.827010Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "3.12.1": [
+      {
+        "filename": "aim-ui-3.12.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18584375,
+        "upload_time": "2022-08-02T09:43:20",
+        "upload_time_iso_8601": "2022-08-02T09:43:20.644351Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.12.2": [
+      {
+        "filename": "aim-ui-3.12.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18595414,
+        "upload_time": "2022-08-05T19:55:40",
+        "upload_time_iso_8601": "2022-08-05T19:55:40.911701Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.13.0": [
+      {
+        "filename": "aim-ui-3.13.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18589340,
+        "upload_time": "2022-08-21T08:16:26",
+        "upload_time_iso_8601": "2022-08-21T08:16:26.036057Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.13.1": [
+      {
+        "filename": "aim-ui-3.13.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18587752,
+        "upload_time": "2022-09-01T19:22:51",
+        "upload_time_iso_8601": "2022-09-01T19:22:51.379886Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.13.2": [
+      {
+        "filename": "aim-ui-3.13.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18591638,
+        "upload_time": "2022-09-10T15:30:22",
+        "upload_time_iso_8601": "2022-09-10T15:30:22.958156Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.13.3": [
+      {
+        "filename": "aim-ui-3.13.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18590430,
+        "upload_time": "2022-09-16T17:41:17",
+        "upload_time_iso_8601": "2022-09-16T17:41:17.585573Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.13.4": [
+      {
+        "filename": "aim-ui-3.13.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18469770,
+        "upload_time": "2022-09-25T11:08:06",
+        "upload_time_iso_8601": "2022-09-25T11:08:06.786446Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.14.0": [
+      {
+        "filename": "aim-ui-3.14.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18656979,
+        "upload_time": "2022-10-06T17:29:03",
+        "upload_time_iso_8601": "2022-10-06T17:29:03.967210Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.14.0.dev1": [
+      {
+        "filename": "aim-ui-3.14.0.dev1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18565077,
+        "upload_time": "2022-09-25T12:01:55",
+        "upload_time_iso_8601": "2022-09-25T12:01:55.821904Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.14.1": [
+      {
+        "filename": "aim-ui-3.14.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18658738,
+        "upload_time": "2022-10-07T16:28:38",
+        "upload_time_iso_8601": "2022-10-07T16:28:38.650473Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.14.2": [
+      {
+        "filename": "aim-ui-3.14.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18680862,
+        "upload_time": "2022-10-28T17:09:17",
+        "upload_time_iso_8601": "2022-10-28T17:09:17.139882Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.14.2.dev1": [
+      {
+        "filename": "aim-ui-3.14.2.dev1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18656459,
+        "upload_time": "2022-10-11T07:53:08",
+        "upload_time_iso_8601": "2022-10-11T07:53:08.252084Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.14.2.dev2": [
+      {
+        "filename": "aim-ui-3.14.2.dev2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18649009,
+        "upload_time": "2022-10-27T12:43:43",
+        "upload_time_iso_8601": "2022-10-27T12:43:43.311446Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.14.3": [
+      {
+        "filename": "aim-ui-3.14.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18680993,
+        "upload_time": "2022-10-29T18:43:47",
+        "upload_time_iso_8601": "2022-10-29T18:43:47.236044Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.14.4": [
+      {
+        "filename": "aim-ui-3.14.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18680200,
+        "upload_time": "2022-11-11T08:24:22",
+        "upload_time_iso_8601": "2022-11-11T08:24:22.478795Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.15.0": [
+      {
+        "filename": "aim-ui-3.15.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19020589,
+        "upload_time": "2022-11-26T16:23:04",
+        "upload_time_iso_8601": "2022-11-26T16:23:04.121502Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.15.0.dev3": [
+      {
+        "filename": "aim-ui-3.15.0.dev3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18706531,
+        "upload_time": "2022-11-18T20:06:03",
+        "upload_time_iso_8601": "2022-11-18T20:06:03.314185Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.15.1": [
+      {
+        "filename": "aim-ui-3.15.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19040437,
+        "upload_time": "2022-12-01T15:53:48",
+        "upload_time_iso_8601": "2022-12-01T15:53:48.641652Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.15.2": [
+      {
+        "filename": "aim-ui-3.15.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19054089,
+        "upload_time": "2022-12-23T10:19:32",
+        "upload_time_iso_8601": "2022-12-23T10:19:32.559334Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.16.0": [
+      {
+        "filename": "aim-ui-3.16.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19186033,
+        "upload_time": "2023-02-03T15:21:16",
+        "upload_time_iso_8601": "2023-02-03T15:21:16.418363Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.16.0.dev1": [
+      {
+        "filename": "aim-ui-3.16.0.dev1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19044202,
+        "upload_time": "2022-12-06T12:02:37",
+        "upload_time_iso_8601": "2022-12-06T12:02:37.912315Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.16.0.dev2": [
+      {
+        "filename": "aim-ui-3.16.0.dev2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19044192,
+        "upload_time": "2022-12-12T12:20:08",
+        "upload_time_iso_8601": "2022-12-12T12:20:08.767472Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.16.0.dev3": [
+      {
+        "filename": "aim-ui-3.16.0.dev3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19051999,
+        "upload_time": "2022-12-27T11:46:35",
+        "upload_time_iso_8601": "2022-12-27T11:46:35.214177Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.16.0.dev4": [
+      {
+        "filename": "aim-ui-3.16.0.dev4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19053654,
+        "upload_time": "2023-01-03T22:29:43",
+        "upload_time_iso_8601": "2023-01-03T22:29:43.961101Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.16.0rc1": [
+      {
+        "filename": "aim-ui-3.16.0rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19160922,
+        "upload_time": "2023-01-23T10:30:05",
+        "upload_time_iso_8601": "2023-01-23T10:30:05.744179Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.16.0rc2": [
+      {
+        "filename": "aim-ui-3.16.0rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19160993,
+        "upload_time": "2023-01-23T13:05:38",
+        "upload_time_iso_8601": "2023-01-23T13:05:38.195815Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.16.1": [
+      {
+        "filename": "aim-ui-3.16.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19326679,
+        "upload_time": "2023-02-27T08:15:50",
+        "upload_time_iso_8601": "2023-02-27T08:15:50.771505Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.16.2": [
+      {
+        "filename": "aim-ui-3.16.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19327063,
+        "upload_time": "2023-03-02T20:49:17",
+        "upload_time_iso_8601": "2023-03-02T20:49:17.632240Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.17.0": [
+      {
+        "filename": "aim-ui-3.17.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21283140,
+        "upload_time": "2023-03-24T14:18:22",
+        "upload_time_iso_8601": "2023-03-24T14:18:22.364765Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.17.0rc1": [
+      {
+        "filename": "aim-ui-3.17.0rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19592363,
+        "upload_time": "2023-03-23T10:18:34",
+        "upload_time_iso_8601": "2023-03-23T10:18:34.817952Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.17.1": [
+      {
+        "filename": "aim-ui-3.17.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21284098,
+        "upload_time": "2023-03-24T18:55:45",
+        "upload_time_iso_8601": "2023-03-24T18:55:45.548340Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.17.2": [
+      {
+        "filename": "aim-ui-3.17.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21282664,
+        "upload_time": "2023-03-28T12:00:34",
+        "upload_time_iso_8601": "2023-03-28T12:00:34.390473Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.17.3": [
+      {
+        "filename": "aim-ui-3.17.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21286599,
+        "upload_time": "2023-04-06T18:04:36",
+        "upload_time_iso_8601": "2023-04-06T18:04:36.127469Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.17.4": [
+      {
+        "filename": "aim-ui-3.17.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21287638,
+        "upload_time": "2023-05-04T12:21:15",
+        "upload_time_iso_8601": "2023-05-04T12:21:15.617862Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.17.5": [
+      {
+        "filename": "aim-ui-3.17.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21288521,
+        "upload_time": "2023-06-02T08:23:18",
+        "upload_time_iso_8601": "2023-06-02T08:23:18.650139Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.17.5rc1": [
+      {
+        "filename": "aim-ui-3.17.5rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21286824,
+        "upload_time": "2024-01-08T09:30:32",
+        "upload_time_iso_8601": "2024-01-08T09:30:32.049738Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.17.5rc2": [
+      {
+        "filename": "aim-ui-3.17.5rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21289328,
+        "upload_time": "2024-01-09T11:13:17",
+        "upload_time_iso_8601": "2024-01-09T11:13:17.286545Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.17.5rc3": [
+      {
+        "filename": "aim-ui-3.17.5rc3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21289755,
+        "upload_time": "2024-01-09T11:43:37",
+        "upload_time_iso_8601": "2024-01-09T11:43:37.652446Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.17.5rc4": [
+      {
+        "filename": "aim-ui-3.17.5rc4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21289961,
+        "upload_time": "2024-01-10T18:24:06",
+        "upload_time_iso_8601": "2024-01-10T18:24:06.995168Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0": [
+      {
+        "filename": "aim-ui-3.18.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314925,
+        "upload_time": "2024-02-06T17:12:44",
+        "upload_time_iso_8601": "2024-02-06T17:12:44.613267Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev1": [
+      {
+        "filename": "aim-ui-3.18.0.dev1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21586008,
+        "upload_time": "2023-05-02T09:41:51",
+        "upload_time_iso_8601": "2023-05-02T09:41:51.159807Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev2": [
+      {
+        "filename": "aim-ui-3.18.0.dev2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21585951,
+        "upload_time": "2023-05-02T10:03:06",
+        "upload_time_iso_8601": "2023-05-02T10:03:06.632195Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230325": [
+      {
+        "filename": "aim-ui-3.18.0.dev20230325.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21289412,
+        "upload_time": "2023-03-25T20:10:13",
+        "upload_time_iso_8601": "2023-03-25T20:10:13.845425Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230326": [
+      {
+        "filename": "aim-ui-3.18.0.dev20230326.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21289342,
+        "upload_time": "2023-03-26T20:11:52",
+        "upload_time_iso_8601": "2023-03-26T20:11:52.879005Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230327": [
+      {
+        "filename": "aim-ui-3.18.0.dev20230327.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21288919,
+        "upload_time": "2023-03-27T20:09:51",
+        "upload_time_iso_8601": "2023-03-27T20:09:51.303338Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230328": [
+      {
+        "filename": "aim-ui-3.18.0.dev20230328.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21287348,
+        "upload_time": "2023-03-28T20:10:09",
+        "upload_time_iso_8601": "2023-03-28T20:10:09.705511Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230329": [
+      {
+        "filename": "aim-ui-3.18.0.dev20230329.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21287249,
+        "upload_time": "2023-03-29T20:09:02",
+        "upload_time_iso_8601": "2023-03-29T20:09:02.495050Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230330": [
+      {
+        "filename": "aim-ui-3.18.0.dev20230330.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21288576,
+        "upload_time": "2023-03-30T20:10:56",
+        "upload_time_iso_8601": "2023-03-30T20:10:56.165829Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230331": [
+      {
+        "filename": "aim-ui-3.18.0.dev20230331.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21289090,
+        "upload_time": "2023-03-31T20:11:08",
+        "upload_time_iso_8601": "2023-03-31T20:11:08.918814Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230712": [
+      {
+        "filename": "aim_ui-3.18.0.dev20230712-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19491362,
+        "upload_time": "2023-07-12T20:10:08",
+        "upload_time_iso_8601": "2023-07-12T20:10:08.810596Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-3.18.0.dev20230712.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19320975,
+        "upload_time": "2023-07-12T20:10:15",
+        "upload_time_iso_8601": "2023-07-12T20:10:15.422000Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230713": [
+      {
+        "filename": "aim_ui-3.18.0.dev20230713-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19409202,
+        "upload_time": "2023-07-13T20:09:12",
+        "upload_time_iso_8601": "2023-07-13T20:09:12.439947Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-3.18.0.dev20230713.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19226407,
+        "upload_time": "2023-07-13T20:09:17",
+        "upload_time_iso_8601": "2023-07-13T20:09:17.556511Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230715": [
+      {
+        "filename": "aim_ui-3.18.0.dev20230715-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19409394,
+        "upload_time": "2023-07-15T20:09:10",
+        "upload_time_iso_8601": "2023-07-15T20:09:10.333475Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-3.18.0.dev20230715.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19226985,
+        "upload_time": "2023-07-15T20:09:17",
+        "upload_time_iso_8601": "2023-07-15T20:09:17.647297Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230716": [
+      {
+        "filename": "aim_ui-3.18.0.dev20230716-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19409394,
+        "upload_time": "2023-07-16T20:08:21",
+        "upload_time_iso_8601": "2023-07-16T20:08:21.773600Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-3.18.0.dev20230716.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19227317,
+        "upload_time": "2023-07-16T20:08:29",
+        "upload_time_iso_8601": "2023-07-16T20:08:29.137326Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230717": [
+      {
+        "filename": "aim_ui-3.18.0.dev20230717-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19409524,
+        "upload_time": "2023-07-17T20:12:57",
+        "upload_time_iso_8601": "2023-07-17T20:12:57.625854Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-3.18.0.dev20230717.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19227010,
+        "upload_time": "2023-07-17T20:13:01",
+        "upload_time_iso_8601": "2023-07-17T20:13:01.049922Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230718": [
+      {
+        "filename": "aim_ui-3.18.0.dev20230718-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19409528,
+        "upload_time": "2023-07-18T20:10:39",
+        "upload_time_iso_8601": "2023-07-18T20:10:39.552848Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-3.18.0.dev20230718.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19226888,
+        "upload_time": "2023-07-18T20:10:42",
+        "upload_time_iso_8601": "2023-07-18T20:10:42.645341Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230801": [
+      {
+        "filename": "aim_ui-3.18.0.dev20230801-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19395272,
+        "upload_time": "2023-08-01T20:10:16",
+        "upload_time_iso_8601": "2023-08-01T20:10:16.532102Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-3.18.0.dev20230801.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19225266,
+        "upload_time": "2023-08-01T20:10:20",
+        "upload_time_iso_8601": "2023-08-01T20:10:20.565190Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230802": [
+      {
+        "filename": "aim_ui-3.18.0.dev20230802-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19395581,
+        "upload_time": "2023-08-02T20:08:58",
+        "upload_time_iso_8601": "2023-08-02T20:08:58.447319Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-3.18.0.dev20230802.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19225176,
+        "upload_time": "2023-08-02T20:09:01",
+        "upload_time_iso_8601": "2023-08-02T20:09:01.567557Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev20230803": [
+      {
+        "filename": "aim_ui-3.18.0.dev20230803-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19395581,
+        "upload_time": "2023-08-03T20:11:26",
+        "upload_time_iso_8601": "2023-08-03T20:11:26.995031Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-3.18.0.dev20230803.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19224620,
+        "upload_time": "2023-08-03T20:11:30",
+        "upload_time_iso_8601": "2023-08-03T20:11:30.104805Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev3": [
+      {
+        "filename": "aim-ui-3.18.0.dev3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21587375,
+        "upload_time": "2023-05-02T14:14:29",
+        "upload_time_iso_8601": "2023-05-02T14:14:29.043513Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev4": [
+      {
+        "filename": "aim-ui-3.18.0.dev4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21653323,
+        "upload_time": "2023-05-03T10:25:39",
+        "upload_time_iso_8601": "2023-05-03T10:25:39.259770Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.0.dev5": [
+      {
+        "filename": "aim_ui-3.18.0.dev5-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 22962448,
+        "upload_time": "2023-05-23T11:27:24",
+        "upload_time_iso_8601": "2023-05-23T11:27:24.757788Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-3.18.0.dev5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22756319,
+        "upload_time": "2023-05-23T11:27:29",
+        "upload_time_iso_8601": "2023-05-23T11:27:29.391550Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.18.1": [
+      {
+        "filename": "aim-ui-3.18.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21313979,
+        "upload_time": "2024-02-07T07:40:31",
+        "upload_time_iso_8601": "2024-02-07T07:40:31.528642Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0": [
+      {
+        "filename": "aim-ui-3.19.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21313552,
+        "upload_time": "2024-03-13T17:08:06",
+        "upload_time_iso_8601": "2024-03-13T17:08:06.186205Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240206": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240206.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312602,
+        "upload_time": "2024-02-06T20:06:57",
+        "upload_time_iso_8601": "2024-02-06T20:06:57.447265Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240207": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240207.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312000,
+        "upload_time": "2024-02-07T20:06:45",
+        "upload_time_iso_8601": "2024-02-07T20:06:45.356418Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240208": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240208.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312482,
+        "upload_time": "2024-02-08T20:07:12",
+        "upload_time_iso_8601": "2024-02-08T20:07:12.580639Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240209": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240209.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312250,
+        "upload_time": "2024-02-09T20:07:06",
+        "upload_time_iso_8601": "2024-02-09T20:07:06.744505Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240210": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240210.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21313274,
+        "upload_time": "2024-02-10T20:06:55",
+        "upload_time_iso_8601": "2024-02-10T20:06:55.838889Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240211": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240211.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312868,
+        "upload_time": "2024-02-11T20:06:48",
+        "upload_time_iso_8601": "2024-02-11T20:06:48.047177Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240212": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240212.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21313139,
+        "upload_time": "2024-02-12T20:07:08",
+        "upload_time_iso_8601": "2024-02-12T20:07:08.088696Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240213": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240213.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312952,
+        "upload_time": "2024-02-13T20:07:09",
+        "upload_time_iso_8601": "2024-02-13T20:07:09.570554Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240214": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240214.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21313047,
+        "upload_time": "2024-02-14T20:07:26",
+        "upload_time_iso_8601": "2024-02-14T20:07:26.026098Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240215": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240215.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312861,
+        "upload_time": "2024-02-15T20:06:46",
+        "upload_time_iso_8601": "2024-02-15T20:06:46.133735Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240216": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240216.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312898,
+        "upload_time": "2024-02-16T20:06:51",
+        "upload_time_iso_8601": "2024-02-16T20:06:51.611026Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240217": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240217.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312938,
+        "upload_time": "2024-02-17T20:06:52",
+        "upload_time_iso_8601": "2024-02-17T20:06:52.504703Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240218": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240218.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21313036,
+        "upload_time": "2024-02-18T20:06:56",
+        "upload_time_iso_8601": "2024-02-18T20:06:56.830897Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240219": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240219.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312972,
+        "upload_time": "2024-02-19T20:06:43",
+        "upload_time_iso_8601": "2024-02-19T20:06:43.918025Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240220": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240220.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312344,
+        "upload_time": "2024-02-20T20:06:56",
+        "upload_time_iso_8601": "2024-02-20T20:06:56.829051Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240221": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240221.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312407,
+        "upload_time": "2024-02-21T20:07:09",
+        "upload_time_iso_8601": "2024-02-21T20:07:09.357650Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240222": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240222.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21313029,
+        "upload_time": "2024-02-22T20:07:26",
+        "upload_time_iso_8601": "2024-02-22T20:07:26.139556Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240223": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240223.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312628,
+        "upload_time": "2024-02-23T20:06:58",
+        "upload_time_iso_8601": "2024-02-23T20:06:58.360296Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240224": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240224.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312910,
+        "upload_time": "2024-02-24T20:07:10",
+        "upload_time_iso_8601": "2024-02-24T20:07:10.832987Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240225": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240225.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312510,
+        "upload_time": "2024-02-25T20:06:47",
+        "upload_time_iso_8601": "2024-02-25T20:06:47.767545Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240226": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240226.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312572,
+        "upload_time": "2024-02-26T20:07:46",
+        "upload_time_iso_8601": "2024-02-26T20:07:46.779968Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240227": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240227.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312932,
+        "upload_time": "2024-02-27T20:07:14",
+        "upload_time_iso_8601": "2024-02-27T20:07:14.879604Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240228": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240228.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312500,
+        "upload_time": "2024-02-28T20:07:32",
+        "upload_time_iso_8601": "2024-02-28T20:07:32.290655Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240229": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240229.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312352,
+        "upload_time": "2024-02-29T20:07:09",
+        "upload_time_iso_8601": "2024-02-29T20:07:09.846904Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240301": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240301.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312629,
+        "upload_time": "2024-03-01T20:07:59",
+        "upload_time_iso_8601": "2024-03-01T20:07:59.043633Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240302": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240302.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312364,
+        "upload_time": "2024-03-02T20:06:46",
+        "upload_time_iso_8601": "2024-03-02T20:06:46.038729Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240303": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240303.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312457,
+        "upload_time": "2024-03-03T20:06:53",
+        "upload_time_iso_8601": "2024-03-03T20:06:53.517012Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240304": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240304.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312695,
+        "upload_time": "2024-03-04T20:06:56",
+        "upload_time_iso_8601": "2024-03-04T20:06:56.192568Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240305": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240305.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312488,
+        "upload_time": "2024-03-05T20:08:03",
+        "upload_time_iso_8601": "2024-03-05T20:08:03.786778Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240306": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240306.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312373,
+        "upload_time": "2024-03-06T20:06:59",
+        "upload_time_iso_8601": "2024-03-06T20:06:59.071957Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240307": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240307.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312346,
+        "upload_time": "2024-03-07T20:06:59",
+        "upload_time_iso_8601": "2024-03-07T20:06:59.758911Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240308": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240308.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312375,
+        "upload_time": "2024-03-08T20:06:51",
+        "upload_time_iso_8601": "2024-03-08T20:06:51.872992Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240309": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240309.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312765,
+        "upload_time": "2024-03-09T20:07:00",
+        "upload_time_iso_8601": "2024-03-09T20:07:00.023172Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240310": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240310.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21313030,
+        "upload_time": "2024-03-10T20:07:08",
+        "upload_time_iso_8601": "2024-03-10T20:07:08.641523Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240311": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240311.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312614,
+        "upload_time": "2024-03-11T20:06:53",
+        "upload_time_iso_8601": "2024-03-11T20:06:53.714061Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.0.dev20240312": [
+      {
+        "filename": "aim-ui-3.19.0.dev20240312.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312919,
+        "upload_time": "2024-03-12T20:07:07",
+        "upload_time_iso_8601": "2024-03-12T20:07:07.866958Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.1": [
+      {
+        "filename": "aim-ui-3.19.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21311175,
+        "upload_time": "2024-03-14T12:22:13",
+        "upload_time_iso_8601": "2024-03-14T12:22:13.702631Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.2": [
+      {
+        "filename": "aim-ui-3.19.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312867,
+        "upload_time": "2024-03-22T10:32:42",
+        "upload_time_iso_8601": "2024-03-22T10:32:42.386553Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.3": [
+      {
+        "filename": "aim-ui-3.19.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308677,
+        "upload_time": "2024-04-17T16:58:21",
+        "upload_time_iso_8601": "2024-04-17T16:58:21.027930Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev1": [
+      {
+        "filename": "aim-ui-3.19.4.dev1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21311302,
+        "upload_time": "2024-04-24T19:13:02",
+        "upload_time_iso_8601": "2024-04-24T19:13:02.380434Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev10": [
+      {
+        "filename": "aim-ui-3.19.4.dev10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307740,
+        "upload_time": "2024-04-25T15:48:01",
+        "upload_time_iso_8601": "2024-04-25T15:48:01.537496Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev11": [
+      {
+        "filename": "aim-ui-3.19.4.dev11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308386,
+        "upload_time": "2024-04-25T16:07:42",
+        "upload_time_iso_8601": "2024-04-25T16:07:42.785986Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev12": [
+      {
+        "filename": "aim-ui-3.19.4.dev12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307965,
+        "upload_time": "2024-04-25T16:29:25",
+        "upload_time_iso_8601": "2024-04-25T16:29:25.067112Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev13": [
+      {
+        "filename": "aim-ui-3.19.4.dev13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307792,
+        "upload_time": "2024-06-10T19:30:21",
+        "upload_time_iso_8601": "2024-06-10T19:30:21.727748Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev2": [
+      {
+        "filename": "aim-ui-3.19.4.dev2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307523,
+        "upload_time": "2024-04-24T19:25:39",
+        "upload_time_iso_8601": "2024-04-24T19:25:39.161094Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev20": [
+      {
+        "filename": "aim-ui-3.19.4.dev20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307929,
+        "upload_time": "2024-06-10T22:38:32",
+        "upload_time_iso_8601": "2024-06-10T22:38:32.184525Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev21": [
+      {
+        "filename": "aim-ui-3.19.4.dev21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307730,
+        "upload_time": "2024-06-10T23:31:22",
+        "upload_time_iso_8601": "2024-06-10T23:31:22.214982Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev4": [
+      {
+        "filename": "aim-ui-3.19.4.dev4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307674,
+        "upload_time": "2024-04-24T20:13:43",
+        "upload_time_iso_8601": "2024-04-24T20:13:43.014785Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev5": [
+      {
+        "filename": "aim-ui-3.19.4.dev5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308002,
+        "upload_time": "2024-04-24T20:28:55",
+        "upload_time_iso_8601": "2024-04-24T20:28:55.537072Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev6": [
+      {
+        "filename": "aim-ui-3.19.4.dev6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308164,
+        "upload_time": "2024-04-24T20:42:46",
+        "upload_time_iso_8601": "2024-04-24T20:42:46.239542Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev7": [
+      {
+        "filename": "aim-ui-3.19.4.dev7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307895,
+        "upload_time": "2024-04-24T22:07:48",
+        "upload_time_iso_8601": "2024-04-24T22:07:48.821850Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev8": [
+      {
+        "filename": "aim-ui-3.19.4.dev8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307648,
+        "upload_time": "2024-04-24T22:24:43",
+        "upload_time_iso_8601": "2024-04-24T22:24:43.170390Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.19.4.dev9": [
+      {
+        "filename": "aim-ui-3.19.4.dev9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307984,
+        "upload_time": "2024-04-25T13:34:33",
+        "upload_time_iso_8601": "2024-04-25T13:34:33.723858Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240313": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240313.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312054,
+        "upload_time": "2024-03-13T20:06:52",
+        "upload_time_iso_8601": "2024-03-13T20:06:52.358886Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240314": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240314.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308272,
+        "upload_time": "2024-03-14T20:07:03",
+        "upload_time_iso_8601": "2024-03-14T20:07:03.669484Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240316": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240316.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308100,
+        "upload_time": "2024-03-16T20:06:56",
+        "upload_time_iso_8601": "2024-03-16T20:06:56.170742Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240317": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240317.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308420,
+        "upload_time": "2024-03-17T20:06:35",
+        "upload_time_iso_8601": "2024-03-17T20:06:35.983987Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240318": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240318.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308134,
+        "upload_time": "2024-03-18T20:06:52",
+        "upload_time_iso_8601": "2024-03-18T20:06:52.870948Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240319": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240319.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308039,
+        "upload_time": "2024-03-19T20:07:23",
+        "upload_time_iso_8601": "2024-03-19T20:07:23.160865Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240320": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240320.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308208,
+        "upload_time": "2024-03-20T20:06:52",
+        "upload_time_iso_8601": "2024-03-20T20:06:52.631479Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240321": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240321.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21309636,
+        "upload_time": "2024-03-21T20:06:58",
+        "upload_time_iso_8601": "2024-03-21T20:06:58.380002Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240322": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240322.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310518,
+        "upload_time": "2024-03-22T20:06:54",
+        "upload_time_iso_8601": "2024-03-22T20:06:54.311225Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240323": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240323.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310699,
+        "upload_time": "2024-03-23T20:06:45",
+        "upload_time_iso_8601": "2024-03-23T20:06:45.003198Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240324": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240324.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21311128,
+        "upload_time": "2024-03-24T20:06:46",
+        "upload_time_iso_8601": "2024-03-24T20:06:46.334217Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240325": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240325.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310600,
+        "upload_time": "2024-03-25T20:07:01",
+        "upload_time_iso_8601": "2024-03-25T20:07:01.780507Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240326": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240326.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21311197,
+        "upload_time": "2024-03-26T20:07:19",
+        "upload_time_iso_8601": "2024-03-26T20:07:19.341955Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240327": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240327.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21311268,
+        "upload_time": "2024-03-27T20:06:59",
+        "upload_time_iso_8601": "2024-03-27T20:06:59.029436Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240328": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240328.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310688,
+        "upload_time": "2024-03-28T20:07:21",
+        "upload_time_iso_8601": "2024-03-28T20:07:21.017705Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240329": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240329.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310848,
+        "upload_time": "2024-03-29T20:07:09",
+        "upload_time_iso_8601": "2024-03-29T20:07:09.399037Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240330": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240330.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21311195,
+        "upload_time": "2024-03-30T20:07:18",
+        "upload_time_iso_8601": "2024-03-30T20:07:18.823913Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240331": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240331.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310841,
+        "upload_time": "2024-03-31T20:07:12",
+        "upload_time_iso_8601": "2024-03-31T20:07:12.218447Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240401": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240401.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21311824,
+        "upload_time": "2024-04-01T20:06:57",
+        "upload_time_iso_8601": "2024-04-01T20:06:57.401683Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240402": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240402.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310642,
+        "upload_time": "2024-04-02T20:07:07",
+        "upload_time_iso_8601": "2024-04-02T20:07:07.526030Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240403": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240403.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310999,
+        "upload_time": "2024-04-03T20:06:45",
+        "upload_time_iso_8601": "2024-04-03T20:06:45.263279Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240404": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240404.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310904,
+        "upload_time": "2024-04-04T20:06:41",
+        "upload_time_iso_8601": "2024-04-04T20:06:41.420737Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240405": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240405.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21311195,
+        "upload_time": "2024-04-05T20:08:13",
+        "upload_time_iso_8601": "2024-04-05T20:08:13.493335Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240406": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240406.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310649,
+        "upload_time": "2024-04-06T20:07:50",
+        "upload_time_iso_8601": "2024-04-06T20:07:50.600797Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240407": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240407.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310713,
+        "upload_time": "2024-04-07T20:06:48",
+        "upload_time_iso_8601": "2024-04-07T20:06:48.246524Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240408": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240408.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310863,
+        "upload_time": "2024-04-08T20:07:03",
+        "upload_time_iso_8601": "2024-04-08T20:07:03.964586Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240409": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240409.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310796,
+        "upload_time": "2024-04-09T20:07:01",
+        "upload_time_iso_8601": "2024-04-09T20:07:01.389385Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240410": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240410.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310890,
+        "upload_time": "2024-04-10T20:07:20",
+        "upload_time_iso_8601": "2024-04-10T20:07:20.515126Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240411": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240411.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21311016,
+        "upload_time": "2024-04-11T20:07:45",
+        "upload_time_iso_8601": "2024-04-11T20:07:45.933776Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240412": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240412.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310766,
+        "upload_time": "2024-04-12T20:07:51",
+        "upload_time_iso_8601": "2024-04-12T20:07:51.478770Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240413": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240413.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310777,
+        "upload_time": "2024-04-13T20:07:11",
+        "upload_time_iso_8601": "2024-04-13T20:07:11.148150Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240414": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240414.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310783,
+        "upload_time": "2024-04-14T22:16:04",
+        "upload_time_iso_8601": "2024-04-14T22:16:04.051184Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240415": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240415.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310678,
+        "upload_time": "2024-04-15T20:06:49",
+        "upload_time_iso_8601": "2024-04-15T20:06:49.681952Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240416": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240416.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310686,
+        "upload_time": "2024-04-16T20:07:09",
+        "upload_time_iso_8601": "2024-04-16T20:07:09.343483Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240417": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240417.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307684,
+        "upload_time": "2024-04-17T20:06:49",
+        "upload_time_iso_8601": "2024-04-17T20:06:49.133694Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240418": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240418.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307648,
+        "upload_time": "2024-04-18T20:07:19",
+        "upload_time_iso_8601": "2024-04-18T20:07:19.503985Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240419": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240419.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307636,
+        "upload_time": "2024-04-19T20:07:04",
+        "upload_time_iso_8601": "2024-04-19T20:07:04.556811Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240420": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240420.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307745,
+        "upload_time": "2024-04-20T20:06:43",
+        "upload_time_iso_8601": "2024-04-20T20:06:43.238013Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240421": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240421.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307561,
+        "upload_time": "2024-04-21T20:06:45",
+        "upload_time_iso_8601": "2024-04-21T20:06:45.507655Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240422": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240422.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307466,
+        "upload_time": "2024-04-22T20:07:21",
+        "upload_time_iso_8601": "2024-04-22T20:07:21.743528Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240423": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240423.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307578,
+        "upload_time": "2024-04-23T20:06:54",
+        "upload_time_iso_8601": "2024-04-23T20:06:54.140133Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240424": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240424.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307545,
+        "upload_time": "2024-04-24T20:06:53",
+        "upload_time_iso_8601": "2024-04-24T20:06:53.884705Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240425": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240425.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307524,
+        "upload_time": "2024-04-25T20:07:01",
+        "upload_time_iso_8601": "2024-04-25T20:07:01.952481Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240426": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240426.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307506,
+        "upload_time": "2024-04-26T20:07:01",
+        "upload_time_iso_8601": "2024-04-26T20:07:01.897196Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240427": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240427.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307684,
+        "upload_time": "2024-04-27T20:07:04",
+        "upload_time_iso_8601": "2024-04-27T20:07:04.404394Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240428": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240428.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307580,
+        "upload_time": "2024-04-28T20:06:57",
+        "upload_time_iso_8601": "2024-04-28T20:06:57.664867Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240429": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240429.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307618,
+        "upload_time": "2024-04-29T20:06:51",
+        "upload_time_iso_8601": "2024-04-29T20:06:51.056212Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240430": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240430.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307512,
+        "upload_time": "2024-04-30T20:06:53",
+        "upload_time_iso_8601": "2024-04-30T20:06:53.273977Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240501": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240501.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307590,
+        "upload_time": "2024-05-01T20:06:59",
+        "upload_time_iso_8601": "2024-05-01T20:06:59.285829Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240502": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240502.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307694,
+        "upload_time": "2024-05-02T20:07:14",
+        "upload_time_iso_8601": "2024-05-02T20:07:14.132700Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240503": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240503.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307615,
+        "upload_time": "2024-05-03T20:07:01",
+        "upload_time_iso_8601": "2024-05-03T20:07:01.909348Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240504": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240504.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307392,
+        "upload_time": "2024-05-04T20:06:59",
+        "upload_time_iso_8601": "2024-05-04T20:06:59.255464Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240505": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240505.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307602,
+        "upload_time": "2024-05-05T20:06:54",
+        "upload_time_iso_8601": "2024-05-05T20:06:54.154150Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240506": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240506.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307698,
+        "upload_time": "2024-05-06T20:06:54",
+        "upload_time_iso_8601": "2024-05-06T20:06:54.362872Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240507": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240507.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307540,
+        "upload_time": "2024-05-07T20:06:41",
+        "upload_time_iso_8601": "2024-05-07T20:06:41.490415Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240508": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240508.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307569,
+        "upload_time": "2024-05-08T20:06:39",
+        "upload_time_iso_8601": "2024-05-08T20:06:39.036083Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240509": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240509.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307572,
+        "upload_time": "2024-05-09T20:07:01",
+        "upload_time_iso_8601": "2024-05-09T20:07:01.053442Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240510": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240510.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307450,
+        "upload_time": "2024-05-10T20:07:08",
+        "upload_time_iso_8601": "2024-05-10T20:07:08.095062Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240511": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240511.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307432,
+        "upload_time": "2024-05-11T20:06:40",
+        "upload_time_iso_8601": "2024-05-11T20:06:40.723796Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240512": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240512.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307731,
+        "upload_time": "2024-05-12T20:06:58",
+        "upload_time_iso_8601": "2024-05-12T20:06:58.589590Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240513": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240513.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307597,
+        "upload_time": "2024-05-13T20:06:51",
+        "upload_time_iso_8601": "2024-05-13T20:06:51.561433Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240514": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240514.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307507,
+        "upload_time": "2024-05-14T20:07:21",
+        "upload_time_iso_8601": "2024-05-14T20:07:21.357809Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240515": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240515.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307664,
+        "upload_time": "2024-05-15T20:07:13",
+        "upload_time_iso_8601": "2024-05-15T20:07:13.997951Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240516": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240516.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307617,
+        "upload_time": "2024-05-16T20:06:53",
+        "upload_time_iso_8601": "2024-05-16T20:06:53.819399Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240517": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240517.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307581,
+        "upload_time": "2024-05-17T20:06:51",
+        "upload_time_iso_8601": "2024-05-17T20:06:51.358968Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240518": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240518.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307604,
+        "upload_time": "2024-05-18T20:06:51",
+        "upload_time_iso_8601": "2024-05-18T20:06:51.961281Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240519": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240519.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307547,
+        "upload_time": "2024-05-19T20:07:07",
+        "upload_time_iso_8601": "2024-05-19T20:07:07.983465Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240520": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240520.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307492,
+        "upload_time": "2024-05-20T20:06:48",
+        "upload_time_iso_8601": "2024-05-20T20:06:48.747827Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240521": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240521.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307639,
+        "upload_time": "2024-05-21T20:07:12",
+        "upload_time_iso_8601": "2024-05-21T20:07:12.028039Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240522": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240522.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307529,
+        "upload_time": "2024-05-22T20:06:53",
+        "upload_time_iso_8601": "2024-05-22T20:06:53.652041Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240523": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240523.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307476,
+        "upload_time": "2024-05-23T20:06:44",
+        "upload_time_iso_8601": "2024-05-23T20:06:44.148403Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240524": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240524.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307684,
+        "upload_time": "2024-05-24T20:06:56",
+        "upload_time_iso_8601": "2024-05-24T20:06:56.102483Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240525": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240525.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307564,
+        "upload_time": "2024-05-25T20:06:57",
+        "upload_time_iso_8601": "2024-05-25T20:06:57.521316Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240526": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240526.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307707,
+        "upload_time": "2024-05-26T20:06:44",
+        "upload_time_iso_8601": "2024-05-26T20:06:44.742699Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240527": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240527.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307513,
+        "upload_time": "2024-05-27T20:07:13",
+        "upload_time_iso_8601": "2024-05-27T20:07:13.903710Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240528": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240528.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307572,
+        "upload_time": "2024-05-28T20:06:54",
+        "upload_time_iso_8601": "2024-05-28T20:06:54.278736Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240529": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240529.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310301,
+        "upload_time": "2024-05-29T20:07:08",
+        "upload_time_iso_8601": "2024-05-29T20:07:08.676343Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.0.dev20240531": [
+      {
+        "filename": "aim-ui-3.20.0.dev20240531.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21309839,
+        "upload_time": "2024-05-31T20:07:01",
+        "upload_time_iso_8601": "2024-05-31T20:07:01.283160Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.20.1": [
+      {
+        "filename": "aim-ui-3.20.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308223,
+        "upload_time": "2024-06-03T11:28:19",
+        "upload_time_iso_8601": "2024-06-03T11:28:19.152732Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0": [
+      {
+        "filename": "aim-ui-3.21.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310719,
+        "upload_time": "2024-06-17T07:10:54",
+        "upload_time_iso_8601": "2024-06-17T07:10:54.918503Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev1": [
+      {
+        "filename": "aim-ui-3.21.0.dev1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308188,
+        "upload_time": "2024-06-10T21:04:13",
+        "upload_time_iso_8601": "2024-06-10T21:04:13.421917Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev2": [
+      {
+        "filename": "aim-ui-3.21.0.dev2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307984,
+        "upload_time": "2024-06-11T22:34:46",
+        "upload_time_iso_8601": "2024-06-11T22:34:46.130535Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240603": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240603.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310278,
+        "upload_time": "2024-06-03T20:06:52",
+        "upload_time_iso_8601": "2024-06-03T20:06:52.936410Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240604": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240604.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21309374,
+        "upload_time": "2024-06-04T20:07:11",
+        "upload_time_iso_8601": "2024-06-04T20:07:11.597825Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240605": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240605.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310110,
+        "upload_time": "2024-06-05T20:07:09",
+        "upload_time_iso_8601": "2024-06-05T20:07:09.917331Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240606": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240606.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21309513,
+        "upload_time": "2024-06-06T20:07:17",
+        "upload_time_iso_8601": "2024-06-06T20:07:17.795971Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240607": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240607.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21309480,
+        "upload_time": "2024-06-07T20:07:08",
+        "upload_time_iso_8601": "2024-06-07T20:07:08.103999Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240608": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240608.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310353,
+        "upload_time": "2024-06-08T20:07:01",
+        "upload_time_iso_8601": "2024-06-08T20:07:01.974370Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240609": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240609.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21310314,
+        "upload_time": "2024-06-09T20:07:00",
+        "upload_time_iso_8601": "2024-06-09T20:07:00.430194Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240610": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240610.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21309082,
+        "upload_time": "2024-06-10T20:06:45",
+        "upload_time_iso_8601": "2024-06-10T20:06:45.943706Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240611": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240611.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21309316,
+        "upload_time": "2024-06-11T20:06:46",
+        "upload_time_iso_8601": "2024-06-11T20:06:46.874276Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240612": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240612.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314767,
+        "upload_time": "2024-06-12T20:06:56",
+        "upload_time_iso_8601": "2024-06-12T20:06:56.979862Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240613": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240613.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314830,
+        "upload_time": "2024-06-13T20:07:16",
+        "upload_time_iso_8601": "2024-06-13T20:07:16.083723Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240614": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240614.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21313791,
+        "upload_time": "2024-06-14T20:07:08",
+        "upload_time_iso_8601": "2024-06-14T20:07:08.370204Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240615": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240615.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314687,
+        "upload_time": "2024-06-15T20:07:04",
+        "upload_time_iso_8601": "2024-06-15T20:07:04.824009Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev20240616": [
+      {
+        "filename": "aim-ui-3.21.0.dev20240616.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314562,
+        "upload_time": "2024-06-16T20:06:55",
+        "upload_time_iso_8601": "2024-06-16T20:06:55.968224Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.21.0.dev3": [
+      {
+        "filename": "aim-ui-3.21.0.dev3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21307678,
+        "upload_time": "2024-06-11T23:08:32",
+        "upload_time_iso_8601": "2024-06-11T23:08:32.130930Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.22.0": [
+      {
+        "filename": "aim-ui-3.22.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21311825,
+        "upload_time": "2024-06-20T10:54:13",
+        "upload_time_iso_8601": "2024-06-20T10:54:13.155696Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.22.0.dev20240617": [
+      {
+        "filename": "aim-ui-3.22.0.dev20240617.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314988,
+        "upload_time": "2024-06-17T20:06:55",
+        "upload_time_iso_8601": "2024-06-17T20:06:55.540471Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.22.0.dev20240618": [
+      {
+        "filename": "aim-ui-3.22.0.dev20240618.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21315183,
+        "upload_time": "2024-06-18T20:06:59",
+        "upload_time_iso_8601": "2024-06-18T20:06:59.187912Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.22.0.dev20240619": [
+      {
+        "filename": "aim-ui-3.22.0.dev20240619.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314849,
+        "upload_time": "2024-06-19T20:06:49",
+        "upload_time_iso_8601": "2024-06-19T20:06:49.982744Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0": [
+      {
+        "filename": "aim-ui-3.23.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21312599,
+        "upload_time": "2024-07-15T13:29:01",
+        "upload_time_iso_8601": "2024-07-15T13:29:01.847588Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240620": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240620.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21315175,
+        "upload_time": "2024-06-20T20:06:49",
+        "upload_time_iso_8601": "2024-06-20T20:06:49.779118Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240621": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240621.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314047,
+        "upload_time": "2024-06-21T20:07:00",
+        "upload_time_iso_8601": "2024-06-21T20:07:00.007406Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240622": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240622.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21315152,
+        "upload_time": "2024-06-22T20:07:01",
+        "upload_time_iso_8601": "2024-06-22T20:07:01.671221Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240623": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240623.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314858,
+        "upload_time": "2024-06-23T20:07:00",
+        "upload_time_iso_8601": "2024-06-23T20:07:00.940516Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240624": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240624.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314551,
+        "upload_time": "2024-06-24T20:07:17",
+        "upload_time_iso_8601": "2024-06-24T20:07:17.289607Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240626": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240626.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314118,
+        "upload_time": "2024-06-26T20:07:50",
+        "upload_time_iso_8601": "2024-06-26T20:07:50.121570Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240627": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240627.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314943,
+        "upload_time": "2024-06-27T20:07:01",
+        "upload_time_iso_8601": "2024-06-27T20:07:01.836302Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240628": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240628.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21315206,
+        "upload_time": "2024-06-28T20:07:13",
+        "upload_time_iso_8601": "2024-06-28T20:07:13.181808Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240629": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240629.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21313448,
+        "upload_time": "2024-06-29T20:07:11",
+        "upload_time_iso_8601": "2024-06-29T20:07:11.721923Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240630": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240630.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314864,
+        "upload_time": "2024-06-30T20:06:48",
+        "upload_time_iso_8601": "2024-06-30T20:06:48.169749Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240701": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240701.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314173,
+        "upload_time": "2024-07-01T20:07:20",
+        "upload_time_iso_8601": "2024-07-01T20:07:20.268396Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240702": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240702.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21315056,
+        "upload_time": "2024-07-02T20:07:04",
+        "upload_time_iso_8601": "2024-07-02T20:07:04.263410Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240703": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240703.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314289,
+        "upload_time": "2024-07-03T20:06:54",
+        "upload_time_iso_8601": "2024-07-03T20:06:54.575176Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240704": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240704.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314359,
+        "upload_time": "2024-07-04T20:07:24",
+        "upload_time_iso_8601": "2024-07-04T20:07:24.943898Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240705": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240705.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314241,
+        "upload_time": "2024-07-05T20:07:04",
+        "upload_time_iso_8601": "2024-07-05T20:07:04.913100Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240706": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240706.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314595,
+        "upload_time": "2024-07-06T20:06:50",
+        "upload_time_iso_8601": "2024-07-06T20:06:50.628759Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240707": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240707.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314737,
+        "upload_time": "2024-07-07T20:07:11",
+        "upload_time_iso_8601": "2024-07-07T20:07:11.752197Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240708": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240708.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314896,
+        "upload_time": "2024-07-08T20:08:03",
+        "upload_time_iso_8601": "2024-07-08T20:08:03.435009Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240709": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240709.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314892,
+        "upload_time": "2024-07-09T20:06:55",
+        "upload_time_iso_8601": "2024-07-09T20:06:55.686587Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240710": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240710.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314414,
+        "upload_time": "2024-07-10T20:07:24",
+        "upload_time_iso_8601": "2024-07-10T20:07:24.633726Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240711": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240711.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314492,
+        "upload_time": "2024-07-11T20:06:58",
+        "upload_time_iso_8601": "2024-07-11T20:06:58.336302Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240712": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240712.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314090,
+        "upload_time": "2024-07-12T20:07:11",
+        "upload_time_iso_8601": "2024-07-12T20:07:11.085962Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.23.0.dev20240713": [
+      {
+        "filename": "aim-ui-3.23.0.dev20240713.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21314395,
+        "upload_time": "2024-07-13T20:06:55",
+        "upload_time_iso_8601": "2024-07-13T20:06:55.572598Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0": [
+      {
+        "filename": "aim-ui-3.24.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21313562,
+        "upload_time": "2024-08-14T06:18:26",
+        "upload_time_iso_8601": "2024-08-14T06:18:26.491468Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240801": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240801.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317190,
+        "upload_time": "2024-08-01T20:07:14",
+        "upload_time_iso_8601": "2024-08-01T20:07:14.561239Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240802": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240802.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317073,
+        "upload_time": "2024-08-02T20:07:09",
+        "upload_time_iso_8601": "2024-08-02T20:07:09.710080Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240803": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240803.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317035,
+        "upload_time": "2024-08-03T20:07:01",
+        "upload_time_iso_8601": "2024-08-03T20:07:01.812690Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240804": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240804.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317143,
+        "upload_time": "2024-08-04T20:07:04",
+        "upload_time_iso_8601": "2024-08-04T20:07:04.146091Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240805": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240805.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317261,
+        "upload_time": "2024-08-05T20:07:19",
+        "upload_time_iso_8601": "2024-08-05T20:07:19.315608Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240806": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240806.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316677,
+        "upload_time": "2024-08-06T20:06:53",
+        "upload_time_iso_8601": "2024-08-06T20:06:53.800231Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240807": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240807.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316995,
+        "upload_time": "2024-08-07T20:06:53",
+        "upload_time_iso_8601": "2024-08-07T20:06:53.272355Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240808": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240808.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316755,
+        "upload_time": "2024-08-08T20:07:12",
+        "upload_time_iso_8601": "2024-08-08T20:07:12.622475Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240809": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240809.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316240,
+        "upload_time": "2024-08-09T20:07:09",
+        "upload_time_iso_8601": "2024-08-09T20:07:09.857705Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240810": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240810.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316986,
+        "upload_time": "2024-08-10T20:07:32",
+        "upload_time_iso_8601": "2024-08-10T20:07:32.163537Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240811": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240811.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316701,
+        "upload_time": "2024-08-11T20:07:07",
+        "upload_time_iso_8601": "2024-08-11T20:07:07.414552Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240812": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240812.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316805,
+        "upload_time": "2024-08-12T20:07:00",
+        "upload_time_iso_8601": "2024-08-12T20:07:00.070229Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.24.0.dev20240813": [
+      {
+        "filename": "aim-ui-3.24.0.dev20240813.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317451,
+        "upload_time": "2024-08-13T20:07:22",
+        "upload_time_iso_8601": "2024-08-13T20:07:22.000120Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0": [
+      {
+        "filename": "aim-ui-3.25.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30804301,
+        "upload_time": "2024-10-02T16:57:33",
+        "upload_time_iso_8601": "2024-10-02T16:57:33.022858Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240814": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240814.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317346,
+        "upload_time": "2024-08-14T20:07:05",
+        "upload_time_iso_8601": "2024-08-14T20:07:05.293845Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240815": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240815.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317415,
+        "upload_time": "2024-08-15T20:07:19",
+        "upload_time_iso_8601": "2024-08-15T20:07:19.830144Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240816": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240816.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317251,
+        "upload_time": "2024-08-16T20:07:11",
+        "upload_time_iso_8601": "2024-08-16T20:07:11.939825Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240817": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240817.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317222,
+        "upload_time": "2024-08-17T20:07:43",
+        "upload_time_iso_8601": "2024-08-17T20:07:43.977911Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240818": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240818.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316768,
+        "upload_time": "2024-08-18T20:07:23",
+        "upload_time_iso_8601": "2024-08-18T20:07:23.750503Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240819": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240819.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317418,
+        "upload_time": "2024-08-19T20:07:15",
+        "upload_time_iso_8601": "2024-08-19T20:07:15.075400Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240820": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240820.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316983,
+        "upload_time": "2024-08-20T20:07:42",
+        "upload_time_iso_8601": "2024-08-20T20:07:42.100963Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240821": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240821.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317566,
+        "upload_time": "2024-08-21T20:07:01",
+        "upload_time_iso_8601": "2024-08-21T20:07:01.115888Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240822": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240822.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317900,
+        "upload_time": "2024-08-22T20:07:22",
+        "upload_time_iso_8601": "2024-08-22T20:07:22.462144Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240823": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240823.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317252,
+        "upload_time": "2024-08-23T20:06:59",
+        "upload_time_iso_8601": "2024-08-23T20:06:59.586625Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240824": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240824.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317206,
+        "upload_time": "2024-08-24T20:07:00",
+        "upload_time_iso_8601": "2024-08-24T20:07:00.301212Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240825": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240825.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317000,
+        "upload_time": "2024-08-25T20:07:03",
+        "upload_time_iso_8601": "2024-08-25T20:07:03.955704Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240826": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240826.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316659,
+        "upload_time": "2024-08-26T20:07:10",
+        "upload_time_iso_8601": "2024-08-26T20:07:10.654137Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240827": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240827.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317100,
+        "upload_time": "2024-08-27T20:07:19",
+        "upload_time_iso_8601": "2024-08-27T20:07:19.282055Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240828": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240828.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317339,
+        "upload_time": "2024-08-28T20:08:32",
+        "upload_time_iso_8601": "2024-08-28T20:08:32.631118Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240829": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240829.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317395,
+        "upload_time": "2024-08-29T20:07:13",
+        "upload_time_iso_8601": "2024-08-29T20:07:13.827382Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240830": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240830.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316957,
+        "upload_time": "2024-08-30T20:06:57",
+        "upload_time_iso_8601": "2024-08-30T20:06:57.427775Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240831": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240831.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316950,
+        "upload_time": "2024-08-31T20:06:53",
+        "upload_time_iso_8601": "2024-08-31T20:06:53.701938Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240901": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240901.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317337,
+        "upload_time": "2024-09-01T20:08:06",
+        "upload_time_iso_8601": "2024-09-01T20:08:06.545613Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240902": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240902.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317247,
+        "upload_time": "2024-09-02T20:07:15",
+        "upload_time_iso_8601": "2024-09-02T20:07:15.349013Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240903": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240903.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317751,
+        "upload_time": "2024-09-03T20:07:32",
+        "upload_time_iso_8601": "2024-09-03T20:07:32.248874Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240904": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240904.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317569,
+        "upload_time": "2024-09-04T20:07:51",
+        "upload_time_iso_8601": "2024-09-04T20:07:51.084452Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240905": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240905.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317584,
+        "upload_time": "2024-09-05T20:07:31",
+        "upload_time_iso_8601": "2024-09-05T20:07:31.124674Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240906": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240906.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317006,
+        "upload_time": "2024-09-06T20:07:24",
+        "upload_time_iso_8601": "2024-09-06T20:07:24.263188Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240907": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240907.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317684,
+        "upload_time": "2024-09-07T20:06:41",
+        "upload_time_iso_8601": "2024-09-07T20:06:41.048623Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240908": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240908.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317249,
+        "upload_time": "2024-09-08T20:07:00",
+        "upload_time_iso_8601": "2024-09-08T20:07:00.093745Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240909": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240909.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317914,
+        "upload_time": "2024-09-09T20:07:25",
+        "upload_time_iso_8601": "2024-09-09T20:07:25.649985Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240910": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240910.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21318138,
+        "upload_time": "2024-09-10T20:07:38",
+        "upload_time_iso_8601": "2024-09-10T20:07:38.496797Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240911": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240911.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21317880,
+        "upload_time": "2024-09-11T20:07:21",
+        "upload_time_iso_8601": "2024-09-11T20:07:21.372953Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240912": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240912.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21316649,
+        "upload_time": "2024-09-12T20:07:31",
+        "upload_time_iso_8601": "2024-09-12T20:07:31.497735Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240927": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240927.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30804189,
+        "upload_time": "2024-09-27T20:10:06",
+        "upload_time_iso_8601": "2024-09-27T20:10:06.077789Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240928": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240928.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803714,
+        "upload_time": "2024-09-28T20:10:05",
+        "upload_time_iso_8601": "2024-09-28T20:10:05.976673Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.0.dev20240929": [
+      {
+        "filename": "aim-ui-3.25.0.dev20240929.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803841,
+        "upload_time": "2024-09-29T20:09:23",
+        "upload_time_iso_8601": "2024-09-29T20:09:23.004071Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.25.1": [
+      {
+        "filename": "aim-ui-3.25.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30900436,
+        "upload_time": "2024-11-06T11:49:27",
+        "upload_time_iso_8601": "2024-11-06T11:49:27.299905Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0": [
+      {
+        "filename": "aim-ui-3.26.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30903237,
+        "upload_time": "2024-12-03T06:22:29",
+        "upload_time_iso_8601": "2024-12-03T06:22:29.009988Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev1": [
+      {
+        "filename": "aim-ui-3.26.0.dev1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30806113,
+        "upload_time": "2024-11-05T13:47:31",
+        "upload_time_iso_8601": "2024-11-05T13:47:31.639251Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241002": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241002.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30804083,
+        "upload_time": "2024-10-02T20:09:52",
+        "upload_time_iso_8601": "2024-10-02T20:09:52.046889Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241003": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241003.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803853,
+        "upload_time": "2024-10-03T20:09:33",
+        "upload_time_iso_8601": "2024-10-03T20:09:33.214791Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241004": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241004.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803822,
+        "upload_time": "2024-10-04T20:09:50",
+        "upload_time_iso_8601": "2024-10-04T20:09:50.130622Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241005": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241005.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803459,
+        "upload_time": "2024-10-05T20:09:17",
+        "upload_time_iso_8601": "2024-10-05T20:09:17.939988Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241006": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241006.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803523,
+        "upload_time": "2024-10-06T20:09:02",
+        "upload_time_iso_8601": "2024-10-06T20:09:02.288982Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241007": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241007.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30804269,
+        "upload_time": "2024-10-07T20:09:51",
+        "upload_time_iso_8601": "2024-10-07T20:09:51.350243Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241008": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241008.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803513,
+        "upload_time": "2024-10-08T20:09:20",
+        "upload_time_iso_8601": "2024-10-08T20:09:20.494023Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241009": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241009.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803595,
+        "upload_time": "2024-10-09T20:09:31",
+        "upload_time_iso_8601": "2024-10-09T20:09:31.658942Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241010": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241010.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803930,
+        "upload_time": "2024-10-10T20:10:08",
+        "upload_time_iso_8601": "2024-10-10T20:10:08.588911Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241011": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241011.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803667,
+        "upload_time": "2024-10-11T20:09:50",
+        "upload_time_iso_8601": "2024-10-11T20:09:50.881084Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241012": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241012.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803780,
+        "upload_time": "2024-10-12T20:09:32",
+        "upload_time_iso_8601": "2024-10-12T20:09:32.018775Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241013": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241013.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803869,
+        "upload_time": "2024-10-13T20:09:29",
+        "upload_time_iso_8601": "2024-10-13T20:09:29.732965Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241014": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241014.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803854,
+        "upload_time": "2024-10-14T20:09:28",
+        "upload_time_iso_8601": "2024-10-14T20:09:28.815196Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241015": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241015.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803594,
+        "upload_time": "2024-10-15T20:09:30",
+        "upload_time_iso_8601": "2024-10-15T20:09:30.492205Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241016": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241016.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803670,
+        "upload_time": "2024-10-16T20:09:44",
+        "upload_time_iso_8601": "2024-10-16T20:09:44.221151Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241017": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241017.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803510,
+        "upload_time": "2024-10-17T20:09:45",
+        "upload_time_iso_8601": "2024-10-17T20:09:45.912564Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241018": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241018.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803882,
+        "upload_time": "2024-10-18T20:09:20",
+        "upload_time_iso_8601": "2024-10-18T20:09:20.555357Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241019": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241019.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803886,
+        "upload_time": "2024-10-19T20:09:12",
+        "upload_time_iso_8601": "2024-10-19T20:09:12.891919Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241020": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241020.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803894,
+        "upload_time": "2024-10-20T20:09:39",
+        "upload_time_iso_8601": "2024-10-20T20:09:39.277697Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241021": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241021.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803869,
+        "upload_time": "2024-10-21T20:10:15",
+        "upload_time_iso_8601": "2024-10-21T20:10:15.298424Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241022": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241022.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30804048,
+        "upload_time": "2024-10-22T20:10:05",
+        "upload_time_iso_8601": "2024-10-22T20:10:05.483460Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241023": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241023.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803939,
+        "upload_time": "2024-10-23T20:09:51",
+        "upload_time_iso_8601": "2024-10-23T20:09:51.943149Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241024": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241024.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30804071,
+        "upload_time": "2024-10-24T20:09:54",
+        "upload_time_iso_8601": "2024-10-24T20:09:54.021762Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241025": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241025.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803881,
+        "upload_time": "2024-10-25T20:09:36",
+        "upload_time_iso_8601": "2024-10-25T20:09:36.632393Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241026": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241026.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803735,
+        "upload_time": "2024-10-26T20:09:25",
+        "upload_time_iso_8601": "2024-10-26T20:09:25.680515Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241027": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241027.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803858,
+        "upload_time": "2024-10-27T20:09:27",
+        "upload_time_iso_8601": "2024-10-27T20:09:27.301910Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241028": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241028.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803846,
+        "upload_time": "2024-10-28T20:09:16",
+        "upload_time_iso_8601": "2024-10-28T20:09:16.565826Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241029": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241029.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30804182,
+        "upload_time": "2024-10-29T20:09:50",
+        "upload_time_iso_8601": "2024-10-29T20:09:50.649054Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241030": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241030.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803782,
+        "upload_time": "2024-10-30T20:09:36",
+        "upload_time_iso_8601": "2024-10-30T20:09:36.181575Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241031": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241031.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803549,
+        "upload_time": "2024-10-31T20:09:36",
+        "upload_time_iso_8601": "2024-10-31T20:09:36.599219Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241101": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241101.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803995,
+        "upload_time": "2024-11-01T20:09:55",
+        "upload_time_iso_8601": "2024-11-01T20:09:55.231554Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241102": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241102.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803733,
+        "upload_time": "2024-11-02T20:09:09",
+        "upload_time_iso_8601": "2024-11-02T20:09:09.592380Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241103": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241103.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803880,
+        "upload_time": "2024-11-03T20:09:27",
+        "upload_time_iso_8601": "2024-11-03T20:09:27.202040Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241104": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241104.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803650,
+        "upload_time": "2024-11-04T20:09:54",
+        "upload_time_iso_8601": "2024-11-04T20:09:54.110562Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241105": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241105.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30803554,
+        "upload_time": "2024-11-05T20:10:31",
+        "upload_time_iso_8601": "2024-11-05T20:10:31.771877Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241106": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241106.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30903429,
+        "upload_time": "2024-11-06T20:09:43",
+        "upload_time_iso_8601": "2024-11-06T20:09:43.863025Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241107": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241107.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902515,
+        "upload_time": "2024-11-07T20:10:15",
+        "upload_time_iso_8601": "2024-11-07T20:10:15.577560Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241108": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241108.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902776,
+        "upload_time": "2024-11-08T20:10:08",
+        "upload_time_iso_8601": "2024-11-08T20:10:08.275024Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241109": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241109.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30903640,
+        "upload_time": "2024-11-09T20:09:08",
+        "upload_time_iso_8601": "2024-11-09T20:09:08.373229Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241113": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241113.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902366,
+        "upload_time": "2024-11-13T20:09:49",
+        "upload_time_iso_8601": "2024-11-13T20:09:49.801678Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241114": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241114.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30903142,
+        "upload_time": "2024-11-14T20:09:52",
+        "upload_time_iso_8601": "2024-11-14T20:09:52.282235Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241115": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241115.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902806,
+        "upload_time": "2024-11-15T20:09:55",
+        "upload_time_iso_8601": "2024-11-15T20:09:55.508629Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241116": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241116.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902506,
+        "upload_time": "2024-11-16T20:09:44",
+        "upload_time_iso_8601": "2024-11-16T20:09:44.190428Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241117": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241117.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902326,
+        "upload_time": "2024-11-17T20:10:00",
+        "upload_time_iso_8601": "2024-11-17T20:10:00.874495Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241118": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241118.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902839,
+        "upload_time": "2024-11-18T20:10:04",
+        "upload_time_iso_8601": "2024-11-18T20:10:04.242150Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241119": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241119.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902456,
+        "upload_time": "2024-11-19T20:09:49",
+        "upload_time_iso_8601": "2024-11-19T20:09:49.720641Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241120": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241120.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902639,
+        "upload_time": "2024-11-20T20:10:20",
+        "upload_time_iso_8601": "2024-11-20T20:10:20.181524Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241121": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241121.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902588,
+        "upload_time": "2024-11-21T20:09:53",
+        "upload_time_iso_8601": "2024-11-21T20:09:53.446912Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241122": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241122.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902626,
+        "upload_time": "2024-11-22T20:10:56",
+        "upload_time_iso_8601": "2024-11-22T20:10:56.373657Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241123": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241123.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902805,
+        "upload_time": "2024-11-23T20:11:04",
+        "upload_time_iso_8601": "2024-11-23T20:11:04.973710Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241124": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241124.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902696,
+        "upload_time": "2024-11-24T20:09:27",
+        "upload_time_iso_8601": "2024-11-24T20:09:27.997461Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241125": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241125.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30903160,
+        "upload_time": "2024-11-25T20:09:41",
+        "upload_time_iso_8601": "2024-11-25T20:09:41.201081Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241126": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241126.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902608,
+        "upload_time": "2024-11-26T20:09:47",
+        "upload_time_iso_8601": "2024-11-26T20:09:47.384860Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241127": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241127.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30903219,
+        "upload_time": "2024-11-27T20:09:58",
+        "upload_time_iso_8601": "2024-11-27T20:09:58.472418Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241128": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241128.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30903189,
+        "upload_time": "2024-11-28T20:09:33",
+        "upload_time_iso_8601": "2024-11-28T20:09:33.158001Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241129": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241129.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902596,
+        "upload_time": "2024-11-29T20:10:01",
+        "upload_time_iso_8601": "2024-11-29T20:10:01.889134Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241130": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241130.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30903412,
+        "upload_time": "2024-11-30T20:09:28",
+        "upload_time_iso_8601": "2024-11-30T20:09:28.864862Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241201": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241201.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902698,
+        "upload_time": "2024-12-01T20:09:33",
+        "upload_time_iso_8601": "2024-12-01T20:09:33.396928Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.0.dev20241202": [
+      {
+        "filename": "aim-ui-3.26.0.dev20241202.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902755,
+        "upload_time": "2024-12-02T20:09:41",
+        "upload_time_iso_8601": "2024-12-02T20:09:41.091745Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.26.1": [
+      {
+        "filename": "aim-ui-3.26.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30900346,
+        "upload_time": "2024-12-03T06:44:42",
+        "upload_time_iso_8601": "2024-12-03T06:44:42.493977Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0": [
+      {
+        "filename": "aim-ui-3.27.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30974115,
+        "upload_time": "2024-12-18T16:20:24",
+        "upload_time_iso_8601": "2024-12-18T16:20:24.210238Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241203": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241203.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30903483,
+        "upload_time": "2024-12-03T20:09:49",
+        "upload_time_iso_8601": "2024-12-03T20:09:49.190959Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241204": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241204.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30902548,
+        "upload_time": "2024-12-04T20:10:05",
+        "upload_time_iso_8601": "2024-12-04T20:10:05.008606Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241205": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241205.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970536,
+        "upload_time": "2024-12-05T20:09:53",
+        "upload_time_iso_8601": "2024-12-05T20:09:53.729940Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241206": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241206.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970263,
+        "upload_time": "2024-12-06T20:09:51",
+        "upload_time_iso_8601": "2024-12-06T20:09:51.717793Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241207": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241207.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970865,
+        "upload_time": "2024-12-07T20:09:39",
+        "upload_time_iso_8601": "2024-12-07T20:09:39.188306Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241208": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241208.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30969813,
+        "upload_time": "2024-12-08T20:09:36",
+        "upload_time_iso_8601": "2024-12-08T20:09:36.371795Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241209": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241209.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970548,
+        "upload_time": "2024-12-09T20:10:12",
+        "upload_time_iso_8601": "2024-12-09T20:10:12.163504Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241210": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241210.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970935,
+        "upload_time": "2024-12-10T20:09:44",
+        "upload_time_iso_8601": "2024-12-10T20:09:44.695249Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241211": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241211.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30969596,
+        "upload_time": "2024-12-11T20:09:58",
+        "upload_time_iso_8601": "2024-12-11T20:09:58.496362Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241212": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241212.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30971066,
+        "upload_time": "2024-12-12T20:09:56",
+        "upload_time_iso_8601": "2024-12-12T20:09:56.789871Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241213": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241213.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30972013,
+        "upload_time": "2024-12-13T20:10:08",
+        "upload_time_iso_8601": "2024-12-13T20:10:08.278933Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241214": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241214.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970262,
+        "upload_time": "2024-12-14T20:09:20",
+        "upload_time_iso_8601": "2024-12-14T20:09:20.468047Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241215": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241215.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970540,
+        "upload_time": "2024-12-15T20:09:41",
+        "upload_time_iso_8601": "2024-12-15T20:09:41.234352Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241216": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241216.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30972235,
+        "upload_time": "2024-12-16T20:09:51",
+        "upload_time_iso_8601": "2024-12-16T20:09:51.892899Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.27.0.dev20241217": [
+      {
+        "filename": "aim-ui-3.27.0.dev20241217.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970885,
+        "upload_time": "2024-12-17T20:09:42",
+        "upload_time_iso_8601": "2024-12-17T20:09:42.130145Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.28.0.dev20250130": [
+      {
+        "filename": "aim-ui-3.28.0.dev20250130.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970496,
+        "upload_time": "2025-01-30T20:09:49",
+        "upload_time_iso_8601": "2025-01-30T20:09:49.618902Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.28.0.dev20250131": [
+      {
+        "filename": "aim-ui-3.28.0.dev20250131.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970753,
+        "upload_time": "2025-01-31T20:09:44",
+        "upload_time_iso_8601": "2025-01-31T20:09:44.881319Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.28.0.dev20250201": [
+      {
+        "filename": "aim-ui-3.28.0.dev20250201.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30971719,
+        "upload_time": "2025-02-01T20:09:16",
+        "upload_time_iso_8601": "2025-02-01T20:09:16.887272Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.28.0.dev20250202": [
+      {
+        "filename": "aim-ui-3.28.0.dev20250202.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30971000,
+        "upload_time": "2025-02-02T20:09:44",
+        "upload_time_iso_8601": "2025-02-02T20:09:44.715710Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.28.0.dev20250203": [
+      {
+        "filename": "aim-ui-3.28.0.dev20250203.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970417,
+        "upload_time": "2025-02-03T20:10:19",
+        "upload_time_iso_8601": "2025-02-03T20:10:19.814848Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.28.0.dev20250204": [
+      {
+        "filename": "aim-ui-3.28.0.dev20250204.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30970284,
+        "upload_time": "2025-02-04T20:10:03",
+        "upload_time_iso_8601": "2025-02-04T20:10:03.283108Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.9.0a1": [
+      {
+        "filename": "aim-ui-3.9.0a1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13936741,
+        "upload_time": "2022-04-07T10:12:51",
+        "upload_time_iso_8601": "2022-04-07T10:12:51.009288Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "3.9.2": [
+      {
+        "filename": "aim-ui-3.9.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17209891,
+        "upload_time": "2022-04-29T18:43:17",
+        "upload_time_iso_8601": "2022-04-29T18:43:17.244544Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.9.3": [
+      {
+        "filename": "aim-ui-3.9.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17210136,
+        "upload_time": "2022-05-10T15:24:46",
+        "upload_time_iso_8601": "2022-05-10T15:24:46.246876Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.9.4": [
+      {
+        "filename": "aim-ui-3.9.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17209539,
+        "upload_time": "2022-05-11T21:43:44",
+        "upload_time_iso_8601": "2022-05-11T21:43:44.839328Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0": [
+      {
+        "filename": "aim_ui-4.0.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19426425,
+        "upload_time": "2023-09-27T17:11:52",
+        "upload_time_iso_8601": "2023-09-27T17:11:52.144743Z",
+        "yanked": true,
+        "yanked_reason": "moved to aimos"
+      },
+      {
+        "filename": "aim-ui-4.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19247066,
+        "upload_time": "2023-09-27T17:11:55",
+        "upload_time_iso_8601": "2023-09-27T17:11:55.353186Z",
+        "yanked": true,
+        "yanked_reason": "moved to aimos"
+      }
+    ],
+    "4.0.0.dev1": [
+      {
+        "filename": "aim-ui-4.0.0.dev1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22058272,
+        "upload_time": "2023-03-13T14:51:15",
+        "upload_time_iso_8601": "2023-03-13T14:51:15.409037Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0.dev2": [
+      {
+        "filename": "aim-ui-4.0.0.dev2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 27060349,
+        "upload_time": "2023-04-05T11:37:28",
+        "upload_time_iso_8601": "2023-04-05T11:37:28.706761Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0.dev3": [
+      {
+        "filename": "aim-ui-4.0.0.dev3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 27062620,
+        "upload_time": "2023-04-10T17:48:20",
+        "upload_time_iso_8601": "2023-04-10T17:48:20.126316Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0.dev4": [
+      {
+        "filename": "aim-ui-4.0.0.dev4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21591110,
+        "upload_time": "2023-04-29T15:33:24",
+        "upload_time_iso_8601": "2023-04-29T15:33:24.475764Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0.dev5": [
+      {
+        "filename": "aim-ui-4.0.0.dev5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21628562,
+        "upload_time": "2023-05-01T19:14:28",
+        "upload_time_iso_8601": "2023-05-01T19:14:28.641216Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0.dev6": [
+      {
+        "filename": "aim-ui-4.0.0.dev6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20496445,
+        "upload_time": "2023-07-12T18:31:30",
+        "upload_time_iso_8601": "2023-07-12T18:31:30.904547Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a1": [
+      {
+        "filename": "aim_ui-4.0.0a1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 20373112,
+        "upload_time": "2023-05-26T10:10:36",
+        "upload_time_iso_8601": "2023-05-26T10:10:36.373480Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20219507,
+        "upload_time": "2023-05-26T10:10:40",
+        "upload_time_iso_8601": "2023-05-26T10:10:40.286138Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a10": [
+      {
+        "filename": "aim_ui-4.0.0a10-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19604414,
+        "upload_time": "2023-06-19T17:34:39",
+        "upload_time_iso_8601": "2023-06-19T17:34:39.717659Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19415741,
+        "upload_time": "2023-06-19T17:34:44",
+        "upload_time_iso_8601": "2023-06-19T17:34:44.246985Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a11": [
+      {
+        "filename": "aim_ui-4.0.0a11-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19491057,
+        "upload_time": "2023-06-21T07:19:14",
+        "upload_time_iso_8601": "2023-06-21T07:19:14.957652Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19317281,
+        "upload_time": "2023-06-21T07:19:20",
+        "upload_time_iso_8601": "2023-06-21T07:19:20.380426Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a12": [
+      {
+        "filename": "aim_ui-4.0.0a12-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19491059,
+        "upload_time": "2023-06-21T07:53:13",
+        "upload_time_iso_8601": "2023-06-21T07:53:13.208692Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19317621,
+        "upload_time": "2023-06-21T07:53:20",
+        "upload_time_iso_8601": "2023-06-21T07:53:20.393369Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a13": [
+      {
+        "filename": "aim_ui-4.0.0a13-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19491255,
+        "upload_time": "2023-07-12T18:55:07",
+        "upload_time_iso_8601": "2023-07-12T18:55:07.862720Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19321562,
+        "upload_time": "2023-07-12T18:55:14",
+        "upload_time_iso_8601": "2023-07-12T18:55:14.205260Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a14": [
+      {
+        "filename": "aim_ui-4.0.0a14-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19409291,
+        "upload_time": "2023-07-14T12:35:09",
+        "upload_time_iso_8601": "2023-07-14T12:35:09.630753Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19225749,
+        "upload_time": "2023-07-14T12:35:15",
+        "upload_time_iso_8601": "2023-07-14T12:35:15.197435Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a15": [
+      {
+        "filename": "aim_ui-4.0.0a15-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19382585,
+        "upload_time": "2023-07-25T12:18:49",
+        "upload_time_iso_8601": "2023-07-25T12:18:49.491209Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19206937,
+        "upload_time": "2023-07-25T12:18:52",
+        "upload_time_iso_8601": "2023-07-25T12:18:52.584004Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a16": [
+      {
+        "filename": "aim_ui-4.0.0a16-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19395456,
+        "upload_time": "2023-08-02T19:39:29",
+        "upload_time_iso_8601": "2023-08-02T19:39:29.738560Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19225425,
+        "upload_time": "2023-08-02T19:39:33",
+        "upload_time_iso_8601": "2023-08-02T19:39:33.419823Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a17": [
+      {
+        "filename": "aim_ui-4.0.0a17-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19396788,
+        "upload_time": "2023-08-15T08:36:15",
+        "upload_time_iso_8601": "2023-08-15T08:36:15.442504Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19224889,
+        "upload_time": "2023-08-15T08:36:18",
+        "upload_time_iso_8601": "2023-08-15T08:36:18.836940Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a18": [
+      {
+        "filename": "aim_ui-4.0.0a18-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19407261,
+        "upload_time": "2023-09-12T08:53:16",
+        "upload_time_iso_8601": "2023-09-12T08:53:16.667538Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19223383,
+        "upload_time": "2023-09-12T08:53:20",
+        "upload_time_iso_8601": "2023-09-12T08:53:20.208689Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a2": [
+      {
+        "filename": "aim_ui-4.0.0a2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 20373400,
+        "upload_time": "2023-05-26T11:58:33",
+        "upload_time_iso_8601": "2023-05-26T11:58:33.375502Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20219851,
+        "upload_time": "2023-05-26T11:58:37",
+        "upload_time_iso_8601": "2023-05-26T11:58:37.179458Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a3": [
+      {
+        "filename": "aim_ui-4.0.0a3-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 20371228,
+        "upload_time": "2023-05-29T13:38:41",
+        "upload_time_iso_8601": "2023-05-29T13:38:41.574029Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20217136,
+        "upload_time": "2023-05-29T13:38:46",
+        "upload_time_iso_8601": "2023-05-29T13:38:46.322051Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a4": [
+      {
+        "filename": "aim_ui-4.0.0a4-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 20374932,
+        "upload_time": "2023-05-31T19:07:46",
+        "upload_time_iso_8601": "2023-05-31T19:07:46.593587Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20218252,
+        "upload_time": "2023-05-31T19:07:50",
+        "upload_time_iso_8601": "2023-05-31T19:07:50.295468Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a5": [
+      {
+        "filename": "aim_ui-4.0.0a5-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18846140,
+        "upload_time": "2023-06-05T09:07:26",
+        "upload_time_iso_8601": "2023-06-05T09:07:26.112517Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18647481,
+        "upload_time": "2023-06-05T09:07:29",
+        "upload_time_iso_8601": "2023-06-05T09:07:29.844783Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a6": [
+      {
+        "filename": "aim_ui-4.0.0a6-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19525659,
+        "upload_time": "2023-06-05T18:37:31",
+        "upload_time_iso_8601": "2023-06-05T18:37:31.524625Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19329333,
+        "upload_time": "2023-06-05T18:37:37",
+        "upload_time_iso_8601": "2023-06-05T18:37:37.411391Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a7": [
+      {
+        "filename": "aim_ui-4.0.0a7-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19525654,
+        "upload_time": "2023-06-05T20:55:36",
+        "upload_time_iso_8601": "2023-06-05T20:55:36.329663Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19329151,
+        "upload_time": "2023-06-05T20:55:40",
+        "upload_time_iso_8601": "2023-06-05T20:55:40.071496Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a8": [
+      {
+        "filename": "aim_ui-4.0.0a8-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19604090,
+        "upload_time": "2023-06-16T16:40:44",
+        "upload_time_iso_8601": "2023-06-16T16:40:44.600362Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19414824,
+        "upload_time": "2023-06-16T16:40:56",
+        "upload_time_iso_8601": "2023-06-16T16:40:56.899912Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0a9": [
+      {
+        "filename": "aim_ui-4.0.0a9-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19604087,
+        "upload_time": "2023-06-16T17:32:13",
+        "upload_time_iso_8601": "2023-06-16T17:32:13.333775Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0a9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19415100,
+        "upload_time": "2023-06-16T17:32:16",
+        "upload_time_iso_8601": "2023-06-16T17:32:16.935652Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.0b1": [
+      {
+        "filename": "aim_ui-4.0.0b1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19426448,
+        "upload_time": "2023-09-27T15:09:57",
+        "upload_time_iso_8601": "2023-09-27T15:09:57.637448Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.0b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19246845,
+        "upload_time": "2023-09-27T15:10:01",
+        "upload_time_iso_8601": "2023-09-27T15:10:01.038389Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.1": [
+      {
+        "filename": "aim_ui-4.0.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19426423,
+        "upload_time": "2023-10-03T16:38:27",
+        "upload_time_iso_8601": "2023-10-03T16:38:27.754742Z",
+        "yanked": true,
+        "yanked_reason": null
+      },
+      {
+        "filename": "aim-ui-4.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19247116,
+        "upload_time": "2023-10-03T16:38:31",
+        "upload_time_iso_8601": "2023-10-03T16:38:31.772890Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "4.0.2": [
+      {
+        "filename": "aim_ui-4.0.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19426428,
+        "upload_time": "2023-10-03T17:16:04",
+        "upload_time_iso_8601": "2023-10-03T17:16:04.134796Z",
+        "yanked": true,
+        "yanked_reason": "moved to aimos"
+      },
+      {
+        "filename": "aim-ui-4.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19246852,
+        "upload_time": "2023-10-03T17:16:08",
+        "upload_time_iso_8601": "2023-10-03T17:16:08.067464Z",
+        "yanked": true,
+        "yanked_reason": "moved to aimos"
+      }
+    ],
+    "4.0.3": [
+      {
+        "filename": "aim_ui-4.0.3-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19426441,
+        "upload_time": "2023-10-04T15:22:58",
+        "upload_time_iso_8601": "2023-10-04T15:22:58.334062Z",
+        "yanked": true,
+        "yanked_reason": "moved to aimos"
+      },
+      {
+        "filename": "aim-ui-4.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19247363,
+        "upload_time": "2023-10-04T15:23:01",
+        "upload_time_iso_8601": "2023-10-04T15:23:01.759770Z",
+        "yanked": true,
+        "yanked_reason": "moved to aimos"
+      }
+    ]
+  }
+}

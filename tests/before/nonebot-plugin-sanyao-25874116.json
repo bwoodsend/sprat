@@ -1,0 +1,185 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "afterow <afterow@163.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Framework :: Pydantic",
+      "License :: OSI Approved :: MIT License",
+      "Natural Language :: Chinese (Simplified)",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11"
+    ],
+    "description": "<div align=\"center\">\n  <a href=\"https://v2.nonebot.dev/store\">\n    <img src=\"https://raw.githubusercontent.com/A-kirami/nonebot-plugin-template/resources/nbp_logo.png\" width=\"180\" height=\"180\" alt=\"logo\">\n  </a>\n  <br>\n  <p>\n    <img src=\"https://raw.githubusercontent.com/A-kirami/nonebot-plugin-template/resources/NoneBotPlugin.svg\" width=\"240\" alt=\"logo\">\n  </p>\n</div>\n\n<div align=\"center\">\n\n# nonebot-plugin-sanyao\n\n_✨ NoneBot 插件简单描述 ✨_\n\n\n<a href=\"./LICENSE\">\n    <img src=\"https://img.shields.io/github/license/owner/nonebot-plugin-template.svg\" alt=\"license\">\n</a>\n<a href=\"https://pypi.python.org/pypi/nonebot-plugin-sanyao\">\n    <img src=\"https://img.shields.io/pypi/v/nonebot-plugin-sanyao.svg\" alt=\"pypi\">\n</a>\n<img src=\"https://img.shields.io/badge/python-3.8+-blue.svg\" alt=\"python\">\n\n</div>\n\n这是一个 三爻易数插件\n\n## 📖 介绍\n\n这里是一个 三爻易数插件，后续增加64卦\n\n## 💿 安装\n\n<details open>\n<summary>使用 nb-cli 安装</summary>\n在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装\n\n    nb plugin install nonebot-plugin-sanyao\n\n</details>\n\n<details>\n<summary>使用包管理器安装</summary>\n在 nonebot2 项目的插件目录下, 打开命令行, 根据你使用的包管理器, 输入相应的安装命令\n\n<details>\n<summary>pip</summary>\n\n    pip install nonebot-plugin-sanyao\n</details>\n<details>\n<summary>pdm</summary>\n\n    pdm add nonebot-plugin-sanyao\n</details>\n<details>\n<summary>poetry</summary>\n\n    poetry add nonebot-plugin-sanyao\n</details>\n<details>\n<summary>conda</summary>\n\n    conda install nonebot-plugin-sanyao\n</details>\n\n打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入\n\n    plugins = [\"nonebot_plugin_template\"]\n\n</details>\n\n## ⚙️ 配置\n\n在 nonebot2 项目的`.env`文件中添加下表中的必填配置\n\n| 配置项 | 必填 | 默认值 | 说明 |\n|:---:|:--:|:---:|:--:|\n|  无  | 否  |  无  | 无  |\n|  无  | 否  |  无  | 无  |\n\n## 🎉 使用\n### 指令表\n|  指令  | 权限 | 需要@ | 范围 |  说明  |\n|:----:|:--:|:---:|:--:|:----:|\n| 三爻排盘 | 群员 |  否  | 私聊 | 开始排盘 |\n|  三爻  | 群员 |  否  | 群聊 | 开始排盘 |\n### 效果图\n如果有效果图的话\n",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": null,
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license": "MIT License",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "nonebot-plugin-sanyao",
+    "package_url": "https://pypi.org/project/nonebot-plugin-sanyao/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/nonebot-plugin-sanyao/",
+    "project_urls": {
+      "Bug Tracker": "https://github.com/afterow/nonebot-plugin-sanyao/issues",
+      "Homepage": "https://github.com/afterow/nonebot-plugin-sanyao"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/nonebot-plugin-sanyao/0.2.9/",
+    "requires_dist": [
+      "cnlunar",
+      "nonebot2"
+    ],
+    "requires_python": "<4.0,>=3.10",
+    "summary": "三爻易数排盘",
+    "version": "0.2.9",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 25874116,
+  "releases": {
+    "0.2.4": [
+      {
+        "filename": "nonebot_plugin_sanyao-0.2.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 6751,
+        "upload_time": "2024-04-22T06:46:45",
+        "upload_time_iso_8601": "2024-04-22T06:46:45.379779Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "nonebot_plugin_sanyao-0.2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 5577,
+        "upload_time": "2024-04-22T06:46:47",
+        "upload_time_iso_8601": "2024-04-22T06:46:47.096031Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.6": [
+      {
+        "filename": "nonebot_plugin_sanyao-0.2.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 3144,
+        "upload_time": "2024-05-27T06:04:34",
+        "upload_time_iso_8601": "2024-05-27T06:04:34.605836Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "nonebot_plugin_sanyao-0.2.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 3198,
+        "upload_time": "2024-05-27T06:04:36",
+        "upload_time_iso_8601": "2024-05-27T06:04:36.180250Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.7": [
+      {
+        "filename": "nonebot_plugin_sanyao-0.2.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 6791,
+        "upload_time": "2024-05-27T09:01:56",
+        "upload_time_iso_8601": "2024-05-27T09:01:56.238461Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "nonebot_plugin_sanyao-0.2.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 5650,
+        "upload_time": "2024-05-27T09:01:57",
+        "upload_time_iso_8601": "2024-05-27T09:01:57.109766Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.8": [
+      {
+        "filename": "nonebot_plugin_sanyao-0.2.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 6789,
+        "upload_time": "2024-05-27T09:06:46",
+        "upload_time_iso_8601": "2024-05-27T09:06:46.297053Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "nonebot_plugin_sanyao-0.2.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 5657,
+        "upload_time": "2024-05-27T09:06:47",
+        "upload_time_iso_8601": "2024-05-27T09:06:47.858491Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.9": [
+      {
+        "filename": "nonebot_plugin_sanyao-0.2.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 7053,
+        "upload_time": "2024-11-07T14:17:00",
+        "upload_time_iso_8601": "2024-11-07T14:17:00.827196Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "nonebot_plugin_sanyao-0.2.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 6288,
+        "upload_time": "2024-11-07T14:17:02",
+        "upload_time_iso_8601": "2024-11-07T14:17:02.377340Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

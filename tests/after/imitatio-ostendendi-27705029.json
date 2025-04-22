@@ -1,0 +1,77 @@
+{
+  "info": {
+    "author": "Codeium Engineering Team",
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Software Development :: Testing",
+      "Topic :: Software Development :: User Interfaces"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Classifier",
+      "Description",
+      "Description-Content-Type",
+      "Requires-Python",
+      "Summary"
+    ],
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "imitatio-ostendendi",
+    "package_url": "https://pypi.org/project/imitatio-ostendendi/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/imitatio-ostendendi/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/imitatio-ostendendi/0.2.0/",
+    "requires_dist": null,
+    "requires_python": ">=3.7",
+    "summary": "Mock widgets for tkinter/ttk testing (Latin: Display Imitation)",
+    "version": "0.2.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27705029,
+  "releases": {
+    "0.2.0": [
+      {
+        "filename": "imitatio_ostendendi-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 18270,
+        "upload_time": "2025-02-28T21:24:07",
+        "upload_time_iso_8601": "2025-02-28T21:24:07.763506Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "imitatio_ostendendi-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 11817,
+        "upload_time": "2025-02-28T21:24:10",
+        "upload_time_iso_8601": "2025-02-28T21:24:10.814416Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

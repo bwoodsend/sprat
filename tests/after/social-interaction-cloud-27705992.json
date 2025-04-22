@@ -1,0 +1,1339 @@
+{
+  "info": {
+    "author": "Koen Hindriks",
+    "author_email": "k.v.hindriks@vu.nl",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Description",
+      "Description-Content-Type",
+      "Provides-Extra",
+      "Requires-Dist",
+      "Requires-Python"
+    ],
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "social-interaction-cloud",
+    "package_url": "https://pypi.org/project/social-interaction-cloud/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/social-interaction-cloud/",
+    "project_urls": null,
+    "provides_extra": [
+      "dev",
+      "dialogflow",
+      "google-tts",
+      "face-detection-dnn",
+      "face-recognition",
+      "openai-gpt",
+      "webserver",
+      "whisper-speech-to-text",
+      "alphamini"
+    ],
+    "release_url": "https://pypi.org/project/social-interaction-cloud/2.0.27/",
+    "requires_dist": [
+      "numpy",
+      "opencv-python",
+      "paramiko",
+      "Pillow",
+      "pyaudio",
+      "PyTurboJPEG",
+      "pyspacemouse",
+      "redis",
+      "scp",
+      "six",
+      "black==24.10.0; extra == \"dev\"",
+      "isort==5.13.2; extra == \"dev\"",
+      "pre-commit==4.0.1; extra == \"dev\"",
+      "twine; extra == \"dev\"",
+      "wheel; extra == \"dev\"",
+      "google-cloud-dialogflow; extra == \"dialogflow\"",
+      "google-cloud-texttospeech; extra == \"google-tts\"",
+      "matplotlib; extra == \"face-detection-dnn\"",
+      "pandas; extra == \"face-detection-dnn\"",
+      "pyyaml; extra == \"face-detection-dnn\"",
+      "torch; extra == \"face-detection-dnn\"",
+      "torchvision; extra == \"face-detection-dnn\"",
+      "tqdm; extra == \"face-detection-dnn\"",
+      "requests; extra == \"face-detection-dnn\"",
+      "scikit-learn; extra == \"face-recognition\"",
+      "torch; extra == \"face-recognition\"",
+      "torchvision; extra == \"face-recognition\"",
+      "openai>=1.52.2; extra == \"openai-gpt\"",
+      "python-dotenv; extra == \"openai-gpt\"",
+      "Flask; extra == \"webserver\"",
+      "Flask-SocketIO; extra == \"webserver\"",
+      "openai>=1.52.2; extra == \"whisper-speech-to-text\"",
+      "SpeechRecognition>=3.11.0; extra == \"whisper-speech-to-text\"",
+      "openai-whisper; extra == \"whisper-speech-to-text\"",
+      "soundfile; extra == \"whisper-speech-to-text\"",
+      "python-dotenv; extra == \"whisper-speech-to-text\"",
+      "alphamini; extra == \"alphamini\"",
+      "protobuf~=3.20.2; extra == \"alphamini\"",
+      "websockets~=13.0; extra == \"alphamini\""
+    ],
+    "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+    "summary": null,
+    "version": "2.0.27",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27705992,
+  "releases": {
+    "1.0": [
+      {
+        "filename": "social_interaction_cloud-1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 13954,
+        "upload_time": "2022-10-21T14:13:03",
+        "upload_time_iso_8601": "2022-10-21T14:13:03.338790Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13932,
+        "upload_time": "2022-10-21T14:13:04",
+        "upload_time_iso_8601": "2022-10-21T14:13:04.970835Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.1": [
+      {
+        "filename": "social_interaction_cloud-1.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 32164,
+        "upload_time": "2022-10-22T18:40:39",
+        "upload_time_iso_8601": "2022-10-22T18:40:39.740484Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 29191,
+        "upload_time": "2022-10-22T18:40:41",
+        "upload_time_iso_8601": "2022-10-22T18:40:41.855125Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.2": [
+      {
+        "filename": "social_interaction_cloud-1.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 30633,
+        "upload_time": "2022-10-24T13:57:08",
+        "upload_time_iso_8601": "2022-10-24T13:57:08.195725Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 28061,
+        "upload_time": "2022-10-24T13:57:10",
+        "upload_time_iso_8601": "2022-10-24T13:57:10.107582Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.3": [
+      {
+        "filename": "social_interaction_cloud-1.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 30789,
+        "upload_time": "2022-10-25T12:05:22",
+        "upload_time_iso_8601": "2022-10-25T12:05:22.806568Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 77640,
+        "upload_time": "2022-10-25T12:05:24",
+        "upload_time_iso_8601": "2022-10-25T12:05:24.515709Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.4": [
+      {
+        "filename": "social_interaction_cloud-1.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 30920,
+        "upload_time": "2022-10-25T12:16:22",
+        "upload_time_iso_8601": "2022-10-25T12:16:22.553304Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 77704,
+        "upload_time": "2022-10-25T12:16:24",
+        "upload_time_iso_8601": "2022-10-25T12:16:24.559467Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.5": [
+      {
+        "filename": "social_interaction_cloud-1.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 30915,
+        "upload_time": "2022-10-25T14:35:48",
+        "upload_time_iso_8601": "2022-10-25T14:35:48.237191Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 77703,
+        "upload_time": "2022-10-25T14:35:50",
+        "upload_time_iso_8601": "2022-10-25T14:35:50.533140Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.6": [
+      {
+        "filename": "social_interaction_cloud-1.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 31173,
+        "upload_time": "2022-10-26T17:12:02",
+        "upload_time_iso_8601": "2022-10-26T17:12:02.386330Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 78085,
+        "upload_time": "2022-10-26T17:12:04",
+        "upload_time_iso_8601": "2022-10-26T17:12:04.422402Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.7": [
+      {
+        "filename": "social_interaction_cloud-1.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 31932,
+        "upload_time": "2022-10-27T13:32:55",
+        "upload_time_iso_8601": "2022-10-27T13:32:55.067640Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 78582,
+        "upload_time": "2022-10-27T13:32:56",
+        "upload_time_iso_8601": "2022-10-27T13:32:56.922753Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.8": [
+      {
+        "filename": "social_interaction_cloud-1.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 31935,
+        "upload_time": "2022-11-09T10:11:45",
+        "upload_time_iso_8601": "2022-11-09T10:11:45.677843Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 78588,
+        "upload_time": "2022-11-09T10:11:48",
+        "upload_time_iso_8601": "2022-11-09T10:11:48.112720Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.9": [
+      {
+        "filename": "social_interaction_cloud-1.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 32087,
+        "upload_time": "2022-11-21T15:17:14",
+        "upload_time_iso_8601": "2022-11-21T15:17:14.012442Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 78770,
+        "upload_time": "2022-11-21T15:17:16",
+        "upload_time_iso_8601": "2022-11-21T15:17:16.079169Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "social_interaction_cloud-1.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33184,
+        "upload_time": "2023-01-11T10:51:44",
+        "upload_time_iso_8601": "2023-01-11T10:51:44.214043Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 79963,
+        "upload_time": "2023-01-11T10:51:45",
+        "upload_time_iso_8601": "2023-01-11T10:51:45.699850Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1": [
+      {
+        "filename": "social_interaction_cloud-1.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33267,
+        "upload_time": "2023-01-25T13:45:39",
+        "upload_time_iso_8601": "2023-01-25T13:45:39.426560Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 80050,
+        "upload_time": "2023-01-25T13:45:41",
+        "upload_time_iso_8601": "2023-01-25T13:45:41.016423Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.2": [
+      {
+        "filename": "social_interaction_cloud-1.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33371,
+        "upload_time": "2023-02-02T12:49:52",
+        "upload_time_iso_8601": "2023-02-02T12:49:52.300483Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 80159,
+        "upload_time": "2023-02-02T12:49:54",
+        "upload_time_iso_8601": "2023-02-02T12:49:54.290841Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "social_interaction_cloud-1.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33523,
+        "upload_time": "2024-04-02T12:08:16",
+        "upload_time_iso_8601": "2024-04-02T12:08:16.514020Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 30833,
+        "upload_time": "2024-04-02T12:08:18",
+        "upload_time_iso_8601": "2024-04-02T12:08:18.183623Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.1": [
+      {
+        "filename": "social_interaction_cloud-1.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33532,
+        "upload_time": "2024-04-02T12:24:52",
+        "upload_time_iso_8601": "2024-04-02T12:24:52.223478Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 30839,
+        "upload_time": "2024-04-02T12:24:53",
+        "upload_time_iso_8601": "2024-04-02T12:24:53.334724Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.2": [
+      {
+        "filename": "social_interaction_cloud-1.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33534,
+        "upload_time": "2024-04-02T12:34:36",
+        "upload_time_iso_8601": "2024-04-02T12:34:36.004041Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 30841,
+        "upload_time": "2024-04-02T12:34:37",
+        "upload_time_iso_8601": "2024-04-02T12:34:37.907842Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.3": [
+      {
+        "filename": "social_interaction_cloud-1.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33532,
+        "upload_time": "2024-04-08T18:22:50",
+        "upload_time_iso_8601": "2024-04-08T18:22:50.436222Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 30831,
+        "upload_time": "2024-04-08T18:22:51",
+        "upload_time_iso_8601": "2024-04-08T18:22:51.795821Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.4": [
+      {
+        "filename": "social_interaction_cloud-1.2.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33608,
+        "upload_time": "2024-04-08T18:58:07",
+        "upload_time_iso_8601": "2024-04-08T18:58:07.291279Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 30904,
+        "upload_time": "2024-04-08T18:58:09",
+        "upload_time_iso_8601": "2024-04-08T18:58:09.176393Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.5": [
+      {
+        "filename": "social_interaction_cloud-1.2.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33610,
+        "upload_time": "2024-04-09T09:49:32",
+        "upload_time_iso_8601": "2024-04-09T09:49:32.211475Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.2.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 30905,
+        "upload_time": "2024-04-09T09:49:34",
+        "upload_time_iso_8601": "2024-04-09T09:49:34.021604Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.6": [
+      {
+        "filename": "social_interaction_cloud-1.2.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33734,
+        "upload_time": "2024-04-16T15:11:22",
+        "upload_time_iso_8601": "2024-04-16T15:11:22.658923Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.2.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 31014,
+        "upload_time": "2024-04-16T15:11:24",
+        "upload_time_iso_8601": "2024-04-16T15:11:24.203738Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.7": [
+      {
+        "filename": "social_interaction_cloud-1.2.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33731,
+        "upload_time": "2024-04-16T15:13:44",
+        "upload_time_iso_8601": "2024-04-16T15:13:44.729043Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.2.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 31013,
+        "upload_time": "2024-04-16T15:13:46",
+        "upload_time_iso_8601": "2024-04-16T15:13:46.831164Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.8": [
+      {
+        "filename": "social_interaction_cloud-1.2.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33794,
+        "upload_time": "2024-05-01T18:26:48",
+        "upload_time_iso_8601": "2024-05-01T18:26:48.875351Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-1.2.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 31060,
+        "upload_time": "2024-05-01T18:26:50",
+        "upload_time_iso_8601": "2024-05-01T18:26:50.530145Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.1": [
+      {
+        "filename": "social_interaction_cloud-2.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 68872,
+        "upload_time": "2024-09-25T23:41:47",
+        "upload_time_iso_8601": "2024-09-25T23:41:47.122094Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 48211,
+        "upload_time": "2024-09-25T23:41:48",
+        "upload_time_iso_8601": "2024-09-25T23:41:48.446139Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.10": [
+      {
+        "filename": "social_interaction_cloud-2.0.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 601026,
+        "upload_time": "2024-10-14T01:22:50",
+        "upload_time_iso_8601": "2024-10-14T01:22:50.374157Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 554846,
+        "upload_time": "2024-10-14T01:22:52",
+        "upload_time_iso_8601": "2024-10-14T01:22:52.796878Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.11": [
+      {
+        "filename": "social_interaction_cloud-2.0.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 602007,
+        "upload_time": "2024-10-14T18:53:50",
+        "upload_time_iso_8601": "2024-10-14T18:53:50.203281Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 555272,
+        "upload_time": "2024-10-14T18:53:52",
+        "upload_time_iso_8601": "2024-10-14T18:53:52.324022Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.12": [
+      {
+        "filename": "social_interaction_cloud-2.0.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 602489,
+        "upload_time": "2024-10-21T21:52:07",
+        "upload_time_iso_8601": "2024-10-21T21:52:07.964165Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 554488,
+        "upload_time": "2024-10-21T21:52:09",
+        "upload_time_iso_8601": "2024-10-21T21:52:09.578845Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.13": [
+      {
+        "filename": "social_interaction_cloud-2.0.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 602487,
+        "upload_time": "2024-10-21T22:50:57",
+        "upload_time_iso_8601": "2024-10-21T22:50:57.219997Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 554489,
+        "upload_time": "2024-10-21T22:50:59",
+        "upload_time_iso_8601": "2024-10-21T22:50:59.717966Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.14": [
+      {
+        "filename": "social_interaction_cloud-2.0.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 608574,
+        "upload_time": "2024-10-24T12:42:56",
+        "upload_time_iso_8601": "2024-10-24T12:42:56.206035Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 561365,
+        "upload_time": "2024-10-24T12:42:58",
+        "upload_time_iso_8601": "2024-10-24T12:42:58.775467Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.15": [
+      {
+        "filename": "social_interaction_cloud-2.0.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 608580,
+        "upload_time": "2024-10-24T13:00:49",
+        "upload_time_iso_8601": "2024-10-24T13:00:49.454192Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 561395,
+        "upload_time": "2024-10-24T13:00:51",
+        "upload_time_iso_8601": "2024-10-24T13:00:51.881375Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.16": [
+      {
+        "filename": "social_interaction_cloud-2.0.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 608717,
+        "upload_time": "2024-10-28T00:46:28",
+        "upload_time_iso_8601": "2024-10-28T00:46:28.266388Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 561725,
+        "upload_time": "2024-10-28T00:46:30",
+        "upload_time_iso_8601": "2024-10-28T00:46:30.651152Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.17": [
+      {
+        "filename": "social_interaction_cloud-2.0.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 608943,
+        "upload_time": "2024-11-01T16:54:23",
+        "upload_time_iso_8601": "2024-11-01T16:54:23.394671Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-2.0.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 562481,
+        "upload_time": "2024-11-01T16:54:25",
+        "upload_time_iso_8601": "2024-11-01T16:54:25.752886Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.18": [
+      {
+        "filename": "social_interaction_cloud-2.0.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 608980,
+        "upload_time": "2024-11-01T17:49:04",
+        "upload_time_iso_8601": "2024-11-01T17:49:04.495100Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-2.0.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 562487,
+        "upload_time": "2024-11-01T17:49:07",
+        "upload_time_iso_8601": "2024-11-01T17:49:07.042467Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.19": [
+      {
+        "filename": "social_interaction_cloud-2.0.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 608984,
+        "upload_time": "2024-11-01T18:01:25",
+        "upload_time_iso_8601": "2024-11-01T18:01:25.846895Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-2.0.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 562503,
+        "upload_time": "2024-11-01T18:01:28",
+        "upload_time_iso_8601": "2024-11-01T18:01:28.150724Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.20": [
+      {
+        "filename": "social_interaction_cloud-2.0.20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 609032,
+        "upload_time": "2024-11-04T15:17:43",
+        "upload_time_iso_8601": "2024-11-04T15:17:43.657231Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-2.0.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 562587,
+        "upload_time": "2024-11-04T15:17:45",
+        "upload_time_iso_8601": "2024-11-04T15:17:45.704836Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.21": [
+      {
+        "filename": "social_interaction_cloud-2.0.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 613343,
+        "upload_time": "2024-12-10T09:11:33",
+        "upload_time_iso_8601": "2024-12-10T09:11:33.626418Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-2.0.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 564315,
+        "upload_time": "2024-12-10T09:11:35",
+        "upload_time_iso_8601": "2024-12-10T09:11:35.374769Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.22": [
+      {
+        "filename": "social_interaction_cloud-2.0.22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 613340,
+        "upload_time": "2024-12-10T11:10:44",
+        "upload_time_iso_8601": "2024-12-10T11:10:44.572178Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-2.0.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 564345,
+        "upload_time": "2024-12-10T11:10:48",
+        "upload_time_iso_8601": "2024-12-10T11:10:48.265753Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.23": [
+      {
+        "filename": "social_interaction_cloud-2.0.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 613354,
+        "upload_time": "2024-12-11T10:30:46",
+        "upload_time_iso_8601": "2024-12-11T10:30:46.324765Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-2.0.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 564335,
+        "upload_time": "2024-12-11T10:30:49",
+        "upload_time_iso_8601": "2024-12-11T10:30:49.695080Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.24": [
+      {
+        "filename": "social_interaction_cloud-2.0.24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 615140,
+        "upload_time": "2025-01-21T10:29:08",
+        "upload_time_iso_8601": "2025-01-21T10:29:08.539184Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-2.0.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 565691,
+        "upload_time": "2025-01-21T10:29:10",
+        "upload_time_iso_8601": "2025-01-21T10:29:10.502739Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.25": [
+      {
+        "filename": "social_interaction_cloud-2.0.25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 615282,
+        "upload_time": "2025-01-29T13:02:57",
+        "upload_time_iso_8601": "2025-01-29T13:02:57.394221Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-2.0.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 565792,
+        "upload_time": "2025-01-29T13:03:00",
+        "upload_time_iso_8601": "2025-01-29T13:03:00.403794Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.26": [
+      {
+        "filename": "social_interaction_cloud-2.0.26-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 621800,
+        "upload_time": "2025-02-28T13:04:38",
+        "upload_time_iso_8601": "2025-02-28T13:04:38.346156Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-2.0.26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 569900,
+        "upload_time": "2025-02-28T13:04:40",
+        "upload_time_iso_8601": "2025-02-28T13:04:40.944577Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.27": [
+      {
+        "filename": "social_interaction_cloud-2.0.27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 621382,
+        "upload_time": "2025-02-28T23:19:20",
+        "upload_time_iso_8601": "2025-02-28T23:19:20.693787Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social_interaction_cloud-2.0.27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.8.*,!=3.9.*,<3.13,>=2.7",
+        "size": 569453,
+        "upload_time": "2025-02-28T23:19:22",
+        "upload_time_iso_8601": "2025-02-28T23:19:22.646189Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.3": [
+      {
+        "filename": "social_interaction_cloud-2.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 69202,
+        "upload_time": "2024-09-30T21:54:59",
+        "upload_time_iso_8601": "2024-09-30T21:54:59.980197Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 48752,
+        "upload_time": "2024-09-30T21:55:01",
+        "upload_time_iso_8601": "2024-09-30T21:55:01.229971Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.4": [
+      {
+        "filename": "social_interaction_cloud-2.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 229939,
+        "upload_time": "2024-10-02T10:37:24",
+        "upload_time_iso_8601": "2024-10-02T10:37:24.449219Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 187476,
+        "upload_time": "2024-10-02T10:37:26",
+        "upload_time_iso_8601": "2024-10-02T10:37:26.408261Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.5": [
+      {
+        "filename": "social_interaction_cloud-2.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 382451,
+        "upload_time": "2024-10-09T23:06:28",
+        "upload_time_iso_8601": "2024-10-09T23:06:28.546325Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 334350,
+        "upload_time": "2024-10-09T23:06:30",
+        "upload_time_iso_8601": "2024-10-09T23:06:30.705972Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.6": [
+      {
+        "filename": "social_interaction_cloud-2.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 382440,
+        "upload_time": "2024-10-10T11:04:13",
+        "upload_time_iso_8601": "2024-10-10T11:04:13.159345Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 334293,
+        "upload_time": "2024-10-10T11:04:15",
+        "upload_time_iso_8601": "2024-10-10T11:04:15.437996Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.7": [
+      {
+        "filename": "social_interaction_cloud-2.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 598684,
+        "upload_time": "2024-10-14T00:27:11",
+        "upload_time_iso_8601": "2024-10-14T00:27:11.535318Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 553138,
+        "upload_time": "2024-10-14T00:27:13",
+        "upload_time_iso_8601": "2024-10-14T00:27:13.188666Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.8": [
+      {
+        "filename": "social_interaction_cloud-2.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 382635,
+        "upload_time": "2024-10-14T00:37:43",
+        "upload_time_iso_8601": "2024-10-14T00:37:43.263238Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 334503,
+        "upload_time": "2024-10-14T00:37:45",
+        "upload_time_iso_8601": "2024-10-14T00:37:45.288339Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.9": [
+      {
+        "filename": "social_interaction_cloud-2.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 600896,
+        "upload_time": "2024-10-14T01:12:05",
+        "upload_time_iso_8601": "2024-10-14T01:12:05.573328Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "social-interaction-cloud-2.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 554702,
+        "upload_time": "2024-10-14T01:12:07",
+        "upload_time_iso_8601": "2024-10-14T01:12:07.848610Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1231 @@
+{
+  "info": {
+    "author": "Christian Ludwig",
+    "author_email": "C.Ludwig@bham.ac.uk",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Scientific/Engineering :: Bio-Informatics",
+      "Topic :: Scientific/Engineering :: Chemistry",
+      "Topic :: Utilities"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/ludwigc/qtmetabolabpy",
+    "keywords": "Metabolomics, Tracing, NMR, Data Processing, 13C",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "qtmetabolabpy",
+    "package_url": "https://pypi.org/project/qtmetabolabpy/",
+    "platform": "MacOS, Windows, UNIX",
+    "project_url": "https://pypi.org/project/qtmetabolabpy/",
+    "project_urls": {
+      "Homepage": "https://github.com/ludwigc/qtmetabolabpy"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/qtmetabolabpy/0.9.67/",
+    "requires_dist": [
+      "PySide6",
+      "metabolabpy",
+      "numpy",
+      "scipy==1.13.1",
+      "matplotlib",
+      "pyautogui",
+      "qtmodern",
+      "xlsxwriter",
+      "multiprocess",
+      "darkdetect",
+      "pypdf2"
+    ],
+    "requires_python": null,
+    "summary": "Python package for data processing of NMR 1D and 2D metabolomics and metabolism tracing data",
+    "version": "0.9.67",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27176050,
+  "releases": {
+    "0.7.22": [
+      {
+        "filename": "qtmetabolabpy-0.7.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 197207,
+        "upload_time": "2022-10-18T19:54:13",
+        "upload_time_iso_8601": "2022-10-18T19:54:13.288830Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.22.1": [
+      {
+        "filename": "qtmetabolabpy-0.7.22.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 197050,
+        "upload_time": "2022-10-18T20:31:24",
+        "upload_time_iso_8601": "2022-10-18T20:31:24.506676Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.22.2": [
+      {
+        "filename": "qtmetabolabpy-0.7.22.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 197065,
+        "upload_time": "2022-10-18T20:40:50",
+        "upload_time_iso_8601": "2022-10-18T20:40:50.772007Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.22.3": [
+      {
+        "filename": "qtmetabolabpy-0.7.22.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 197049,
+        "upload_time": "2022-10-18T21:27:43",
+        "upload_time_iso_8601": "2022-10-18T21:27:43.119100Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.23": [
+      {
+        "filename": "qtmetabolabpy-0.7.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 197860,
+        "upload_time": "2022-11-17T23:04:28",
+        "upload_time_iso_8601": "2022-11-17T23:04:28.383632Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.24": [
+      {
+        "filename": "qtmetabolabpy-0.7.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 197701,
+        "upload_time": "2022-11-18T15:28:09",
+        "upload_time_iso_8601": "2022-11-18T15:28:09.243311Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.1": [
+      {
+        "filename": "qtmetabolabpy-0.8.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 199666,
+        "upload_time": "2022-11-29T10:27:47",
+        "upload_time_iso_8601": "2022-11-29T10:27:47.425682Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.10": [
+      {
+        "filename": "qtmetabolabpy-0.8.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 202153,
+        "upload_time": "2023-02-19T23:53:49",
+        "upload_time_iso_8601": "2023-02-19T23:53:49.652067Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.11": [
+      {
+        "filename": "qtmetabolabpy-0.8.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 202208,
+        "upload_time": "2023-02-22T18:00:45",
+        "upload_time_iso_8601": "2023-02-22T18:00:45.340748Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.12": [
+      {
+        "filename": "qtmetabolabpy-0.8.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 203130,
+        "upload_time": "2023-03-20T13:02:11",
+        "upload_time_iso_8601": "2023-03-20T13:02:11.539183Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.14": [
+      {
+        "filename": "qtmetabolabpy-0.8.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204237,
+        "upload_time": "2023-06-03T21:05:32",
+        "upload_time_iso_8601": "2023-06-03T21:05:32.271852Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.15": [
+      {
+        "filename": "qtmetabolabpy-0.8.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204297,
+        "upload_time": "2023-06-03T21:15:04",
+        "upload_time_iso_8601": "2023-06-03T21:15:04.756021Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.16": [
+      {
+        "filename": "qtmetabolabpy-0.8.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204335,
+        "upload_time": "2023-06-03T21:22:52",
+        "upload_time_iso_8601": "2023-06-03T21:22:52.332430Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.17": [
+      {
+        "filename": "qtmetabolabpy-0.8.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204432,
+        "upload_time": "2023-06-04T22:09:10",
+        "upload_time_iso_8601": "2023-06-04T22:09:10.226737Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.18": [
+      {
+        "filename": "qtmetabolabpy-0.8.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204407,
+        "upload_time": "2023-06-04T22:41:27",
+        "upload_time_iso_8601": "2023-06-04T22:41:27.501713Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.2": [
+      {
+        "filename": "qtmetabolabpy-0.8.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 200530,
+        "upload_time": "2022-12-12T19:00:10",
+        "upload_time_iso_8601": "2022-12-12T19:00:10.270750Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.21": [
+      {
+        "filename": "qtmetabolabpy-0.8.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204944,
+        "upload_time": "2023-07-08T22:49:00",
+        "upload_time_iso_8601": "2023-07-08T22:49:00.026350Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.22": [
+      {
+        "filename": "qtmetabolabpy-0.8.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 205025,
+        "upload_time": "2023-07-11T15:05:16",
+        "upload_time_iso_8601": "2023-07-11T15:05:16.612007Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.23": [
+      {
+        "filename": "qtmetabolabpy-0.8.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204942,
+        "upload_time": "2023-07-13T23:15:32",
+        "upload_time_iso_8601": "2023-07-13T23:15:32.972602Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.24": [
+      {
+        "filename": "qtmetabolabpy-0.8.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204844,
+        "upload_time": "2023-07-14T15:49:31",
+        "upload_time_iso_8601": "2023-07-14T15:49:31.267593Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.3": [
+      {
+        "filename": "qtmetabolabpy-0.8.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 200530,
+        "upload_time": "2022-12-12T19:05:32",
+        "upload_time_iso_8601": "2022-12-12T19:05:32.512390Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.4": [
+      {
+        "filename": "qtmetabolabpy-0.8.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 200563,
+        "upload_time": "2022-12-13T20:09:12",
+        "upload_time_iso_8601": "2022-12-13T20:09:12.549264Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.7": [
+      {
+        "filename": "qtmetabolabpy-0.8.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 201246,
+        "upload_time": "2023-02-06T00:14:38",
+        "upload_time_iso_8601": "2023-02-06T00:14:38.706200Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.9": [
+      {
+        "filename": "qtmetabolabpy-0.8.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 202154,
+        "upload_time": "2023-02-16T14:19:36",
+        "upload_time_iso_8601": "2023-02-16T14:19:36.742051Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0": [
+      {
+        "filename": "qtmetabolabpy-0.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204845,
+        "upload_time": "2023-07-16T14:37:07",
+        "upload_time_iso_8601": "2023-07-16T14:37:07.038608Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.1": [
+      {
+        "filename": "qtmetabolabpy-0.9.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204950,
+        "upload_time": "2023-07-16T20:10:08",
+        "upload_time_iso_8601": "2023-07-16T20:10:08.240281Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.10": [
+      {
+        "filename": "qtmetabolabpy-0.9.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 235435,
+        "upload_time": "2023-09-22T20:33:41",
+        "upload_time_iso_8601": "2023-09-22T20:33:41.243330Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.11": [
+      {
+        "filename": "qtmetabolabpy-0.9.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 62134921,
+        "upload_time": "2023-09-29T16:59:49",
+        "upload_time_iso_8601": "2023-09-29T16:59:49.571124Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.12": [
+      {
+        "filename": "qtmetabolabpy-0.9.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 62147477,
+        "upload_time": "2023-10-04T18:14:33",
+        "upload_time_iso_8601": "2023-10-04T18:14:33.339967Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.14": [
+      {
+        "filename": "qtmetabolabpy-0.9.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 62147630,
+        "upload_time": "2023-10-14T15:38:45",
+        "upload_time_iso_8601": "2023-10-14T15:38:45.370669Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.15": [
+      {
+        "filename": "qtmetabolabpy-0.9.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 62147614,
+        "upload_time": "2023-10-14T16:56:41",
+        "upload_time_iso_8601": "2023-10-14T16:56:41.984358Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.16": [
+      {
+        "filename": "qtmetabolabpy-0.9.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 62147823,
+        "upload_time": "2023-11-07T00:23:06",
+        "upload_time_iso_8601": "2023-11-07T00:23:06.975072Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.17": [
+      {
+        "filename": "qtmetabolabpy-0.9.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 62148839,
+        "upload_time": "2023-11-08T14:00:07",
+        "upload_time_iso_8601": "2023-11-08T14:00:07.811470Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.2": [
+      {
+        "filename": "qtmetabolabpy-0.9.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204975,
+        "upload_time": "2023-07-19T23:19:52",
+        "upload_time_iso_8601": "2023-07-19T23:19:52.341879Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.20": [
+      {
+        "filename": "qtmetabolabpy-0.9.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 62148840,
+        "upload_time": "2023-11-08T17:20:49",
+        "upload_time_iso_8601": "2023-11-08T17:20:49.433926Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.21": [
+      {
+        "filename": "qtmetabolabpy-0.9.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 62148796,
+        "upload_time": "2023-11-08T18:24:25",
+        "upload_time_iso_8601": "2023-11-08T18:24:25.101484Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.22": [
+      {
+        "filename": "qtmetabolabpy-0.9.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 63762994,
+        "upload_time": "2023-11-12T21:25:42",
+        "upload_time_iso_8601": "2023-11-12T21:25:42.406948Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.23": [
+      {
+        "filename": "qtmetabolabpy-0.9.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 63763065,
+        "upload_time": "2023-11-19T21:45:01",
+        "upload_time_iso_8601": "2023-11-19T21:45:01.778694Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.24": [
+      {
+        "filename": "qtmetabolabpy-0.9.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 63773255,
+        "upload_time": "2024-02-06T15:24:26",
+        "upload_time_iso_8601": "2024-02-06T15:24:26.373396Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.25": [
+      {
+        "filename": "qtmetabolabpy-0.9.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 63763391,
+        "upload_time": "2024-02-12T17:50:29",
+        "upload_time_iso_8601": "2024-02-12T17:50:29.257645Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.26": [
+      {
+        "filename": "qtmetabolabpy-0.9.26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 63763403,
+        "upload_time": "2024-02-12T18:00:22",
+        "upload_time_iso_8601": "2024-02-12T18:00:22.018592Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.27": [
+      {
+        "filename": "qtmetabolabpy-0.9.27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 63764311,
+        "upload_time": "2024-02-16T18:02:34",
+        "upload_time_iso_8601": "2024-02-16T18:02:34.495000Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.28": [
+      {
+        "filename": "qtmetabolabpy-0.9.28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 63766719,
+        "upload_time": "2024-03-06T21:55:27",
+        "upload_time_iso_8601": "2024-03-06T21:55:27.870805Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.29": [
+      {
+        "filename": "qtmetabolabpy-0.9.29.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 63766845,
+        "upload_time": "2024-03-11T20:09:48",
+        "upload_time_iso_8601": "2024-03-11T20:09:48.972598Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.30": [
+      {
+        "filename": "qtmetabolabpy-0.9.30.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 63766970,
+        "upload_time": "2024-04-04T21:31:57",
+        "upload_time_iso_8601": "2024-04-04T21:31:57.609301Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.31": [
+      {
+        "filename": "qtmetabolabpy-0.9.31.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64479160,
+        "upload_time": "2024-04-07T22:44:07",
+        "upload_time_iso_8601": "2024-04-07T22:44:07.474381Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.32": [
+      {
+        "filename": "qtmetabolabpy-0.9.32.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64481760,
+        "upload_time": "2024-04-07T22:54:24",
+        "upload_time_iso_8601": "2024-04-07T22:54:24.469612Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.33": [
+      {
+        "filename": "qtmetabolabpy-0.9.33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64479819,
+        "upload_time": "2024-05-09T19:35:33",
+        "upload_time_iso_8601": "2024-05-09T19:35:33.092018Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.37": [
+      {
+        "filename": "qtmetabolabpy-0.9.37.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64480597,
+        "upload_time": "2024-05-13T21:24:35",
+        "upload_time_iso_8601": "2024-05-13T21:24:35.073582Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.38": [
+      {
+        "filename": "qtmetabolabpy-0.9.38.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64480650,
+        "upload_time": "2024-05-14T16:06:59",
+        "upload_time_iso_8601": "2024-05-14T16:06:59.337758Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.39": [
+      {
+        "filename": "qtmetabolabpy-0.9.39.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64481263,
+        "upload_time": "2024-06-01T16:02:56",
+        "upload_time_iso_8601": "2024-06-01T16:02:56.509051Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.4": [
+      {
+        "filename": "qtmetabolabpy-0.9.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 205099,
+        "upload_time": "2023-07-21T11:29:13",
+        "upload_time_iso_8601": "2023-07-21T11:29:13.811658Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.40": [
+      {
+        "filename": "qtmetabolabpy-0.9.40.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64481386,
+        "upload_time": "2024-06-02T14:19:51",
+        "upload_time_iso_8601": "2024-06-02T14:19:51.190815Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.41": [
+      {
+        "filename": "qtmetabolabpy-0.9.41.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64481396,
+        "upload_time": "2024-06-09T16:01:30",
+        "upload_time_iso_8601": "2024-06-09T16:01:30.862410Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.42": [
+      {
+        "filename": "qtmetabolabpy-0.9.42.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64479562,
+        "upload_time": "2024-06-16T22:25:51",
+        "upload_time_iso_8601": "2024-06-16T22:25:51.171482Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.43": [
+      {
+        "filename": "qtmetabolabpy-0.9.43.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64002952,
+        "upload_time": "2024-06-23T21:40:31",
+        "upload_time_iso_8601": "2024-06-23T21:40:31.963161Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.44": [
+      {
+        "filename": "qtmetabolabpy-0.9.44.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64003491,
+        "upload_time": "2024-06-25T18:29:33",
+        "upload_time_iso_8601": "2024-06-25T18:29:33.682075Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.45": [
+      {
+        "filename": "qtmetabolabpy-0.9.45.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64003631,
+        "upload_time": "2024-06-25T20:32:51",
+        "upload_time_iso_8601": "2024-06-25T20:32:51.824119Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.46": [
+      {
+        "filename": "qtmetabolabpy-0.9.46.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64003747,
+        "upload_time": "2024-06-26T19:25:32",
+        "upload_time_iso_8601": "2024-06-26T19:25:32.067162Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.48": [
+      {
+        "filename": "qtmetabolabpy-0.9.48.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64008518,
+        "upload_time": "2024-09-26T00:26:52",
+        "upload_time_iso_8601": "2024-09-26T00:26:52.349449Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.49": [
+      {
+        "filename": "qtmetabolabpy-0.9.49.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64008587,
+        "upload_time": "2024-09-26T14:49:50",
+        "upload_time_iso_8601": "2024-09-26T14:49:50.347837Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.5": [
+      {
+        "filename": "qtmetabolabpy-0.9.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204975,
+        "upload_time": "2023-07-25T19:33:12",
+        "upload_time_iso_8601": "2023-07-25T19:33:12.025718Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.50": [
+      {
+        "filename": "qtmetabolabpy-0.9.50.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64008603,
+        "upload_time": "2024-09-26T20:06:51",
+        "upload_time_iso_8601": "2024-09-26T20:06:51.664453Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.51": [
+      {
+        "filename": "qtmetabolabpy-0.9.51.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64008778,
+        "upload_time": "2024-10-01T14:59:23",
+        "upload_time_iso_8601": "2024-10-01T14:59:23.612191Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.52": [
+      {
+        "filename": "qtmetabolabpy-0.9.52.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64008769,
+        "upload_time": "2024-10-02T02:15:30",
+        "upload_time_iso_8601": "2024-10-02T02:15:30.787515Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.53": [
+      {
+        "filename": "qtmetabolabpy-0.9.53.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64008724,
+        "upload_time": "2024-10-02T02:29:41",
+        "upload_time_iso_8601": "2024-10-02T02:29:41.811333Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.54": [
+      {
+        "filename": "qtmetabolabpy-0.9.54.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64008695,
+        "upload_time": "2024-10-02T13:33:22",
+        "upload_time_iso_8601": "2024-10-02T13:33:22.339921Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.55": [
+      {
+        "filename": "qtmetabolabpy-0.9.55.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004316,
+        "upload_time": "2024-10-21T21:13:15",
+        "upload_time_iso_8601": "2024-10-21T21:13:15.736886Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.56": [
+      {
+        "filename": "qtmetabolabpy-0.9.56.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004377,
+        "upload_time": "2024-10-22T18:16:00",
+        "upload_time_iso_8601": "2024-10-22T18:16:00.851085Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.57": [
+      {
+        "filename": "qtmetabolabpy-0.9.57.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004538,
+        "upload_time": "2024-10-22T19:01:33",
+        "upload_time_iso_8601": "2024-10-22T19:01:33.218581Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.58": [
+      {
+        "filename": "qtmetabolabpy-0.9.58.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004403,
+        "upload_time": "2024-10-22T20:49:05",
+        "upload_time_iso_8601": "2024-10-22T20:49:05.341557Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.59": [
+      {
+        "filename": "qtmetabolabpy-0.9.59.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004500,
+        "upload_time": "2024-10-22T21:16:04",
+        "upload_time_iso_8601": "2024-10-22T21:16:04.568029Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.6": [
+      {
+        "filename": "qtmetabolabpy-0.9.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 204751,
+        "upload_time": "2023-07-25T22:36:31",
+        "upload_time_iso_8601": "2023-07-25T22:36:31.731301Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.60": [
+      {
+        "filename": "qtmetabolabpy-0.9.60.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004545,
+        "upload_time": "2024-10-23T13:28:39",
+        "upload_time_iso_8601": "2024-10-23T13:28:39.907334Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.61": [
+      {
+        "filename": "qtmetabolabpy-0.9.61.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004530,
+        "upload_time": "2024-10-23T14:49:40",
+        "upload_time_iso_8601": "2024-10-23T14:49:40.426400Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.62": [
+      {
+        "filename": "qtmetabolabpy-0.9.62.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004518,
+        "upload_time": "2024-10-23T15:08:53",
+        "upload_time_iso_8601": "2024-10-23T15:08:53.707583Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.63": [
+      {
+        "filename": "qtmetabolabpy-0.9.63.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004612,
+        "upload_time": "2024-11-04T21:55:36",
+        "upload_time_iso_8601": "2024-11-04T21:55:36.481931Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.64": [
+      {
+        "filename": "qtmetabolabpy-0.9.64.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004941,
+        "upload_time": "2024-12-15T18:47:56",
+        "upload_time_iso_8601": "2024-12-15T18:47:56.969357Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.65": [
+      {
+        "filename": "qtmetabolabpy-0.9.65.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004940,
+        "upload_time": "2024-12-16T15:03:29",
+        "upload_time_iso_8601": "2024-12-16T15:03:29.941764Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.66": [
+      {
+        "filename": "qtmetabolabpy-0.9.66.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64004744,
+        "upload_time": "2025-01-10T00:24:28",
+        "upload_time_iso_8601": "2025-01-10T00:24:28.982685Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.67": [
+      {
+        "filename": "qtmetabolabpy-0.9.67.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64005159,
+        "upload_time": "2025-01-28T21:18:02",
+        "upload_time_iso_8601": "2025-01-28T21:18:02.369538Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.7": [
+      {
+        "filename": "qtmetabolabpy-0.9.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 59156011,
+        "upload_time": "2023-08-09T22:12:07",
+        "upload_time_iso_8601": "2023-08-09T22:12:07.896876Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.8": [
+      {
+        "filename": "qtmetabolabpy-0.9.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 59150248,
+        "upload_time": "2023-08-11T22:42:17",
+        "upload_time_iso_8601": "2023-08-11T22:42:17.947462Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.9": [
+      {
+        "filename": "qtmetabolabpy-0.9.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 232785,
+        "upload_time": "2023-09-19T21:17:53",
+        "upload_time_iso_8601": "2023-09-19T21:17:53.070102Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -330,10 +330,12 @@ def cli(args=None):
                 sys.exit(1)
     except KeyboardInterrupt:
         sys.exit(130)
+    except sprat.UpdateAlreadyInProgressError:
+        die(128, "Database is locked. A sprat update is already in progress")
     except BrokenPipeError:
         pass
     except sprat.DatabaseUninitializedError:
-        die(3, "Repository database has not been downloaded. Please run: sprat update")
+        die(3, "Packages database has not been downloaded. Please run: sprat update")
 
 
 def die(code, message):

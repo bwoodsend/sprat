@@ -1,0 +1,404 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Naroju Sandesh <sandeshnaroju@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "agents, multi-agent, orchestration, AI",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "agents-manager",
+    "package_url": "https://pypi.org/project/agents-manager/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/agents-manager/",
+    "project_urls": {
+      "Homepage": "https://github.com/sandeshnaroju/agents_manager",
+      "Repository": "https://github.com/sandeshnaroju/agents_manager"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/agents-manager/1.1.5/",
+    "requires_dist": [
+      "anthropic>=0.47.1",
+      "openai>=1.0.0",
+      "python-dotenv>=0.21.0"
+    ],
+    "requires_python": ">=3.7",
+    "summary": "A lightweight Python package for managing multi-agent orchestration. Easily define agents with custom instructions, tools, and models, and orchestrate their interactions seamlessly. Perfect for building modular, collaborative AI systems.",
+    "version": "1.1.5",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27698716,
+  "releases": {
+    "1.0.0": [
+      {
+        "filename": "agents_manager-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 9045,
+        "upload_time": "2025-02-24T13:40:11",
+        "upload_time_iso_8601": "2025-02-24T13:40:11.693760Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 7468,
+        "upload_time": "2025-02-24T13:40:13",
+        "upload_time_iso_8601": "2025-02-24T13:40:13.542726Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.2": [
+      {
+        "filename": "agents_manager-1.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 9926,
+        "upload_time": "2025-02-24T13:51:59",
+        "upload_time_iso_8601": "2025-02-24T13:51:59.219982Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 9108,
+        "upload_time": "2025-02-24T13:52:00",
+        "upload_time_iso_8601": "2025-02-24T13:52:00.841000Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.3": [
+      {
+        "filename": "agents_manager-1.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 9951,
+        "upload_time": "2025-02-24T14:01:26",
+        "upload_time_iso_8601": "2025-02-24T14:01:26.166544Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 9153,
+        "upload_time": "2025-02-24T14:01:27",
+        "upload_time_iso_8601": "2025-02-24T14:01:27.404316Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.4": [
+      {
+        "filename": "agents_manager-1.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 12726,
+        "upload_time": "2025-02-24T14:36:39",
+        "upload_time_iso_8601": "2025-02-24T14:36:39.260362Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 9444,
+        "upload_time": "2025-02-24T14:36:40",
+        "upload_time_iso_8601": "2025-02-24T14:36:40.393276Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.5": [
+      {
+        "filename": "agents_manager-1.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 11611,
+        "upload_time": "2025-02-24T18:01:00",
+        "upload_time_iso_8601": "2025-02-24T18:01:00.558672Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 9431,
+        "upload_time": "2025-02-24T18:01:01",
+        "upload_time_iso_8601": "2025-02-24T18:01:01.924862Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.6": [
+      {
+        "filename": "agents_manager-1.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 11712,
+        "upload_time": "2025-02-25T11:51:50",
+        "upload_time_iso_8601": "2025-02-25T11:51:50.242972Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 9501,
+        "upload_time": "2025-02-25T11:51:52",
+        "upload_time_iso_8601": "2025-02-25T11:51:52.349027Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.7": [
+      {
+        "filename": "agents_manager-1.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 13808,
+        "upload_time": "2025-02-25T18:15:20",
+        "upload_time_iso_8601": "2025-02-25T18:15:20.806614Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 10588,
+        "upload_time": "2025-02-25T18:15:22",
+        "upload_time_iso_8601": "2025-02-25T18:15:22.645056Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.8": [
+      {
+        "filename": "agents_manager-1.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 13928,
+        "upload_time": "2025-02-25T18:21:05",
+        "upload_time_iso_8601": "2025-02-25T18:21:05.031072Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 10811,
+        "upload_time": "2025-02-25T18:21:06",
+        "upload_time_iso_8601": "2025-02-25T18:21:06.354167Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "agents_manager-1.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 14449,
+        "upload_time": "2025-02-25T18:37:09",
+        "upload_time_iso_8601": "2025-02-25T18:37:09.650501Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 10992,
+        "upload_time": "2025-02-25T18:37:12",
+        "upload_time_iso_8601": "2025-02-25T18:37:12.679990Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1": [
+      {
+        "filename": "agents_manager-1.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 14455,
+        "upload_time": "2025-02-25T18:39:31",
+        "upload_time_iso_8601": "2025-02-25T18:39:31.900318Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 11020,
+        "upload_time": "2025-02-25T18:39:33",
+        "upload_time_iso_8601": "2025-02-25T18:39:33.561745Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.2": [
+      {
+        "filename": "agents_manager-1.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 14456,
+        "upload_time": "2025-02-25T18:40:32",
+        "upload_time_iso_8601": "2025-02-25T18:40:32.943718Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 10995,
+        "upload_time": "2025-02-25T18:40:34",
+        "upload_time_iso_8601": "2025-02-25T18:40:34.319190Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.3": [
+      {
+        "filename": "agents_manager-1.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 14533,
+        "upload_time": "2025-02-27T12:42:52",
+        "upload_time_iso_8601": "2025-02-27T12:42:52.953819Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 11152,
+        "upload_time": "2025-02-27T12:42:54",
+        "upload_time_iso_8601": "2025-02-27T12:42:54.258121Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.4": [
+      {
+        "filename": "agents_manager-1.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 14672,
+        "upload_time": "2025-02-27T13:17:07",
+        "upload_time_iso_8601": "2025-02-27T13:17:07.562511Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 11443,
+        "upload_time": "2025-02-27T13:17:09",
+        "upload_time_iso_8601": "2025-02-27T13:17:09.702385Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.5": [
+      {
+        "filename": "agents_manager-1.1.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 15500,
+        "upload_time": "2025-02-28T14:18:47",
+        "upload_time_iso_8601": "2025-02-28T14:18:47.257704Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "agents_manager-1.1.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 12144,
+        "upload_time": "2025-02-28T14:18:48",
+        "upload_time_iso_8601": "2025-02-28T14:18:48.623101Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,1 +1,15 @@
-from ._database import Package, update, sluggify, sluggify_b, bulk_lookup, classifier_sort_key, NoSuchPackageError, DatabaseUninitializedError, with_prefix, crude_search, iter
+from ._database import (
+    bulk_lookup,
+    classifier_sort_key,
+    crude_search,
+    DatabaseUninitializedError,
+    iter,
+    lookup,
+    NoSuchPackageError,
+    Package,
+    sluggify,
+    sluggify_b,
+    update,
+    UpdateAlreadyInProgressError,
+    with_prefix,
+)

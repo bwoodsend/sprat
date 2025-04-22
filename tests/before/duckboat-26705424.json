@@ -1,0 +1,192 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "AJ Friend <ajfriend@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "ETL, SQL, data-wrangling, duckdb, pipelines",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "duckboat",
+    "package_url": "https://pypi.org/project/duckboat/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/duckboat/",
+    "project_urls": {
+      "documentation": "https://ajfriend.github.io/duckboat",
+      "homepage": "https://github.com/ajfriend/duckboat",
+      "pypi": "https://pypi.org/project/duckboat",
+      "repository": "https://github.com/ajfriend/duckboat"
+    },
+    "provides_extra": [
+      "all",
+      "dev",
+      "docs",
+      "test"
+    ],
+    "release_url": "https://pypi.org/project/duckboat/0.15.0/",
+    "requires_dist": [
+      "duckdb",
+      "pandas",
+      "pyarrow",
+      "ipykernel; extra == \"all\"",
+      "jupyterlab; extra == \"all\"",
+      "jupyterlab-execute-time; extra == \"all\"",
+      "matplotlib; extra == \"all\"",
+      "polars; extra == \"all\"",
+      "pytest; extra == \"all\"",
+      "pytest-cov; extra == \"all\"",
+      "ruff; extra == \"all\"",
+      "ipykernel; extra == \"dev\"",
+      "jupyterlab; extra == \"dev\"",
+      "jupyterlab-execute-time; extra == \"dev\"",
+      "matplotlib; extra == \"docs\"",
+      "pytest; extra == \"test\"",
+      "pytest-cov; extra == \"test\"",
+      "ruff; extra == \"test\""
+    ],
+    "requires_python": ">=3.9",
+    "summary": "A SQL-based Python dataframe library for ergonomic interactive data analysis and exploration.",
+    "version": "0.15.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 26705424,
+  "releases": {
+    "0.11.0": [
+      {
+        "filename": "duckboat-0.11.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 7745,
+        "upload_time": "2024-12-27T04:06:56",
+        "upload_time_iso_8601": "2024-12-27T04:06:56.857088Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "duckboat-0.11.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 5808,
+        "upload_time": "2024-12-27T04:06:59",
+        "upload_time_iso_8601": "2024-12-27T04:06:59.327695Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.12.0": [
+      {
+        "filename": "duckboat-0.12.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 7763,
+        "upload_time": "2024-12-27T04:21:39",
+        "upload_time_iso_8601": "2024-12-27T04:21:39.668453Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "duckboat-0.12.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 5853,
+        "upload_time": "2024-12-27T04:21:42",
+        "upload_time_iso_8601": "2024-12-27T04:21:42.146435Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.13.0": [
+      {
+        "filename": "duckboat-0.13.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 9568,
+        "upload_time": "2024-12-27T04:41:51",
+        "upload_time_iso_8601": "2024-12-27T04:41:51.597717Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "duckboat-0.13.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 6853,
+        "upload_time": "2024-12-27T04:41:52",
+        "upload_time_iso_8601": "2024-12-27T04:41:52.940232Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.0": [
+      {
+        "filename": "duckboat-0.14.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 9651,
+        "upload_time": "2024-12-27T05:31:07",
+        "upload_time_iso_8601": "2024-12-27T05:31:07.516514Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "duckboat-0.14.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 6938,
+        "upload_time": "2024-12-27T05:31:10",
+        "upload_time_iso_8601": "2024-12-27T05:31:10.104761Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0": [
+      {
+        "filename": "duckboat-0.15.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 10726,
+        "upload_time": "2024-12-29T02:40:09",
+        "upload_time_iso_8601": "2024-12-29T02:40:09.550970Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "duckboat-0.15.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 8041,
+        "upload_time": "2024-12-29T02:40:13",
+        "upload_time_iso_8601": "2024-12-29T02:40:13.359764Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

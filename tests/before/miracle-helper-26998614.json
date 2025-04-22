@@ -1,0 +1,642 @@
+{
+  "info": {
+    "author": "MIRACLE.cowf",
+    "author_email": "miracle.cowf@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Programming Language :: Python :: 3.6",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/MIRACLE-cowf/Powerful-Auto-Researcher.git",
+    "keywords": "miracle, miracle.cowf, custom langchain, langchain helper, pypi",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "miracle-helper",
+    "package_url": "https://pypi.org/project/miracle-helper/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/miracle-helper/",
+    "project_urls": {
+      "Homepage": "https://github.com/MIRACLE-cowf/Powerful-Auto-Researcher.git"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/miracle-helper/0.0.24/",
+    "requires_dist": [
+      "langchain",
+      "langchain-anthropic",
+      "langchain-openai"
+    ],
+    "requires_python": ">=3.10",
+    "summary": "MIRACLE.cowf LangChain Helper",
+    "version": "0.0.24",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 26998614,
+  "releases": {
+    "0.0.1": [
+      {
+        "filename": "miracle_helper-0.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 2972,
+        "upload_time": "2024-05-31T01:42:25",
+        "upload_time_iso_8601": "2024-05-31T01:42:25.719131Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle-helper-0.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 1776,
+        "upload_time": "2024-06-25T06:39:55",
+        "upload_time_iso_8601": "2024-06-25T06:39:55.429082Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.10": [
+      {
+        "filename": "miracle_helper-0.0.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3142,
+        "upload_time": "2024-09-19T01:55:01",
+        "upload_time_iso_8601": "2024-09-19T01:55:01.171825Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 1947,
+        "upload_time": "2024-09-19T01:55:02",
+        "upload_time_iso_8601": "2024-09-19T01:55:02.578466Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.11": [
+      {
+        "filename": "miracle_helper-0.0.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3176,
+        "upload_time": "2024-10-02T02:00:07",
+        "upload_time_iso_8601": "2024-10-02T02:00:07.141947Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 1983,
+        "upload_time": "2024-10-02T02:00:08",
+        "upload_time_iso_8601": "2024-10-02T02:00:08.545530Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.12": [
+      {
+        "filename": "miracle_helper-0.0.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3312,
+        "upload_time": "2024-10-18T03:05:05",
+        "upload_time_iso_8601": "2024-10-18T03:05:05.704131Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2137,
+        "upload_time": "2024-10-18T03:05:06",
+        "upload_time_iso_8601": "2024-10-18T03:05:06.919839Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.13": [
+      {
+        "filename": "miracle_helper-0.0.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3323,
+        "upload_time": "2024-10-18T05:53:04",
+        "upload_time_iso_8601": "2024-10-18T05:53:04.177852Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2118,
+        "upload_time": "2024-10-18T05:53:05",
+        "upload_time_iso_8601": "2024-10-18T05:53:05.602104Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.14": [
+      {
+        "filename": "miracle_helper-0.0.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3327,
+        "upload_time": "2024-10-18T05:54:23",
+        "upload_time_iso_8601": "2024-10-18T05:54:23.996471Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2123,
+        "upload_time": "2024-10-18T05:54:24",
+        "upload_time_iso_8601": "2024-10-18T05:54:24.954413Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.15": [
+      {
+        "filename": "miracle_helper-0.0.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3321,
+        "upload_time": "2024-10-23T01:45:34",
+        "upload_time_iso_8601": "2024-10-23T01:45:34.779588Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2135,
+        "upload_time": "2024-10-23T01:45:35",
+        "upload_time_iso_8601": "2024-10-23T01:45:35.974485Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.16": [
+      {
+        "filename": "miracle_helper-0.0.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3326,
+        "upload_time": "2024-10-23T01:49:52",
+        "upload_time_iso_8601": "2024-10-23T01:49:52.195509Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2137,
+        "upload_time": "2024-10-23T01:49:53",
+        "upload_time_iso_8601": "2024-10-23T01:49:53.782381Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.17": [
+      {
+        "filename": "miracle_helper-0.0.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3351,
+        "upload_time": "2024-10-25T10:12:52",
+        "upload_time_iso_8601": "2024-10-25T10:12:52.917505Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2151,
+        "upload_time": "2024-10-25T10:12:54",
+        "upload_time_iso_8601": "2024-10-25T10:12:54.797514Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.19": [
+      {
+        "filename": "miracle_helper-0.0.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3346,
+        "upload_time": "2024-11-05T01:50:31",
+        "upload_time_iso_8601": "2024-11-05T01:50:31.340273Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2147,
+        "upload_time": "2024-11-05T01:50:32",
+        "upload_time_iso_8601": "2024-11-05T01:50:32.792085Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.2": [
+      {
+        "filename": "miracle_helper-0.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 2977,
+        "upload_time": "2024-05-31T01:46:08",
+        "upload_time_iso_8601": "2024-05-31T01:46:08.412031Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle-helper-0.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 1778,
+        "upload_time": "2024-06-25T06:39:56",
+        "upload_time_iso_8601": "2024-06-25T06:39:56.853974Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.20": [
+      {
+        "filename": "miracle_helper-0.0.20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3346,
+        "upload_time": "2024-11-05T01:52:01",
+        "upload_time_iso_8601": "2024-11-05T01:52:01.847927Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2157,
+        "upload_time": "2024-11-05T01:52:03",
+        "upload_time_iso_8601": "2024-11-05T01:52:03.379282Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.21": [
+      {
+        "filename": "miracle_helper-0.0.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 2464,
+        "upload_time": "2024-11-25T02:50:18",
+        "upload_time_iso_8601": "2024-11-25T02:50:18.802914Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2175,
+        "upload_time": "2024-11-25T02:50:20",
+        "upload_time_iso_8601": "2024-11-25T02:50:20.420257Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.22": [
+      {
+        "filename": "miracle_helper-0.0.22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 2634,
+        "upload_time": "2024-12-10T02:18:02",
+        "upload_time_iso_8601": "2024-12-10T02:18:02.371210Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2332,
+        "upload_time": "2024-12-10T02:18:06",
+        "upload_time_iso_8601": "2024-12-10T02:18:06.551322Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.23": [
+      {
+        "filename": "miracle_helper-0.0.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3432,
+        "upload_time": "2025-01-13T03:12:52",
+        "upload_time_iso_8601": "2025-01-13T03:12:52.658878Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2721,
+        "upload_time": "2025-01-13T03:12:55",
+        "upload_time_iso_8601": "2025-01-13T03:12:55.060187Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.24": [
+      {
+        "filename": "miracle_helper-0.0.24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3506,
+        "upload_time": "2025-01-17T10:40:59",
+        "upload_time_iso_8601": "2025-01-17T10:40:59.269222Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 2812,
+        "upload_time": "2025-01-17T10:41:02",
+        "upload_time_iso_8601": "2025-01-17T10:41:02.830881Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.3": [
+      {
+        "filename": "miracle_helper-0.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3021,
+        "upload_time": "2024-06-25T06:39:54",
+        "upload_time_iso_8601": "2024-06-25T06:39:54.395330Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle-helper-0.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 1795,
+        "upload_time": "2024-06-25T06:39:57",
+        "upload_time_iso_8601": "2024-06-25T06:39:57.737496Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.4": [
+      {
+        "filename": "miracle_helper-0.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3023,
+        "upload_time": "2024-07-15T03:47:45",
+        "upload_time_iso_8601": "2024-07-15T03:47:45.188373Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle-helper-0.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 1798,
+        "upload_time": "2024-07-15T03:47:47",
+        "upload_time_iso_8601": "2024-07-15T03:47:47.632020Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.5": [
+      {
+        "filename": "miracle_helper-0.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3020,
+        "upload_time": "2024-07-31T09:42:21",
+        "upload_time_iso_8601": "2024-07-31T09:42:21.376358Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle-helper-0.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 1795,
+        "upload_time": "2024-07-31T09:42:23",
+        "upload_time_iso_8601": "2024-07-31T09:42:23.790999Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.6": [
+      {
+        "filename": "miracle_helper-0.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3020,
+        "upload_time": "2024-08-13T05:43:53",
+        "upload_time_iso_8601": "2024-08-13T05:43:53.210581Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 1801,
+        "upload_time": "2024-08-13T05:43:56",
+        "upload_time_iso_8601": "2024-08-13T05:43:56.210172Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.7": [
+      {
+        "filename": "miracle_helper-0.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3037,
+        "upload_time": "2024-08-19T01:42:26",
+        "upload_time_iso_8601": "2024-08-19T01:42:26.759040Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 1818,
+        "upload_time": "2024-08-19T01:42:28",
+        "upload_time_iso_8601": "2024-08-19T01:42:28.397543Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.8": [
+      {
+        "filename": "miracle_helper-0.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3084,
+        "upload_time": "2024-08-28T07:34:24",
+        "upload_time_iso_8601": "2024-08-28T07:34:24.174350Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 1897,
+        "upload_time": "2024-08-28T07:34:25",
+        "upload_time_iso_8601": "2024-08-28T07:34:25.723674Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.9": [
+      {
+        "filename": "miracle_helper-0.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 3128,
+        "upload_time": "2024-09-02T08:50:38",
+        "upload_time_iso_8601": "2024-09-02T08:50:38.513192Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "miracle_helper-0.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 1932,
+        "upload_time": "2024-09-02T08:50:40",
+        "upload_time_iso_8601": "2024-09-02T08:50:40.202315Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

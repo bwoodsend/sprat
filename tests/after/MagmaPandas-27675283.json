@@ -1,0 +1,336 @@
+{
+  "info": {
+    "author": "Thomas van Gerve",
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "MagmaPandas",
+    "package_url": "https://pypi.org/project/MagmaPandas/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/MagmaPandas/",
+    "project_urls": {
+      "Homepage": "https://github.com/TDGerve/MagmaPandas"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/MagmaPandas/2.1.2/",
+    "requires_dist": [
+      "pandas<=2.1.4",
+      "numpy<=1.26.4",
+      "scipy",
+      "alive_progress",
+      "matplotlib-label-lines",
+      "statsmodels",
+      "matplotlib",
+      "scikit-learn",
+      "elementMass>=1.1.0",
+      "typing_extensions"
+    ],
+    "requires_python": ">=3.10",
+    "summary": "Pandas based tool set for geochemical processing and modelling.",
+    "version": "2.1.2",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27675283,
+  "releases": {
+    "1.0.0": [
+      {
+        "filename": "MagmaPandas-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68470,
+        "upload_time": "2024-03-13T13:35:56",
+        "upload_time_iso_8601": "2024-03-13T13:35:56.638925Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "MagmaPandas-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47979,
+        "upload_time": "2024-03-13T13:35:58",
+        "upload_time_iso_8601": "2024-03-13T13:35:58.515780Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.0": [
+      {
+        "filename": "MagmaPandas-2.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68471,
+        "upload_time": "2024-03-13T13:36:24",
+        "upload_time_iso_8601": "2024-03-13T13:36:24.612836Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "MagmaPandas-2.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47979,
+        "upload_time": "2024-03-13T13:36:26",
+        "upload_time_iso_8601": "2024-03-13T13:36:26.630747Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.1": [
+      {
+        "filename": "MagmaPandas-2.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68692,
+        "upload_time": "2024-03-13T15:52:04",
+        "upload_time_iso_8601": "2024-03-13T15:52:04.675398Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "MagmaPandas-2.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47933,
+        "upload_time": "2024-03-13T15:52:07",
+        "upload_time_iso_8601": "2024-03-13T15:52:07.029127Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.2": [
+      {
+        "filename": "MagmaPandas-2.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68685,
+        "upload_time": "2024-03-13T15:55:41",
+        "upload_time_iso_8601": "2024-03-13T15:55:41.272178Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "MagmaPandas-2.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47937,
+        "upload_time": "2024-03-13T15:55:43",
+        "upload_time_iso_8601": "2024-03-13T15:55:43.497008Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.3": [
+      {
+        "filename": "MagmaPandas-2.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68690,
+        "upload_time": "2024-03-14T14:43:31",
+        "upload_time_iso_8601": "2024-03-14T14:43:31.854270Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "MagmaPandas-2.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47979,
+        "upload_time": "2024-03-14T14:43:35",
+        "upload_time_iso_8601": "2024-03-14T14:43:35.857734Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.4": [
+      {
+        "filename": "MagmaPandas-2.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68692,
+        "upload_time": "2024-03-14T14:48:54",
+        "upload_time_iso_8601": "2024-03-14T14:48:54.395595Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "MagmaPandas-2.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47972,
+        "upload_time": "2024-03-14T14:48:56",
+        "upload_time_iso_8601": "2024-03-14T14:48:56.166832Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.5": [
+      {
+        "filename": "MagmaPandas-2.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68755,
+        "upload_time": "2024-03-15T10:50:41",
+        "upload_time_iso_8601": "2024-03-15T10:50:41.728048Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "MagmaPandas-2.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 48106,
+        "upload_time": "2024-03-15T10:50:43",
+        "upload_time_iso_8601": "2024-03-15T10:50:43.795676Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.6": [
+      {
+        "filename": "MagmaPandas-2.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 69217,
+        "upload_time": "2024-03-20T11:36:59",
+        "upload_time_iso_8601": "2024-03-20T11:36:59.663107Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "MagmaPandas-2.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 48420,
+        "upload_time": "2024-03-20T11:37:02",
+        "upload_time_iso_8601": "2024-03-20T11:37:02.680239Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.0": [
+      {
+        "filename": "MagmaPandas-2.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 134438,
+        "upload_time": "2025-02-24T09:48:29",
+        "upload_time_iso_8601": "2025-02-24T09:48:29.407717Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "magmapandas-2.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 110920,
+        "upload_time": "2025-02-24T09:48:31",
+        "upload_time_iso_8601": "2025-02-24T09:48:31.398957Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.1": [
+      {
+        "filename": "magmapandas-2.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 135770,
+        "upload_time": "2025-02-26T12:54:43",
+        "upload_time_iso_8601": "2025-02-26T12:54:43.400761Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "magmapandas-2.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 111200,
+        "upload_time": "2025-02-26T12:54:45",
+        "upload_time_iso_8601": "2025-02-26T12:54:45.220755Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.2": [
+      {
+        "filename": "magmapandas-2.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 135913,
+        "upload_time": "2025-02-27T09:28:24",
+        "upload_time_iso_8601": "2025-02-27T09:28:24.001997Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "magmapandas-2.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 111367,
+        "upload_time": "2025-02-27T09:28:26",
+        "upload_time_iso_8601": "2025-02-27T09:28:26.010627Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

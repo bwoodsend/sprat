@@ -1,0 +1,206 @@
+{
+  "info": {
+    "author": "Victor Laügt",
+    "author_email": "victorlaugtdev@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/VictorLaugt/InclusionMap",
+    "keywords": "dependency graph map programming project tool",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "InclusionMap",
+    "package_url": "https://pypi.org/project/InclusionMap/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/InclusionMap/",
+    "project_urls": {
+      "Homepage": "https://github.com/VictorLaugt/InclusionMap"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/InclusionMap/1.5.1/",
+    "requires_dist": [
+      "distinctipy==1.3.4",
+      "matplotlib>=3.8.2",
+      "netgraph>=4.13.2",
+      "networkx>=3.2.1",
+      "numpy>=2.0.1",
+      "ijson>=3.3.0"
+    ],
+    "requires_python": ">=3.9",
+    "summary": "A tool for generating the inclusion map of a programming project. Several programming languages are supported.",
+    "version": "1.5.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27715855,
+  "releases": {
+    "1.1": [
+      {
+        "filename": "InclusionMap-1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 22135,
+        "upload_time": "2024-01-19T02:26:09",
+        "upload_time_iso_8601": "2024-01-19T02:26:09.858192Z",
+        "yanked": true,
+        "yanked_reason": null
+      },
+      {
+        "filename": "InclusionMap-1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21097,
+        "upload_time": "2024-01-19T02:26:11",
+        "upload_time_iso_8601": "2024-01-19T02:26:11.877947Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "1.2": [
+      {
+        "filename": "InclusionMap-1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 23402,
+        "upload_time": "2024-08-05T01:09:40",
+        "upload_time_iso_8601": "2024-08-05T01:09:40.452507Z",
+        "yanked": true,
+        "yanked_reason": null
+      },
+      {
+        "filename": "InclusionMap-1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20969,
+        "upload_time": "2024-08-05T01:09:42",
+        "upload_time_iso_8601": "2024-08-05T01:09:42.236981Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "1.3": [
+      {
+        "filename": "InclusionMap-1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 23568,
+        "upload_time": "2024-08-05T02:06:44",
+        "upload_time_iso_8601": "2024-08-05T02:06:44.421578Z",
+        "yanked": true,
+        "yanked_reason": null
+      },
+      {
+        "filename": "InclusionMap-1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21202,
+        "upload_time": "2024-08-05T02:06:46",
+        "upload_time_iso_8601": "2024-08-05T02:06:46.183763Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "1.4": [
+      {
+        "filename": "InclusionMap-1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 24191,
+        "upload_time": "2024-11-30T01:44:56",
+        "upload_time_iso_8601": "2024-11-30T01:44:56.394197Z",
+        "yanked": true,
+        "yanked_reason": null
+      },
+      {
+        "filename": "inclusionmap-1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21969,
+        "upload_time": "2024-11-30T01:45:23",
+        "upload_time_iso_8601": "2024-11-30T01:45:23.653183Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.0": [
+      {
+        "filename": "InclusionMap-1.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 24459,
+        "upload_time": "2025-02-28T20:15:37",
+        "upload_time_iso_8601": "2025-02-28T20:15:37.078550Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "inclusionmap-1.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22238,
+        "upload_time": "2025-02-28T20:15:39",
+        "upload_time_iso_8601": "2025-02-28T20:15:39.372538Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.1": [
+      {
+        "filename": "InclusionMap-1.5.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 25251,
+        "upload_time": "2025-03-01T20:27:38",
+        "upload_time_iso_8601": "2025-03-01T20:27:38.624967Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "inclusionmap-1.5.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 23454,
+        "upload_time": "2025-03-01T20:27:40",
+        "upload_time_iso_8601": "2025-03-01T20:27:40.579691Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

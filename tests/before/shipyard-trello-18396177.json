@@ -1,0 +1,153 @@
+{
+  "info": {
+    "author": "JR",
+    "author_email": "johnathan.rodriguez@shipyardapp.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "description": "",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": "",
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": "",
+    "keywords": "",
+    "license": "",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "",
+    "maintainer_email": "",
+    "name": "shipyard-trello",
+    "package_url": "https://pypi.org/project/shipyard-trello/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/shipyard-trello/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/shipyard-trello/0.1.1/",
+    "requires_dist": [
+      "requests (>=2.31.0,<3.0.0)",
+      "shipyard-templates (==0.1.4)"
+    ],
+    "requires_python": ">=3.9,<4.0",
+    "summary": "A local client for connecting a working with Trello.",
+    "version": "0.1.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 18396177,
+  "releases": {
+    "0.1.1": [
+      {
+        "filename": "shipyard_trello-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 5486,
+        "upload_time": "2023-06-06T18:07:04",
+        "upload_time_iso_8601": "2023-06-06T18:07:04.160128Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "shipyard_trello-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 3718,
+        "upload_time": "2023-06-06T18:07:05",
+        "upload_time_iso_8601": "2023-06-06T18:07:05.636351Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1a0": [
+      {
+        "filename": "shipyard_trello-0.1.1a0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 1231,
+        "upload_time": "2023-05-30T17:50:39",
+        "upload_time_iso_8601": "2023-05-30T17:50:39.491320Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "shipyard_trello-0.1.1a0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 889,
+        "upload_time": "2023-05-30T17:50:41",
+        "upload_time_iso_8601": "2023-05-30T17:50:41.054589Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1a1": [
+      {
+        "filename": "shipyard_trello-0.1.1a1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 3369,
+        "upload_time": "2023-06-06T17:41:58",
+        "upload_time_iso_8601": "2023-06-06T17:41:58.539464Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "shipyard_trello-0.1.1a1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 1884,
+        "upload_time": "2023-06-06T17:42:00",
+        "upload_time_iso_8601": "2023-06-06T17:42:00.106974Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1a2": [
+      {
+        "filename": "shipyard_trello-0.1.1a2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 5502,
+        "upload_time": "2023-06-06T17:45:56",
+        "upload_time_iso_8601": "2023-06-06T17:45:56.365343Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "shipyard_trello-0.1.1a2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 3674,
+        "upload_time": "2023-06-06T17:45:57",
+        "upload_time_iso_8601": "2023-06-06T17:45:57.841088Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

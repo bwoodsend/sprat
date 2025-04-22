@@ -1,0 +1,109 @@
+{
+  "info": {
+    "author": "Dorian Pustina",
+    "author_email": "\"Brian B. Avants\" <stnava@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: Apache Software License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "description": "# curvanato\n\nlocal curvature quantification for anatomical data\n\n\n### **Installation & Testing**\n\nTo install the package locally, navigate to the package root and run:\n\n```bash\npip install .\n```\n\n\n## Usage\n\n```python\nimport ants\nimport antspynet\nimport antspyt1w\nimport curvanato\nimport re\nimport os  # For checking file existence\nimport pandas as pd\nimport numpy as np\nos.environ[\"ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS\"] = \"32\"\n# ANTPD data from open neuro\nfn='.//bids/sub-RC4111/ses-1/anat/sub-RC4111_ses-1_T1w.nii.gz' # easy\nfn='.//bids/sub-RC4103/ses-1/anat/sub-RC4103_ses-1_T1w.nii.gz'\nfn='./bids//sub-RC4110/ses-2/anat/sub-RC4110_ses-2_T1w.nii.gz'\nif os.path.exists(fn):\n    t1=ants.image_read( fn )\n    t1=ants.resample_image( t1, [0.5, 0.5, 0.5], use_voxels=False, interp_type=0 )\n    hoafn = re.sub( \".nii.gz\", \"_hoa.nii.gz\" , fn )\n    if not os.path.exists(hoafn):\n        hoa = antspynet.harvard_oxford_atlas_labeling(t1, verbose=True)['segmentation_image']\n        ants.image_write( hoa, hoafn)\n    hoa = ants.image_read( hoafn )\n    citfn = re.sub( \".nii.gz\", \"_cit168.nii.gz\" , fn )\n    if not os.path.exists(citfn):\n        t1b = antspynet.brain_extraction( t1, modality=\"t1threetissue\" )['segmentation_image'].threshold_image(1,1)\n        t1r = ants.rank_intensity( t1 * t1b )\n        cit = antspyt1w.deep_cit168( t1r, verbose=True)['segmentation']\n        ants.image_write( cit, citfn)\n    cit = ants.image_read( citfn )\n\n###################################################################################\n###################################################################################\n###################################################################################\n###################################################################################\nctype='cit'\ntcaudL=curvanato.load_labeled_caudate( option='hmt', binarize=False, label=[1,3,5] )\ntcaudR=curvanato.load_labeled_caudate( option='hmt', binarize=False, label=[2,4,6] )\nvlab=None\nleftside=True\ngr=0\nsubd=0\notherside=True\nif otherside:\n    ccfn = [\n        re.sub( \".nii.gz\", \"_\"+ctype+\"Rkappa.nii.gz\" , fn ), \n        re.sub( \".nii.gz\", \"_\"+ctype+\"R.nii.gz\" , fn ),\n        re.sub( \".nii.gz\", \"_\"+ctype+\"Rthk.nii.gz\" , fn ),\n        re.sub( \".nii.gz\", \"_\"+ctype+\"Rkappa.csv\" , fn ),\n        re.sub( \".nii.gz\", \"_\"+ctype+\"Rkappa.png\" , fn ),\n        re.sub( \".nii.gz\", \"_\"+ctype+\"Rthk.png\" , fn ) ]\n    pcaud=[3,4]\n    plabs=[4]\n    if ctype == 'cit':\n        mytl=18\n    xx = curvanato.t1w_caudcurv(  cit, target_label=mytl, ventricle_label=vlab, \n        prior_labels=pcaud, prior_target_label=plabs, subdivide=subd, grid=gr,\n        priorparcellation=tcaudR,  plot=True,\n        verbose=True )\n    ants.plot( xx[0], xx[1], crop=True, axis=2, nslices=21, ncol=7, filename=ccfn[4] )\n    ants.plot( xx[0], xx[2], crop=True, axis=2, nslices=21, ncol=7, filename=ccfn[5] )\n    for j in range(3):\n        ants.image_write( xx[j], ccfn[j] )\n    xx[3].to_csv( ccfn[3] )\n\nif leftside:\n    mytl=2\n    ccfn = [\n        re.sub( \".nii.gz\", \"_\"+ctype+\"Lkappa.nii.gz\" , fn ), \n        re.sub( \".nii.gz\", \"_\"+ctype+\"L.nii.gz\" , fn ),\n        re.sub( \".nii.gz\", \"_\"+ctype+\"Lthk.nii.gz\" , fn ),\n        re.sub( \".nii.gz\", \"_\"+ctype+\"Lkappa.csv\" , fn ),\n        re.sub( \".nii.gz\", \"_\"+ctype+\"Lkappa.png\" , fn ),\n        re.sub( \".nii.gz\", \"_\"+ctype+\"Lthk.png\" , fn ) ]\n    print(\"Begin \" + fn + \" caud kap\")\n    pcaud=[1,2]\n    plabs=[2]\n    xx = curvanato.t1w_caudcurv( cit, target_label=2, ventricle_label=vlab, \n        prior_labels=pcaud, prior_target_label=plabs, subdivide=subd, grid=gr,\n        priorparcellation=tcaudL,  plot=True, searchrange=20,\n        verbose=True )\n    ants.plot( xx[0], xx[1], crop=True, axis=2, nslices=21, ncol=7, filename=ccfn[4] )\n    ants.plot( xx[0], xx[1], crop=True, axis=2, nslices=21, ncol=7, filename=ccfn[5] )\n    for j in range(3):\n        ants.image_write( xx[j], ccfn[j] )\n    xx[3].to_csv( ccfn[3] )\n\n\n\n```\n\n\n## Example data\n\nthis package has been tested on [ANTPD data from openneuro](https://openneuro.org/datasets/ds001907/versions/2.0.3).\n\ncould also try data [here](https://openneuro.org/datasets/ds004560/versions/1.0.1) which included repeated T1w acquisitions on same subjects but with different parameters.    however, last time i tried this, the link was not working.\n\n\n```\nrm -r -f build/ curvanato.egg-info/ dist/\npython3 -m  build .\npython3 -m pip install --upgrade twine\npython3 -m twine upload --repository antspyt1w dist/*\n```\n\n",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": null,
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "curvanato, caudate, medical image processing",
+    "license": "Apache License 2.0",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "curvanato",
+    "package_url": "https://pypi.org/project/curvanato/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/curvanato/",
+    "project_urls": {
+      "homepage": "https://github.com/stnava/curvanato"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/curvanato/1.0.0/",
+    "requires_dist": [
+      "antspyx>=0.4.2",
+      "numpy",
+      "antspynet",
+      "antspyt1w>=0.9.4",
+      "antspymm",
+      "scikit-learn",
+      "requests",
+      "statsmodels",
+      "matplotlib"
+    ],
+    "requires_python": null,
+    "summary": "Anatomical curvature processing for medical images.",
+    "version": "1.0.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 26394100,
+  "releases": {
+    "0.0.0": [
+      {
+        "filename": "curvanato-0.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 69505,
+        "upload_time": "2024-12-06T14:02:01",
+        "upload_time_iso_8601": "2024-12-06T14:02:01.490450Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "curvanato-0.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 77021,
+        "upload_time": "2024-12-06T14:02:02",
+        "upload_time_iso_8601": "2024-12-06T14:02:02.824750Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.0": [
+      {
+        "filename": "curvanato-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 85015,
+        "upload_time": "2024-12-06T17:43:06",
+        "upload_time_iso_8601": "2024-12-06T17:43:06.305963Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "curvanato-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 92209,
+        "upload_time": "2024-12-06T17:43:07",
+        "upload_time_iso_8601": "2024-12-06T17:43:07.575322Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

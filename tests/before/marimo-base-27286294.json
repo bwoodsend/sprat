@@ -1,0 +1,1357 @@
+{
+  "info": {
+    "author": null,
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "Environment :: Console",
+      "Environment :: Web Environment",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Education",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: Apache Software License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": [
+      "LICENSE"
+    ],
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "marimo-base",
+    "package_url": "https://pypi.org/project/marimo-base/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/marimo-base/",
+    "project_urls": {
+      "homepage": "https://github.com/marimo-team/marimo"
+    },
+    "provides_extra": [
+      "dev",
+      "docs",
+      "recommended",
+      "sql"
+    ],
+    "release_url": "https://pypi.org/project/marimo-base/0.11.0/",
+    "requires_dist": [
+      "click<9,>=8.0",
+      "docutils>=0.16.0",
+      "itsdangerous>=2.0.0",
+      "jedi>=0.18.0",
+      "markdown<4,>=3.4",
+      "narwhals>=1.12.0",
+      "packaging",
+      "psutil>=5.0",
+      "pycrdt<0.12.0,>=0.11.0",
+      "pygments<3,>=2.13",
+      "pymdown-extensions<11,>=10.11.2",
+      "pyyaml>=6.0",
+      "ruff",
+      "starlette!=0.36.0,>=0.26.1",
+      "tomlkit>=0.12.0",
+      "typing-extensions>=4.4.0; python_version < \"3.11\"",
+      "uvicorn>=0.22.0",
+      "websockets>=10.0.0",
+      "black~=23.12.1; extra == \"dev\"",
+      "click<8.1.4; extra == \"dev\"",
+      "duckdb>=1.0.0; extra == \"dev\"",
+      "openai>=1.55.3; extra == \"dev\"",
+      "opentelemetry-api~=1.26.0; extra == \"dev\"",
+      "opentelemetry-sdk~=1.26.0; extra == \"dev\"",
+      "ruff~=0.9.1; extra == \"dev\"",
+      "sqlglot>=23.4; extra == \"dev\"",
+      "cairosvg>=2.7.1; extra == \"docs\"",
+      "mdx-include>=1.4.2; extra == \"docs\"",
+      "mike>=2.0.0; extra == \"docs\"",
+      "mkdocs-autorefs>=1.2.0; extra == \"docs\"",
+      "mkdocs-click>=0.8.1; extra == \"docs\"",
+      "mkdocs-git-revision-date-localized-plugin>=1.3.0; extra == \"docs\"",
+      "mkdocs-glightbox>=0.4.0; extra == \"docs\"",
+      "mkdocs-macros-plugin>=1.3.7; extra == \"docs\"",
+      "mkdocs-material-extensions>=1.3.1; extra == \"docs\"",
+      "mkdocs-material>=9.5.49; extra == \"docs\"",
+      "mkdocs-minify-plugin>=0.8.0; extra == \"docs\"",
+      "mkdocs-redirects>=1.2.2; extra == \"docs\"",
+      "mkdocs>=1.6.1; extra == \"docs\"",
+      "mkdocstrings[python]>=0.27.0; extra == \"docs\"",
+      "pillow>=10.2.0; extra == \"docs\"",
+      "pymdown-extensions>=10.7; extra == \"docs\"",
+      "altair>=5.4.0; extra == \"recommended\"",
+      "duckdb>=1.0.0; extra == \"recommended\"",
+      "nbformat>=5.7.0; extra == \"recommended\"",
+      "openai>=1.55.3; extra == \"recommended\"",
+      "polars[pyarrow]>=1.9.0; extra == \"recommended\"",
+      "ruff; extra == \"recommended\"",
+      "sqlglot>=23.4; extra == \"recommended\"",
+      "duckdb>=1.0.0; extra == \"sql\"",
+      "polars[pyarrow]>=1.9.0; extra == \"sql\"",
+      "sqlglot>=23.4; extra == \"sql\""
+    ],
+    "requires_python": ">=3.9",
+    "summary": "A library for making reactive notebooks and apps",
+    "version": "0.11.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27286294,
+  "releases": {
+    "0.10.0": [
+      {
+        "filename": "marimo_base-0.10.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 634902,
+        "upload_time": "2024-12-13T02:28:47",
+        "upload_time_iso_8601": "2024-12-13T02:28:47.852322Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 458964,
+        "upload_time": "2024-12-13T02:28:45",
+        "upload_time_iso_8601": "2024-12-13T02:28:45.042015Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.1": [
+      {
+        "filename": "marimo_base-0.10.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 635168,
+        "upload_time": "2024-12-13T15:35:25",
+        "upload_time_iso_8601": "2024-12-13T15:35:25.949930Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 459058,
+        "upload_time": "2024-12-13T15:35:28",
+        "upload_time_iso_8601": "2024-12-13T15:35:28.524091Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.10": [
+      {
+        "filename": "marimo_base-0.10.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 652906,
+        "upload_time": "2025-01-09T18:27:59",
+        "upload_time_iso_8601": "2025-01-09T18:27:59.894471Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 474922,
+        "upload_time": "2025-01-09T18:28:02",
+        "upload_time_iso_8601": "2025-01-09T18:28:02.782837Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.11": [
+      {
+        "filename": "marimo_base-0.10.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 652985,
+        "upload_time": "2025-01-10T15:40:57",
+        "upload_time_iso_8601": "2025-01-10T15:40:57.532036Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 474993,
+        "upload_time": "2025-01-10T15:40:54",
+        "upload_time_iso_8601": "2025-01-10T15:40:54.665428Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.12": [
+      {
+        "filename": "marimo_base-0.10.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 653062,
+        "upload_time": "2025-01-10T20:26:22",
+        "upload_time_iso_8601": "2025-01-10T20:26:22.564367Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 475072,
+        "upload_time": "2025-01-10T20:26:25",
+        "upload_time_iso_8601": "2025-01-10T20:26:25.451942Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.13": [
+      {
+        "filename": "marimo_base-0.10.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 653255,
+        "upload_time": "2025-01-14T17:18:24",
+        "upload_time_iso_8601": "2025-01-14T17:18:24.406151Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 475243,
+        "upload_time": "2025-01-14T17:18:23",
+        "upload_time_iso_8601": "2025-01-14T17:18:23.010066Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.14": [
+      {
+        "filename": "marimo_base-0.10.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 660316,
+        "upload_time": "2025-01-17T23:22:49",
+        "upload_time_iso_8601": "2025-01-17T23:22:49.934513Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 481249,
+        "upload_time": "2025-01-17T23:22:52",
+        "upload_time_iso_8601": "2025-01-17T23:22:52.716756Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.15": [
+      {
+        "filename": "marimo_base-0.10.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 662829,
+        "upload_time": "2025-01-20T17:01:11",
+        "upload_time_iso_8601": "2025-01-20T17:01:11.637255Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 483405,
+        "upload_time": "2025-01-20T17:01:09",
+        "upload_time_iso_8601": "2025-01-20T17:01:09.780568Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.16": [
+      {
+        "filename": "marimo_base-0.10.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 664081,
+        "upload_time": "2025-01-22T18:41:25",
+        "upload_time_iso_8601": "2025-01-22T18:41:25.115621Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 484635,
+        "upload_time": "2025-01-22T18:41:22",
+        "upload_time_iso_8601": "2025-01-22T18:41:22.747518Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.17": [
+      {
+        "filename": "marimo_base-0.10.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 666911,
+        "upload_time": "2025-01-25T00:12:57",
+        "upload_time_iso_8601": "2025-01-25T00:12:57.710632Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 487060,
+        "upload_time": "2025-01-25T00:12:55",
+        "upload_time_iso_8601": "2025-01-25T00:12:55.637816Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.18": [
+      {
+        "filename": "marimo_base-0.10.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 673637,
+        "upload_time": "2025-01-30T21:24:58",
+        "upload_time_iso_8601": "2025-01-30T21:24:58.023893Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 492020,
+        "upload_time": "2025-01-30T21:24:55",
+        "upload_time_iso_8601": "2025-01-30T21:24:55.260405Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.19": [
+      {
+        "filename": "marimo_base-0.10.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 675695,
+        "upload_time": "2025-01-31T15:45:03",
+        "upload_time_iso_8601": "2025-01-31T15:45:03.250558Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 493683,
+        "upload_time": "2025-01-31T15:44:59",
+        "upload_time_iso_8601": "2025-01-31T15:44:59.619953Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.2": [
+      {
+        "filename": "marimo_base-0.10.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 635323,
+        "upload_time": "2024-12-13T23:58:21",
+        "upload_time_iso_8601": "2024-12-13T23:58:21.114945Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 459219,
+        "upload_time": "2024-12-13T23:58:22",
+        "upload_time_iso_8601": "2024-12-13T23:58:22.726070Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.4": [
+      {
+        "filename": "marimo_base-0.10.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 635662,
+        "upload_time": "2024-12-17T15:25:28",
+        "upload_time_iso_8601": "2024-12-17T15:25:28.813285Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 459515,
+        "upload_time": "2024-12-17T15:25:31",
+        "upload_time_iso_8601": "2024-12-17T15:25:31.961477Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.5": [
+      {
+        "filename": "marimo_base-0.10.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 636040,
+        "upload_time": "2024-12-18T03:07:12",
+        "upload_time_iso_8601": "2024-12-18T03:07:12.051518Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 459783,
+        "upload_time": "2024-12-18T03:07:14",
+        "upload_time_iso_8601": "2024-12-18T03:07:14.752169Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.6": [
+      {
+        "filename": "marimo_base-0.10.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 642555,
+        "upload_time": "2024-12-19T20:01:16",
+        "upload_time_iso_8601": "2024-12-19T20:01:16.250129Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 466585,
+        "upload_time": "2024-12-19T20:01:13",
+        "upload_time_iso_8601": "2024-12-19T20:01:13.317204Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.7": [
+      {
+        "filename": "marimo_base-0.10.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 646806,
+        "upload_time": "2024-12-23T20:27:50",
+        "upload_time_iso_8601": "2024-12-23T20:27:50.179292Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 469697,
+        "upload_time": "2024-12-23T20:27:47",
+        "upload_time_iso_8601": "2024-12-23T20:27:47.339867Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.8": [
+      {
+        "filename": "marimo_base-0.10.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 647176,
+        "upload_time": "2024-12-29T18:42:54",
+        "upload_time_iso_8601": "2024-12-29T18:42:54.148815Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 469961,
+        "upload_time": "2024-12-29T18:42:52",
+        "upload_time_iso_8601": "2024-12-29T18:42:52.476473Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.9": [
+      {
+        "filename": "marimo_base-0.10.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 647788,
+        "upload_time": "2024-12-31T00:20:58",
+        "upload_time_iso_8601": "2024-12-31T00:20:58.881948Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.10.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 470567,
+        "upload_time": "2024-12-31T00:20:57",
+        "upload_time_iso_8601": "2024-12-31T00:20:57.124115Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.0": [
+      {
+        "filename": "marimo_base-0.11.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 683809,
+        "upload_time": "2025-02-04T20:11:00",
+        "upload_time_iso_8601": "2025-02-04T20:11:00.948521Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.11.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 499972,
+        "upload_time": "2025-02-04T20:11:03",
+        "upload_time_iso_8601": "2025-02-04T20:11:03.581072Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.10": [
+      {
+        "filename": "marimo_base-0.9.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 604365,
+        "upload_time": "2024-10-15T18:45:11",
+        "upload_time_iso_8601": "2024-10-15T18:45:11.914136Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 432731,
+        "upload_time": "2024-10-15T18:45:13",
+        "upload_time_iso_8601": "2024-10-15T18:45:13.431433Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.11": [
+      {
+        "filename": "marimo_base-0.9.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 600576,
+        "upload_time": "2024-10-19T16:43:10",
+        "upload_time_iso_8601": "2024-10-19T16:43:10.401255Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 429720,
+        "upload_time": "2024-10-19T16:43:08",
+        "upload_time_iso_8601": "2024-10-19T16:43:08.616460Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.12": [
+      {
+        "filename": "marimo_base-0.9.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 601598,
+        "upload_time": "2024-10-22T16:26:15",
+        "upload_time_iso_8601": "2024-10-22T16:26:15.334086Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 430128,
+        "upload_time": "2024-10-22T16:26:14",
+        "upload_time_iso_8601": "2024-10-22T16:26:14.025695Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.13": [
+      {
+        "filename": "marimo_base-0.9.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 601243,
+        "upload_time": "2024-10-23T17:20:29",
+        "upload_time_iso_8601": "2024-10-23T17:20:29.551358Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 429678,
+        "upload_time": "2024-10-23T17:20:28",
+        "upload_time_iso_8601": "2024-10-23T17:20:28.298649Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.14": [
+      {
+        "filename": "marimo_base-0.9.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 601379,
+        "upload_time": "2024-10-23T21:02:15",
+        "upload_time_iso_8601": "2024-10-23T21:02:15.757182Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 429825,
+        "upload_time": "2024-10-23T21:02:13",
+        "upload_time_iso_8601": "2024-10-23T21:02:13.734523Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.15": [
+      {
+        "filename": "marimo_base-0.9.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 605225,
+        "upload_time": "2024-11-05T20:41:08",
+        "upload_time_iso_8601": "2024-11-05T20:41:08.287831Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 432650,
+        "upload_time": "2024-11-05T20:41:06",
+        "upload_time_iso_8601": "2024-11-05T20:41:06.937818Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.16": [
+      {
+        "filename": "marimo_base-0.9.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 605380,
+        "upload_time": "2024-11-07T19:51:52",
+        "upload_time_iso_8601": "2024-11-07T19:51:52.735793Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 432753,
+        "upload_time": "2024-11-07T19:51:50",
+        "upload_time_iso_8601": "2024-11-07T19:51:50.940866Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.17": [
+      {
+        "filename": "marimo_base-0.9.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 606588,
+        "upload_time": "2024-11-09T03:17:11",
+        "upload_time_iso_8601": "2024-11-09T03:17:11.627833Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 434060,
+        "upload_time": "2024-11-09T03:17:13",
+        "upload_time_iso_8601": "2024-11-09T03:17:13.824423Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.18": [
+      {
+        "filename": "marimo_base-0.9.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 610799,
+        "upload_time": "2024-11-13T14:41:11",
+        "upload_time_iso_8601": "2024-11-13T14:41:11.998078Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 437316,
+        "upload_time": "2024-11-13T14:41:10",
+        "upload_time_iso_8601": "2024-11-13T14:41:10.177226Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.19": [
+      {
+        "filename": "marimo_base-0.9.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 611830,
+        "upload_time": "2024-11-14T22:54:20",
+        "upload_time_iso_8601": "2024-11-14T22:54:20.364134Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 438104,
+        "upload_time": "2024-11-14T22:54:18",
+        "upload_time_iso_8601": "2024-11-14T22:54:18.650920Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.20": [
+      {
+        "filename": "marimo_base-0.9.20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 611829,
+        "upload_time": "2024-11-15T19:28:46",
+        "upload_time_iso_8601": "2024-11-15T19:28:46.770381Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 438107,
+        "upload_time": "2024-11-15T19:28:49",
+        "upload_time_iso_8601": "2024-11-15T19:28:49.029597Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.21": [
+      {
+        "filename": "marimo_base-0.9.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 623121,
+        "upload_time": "2024-11-21T21:03:56",
+        "upload_time_iso_8601": "2024-11-21T21:03:56.436483Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 448917,
+        "upload_time": "2024-11-21T21:03:57",
+        "upload_time_iso_8601": "2024-11-21T21:03:57.799097Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.22": [
+      {
+        "filename": "marimo_base-0.9.22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 615750,
+        "upload_time": "2024-11-23T00:32:11",
+        "upload_time_iso_8601": "2024-11-23T00:32:11.461827Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 442005,
+        "upload_time": "2024-11-23T00:32:13",
+        "upload_time_iso_8601": "2024-11-23T00:32:13.559204Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.23": [
+      {
+        "filename": "marimo_base-0.9.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 615750,
+        "upload_time": "2024-11-23T20:17:43",
+        "upload_time_iso_8601": "2024-11-23T20:17:43.523385Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 441991,
+        "upload_time": "2024-11-23T20:17:41",
+        "upload_time_iso_8601": "2024-11-23T20:17:41.364302Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.24": [
+      {
+        "filename": "marimo_base-0.9.24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 616856,
+        "upload_time": "2024-11-26T14:18:29",
+        "upload_time_iso_8601": "2024-11-26T14:18:29.854257Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 442810,
+        "upload_time": "2024-11-26T14:18:32",
+        "upload_time_iso_8601": "2024-11-26T14:18:32.077276Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.25": [
+      {
+        "filename": "marimo_base-0.9.25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 616883,
+        "upload_time": "2024-11-26T16:44:47",
+        "upload_time_iso_8601": "2024-11-26T16:44:47.245199Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 442848,
+        "upload_time": "2024-11-26T16:44:49",
+        "upload_time_iso_8601": "2024-11-26T16:44:49.135859Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.26": [
+      {
+        "filename": "marimo_base-0.9.26-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 616978,
+        "upload_time": "2024-11-26T21:30:44",
+        "upload_time_iso_8601": "2024-11-26T21:30:44.900068Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 442882,
+        "upload_time": "2024-11-26T21:30:47",
+        "upload_time_iso_8601": "2024-11-26T21:30:47.503396Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.27": [
+      {
+        "filename": "marimo_base-0.9.27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 617012,
+        "upload_time": "2024-11-27T13:24:06",
+        "upload_time_iso_8601": "2024-11-27T13:24:06.516857Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 442916,
+        "upload_time": "2024-11-27T13:24:08",
+        "upload_time_iso_8601": "2024-11-27T13:24:08.740789Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.28": [
+      {
+        "filename": "marimo_base-0.9.28-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 618596,
+        "upload_time": "2024-12-02T20:53:29",
+        "upload_time_iso_8601": "2024-12-02T20:53:29.123510Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 444560,
+        "upload_time": "2024-12-02T20:53:30",
+        "upload_time_iso_8601": "2024-12-02T20:53:30.747008Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.29": [
+      {
+        "filename": "marimo_base-0.9.29-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 618917,
+        "upload_time": "2024-12-03T16:13:05",
+        "upload_time_iso_8601": "2024-12-03T16:13:05.093251Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.29.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 444829,
+        "upload_time": "2024-12-03T16:13:03",
+        "upload_time_iso_8601": "2024-12-03T16:13:03.020879Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.30": [
+      {
+        "filename": "marimo_base-0.9.30-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 619131,
+        "upload_time": "2024-12-03T20:50:07",
+        "upload_time_iso_8601": "2024-12-03T20:50:07.081301Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.30.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 444970,
+        "upload_time": "2024-12-03T20:50:10",
+        "upload_time_iso_8601": "2024-12-03T20:50:10.275622Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.31": [
+      {
+        "filename": "marimo_base-0.9.31-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 623520,
+        "upload_time": "2024-12-05T14:41:48",
+        "upload_time_iso_8601": "2024-12-05T14:41:48.909718Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.31.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 449158,
+        "upload_time": "2024-12-05T14:41:47",
+        "upload_time_iso_8601": "2024-12-05T14:41:47.057042Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.32": [
+      {
+        "filename": "marimo_base-0.9.32-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 623519,
+        "upload_time": "2024-12-06T18:29:07",
+        "upload_time_iso_8601": "2024-12-06T18:29:07.945542Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.32.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 449156,
+        "upload_time": "2024-12-06T18:29:06",
+        "upload_time_iso_8601": "2024-12-06T18:29:06.624954Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.33": [
+      {
+        "filename": "marimo_base-0.9.33-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 629052,
+        "upload_time": "2024-12-10T00:34:14",
+        "upload_time_iso_8601": "2024-12-10T00:34:14.770568Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 453946,
+        "upload_time": "2024-12-10T00:34:17",
+        "upload_time_iso_8601": "2024-12-10T00:34:17.403041Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.34": [
+      {
+        "filename": "marimo_base-0.9.34-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 629275,
+        "upload_time": "2024-12-10T22:07:28",
+        "upload_time_iso_8601": "2024-12-10T22:07:28.884946Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.34.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 454173,
+        "upload_time": "2024-12-10T22:07:31",
+        "upload_time_iso_8601": "2024-12-10T22:07:31.685763Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.7": [
+      {
+        "filename": "marimo_base-0.9.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 627931,
+        "upload_time": "2024-10-11T22:07:40",
+        "upload_time_iso_8601": "2024-10-11T22:07:40.062147Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 452549,
+        "upload_time": "2024-10-11T22:07:42",
+        "upload_time_iso_8601": "2024-10-11T22:07:42.551204Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.8": [
+      {
+        "filename": "marimo_base-0.9.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 603265,
+        "upload_time": "2024-10-13T01:58:18",
+        "upload_time_iso_8601": "2024-10-13T01:58:18.572017Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 431703,
+        "upload_time": "2024-10-13T01:58:16",
+        "upload_time_iso_8601": "2024-10-13T01:58:16.960411Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.9": [
+      {
+        "filename": "marimo_base-0.9.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 603263,
+        "upload_time": "2024-10-13T21:54:59",
+        "upload_time_iso_8601": "2024-10-13T21:54:59.965297Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "marimo_base-0.9.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 431692,
+        "upload_time": "2024-10-13T21:54:58",
+        "upload_time_iso_8601": "2024-10-13T21:54:58.150400Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

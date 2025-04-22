@@ -1,0 +1,432 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Saranga Sudarshan <nsaranga@hotmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": [
+      "LICENSE"
+    ],
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "cricketstats",
+    "package_url": "https://pypi.org/project/cricketstats/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/cricketstats/",
+    "project_urls": {
+      "Bug Tracker": "https://github.com/nsaranga/cricketstats/issues",
+      "Homepage": "https://github.com/nsaranga/cricketstats/"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/cricketstats/0.1.7/",
+    "requires_dist": null,
+    "requires_python": ">=3.7",
+    "summary": "A cricket analytics package for cricsheet data",
+    "version": "0.1.7",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27723388,
+  "releases": {
+    "0.0.1": [
+      {
+        "filename": "cricketstats-0.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 134606,
+        "upload_time": "2022-08-07T09:52:23",
+        "upload_time_iso_8601": "2022-08-07T09:52:23.663960Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 137876,
+        "upload_time": "2022-08-07T09:52:26",
+        "upload_time_iso_8601": "2022-08-07T09:52:26.702016Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.2": [
+      {
+        "filename": "cricketstats-0.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 135081,
+        "upload_time": "2022-08-08T21:34:30",
+        "upload_time_iso_8601": "2022-08-08T21:34:30.611718Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 138901,
+        "upload_time": "2022-08-08T21:34:33",
+        "upload_time_iso_8601": "2022-08-08T21:34:33.683426Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.3": [
+      {
+        "filename": "cricketstats-0.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 135045,
+        "upload_time": "2022-08-09T10:02:36",
+        "upload_time_iso_8601": "2022-08-09T10:02:36.716537Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 138866,
+        "upload_time": "2022-08-09T10:02:38",
+        "upload_time_iso_8601": "2022-08-09T10:02:38.659622Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.5": [
+      {
+        "filename": "cricketstats-0.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 117908,
+        "upload_time": "2022-08-17T12:46:57",
+        "upload_time_iso_8601": "2022-08-17T12:46:57.082851Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 178966,
+        "upload_time": "2022-08-17T12:46:58",
+        "upload_time_iso_8601": "2022-08-17T12:46:58.899000Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.6": [
+      {
+        "filename": "cricketstats-0.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 118138,
+        "upload_time": "2022-09-04T10:19:36",
+        "upload_time_iso_8601": "2022-09-04T10:19:36.649820Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 179195,
+        "upload_time": "2022-09-04T10:19:40",
+        "upload_time_iso_8601": "2022-09-04T10:19:40.961184Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.7": [
+      {
+        "filename": "cricketstats-0.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 118241,
+        "upload_time": "2022-09-15T12:46:34",
+        "upload_time_iso_8601": "2022-09-15T12:46:34.049008Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 179286,
+        "upload_time": "2022-09-15T12:46:38",
+        "upload_time_iso_8601": "2022-09-15T12:46:38.387452Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.8": [
+      {
+        "filename": "cricketstats-0.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 120593,
+        "upload_time": "2022-10-19T08:09:24",
+        "upload_time_iso_8601": "2022-10-19T08:09:24.286880Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 181420,
+        "upload_time": "2022-10-19T08:09:32",
+        "upload_time_iso_8601": "2022-10-19T08:09:32.104694Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.9": [
+      {
+        "filename": "cricketstats-0.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 121258,
+        "upload_time": "2022-12-14T20:14:51",
+        "upload_time_iso_8601": "2022-12-14T20:14:51.553466Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 182072,
+        "upload_time": "2022-12-14T20:14:59",
+        "upload_time_iso_8601": "2022-12-14T20:14:59.176330Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.0": [
+      {
+        "filename": "cricketstats-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 123604,
+        "upload_time": "2023-04-03T09:52:11",
+        "upload_time_iso_8601": "2023-04-03T09:52:11.141079Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 184433,
+        "upload_time": "2023-04-03T09:52:20",
+        "upload_time_iso_8601": "2023-04-03T09:52:20.294412Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "cricketstats-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 123103,
+        "upload_time": "2023-10-27T09:20:46",
+        "upload_time_iso_8601": "2023-10-27T09:20:46.844014Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 184050,
+        "upload_time": "2023-10-27T09:20:48",
+        "upload_time_iso_8601": "2023-10-27T09:20:48.932266Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.2": [
+      {
+        "filename": "cricketstats-0.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 123189,
+        "upload_time": "2023-11-01T11:57:10",
+        "upload_time_iso_8601": "2023-11-01T11:57:10.403106Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 184022,
+        "upload_time": "2023-11-01T11:57:14",
+        "upload_time_iso_8601": "2023-11-01T11:57:14.098300Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.3": [
+      {
+        "filename": "cricketstats-0.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 123240,
+        "upload_time": "2023-11-02T10:59:49",
+        "upload_time_iso_8601": "2023-11-02T10:59:49.855861Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 184148,
+        "upload_time": "2023-11-02T10:59:53",
+        "upload_time_iso_8601": "2023-11-02T10:59:53.132290Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4": [
+      {
+        "filename": "cricketstats-0.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 123278,
+        "upload_time": "2023-11-02T11:20:10",
+        "upload_time_iso_8601": "2023-11-02T11:20:10.368026Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 184186,
+        "upload_time": "2023-11-02T11:20:17",
+        "upload_time_iso_8601": "2023-11-02T11:20:17.160205Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.6": [
+      {
+        "filename": "cricketstats-0.1.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 123258,
+        "upload_time": "2023-11-07T21:27:40",
+        "upload_time_iso_8601": "2023-11-07T21:27:40.185746Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.1.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 184162,
+        "upload_time": "2023-11-07T21:27:43",
+        "upload_time_iso_8601": "2023-11-07T21:27:43.482316Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.7": [
+      {
+        "filename": "cricketstats-0.1.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 187395,
+        "upload_time": "2025-03-02T12:06:53",
+        "upload_time_iso_8601": "2025-03-02T12:06:53.969002Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "cricketstats-0.1.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 182393,
+        "upload_time": "2025-03-02T12:06:56",
+        "upload_time_iso_8601": "2025-03-02T12:06:56.240464Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

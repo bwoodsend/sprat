@@ -1,0 +1,1668 @@
+{
+  "info": {
+    "author": "Mourad Mourafiq",
+    "author_email": "mourad.mourafiq@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Intended Audience :: Developers",
+      "Intended Audience :: Information Technology",
+      "Intended Audience :: Science/Research",
+      "Intended Audience :: System Administrators",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.6",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Scientific/Engineering :: Artificial Intelligence",
+      "Topic :: Software Development",
+      "Topic :: Software Development :: Libraries",
+      "Topic :: Software Development :: Libraries :: Application Frameworks",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Typing :: Typed"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/mmourafiq/clipped",
+    "keywords": "cli, configuration, utils, setup",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "Mourad Mourafiq",
+    "maintainer_email": "mourad.mourafiq@gmail.com",
+    "name": "clipped",
+    "package_url": "https://pypi.org/project/clipped/",
+    "platform": "any",
+    "project_url": "https://pypi.org/project/clipped/",
+    "project_urls": {
+      "Homepage": "https://github.com/mmourafiq/clipped"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/clipped/0.10.1/",
+    "requires_dist": null,
+    "requires_python": ">=3.8",
+    "summary": "Common shortcuts and utils.",
+    "version": "0.10.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27688041,
+  "releases": {
+    "0.0.1": [
+      {
+        "filename": "clipped-0.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 36051,
+        "upload_time": "2023-04-05T22:49:36",
+        "upload_time_iso_8601": "2023-04-05T22:49:36.252306Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 25018,
+        "upload_time": "2023-04-05T22:49:37",
+        "upload_time_iso_8601": "2023-04-05T22:49:37.655052Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.2": [
+      {
+        "filename": "clipped-0.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 35578,
+        "upload_time": "2023-04-06T15:18:10",
+        "upload_time_iso_8601": "2023-04-06T15:18:10.281936Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 24554,
+        "upload_time": "2023-04-06T15:18:11",
+        "upload_time_iso_8601": "2023-04-06T15:18:11.960487Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.3": [
+      {
+        "filename": "clipped-0.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 35902,
+        "upload_time": "2023-04-11T18:51:28",
+        "upload_time_iso_8601": "2023-04-11T18:51:28.090763Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 24696,
+        "upload_time": "2023-04-11T18:51:30",
+        "upload_time_iso_8601": "2023-04-11T18:51:30.452582Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.4": [
+      {
+        "filename": "clipped-0.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 35971,
+        "upload_time": "2023-04-11T19:09:51",
+        "upload_time_iso_8601": "2023-04-11T19:09:51.677911Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 24744,
+        "upload_time": "2023-04-11T19:09:53",
+        "upload_time_iso_8601": "2023-04-11T19:09:53.387760Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.5": [
+      {
+        "filename": "clipped-0.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 35718,
+        "upload_time": "2023-04-12T15:59:40",
+        "upload_time_iso_8601": "2023-04-12T15:59:40.289768Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 28590,
+        "upload_time": "2023-04-12T15:59:42",
+        "upload_time_iso_8601": "2023-04-12T15:59:42.279679Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.6": [
+      {
+        "filename": "clipped-0.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 36392,
+        "upload_time": "2023-04-13T08:14:39",
+        "upload_time_iso_8601": "2023-04-13T08:14:39.614311Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 24598,
+        "upload_time": "2023-04-13T08:14:41",
+        "upload_time_iso_8601": "2023-04-13T08:14:41.055812Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.7": [
+      {
+        "filename": "clipped-0.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 54478,
+        "upload_time": "2023-04-15T22:49:46",
+        "upload_time_iso_8601": "2023-04-15T22:49:46.378884Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 36544,
+        "upload_time": "2023-04-15T22:49:48",
+        "upload_time_iso_8601": "2023-04-15T22:49:48.300648Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.8": [
+      {
+        "filename": "clipped-0.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 54324,
+        "upload_time": "2023-04-15T22:57:44",
+        "upload_time_iso_8601": "2023-04-15T22:57:44.283334Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 36430,
+        "upload_time": "2023-04-15T22:57:45",
+        "upload_time_iso_8601": "2023-04-15T22:57:45.748466Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.9": [
+      {
+        "filename": "clipped-0.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 54302,
+        "upload_time": "2023-04-15T23:04:57",
+        "upload_time_iso_8601": "2023-04-15T23:04:57.833400Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 36431,
+        "upload_time": "2023-04-15T23:04:59",
+        "upload_time_iso_8601": "2023-04-15T23:04:59.826495Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.0": [
+      {
+        "filename": "clipped-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 54298,
+        "upload_time": "2023-04-16T09:40:21",
+        "upload_time_iso_8601": "2023-04-16T09:40:21.934498Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 36425,
+        "upload_time": "2023-04-16T09:40:23",
+        "upload_time_iso_8601": "2023-04-16T09:40:23.467190Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "clipped-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 54379,
+        "upload_time": "2023-04-16T10:41:41",
+        "upload_time_iso_8601": "2023-04-16T10:41:41.089379Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 36460,
+        "upload_time": "2023-04-16T10:41:43",
+        "upload_time_iso_8601": "2023-04-16T10:41:43.273276Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.0": [
+      {
+        "filename": "clipped-0.10.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 81762,
+        "upload_time": "2025-02-11T13:50:11",
+        "upload_time_iso_8601": "2025-02-11T13:50:11.562913Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.10.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 59088,
+        "upload_time": "2025-02-11T13:50:12",
+        "upload_time_iso_8601": "2025-02-11T13:50:12.901152Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.1": [
+      {
+        "filename": "clipped-0.10.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 81811,
+        "upload_time": "2025-02-27T22:38:56",
+        "upload_time_iso_8601": "2025-02-27T22:38:56.731067Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.10.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 59154,
+        "upload_time": "2025-02-27T22:38:59",
+        "upload_time_iso_8601": "2025-02-27T22:38:59.930571Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "clipped-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 54981,
+        "upload_time": "2023-04-23T10:35:47",
+        "upload_time_iso_8601": "2023-04-23T10:35:47.528701Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 36656,
+        "upload_time": "2023-04-23T10:35:50",
+        "upload_time_iso_8601": "2023-04-23T10:35:50.049105Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.1": [
+      {
+        "filename": "clipped-0.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 54969,
+        "upload_time": "2023-04-23T21:06:18",
+        "upload_time_iso_8601": "2023-04-23T21:06:18.247123Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 36614,
+        "upload_time": "2023-04-23T21:06:20",
+        "upload_time_iso_8601": "2023-04-23T21:06:20.226852Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.2": [
+      {
+        "filename": "clipped-0.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 54985,
+        "upload_time": "2023-04-23T22:55:29",
+        "upload_time_iso_8601": "2023-04-23T22:55:29.048108Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 36636,
+        "upload_time": "2023-04-23T22:55:30",
+        "upload_time_iso_8601": "2023-04-23T22:55:30.955406Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.3": [
+      {
+        "filename": "clipped-0.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 54992,
+        "upload_time": "2023-04-23T23:22:10",
+        "upload_time_iso_8601": "2023-04-23T23:22:10.745333Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 36646,
+        "upload_time": "2023-04-23T23:22:12",
+        "upload_time_iso_8601": "2023-04-23T23:22:12.994836Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.4": [
+      {
+        "filename": "clipped-0.2.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 55526,
+        "upload_time": "2023-04-24T15:37:46",
+        "upload_time_iso_8601": "2023-04-24T15:37:46.189484Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 36951,
+        "upload_time": "2023-04-24T15:37:49",
+        "upload_time_iso_8601": "2023-04-24T15:37:49.015583Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "clipped-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 57899,
+        "upload_time": "2023-04-25T12:19:12",
+        "upload_time_iso_8601": "2023-04-25T12:19:12.529143Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 38594,
+        "upload_time": "2023-04-25T12:19:13",
+        "upload_time_iso_8601": "2023-04-25T12:19:13.955823Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.1": [
+      {
+        "filename": "clipped-0.3.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 57911,
+        "upload_time": "2023-04-28T16:29:27",
+        "upload_time_iso_8601": "2023-04-28T16:29:27.614714Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 38610,
+        "upload_time": "2023-04-28T16:29:29",
+        "upload_time_iso_8601": "2023-04-28T16:29:29.893381Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.2": [
+      {
+        "filename": "clipped-0.3.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 57988,
+        "upload_time": "2023-05-01T21:11:24",
+        "upload_time_iso_8601": "2023-05-01T21:11:24.352579Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 38731,
+        "upload_time": "2023-05-01T21:11:25",
+        "upload_time_iso_8601": "2023-05-01T21:11:25.787861Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.3": [
+      {
+        "filename": "clipped-0.3.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 57966,
+        "upload_time": "2023-05-03T11:51:50",
+        "upload_time_iso_8601": "2023-05-03T11:51:50.620255Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 38735,
+        "upload_time": "2023-05-03T11:51:52",
+        "upload_time_iso_8601": "2023-05-03T11:51:52.857234Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.4": [
+      {
+        "filename": "clipped-0.3.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 58009,
+        "upload_time": "2023-05-10T23:19:35",
+        "upload_time_iso_8601": "2023-05-10T23:19:35.574726Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.3.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 38760,
+        "upload_time": "2023-05-10T23:19:37",
+        "upload_time_iso_8601": "2023-05-10T23:19:37.298113Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "clipped-0.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 58010,
+        "upload_time": "2023-06-07T21:59:20",
+        "upload_time_iso_8601": "2023-06-07T21:59:20.931695Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 38776,
+        "upload_time": "2023-06-07T21:59:22",
+        "upload_time_iso_8601": "2023-06-07T21:59:22.400203Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.1": [
+      {
+        "filename": "clipped-0.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 58033,
+        "upload_time": "2023-06-14T11:47:58",
+        "upload_time_iso_8601": "2023-06-14T11:47:58.495456Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 38797,
+        "upload_time": "2023-06-14T11:48:00",
+        "upload_time_iso_8601": "2023-06-14T11:48:00.400877Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.2": [
+      {
+        "filename": "clipped-0.4.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 58035,
+        "upload_time": "2023-06-30T18:49:14",
+        "upload_time_iso_8601": "2023-06-30T18:49:14.555376Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 38810,
+        "upload_time": "2023-06-30T18:49:16",
+        "upload_time_iso_8601": "2023-06-30T18:49:16.304512Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.0": [
+      {
+        "filename": "clipped-0.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 58986,
+        "upload_time": "2023-07-29T14:27:34",
+        "upload_time_iso_8601": "2023-07-29T14:27:34.743904Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39300,
+        "upload_time": "2023-07-29T14:27:37",
+        "upload_time_iso_8601": "2023-07-29T14:27:37.163724Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.1": [
+      {
+        "filename": "clipped-0.5.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59078,
+        "upload_time": "2023-08-02T10:59:44",
+        "upload_time_iso_8601": "2023-08-02T10:59:44.806835Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.5.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39386,
+        "upload_time": "2023-08-02T10:59:46",
+        "upload_time_iso_8601": "2023-08-02T10:59:46.775548Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.0": [
+      {
+        "filename": "clipped-0.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59130,
+        "upload_time": "2023-08-16T15:20:08",
+        "upload_time_iso_8601": "2023-08-16T15:20:08.379769Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39431,
+        "upload_time": "2023-08-16T15:20:10",
+        "upload_time_iso_8601": "2023-08-16T15:20:10.422498Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.1": [
+      {
+        "filename": "clipped-0.6.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59128,
+        "upload_time": "2023-08-16T15:43:07",
+        "upload_time_iso_8601": "2023-08-16T15:43:07.323862Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.6.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39428,
+        "upload_time": "2023-08-16T15:43:09",
+        "upload_time_iso_8601": "2023-08-16T15:43:09.002106Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.2": [
+      {
+        "filename": "clipped-0.6.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59123,
+        "upload_time": "2023-08-18T11:21:24",
+        "upload_time_iso_8601": "2023-08-18T11:21:24.935244Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.6.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39423,
+        "upload_time": "2023-08-18T11:21:26",
+        "upload_time_iso_8601": "2023-08-18T11:21:26.836452Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.3": [
+      {
+        "filename": "clipped-0.6.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59563,
+        "upload_time": "2023-08-30T14:11:59",
+        "upload_time_iso_8601": "2023-08-30T14:11:59.317089Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.6.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39692,
+        "upload_time": "2023-08-30T14:12:01",
+        "upload_time_iso_8601": "2023-08-30T14:12:01.335470Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.4": [
+      {
+        "filename": "clipped-0.6.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59583,
+        "upload_time": "2023-09-09T18:55:04",
+        "upload_time_iso_8601": "2023-09-09T18:55:04.580298Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.6.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39731,
+        "upload_time": "2023-09-09T18:55:06",
+        "upload_time_iso_8601": "2023-09-09T18:55:06.424688Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.5": [
+      {
+        "filename": "clipped-0.6.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59706,
+        "upload_time": "2023-09-19T08:05:32",
+        "upload_time_iso_8601": "2023-09-19T08:05:32.512148Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.6.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39812,
+        "upload_time": "2023-09-19T08:05:34",
+        "upload_time_iso_8601": "2023-09-19T08:05:34.365906Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.6": [
+      {
+        "filename": "clipped-0.6.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59670,
+        "upload_time": "2023-09-20T13:28:56",
+        "upload_time_iso_8601": "2023-09-20T13:28:56.675045Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.6.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39795,
+        "upload_time": "2023-09-20T13:28:58",
+        "upload_time_iso_8601": "2023-09-20T13:28:58.706376Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.7": [
+      {
+        "filename": "clipped-0.6.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59696,
+        "upload_time": "2023-09-21T11:00:26",
+        "upload_time_iso_8601": "2023-09-21T11:00:26.327845Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.6.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39801,
+        "upload_time": "2023-09-21T11:00:28",
+        "upload_time_iso_8601": "2023-09-21T11:00:28.214221Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.8": [
+      {
+        "filename": "clipped-0.6.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59709,
+        "upload_time": "2023-09-21T15:13:38",
+        "upload_time_iso_8601": "2023-09-21T15:13:38.872116Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.6.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39832,
+        "upload_time": "2023-09-21T15:13:40",
+        "upload_time_iso_8601": "2023-09-21T15:13:40.696891Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.9": [
+      {
+        "filename": "clipped-0.6.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59718,
+        "upload_time": "2023-09-22T09:23:34",
+        "upload_time_iso_8601": "2023-09-22T09:23:34.963344Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.6.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39833,
+        "upload_time": "2023-09-22T09:23:36",
+        "upload_time_iso_8601": "2023-09-22T09:23:36.800566Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.0": [
+      {
+        "filename": "clipped-0.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 59885,
+        "upload_time": "2023-09-28T10:17:33",
+        "upload_time_iso_8601": "2023-09-28T10:17:33.285628Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 39968,
+        "upload_time": "2023-09-28T10:17:35",
+        "upload_time_iso_8601": "2023-09-28T10:17:35.612898Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.1": [
+      {
+        "filename": "clipped-0.7.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 59885,
+        "upload_time": "2023-10-21T16:00:31",
+        "upload_time_iso_8601": "2023-10-21T16:00:31.510112Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 39968,
+        "upload_time": "2023-10-21T16:00:33",
+        "upload_time_iso_8601": "2023-10-21T16:00:33.551160Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.10": [
+      {
+        "filename": "clipped-0.7.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60252,
+        "upload_time": "2024-02-28T17:13:07",
+        "upload_time_iso_8601": "2024-02-28T17:13:07.822359Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40265,
+        "upload_time": "2024-02-28T17:13:11",
+        "upload_time_iso_8601": "2024-02-28T17:13:11.409418Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.11": [
+      {
+        "filename": "clipped-0.7.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60315,
+        "upload_time": "2024-08-28T09:51:18",
+        "upload_time_iso_8601": "2024-08-28T09:51:18.035418Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40327,
+        "upload_time": "2024-08-28T09:51:19",
+        "upload_time_iso_8601": "2024-08-28T09:51:19.841340Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.12": [
+      {
+        "filename": "clipped-0.7.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60327,
+        "upload_time": "2024-08-28T09:56:46",
+        "upload_time_iso_8601": "2024-08-28T09:56:46.934131Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40368,
+        "upload_time": "2024-08-28T09:56:48",
+        "upload_time_iso_8601": "2024-08-28T09:56:48.508572Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.2": [
+      {
+        "filename": "clipped-0.7.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60076,
+        "upload_time": "2023-10-26T10:41:32",
+        "upload_time_iso_8601": "2023-10-26T10:41:32.864422Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40101,
+        "upload_time": "2023-10-26T10:41:34",
+        "upload_time_iso_8601": "2023-10-26T10:41:34.268713Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.3": [
+      {
+        "filename": "clipped-0.7.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60112,
+        "upload_time": "2023-10-29T12:27:54",
+        "upload_time_iso_8601": "2023-10-29T12:27:54.057553Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40125,
+        "upload_time": "2023-10-29T12:27:56",
+        "upload_time_iso_8601": "2023-10-29T12:27:56.063465Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.4": [
+      {
+        "filename": "clipped-0.7.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60180,
+        "upload_time": "2023-10-29T21:55:05",
+        "upload_time_iso_8601": "2023-10-29T21:55:05.971500Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40196,
+        "upload_time": "2023-10-29T21:55:07",
+        "upload_time_iso_8601": "2023-10-29T21:55:07.903579Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.5": [
+      {
+        "filename": "clipped-0.7.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60179,
+        "upload_time": "2023-11-15T23:30:40",
+        "upload_time_iso_8601": "2023-11-15T23:30:40.272165Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40198,
+        "upload_time": "2023-11-15T23:30:41",
+        "upload_time_iso_8601": "2023-11-15T23:30:41.864581Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.6": [
+      {
+        "filename": "clipped-0.7.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60179,
+        "upload_time": "2023-12-12T11:41:37",
+        "upload_time_iso_8601": "2023-12-12T11:41:37.924460Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40207,
+        "upload_time": "2023-12-12T11:41:39",
+        "upload_time_iso_8601": "2023-12-12T11:41:39.842397Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.7": [
+      {
+        "filename": "clipped-0.7.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60203,
+        "upload_time": "2024-01-04T12:21:34",
+        "upload_time_iso_8601": "2024-01-04T12:21:34.713860Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40240,
+        "upload_time": "2024-01-04T12:21:37",
+        "upload_time_iso_8601": "2024-01-04T12:21:37.171519Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.8": [
+      {
+        "filename": "clipped-0.7.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60326,
+        "upload_time": "2024-01-25T13:09:04",
+        "upload_time_iso_8601": "2024-01-25T13:09:04.707380Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40221,
+        "upload_time": "2024-01-25T13:09:07",
+        "upload_time_iso_8601": "2024-01-25T13:09:07.163076Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.9": [
+      {
+        "filename": "clipped-0.7.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60211,
+        "upload_time": "2024-02-28T09:08:26",
+        "upload_time_iso_8601": "2024-02-28T09:08:26.104866Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.7.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40240,
+        "upload_time": "2024-02-28T09:08:27",
+        "upload_time_iso_8601": "2024-02-28T09:08:27.650201Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.0": [
+      {
+        "filename": "clipped-0.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 60323,
+        "upload_time": "2024-08-28T14:05:34",
+        "upload_time_iso_8601": "2024-08-28T14:05:34.111694Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 40348,
+        "upload_time": "2024-08-28T14:05:35",
+        "upload_time_iso_8601": "2024-08-28T14:05:35.404913Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.1": [
+      {
+        "filename": "clipped-0.8.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 64813,
+        "upload_time": "2024-09-05T11:21:00",
+        "upload_time_iso_8601": "2024-09-05T11:21:00.401356Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.8.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 44588,
+        "upload_time": "2024-09-05T11:21:02",
+        "upload_time_iso_8601": "2024-09-05T11:21:02.112607Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.3": [
+      {
+        "filename": "clipped-0.8.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 65200,
+        "upload_time": "2024-12-17T20:50:17",
+        "upload_time_iso_8601": "2024-12-17T20:50:17.347889Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.8.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 44992,
+        "upload_time": "2024-12-17T20:50:20",
+        "upload_time_iso_8601": "2024-12-17T20:50:20.159529Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0": [
+      {
+        "filename": "clipped-0.9.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68549,
+        "upload_time": "2024-12-31T11:27:53",
+        "upload_time_iso_8601": "2024-12-31T11:27:53.678162Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46938,
+        "upload_time": "2024-12-31T11:27:55",
+        "upload_time_iso_8601": "2024-12-31T11:27:55.104788Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0rc0": [
+      {
+        "filename": "clipped-0.9.0rc0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 67802,
+        "upload_time": "2024-11-16T20:46:33",
+        "upload_time_iso_8601": "2024-11-16T20:46:33.974828Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.9.0rc0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 50261,
+        "upload_time": "2024-11-16T20:46:35",
+        "upload_time_iso_8601": "2024-11-16T20:46:35.738783Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0rc1": [
+      {
+        "filename": "clipped-0.9.0rc1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 67813,
+        "upload_time": "2024-11-20T12:05:09",
+        "upload_time_iso_8601": "2024-11-20T12:05:09.266206Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.9.0rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46371,
+        "upload_time": "2024-11-20T12:05:10",
+        "upload_time_iso_8601": "2024-11-20T12:05:10.521072Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0rc2": [
+      {
+        "filename": "clipped-0.9.0rc2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68179,
+        "upload_time": "2024-11-25T17:32:25",
+        "upload_time_iso_8601": "2024-11-25T17:32:25.545981Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.9.0rc2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46534,
+        "upload_time": "2024-11-25T17:32:27",
+        "upload_time_iso_8601": "2024-11-25T17:32:27.248731Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0rc3": [
+      {
+        "filename": "clipped-0.9.0rc3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68179,
+        "upload_time": "2024-12-06T14:01:55",
+        "upload_time_iso_8601": "2024-12-06T14:01:55.146917Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.9.0rc3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46559,
+        "upload_time": "2024-12-06T14:01:57",
+        "upload_time_iso_8601": "2024-12-06T14:01:57.489965Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0rc4": [
+      {
+        "filename": "clipped-0.9.0rc4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68194,
+        "upload_time": "2024-12-08T19:48:17",
+        "upload_time_iso_8601": "2024-12-08T19:48:17.266481Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.9.0rc4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46544,
+        "upload_time": "2024-12-08T19:48:19",
+        "upload_time_iso_8601": "2024-12-08T19:48:19.226157Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0rc5": [
+      {
+        "filename": "clipped-0.9.0rc5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68580,
+        "upload_time": "2024-12-20T11:40:36",
+        "upload_time_iso_8601": "2024-12-20T11:40:36.029209Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.9.0rc5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46939,
+        "upload_time": "2024-12-20T11:40:38",
+        "upload_time_iso_8601": "2024-12-20T11:40:38.586591Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0rc6": [
+      {
+        "filename": "clipped-0.9.0rc6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68580,
+        "upload_time": "2024-12-26T12:43:25",
+        "upload_time_iso_8601": "2024-12-26T12:43:25.592763Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "clipped-0.9.0rc6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46937,
+        "upload_time": "2024-12-26T12:43:28",
+        "upload_time_iso_8601": "2024-12-26T12:43:28.056715Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

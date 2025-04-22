@@ -1,0 +1,2047 @@
+{
+  "info": {
+    "author": "sunwoong",
+    "author_email": "<sunwoong@pozalabs.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.12"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "pozalabs-compose",
+    "package_url": "https://pypi.org/project/pozalabs-compose/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/pozalabs-compose/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/pozalabs-compose/1.10.0/",
+    "requires_dist": [
+      "pendulum<4.0.0,>=3.0.0",
+      "pymongo[aws]<5.0.0,>=4.6.3",
+      "pydantic<3.0.0,>=2.7.4",
+      "authlib<2.0.0,>=1.3.1",
+      "dependency-injector<5.0.0,>=4.43.0",
+      "pre-commit<4.0.0,>=3.7.1; extra == \"dev\"",
+      "pytest<9.0.0,>=8.2.2; extra == \"dev\"",
+      "boto3-stubs-lite[essential,ssm]<2.0.0,>=1.34.79; extra == \"dev\"",
+      "uvicorn[standard]<0.30.0,>=0.29.0; extra == \"dev\"",
+      "gunicorn<22.0.0,>=21.2.0; extra == \"dev\"",
+      "opentelemetry-test-utils<0.47.0,>=0.46b0; extra == \"dev\"",
+      "testcontainers[mongodb]<5.0.0,>=4.7.2; extra == \"dev\"",
+      "boto3<2.0.0,>=1.28.73; extra == \"dev\"",
+      "loguru<0.8.0,>=0.7.2; extra == \"dev\"",
+      "fastapi<0.116.0,>=0.115.2; extra == \"dev\"",
+      "sentry-sdk[fastapi,loguru,pymongo]<3.0.0,>=2.2.0; extra == \"dev\"",
+      "opentelemetry-distro[otlp]<0.47.0,>=0.46b0; extra == \"dev\"",
+      "bcrypt<5.0.0,>=4.2.0; extra == \"dev\"",
+      "httpx<0.28.0,>=0.27.2; extra == \"dev\""
+    ],
+    "requires_python": "<3.13,>=3.12",
+    "summary": "Backend components for Pozalabs",
+    "version": "1.10.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 26937298,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "pozalabs_compose-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 7289,
+        "upload_time": "2023-01-11T13:28:29",
+        "upload_time_iso_8601": "2023-01-11T13:28:29.503252Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 4934,
+        "upload_time": "2023-01-11T13:28:28",
+        "upload_time_iso_8601": "2023-01-11T13:28:28.281738Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "pozalabs_compose-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 7295,
+        "upload_time": "2023-01-12T08:37:55",
+        "upload_time_iso_8601": "2023-01-12T08:37:55.860318Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 4953,
+        "upload_time": "2023-01-12T08:37:54",
+        "upload_time_iso_8601": "2023-01-12T08:37:54.568886Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.0": [
+      {
+        "filename": "pozalabs_compose-0.10.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 20377,
+        "upload_time": "2023-04-13T09:39:21",
+        "upload_time_iso_8601": "2023-04-13T09:39:21.561075Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.10.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 11503,
+        "upload_time": "2023-04-13T09:39:19",
+        "upload_time_iso_8601": "2023-04-13T09:39:19.823274Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.0": [
+      {
+        "filename": "pozalabs_compose-0.11.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 20744,
+        "upload_time": "2023-04-13T14:47:10",
+        "upload_time_iso_8601": "2023-04-13T14:47:10.900345Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.11.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 11830,
+        "upload_time": "2023-04-13T14:47:09",
+        "upload_time_iso_8601": "2023-04-13T14:47:09.384674Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.13.0": [
+      {
+        "filename": "pozalabs-compose-0.13.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 12386,
+        "upload_time": "2023-05-12T07:51:45",
+        "upload_time_iso_8601": "2023-05-12T07:51:45.879698Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.0": [
+      {
+        "filename": "pozalabs_compose-0.14.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 22426,
+        "upload_time": "2023-05-23T09:41:29",
+        "upload_time_iso_8601": "2023-05-23T09:41:29.178004Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.14.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 12588,
+        "upload_time": "2023-05-23T09:41:27",
+        "upload_time_iso_8601": "2023-05-23T09:41:27.928991Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0": [
+      {
+        "filename": "pozalabs_compose-0.15.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 22587,
+        "upload_time": "2023-05-25T10:28:05",
+        "upload_time_iso_8601": "2023-05-25T10:28:05.290597Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.15.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 12786,
+        "upload_time": "2023-05-25T10:28:04",
+        "upload_time_iso_8601": "2023-05-25T10:28:04.017903Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.0": [
+      {
+        "filename": "pozalabs_compose-0.16.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 22598,
+        "upload_time": "2023-07-02T08:47:14",
+        "upload_time_iso_8601": "2023-07-02T08:47:14.622172Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.16.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 12804,
+        "upload_time": "2023-07-02T08:47:13",
+        "upload_time_iso_8601": "2023-07-02T08:47:13.462444Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.0": [
+      {
+        "filename": "pozalabs_compose-0.17.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 23990,
+        "upload_time": "2023-08-06T13:22:41",
+        "upload_time_iso_8601": "2023-08-06T13:22:41.583760Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.17.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 13370,
+        "upload_time": "2023-08-06T13:22:40",
+        "upload_time_iso_8601": "2023-08-06T13:22:40.164691Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.1": [
+      {
+        "filename": "pozalabs_compose-0.17.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 24012,
+        "upload_time": "2023-11-06T10:01:11",
+        "upload_time_iso_8601": "2023-11-06T10:01:11.836274Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.17.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 13444,
+        "upload_time": "2023-11-06T10:01:13",
+        "upload_time_iso_8601": "2023-11-06T10:01:13.529479Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.0": [
+      {
+        "filename": "pozalabs_compose-0.18.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 39550,
+        "upload_time": "2023-11-02T12:35:17",
+        "upload_time_iso_8601": "2023-11-02T12:35:17.693563Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.18.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 21571,
+        "upload_time": "2023-11-02T12:35:16",
+        "upload_time_iso_8601": "2023-11-02T12:35:16.321352Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.1": [
+      {
+        "filename": "pozalabs_compose-0.18.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 39555,
+        "upload_time": "2023-11-02T14:39:49",
+        "upload_time_iso_8601": "2023-11-02T14:39:49.013861Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.18.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 21562,
+        "upload_time": "2023-11-02T14:39:45",
+        "upload_time_iso_8601": "2023-11-02T14:39:45.541883Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.0": [
+      {
+        "filename": "pozalabs_compose-0.19.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 33975,
+        "upload_time": "2023-11-14T16:25:03",
+        "upload_time_iso_8601": "2023-11-14T16:25:03.979915Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.19.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 19611,
+        "upload_time": "2023-11-14T16:25:01",
+        "upload_time_iso_8601": "2023-11-14T16:25:01.985447Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "pozalabs_compose-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 9926,
+        "upload_time": "2023-01-14T03:56:56",
+        "upload_time_iso_8601": "2023-01-14T03:56:56.647899Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 6181,
+        "upload_time": "2023-01-14T03:56:55",
+        "upload_time_iso_8601": "2023-01-14T03:56:55.394746Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.20.0": [
+      {
+        "filename": "pozalabs_compose-0.20.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 34108,
+        "upload_time": "2023-11-14T17:41:50",
+        "upload_time_iso_8601": "2023-11-14T17:41:50.320795Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.20.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 19716,
+        "upload_time": "2023-11-14T17:41:48",
+        "upload_time_iso_8601": "2023-11-14T17:41:48.195863Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.21.0": [
+      {
+        "filename": "pozalabs_compose-0.21.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 34080,
+        "upload_time": "2023-11-18T08:35:52",
+        "upload_time_iso_8601": "2023-11-18T08:35:52.702408Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.21.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 19663,
+        "upload_time": "2023-11-18T08:35:51",
+        "upload_time_iso_8601": "2023-11-18T08:35:51.294179Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.22.0": [
+      {
+        "filename": "pozalabs_compose-0.22.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 34606,
+        "upload_time": "2023-11-19T15:14:24",
+        "upload_time_iso_8601": "2023-11-19T15:14:24.201740Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.22.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 19861,
+        "upload_time": "2023-11-19T15:14:22",
+        "upload_time_iso_8601": "2023-11-19T15:14:22.972281Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.22.1": [
+      {
+        "filename": "pozalabs_compose-0.22.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 34603,
+        "upload_time": "2023-11-19T16:06:45",
+        "upload_time_iso_8601": "2023-11-19T16:06:45.514844Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.22.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 19869,
+        "upload_time": "2023-11-19T16:06:43",
+        "upload_time_iso_8601": "2023-11-19T16:06:43.971460Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.22.2": [
+      {
+        "filename": "pozalabs_compose-0.22.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 34621,
+        "upload_time": "2023-11-19T16:41:18",
+        "upload_time_iso_8601": "2023-11-19T16:41:18.416273Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.22.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 19870,
+        "upload_time": "2023-11-19T16:41:17",
+        "upload_time_iso_8601": "2023-11-19T16:41:17.218564Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.23.0": [
+      {
+        "filename": "pozalabs_compose-0.23.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 35491,
+        "upload_time": "2023-11-25T14:48:58",
+        "upload_time_iso_8601": "2023-11-25T14:48:58.510418Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.23.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 20391,
+        "upload_time": "2023-11-25T14:48:57",
+        "upload_time_iso_8601": "2023-11-25T14:48:57.052326Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.23.2": [
+      {
+        "filename": "pozalabs_compose-0.23.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 35492,
+        "upload_time": "2023-11-25T15:48:30",
+        "upload_time_iso_8601": "2023-11-25T15:48:30.763032Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.23.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 20393,
+        "upload_time": "2023-11-25T15:48:29",
+        "upload_time_iso_8601": "2023-11-25T15:48:29.083318Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.23.3": [
+      {
+        "filename": "pozalabs_compose-0.23.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 35493,
+        "upload_time": "2023-11-25T16:38:32",
+        "upload_time_iso_8601": "2023-11-25T16:38:32.290344Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.23.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 20389,
+        "upload_time": "2023-11-25T16:38:30",
+        "upload_time_iso_8601": "2023-11-25T16:38:30.654469Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.24.0": [
+      {
+        "filename": "pozalabs_compose-0.24.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 35550,
+        "upload_time": "2023-11-27T07:09:57",
+        "upload_time_iso_8601": "2023-11-27T07:09:57.691548Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.24.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 20448,
+        "upload_time": "2023-11-27T07:09:56",
+        "upload_time_iso_8601": "2023-11-27T07:09:56.386895Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.25.0": [
+      {
+        "filename": "pozalabs_compose-0.25.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 37106,
+        "upload_time": "2023-11-30T18:05:50",
+        "upload_time_iso_8601": "2023-11-30T18:05:50.945795Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.25.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 21389,
+        "upload_time": "2023-11-30T18:05:49",
+        "upload_time_iso_8601": "2023-11-30T18:05:49.225462Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.25.1": [
+      {
+        "filename": "pozalabs_compose-0.25.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 37195,
+        "upload_time": "2023-12-06T10:39:23",
+        "upload_time_iso_8601": "2023-12-06T10:39:23.175080Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.25.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 21452,
+        "upload_time": "2023-12-06T10:39:19",
+        "upload_time_iso_8601": "2023-12-06T10:39:19.812521Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.25.2": [
+      {
+        "filename": "pozalabs_compose-0.25.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 37207,
+        "upload_time": "2023-12-06T14:34:22",
+        "upload_time_iso_8601": "2023-12-06T14:34:22.812843Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.25.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 21475,
+        "upload_time": "2023-12-06T14:34:19",
+        "upload_time_iso_8601": "2023-12-06T14:34:19.010121Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.26.0": [
+      {
+        "filename": "pozalabs_compose-0.26.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 40223,
+        "upload_time": "2023-12-16T10:24:57",
+        "upload_time_iso_8601": "2023-12-16T10:24:57.650073Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.26.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 23142,
+        "upload_time": "2023-12-16T10:24:56",
+        "upload_time_iso_8601": "2023-12-16T10:24:56.034091Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.27.0": [
+      {
+        "filename": "pozalabs_compose-0.27.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 40269,
+        "upload_time": "2023-12-18T17:59:25",
+        "upload_time_iso_8601": "2023-12-18T17:59:25.401418Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.27.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 23171,
+        "upload_time": "2023-12-18T17:59:23",
+        "upload_time_iso_8601": "2023-12-18T17:59:23.727476Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.28.0": [
+      {
+        "filename": "pozalabs_compose-0.28.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 41072,
+        "upload_time": "2023-12-30T13:45:27",
+        "upload_time_iso_8601": "2023-12-30T13:45:27.227514Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.28.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 23563,
+        "upload_time": "2023-12-30T13:45:25",
+        "upload_time_iso_8601": "2023-12-30T13:45:25.446441Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.29.0": [
+      {
+        "filename": "pozalabs_compose-0.29.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 41616,
+        "upload_time": "2024-01-13T12:53:15",
+        "upload_time_iso_8601": "2024-01-13T12:53:15.469933Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.29.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 23716,
+        "upload_time": "2024-01-13T12:53:14",
+        "upload_time_iso_8601": "2024-01-13T12:53:14.370905Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "pozalabs_compose-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 10953,
+        "upload_time": "2023-01-25T08:18:27",
+        "upload_time_iso_8601": "2023-01-25T08:18:27.823131Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 6736,
+        "upload_time": "2023-01-25T08:18:26",
+        "upload_time_iso_8601": "2023-01-25T08:18:26.371533Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.30.0": [
+      {
+        "filename": "pozalabs_compose-0.30.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 41987,
+        "upload_time": "2024-01-21T14:15:14",
+        "upload_time_iso_8601": "2024-01-21T14:15:14.221332Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.30.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 23907,
+        "upload_time": "2024-01-21T14:15:12",
+        "upload_time_iso_8601": "2024-01-21T14:15:12.376241Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.32.0": [
+      {
+        "filename": "pozalabs_compose-0.32.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11,<4.0",
+        "size": 45599,
+        "upload_time": "2024-02-11T14:35:23",
+        "upload_time_iso_8601": "2024-02-11T14:35:23.490516Z",
+        "yanked": true,
+        "yanked_reason": "Regression Error"
+      },
+      {
+        "filename": "pozalabs_compose-0.32.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11,<4.0",
+        "size": 26427,
+        "upload_time": "2024-02-11T14:35:25",
+        "upload_time_iso_8601": "2024-02-11T14:35:25.623799Z",
+        "yanked": true,
+        "yanked_reason": "Regression Error"
+      }
+    ],
+    "0.32.1": [
+      {
+        "filename": "pozalabs_compose-0.32.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11,<4.0",
+        "size": 45701,
+        "upload_time": "2024-02-11T15:31:26",
+        "upload_time_iso_8601": "2024-02-11T15:31:26.262902Z",
+        "yanked": true,
+        "yanked_reason": "Recusrion Error"
+      },
+      {
+        "filename": "pozalabs_compose-0.32.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11,<4.0",
+        "size": 25299,
+        "upload_time": "2024-02-11T15:31:28",
+        "upload_time_iso_8601": "2024-02-11T15:31:28.696160Z",
+        "yanked": true,
+        "yanked_reason": "Recusrion Error"
+      }
+    ],
+    "0.32.2": [
+      {
+        "filename": "pozalabs_compose-0.32.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11,<4.0",
+        "size": 45709,
+        "upload_time": "2024-02-11T16:05:07",
+        "upload_time_iso_8601": "2024-02-11T16:05:07.937858Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.32.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11,<4.0",
+        "size": 25286,
+        "upload_time": "2024-02-11T16:05:09",
+        "upload_time_iso_8601": "2024-02-11T16:05:09.849098Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.33.0": [
+      {
+        "filename": "pozalabs_compose-0.33.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 46033,
+        "upload_time": "2024-03-20T15:45:59",
+        "upload_time_iso_8601": "2024-03-20T15:45:59.267146Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.33.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 25559,
+        "upload_time": "2024-03-20T15:46:01",
+        "upload_time_iso_8601": "2024-03-20T15:46:01.613760Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.34.0": [
+      {
+        "filename": "pozalabs_compose-0.34.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 51645,
+        "upload_time": "2024-04-11T15:11:01",
+        "upload_time_iso_8601": "2024-04-11T15:11:01.966799Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.34.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 29001,
+        "upload_time": "2024-04-11T15:11:03",
+        "upload_time_iso_8601": "2024-04-11T15:11:03.503461Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.35.0": [
+      {
+        "filename": "pozalabs_compose-0.35.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 52359,
+        "upload_time": "2024-04-19T06:37:42",
+        "upload_time_iso_8601": "2024-04-19T06:37:42.433072Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.35.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 29290,
+        "upload_time": "2024-04-19T06:37:43",
+        "upload_time_iso_8601": "2024-04-19T06:37:43.959956Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.36.0": [
+      {
+        "filename": "pozalabs_compose-0.36.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 54896,
+        "upload_time": "2024-05-17T05:28:26",
+        "upload_time_iso_8601": "2024-05-17T05:28:26.281524Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.36.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 30569,
+        "upload_time": "2024-05-17T05:28:28",
+        "upload_time_iso_8601": "2024-05-17T05:28:28.262172Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.36.1": [
+      {
+        "filename": "pozalabs_compose-0.36.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 54902,
+        "upload_time": "2024-05-20T05:14:21",
+        "upload_time_iso_8601": "2024-05-20T05:14:21.047261Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.36.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 30583,
+        "upload_time": "2024-05-20T05:14:22",
+        "upload_time_iso_8601": "2024-05-20T05:14:22.832495Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.37.0": [
+      {
+        "filename": "pozalabs_compose-0.37.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 56532,
+        "upload_time": "2024-05-20T10:16:51",
+        "upload_time_iso_8601": "2024-05-20T10:16:51.205129Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.37.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 31640,
+        "upload_time": "2024-05-20T10:16:53",
+        "upload_time_iso_8601": "2024-05-20T10:16:53.115700Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.37.1": [
+      {
+        "filename": "pozalabs_compose-0.37.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 56637,
+        "upload_time": "2024-05-22T02:17:28",
+        "upload_time_iso_8601": "2024-05-22T02:17:28.385170Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.37.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 31703,
+        "upload_time": "2024-05-22T02:17:30",
+        "upload_time_iso_8601": "2024-05-22T02:17:30.016319Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.38.0": [
+      {
+        "filename": "pozalabs_compose-0.38.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 56797,
+        "upload_time": "2024-05-23T06:28:30",
+        "upload_time_iso_8601": "2024-05-23T06:28:30.816943Z",
+        "yanked": true,
+        "yanked_reason": "regressive error"
+      },
+      {
+        "filename": "pozalabs_compose-0.38.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 31843,
+        "upload_time": "2024-05-23T06:28:32",
+        "upload_time_iso_8601": "2024-05-23T06:28:32.439461Z",
+        "yanked": true,
+        "yanked_reason": "regressive error"
+      }
+    ],
+    "0.38.1": [
+      {
+        "filename": "pozalabs_compose-0.38.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 56796,
+        "upload_time": "2024-05-23T10:01:55",
+        "upload_time_iso_8601": "2024-05-23T10:01:55.077556Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.38.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 31848,
+        "upload_time": "2024-05-23T10:01:56",
+        "upload_time_iso_8601": "2024-05-23T10:01:56.469793Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.39.0": [
+      {
+        "filename": "pozalabs_compose-0.39.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 57134,
+        "upload_time": "2024-05-30T06:08:20",
+        "upload_time_iso_8601": "2024-05-30T06:08:20.979636Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.39.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 32149,
+        "upload_time": "2024-05-30T06:08:22",
+        "upload_time_iso_8601": "2024-05-30T06:08:22.902202Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "pozalabs_compose-0.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 11922,
+        "upload_time": "2023-01-27T01:29:07",
+        "upload_time_iso_8601": "2023-01-27T01:29:07.082341Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 7019,
+        "upload_time": "2023-01-27T01:29:05",
+        "upload_time_iso_8601": "2023-01-27T01:29:05.481706Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.40.0": [
+      {
+        "filename": "pozalabs_compose-0.40.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 57365,
+        "upload_time": "2024-06-04T09:03:33",
+        "upload_time_iso_8601": "2024-06-04T09:03:33.061871Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.40.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 32340,
+        "upload_time": "2024-06-04T09:03:34",
+        "upload_time_iso_8601": "2024-06-04T09:03:34.911781Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.41.0": [
+      {
+        "filename": "pozalabs_compose-0.41.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 57595,
+        "upload_time": "2024-06-07T09:25:12",
+        "upload_time_iso_8601": "2024-06-07T09:25:12.604325Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.41.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 32507,
+        "upload_time": "2024-06-07T09:25:14",
+        "upload_time_iso_8601": "2024-06-07T09:25:14.280873Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.42.0": [
+      {
+        "filename": "pozalabs_compose-0.42.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 58986,
+        "upload_time": "2024-06-12T09:06:18",
+        "upload_time_iso_8601": "2024-06-12T09:06:18.087279Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.42.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 33287,
+        "upload_time": "2024-06-12T09:07:02",
+        "upload_time_iso_8601": "2024-06-12T09:07:02.356897Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.43.0": [
+      {
+        "filename": "pozalabs_compose-0.43.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 64434,
+        "upload_time": "2024-06-19T09:36:30",
+        "upload_time_iso_8601": "2024-06-19T09:36:30.563507Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.43.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 36132,
+        "upload_time": "2024-06-19T09:36:32",
+        "upload_time_iso_8601": "2024-06-19T09:36:32.832176Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.44.0": [
+      {
+        "filename": "pozalabs_compose-0.44.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.11",
+        "size": 64545,
+        "upload_time": "2024-06-21T09:13:55",
+        "upload_time_iso_8601": "2024-06-21T09:13:55.074063Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.44.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.11",
+        "size": 36274,
+        "upload_time": "2024-06-21T09:13:57",
+        "upload_time_iso_8601": "2024-06-21T09:13:57.441674Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.45.0": [
+      {
+        "filename": "pozalabs_compose-0.45.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 64533,
+        "upload_time": "2024-06-26T06:35:20",
+        "upload_time_iso_8601": "2024-06-26T06:35:20.914517Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.45.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 36235,
+        "upload_time": "2024-06-26T06:35:22",
+        "upload_time_iso_8601": "2024-06-26T06:35:22.730624Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.46.0": [
+      {
+        "filename": "pozalabs_compose-0.46.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 64643,
+        "upload_time": "2024-07-09T00:48:21",
+        "upload_time_iso_8601": "2024-07-09T00:48:21.946592Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.46.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 36351,
+        "upload_time": "2024-07-09T00:48:23",
+        "upload_time_iso_8601": "2024-07-09T00:48:23.866209Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.47.0": [
+      {
+        "filename": "pozalabs_compose-0.47.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 67416,
+        "upload_time": "2024-07-17T01:10:31",
+        "upload_time_iso_8601": "2024-07-17T01:10:31.805810Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.47.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 37807,
+        "upload_time": "2024-07-17T01:10:33",
+        "upload_time_iso_8601": "2024-07-17T01:10:33.782790Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.48.0": [
+      {
+        "filename": "pozalabs_compose-0.48.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 70038,
+        "upload_time": "2024-07-23T07:21:50",
+        "upload_time_iso_8601": "2024-07-23T07:21:50.719245Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.48.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 39152,
+        "upload_time": "2024-07-23T07:21:51",
+        "upload_time_iso_8601": "2024-07-23T07:21:51.959724Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.49.0": [
+      {
+        "filename": "pozalabs_compose-0.49.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 70042,
+        "upload_time": "2024-07-26T09:37:36",
+        "upload_time_iso_8601": "2024-07-26T09:37:36.796832Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.49.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 39165,
+        "upload_time": "2024-07-26T09:37:38",
+        "upload_time_iso_8601": "2024-07-26T09:37:38.140602Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.0": [
+      {
+        "filename": "pozalabs_compose-0.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 16596,
+        "upload_time": "2023-02-13T10:22:39",
+        "upload_time_iso_8601": "2023-02-13T10:22:39.321766Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 9116,
+        "upload_time": "2023-02-13T10:22:37",
+        "upload_time_iso_8601": "2023-02-13T10:22:37.815869Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.50.0": [
+      {
+        "filename": "pozalabs_compose-0.50.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 70806,
+        "upload_time": "2024-07-27T13:29:21",
+        "upload_time_iso_8601": "2024-07-27T13:29:21.470525Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.50.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 39582,
+        "upload_time": "2024-07-27T13:29:23",
+        "upload_time_iso_8601": "2024-07-27T13:29:23.192045Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.51.0": [
+      {
+        "filename": "pozalabs_compose-0.51.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 72956,
+        "upload_time": "2024-07-31T05:27:51",
+        "upload_time_iso_8601": "2024-07-31T05:27:51.706365Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-0.51.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 40895,
+        "upload_time": "2024-07-31T05:27:53",
+        "upload_time_iso_8601": "2024-07-31T05:27:53.235809Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.0": [
+      {
+        "filename": "pozalabs_compose-0.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 17892,
+        "upload_time": "2023-02-28T09:56:25",
+        "upload_time_iso_8601": "2023-02-28T09:56:25.891862Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 9738,
+        "upload_time": "2023-02-28T09:56:24",
+        "upload_time_iso_8601": "2023-02-28T09:56:24.792440Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.0": [
+      {
+        "filename": "pozalabs_compose-0.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 19169,
+        "upload_time": "2023-03-14T06:23:24",
+        "upload_time_iso_8601": "2023-03-14T06:23:24.485247Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 10587,
+        "upload_time": "2023-03-14T06:23:22",
+        "upload_time_iso_8601": "2023-03-14T06:23:22.922106Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.1": [
+      {
+        "filename": "pozalabs_compose-0.7.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 19165,
+        "upload_time": "2023-03-14T06:51:46",
+        "upload_time_iso_8601": "2023-03-14T06:51:46.366347Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.7.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 10590,
+        "upload_time": "2023-03-14T06:51:45",
+        "upload_time_iso_8601": "2023-03-14T06:51:45.037716Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.0": [
+      {
+        "filename": "pozalabs_compose-0.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 19822,
+        "upload_time": "2023-03-29T02:32:41",
+        "upload_time_iso_8601": "2023-03-29T02:32:41.169918Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 10979,
+        "upload_time": "2023-03-29T02:32:39",
+        "upload_time_iso_8601": "2023-03-29T02:32:39.521614Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0": [
+      {
+        "filename": "pozalabs_compose-0.9.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 20201,
+        "upload_time": "2023-04-08T04:14:07",
+        "upload_time_iso_8601": "2023-04-08T04:14:07.591123Z",
+        "yanked": true,
+        "yanked_reason": "Wrong implementation of TextSearchOperator"
+      },
+      {
+        "filename": "pozalabs-compose-0.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 11397,
+        "upload_time": "2023-04-08T04:14:06",
+        "upload_time_iso_8601": "2023-04-08T04:14:06.542924Z",
+        "yanked": true,
+        "yanked_reason": "Wrong implementation of TextSearchOperator"
+      }
+    ],
+    "0.9.1": [
+      {
+        "filename": "pozalabs_compose-0.9.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 20200,
+        "upload_time": "2023-04-08T05:12:17",
+        "upload_time_iso_8601": "2023-04-08T05:12:17.639527Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs-compose-0.9.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 11397,
+        "upload_time": "2023-04-08T05:12:16",
+        "upload_time_iso_8601": "2023-04-08T05:12:16.064500Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.0": [
+      {
+        "filename": "pozalabs_compose-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 70188,
+        "upload_time": "2024-08-02T08:28:43",
+        "upload_time_iso_8601": "2024-08-02T08:28:43.553918Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 39158,
+        "upload_time": "2024-08-02T08:28:45",
+        "upload_time_iso_8601": "2024-08-02T08:28:45.148959Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "pozalabs_compose-1.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 70286,
+        "upload_time": "2024-08-05T09:35:05",
+        "upload_time_iso_8601": "2024-08-05T09:35:05.129683Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 39256,
+        "upload_time": "2024-08-05T09:35:13",
+        "upload_time_iso_8601": "2024-08-05T09:35:13.352738Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.10.0": [
+      {
+        "filename": "pozalabs_compose-1.10.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.12",
+        "size": 74593,
+        "upload_time": "2025-01-14T10:20:38",
+        "upload_time_iso_8601": "2025-01-14T10:20:38.610440Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-1.10.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.12",
+        "size": 39111,
+        "upload_time": "2025-01-14T10:20:39",
+        "upload_time_iso_8601": "2025-01-14T10:20:39.980729Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "pozalabs_compose-1.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 70587,
+        "upload_time": "2024-08-16T10:23:09",
+        "upload_time_iso_8601": "2024-08-16T10:23:09.834012Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-1.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 39528,
+        "upload_time": "2024-08-16T10:23:12",
+        "upload_time_iso_8601": "2024-08-16T10:23:12.144248Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.0": [
+      {
+        "filename": "pozalabs_compose-1.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 72098,
+        "upload_time": "2024-09-03T05:15:55",
+        "upload_time_iso_8601": "2024-09-03T05:15:55.053914Z",
+        "yanked": true,
+        "yanked_reason": "Regressive error on MongoRepository"
+      },
+      {
+        "filename": "pozalabs_compose-1.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 40333,
+        "upload_time": "2024-09-03T05:15:56",
+        "upload_time_iso_8601": "2024-09-03T05:15:56.577700Z",
+        "yanked": true,
+        "yanked_reason": "Regressive error on MongoRepository"
+      }
+    ],
+    "1.4.0": [
+      {
+        "filename": "pozalabs_compose-1.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.11",
+        "size": 72084,
+        "upload_time": "2024-09-09T08:30:44",
+        "upload_time_iso_8601": "2024-09-09T08:30:44.868215Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-1.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.11",
+        "size": 40295,
+        "upload_time": "2024-09-09T08:30:45",
+        "upload_time_iso_8601": "2024-09-09T08:30:45.917651Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.0": [
+      {
+        "filename": "pozalabs_compose-1.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.12",
+        "size": 72828,
+        "upload_time": "2024-10-22T08:36:40",
+        "upload_time_iso_8601": "2024-10-22T08:36:40.214974Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-1.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.12",
+        "size": 40615,
+        "upload_time": "2024-10-22T08:36:42",
+        "upload_time_iso_8601": "2024-10-22T08:36:42.027965Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.0": [
+      {
+        "filename": "pozalabs_compose-1.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.12",
+        "size": 72597,
+        "upload_time": "2024-10-30T15:45:30",
+        "upload_time_iso_8601": "2024-10-30T15:45:30.645628Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-1.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.12",
+        "size": 40545,
+        "upload_time": "2024-10-30T15:45:31",
+        "upload_time_iso_8601": "2024-10-30T15:45:31.752818Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.7.0": [
+      {
+        "filename": "pozalabs_compose-1.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.12",
+        "size": 72184,
+        "upload_time": "2024-11-06T08:58:53",
+        "upload_time_iso_8601": "2024-11-06T08:58:53.846021Z",
+        "yanked": true,
+        "yanked_reason": "Implementation Error"
+      },
+      {
+        "filename": "pozalabs_compose-1.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.12",
+        "size": 40413,
+        "upload_time": "2024-11-06T08:58:55",
+        "upload_time_iso_8601": "2024-11-06T08:58:55.287531Z",
+        "yanked": true,
+        "yanked_reason": "Implementation Error"
+      }
+    ],
+    "1.7.1": [
+      {
+        "filename": "pozalabs_compose-1.7.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.12",
+        "size": 72189,
+        "upload_time": "2024-11-06T09:14:05",
+        "upload_time_iso_8601": "2024-11-06T09:14:05.139204Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-1.7.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.12",
+        "size": 40421,
+        "upload_time": "2024-11-06T09:14:06",
+        "upload_time_iso_8601": "2024-11-06T09:14:06.921540Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.8.0": [
+      {
+        "filename": "pozalabs_compose-1.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.12",
+        "size": 71858,
+        "upload_time": "2024-11-08T10:05:15",
+        "upload_time_iso_8601": "2024-11-08T10:05:15.976001Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-1.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.12",
+        "size": 40392,
+        "upload_time": "2024-11-08T10:05:17",
+        "upload_time_iso_8601": "2024-11-08T10:05:17.613440Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.9.0": [
+      {
+        "filename": "pozalabs_compose-1.9.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.12",
+        "size": 73540,
+        "upload_time": "2025-01-14T02:56:17",
+        "upload_time_iso_8601": "2025-01-14T02:56:17.712350Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pozalabs_compose-1.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.12",
+        "size": 41565,
+        "upload_time": "2025-01-14T02:56:20",
+        "upload_time_iso_8601": "2025-01-14T02:56:20.276877Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

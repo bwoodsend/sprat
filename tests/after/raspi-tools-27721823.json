@@ -1,0 +1,543 @@
+{
+  "info": {
+    "author": "Elijah M",
+    "author_email": "gichiam22@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Operating System :: POSIX :: Linux",
+      "Programming Language :: Python :: 3",
+      "Topic :: System :: Hardware :: Hardware Drivers"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Classifier",
+      "Description",
+      "Description-Content-Type",
+      "Requires-Dist",
+      "Summary"
+    ],
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "raspi-tools",
+    "package_url": "https://pypi.org/project/raspi-tools/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/raspi-tools/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/raspi-tools/1.0.18/",
+    "requires_dist": [
+      "gps",
+      "tinydb",
+      "tqdm"
+    ],
+    "requires_python": null,
+    "summary": "A Python library for Raspberry Pi tools including GPS and board LED utilities.",
+    "version": "1.0.18",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27721823,
+  "releases": {
+    "1.0.0": [
+      {
+        "filename": "raspi_tools-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1378,
+        "upload_time": "2024-12-06T02:48:09",
+        "upload_time_iso_8601": "2024-12-06T02:48:09.937450Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 1416,
+        "upload_time": "2024-12-06T02:48:11",
+        "upload_time_iso_8601": "2024-12-06T02:48:11.722649Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.1": [
+      {
+        "filename": "raspi_tools-1.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4076,
+        "upload_time": "2024-12-06T03:02:42",
+        "upload_time_iso_8601": "2024-12-06T03:02:42.797830Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3665,
+        "upload_time": "2024-12-06T03:02:44",
+        "upload_time_iso_8601": "2024-12-06T03:02:44.530854Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.10": [
+      {
+        "filename": "raspi_tools-1.0.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6344,
+        "upload_time": "2025-03-02T06:10:21",
+        "upload_time_iso_8601": "2025-03-02T06:10:21.491593Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5890,
+        "upload_time": "2025-03-02T06:10:23",
+        "upload_time_iso_8601": "2025-03-02T06:10:23.172662Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.11": [
+      {
+        "filename": "raspi_tools-1.0.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6341,
+        "upload_time": "2025-03-02T06:16:34",
+        "upload_time_iso_8601": "2025-03-02T06:16:34.446315Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5866,
+        "upload_time": "2025-03-02T06:16:37",
+        "upload_time_iso_8601": "2025-03-02T06:16:37.929747Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.12": [
+      {
+        "filename": "raspi_tools-1.0.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6338,
+        "upload_time": "2025-03-02T06:19:41",
+        "upload_time_iso_8601": "2025-03-02T06:19:41.578942Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5876,
+        "upload_time": "2025-03-02T06:19:43",
+        "upload_time_iso_8601": "2025-03-02T06:19:43.479531Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.13": [
+      {
+        "filename": "raspi_tools-1.0.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6335,
+        "upload_time": "2025-03-02T06:20:56",
+        "upload_time_iso_8601": "2025-03-02T06:20:56.979923Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5876,
+        "upload_time": "2025-03-02T06:20:58",
+        "upload_time_iso_8601": "2025-03-02T06:20:58.845468Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.14": [
+      {
+        "filename": "raspi_tools-1.0.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6336,
+        "upload_time": "2025-03-02T06:44:32",
+        "upload_time_iso_8601": "2025-03-02T06:44:32.482166Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5866,
+        "upload_time": "2025-03-02T06:44:35",
+        "upload_time_iso_8601": "2025-03-02T06:44:35.379732Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.15": [
+      {
+        "filename": "raspi_tools-1.0.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6343,
+        "upload_time": "2025-03-02T06:48:31",
+        "upload_time_iso_8601": "2025-03-02T06:48:31.114133Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5876,
+        "upload_time": "2025-03-02T06:48:32",
+        "upload_time_iso_8601": "2025-03-02T06:48:32.821101Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.16": [
+      {
+        "filename": "raspi_tools-1.0.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6367,
+        "upload_time": "2025-03-02T06:52:39",
+        "upload_time_iso_8601": "2025-03-02T06:52:39.255259Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5907,
+        "upload_time": "2025-03-02T06:52:40",
+        "upload_time_iso_8601": "2025-03-02T06:52:40.936230Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.17": [
+      {
+        "filename": "raspi_tools-1.0.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6367,
+        "upload_time": "2025-03-02T09:01:19",
+        "upload_time_iso_8601": "2025-03-02T09:01:19.414531Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5909,
+        "upload_time": "2025-03-02T09:01:21",
+        "upload_time_iso_8601": "2025-03-02T09:01:21.108504Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.18": [
+      {
+        "filename": "raspi_tools-1.0.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6374,
+        "upload_time": "2025-03-02T09:11:57",
+        "upload_time_iso_8601": "2025-03-02T09:11:57.075692Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5901,
+        "upload_time": "2025-03-02T09:11:58",
+        "upload_time_iso_8601": "2025-03-02T09:11:58.696296Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.2": [
+      {
+        "filename": "raspi_tools-1.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4118,
+        "upload_time": "2024-12-06T03:09:30",
+        "upload_time_iso_8601": "2024-12-06T03:09:30.167180Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3676,
+        "upload_time": "2024-12-06T03:09:31",
+        "upload_time_iso_8601": "2024-12-06T03:09:31.753672Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.3": [
+      {
+        "filename": "raspi_tools-1.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4103,
+        "upload_time": "2024-12-06T03:12:47",
+        "upload_time_iso_8601": "2024-12-06T03:12:47.455136Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3655,
+        "upload_time": "2024-12-06T03:12:49",
+        "upload_time_iso_8601": "2024-12-06T03:12:49.024861Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.4": [
+      {
+        "filename": "raspi_tools-1.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4129,
+        "upload_time": "2024-12-06T03:15:50",
+        "upload_time_iso_8601": "2024-12-06T03:15:50.770958Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3652,
+        "upload_time": "2024-12-06T03:15:52",
+        "upload_time_iso_8601": "2024-12-06T03:15:52.324269Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.5": [
+      {
+        "filename": "raspi_tools-1.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4140,
+        "upload_time": "2024-12-06T03:22:56",
+        "upload_time_iso_8601": "2024-12-06T03:22:56.755075Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3680,
+        "upload_time": "2024-12-06T03:22:58",
+        "upload_time_iso_8601": "2024-12-06T03:22:58.299255Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.6": [
+      {
+        "filename": "raspi_tools-1.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4428,
+        "upload_time": "2024-12-06T03:29:55",
+        "upload_time_iso_8601": "2024-12-06T03:29:55.447884Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3957,
+        "upload_time": "2024-12-06T03:29:57",
+        "upload_time_iso_8601": "2024-12-06T03:29:57.094320Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.7": [
+      {
+        "filename": "raspi_tools-1.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4587,
+        "upload_time": "2024-12-06T03:41:03",
+        "upload_time_iso_8601": "2024-12-06T03:41:03.387621Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 4123,
+        "upload_time": "2024-12-06T03:41:04",
+        "upload_time_iso_8601": "2024-12-06T03:41:04.841865Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.8": [
+      {
+        "filename": "raspi_tools-1.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6033,
+        "upload_time": "2024-12-06T03:56:01",
+        "upload_time_iso_8601": "2024-12-06T03:56:01.879928Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5523,
+        "upload_time": "2024-12-06T03:56:03",
+        "upload_time_iso_8601": "2024-12-06T03:56:03.496571Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.9": [
+      {
+        "filename": "raspi_tools-1.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6117,
+        "upload_time": "2025-03-02T05:58:07",
+        "upload_time_iso_8601": "2025-03-02T05:58:07.570431Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5679,
+        "upload_time": "2025-03-02T05:58:09",
+        "upload_time_iso_8601": "2025-03-02T05:58:09.221895Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1832 @@
+{
+  "info": {
+    "author": "Lab Digital",
+    "author_email": "admin@ibrag.me",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Web Environment",
+      "Framework :: Django",
+      "Framework :: Django :: 1.11",
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.5",
+      "Programming Language :: Python :: 3.6",
+      "Programming Language :: Python :: 3.7"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Classifier",
+      "Description",
+      "Description-Content-Type",
+      "Home-Page",
+      "License",
+      "Provides-Extra",
+      "Requires-Dist",
+      "Summary"
+    ],
+    "home_page": "https://github.com/LabD/django-iam-dbauth",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "django-rds-iam-auth",
+    "package_url": "https://pypi.org/project/django-rds-iam-auth/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/django-rds-iam-auth/",
+    "project_urls": {
+      "Homepage": "https://github.com/LabD/django-iam-dbauth"
+    },
+    "provides_extra": [
+      "docs",
+      "test"
+    ],
+    "release_url": "https://pypi.org/project/django-rds-iam-auth/0.0.88/",
+    "requires_dist": [
+      "Django>=1.11",
+      "boto3",
+      "dnspython",
+      "requests",
+      "djangorestframework",
+      "PyJWT",
+      "cryptography",
+      "coverage; extra == \"test\"",
+      "pretend; extra == \"test\"",
+      "pytest; extra == \"test\"",
+      "pytest-cov; extra == \"test\"",
+      "pytest-mock; extra == \"test\"",
+      "pytest-django; extra == \"test\""
+    ],
+    "requires_python": null,
+    "summary": "Django database backends to use AWS Database IAM Authentication",
+    "version": "0.0.88",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27699063,
+  "releases": {
+    "0.0.1": [
+      {
+        "filename": "django_rds_iam_auth-0.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 46172,
+        "upload_time": "2021-10-13T08:01:26",
+        "upload_time_iso_8601": "2021-10-13T08:01:26.756040Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21308,
+        "upload_time": "2021-10-13T08:01:28",
+        "upload_time_iso_8601": "2021-10-13T08:01:28.489070Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.10": [
+      {
+        "filename": "django_rds_iam_auth-0.0.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 47579,
+        "upload_time": "2021-10-15T16:31:05",
+        "upload_time_iso_8601": "2021-10-15T16:31:05.651032Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22085,
+        "upload_time": "2021-10-15T16:31:07",
+        "upload_time_iso_8601": "2021-10-15T16:31:07.338321Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.11": [
+      {
+        "filename": "django_rds_iam_auth-0.0.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 47580,
+        "upload_time": "2021-10-18T12:49:26",
+        "upload_time_iso_8601": "2021-10-18T12:49:26.240887Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22091,
+        "upload_time": "2021-10-18T12:49:28",
+        "upload_time_iso_8601": "2021-10-18T12:49:28.016916Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.12": [
+      {
+        "filename": "django_rds_iam_auth-0.0.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 46691,
+        "upload_time": "2021-10-19T09:15:39",
+        "upload_time_iso_8601": "2021-10-19T09:15:39.149120Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22074,
+        "upload_time": "2021-10-19T09:15:41",
+        "upload_time_iso_8601": "2021-10-19T09:15:41.048983Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.13": [
+      {
+        "filename": "django_rds_iam_auth-0.0.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 46712,
+        "upload_time": "2021-10-20T15:46:34",
+        "upload_time_iso_8601": "2021-10-20T15:46:34.866660Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22134,
+        "upload_time": "2021-10-20T15:46:36",
+        "upload_time_iso_8601": "2021-10-20T15:46:36.356180Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.14": [
+      {
+        "filename": "django_rds_iam_auth-0.0.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 47310,
+        "upload_time": "2021-10-21T04:48:59",
+        "upload_time_iso_8601": "2021-10-21T04:48:59.228752Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22227,
+        "upload_time": "2021-10-21T04:49:02",
+        "upload_time_iso_8601": "2021-10-21T04:49:02.139341Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.16": [
+      {
+        "filename": "django_rds_iam_auth-0.0.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 47829,
+        "upload_time": "2021-10-26T11:24:15",
+        "upload_time_iso_8601": "2021-10-26T11:24:15.143333Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22297,
+        "upload_time": "2021-10-26T11:24:16",
+        "upload_time_iso_8601": "2021-10-26T11:24:16.545030Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.17": [
+      {
+        "filename": "django_rds_iam_auth-0.0.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49452,
+        "upload_time": "2021-10-27T05:23:16",
+        "upload_time_iso_8601": "2021-10-27T05:23:16.905607Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22911,
+        "upload_time": "2021-10-27T05:23:18",
+        "upload_time_iso_8601": "2021-10-27T05:23:18.165531Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.18": [
+      {
+        "filename": "django_rds_iam_auth-0.0.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49477,
+        "upload_time": "2021-10-27T07:19:12",
+        "upload_time_iso_8601": "2021-10-27T07:19:12.083079Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22945,
+        "upload_time": "2021-10-27T07:19:13",
+        "upload_time_iso_8601": "2021-10-27T07:19:13.586958Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.19": [
+      {
+        "filename": "django_rds_iam_auth-0.0.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49467,
+        "upload_time": "2021-10-27T07:25:52",
+        "upload_time_iso_8601": "2021-10-27T07:25:52.460307Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22925,
+        "upload_time": "2021-10-27T07:25:53",
+        "upload_time_iso_8601": "2021-10-27T07:25:53.755227Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.2": [
+      {
+        "filename": "django_rds_iam_auth-0.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 46173,
+        "upload_time": "2021-10-13T08:05:08",
+        "upload_time_iso_8601": "2021-10-13T08:05:08.491733Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21302,
+        "upload_time": "2021-10-13T08:05:10",
+        "upload_time_iso_8601": "2021-10-13T08:05:10.376604Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.20": [
+      {
+        "filename": "django_rds_iam_auth-0.0.20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49474,
+        "upload_time": "2021-10-27T07:47:41",
+        "upload_time_iso_8601": "2021-10-27T07:47:41.151884Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22914,
+        "upload_time": "2021-10-27T07:47:42",
+        "upload_time_iso_8601": "2021-10-27T07:47:42.189441Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.21": [
+      {
+        "filename": "django_rds_iam_auth-0.0.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49476,
+        "upload_time": "2021-10-27T07:53:17",
+        "upload_time_iso_8601": "2021-10-27T07:53:17.129628Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22922,
+        "upload_time": "2021-10-27T07:53:18",
+        "upload_time_iso_8601": "2021-10-27T07:53:18.064824Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.22": [
+      {
+        "filename": "django_rds_iam_auth-0.0.22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49478,
+        "upload_time": "2021-10-27T12:46:26",
+        "upload_time_iso_8601": "2021-10-27T12:46:26.184442Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22931,
+        "upload_time": "2021-10-27T12:46:27",
+        "upload_time_iso_8601": "2021-10-27T12:46:27.676897Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.23": [
+      {
+        "filename": "django_rds_iam_auth-0.0.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49483,
+        "upload_time": "2021-10-27T13:47:29",
+        "upload_time_iso_8601": "2021-10-27T13:47:29.031137Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22947,
+        "upload_time": "2021-10-27T13:47:30",
+        "upload_time_iso_8601": "2021-10-27T13:47:30.375087Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.24": [
+      {
+        "filename": "django_rds_iam_auth-0.0.24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49482,
+        "upload_time": "2021-10-27T13:59:25",
+        "upload_time_iso_8601": "2021-10-27T13:59:25.762640Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22934,
+        "upload_time": "2021-10-27T13:59:27",
+        "upload_time_iso_8601": "2021-10-27T13:59:27.116090Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.25": [
+      {
+        "filename": "django_rds_iam_auth-0.0.25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49483,
+        "upload_time": "2021-10-27T14:03:47",
+        "upload_time_iso_8601": "2021-10-27T14:03:47.403842Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22940,
+        "upload_time": "2021-10-27T14:03:48",
+        "upload_time_iso_8601": "2021-10-27T14:03:48.443389Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.26": [
+      {
+        "filename": "django_rds_iam_auth-0.0.26-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49487,
+        "upload_time": "2021-10-27T14:09:54",
+        "upload_time_iso_8601": "2021-10-27T14:09:54.396617Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22950,
+        "upload_time": "2021-10-27T14:09:56",
+        "upload_time_iso_8601": "2021-10-27T14:09:56.145099Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.27": [
+      {
+        "filename": "django_rds_iam_auth-0.0.27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49479,
+        "upload_time": "2021-10-28T04:45:37",
+        "upload_time_iso_8601": "2021-10-28T04:45:37.217275Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22930,
+        "upload_time": "2021-10-28T04:45:38",
+        "upload_time_iso_8601": "2021-10-28T04:45:38.440882Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.28": [
+      {
+        "filename": "django_rds_iam_auth-0.0.28-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49415,
+        "upload_time": "2021-11-08T09:16:18",
+        "upload_time_iso_8601": "2021-11-08T09:16:18.181976Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22949,
+        "upload_time": "2021-11-08T09:16:19",
+        "upload_time_iso_8601": "2021-11-08T09:16:19.273889Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.29": [
+      {
+        "filename": "django_rds_iam_auth-0.0.29-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49797,
+        "upload_time": "2021-11-08T12:07:56",
+        "upload_time_iso_8601": "2021-11-08T12:07:56.976407Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.29.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23042,
+        "upload_time": "2021-11-08T12:07:58",
+        "upload_time_iso_8601": "2021-11-08T12:07:58.176748Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.3": [
+      {
+        "filename": "django_rds_iam_auth-0.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 46546,
+        "upload_time": "2021-10-13T08:10:08",
+        "upload_time_iso_8601": "2021-10-13T08:10:08.291474Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21940,
+        "upload_time": "2021-10-13T08:10:10",
+        "upload_time_iso_8601": "2021-10-13T08:10:10.012888Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.30": [
+      {
+        "filename": "django_rds_iam_auth-0.0.30-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49793,
+        "upload_time": "2021-11-08T12:09:44",
+        "upload_time_iso_8601": "2021-11-08T12:09:44.066367Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.30.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23022,
+        "upload_time": "2021-11-08T12:09:45",
+        "upload_time_iso_8601": "2021-11-08T12:09:45.484026Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.31": [
+      {
+        "filename": "django_rds_iam_auth-0.0.31-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49943,
+        "upload_time": "2021-11-08T13:07:53",
+        "upload_time_iso_8601": "2021-11-08T13:07:53.369939Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.31.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23077,
+        "upload_time": "2021-11-08T13:07:54",
+        "upload_time_iso_8601": "2021-11-08T13:07:54.757457Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.32": [
+      {
+        "filename": "django_rds_iam_auth-0.0.32-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49891,
+        "upload_time": "2021-11-12T14:00:41",
+        "upload_time_iso_8601": "2021-11-12T14:00:41.515716Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.32.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23062,
+        "upload_time": "2021-11-12T14:00:43",
+        "upload_time_iso_8601": "2021-11-12T14:00:43.290054Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.33": [
+      {
+        "filename": "django_rds_iam_auth-0.0.33-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 50389,
+        "upload_time": "2021-11-12T14:09:27",
+        "upload_time_iso_8601": "2021-11-12T14:09:27.275136Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23156,
+        "upload_time": "2021-11-12T14:09:28",
+        "upload_time_iso_8601": "2021-11-12T14:09:28.916219Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.34": [
+      {
+        "filename": "django_rds_iam_auth-0.0.34-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 50486,
+        "upload_time": "2021-11-23T07:33:09",
+        "upload_time_iso_8601": "2021-11-23T07:33:09.785075Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.34.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23149,
+        "upload_time": "2021-11-23T07:33:11",
+        "upload_time_iso_8601": "2021-11-23T07:33:11.307297Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.35": [
+      {
+        "filename": "django_rds_iam_auth-0.0.35-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 50432,
+        "upload_time": "2021-11-23T08:20:56",
+        "upload_time_iso_8601": "2021-11-23T08:20:56.917566Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.35.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23210,
+        "upload_time": "2021-11-23T08:20:58",
+        "upload_time_iso_8601": "2021-11-23T08:20:58.416922Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.36": [
+      {
+        "filename": "django_rds_iam_auth-0.0.36-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 51110,
+        "upload_time": "2021-12-21T13:19:50",
+        "upload_time_iso_8601": "2021-12-21T13:19:50.326354Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.36.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23491,
+        "upload_time": "2021-12-21T13:19:52",
+        "upload_time_iso_8601": "2021-12-21T13:19:52.067273Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.37": [
+      {
+        "filename": "django_rds_iam_auth-0.0.37-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 51115,
+        "upload_time": "2021-12-22T10:44:58",
+        "upload_time_iso_8601": "2021-12-22T10:44:58.288875Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.37.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23502,
+        "upload_time": "2021-12-22T10:44:59",
+        "upload_time_iso_8601": "2021-12-22T10:44:59.740112Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.38": [
+      {
+        "filename": "django_rds_iam_auth-0.0.38-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 51137,
+        "upload_time": "2021-12-29T09:18:36",
+        "upload_time_iso_8601": "2021-12-29T09:18:36.796552Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.38.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23518,
+        "upload_time": "2021-12-29T09:18:38",
+        "upload_time_iso_8601": "2021-12-29T09:18:38.367375Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.4": [
+      {
+        "filename": "django_rds_iam_auth-0.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 46558,
+        "upload_time": "2021-10-13T08:26:07",
+        "upload_time_iso_8601": "2021-10-13T08:26:07.827322Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21934,
+        "upload_time": "2021-10-13T08:26:08",
+        "upload_time_iso_8601": "2021-10-13T08:26:08.920884Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.40": [
+      {
+        "filename": "django_rds_iam_auth-0.0.40-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 51677,
+        "upload_time": "2021-12-29T16:47:16",
+        "upload_time_iso_8601": "2021-12-29T16:47:16.990215Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.40.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23599,
+        "upload_time": "2021-12-29T16:47:18",
+        "upload_time_iso_8601": "2021-12-29T16:47:18.743634Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.41": [
+      {
+        "filename": "django_rds_iam_auth-0.0.41-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 51685,
+        "upload_time": "2022-02-07T13:38:32",
+        "upload_time_iso_8601": "2022-02-07T13:38:32.120432Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.41.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23624,
+        "upload_time": "2022-02-07T13:38:33",
+        "upload_time_iso_8601": "2022-02-07T13:38:33.224726Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.42": [
+      {
+        "filename": "django_rds_iam_auth-0.0.42-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 52203,
+        "upload_time": "2022-02-07T13:49:02",
+        "upload_time_iso_8601": "2022-02-07T13:49:02.410647Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.42.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23697,
+        "upload_time": "2022-02-07T13:49:04",
+        "upload_time_iso_8601": "2022-02-07T13:49:04.135737Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.43": [
+      {
+        "filename": "django_rds_iam_auth-0.0.43-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 53144,
+        "upload_time": "2022-03-15T07:07:11",
+        "upload_time_iso_8601": "2022-03-15T07:07:11.126263Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.43.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24069,
+        "upload_time": "2022-03-15T07:07:12",
+        "upload_time_iso_8601": "2022-03-15T07:07:12.642688Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.45": [
+      {
+        "filename": "django_rds_iam_auth-0.0.45-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 54240,
+        "upload_time": "2022-03-15T10:07:50",
+        "upload_time_iso_8601": "2022-03-15T10:07:50.481955Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.45.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24238,
+        "upload_time": "2022-03-15T10:07:52",
+        "upload_time_iso_8601": "2022-03-15T10:07:52.101224Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.46": [
+      {
+        "filename": "django_rds_iam_auth-0.0.46.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24358,
+        "upload_time": "2022-06-14T08:28:29",
+        "upload_time_iso_8601": "2022-06-14T08:28:29.404915Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.47": [
+      {
+        "filename": "django_rds_iam_auth-0.0.47.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24365,
+        "upload_time": "2022-06-14T08:32:54",
+        "upload_time_iso_8601": "2022-06-14T08:32:54.234310Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.48": [
+      {
+        "filename": "django_rds_iam_auth-0.0.48.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24266,
+        "upload_time": "2022-07-11T15:00:35",
+        "upload_time_iso_8601": "2022-07-11T15:00:35.373809Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.49": [
+      {
+        "filename": "django_rds_iam_auth-0.0.49.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24464,
+        "upload_time": "2022-07-11T15:09:24",
+        "upload_time_iso_8601": "2022-07-11T15:09:24.658640Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.5": [
+      {
+        "filename": "django_rds_iam_auth-0.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 46548,
+        "upload_time": "2021-10-13T08:30:57",
+        "upload_time_iso_8601": "2021-10-13T08:30:57.341056Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21936,
+        "upload_time": "2021-10-13T08:30:59",
+        "upload_time_iso_8601": "2021-10-13T08:30:59.089121Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.50": [
+      {
+        "filename": "django_rds_iam_auth-0.0.50.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24437,
+        "upload_time": "2022-07-11T15:51:46",
+        "upload_time_iso_8601": "2022-07-11T15:51:46.678005Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.51": [
+      {
+        "filename": "django_rds_iam_auth-0.0.51.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24467,
+        "upload_time": "2022-07-12T06:49:40",
+        "upload_time_iso_8601": "2022-07-12T06:49:40.965392Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.52": [
+      {
+        "filename": "django_rds_iam_auth-0.0.52.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24436,
+        "upload_time": "2022-07-20T07:48:57",
+        "upload_time_iso_8601": "2022-07-20T07:48:57.089784Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.53": [
+      {
+        "filename": "django_rds_iam_auth-0.0.53.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24438,
+        "upload_time": "2022-07-20T11:56:26",
+        "upload_time_iso_8601": "2022-07-20T11:56:26.180777Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.54": [
+      {
+        "filename": "django_rds_iam_auth-0.0.54.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24549,
+        "upload_time": "2022-07-20T14:06:35",
+        "upload_time_iso_8601": "2022-07-20T14:06:35.592729Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.55": [
+      {
+        "filename": "django_rds_iam_auth-0.0.55.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24725,
+        "upload_time": "2022-08-09T07:42:15",
+        "upload_time_iso_8601": "2022-08-09T07:42:15.223047Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.56": [
+      {
+        "filename": "django_rds_iam_auth-0.0.56.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25152,
+        "upload_time": "2022-08-15T10:12:00",
+        "upload_time_iso_8601": "2022-08-15T10:12:00.848215Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.57": [
+      {
+        "filename": "django_rds_iam_auth-0.0.57.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24692,
+        "upload_time": "2022-08-15T10:25:17",
+        "upload_time_iso_8601": "2022-08-15T10:25:17.561449Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.58": [
+      {
+        "filename": "django_rds_iam_auth-0.0.58.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25062,
+        "upload_time": "2022-08-15T10:58:14",
+        "upload_time_iso_8601": "2022-08-15T10:58:14.973530Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.59": [
+      {
+        "filename": "django_rds_iam_auth-0.0.59.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25104,
+        "upload_time": "2022-08-15T11:21:46",
+        "upload_time_iso_8601": "2022-08-15T11:21:46.733174Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.6": [
+      {
+        "filename": "django_rds_iam_auth-0.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 46592,
+        "upload_time": "2021-10-13T08:41:54",
+        "upload_time_iso_8601": "2021-10-13T08:41:54.725478Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21961,
+        "upload_time": "2021-10-13T08:41:56",
+        "upload_time_iso_8601": "2021-10-13T08:41:56.185977Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.60": [
+      {
+        "filename": "django_rds_iam_auth-0.0.60.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25119,
+        "upload_time": "2022-08-15T11:24:30",
+        "upload_time_iso_8601": "2022-08-15T11:24:30.061741Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.61": [
+      {
+        "filename": "django_rds_iam_auth-0.0.61.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25120,
+        "upload_time": "2022-08-15T11:40:57",
+        "upload_time_iso_8601": "2022-08-15T11:40:57.145126Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.62": [
+      {
+        "filename": "django_rds_iam_auth-0.0.62.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25301,
+        "upload_time": "2022-08-24T14:55:28",
+        "upload_time_iso_8601": "2022-08-24T14:55:28.043799Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.63": [
+      {
+        "filename": "django_rds_iam_auth-0.0.63.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25346,
+        "upload_time": "2022-08-24T15:07:22",
+        "upload_time_iso_8601": "2022-08-24T15:07:22.728946Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.64": [
+      {
+        "filename": "django_rds_iam_auth-0.0.64.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25301,
+        "upload_time": "2022-09-16T14:14:21",
+        "upload_time_iso_8601": "2022-09-16T14:14:21.901822Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.65": [
+      {
+        "filename": "django_rds_iam_auth-0.0.65.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25395,
+        "upload_time": "2023-01-03T08:53:32",
+        "upload_time_iso_8601": "2023-01-03T08:53:32.797447Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.66": [
+      {
+        "filename": "django_rds_iam_auth-0.0.66.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25406,
+        "upload_time": "2023-01-03T12:16:18",
+        "upload_time_iso_8601": "2023-01-03T12:16:18.990909Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.67": [
+      {
+        "filename": "django_rds_iam_auth-0.0.67.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25524,
+        "upload_time": "2023-01-09T16:22:02",
+        "upload_time_iso_8601": "2023-01-09T16:22:02.704653Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.68": [
+      {
+        "filename": "django_rds_iam_auth-0.0.68.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25542,
+        "upload_time": "2023-01-09T16:23:36",
+        "upload_time_iso_8601": "2023-01-09T16:23:36.708119Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.69": [
+      {
+        "filename": "django_rds_iam_auth-0.0.69.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25525,
+        "upload_time": "2023-01-09T16:28:47",
+        "upload_time_iso_8601": "2023-01-09T16:28:47.599455Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.7": [
+      {
+        "filename": "django_rds_iam_auth-0.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 47133,
+        "upload_time": "2021-10-13T10:30:45",
+        "upload_time_iso_8601": "2021-10-13T10:30:45.665545Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22203,
+        "upload_time": "2021-10-13T10:30:48",
+        "upload_time_iso_8601": "2021-10-13T10:30:48.104401Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.70": [
+      {
+        "filename": "django_rds_iam_auth-0.0.70.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25542,
+        "upload_time": "2023-01-09T16:36:36",
+        "upload_time_iso_8601": "2023-01-09T16:36:36.696257Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.71": [
+      {
+        "filename": "django_rds_iam_auth-0.0.71.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 26491,
+        "upload_time": "2024-09-23T13:28:04",
+        "upload_time_iso_8601": "2024-09-23T13:28:04.190507Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.72": [
+      {
+        "filename": "django_rds_iam_auth-0.0.72.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 26885,
+        "upload_time": "2024-10-04T08:42:21",
+        "upload_time_iso_8601": "2024-10-04T08:42:21.722271Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.73": [
+      {
+        "filename": "django_rds_iam_auth-0.0.73.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 27975,
+        "upload_time": "2024-10-04T09:21:07",
+        "upload_time_iso_8601": "2024-10-04T09:21:07.235978Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.74": [
+      {
+        "filename": "django_rds_iam_auth-0.0.74.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 27994,
+        "upload_time": "2024-10-04T09:24:11",
+        "upload_time_iso_8601": "2024-10-04T09:24:11.253115Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.75": [
+      {
+        "filename": "django_rds_iam_auth-0.0.75.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28053,
+        "upload_time": "2024-10-04T09:53:44",
+        "upload_time_iso_8601": "2024-10-04T09:53:44.119749Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.76": [
+      {
+        "filename": "django_rds_iam_auth-0.0.76.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28152,
+        "upload_time": "2024-10-04T10:26:57",
+        "upload_time_iso_8601": "2024-10-04T10:26:57.742490Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.77": [
+      {
+        "filename": "django_rds_iam_auth-0.0.77.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28112,
+        "upload_time": "2024-10-04T10:30:41",
+        "upload_time_iso_8601": "2024-10-04T10:30:41.186275Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.78": [
+      {
+        "filename": "django_rds_iam_auth-0.0.78.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28129,
+        "upload_time": "2024-10-04T10:38:52",
+        "upload_time_iso_8601": "2024-10-04T10:38:52.204559Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.79": [
+      {
+        "filename": "django_rds_iam_auth-0.0.79.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28129,
+        "upload_time": "2024-10-04T10:50:43",
+        "upload_time_iso_8601": "2024-10-04T10:50:43.471728Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.8": [
+      {
+        "filename": "django_rds_iam_auth-0.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 47128,
+        "upload_time": "2021-10-13T11:38:15",
+        "upload_time_iso_8601": "2021-10-13T11:38:15.641272Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22201,
+        "upload_time": "2021-10-13T11:38:18",
+        "upload_time_iso_8601": "2021-10-13T11:38:18.156882Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.80": [
+      {
+        "filename": "django_rds_iam_auth-0.0.80.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28196,
+        "upload_time": "2024-10-04T11:14:08",
+        "upload_time_iso_8601": "2024-10-04T11:14:08.328405Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.81": [
+      {
+        "filename": "django_rds_iam_auth-0.0.81.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28236,
+        "upload_time": "2024-10-04T15:25:58",
+        "upload_time_iso_8601": "2024-10-04T15:25:58.724970Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.82": [
+      {
+        "filename": "django_rds_iam_auth-0.0.82.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28289,
+        "upload_time": "2024-10-08T08:25:57",
+        "upload_time_iso_8601": "2024-10-08T08:25:57.926580Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.83": [
+      {
+        "filename": "django_rds_iam_auth-0.0.83.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28294,
+        "upload_time": "2024-10-08T08:57:21",
+        "upload_time_iso_8601": "2024-10-08T08:57:21.204104Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.84": [
+      {
+        "filename": "django_rds_iam_auth-0.0.84.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28345,
+        "upload_time": "2024-10-08T09:41:31",
+        "upload_time_iso_8601": "2024-10-08T09:41:31.625141Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.85": [
+      {
+        "filename": "django_rds_iam_auth-0.0.85.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28336,
+        "upload_time": "2024-10-08T10:56:46",
+        "upload_time_iso_8601": "2024-10-08T10:56:46.481228Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.86": [
+      {
+        "filename": "django_rds_iam_auth-0.0.86.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28246,
+        "upload_time": "2024-11-03T18:36:38",
+        "upload_time_iso_8601": "2024-11-03T18:36:38.247654Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.86a0": [
+      {
+        "filename": "django_rds_iam_auth-0.0.86a0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 57930,
+        "upload_time": "2025-02-21T15:43:55",
+        "upload_time_iso_8601": "2025-02-21T15:43:55.083720Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.86a0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28010,
+        "upload_time": "2025-02-21T15:43:57",
+        "upload_time_iso_8601": "2025-02-21T15:43:57.174888Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.86b0": [
+      {
+        "filename": "django_rds_iam_auth-0.0.86b0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 58430,
+        "upload_time": "2025-02-28T14:38:19",
+        "upload_time_iso_8601": "2025-02-28T14:38:19.830390Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.86b0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28153,
+        "upload_time": "2025-02-28T14:38:21",
+        "upload_time_iso_8601": "2025-02-28T14:38:21.908000Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.87": [
+      {
+        "filename": "django_rds_iam_auth-0.0.87.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28313,
+        "upload_time": "2024-11-03T18:37:21",
+        "upload_time_iso_8601": "2024-11-03T18:37:21.193740Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.88": [
+      {
+        "filename": "django_rds_iam_auth-0.0.88-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 57883,
+        "upload_time": "2025-01-20T13:50:30",
+        "upload_time_iso_8601": "2025-01-20T13:50:30.402235Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.88.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 27954,
+        "upload_time": "2025-01-20T13:50:35",
+        "upload_time_iso_8601": "2025-01-20T13:50:35.205642Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.9": [
+      {
+        "filename": "django_rds_iam_auth-0.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 47128,
+        "upload_time": "2021-10-13T12:00:40",
+        "upload_time_iso_8601": "2021-10-13T12:00:40.845776Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "django_rds_iam_auth-0.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21955,
+        "upload_time": "2021-10-13T12:00:42",
+        "upload_time_iso_8601": "2021-10-13T12:00:42.674467Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

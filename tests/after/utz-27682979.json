@@ -1,0 +1,3134 @@
+{
+  "info": {
+    "author": "Ryan Williams",
+    "author_email": "ryan@runsascoded.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/runsascoded/utz",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "utz",
+    "package_url": "https://pypi.org/project/utz/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/utz/",
+    "project_urls": {
+      "Homepage": "https://github.com/runsascoded/utz"
+    },
+    "provides_extra": [
+      "all",
+      "cli",
+      "dt",
+      "git",
+      "mem",
+      "pd",
+      "pdf",
+      "plot",
+      "setup",
+      "size",
+      "test"
+    ],
+    "release_url": "https://pypi.org/project/utz/0.15.3/",
+    "requires_dist": [
+      "stdlb",
+      "pyyaml; extra == \"all\"",
+      "click; extra == \"all\"",
+      "python-dateutil; extra == \"all\"",
+      "pytz; extra == \"all\"",
+      "GitPython; extra == \"all\"",
+      "PyGithub; extra == \"all\"",
+      "memray; extra == \"all\"",
+      "numpy; extra == \"all\"",
+      "pandas; extra == \"all\"",
+      "reportlab; extra == \"all\"",
+      "pyPDF2; extra == \"all\"",
+      "jupyter; extra == \"all\"",
+      "kaleido; extra == \"all\"",
+      "plotly; extra == \"all\"",
+      "setuptools; extra == \"all\"",
+      "humanize; extra == \"all\"",
+      "pytest; extra == \"all\"",
+      "pytest-mock; extra == \"all\"",
+      "python-dateutil==2.9.0; extra == \"all\"",
+      "click; extra == \"cli\"",
+      "click; extra == \"dt\"",
+      "python-dateutil; extra == \"dt\"",
+      "pytz; extra == \"dt\"",
+      "click; extra == \"git\"",
+      "GitPython; extra == \"git\"",
+      "PyGithub; extra == \"git\"",
+      "memray; extra == \"mem\"",
+      "numpy; extra == \"pd\"",
+      "pandas; extra == \"pd\"",
+      "reportlab; extra == \"pdf\"",
+      "pyPDF2; extra == \"pdf\"",
+      "jupyter; extra == \"plot\"",
+      "kaleido; extra == \"plot\"",
+      "plotly; extra == \"plot\"",
+      "setuptools; extra == \"setup\"",
+      "humanize; extra == \"size\"",
+      "pytest; extra == \"test\"",
+      "pytest-mock; extra == \"test\"",
+      "python-dateutil==2.9.0; extra == \"test\""
+    ],
+    "requires_python": ">=3.9",
+    "summary": "*(\"yoots\")*: utilities augmenting the Python standard library; processes, Pytest, Pandas, Plotly, …",
+    "version": "0.15.3",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27682979,
+  "releases": {
+    "0.0.1": [
+      {
+        "filename": "utz-0.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 2379,
+        "upload_time": "2020-09-03T14:10:58",
+        "upload_time_iso_8601": "2020-09-03T14:10:58.445355Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 1733,
+        "upload_time": "2020-09-03T14:11:01",
+        "upload_time_iso_8601": "2020-09-03T14:11:01.390784Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.10": [
+      {
+        "filename": "utz-0.0.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 23049,
+        "upload_time": "2020-09-11T13:01:56",
+        "upload_time_iso_8601": "2020-09-11T13:01:56.752261Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17692,
+        "upload_time": "2020-09-11T13:01:57",
+        "upload_time_iso_8601": "2020-09-11T13:01:57.966782Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.11": [
+      {
+        "filename": "utz-0.0.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 23050,
+        "upload_time": "2020-09-16T16:56:58",
+        "upload_time_iso_8601": "2020-09-16T16:56:58.393779Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17714,
+        "upload_time": "2020-09-16T16:56:59",
+        "upload_time_iso_8601": "2020-09-16T16:56:59.539001Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.12": [
+      {
+        "filename": "utz-0.0.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24604,
+        "upload_time": "2020-10-06T02:10:54",
+        "upload_time_iso_8601": "2020-10-06T02:10:54.804817Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18962,
+        "upload_time": "2020-10-06T02:10:56",
+        "upload_time_iso_8601": "2020-10-06T02:10:56.227423Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.13": [
+      {
+        "filename": "utz-0.0.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24838,
+        "upload_time": "2020-10-13T15:35:17",
+        "upload_time_iso_8601": "2020-10-13T15:35:17.290310Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 19071,
+        "upload_time": "2020-10-13T15:35:18",
+        "upload_time_iso_8601": "2020-10-13T15:35:18.534658Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.14": [
+      {
+        "filename": "utz-0.0.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 26121,
+        "upload_time": "2020-10-13T18:51:50",
+        "upload_time_iso_8601": "2020-10-13T18:51:50.559965Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 19760,
+        "upload_time": "2020-10-13T18:51:52",
+        "upload_time_iso_8601": "2020-10-13T18:51:52.318778Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.15": [
+      {
+        "filename": "utz-0.0.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 26193,
+        "upload_time": "2020-10-13T22:00:26",
+        "upload_time_iso_8601": "2020-10-13T22:00:26.654116Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 19814,
+        "upload_time": "2020-10-13T22:00:27",
+        "upload_time_iso_8601": "2020-10-13T22:00:27.789002Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.16": [
+      {
+        "filename": "utz-0.0.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 26251,
+        "upload_time": "2020-10-13T22:29:06",
+        "upload_time_iso_8601": "2020-10-13T22:29:06.659293Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 19912,
+        "upload_time": "2020-10-13T22:29:07",
+        "upload_time_iso_8601": "2020-10-13T22:29:07.782601Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.17": [
+      {
+        "filename": "utz-0.0.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 26253,
+        "upload_time": "2020-10-13T22:35:58",
+        "upload_time_iso_8601": "2020-10-13T22:35:58.734571Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 19913,
+        "upload_time": "2020-10-13T22:35:59",
+        "upload_time_iso_8601": "2020-10-13T22:35:59.737674Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.18": [
+      {
+        "filename": "utz-0.0.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 23169,
+        "upload_time": "2020-10-20T17:52:15",
+        "upload_time_iso_8601": "2020-10-20T17:52:15.202696Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17507,
+        "upload_time": "2020-10-20T17:52:16",
+        "upload_time_iso_8601": "2020-10-20T17:52:16.839204Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.19": [
+      {
+        "filename": "utz-0.0.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 23190,
+        "upload_time": "2020-10-21T00:54:43",
+        "upload_time_iso_8601": "2020-10-21T00:54:43.827023Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17571,
+        "upload_time": "2020-10-21T00:54:45",
+        "upload_time_iso_8601": "2020-10-21T00:54:45.016354Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.2": [
+      {
+        "filename": "utz-0.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 2412,
+        "upload_time": "2020-09-03T14:18:28",
+        "upload_time_iso_8601": "2020-09-03T14:18:28.518196Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 1761,
+        "upload_time": "2020-09-03T14:18:29",
+        "upload_time_iso_8601": "2020-09-03T14:18:29.900085Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.20": [
+      {
+        "filename": "utz-0.0.20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 22828,
+        "upload_time": "2020-10-21T00:57:13",
+        "upload_time_iso_8601": "2020-10-21T00:57:13.110421Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17390,
+        "upload_time": "2020-10-21T00:57:14",
+        "upload_time_iso_8601": "2020-10-21T00:57:14.040572Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.21": [
+      {
+        "filename": "utz-0.0.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 22890,
+        "upload_time": "2020-10-23T02:31:52",
+        "upload_time_iso_8601": "2020-10-23T02:31:52.833511Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17439,
+        "upload_time": "2020-10-23T02:31:53",
+        "upload_time_iso_8601": "2020-10-23T02:31:53.881446Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.22": [
+      {
+        "filename": "utz-0.0.22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 23323,
+        "upload_time": "2020-10-23T02:41:04",
+        "upload_time_iso_8601": "2020-10-23T02:41:04.673713Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18258,
+        "upload_time": "2020-10-23T02:41:05",
+        "upload_time_iso_8601": "2020-10-23T02:41:05.501281Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.23": [
+      {
+        "filename": "utz-0.0.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 23384,
+        "upload_time": "2020-10-23T14:21:33",
+        "upload_time_iso_8601": "2020-10-23T14:21:33.080424Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18325,
+        "upload_time": "2020-10-23T14:21:35",
+        "upload_time_iso_8601": "2020-10-23T14:21:35.166784Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.24": [
+      {
+        "filename": "utz-0.0.24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 23465,
+        "upload_time": "2020-10-28T15:28:09",
+        "upload_time_iso_8601": "2020-10-28T15:28:09.487333Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18425,
+        "upload_time": "2020-10-28T15:28:11",
+        "upload_time_iso_8601": "2020-10-28T15:28:11.305476Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.25": [
+      {
+        "filename": "utz-0.0.25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 23531,
+        "upload_time": "2020-10-29T19:06:14",
+        "upload_time_iso_8601": "2020-10-29T19:06:14.762734Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18453,
+        "upload_time": "2020-10-29T19:06:15",
+        "upload_time_iso_8601": "2020-10-29T19:06:15.920461Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.26": [
+      {
+        "filename": "utz-0.0.26-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27085,
+        "upload_time": "2020-11-03T04:53:43",
+        "upload_time_iso_8601": "2020-11-03T04:53:43.990831Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21178,
+        "upload_time": "2020-11-03T04:53:45",
+        "upload_time_iso_8601": "2020-11-03T04:53:45.350063Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.27": [
+      {
+        "filename": "utz-0.0.27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27106,
+        "upload_time": "2020-11-03T18:20:14",
+        "upload_time_iso_8601": "2020-11-03T18:20:14.188676Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21209,
+        "upload_time": "2020-11-03T18:20:15",
+        "upload_time_iso_8601": "2020-11-03T18:20:15.095341Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.28": [
+      {
+        "filename": "utz-0.0.28-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 26787,
+        "upload_time": "2020-11-05T16:28:54",
+        "upload_time_iso_8601": "2020-11-05T16:28:54.518987Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 20916,
+        "upload_time": "2020-11-05T16:28:55",
+        "upload_time_iso_8601": "2020-11-05T16:28:55.938651Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.29": [
+      {
+        "filename": "utz-0.0.29-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 26885,
+        "upload_time": "2020-11-09T19:39:19",
+        "upload_time_iso_8601": "2020-11-09T19:39:19.791428Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.29.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 20976,
+        "upload_time": "2020-11-09T19:39:20",
+        "upload_time_iso_8601": "2020-11-09T19:39:20.876800Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.3": [
+      {
+        "filename": "utz-0.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 22611,
+        "upload_time": "2020-09-03T15:24:14",
+        "upload_time_iso_8601": "2020-09-03T15:24:14.569243Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17292,
+        "upload_time": "2020-09-03T15:24:16",
+        "upload_time_iso_8601": "2020-09-03T15:24:16.002786Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.30": [
+      {
+        "filename": "utz-0.0.30-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 26979,
+        "upload_time": "2020-11-09T20:41:53",
+        "upload_time_iso_8601": "2020-11-09T20:41:53.705862Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.30.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21038,
+        "upload_time": "2020-11-09T20:41:54",
+        "upload_time_iso_8601": "2020-11-09T20:41:54.990788Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.31": [
+      {
+        "filename": "utz-0.0.31-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27014,
+        "upload_time": "2020-11-10T15:54:48",
+        "upload_time_iso_8601": "2020-11-10T15:54:48.151619Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.31.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21061,
+        "upload_time": "2020-11-10T15:54:49",
+        "upload_time_iso_8601": "2020-11-10T15:54:49.118818Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.32": [
+      {
+        "filename": "utz-0.0.32-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27040,
+        "upload_time": "2020-11-10T16:13:27",
+        "upload_time_iso_8601": "2020-11-10T16:13:27.483931Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.32.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21099,
+        "upload_time": "2020-11-10T16:13:28",
+        "upload_time_iso_8601": "2020-11-10T16:13:28.332262Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.33": [
+      {
+        "filename": "utz-0.0.33-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27051,
+        "upload_time": "2020-11-12T03:53:50",
+        "upload_time_iso_8601": "2020-11-12T03:53:50.638343Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21108,
+        "upload_time": "2020-11-12T03:53:51",
+        "upload_time_iso_8601": "2020-11-12T03:53:51.704957Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.34": [
+      {
+        "filename": "utz-0.0.34-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27109,
+        "upload_time": "2020-11-14T00:16:55",
+        "upload_time_iso_8601": "2020-11-14T00:16:55.880601Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.34.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21135,
+        "upload_time": "2020-11-14T00:16:56",
+        "upload_time_iso_8601": "2020-11-14T00:16:56.938660Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.35": [
+      {
+        "filename": "utz-0.0.35-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27156,
+        "upload_time": "2020-11-15T04:12:06",
+        "upload_time_iso_8601": "2020-11-15T04:12:06.093073Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.35.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21197,
+        "upload_time": "2020-11-15T04:12:07",
+        "upload_time_iso_8601": "2020-11-15T04:12:07.171917Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.36": [
+      {
+        "filename": "utz-0.0.36-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27424,
+        "upload_time": "2020-11-15T18:39:34",
+        "upload_time_iso_8601": "2020-11-15T18:39:34.733751Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.36.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21339,
+        "upload_time": "2020-11-15T18:39:35",
+        "upload_time_iso_8601": "2020-11-15T18:39:35.807669Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.37": [
+      {
+        "filename": "utz-0.0.37-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27430,
+        "upload_time": "2020-11-23T17:10:02",
+        "upload_time_iso_8601": "2020-11-23T17:10:02.811539Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.37.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21343,
+        "upload_time": "2020-11-23T17:10:03",
+        "upload_time_iso_8601": "2020-11-23T17:10:03.885262Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.38": [
+      {
+        "filename": "utz-0.0.38-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27437,
+        "upload_time": "2020-11-24T20:27:32",
+        "upload_time_iso_8601": "2020-11-24T20:27:32.320562Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.38.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21343,
+        "upload_time": "2020-11-24T20:27:33",
+        "upload_time_iso_8601": "2020-11-24T20:27:33.223771Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.39": [
+      {
+        "filename": "utz-0.0.39-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27450,
+        "upload_time": "2020-11-24T21:19:45",
+        "upload_time_iso_8601": "2020-11-24T21:19:45.088494Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.39.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21347,
+        "upload_time": "2020-11-24T21:19:46",
+        "upload_time_iso_8601": "2020-11-24T21:19:46.124544Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.4": [
+      {
+        "filename": "utz-0.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 22649,
+        "upload_time": "2020-09-03T15:29:16",
+        "upload_time_iso_8601": "2020-09-03T15:29:16.594943Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17312,
+        "upload_time": "2020-09-03T15:29:17",
+        "upload_time_iso_8601": "2020-09-03T15:29:17.788055Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.5": [
+      {
+        "filename": "utz-0.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 22663,
+        "upload_time": "2020-09-03T15:33:11",
+        "upload_time_iso_8601": "2020-09-03T15:33:11.102161Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17335,
+        "upload_time": "2020-09-03T15:33:12",
+        "upload_time_iso_8601": "2020-09-03T15:33:12.310276Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.6": [
+      {
+        "filename": "utz-0.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 22671,
+        "upload_time": "2020-09-03T15:36:13",
+        "upload_time_iso_8601": "2020-09-03T15:36:13.878782Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17356,
+        "upload_time": "2020-09-03T15:36:15",
+        "upload_time_iso_8601": "2020-09-03T15:36:15.060642Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.7": [
+      {
+        "filename": "utz-0.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 22703,
+        "upload_time": "2020-09-03T16:35:34",
+        "upload_time_iso_8601": "2020-09-03T16:35:34.770559Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17376,
+        "upload_time": "2020-09-03T16:35:36",
+        "upload_time_iso_8601": "2020-09-03T16:35:36.005385Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.8": [
+      {
+        "filename": "utz-0.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 22852,
+        "upload_time": "2020-09-03T18:11:21",
+        "upload_time_iso_8601": "2020-09-03T18:11:21.861283Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17516,
+        "upload_time": "2020-09-03T18:11:23",
+        "upload_time_iso_8601": "2020-09-03T18:11:23.242860Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.9": [
+      {
+        "filename": "utz-0.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 22933,
+        "upload_time": "2020-09-04T14:45:53",
+        "upload_time_iso_8601": "2020-09-04T14:45:53.526977Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 17628,
+        "upload_time": "2020-09-04T14:45:54",
+        "upload_time_iso_8601": "2020-09-04T14:45:54.906966Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.0": [
+      {
+        "filename": "utz-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27738,
+        "upload_time": "2020-12-01T18:26:39",
+        "upload_time_iso_8601": "2020-12-01T18:26:39.981222Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21607,
+        "upload_time": "2020-12-01T18:26:41",
+        "upload_time_iso_8601": "2020-12-01T18:26:41.698571Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "utz-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27736,
+        "upload_time": "2020-12-01T20:01:44",
+        "upload_time_iso_8601": "2020-12-01T20:01:44.757608Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21621,
+        "upload_time": "2020-12-01T20:01:45",
+        "upload_time_iso_8601": "2020-12-01T20:01:45.932247Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.2": [
+      {
+        "filename": "utz-0.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 27851,
+        "upload_time": "2020-12-07T15:09:46",
+        "upload_time_iso_8601": "2020-12-07T15:09:46.214782Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 21691,
+        "upload_time": "2020-12-07T15:09:47",
+        "upload_time_iso_8601": "2020-12-07T15:09:47.254579Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.3": [
+      {
+        "filename": "utz-0.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 28677,
+        "upload_time": "2020-12-10T16:26:49",
+        "upload_time_iso_8601": "2020-12-10T16:26:49.465337Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 22336,
+        "upload_time": "2020-12-10T16:26:50",
+        "upload_time_iso_8601": "2020-12-10T16:26:50.557626Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.0": [
+      {
+        "filename": "utz-0.10.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 55545,
+        "upload_time": "2024-10-10T01:25:45",
+        "upload_time_iso_8601": "2024-10-10T01:25:45.548627Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.10.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 46456,
+        "upload_time": "2024-10-10T01:25:47",
+        "upload_time_iso_8601": "2024-10-10T01:25:47.527723Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.1": [
+      {
+        "filename": "utz-0.10.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 55859,
+        "upload_time": "2024-10-11T14:35:46",
+        "upload_time_iso_8601": "2024-10-11T14:35:46.534962Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.10.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 46753,
+        "upload_time": "2024-10-11T14:35:48",
+        "upload_time_iso_8601": "2024-10-11T14:35:48.276862Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.2": [
+      {
+        "filename": "utz-0.10.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 55812,
+        "upload_time": "2024-10-11T15:30:33",
+        "upload_time_iso_8601": "2024-10-11T15:30:33.619840Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.10.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 46717,
+        "upload_time": "2024-10-11T15:30:35",
+        "upload_time_iso_8601": "2024-10-11T15:30:35.407755Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.3": [
+      {
+        "filename": "utz-0.10.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 56401,
+        "upload_time": "2024-10-12T14:36:37",
+        "upload_time_iso_8601": "2024-10-12T14:36:37.261931Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.10.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 47813,
+        "upload_time": "2024-10-12T14:36:39",
+        "upload_time_iso_8601": "2024-10-12T14:36:39.188147Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.4": [
+      {
+        "filename": "utz-0.10.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 56442,
+        "upload_time": "2024-10-19T19:27:20",
+        "upload_time_iso_8601": "2024-10-19T19:27:20.054489Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.10.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 47817,
+        "upload_time": "2024-10-19T19:27:22",
+        "upload_time_iso_8601": "2024-10-19T19:27:22.407100Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.5": [
+      {
+        "filename": "utz-0.10.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 56436,
+        "upload_time": "2024-10-24T18:58:18",
+        "upload_time_iso_8601": "2024-10-24T18:58:18.817176Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.10.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 47817,
+        "upload_time": "2024-10-24T18:58:20",
+        "upload_time_iso_8601": "2024-10-24T18:58:20.470529Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.0": [
+      {
+        "filename": "utz-0.11.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 59847,
+        "upload_time": "2024-11-09T21:01:06",
+        "upload_time_iso_8601": "2024-11-09T21:01:06.759610Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.11.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 50778,
+        "upload_time": "2024-11-09T21:01:08",
+        "upload_time_iso_8601": "2024-11-09T21:01:08.586122Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.1": [
+      {
+        "filename": "utz-0.11.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 60007,
+        "upload_time": "2024-11-09T22:15:29",
+        "upload_time_iso_8601": "2024-11-09T22:15:29.364462Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.11.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 50910,
+        "upload_time": "2024-11-09T22:15:31",
+        "upload_time_iso_8601": "2024-11-09T22:15:31.252397Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.2": [
+      {
+        "filename": "utz-0.11.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 61128,
+        "upload_time": "2024-11-10T02:05:55",
+        "upload_time_iso_8601": "2024-11-10T02:05:55.644333Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.11.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 51917,
+        "upload_time": "2024-11-10T02:05:57",
+        "upload_time_iso_8601": "2024-11-10T02:05:57.436458Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.3": [
+      {
+        "filename": "utz-0.11.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 59348,
+        "upload_time": "2024-11-15T04:49:21",
+        "upload_time_iso_8601": "2024-11-15T04:49:21.352092Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.11.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 50710,
+        "upload_time": "2024-11-15T04:49:23",
+        "upload_time_iso_8601": "2024-11-15T04:49:23.172899Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.4": [
+      {
+        "filename": "utz-0.11.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 59422,
+        "upload_time": "2024-12-04T18:40:39",
+        "upload_time_iso_8601": "2024-12-04T18:40:39.117239Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.11.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 50797,
+        "upload_time": "2024-12-04T18:40:41",
+        "upload_time_iso_8601": "2024-12-04T18:40:41.119575Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.5": [
+      {
+        "filename": "utz-0.11.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 59470,
+        "upload_time": "2024-12-21T16:06:49",
+        "upload_time_iso_8601": "2024-12-21T16:06:49.621155Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.11.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 50812,
+        "upload_time": "2024-12-21T16:06:52",
+        "upload_time_iso_8601": "2024-12-21T16:06:52.555448Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.12.0": [
+      {
+        "filename": "utz-0.12.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 59691,
+        "upload_time": "2024-12-23T14:51:01",
+        "upload_time_iso_8601": "2024-12-23T14:51:01.740154Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.12.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 50992,
+        "upload_time": "2024-12-23T14:51:04",
+        "upload_time_iso_8601": "2024-12-23T14:51:04.431660Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.12.1": [
+      {
+        "filename": "utz-0.12.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 59752,
+        "upload_time": "2024-12-24T04:41:33",
+        "upload_time_iso_8601": "2024-12-24T04:41:33.972940Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.12.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 51027,
+        "upload_time": "2024-12-24T04:41:36",
+        "upload_time_iso_8601": "2024-12-24T04:41:36.555403Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.12.2": [
+      {
+        "filename": "utz-0.12.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 59840,
+        "upload_time": "2024-12-26T18:58:56",
+        "upload_time_iso_8601": "2024-12-26T18:58:56.678044Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.12.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 51106,
+        "upload_time": "2024-12-26T18:58:59",
+        "upload_time_iso_8601": "2024-12-26T18:58:59.243611Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.13.0": [
+      {
+        "filename": "utz-0.13.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 63714,
+        "upload_time": "2024-12-30T04:35:54",
+        "upload_time_iso_8601": "2024-12-30T04:35:54.348543Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.13.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 71911,
+        "upload_time": "2024-12-30T04:35:56",
+        "upload_time_iso_8601": "2024-12-30T04:35:56.987212Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.0": [
+      {
+        "filename": "utz-0.14.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 64646,
+        "upload_time": "2025-01-25T21:25:31",
+        "upload_time_iso_8601": "2025-01-25T21:25:31.129585Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.14.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 73724,
+        "upload_time": "2025-01-25T21:25:32",
+        "upload_time_iso_8601": "2025-01-25T21:25:32.426554Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.1": [
+      {
+        "filename": "utz-0.14.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 65249,
+        "upload_time": "2025-01-25T22:06:18",
+        "upload_time_iso_8601": "2025-01-25T22:06:18.369508Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.14.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 74983,
+        "upload_time": "2025-01-25T22:06:21",
+        "upload_time_iso_8601": "2025-01-25T22:06:21.626129Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0": [
+      {
+        "filename": "utz-0.15.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 73078,
+        "upload_time": "2025-02-18T03:23:17",
+        "upload_time_iso_8601": "2025-02-18T03:23:17.633333Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.15.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 83783,
+        "upload_time": "2025-02-18T03:23:20",
+        "upload_time_iso_8601": "2025-02-18T03:23:20.720763Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.1": [
+      {
+        "filename": "utz-0.15.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 73492,
+        "upload_time": "2025-02-19T04:25:23",
+        "upload_time_iso_8601": "2025-02-19T04:25:23.598575Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.15.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 84327,
+        "upload_time": "2025-02-19T04:25:26",
+        "upload_time_iso_8601": "2025-02-19T04:25:26.404835Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.2": [
+      {
+        "filename": "utz-0.15.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 73641,
+        "upload_time": "2025-02-26T20:21:32",
+        "upload_time_iso_8601": "2025-02-26T20:21:32.010615Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.15.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 84448,
+        "upload_time": "2025-02-26T20:21:33",
+        "upload_time_iso_8601": "2025-02-26T20:21:33.274801Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.3": [
+      {
+        "filename": "utz-0.15.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 73868,
+        "upload_time": "2025-02-27T17:41:22",
+        "upload_time_iso_8601": "2025-02-27T17:41:22.694038Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.15.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 84657,
+        "upload_time": "2025-02-27T17:41:24",
+        "upload_time_iso_8601": "2025-02-27T17:41:24.053968Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "utz-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 29475,
+        "upload_time": "2020-12-14T16:09:02",
+        "upload_time_iso_8601": "2020-12-14T16:09:02.978102Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 22848,
+        "upload_time": "2020-12-14T16:09:04",
+        "upload_time_iso_8601": "2020-12-14T16:09:04.330096Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.1": [
+      {
+        "filename": "utz-0.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 30278,
+        "upload_time": "2020-12-15T02:21:30",
+        "upload_time_iso_8601": "2020-12-15T02:21:30.976160Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 23411,
+        "upload_time": "2020-12-15T02:21:32",
+        "upload_time_iso_8601": "2020-12-15T02:21:32.129729Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.2": [
+      {
+        "filename": "utz-0.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 30284,
+        "upload_time": "2020-12-15T14:45:33",
+        "upload_time_iso_8601": "2020-12-15T14:45:33.097615Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 23421,
+        "upload_time": "2020-12-15T14:45:34",
+        "upload_time_iso_8601": "2020-12-15T14:45:34.072734Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.3": [
+      {
+        "filename": "utz-0.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 30302,
+        "upload_time": "2020-12-15T15:40:13",
+        "upload_time_iso_8601": "2020-12-15T15:40:13.886114Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 23469,
+        "upload_time": "2020-12-15T15:40:14",
+        "upload_time_iso_8601": "2020-12-15T15:40:14.885899Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "utz-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 33705,
+        "upload_time": "2020-12-21T17:46:44",
+        "upload_time_iso_8601": "2020-12-21T17:46:44.176239Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 25763,
+        "upload_time": "2020-12-21T17:46:45",
+        "upload_time_iso_8601": "2020-12-21T17:46:45.271254Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.1": [
+      {
+        "filename": "utz-0.3.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 33827,
+        "upload_time": "2020-12-21T21:44:27",
+        "upload_time_iso_8601": "2020-12-21T21:44:27.860183Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 25932,
+        "upload_time": "2020-12-21T21:44:28",
+        "upload_time_iso_8601": "2020-12-21T21:44:28.758787Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.10": [
+      {
+        "filename": "utz-0.3.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 36861,
+        "upload_time": "2020-12-26T22:23:18",
+        "upload_time_iso_8601": "2020-12-26T22:23:18.061374Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 28818,
+        "upload_time": "2020-12-26T22:23:19",
+        "upload_time_iso_8601": "2020-12-26T22:23:19.494491Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.11": [
+      {
+        "filename": "utz-0.3.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 36889,
+        "upload_time": "2020-12-26T22:47:29",
+        "upload_time_iso_8601": "2020-12-26T22:47:29.703556Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 28877,
+        "upload_time": "2020-12-26T22:47:30",
+        "upload_time_iso_8601": "2020-12-26T22:47:30.762300Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.12": [
+      {
+        "filename": "utz-0.3.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 37026,
+        "upload_time": "2020-12-27T00:14:23",
+        "upload_time_iso_8601": "2020-12-27T00:14:23.050153Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 29007,
+        "upload_time": "2020-12-27T00:14:24",
+        "upload_time_iso_8601": "2020-12-27T00:14:24.154467Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.13": [
+      {
+        "filename": "utz-0.3.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 37035,
+        "upload_time": "2020-12-27T17:54:16",
+        "upload_time_iso_8601": "2020-12-27T17:54:16.112866Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 29022,
+        "upload_time": "2020-12-27T17:54:17",
+        "upload_time_iso_8601": "2020-12-27T17:54:17.207516Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.14": [
+      {
+        "filename": "utz-0.3.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 37625,
+        "upload_time": "2020-12-28T00:06:48",
+        "upload_time_iso_8601": "2020-12-28T00:06:48.201166Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 29452,
+        "upload_time": "2020-12-28T00:06:49",
+        "upload_time_iso_8601": "2020-12-28T00:06:49.112570Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.15": [
+      {
+        "filename": "utz-0.3.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 38093,
+        "upload_time": "2020-12-28T00:54:11",
+        "upload_time_iso_8601": "2020-12-28T00:54:11.499111Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 29856,
+        "upload_time": "2020-12-28T00:54:12",
+        "upload_time_iso_8601": "2020-12-28T00:54:12.583116Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.16": [
+      {
+        "filename": "utz-0.3.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 38139,
+        "upload_time": "2021-01-06T18:53:28",
+        "upload_time_iso_8601": "2021-01-06T18:53:28.962466Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 29995,
+        "upload_time": "2021-01-06T18:53:30",
+        "upload_time_iso_8601": "2021-01-06T18:53:30.034474Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.17": [
+      {
+        "filename": "utz-0.3.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 38565,
+        "upload_time": "2021-01-07T17:58:11",
+        "upload_time_iso_8601": "2021-01-07T17:58:11.815540Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 30170,
+        "upload_time": "2021-01-07T17:58:12",
+        "upload_time_iso_8601": "2021-01-07T17:58:12.964268Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.18": [
+      {
+        "filename": "utz-0.3.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 38562,
+        "upload_time": "2021-06-25T18:28:01",
+        "upload_time_iso_8601": "2021-06-25T18:28:01.698782Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 30897,
+        "upload_time": "2021-06-25T18:28:03",
+        "upload_time_iso_8601": "2021-06-25T18:28:03.195620Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.19": [
+      {
+        "filename": "utz-0.3.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 38516,
+        "upload_time": "2022-11-16T23:31:19",
+        "upload_time_iso_8601": "2022-11-16T23:31:19.716008Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 30691,
+        "upload_time": "2022-11-16T23:31:21",
+        "upload_time_iso_8601": "2022-11-16T23:31:21.554549Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.2": [
+      {
+        "filename": "utz-0.3.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 35019,
+        "upload_time": "2020-12-22T05:05:24",
+        "upload_time_iso_8601": "2020-12-22T05:05:24.736816Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 26941,
+        "upload_time": "2020-12-22T05:05:25",
+        "upload_time_iso_8601": "2020-12-22T05:05:25.716630Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.20": [
+      {
+        "filename": "utz-0.3.20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 39266,
+        "upload_time": "2022-12-02T15:08:00",
+        "upload_time_iso_8601": "2022-12-02T15:08:00.995498Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 31237,
+        "upload_time": "2022-12-02T15:08:02",
+        "upload_time_iso_8601": "2022-12-02T15:08:02.516489Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.21": [
+      {
+        "filename": "utz-0.3.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 40464,
+        "upload_time": "2022-12-27T04:43:51",
+        "upload_time_iso_8601": "2022-12-27T04:43:51.910378Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 32271,
+        "upload_time": "2022-12-27T04:43:53",
+        "upload_time_iso_8601": "2022-12-27T04:43:53.255269Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.22": [
+      {
+        "filename": "utz-0.3.22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 42200,
+        "upload_time": "2023-02-24T06:14:54",
+        "upload_time_iso_8601": "2023-02-24T06:14:54.959369Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 33581,
+        "upload_time": "2023-02-24T06:14:56",
+        "upload_time_iso_8601": "2023-02-24T06:14:56.513727Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.23": [
+      {
+        "filename": "utz-0.3.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 43193,
+        "upload_time": "2023-02-25T21:53:47",
+        "upload_time_iso_8601": "2023-02-25T21:53:47.016092Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 34244,
+        "upload_time": "2023-02-25T21:53:48",
+        "upload_time_iso_8601": "2023-02-25T21:53:48.660384Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.24": [
+      {
+        "filename": "utz-0.3.24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 45405,
+        "upload_time": "2023-03-04T14:46:42",
+        "upload_time_iso_8601": "2023-03-04T14:46:42.242906Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 35941,
+        "upload_time": "2023-03-04T14:46:44",
+        "upload_time_iso_8601": "2023-03-04T14:46:44.199591Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.25": [
+      {
+        "filename": "utz-0.3.25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 45404,
+        "upload_time": "2023-03-04T16:16:29",
+        "upload_time_iso_8601": "2023-03-04T16:16:29.141507Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 35921,
+        "upload_time": "2023-03-04T16:16:31",
+        "upload_time_iso_8601": "2023-03-04T16:16:31.373110Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.26": [
+      {
+        "filename": "utz-0.3.26-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 45599,
+        "upload_time": "2023-07-22T18:10:45",
+        "upload_time_iso_8601": "2023-07-22T18:10:45.541604Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 36101,
+        "upload_time": "2023-07-22T18:10:47",
+        "upload_time_iso_8601": "2023-07-22T18:10:47.286191Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.27": [
+      {
+        "filename": "utz-0.3.27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 47380,
+        "upload_time": "2023-07-24T00:25:39",
+        "upload_time_iso_8601": "2023-07-24T00:25:39.892516Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 36453,
+        "upload_time": "2023-07-24T00:25:41",
+        "upload_time_iso_8601": "2023-07-24T00:25:41.203506Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.28": [
+      {
+        "filename": "utz-0.3.28-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 51907,
+        "upload_time": "2023-07-28T23:49:02",
+        "upload_time_iso_8601": "2023-07-28T23:49:02.935755Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 39602,
+        "upload_time": "2023-07-28T23:49:04",
+        "upload_time_iso_8601": "2023-07-28T23:49:04.609053Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.3": [
+      {
+        "filename": "utz-0.3.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 35516,
+        "upload_time": "2020-12-22T16:59:00",
+        "upload_time_iso_8601": "2020-12-22T16:59:00.272245Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 27427,
+        "upload_time": "2020-12-22T16:59:01",
+        "upload_time_iso_8601": "2020-12-22T16:59:01.175825Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.4": [
+      {
+        "filename": "utz-0.3.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 35521,
+        "upload_time": "2020-12-22T18:45:01",
+        "upload_time_iso_8601": "2020-12-22T18:45:01.939392Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 27432,
+        "upload_time": "2020-12-22T18:45:03",
+        "upload_time_iso_8601": "2020-12-22T18:45:03.038687Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.5": [
+      {
+        "filename": "utz-0.3.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 35534,
+        "upload_time": "2020-12-22T21:30:41",
+        "upload_time_iso_8601": "2020-12-22T21:30:41.153078Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 27434,
+        "upload_time": "2020-12-22T21:30:42",
+        "upload_time_iso_8601": "2020-12-22T21:30:42.306216Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.6": [
+      {
+        "filename": "utz-0.3.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 35543,
+        "upload_time": "2020-12-22T23:06:39",
+        "upload_time_iso_8601": "2020-12-22T23:06:39.616277Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 27464,
+        "upload_time": "2020-12-22T23:06:40",
+        "upload_time_iso_8601": "2020-12-22T23:06:40.825007Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.7": [
+      {
+        "filename": "utz-0.3.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 36192,
+        "upload_time": "2020-12-23T17:59:19",
+        "upload_time_iso_8601": "2020-12-23T17:59:19.864004Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 28358,
+        "upload_time": "2020-12-23T17:59:20",
+        "upload_time_iso_8601": "2020-12-23T17:59:20.966130Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.7rc1": [
+      {
+        "filename": "utz-0.3.7rc1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 35579,
+        "upload_time": "2020-12-22T23:37:30",
+        "upload_time_iso_8601": "2020-12-22T23:37:30.542718Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.7rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 27460,
+        "upload_time": "2020-12-22T23:37:31",
+        "upload_time_iso_8601": "2020-12-22T23:37:31.657164Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.8": [
+      {
+        "filename": "utz-0.3.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 36193,
+        "upload_time": "2020-12-23T22:27:03",
+        "upload_time_iso_8601": "2020-12-23T22:27:03.524025Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 28346,
+        "upload_time": "2020-12-23T22:27:04",
+        "upload_time_iso_8601": "2020-12-23T22:27:04.330280Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.9": [
+      {
+        "filename": "utz-0.3.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 36179,
+        "upload_time": "2020-12-25T17:37:08",
+        "upload_time_iso_8601": "2020-12-25T17:37:08.223717Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.3.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 28384,
+        "upload_time": "2020-12-25T17:37:09",
+        "upload_time_iso_8601": "2020-12-25T17:37:09.265940Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "utz-0.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 47681,
+        "upload_time": "2023-08-03T00:21:54",
+        "upload_time_iso_8601": "2023-08-03T00:21:54.741980Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 36438,
+        "upload_time": "2023-08-03T00:21:56",
+        "upload_time_iso_8601": "2023-08-03T00:21:56.104061Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.1": [
+      {
+        "filename": "utz-0.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 45469,
+        "upload_time": "2023-08-03T15:59:18",
+        "upload_time_iso_8601": "2023-08-03T15:59:18.698631Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 34702,
+        "upload_time": "2023-08-03T15:59:20",
+        "upload_time_iso_8601": "2023-08-03T15:59:20.355408Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.2": [
+      {
+        "filename": "utz-0.4.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 45506,
+        "upload_time": "2023-08-05T03:23:57",
+        "upload_time_iso_8601": "2023-08-05T03:23:57.585945Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 34713,
+        "upload_time": "2023-08-05T03:23:59",
+        "upload_time_iso_8601": "2023-08-05T03:23:59.354953Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.0": [
+      {
+        "filename": "utz-0.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 47216,
+        "upload_time": "2024-06-05T19:21:58",
+        "upload_time_iso_8601": "2024-06-05T19:21:58.966365Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 36443,
+        "upload_time": "2024-06-05T19:22:00",
+        "upload_time_iso_8601": "2024-06-05T19:22:00.794836Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.1": [
+      {
+        "filename": "utz-0.5.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 47400,
+        "upload_time": "2024-06-07T02:51:34",
+        "upload_time_iso_8601": "2024-06-07T02:51:34.935530Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.5.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 36646,
+        "upload_time": "2024-06-07T02:51:36",
+        "upload_time_iso_8601": "2024-06-07T02:51:36.681228Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.2": [
+      {
+        "filename": "utz-0.5.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 47448,
+        "upload_time": "2024-06-07T13:55:14",
+        "upload_time_iso_8601": "2024-06-07T13:55:14.643397Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.5.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 36676,
+        "upload_time": "2024-06-07T13:55:17",
+        "upload_time_iso_8601": "2024-06-07T13:55:17.176809Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.3": [
+      {
+        "filename": "utz-0.5.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 47432,
+        "upload_time": "2024-06-07T16:36:16",
+        "upload_time_iso_8601": "2024-06-07T16:36:16.795163Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.5.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 36640,
+        "upload_time": "2024-06-07T16:36:18",
+        "upload_time_iso_8601": "2024-06-07T16:36:18.913215Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.0": [
+      {
+        "filename": "utz-0.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 47663,
+        "upload_time": "2024-06-21T02:11:14",
+        "upload_time_iso_8601": "2024-06-21T02:11:14.070296Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 36874,
+        "upload_time": "2024-06-21T02:11:17",
+        "upload_time_iso_8601": "2024-06-21T02:11:17.486631Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.1": [
+      {
+        "filename": "utz-0.6.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 47918,
+        "upload_time": "2024-07-19T19:15:09",
+        "upload_time_iso_8601": "2024-07-19T19:15:09.135298Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.6.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 37141,
+        "upload_time": "2024-07-19T19:15:10",
+        "upload_time_iso_8601": "2024-07-19T19:15:10.722811Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.0": [
+      {
+        "filename": "utz-0.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 48368,
+        "upload_time": "2024-08-09T17:50:43",
+        "upload_time_iso_8601": "2024-08-09T17:50:43.125167Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 37502,
+        "upload_time": "2024-08-09T17:50:45",
+        "upload_time_iso_8601": "2024-08-09T17:50:45.358650Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.1": [
+      {
+        "filename": "utz-0.7.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 48380,
+        "upload_time": "2024-08-16T15:04:57",
+        "upload_time_iso_8601": "2024-08-16T15:04:57.783485Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.7.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 37530,
+        "upload_time": "2024-08-16T15:04:59",
+        "upload_time_iso_8601": "2024-08-16T15:04:59.363769Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.2": [
+      {
+        "filename": "utz-0.7.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 48548,
+        "upload_time": "2024-08-22T13:52:06",
+        "upload_time_iso_8601": "2024-08-22T13:52:06.484916Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.7.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 37647,
+        "upload_time": "2024-08-22T13:52:07",
+        "upload_time_iso_8601": "2024-08-22T13:52:07.507836Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.3": [
+      {
+        "filename": "utz-0.7.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 48679,
+        "upload_time": "2024-08-22T15:05:24",
+        "upload_time_iso_8601": "2024-08-22T15:05:24.915358Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.7.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 37785,
+        "upload_time": "2024-08-22T15:05:26",
+        "upload_time_iso_8601": "2024-08-22T15:05:26.220978Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.0": [
+      {
+        "filename": "utz-0.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 49330,
+        "upload_time": "2024-08-25T23:49:05",
+        "upload_time_iso_8601": "2024-08-25T23:49:05.880151Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 38381,
+        "upload_time": "2024-08-25T23:49:07",
+        "upload_time_iso_8601": "2024-08-25T23:49:07.641960Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.1": [
+      {
+        "filename": "utz-0.8.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 49644,
+        "upload_time": "2024-09-01T04:14:42",
+        "upload_time_iso_8601": "2024-09-01T04:14:42.264057Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.8.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 38954,
+        "upload_time": "2024-09-01T04:14:44",
+        "upload_time_iso_8601": "2024-09-01T04:14:44.860524Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0": [
+      {
+        "filename": "utz-0.9.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 51527,
+        "upload_time": "2024-10-04T03:01:41",
+        "upload_time_iso_8601": "2024-10-04T03:01:41.270284Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 42103,
+        "upload_time": "2024-10-04T03:01:43",
+        "upload_time_iso_8601": "2024-10-04T03:01:43.055991Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.1": [
+      {
+        "filename": "utz-0.9.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 53210,
+        "upload_time": "2024-10-05T04:44:55",
+        "upload_time_iso_8601": "2024-10-05T04:44:55.252663Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.9.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 44283,
+        "upload_time": "2024-10-05T04:44:56",
+        "upload_time_iso_8601": "2024-10-05T04:44:56.965599Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.2": [
+      {
+        "filename": "utz-0.9.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 53885,
+        "upload_time": "2024-10-07T15:04:41",
+        "upload_time_iso_8601": "2024-10-07T15:04:41.398241Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "utz-0.9.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 44826,
+        "upload_time": "2024-10-07T15:04:43",
+        "upload_time_iso_8601": "2024-10-07T15:04:43.729742Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

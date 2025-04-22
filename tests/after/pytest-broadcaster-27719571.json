@@ -1,0 +1,314 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Guillaume Charbonnier <gu.charbon@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Framework :: Pytest",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Software Development :: Testing"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": [
+      "LICENSE"
+    ],
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "pytest-broadcaster",
+    "package_url": "https://pypi.org/project/pytest-broadcaster/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/pytest-broadcaster/",
+    "project_urls": {
+      "Source": "https://github.com/charbonnierg/pytest-broadcaster",
+      "Tracker": "https://github.com/charbonnierg/pytest-broadcaster/issues"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/pytest-broadcaster/0.11.0/",
+    "requires_dist": [
+      "pytest",
+      "tomli>=1; python_version < \"3.11\""
+    ],
+    "requires_python": ">=3.9",
+    "summary": "Pytest plugin to broadcast pytest output to various destinations",
+    "version": "0.11.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27719571,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "pytest_broadcaster-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27352,
+        "upload_time": "2024-04-05T00:00:58",
+        "upload_time_iso_8601": "2024-04-05T00:00:58.482025Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 43919,
+        "upload_time": "2024-04-05T00:01:01",
+        "upload_time_iso_8601": "2024-04-05T00:01:01.200269Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.0": [
+      {
+        "filename": "pytest_broadcaster-0.10.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 32284,
+        "upload_time": "2025-03-02T02:01:43",
+        "upload_time_iso_8601": "2025-03-02T02:01:43.464286Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.10.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 139728,
+        "upload_time": "2025-03-02T02:01:45",
+        "upload_time_iso_8601": "2025-03-02T02:01:45.290434Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.0": [
+      {
+        "filename": "pytest_broadcaster-0.11.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 32301,
+        "upload_time": "2025-03-02T02:19:57",
+        "upload_time_iso_8601": "2025-03-02T02:19:57.471753Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.11.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 139736,
+        "upload_time": "2025-03-02T02:19:59",
+        "upload_time_iso_8601": "2025-03-02T02:19:59.655823Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "pytest_broadcaster-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27860,
+        "upload_time": "2024-04-05T12:48:11",
+        "upload_time_iso_8601": "2024-04-05T12:48:11.737230Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46034,
+        "upload_time": "2024-04-05T12:48:13",
+        "upload_time_iso_8601": "2024-04-05T12:48:13.500166Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "pytest_broadcaster-0.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27861,
+        "upload_time": "2024-04-05T12:49:10",
+        "upload_time_iso_8601": "2024-04-05T12:49:10.314570Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46059,
+        "upload_time": "2024-04-05T12:49:13",
+        "upload_time_iso_8601": "2024-04-05T12:49:13.533642Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.0": [
+      {
+        "filename": "pytest_broadcaster-0.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27861,
+        "upload_time": "2024-04-05T13:51:34",
+        "upload_time_iso_8601": "2024-04-05T13:51:34.142387Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 46216,
+        "upload_time": "2024-04-05T13:51:37",
+        "upload_time_iso_8601": "2024-04-05T13:51:37.975880Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.0": [
+      {
+        "filename": "pytest_broadcaster-0.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27860,
+        "upload_time": "2024-04-05T14:00:50",
+        "upload_time_iso_8601": "2024-04-05T14:00:50.033180Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 47930,
+        "upload_time": "2024-04-05T14:00:51",
+        "upload_time_iso_8601": "2024-04-05T14:00:51.620434Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.0": [
+      {
+        "filename": "pytest_broadcaster-0.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 27861,
+        "upload_time": "2024-04-05T14:26:45",
+        "upload_time_iso_8601": "2024-04-05T14:26:45.284777Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 48030,
+        "upload_time": "2024-04-05T14:26:46",
+        "upload_time_iso_8601": "2024-04-05T14:26:46.500070Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.0": [
+      {
+        "filename": "pytest_broadcaster-0.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 31564,
+        "upload_time": "2024-04-06T00:40:19",
+        "upload_time_iso_8601": "2024-04-06T00:40:19.662862Z",
+        "yanked": true,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 51740,
+        "upload_time": "2024-04-06T00:40:20",
+        "upload_time_iso_8601": "2024-04-06T00:40:20.929751Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0": [
+      {
+        "filename": "pytest_broadcaster-0.9.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 31592,
+        "upload_time": "2024-04-06T01:40:07",
+        "upload_time_iso_8601": "2024-04-06T01:40:07.024676Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pytest_broadcaster-0.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 52764,
+        "upload_time": "2024-04-06T01:40:08",
+        "upload_time_iso_8601": "2024-04-06T01:40:08.903206Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

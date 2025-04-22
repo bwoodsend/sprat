@@ -1,0 +1,71 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "\"Institute of Automotive Engineering, Technical University of Darmstadt\" <open-source@fzd.tu-darmstadt.de>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "automated driving, BSSD, OSM",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": "\"Institute of Automotive Engineering, Technical University of Darmstadt\" <open-source@fzd.tu-darmstadt.de>",
+    "name": "bssd-core",
+    "package_url": "https://pypi.org/project/bssd-core/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/bssd-core/",
+    "project_urls": {
+      "BSSD-Homepage": "https://gitlab.com/tuda-fzd/scenery-representations-and-maps/behavior-semantic-scenery-description",
+      "Repository": "https://gitlab.com/tuda-fzd/scenery-representations-and-maps/bssd-core"
+    },
+    "provides_extra": [
+      "dev"
+    ],
+    "release_url": "https://pypi.org/project/bssd-core/2025.1/",
+    "requires_dist": [
+      "osmium",
+      "pytest; extra == \"dev\""
+    ],
+    "requires_python": ">=3.8",
+    "summary": "Low level Python library for handling BSSD data within Lanelet2 maps",
+    "version": "2025.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27700045,
+  "releases": {
+    "2025.1": [
+      {
+        "filename": "bssd_core-2025.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 16529,
+        "upload_time": "2025-02-28T15:23:04",
+        "upload_time_iso_8601": "2025-02-28T15:23:04.613372Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "bssd_core-2025.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 13411,
+        "upload_time": "2025-02-28T15:23:07",
+        "upload_time_iso_8601": "2025-02-28T15:23:07.004979Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

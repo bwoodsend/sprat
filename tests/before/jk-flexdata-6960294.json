@@ -1,0 +1,159 @@
+{
+  "info": {
+    "author": "Jürgen Knauth",
+    "author_email": "pubsrc@binary-overflow.de",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "description": "jk_flexdata\n==========\n\nIntroduction\n------------\n\nThis python module ...\n\nInformation about this module can be found here:\n\n* [github.org](https://github.com/jkpubsrc/python-module-jk-flexdata)\n* [pypi.python.org](https://pypi.python.org/pypi/jk_flexdata)\n\nWhy this module?\n----------------\n\n...\n\nLimitations of this module\n--------------------------\n\n...\n\nHow to use this module\n----------------------\n\n### Import this module\n\nPlease include this module into your application using the following code:\n\n```python\nimpoert jk_flexdata\n```\n\n...\n\nContact Information\n-------------------\n\nThis is Open Source code. That not only gives you the possibility of freely using this code it also\nallows you to contribute. Feel free to contact the author(s) of this software listed below, either\nfor comments, collaboration requests, suggestions for improvement or reporting bugs:\n\n* Jürgen Knauth: jknauth@uni-goettingen.de, pubsrc@binary-overflow.de\n\nLicense\n-------\n\nThis software is provided under the following license:\n\n* Apache Software License 2.0",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": "https://github.com/jkpubsrc/python-module-jk-flexdata/tarball/0.2020.4.4",
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": "https://github.com/jkpubsrc/python-module-jk-flexdata",
+    "keywords": "dictionary,dict,json,configuration",
+    "license": "Apache 2.0",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "",
+    "maintainer_email": "",
+    "name": "jk-flexdata",
+    "package_url": "https://pypi.org/project/jk-flexdata/",
+    "platform": "",
+    "project_url": "https://pypi.org/project/jk-flexdata/",
+    "project_urls": {
+      "Download": "https://github.com/jkpubsrc/python-module-jk-flexdata/tarball/0.2020.4.4",
+      "Homepage": "https://github.com/jkpubsrc/python-module-jk-flexdata"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/jk-flexdata/0.2020.4.4/",
+    "requires_dist": null,
+    "requires_python": "",
+    "summary": "This python module provides a special dictionary like data data structure that can be easily used to access and modify values of configurations and settings.",
+    "version": "0.2020.4.4",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 6960294,
+  "releases": {
+    "0.2019.10.22": [
+      {
+        "filename": "jk_flexdata-0.2019.10.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7919,
+        "upload_time": "2019-10-22T04:08:36",
+        "upload_time_iso_8601": "2019-10-22T04:08:36.990058Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2019.9.13": [
+      {
+        "filename": "jk_flexdata-0.2019.9.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7799,
+        "upload_time": "2019-09-13T10:41:18",
+        "upload_time_iso_8601": "2019-09-13T10:41:18.309078Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2020.3.26": [
+      {
+        "filename": "jk_flexdata-0.2020.3.26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7969,
+        "upload_time": "2020-03-26T13:49:33",
+        "upload_time_iso_8601": "2020-03-26T13:49:33.742223Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2020.3.4": [
+      {
+        "filename": "jk_flexdata-0.2020.3.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7956,
+        "upload_time": "2020-03-04T15:05:55",
+        "upload_time_iso_8601": "2020-03-04T15:05:55.250680Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2020.3.6": [
+      {
+        "filename": "jk_flexdata-0.2020.3.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7960,
+        "upload_time": "2020-03-06T10:09:04",
+        "upload_time_iso_8601": "2020-03-06T10:09:04.017408Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2020.4.2": [
+      {
+        "filename": "jk_flexdata-0.2020.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 8002,
+        "upload_time": "2020-04-02T07:20:55",
+        "upload_time_iso_8601": "2020-04-02T07:20:55.059781Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2020.4.3": [
+      {
+        "filename": "jk_flexdata-0.2020.4.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 8527,
+        "upload_time": "2020-04-03T17:10:47",
+        "upload_time_iso_8601": "2020-04-03T17:10:47.905245Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2020.4.4": [
+      {
+        "filename": "jk_flexdata-0.2020.4.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 8678,
+        "upload_time": "2020-04-06T09:20:17",
+        "upload_time_iso_8601": "2020-04-06T09:20:17.554449Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

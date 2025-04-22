@@ -1,0 +1,363 @@
+{
+  "info": {
+    "author": "Ingvar Vilkman",
+    "author_email": "zeegin@zeegin.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Environment :: Plugins",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "description": "[![PyPI version](https://badge.fury.io/py/pygments-bsl.svg)](https://badge.fury.io/py/pygments-bsl)\n\npygments-bsl\n=============\n\nPygments_ is a syntax highlighting tool that supports a wide range of\nlanguages and data formats.\n\nMade for MkDocs https://www.mkdocs.org.\nOnline example https://zeegin.github.io/pygments-bsl/\n\nSyntax rools from https://github.com/1c-syntax.\n\nInstall\n--------\n\n```\n$ pip install pygments-bsl\n```\n\nInstall local\n--------\n```bash\npip install .\n```\n\nBuild\n------\n\n```bash\npython -m build\n```\n\nTest\n------\n\n```bash\npytest\n\n```\n\nUsage\n-------\n\nPygment json highlighting is available without any further customization from code as well\nas from the pygementize command:\n\n```bash\npygmentize \"C:\\git\\pygments-bsl\\tests\\examplefiles\\bsl\\samples.bsl\"\npygmentize \"C:\\git\\pygments-bsl\\tests\\examplefiles\\bsl\\samples.os\"\npygmentize \"C:\\git\\pygments-bsl\\tests\\examplefiles\\sdbl\\samples.sdbl\"\n```\n\n- _Pygments: http://pygments.org/\n- _pygments-bsl: https://github.com/zeegin/pygments-bsl\n- _PyPI: http://pypi.python.org/pypi\n- _pip: http://www.pip-installer.org/\n\nUsed:\n- https://1c-syntax.github.io/bsl-language-server/\n- https://pr-mex.github.io/vanessa-automation/\n",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": "",
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": "https://github.com/zeegin/pygments-bsl",
+    "keywords": "",
+    "license": "MIT License",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "",
+    "maintainer_email": "",
+    "name": "pygments-bsl",
+    "package_url": "https://pypi.org/project/pygments-bsl/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/pygments-bsl/",
+    "project_urls": {
+      "Homepage": "https://github.com/zeegin/pygments-bsl"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/pygments-bsl/0.12.1/",
+    "requires_dist": [
+      "pygments >=2.3"
+    ],
+    "requires_python": "",
+    "summary": "Pygments 1C (BSL, SDBL) lexer",
+    "version": "0.12.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 21917539,
+  "releases": {
+    "0.10.0": [
+      {
+        "filename": "pygments_bsl-0.10.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 13860,
+        "upload_time": "2023-03-29T23:33:28",
+        "upload_time_iso_8601": "2023-03-29T23:33:28.505075Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.10.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13756,
+        "upload_time": "2023-03-29T23:33:29",
+        "upload_time_iso_8601": "2023-03-29T23:33:29.628379Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.2": [
+      {
+        "filename": "pygments_bsl-0.11.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 14819,
+        "upload_time": "2024-02-16T21:40:52",
+        "upload_time_iso_8601": "2024-02-16T21:40:52.795055Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.11.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14904,
+        "upload_time": "2024-02-16T21:40:54",
+        "upload_time_iso_8601": "2024-02-16T21:40:54.532047Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.12.1": [
+      {
+        "filename": "pygments_bsl-0.12.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 15964,
+        "upload_time": "2024-02-17T23:28:39",
+        "upload_time_iso_8601": "2024-02-17T23:28:39.083846Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.12.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 16117,
+        "upload_time": "2024-02-17T23:28:40",
+        "upload_time_iso_8601": "2024-02-17T23:28:40.430839Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2": [
+      {
+        "filename": "pygments_bsl-0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 10147,
+        "upload_time": "2019-10-18T23:09:51",
+        "upload_time_iso_8601": "2019-10-18T23:09:51.178787Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 8787,
+        "upload_time": "2019-10-18T23:09:52",
+        "upload_time_iso_8601": "2019-10-18T23:09:52.579513Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3": [
+      {
+        "filename": "pygments_bsl-0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 10120,
+        "upload_time": "2019-10-19T08:56:50",
+        "upload_time_iso_8601": "2019-10-19T08:56:50.906629Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 8777,
+        "upload_time": "2019-10-19T08:56:52",
+        "upload_time_iso_8601": "2019-10-19T08:56:52.652194Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4": [
+      {
+        "filename": "pygments_bsl-0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 10075,
+        "upload_time": "2019-10-19T11:25:13",
+        "upload_time_iso_8601": "2019-10-19T11:25:13.562806Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 8732,
+        "upload_time": "2019-10-19T11:25:15",
+        "upload_time_iso_8601": "2019-10-19T11:25:15.918551Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6": [
+      {
+        "filename": "pygments_bsl-0.6-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 14024,
+        "upload_time": "2021-11-28T12:36:19",
+        "upload_time_iso_8601": "2021-11-28T12:36:19.380920Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13500,
+        "upload_time": "2021-11-28T12:36:20",
+        "upload_time_iso_8601": "2021-11-28T12:36:20.366059Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.1": [
+      {
+        "filename": "pygments_bsl-0.6.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 14053,
+        "upload_time": "2021-11-28T13:00:33",
+        "upload_time_iso_8601": "2021-11-28T13:00:33.532795Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.6.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13508,
+        "upload_time": "2021-11-28T13:00:34",
+        "upload_time_iso_8601": "2021-11-28T13:00:34.479636Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.0": [
+      {
+        "filename": "pygments_bsl-0.7.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 14217,
+        "upload_time": "2021-11-28T14:05:38",
+        "upload_time_iso_8601": "2021-11-28T14:05:38.259007Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13665,
+        "upload_time": "2021-11-28T14:05:39",
+        "upload_time_iso_8601": "2021-11-28T14:05:39.127146Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.1": [
+      {
+        "filename": "pygments_bsl-0.7.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 14341,
+        "upload_time": "2021-11-28T14:50:16",
+        "upload_time_iso_8601": "2021-11-28T14:50:16.954223Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.7.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13772,
+        "upload_time": "2021-11-28T14:50:18",
+        "upload_time_iso_8601": "2021-11-28T14:50:18.126682Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.0": [
+      {
+        "filename": "pygments_bsl-0.8.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 14473,
+        "upload_time": "2021-11-28T17:50:14",
+        "upload_time_iso_8601": "2021-11-28T17:50:14.081547Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13885,
+        "upload_time": "2021-11-28T17:50:14",
+        "upload_time_iso_8601": "2021-11-28T17:50:14.914699Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0": [
+      {
+        "filename": "pygments_bsl-0.9.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 13730,
+        "upload_time": "2023-03-29T23:20:11",
+        "upload_time_iso_8601": "2023-03-29T23:20:11.304344Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pygments-bsl-0.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13631,
+        "upload_time": "2023-03-29T23:20:12",
+        "upload_time_iso_8601": "2023-03-29T23:20:12.934227Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

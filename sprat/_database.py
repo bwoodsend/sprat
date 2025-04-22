@@ -326,13 +326,25 @@ def bulk_lookup(names):
                 break
 
 
+def lookup(name):
+    id = sluggify(name).encode()
+    for (_name, block) in _read_database(database_path(hash_id(id))):
+        if sluggify_b(_name) == id:
+            return Package.parse(_name.decode(), block)
+    raise NoSuchPackageError(name)
+
+
 class NoSuchPackageError(Exception):
     pass
 
 
 class DatabaseUninitializedError(Exception):
     def __str__(self):
-        return "Repository database has not been downloaded. Please run: sprat.update()"
+        return "Packages database has not been downloaded. Please call: sprat.update()"
+
+
+class UpdateAlreadyInProgressError(Exception):
+    pass
 
 
 def classifier_sort_key(classifier):
@@ -340,7 +352,49 @@ def classifier_sort_key(classifier):
     return (start, [int(i) for i in re.findall(r"\d+", numbers)], end)
 
 
-def update(index_file=None):
-    dest_dir = cache_root / "unpacked"
-    dest_dir.mkdir(parents=True, exist_ok=True)
-    disassemble(index_file, dest_dir)
+def update(database_file=None):
+    import shutil, portalocker
+
+    cache_root.mkdir(parents=True, exist_ok=True)
+    try:
+        with portalocker.Lock(cache_root / "lock", fail_when_locked=True):
+            work_dir = cache_root / "work"
+            work_dir.mkdir(exist_ok=True)
+
+            download_no_op = False
+            if database_file is None:  # pragma: no branch
+                from urllib.request import urlopen, Request
+                database_file = cache_root / "database.gz"
+                headers = {}
+                try:
+                    headers["Range"] = f"bytes={database_file.stat().st_size}-"
+                except FileNotFoundError:
+                    pass
+                url = os.environ.get("SPRAT_INDEX_URL") \
+                    or "https://github.com/bwoodsend/sprat/releases/download/v1/database.gz"
+                with urlopen(Request(url, headers=headers)) as response:
+                    if int(response.headers["Content-Length"]) != 0:
+                        with open(database_file, "ab") as f:
+                            shutil.copyfileobj(response, f)
+                    else:
+                        download_no_op = True
+
+            dest_dir = cache_root / "unpacked"
+            graveyard_dir = cache_root / "graveyard"
+            if download_no_op and dest_dir.exists():
+                if dest_dir.stat().st_mtime > database_file.stat().st_mtime:
+                    return
+            disassemble(database_file, work_dir)
+            try:
+                shutil.rmtree(graveyard_dir)
+            except FileNotFoundError:
+                pass
+            try:
+                dest_dir.rename(graveyard_dir)
+            except FileNotFoundError:
+                work_dir.rename(dest_dir)
+            else:
+                work_dir.rename(dest_dir)
+                shutil.rmtree(graveyard_dir)
+    except portalocker.AlreadyLocked:
+        raise UpdateAlreadyInProgressError from None

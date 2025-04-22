@@ -1,0 +1,147 @@
+{
+  "info": {
+    "author": "Matthew Ballance",
+    "author_email": "matt.ballance@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Description",
+      "Home-Page",
+      "Keywords",
+      "License",
+      "Requires-Dist",
+      "Summary"
+    ],
+    "home_page": "https://github.com/zuspec/zuspec-be-py",
+    "keywords": "PSS, Functional Verification, RTL, Verilog, SystemVerilog",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "zuspec-be-py",
+    "package_url": "https://pypi.org/project/zuspec-be-py/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/zuspec-be-py/",
+    "project_urls": {
+      "Homepage": "https://github.com/zuspec/zuspec-be-py"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/zuspec-be-py/0.0.1.13125988621/",
+    "requires_dist": [
+      "zuspec-arl-dm",
+      "zuspec-arl-eval",
+      "zuspec-fe-parser",
+      "zuspec-parser"
+    ],
+    "requires_python": null,
+    "summary": "Co-specification of hardware, software, design, and test behavior",
+    "version": "0.0.1.13125988621",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27270564,
+  "releases": {
+    "0.0.1.10703132040": [
+      {
+        "filename": "zuspec_be_py-0.0.1.10703132040-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18053,
+        "upload_time": "2024-09-04T13:56:50",
+        "upload_time_iso_8601": "2024-09-04T13:56:50.485047Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13003712741": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13003712741-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18102,
+        "upload_time": "2025-01-28T04:37:41",
+        "upload_time_iso_8601": "2025-01-28T04:37:41.519829Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13043417831": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13043417831-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18101,
+        "upload_time": "2025-01-30T00:52:41",
+        "upload_time_iso_8601": "2025-01-30T00:52:41.895998Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13083379300": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13083379300-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18101,
+        "upload_time": "2025-02-01T00:56:53",
+        "upload_time_iso_8601": "2025-02-01T00:56:53.652528Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13094076670": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13094076670-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18101,
+        "upload_time": "2025-02-02T00:56:31",
+        "upload_time_iso_8601": "2025-02-02T00:56:31.451641Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.13125988621": [
+      {
+        "filename": "zuspec_be_py-0.0.1.13125988621-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18102,
+        "upload_time": "2025-02-04T00:53:49",
+        "upload_time_iso_8601": "2025-02-04T00:53:49.269806Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.1.8427800336": [
+      {
+        "filename": "zuspec_be_py-0.0.1.8427800336-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 18041,
+        "upload_time": "2024-03-25T22:25:10",
+        "upload_time_iso_8601": "2024-03-25T22:25:10.808100Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,722 @@
+{
+  "info": {
+    "author": "Kwesi Rutledge",
+    "author_email": "thesolitaryecrivain@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/kwesiRutledge/brom_drake-py",
+    "keywords": "drake, robotics, testing, logging",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "brom-drake",
+    "package_url": "https://pypi.org/project/brom-drake/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/brom-drake/",
+    "project_urls": {
+      "Homepage": "https://github.com/kwesiRutledge/brom_drake-py"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/brom-drake/0.3.4/",
+    "requires_dist": [
+      "drake",
+      "meshcat",
+      "manipulation",
+      "loguru",
+      "matplotlib",
+      "numpy",
+      "pycollada",
+      "trimesh"
+    ],
+    "requires_python": null,
+    "summary": "A set of convenient logging and testing tools for the Drake robotics toolbox.",
+    "version": "0.3.4",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27719182,
+  "releases": {
+    "0.0.1.post3": [
+      {
+        "filename": "brom_drake-0.0.1.post3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 3425,
+        "upload_time": "2024-04-04T15:03:49",
+        "upload_time_iso_8601": "2024-04-04T15:03:49.205262Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.0.1.post3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3411,
+        "upload_time": "2024-04-04T15:03:50",
+        "upload_time_iso_8601": "2024-04-04T15:03:50.959381Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.2": [
+      {
+        "filename": "brom_drake-0.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 3606,
+        "upload_time": "2024-04-04T16:31:46",
+        "upload_time_iso_8601": "2024-04-04T16:31:46.665907Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3655,
+        "upload_time": "2024-04-04T16:31:47",
+        "upload_time_iso_8601": "2024-04-04T16:31:47.744440Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.2.post2": [
+      {
+        "filename": "brom_drake-0.0.2.post2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 10225,
+        "upload_time": "2024-04-04T20:40:00",
+        "upload_time_iso_8601": "2024-04-04T20:40:00.487572Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.0.2.post2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 9949,
+        "upload_time": "2024-04-04T20:40:02",
+        "upload_time_iso_8601": "2024-04-04T20:40:02.528974Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.0": [
+      {
+        "filename": "brom_drake-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 13351,
+        "upload_time": "2024-04-16T17:25:30",
+        "upload_time_iso_8601": "2024-04-16T17:25:30.733111Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 12679,
+        "upload_time": "2024-04-16T17:25:32",
+        "upload_time_iso_8601": "2024-04-16T17:25:32.310792Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "brom_drake-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 13352,
+        "upload_time": "2024-04-26T21:10:02",
+        "upload_time_iso_8601": "2024-04-26T21:10:02.142812Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 12655,
+        "upload_time": "2024-04-26T21:10:03",
+        "upload_time_iso_8601": "2024-04-26T21:10:03.377381Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.2": [
+      {
+        "filename": "brom_drake-0.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 15477,
+        "upload_time": "2024-08-10T13:46:24",
+        "upload_time_iso_8601": "2024-08-10T13:46:24.615255Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14303,
+        "upload_time": "2024-08-10T13:46:25",
+        "upload_time_iso_8601": "2024-08-10T13:46:25.975994Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.3": [
+      {
+        "filename": "brom_drake-0.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 16237,
+        "upload_time": "2024-08-14T21:44:21",
+        "upload_time_iso_8601": "2024-08-14T21:44:21.969878Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14578,
+        "upload_time": "2024-08-14T21:44:23",
+        "upload_time_iso_8601": "2024-08-14T21:44:23.361194Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4": [
+      {
+        "filename": "brom_drake-0.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 16316,
+        "upload_time": "2024-08-23T01:30:37",
+        "upload_time_iso_8601": "2024-08-23T01:30:37.838175Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14643,
+        "upload_time": "2024-08-23T01:30:39",
+        "upload_time_iso_8601": "2024-08-23T01:30:39.356916Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "brom_drake-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 29974,
+        "upload_time": "2024-08-31T22:27:52",
+        "upload_time_iso_8601": "2024-08-31T22:27:52.413085Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24043,
+        "upload_time": "2024-08-31T22:27:53",
+        "upload_time_iso_8601": "2024-08-31T22:27:53.914605Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.1": [
+      {
+        "filename": "brom_drake-0.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 30852,
+        "upload_time": "2024-09-07T13:54:24",
+        "upload_time_iso_8601": "2024-09-07T13:54:24.704599Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24935,
+        "upload_time": "2024-09-07T13:54:25",
+        "upload_time_iso_8601": "2024-09-07T13:54:25.806687Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.10": [
+      {
+        "filename": "brom_drake-0.2.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 96500,
+        "upload_time": "2024-12-10T04:01:29",
+        "upload_time_iso_8601": "2024-12-10T04:01:29.123038Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 62545,
+        "upload_time": "2024-12-10T04:01:31",
+        "upload_time_iso_8601": "2024-12-10T04:01:31.342358Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.11": [
+      {
+        "filename": "brom_drake-0.2.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 101306,
+        "upload_time": "2024-12-13T04:15:43",
+        "upload_time_iso_8601": "2024-12-13T04:15:43.694048Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 64612,
+        "upload_time": "2024-12-13T04:15:45",
+        "upload_time_iso_8601": "2024-12-13T04:15:45.244083Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.2": [
+      {
+        "filename": "brom_drake-0.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 34355,
+        "upload_time": "2024-09-20T03:15:36",
+        "upload_time_iso_8601": "2024-09-20T03:15:36.659441Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 27632,
+        "upload_time": "2024-09-20T03:15:37",
+        "upload_time_iso_8601": "2024-09-20T03:15:37.974677Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.3": [
+      {
+        "filename": "brom_drake-0.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 44285,
+        "upload_time": "2024-09-27T05:42:56",
+        "upload_time_iso_8601": "2024-09-27T05:42:56.346440Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 32483,
+        "upload_time": "2024-09-27T05:42:57",
+        "upload_time_iso_8601": "2024-09-27T05:42:57.356542Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.4": [
+      {
+        "filename": "brom_drake-0.2.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 50719,
+        "upload_time": "2024-10-04T16:40:49",
+        "upload_time_iso_8601": "2024-10-04T16:40:49.095707Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 35518,
+        "upload_time": "2024-10-04T16:40:50",
+        "upload_time_iso_8601": "2024-10-04T16:40:50.839496Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.5": [
+      {
+        "filename": "brom_drake-0.2.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 51891,
+        "upload_time": "2024-10-12T13:22:58",
+        "upload_time_iso_8601": "2024-10-12T13:22:58.779347Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 36186,
+        "upload_time": "2024-10-12T13:23:00",
+        "upload_time_iso_8601": "2024-10-12T13:23:00.334782Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.5.post1": [
+      {
+        "filename": "brom_drake-0.2.5.post1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 51962,
+        "upload_time": "2024-10-12T14:27:45",
+        "upload_time_iso_8601": "2024-10-12T14:27:45.985280Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.5.post1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 36226,
+        "upload_time": "2024-10-12T14:27:47",
+        "upload_time_iso_8601": "2024-10-12T14:27:47.602971Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.6": [
+      {
+        "filename": "brom_drake-0.2.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 63118,
+        "upload_time": "2024-10-25T03:22:18",
+        "upload_time_iso_8601": "2024-10-25T03:22:18.130569Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 42480,
+        "upload_time": "2024-10-25T03:22:19",
+        "upload_time_iso_8601": "2024-10-25T03:22:19.567093Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.7": [
+      {
+        "filename": "brom_drake-0.2.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 77090,
+        "upload_time": "2024-11-11T22:03:44",
+        "upload_time_iso_8601": "2024-11-11T22:03:44.395790Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 51533,
+        "upload_time": "2024-11-11T22:03:46",
+        "upload_time_iso_8601": "2024-11-11T22:03:46.300459Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.8": [
+      {
+        "filename": "brom_drake-0.2.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 90723,
+        "upload_time": "2024-11-30T18:12:45",
+        "upload_time_iso_8601": "2024-11-30T18:12:45.542059Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 59441,
+        "upload_time": "2024-11-30T18:12:55",
+        "upload_time_iso_8601": "2024-11-30T18:12:55.041088Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.9": [
+      {
+        "filename": "brom_drake-0.2.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 95256,
+        "upload_time": "2024-12-07T19:31:52",
+        "upload_time_iso_8601": "2024-12-07T19:31:52.342632Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.2.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 61702,
+        "upload_time": "2024-12-07T19:31:53",
+        "upload_time_iso_8601": "2024-12-07T19:31:53.942858Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "brom_drake-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 104568,
+        "upload_time": "2025-01-01T22:21:22",
+        "upload_time_iso_8601": "2025-01-01T22:21:22.514157Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 67024,
+        "upload_time": "2025-01-01T22:21:24",
+        "upload_time_iso_8601": "2025-01-01T22:21:24.412301Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.1": [
+      {
+        "filename": "brom_drake-0.3.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 106732,
+        "upload_time": "2025-01-05T22:10:25",
+        "upload_time_iso_8601": "2025-01-05T22:10:25.718640Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 67645,
+        "upload_time": "2025-01-05T22:10:28",
+        "upload_time_iso_8601": "2025-01-05T22:10:28.550070Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.2": [
+      {
+        "filename": "brom_drake-0.3.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 131665,
+        "upload_time": "2025-02-07T03:09:22",
+        "upload_time_iso_8601": "2025-02-07T03:09:22.770231Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 77639,
+        "upload_time": "2025-02-07T03:09:24",
+        "upload_time_iso_8601": "2025-02-07T03:09:24.870388Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.3": [
+      {
+        "filename": "brom_drake-0.3.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 133734,
+        "upload_time": "2025-02-08T23:04:55",
+        "upload_time_iso_8601": "2025-02-08T23:04:55.736442Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 78856,
+        "upload_time": "2025-02-08T23:04:59",
+        "upload_time_iso_8601": "2025-02-08T23:04:59.481716Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.4": [
+      {
+        "filename": "brom_drake-0.3.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 157683,
+        "upload_time": "2025-03-02T01:39:34",
+        "upload_time_iso_8601": "2025-03-02T01:39:34.759555Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "brom_drake-0.3.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 92205,
+        "upload_time": "2025-03-02T01:39:37",
+        "upload_time_iso_8601": "2025-03-02T01:39:37.247308Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

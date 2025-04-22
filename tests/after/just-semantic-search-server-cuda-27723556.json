@@ -1,0 +1,285 @@
+{
+  "info": {
+    "author": "Anton Kulaga",
+    "author_email": "antonkulaga@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: Apache Software License",
+      "Operating System :: MacOS :: MacOS X",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: POSIX :: Linux",
+      "Operating System :: Unix",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "python, llm, gpu, cuda, science, review, hybrid search, semantic search, agent",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "just-semantic-search-server-cuda",
+    "package_url": "https://pypi.org/project/just-semantic-search-server-cuda/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/just-semantic-search-server-cuda/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/just-semantic-search-server-cuda/0.3.0/",
+    "requires_dist": [
+      "just-semantic-search-scholar-cuda",
+      "just-semantic-search-meili-cuda",
+      "just-agents-web>=0.6.2"
+    ],
+    "requires_python": "<3.15,>=3.10",
+    "summary": "Core interfaces for hybrid search implementations (CUDA version)",
+    "version": "0.3.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27723556,
+  "releases": {
+    "0.0.0": [
+      {
+        "filename": "just_semantic_search_server_cuda-0.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.15,>=3.10",
+        "size": 10887,
+        "upload_time": "2025-02-25T16:45:10",
+        "upload_time_iso_8601": "2025-02-25T16:45:10.579892Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "just_semantic_search_server_cuda-0.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.15,>=3.10",
+        "size": 11657,
+        "upload_time": "2025-02-25T16:45:11",
+        "upload_time_iso_8601": "2025-02-25T16:45:11.730516Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.3": [
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.15,>=3.10",
+        "size": 10858,
+        "upload_time": "2025-02-25T16:35:24",
+        "upload_time_iso_8601": "2025-02-25T16:35:24.258524Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.15,>=3.10",
+        "size": 11630,
+        "upload_time": "2025-02-25T16:35:25",
+        "upload_time_iso_8601": "2025-02-25T16:35:25.770192Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.4": [
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.15,>=3.10",
+        "size": 10888,
+        "upload_time": "2025-02-25T16:50:13",
+        "upload_time_iso_8601": "2025-02-25T16:50:13.944931Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.15,>=3.10",
+        "size": 11657,
+        "upload_time": "2025-02-25T16:50:15",
+        "upload_time_iso_8601": "2025-02-25T16:50:15.116892Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.6": [
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.15,>=3.10",
+        "size": 10974,
+        "upload_time": "2025-02-26T18:15:13",
+        "upload_time_iso_8601": "2025-02-26T18:15:13.477316Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.15,>=3.10",
+        "size": 11687,
+        "upload_time": "2025-02-26T18:15:15",
+        "upload_time_iso_8601": "2025-02-26T18:15:15.370486Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.7": [
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.15,>=3.10",
+        "size": 12255,
+        "upload_time": "2025-02-27T01:17:25",
+        "upload_time_iso_8601": "2025-02-27T01:17:25.557961Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.15,>=3.10",
+        "size": 12591,
+        "upload_time": "2025-02-27T01:17:27",
+        "upload_time_iso_8601": "2025-02-27T01:17:27.379857Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.8": [
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.15,>=3.10",
+        "size": 12247,
+        "upload_time": "2025-02-27T08:52:37",
+        "upload_time_iso_8601": "2025-02-27T08:52:37.225037Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.15,>=3.10",
+        "size": 12589,
+        "upload_time": "2025-02-27T08:52:38",
+        "upload_time_iso_8601": "2025-02-27T08:52:38.311493Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.9": [
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.15,>=3.10",
+        "size": 12375,
+        "upload_time": "2025-02-27T09:25:57",
+        "upload_time_iso_8601": "2025-02-27T09:25:57.525969Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "just_semantic_search_server_cuda-0.2.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.15,>=3.10",
+        "size": 12703,
+        "upload_time": "2025-02-27T09:25:59",
+        "upload_time_iso_8601": "2025-02-27T09:25:59.463224Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "just_semantic_search_server_cuda-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.15,>=3.10",
+        "size": 11670,
+        "upload_time": "2025-03-02T12:27:30",
+        "upload_time_iso_8601": "2025-03-02T12:27:30.403274Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "just_semantic_search_server_cuda-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.15,>=3.10",
+        "size": 12436,
+        "upload_time": "2025-03-02T12:27:32",
+        "upload_time_iso_8601": "2025-03-02T12:27:32.245979Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.0": [
+      {
+        "filename": "just_semantic_search_server_cuda-2.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.15,>=3.10",
+        "size": 10972,
+        "upload_time": "2025-02-26T17:27:18",
+        "upload_time_iso_8601": "2025-02-26T17:27:18.118309Z",
+        "yanked": true,
+        "yanked_reason": "typo"
+      },
+      {
+        "filename": "just_semantic_search_server_cuda-2.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.15,>=3.10",
+        "size": 11687,
+        "upload_time": "2025-02-26T17:27:19",
+        "upload_time_iso_8601": "2025-02-26T17:27:19.227492Z",
+        "yanked": true,
+        "yanked_reason": "typo"
+      }
+    ]
+  }
+}

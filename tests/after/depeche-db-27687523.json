@@ -1,0 +1,551 @@
+{
+  "info": {
+    "author": "Martin Vielsmaier",
+    "author_email": "martin@vielsmaier.net",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Database",
+      "Topic :: Software Development :: Libraries"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "sqlalchemy, postgresql, event-driven, event store, message store, event sourcing",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "depeche-db",
+    "package_url": "https://pypi.org/project/depeche-db/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/depeche-db/",
+    "project_urls": {
+      "Changelog": "https://depeche-py.github.io/depeche-db/CHANGELOG/",
+      "Documentation": "https://depeche-py.github.io/depeche-db/",
+      "Homepage": "https://github.com/depeche-py/depeche-db",
+      "Repository": "https://github.com/depeche-py/depeche-db"
+    },
+    "provides_extra": [
+      "psycopg2"
+    ],
+    "release_url": "https://pypi.org/project/depeche-db/0.8.3/",
+    "requires_dist": [
+      "pals<0.4.0,>=0.3.5",
+      "psycopg2<3.0,>=2.9; extra == \"psycopg2\"",
+      "sqlalchemy>=1.4.30",
+      "sqlalchemy-utils<0.42.0,>=0.41.1"
+    ],
+    "requires_python": "<4.0,>=3.9",
+    "summary": "A library for building event-based systems on top of PostgreSQL",
+    "version": "0.8.3",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27687523,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "depeche_db-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 14850,
+        "upload_time": "2023-10-11T07:04:05",
+        "upload_time_iso_8601": "2023-10-11T07:04:05.766348Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 10229,
+        "upload_time": "2023-10-11T07:04:07",
+        "upload_time_iso_8601": "2023-10-11T07:04:07.646343Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "depeche_db-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 14850,
+        "upload_time": "2023-10-11T07:15:07",
+        "upload_time_iso_8601": "2023-10-11T07:15:07.594446Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 9900,
+        "upload_time": "2023-10-11T07:15:08",
+        "upload_time_iso_8601": "2023-10-11T07:15:08.580513Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "depeche_db-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 16170,
+        "upload_time": "2023-10-11T19:04:22",
+        "upload_time_iso_8601": "2023-10-11T19:04:22.249651Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 11555,
+        "upload_time": "2023-10-11T19:04:23",
+        "upload_time_iso_8601": "2023-10-11T19:04:23.630569Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "depeche_db-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 16744,
+        "upload_time": "2023-10-11T20:36:08",
+        "upload_time_iso_8601": "2023-10-11T20:36:08.476009Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 11976,
+        "upload_time": "2023-10-11T20:36:10",
+        "upload_time_iso_8601": "2023-10-11T20:36:10.467909Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "depeche_db-0.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 19112,
+        "upload_time": "2023-10-19T20:12:04",
+        "upload_time_iso_8601": "2023-10-19T20:12:04.631616Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 14627,
+        "upload_time": "2023-10-19T20:12:06",
+        "upload_time_iso_8601": "2023-10-19T20:12:06.301477Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.1": [
+      {
+        "filename": "depeche_db-0.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 19285,
+        "upload_time": "2023-10-19T20:28:28",
+        "upload_time_iso_8601": "2023-10-19T20:28:28.257866Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 14888,
+        "upload_time": "2023-10-19T20:28:29",
+        "upload_time_iso_8601": "2023-10-19T20:28:29.351460Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.2": [
+      {
+        "filename": "depeche_db-0.4.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 19385,
+        "upload_time": "2023-10-19T21:04:03",
+        "upload_time_iso_8601": "2023-10-19T21:04:03.780384Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 14958,
+        "upload_time": "2023-10-19T21:04:05",
+        "upload_time_iso_8601": "2023-10-19T21:04:05.472230Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.3": [
+      {
+        "filename": "depeche_db-0.4.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 19384,
+        "upload_time": "2023-10-19T21:08:00",
+        "upload_time_iso_8601": "2023-10-19T21:08:00.999960Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.4.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 14960,
+        "upload_time": "2023-10-19T21:08:02",
+        "upload_time_iso_8601": "2023-10-19T21:08:02.783465Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.4": [
+      {
+        "filename": "depeche_db-0.4.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 20114,
+        "upload_time": "2023-10-20T14:23:38",
+        "upload_time_iso_8601": "2023-10-20T14:23:38.674374Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.4.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 15535,
+        "upload_time": "2023-10-20T14:23:39",
+        "upload_time_iso_8601": "2023-10-20T14:23:39.706646Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.5": [
+      {
+        "filename": "depeche_db-0.4.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 20185,
+        "upload_time": "2023-10-23T19:32:36",
+        "upload_time_iso_8601": "2023-10-23T19:32:36.292997Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.4.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 15582,
+        "upload_time": "2023-10-23T19:32:37",
+        "upload_time_iso_8601": "2023-10-23T19:32:37.886567Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.0": [
+      {
+        "filename": "depeche_db-0.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 24050,
+        "upload_time": "2023-10-24T19:47:51",
+        "upload_time_iso_8601": "2023-10-24T19:47:51.852633Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 19255,
+        "upload_time": "2023-10-24T19:47:53",
+        "upload_time_iso_8601": "2023-10-24T19:47:53.047492Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.0": [
+      {
+        "filename": "depeche_db-0.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 27487,
+        "upload_time": "2023-10-25T20:49:12",
+        "upload_time_iso_8601": "2023-10-25T20:49:12.787792Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 22296,
+        "upload_time": "2023-10-25T20:49:14",
+        "upload_time_iso_8601": "2023-10-25T20:49:14.384909Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.1": [
+      {
+        "filename": "depeche_db-0.6.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 29330,
+        "upload_time": "2023-10-26T19:42:56",
+        "upload_time_iso_8601": "2023-10-26T19:42:56.786377Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.6.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 23385,
+        "upload_time": "2023-10-26T19:42:58",
+        "upload_time_iso_8601": "2023-10-26T19:42:58.563470Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.2": [
+      {
+        "filename": "depeche_db-0.6.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 29657,
+        "upload_time": "2023-10-27T14:58:47",
+        "upload_time_iso_8601": "2023-10-27T14:58:47.429294Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.6.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 23668,
+        "upload_time": "2023-10-27T14:58:48",
+        "upload_time_iso_8601": "2023-10-27T14:58:48.561135Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.0": [
+      {
+        "filename": "depeche_db-0.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 30954,
+        "upload_time": "2023-12-01T09:49:30",
+        "upload_time_iso_8601": "2023-12-01T09:49:30.709588Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 24894,
+        "upload_time": "2023-12-01T09:49:32",
+        "upload_time_iso_8601": "2023-12-01T09:49:32.522369Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.1": [
+      {
+        "filename": "depeche_db-0.7.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 31113,
+        "upload_time": "2024-01-19T08:44:39",
+        "upload_time_iso_8601": "2024-01-19T08:44:39.233169Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.7.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 25109,
+        "upload_time": "2024-01-19T08:44:40",
+        "upload_time_iso_8601": "2024-01-19T08:44:40.413864Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.0": [
+      {
+        "filename": "depeche_db-0.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<4.0",
+        "size": 32743,
+        "upload_time": "2024-01-20T19:31:22",
+        "upload_time_iso_8601": "2024-01-20T19:31:22.196156Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<4.0",
+        "size": 26635,
+        "upload_time": "2024-01-20T19:31:23",
+        "upload_time_iso_8601": "2024-01-20T19:31:23.815201Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.1": [
+      {
+        "filename": "depeche_db-0.8.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 32823,
+        "upload_time": "2025-02-11T15:09:17",
+        "upload_time_iso_8601": "2025-02-11T15:09:17.991053Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.8.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 26009,
+        "upload_time": "2025-02-11T15:09:19",
+        "upload_time_iso_8601": "2025-02-11T15:09:19.307869Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.3": [
+      {
+        "filename": "depeche_db-0.8.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 33386,
+        "upload_time": "2025-02-27T21:56:20",
+        "upload_time_iso_8601": "2025-02-27T21:56:20.689189Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "depeche_db-0.8.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 26570,
+        "upload_time": "2025-02-27T21:56:22",
+        "upload_time_iso_8601": "2025-02-27T21:56:22.310117Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

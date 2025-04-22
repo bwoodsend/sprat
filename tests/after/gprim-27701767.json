@@ -1,0 +1,97 @@
+{
+  "info": {
+    "author": "Yakir Reshef",
+    "author_email": "yreshef@broadinstitute.org",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/yakirr/gprim",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "gprim",
+    "package_url": "https://pypi.org/project/gprim/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/gprim/",
+    "project_urls": {
+      "Homepage": "https://github.com/yakirr/gprim"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/gprim/0.23/",
+    "requires_dist": [
+      "pysnptools",
+      "pybedtools",
+      "ypy"
+    ],
+    "requires_python": ">=3",
+    "summary": "Utility functions for working with statistical genetic data",
+    "version": "0.23",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27701767,
+  "releases": {
+    "0.21": [
+      {
+        "filename": "gprim-0.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5435,
+        "upload_time": "2017-10-30T21:36:50",
+        "upload_time_iso_8601": "2017-10-30T21:36:50.095973Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.22": [
+      {
+        "filename": "gprim-0.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 6336,
+        "upload_time": "2018-04-17T17:57:39",
+        "upload_time_iso_8601": "2018-04-17T17:57:39.140667Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.23": [
+      {
+        "filename": "gprim-0.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3",
+        "size": 7702,
+        "upload_time": "2025-02-28T17:13:15",
+        "upload_time_iso_8601": "2025-02-28T17:13:15.833872Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "gprim-0.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3",
+        "size": 7067,
+        "upload_time": "2025-02-28T17:13:17",
+        "upload_time_iso_8601": "2025-02-28T17:13:17.383449Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

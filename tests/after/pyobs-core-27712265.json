@@ -1,0 +1,5680 @@
+{
+  "info": {
+    "author": "Tim-Oliver Husser",
+    "author_email": "thusser@uni-goettingen.de",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "pyobs-core",
+    "package_url": "https://pypi.org/project/pyobs-core/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/pyobs-core/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/pyobs-core/1.20.0/",
+    "requires_dist": [
+      "scipy<2.0.0,>=1.11.3",
+      "astropy<6.0.0,>=5.3.4",
+      "numpy<2.0.0,>=1.26.0",
+      "pytz<2024.0,>=2023.3.post1",
+      "PyYAML<7.0.0,>=6.0.1",
+      "typing-extensions<5.0.0,>=4.8.0",
+      "astroquery<0.5.0,>=0.4.6",
+      "slixmpp<2.0.0,>=1.8.4",
+      "single-source<0.4.0,>=0.3.0",
+      "dbus-next<0.3.0,>=0.2.3",
+      "asyncinotify<5.0.0,>=4.0.2; extra == \"full\"",
+      "sep<2.0.0,>=1.2.1; sys_platform == \"linux\" and extra == \"full\"",
+      "python-daemon<4.0.0,>=3.0.1; extra == \"full\"",
+      "pandas<3.0.0,>=2.1.1; extra == \"full\"",
+      "astroplan<0.10.0,>=0.9.1",
+      "paramiko<4.0.0,>=3.3.1; extra == \"full\"",
+      "py-expression-eval<0.4.0,>=0.3.14",
+      "requests<3.0.0,>=2.31.0",
+      "ccdproc<3.0.0,>=2.4.1; extra == \"full\"",
+      "photutils<2.0.0,>=1.9.0; extra == \"full\"",
+      "lmfit<2.0.0,>=1.2.2; extra == \"full\"",
+      "tornado<7.0.0,>=6.3.3; extra == \"full\"",
+      "python-telegram-bot<21.0,>=20.6; extra == \"full\"",
+      "aiohttp<4.0.0,>=3.8.6; extra == \"full\""
+    ],
+    "requires_python": "<3.13,>=3.10",
+    "summary": "robotic telescope software",
+    "version": "1.20.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27712265,
+  "releases": {
+    "0.10": [
+      {
+        "filename": "pyobs_core-0.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 202547,
+        "upload_time": "2020-05-05T09:38:36",
+        "upload_time_iso_8601": "2020-05-05T09:38:36.374943Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 123211,
+        "upload_time": "2020-05-05T09:38:38",
+        "upload_time_iso_8601": "2020-05-05T09:38:38.312359Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11": [
+      {
+        "filename": "pyobs_core-0.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 212909,
+        "upload_time": "2020-10-18T16:38:37",
+        "upload_time_iso_8601": "2020-10-18T16:38:37.635578Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 128026,
+        "upload_time": "2020-10-18T16:38:38",
+        "upload_time_iso_8601": "2020-10-18T16:38:38.678569Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.12": [
+      {
+        "filename": "pyobs_core-0.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">3.7",
+        "size": 226066,
+        "upload_time": "2021-01-01T09:45:41",
+        "upload_time_iso_8601": "2021-01-01T09:45:41.722481Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">3.7",
+        "size": 136654,
+        "upload_time": "2021-01-01T09:45:42",
+        "upload_time_iso_8601": "2021-01-01T09:45:42.951106Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.12.1": [
+      {
+        "filename": "pyobs_core-0.12.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">3.7",
+        "size": 226091,
+        "upload_time": "2021-01-01T09:52:45",
+        "upload_time_iso_8601": "2021-01-01T09:52:45.483055Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.12.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">3.7",
+        "size": 136646,
+        "upload_time": "2021-01-01T09:52:46",
+        "upload_time_iso_8601": "2021-01-01T09:52:46.625540Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.13": [
+      {
+        "filename": "pyobs_core-0.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 256141,
+        "upload_time": "2021-04-30T11:42:10",
+        "upload_time_iso_8601": "2021-04-30T11:42:10.454069Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 155981,
+        "upload_time": "2021-04-30T11:42:11",
+        "upload_time_iso_8601": "2021-04-30T11:42:11.426134Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14": [
+      {
+        "filename": "pyobs_core-0.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 306124,
+        "upload_time": "2021-11-03T12:50:03",
+        "upload_time_iso_8601": "2021-11-03T12:50:03.303638Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 178109,
+        "upload_time": "2021-11-03T12:50:04",
+        "upload_time_iso_8601": "2021-11-03T12:50:04.897553Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.1": [
+      {
+        "filename": "pyobs_core-0.14.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 312654,
+        "upload_time": "2021-11-18T17:44:08",
+        "upload_time_iso_8601": "2021-11-18T17:44:08.471072Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.14.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 184637,
+        "upload_time": "2021-11-18T17:44:07",
+        "upload_time_iso_8601": "2021-11-18T17:44:07.027958Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.2": [
+      {
+        "filename": "pyobs_core-0.14.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 315978,
+        "upload_time": "2021-11-29T09:31:24",
+        "upload_time_iso_8601": "2021-11-29T09:31:24.839447Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.14.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 185226,
+        "upload_time": "2021-11-29T09:31:23",
+        "upload_time_iso_8601": "2021-11-29T09:31:23.296901Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0": [
+      {
+        "filename": "pyobs_core-0.15.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 303955,
+        "upload_time": "2021-12-29T20:19:57",
+        "upload_time_iso_8601": "2021-12-29T20:19:57.711771Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 187845,
+        "upload_time": "2021-12-29T20:19:56",
+        "upload_time_iso_8601": "2021-12-29T20:19:56.505938Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a1": [
+      {
+        "filename": "pyobs_core-0.15.0a1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308149,
+        "upload_time": "2021-12-10T13:39:16",
+        "upload_time_iso_8601": "2021-12-10T13:39:16.549380Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 493779,
+        "upload_time": "2021-12-10T13:39:14",
+        "upload_time_iso_8601": "2021-12-10T13:39:14.744966Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a10": [
+      {
+        "filename": "pyobs_core-0.15.0a10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308779,
+        "upload_time": "2021-12-13T14:57:49",
+        "upload_time_iso_8601": "2021-12-13T14:57:49.685434Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 503089,
+        "upload_time": "2021-12-13T14:57:47",
+        "upload_time_iso_8601": "2021-12-13T14:57:47.460985Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a11": [
+      {
+        "filename": "pyobs_core-0.15.0a11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308775,
+        "upload_time": "2021-12-14T09:59:28",
+        "upload_time_iso_8601": "2021-12-14T09:59:28.550005Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 503225,
+        "upload_time": "2021-12-14T09:59:26",
+        "upload_time_iso_8601": "2021-12-14T09:59:26.420170Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a12": [
+      {
+        "filename": "pyobs_core-0.15.0a12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308806,
+        "upload_time": "2021-12-14T10:30:54",
+        "upload_time_iso_8601": "2021-12-14T10:30:54.385136Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 503252,
+        "upload_time": "2021-12-14T10:30:52",
+        "upload_time_iso_8601": "2021-12-14T10:30:52.240908Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a13": [
+      {
+        "filename": "pyobs_core-0.15.0a13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308919,
+        "upload_time": "2021-12-14T11:58:41",
+        "upload_time_iso_8601": "2021-12-14T11:58:41.788908Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 503595,
+        "upload_time": "2021-12-14T11:58:40",
+        "upload_time_iso_8601": "2021-12-14T11:58:40.056501Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a14": [
+      {
+        "filename": "pyobs_core-0.15.0a14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308530,
+        "upload_time": "2021-12-15T16:47:55",
+        "upload_time_iso_8601": "2021-12-15T16:47:55.113754Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 477324,
+        "upload_time": "2021-12-15T16:47:52",
+        "upload_time_iso_8601": "2021-12-15T16:47:52.633009Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a15": [
+      {
+        "filename": "pyobs_core-0.15.0a15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308485,
+        "upload_time": "2021-12-15T21:06:43",
+        "upload_time_iso_8601": "2021-12-15T21:06:43.486261Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 477292,
+        "upload_time": "2021-12-15T21:06:41",
+        "upload_time_iso_8601": "2021-12-15T21:06:41.159076Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a16": [
+      {
+        "filename": "pyobs_core-0.15.0a16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308480,
+        "upload_time": "2021-12-15T21:09:32",
+        "upload_time_iso_8601": "2021-12-15T21:09:32.397949Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 477277,
+        "upload_time": "2021-12-15T21:09:29",
+        "upload_time_iso_8601": "2021-12-15T21:09:29.510375Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a17": [
+      {
+        "filename": "pyobs_core-0.15.0a17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308536,
+        "upload_time": "2021-12-15T21:26:38",
+        "upload_time_iso_8601": "2021-12-15T21:26:38.639638Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 477377,
+        "upload_time": "2021-12-15T21:26:36",
+        "upload_time_iso_8601": "2021-12-15T21:26:36.080552Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a18": [
+      {
+        "filename": "pyobs_core-0.15.0a18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 302793,
+        "upload_time": "2021-12-20T13:59:07",
+        "upload_time_iso_8601": "2021-12-20T13:59:07.733188Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 523266,
+        "upload_time": "2021-12-20T13:59:06",
+        "upload_time_iso_8601": "2021-12-20T13:59:06.002471Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a19": [
+      {
+        "filename": "pyobs_core-0.15.0a19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 302795,
+        "upload_time": "2021-12-20T14:50:10",
+        "upload_time_iso_8601": "2021-12-20T14:50:10.825878Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 523263,
+        "upload_time": "2021-12-20T14:50:08",
+        "upload_time_iso_8601": "2021-12-20T14:50:08.372278Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a2": [
+      {
+        "filename": "pyobs_core-0.15.0a2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308140,
+        "upload_time": "2021-12-10T13:54:50",
+        "upload_time_iso_8601": "2021-12-10T13:54:50.918790Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 493771,
+        "upload_time": "2021-12-10T13:54:48",
+        "upload_time_iso_8601": "2021-12-10T13:54:48.861332Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a20": [
+      {
+        "filename": "pyobs_core-0.15.0a20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 302854,
+        "upload_time": "2021-12-20T15:46:21",
+        "upload_time_iso_8601": "2021-12-20T15:46:21.722615Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 522990,
+        "upload_time": "2021-12-20T15:46:19",
+        "upload_time_iso_8601": "2021-12-20T15:46:19.653700Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a21": [
+      {
+        "filename": "pyobs_core-0.15.0a21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 303159,
+        "upload_time": "2021-12-23T15:08:16",
+        "upload_time_iso_8601": "2021-12-23T15:08:16.556970Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 528283,
+        "upload_time": "2021-12-23T15:08:14",
+        "upload_time_iso_8601": "2021-12-23T15:08:14.667639Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a3": [
+      {
+        "filename": "pyobs_core-0.15.0a3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308222,
+        "upload_time": "2021-12-12T10:05:27",
+        "upload_time_iso_8601": "2021-12-12T10:05:27.590353Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 457715,
+        "upload_time": "2021-12-12T10:05:25",
+        "upload_time_iso_8601": "2021-12-12T10:05:25.097240Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a4": [
+      {
+        "filename": "pyobs_core-0.15.0a4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308213,
+        "upload_time": "2021-12-12T10:08:11",
+        "upload_time_iso_8601": "2021-12-12T10:08:11.555400Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 457698,
+        "upload_time": "2021-12-12T10:08:09",
+        "upload_time_iso_8601": "2021-12-12T10:08:09.506259Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a5": [
+      {
+        "filename": "pyobs_core-0.15.0a5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308173,
+        "upload_time": "2021-12-12T11:57:41",
+        "upload_time_iso_8601": "2021-12-12T11:57:41.334347Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 457642,
+        "upload_time": "2021-12-12T11:57:38",
+        "upload_time_iso_8601": "2021-12-12T11:57:38.929664Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a6": [
+      {
+        "filename": "pyobs_core-0.15.0a6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308174,
+        "upload_time": "2021-12-12T12:04:56",
+        "upload_time_iso_8601": "2021-12-12T12:04:56.193217Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 457663,
+        "upload_time": "2021-12-12T12:04:54",
+        "upload_time_iso_8601": "2021-12-12T12:04:54.704866Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a7": [
+      {
+        "filename": "pyobs_core-0.15.0a7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308363,
+        "upload_time": "2021-12-12T21:11:35",
+        "upload_time_iso_8601": "2021-12-12T21:11:35.060004Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 489459,
+        "upload_time": "2021-12-12T21:11:33",
+        "upload_time_iso_8601": "2021-12-12T21:11:33.540703Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a8": [
+      {
+        "filename": "pyobs_core-0.15.0a8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308505,
+        "upload_time": "2021-12-13T08:57:09",
+        "upload_time_iso_8601": "2021-12-13T08:57:09.673474Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 502431,
+        "upload_time": "2021-12-13T08:57:07",
+        "upload_time_iso_8601": "2021-12-13T08:57:07.906211Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0a9": [
+      {
+        "filename": "pyobs_core-0.15.0a9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<3.11",
+        "size": 308792,
+        "upload_time": "2021-12-13T14:40:40",
+        "upload_time_iso_8601": "2021-12-13T14:40:40.820784Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.0a9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<3.11",
+        "size": 503192,
+        "upload_time": "2021-12-13T14:40:38",
+        "upload_time_iso_8601": "2021-12-13T14:40:38.710953Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.1": [
+      {
+        "filename": "pyobs_core-0.15.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 303951,
+        "upload_time": "2021-12-29T21:20:21",
+        "upload_time_iso_8601": "2021-12-29T21:20:21.191513Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 187841,
+        "upload_time": "2021-12-29T21:20:19",
+        "upload_time_iso_8601": "2021-12-29T21:20:19.817638Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.2": [
+      {
+        "filename": "pyobs_core-0.15.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 304171,
+        "upload_time": "2022-01-06T10:02:21",
+        "upload_time_iso_8601": "2022-01-06T10:02:21.676120Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 188578,
+        "upload_time": "2022-01-06T10:02:20",
+        "upload_time_iso_8601": "2022-01-06T10:02:20.293535Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.3": [
+      {
+        "filename": "pyobs_core-0.15.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 304154,
+        "upload_time": "2022-01-06T15:41:13",
+        "upload_time_iso_8601": "2022-01-06T15:41:13.666498Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 188594,
+        "upload_time": "2022-01-06T15:41:12",
+        "upload_time_iso_8601": "2022-01-06T15:41:12.241688Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.4": [
+      {
+        "filename": "pyobs_core-0.15.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 304157,
+        "upload_time": "2022-01-06T15:47:22",
+        "upload_time_iso_8601": "2022-01-06T15:47:22.671936Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 188595,
+        "upload_time": "2022-01-06T15:47:21",
+        "upload_time_iso_8601": "2022-01-06T15:47:21.399222Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.5": [
+      {
+        "filename": "pyobs_core-0.15.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 304204,
+        "upload_time": "2022-01-06T20:29:33",
+        "upload_time_iso_8601": "2022-01-06T20:29:33.149936Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.15.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 188623,
+        "upload_time": "2022-01-06T20:29:31",
+        "upload_time_iso_8601": "2022-01-06T20:29:31.689831Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.0": [
+      {
+        "filename": "pyobs_core-0.16.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 308164,
+        "upload_time": "2022-01-14T14:00:38",
+        "upload_time_iso_8601": "2022-01-14T14:00:38.919661Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.16.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 192115,
+        "upload_time": "2022-01-14T14:00:37",
+        "upload_time_iso_8601": "2022-01-14T14:00:37.287033Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.0a1": [
+      {
+        "filename": "pyobs_core-0.16.0a1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 308003,
+        "upload_time": "2022-01-13T13:37:59",
+        "upload_time_iso_8601": "2022-01-13T13:37:59.908637Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.16.0a1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 517993,
+        "upload_time": "2022-01-13T13:37:57",
+        "upload_time_iso_8601": "2022-01-13T13:37:57.620491Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.0a2": [
+      {
+        "filename": "pyobs_core-0.16.0a2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 308011,
+        "upload_time": "2022-01-13T13:53:39",
+        "upload_time_iso_8601": "2022-01-13T13:53:39.313027Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.16.0a2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 521196,
+        "upload_time": "2022-01-13T13:53:37",
+        "upload_time_iso_8601": "2022-01-13T13:53:37.087269Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.0a3": [
+      {
+        "filename": "pyobs_core-0.16.0a3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 307966,
+        "upload_time": "2022-01-13T14:38:26",
+        "upload_time_iso_8601": "2022-01-13T14:38:26.989469Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.16.0a3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 521228,
+        "upload_time": "2022-01-13T14:38:24",
+        "upload_time_iso_8601": "2022-01-13T14:38:24.866990Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.0a4": [
+      {
+        "filename": "pyobs_core-0.16.0a4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 307948,
+        "upload_time": "2022-01-13T15:01:03",
+        "upload_time_iso_8601": "2022-01-13T15:01:03.460159Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.16.0a4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 520935,
+        "upload_time": "2022-01-13T15:01:00",
+        "upload_time_iso_8601": "2022-01-13T15:01:00.823403Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.0a5": [
+      {
+        "filename": "pyobs_core-0.16.0a5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 308109,
+        "upload_time": "2022-01-13T17:42:39",
+        "upload_time_iso_8601": "2022-01-13T17:42:39.601619Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.16.0a5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 528852,
+        "upload_time": "2022-01-13T17:42:29",
+        "upload_time_iso_8601": "2022-01-13T17:42:29.030533Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.0a6": [
+      {
+        "filename": "pyobs_core-0.16.0a6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 308189,
+        "upload_time": "2022-01-14T13:05:19",
+        "upload_time_iso_8601": "2022-01-14T13:05:19.764398Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.16.0a6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 521602,
+        "upload_time": "2022-01-14T13:05:17",
+        "upload_time_iso_8601": "2022-01-14T13:05:17.635575Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.1": [
+      {
+        "filename": "pyobs_core-0.16.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 308321,
+        "upload_time": "2022-01-18T08:39:00",
+        "upload_time_iso_8601": "2022-01-18T08:39:00.890279Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.16.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 192287,
+        "upload_time": "2022-01-18T08:38:58",
+        "upload_time_iso_8601": "2022-01-18T08:38:58.241079Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.2": [
+      {
+        "filename": "pyobs_core-0.16.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 312348,
+        "upload_time": "2022-01-27T10:56:03",
+        "upload_time_iso_8601": "2022-01-27T10:56:03.422271Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.16.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 194656,
+        "upload_time": "2022-01-27T10:56:01",
+        "upload_time_iso_8601": "2022-01-27T10:56:01.797372Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.0": [
+      {
+        "filename": "pyobs_core-0.17.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317437,
+        "upload_time": "2022-02-14T21:01:12",
+        "upload_time_iso_8601": "2022-02-14T21:01:12.320318Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197230,
+        "upload_time": "2022-02-14T21:01:10",
+        "upload_time_iso_8601": "2022-02-14T21:01:10.664353Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.0a1": [
+      {
+        "filename": "pyobs_core-0.17.0a1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317891,
+        "upload_time": "2022-02-01T14:46:35",
+        "upload_time_iso_8601": "2022-02-01T14:46:35.640971Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.0a1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 535888,
+        "upload_time": "2022-02-01T14:46:32",
+        "upload_time_iso_8601": "2022-02-01T14:46:32.581467Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.1": [
+      {
+        "filename": "pyobs_core-0.17.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317458,
+        "upload_time": "2022-02-14T21:08:24",
+        "upload_time_iso_8601": "2022-02-14T21:08:24.885612Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197260,
+        "upload_time": "2022-02-14T21:08:23",
+        "upload_time_iso_8601": "2022-02-14T21:08:23.402826Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.10": [
+      {
+        "filename": "pyobs_core-0.17.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 316759,
+        "upload_time": "2022-02-28T15:12:19",
+        "upload_time_iso_8601": "2022-02-28T15:12:19.445195Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 196938,
+        "upload_time": "2022-02-28T15:12:17",
+        "upload_time_iso_8601": "2022-02-28T15:12:17.389057Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.11": [
+      {
+        "filename": "pyobs_core-0.17.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 316796,
+        "upload_time": "2022-02-28T15:18:26",
+        "upload_time_iso_8601": "2022-02-28T15:18:26.261542Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 196955,
+        "upload_time": "2022-02-28T15:18:25",
+        "upload_time_iso_8601": "2022-02-28T15:18:25.011876Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.2": [
+      {
+        "filename": "pyobs_core-0.17.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317426,
+        "upload_time": "2022-02-14T21:15:13",
+        "upload_time_iso_8601": "2022-02-14T21:15:13.537727Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197246,
+        "upload_time": "2022-02-14T21:15:11",
+        "upload_time_iso_8601": "2022-02-14T21:15:11.859488Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.3": [
+      {
+        "filename": "pyobs_core-0.17.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317430,
+        "upload_time": "2022-02-16T11:55:03",
+        "upload_time_iso_8601": "2022-02-16T11:55:03.008906Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197283,
+        "upload_time": "2022-02-16T11:55:01",
+        "upload_time_iso_8601": "2022-02-16T11:55:01.747961Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.4": [
+      {
+        "filename": "pyobs_core-0.17.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 316784,
+        "upload_time": "2022-02-23T20:18:22",
+        "upload_time_iso_8601": "2022-02-23T20:18:22.985750Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 196933,
+        "upload_time": "2022-02-23T20:18:21",
+        "upload_time_iso_8601": "2022-02-23T20:18:21.450751Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.5": [
+      {
+        "filename": "pyobs_core-0.17.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 316779,
+        "upload_time": "2022-02-23T20:20:17",
+        "upload_time_iso_8601": "2022-02-23T20:20:17.520392Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 196891,
+        "upload_time": "2022-02-23T20:20:15",
+        "upload_time_iso_8601": "2022-02-23T20:20:15.871042Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.6": [
+      {
+        "filename": "pyobs_core-0.17.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 316767,
+        "upload_time": "2022-02-23T20:22:46",
+        "upload_time_iso_8601": "2022-02-23T20:22:46.652004Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 196911,
+        "upload_time": "2022-02-23T20:22:45",
+        "upload_time_iso_8601": "2022-02-23T20:22:45.576111Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.7": [
+      {
+        "filename": "pyobs_core-0.17.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 316863,
+        "upload_time": "2022-02-24T15:04:01",
+        "upload_time_iso_8601": "2022-02-24T15:04:01.896093Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197023,
+        "upload_time": "2022-02-24T15:04:00",
+        "upload_time_iso_8601": "2022-02-24T15:04:00.631894Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.8": [
+      {
+        "filename": "pyobs_core-0.17.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 316860,
+        "upload_time": "2022-02-24T16:50:15",
+        "upload_time_iso_8601": "2022-02-24T16:50:15.413962Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 196997,
+        "upload_time": "2022-02-24T16:50:14",
+        "upload_time_iso_8601": "2022-02-24T16:50:14.001006Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.9": [
+      {
+        "filename": "pyobs_core-0.17.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 316848,
+        "upload_time": "2022-02-28T13:11:10",
+        "upload_time_iso_8601": "2022-02-28T13:11:10.476594Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.17.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197002,
+        "upload_time": "2022-02-28T13:11:08",
+        "upload_time_iso_8601": "2022-02-28T13:11:08.721228Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.0": [
+      {
+        "filename": "pyobs_core-0.18.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317459,
+        "upload_time": "2022-03-13T14:44:30",
+        "upload_time_iso_8601": "2022-03-13T14:44:30.187165Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197193,
+        "upload_time": "2022-03-13T14:44:28",
+        "upload_time_iso_8601": "2022-03-13T14:44:28.667460Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.1": [
+      {
+        "filename": "pyobs_core-0.18.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317542,
+        "upload_time": "2022-03-13T18:12:11",
+        "upload_time_iso_8601": "2022-03-13T18:12:11.310961Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197257,
+        "upload_time": "2022-03-13T18:12:09",
+        "upload_time_iso_8601": "2022-03-13T18:12:09.909975Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.10": [
+      {
+        "filename": "pyobs_core-0.18.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317618,
+        "upload_time": "2022-04-24T19:02:04",
+        "upload_time_iso_8601": "2022-04-24T19:02:04.562805Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197387,
+        "upload_time": "2022-04-24T19:02:02",
+        "upload_time_iso_8601": "2022-04-24T19:02:02.232560Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.11": [
+      {
+        "filename": "pyobs_core-0.18.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317622,
+        "upload_time": "2022-04-24T19:04:13",
+        "upload_time_iso_8601": "2022-04-24T19:04:13.054999Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197373,
+        "upload_time": "2022-04-24T19:04:11",
+        "upload_time_iso_8601": "2022-04-24T19:04:11.656080Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.12": [
+      {
+        "filename": "pyobs_core-0.18.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317627,
+        "upload_time": "2022-04-24T19:05:33",
+        "upload_time_iso_8601": "2022-04-24T19:05:33.491391Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197385,
+        "upload_time": "2022-04-24T19:05:32",
+        "upload_time_iso_8601": "2022-04-24T19:05:32.021842Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.13": [
+      {
+        "filename": "pyobs_core-0.18.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317699,
+        "upload_time": "2022-04-24T19:45:53",
+        "upload_time_iso_8601": "2022-04-24T19:45:53.896901Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197457,
+        "upload_time": "2022-04-24T19:45:52",
+        "upload_time_iso_8601": "2022-04-24T19:45:52.437934Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.14": [
+      {
+        "filename": "pyobs_core-0.18.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317751,
+        "upload_time": "2022-04-25T16:49:35",
+        "upload_time_iso_8601": "2022-04-25T16:49:35.893172Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197483,
+        "upload_time": "2022-04-25T16:49:33",
+        "upload_time_iso_8601": "2022-04-25T16:49:33.592319Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.15": [
+      {
+        "filename": "pyobs_core-0.18.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318611,
+        "upload_time": "2022-04-26T15:53:32",
+        "upload_time_iso_8601": "2022-04-26T15:53:32.545453Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197757,
+        "upload_time": "2022-04-26T15:53:31",
+        "upload_time_iso_8601": "2022-04-26T15:53:31.125966Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.16": [
+      {
+        "filename": "pyobs_core-0.18.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318702,
+        "upload_time": "2022-04-27T17:43:08",
+        "upload_time_iso_8601": "2022-04-27T17:43:08.474417Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197817,
+        "upload_time": "2022-04-27T17:43:06",
+        "upload_time_iso_8601": "2022-04-27T17:43:06.836912Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.17": [
+      {
+        "filename": "pyobs_core-0.18.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318740,
+        "upload_time": "2022-04-28T12:05:45",
+        "upload_time_iso_8601": "2022-04-28T12:05:45.421883Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197810,
+        "upload_time": "2022-04-28T12:05:43",
+        "upload_time_iso_8601": "2022-04-28T12:05:43.763062Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.18": [
+      {
+        "filename": "pyobs_core-0.18.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318872,
+        "upload_time": "2022-05-07T11:32:07",
+        "upload_time_iso_8601": "2022-05-07T11:32:07.690812Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197928,
+        "upload_time": "2022-05-07T11:32:06",
+        "upload_time_iso_8601": "2022-05-07T11:32:06.031431Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.19": [
+      {
+        "filename": "pyobs_core-0.18.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319616,
+        "upload_time": "2022-05-12T14:49:18",
+        "upload_time_iso_8601": "2022-05-12T14:49:18.117353Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198193,
+        "upload_time": "2022-05-12T14:49:16",
+        "upload_time_iso_8601": "2022-05-12T14:49:16.568593Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.2": [
+      {
+        "filename": "pyobs_core-0.18.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317480,
+        "upload_time": "2022-03-18T10:42:42",
+        "upload_time_iso_8601": "2022-03-18T10:42:42.854969Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197260,
+        "upload_time": "2022-03-18T10:42:40",
+        "upload_time_iso_8601": "2022-03-18T10:42:40.881162Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.20": [
+      {
+        "filename": "pyobs_core-0.18.20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319574,
+        "upload_time": "2022-05-12T17:02:49",
+        "upload_time_iso_8601": "2022-05-12T17:02:49.487652Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198156,
+        "upload_time": "2022-05-12T17:02:48",
+        "upload_time_iso_8601": "2022-05-12T17:02:48.070990Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.21": [
+      {
+        "filename": "pyobs_core-0.18.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319672,
+        "upload_time": "2022-05-12T17:07:39",
+        "upload_time_iso_8601": "2022-05-12T17:07:39.023725Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198174,
+        "upload_time": "2022-05-12T17:07:37",
+        "upload_time_iso_8601": "2022-05-12T17:07:37.831128Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.22": [
+      {
+        "filename": "pyobs_core-0.18.22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319622,
+        "upload_time": "2022-05-12T18:25:53",
+        "upload_time_iso_8601": "2022-05-12T18:25:53.115538Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198138,
+        "upload_time": "2022-05-12T18:25:51",
+        "upload_time_iso_8601": "2022-05-12T18:25:51.584977Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.23": [
+      {
+        "filename": "pyobs_core-0.18.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319710,
+        "upload_time": "2022-05-15T17:35:13",
+        "upload_time_iso_8601": "2022-05-15T17:35:13.574480Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198222,
+        "upload_time": "2022-05-15T17:35:11",
+        "upload_time_iso_8601": "2022-05-15T17:35:11.834636Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.24": [
+      {
+        "filename": "pyobs_core-0.18.24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319721,
+        "upload_time": "2022-05-16T17:37:25",
+        "upload_time_iso_8601": "2022-05-16T17:37:25.088197Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198232,
+        "upload_time": "2022-05-16T17:37:23",
+        "upload_time_iso_8601": "2022-05-16T17:37:23.202308Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.25": [
+      {
+        "filename": "pyobs_core-0.18.25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319725,
+        "upload_time": "2022-05-16T17:45:36",
+        "upload_time_iso_8601": "2022-05-16T17:45:36.119107Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198223,
+        "upload_time": "2022-05-16T17:45:34",
+        "upload_time_iso_8601": "2022-05-16T17:45:34.450517Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.3": [
+      {
+        "filename": "pyobs_core-0.18.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317482,
+        "upload_time": "2022-03-19T10:19:25",
+        "upload_time_iso_8601": "2022-03-19T10:19:25.916409Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197261,
+        "upload_time": "2022-03-19T10:19:24",
+        "upload_time_iso_8601": "2022-03-19T10:19:24.256553Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.4": [
+      {
+        "filename": "pyobs_core-0.18.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317551,
+        "upload_time": "2022-03-25T13:59:27",
+        "upload_time_iso_8601": "2022-03-25T13:59:27.409264Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197303,
+        "upload_time": "2022-03-25T13:59:25",
+        "upload_time_iso_8601": "2022-03-25T13:59:25.721203Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.5": [
+      {
+        "filename": "pyobs_core-0.18.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317626,
+        "upload_time": "2022-04-07T17:23:20",
+        "upload_time_iso_8601": "2022-04-07T17:23:20.848561Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197371,
+        "upload_time": "2022-04-07T17:23:18",
+        "upload_time_iso_8601": "2022-04-07T17:23:18.829754Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.6": [
+      {
+        "filename": "pyobs_core-0.18.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317579,
+        "upload_time": "2022-04-09T19:13:03",
+        "upload_time_iso_8601": "2022-04-09T19:13:03.908410Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197323,
+        "upload_time": "2022-04-09T19:13:02",
+        "upload_time_iso_8601": "2022-04-09T19:13:02.299634Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.7": [
+      {
+        "filename": "pyobs_core-0.18.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317577,
+        "upload_time": "2022-04-24T16:16:04",
+        "upload_time_iso_8601": "2022-04-24T16:16:04.544795Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197348,
+        "upload_time": "2022-04-24T16:16:02",
+        "upload_time_iso_8601": "2022-04-24T16:16:02.773527Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.8": [
+      {
+        "filename": "pyobs_core-0.18.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317581,
+        "upload_time": "2022-04-24T17:17:00",
+        "upload_time_iso_8601": "2022-04-24T17:17:00.995448Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197347,
+        "upload_time": "2022-04-24T17:16:59",
+        "upload_time_iso_8601": "2022-04-24T17:16:59.444609Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.9": [
+      {
+        "filename": "pyobs_core-0.18.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 317618,
+        "upload_time": "2022-04-24T18:47:19",
+        "upload_time_iso_8601": "2022-04-24T18:47:19.284143Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.18.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197360,
+        "upload_time": "2022-04-24T18:47:17",
+        "upload_time_iso_8601": "2022-04-24T18:47:17.466903Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.0": [
+      {
+        "filename": "pyobs_core-0.19.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319798,
+        "upload_time": "2022-05-17T09:34:10",
+        "upload_time_iso_8601": "2022-05-17T09:34:10.647654Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198313,
+        "upload_time": "2022-05-17T09:34:08",
+        "upload_time_iso_8601": "2022-05-17T09:34:08.798249Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.1": [
+      {
+        "filename": "pyobs_core-0.19.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319797,
+        "upload_time": "2022-05-17T09:35:08",
+        "upload_time_iso_8601": "2022-05-17T09:35:08.504752Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198277,
+        "upload_time": "2022-05-17T09:35:06",
+        "upload_time_iso_8601": "2022-05-17T09:35:06.987421Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.10": [
+      {
+        "filename": "pyobs_core-0.19.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 320832,
+        "upload_time": "2022-06-21T13:54:06",
+        "upload_time_iso_8601": "2022-06-21T13:54:06.083821Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 199241,
+        "upload_time": "2022-06-21T13:54:04",
+        "upload_time_iso_8601": "2022-06-21T13:54:04.391900Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.11": [
+      {
+        "filename": "pyobs_core-0.19.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 321117,
+        "upload_time": "2022-06-23T14:48:35",
+        "upload_time_iso_8601": "2022-06-23T14:48:35.842059Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 199513,
+        "upload_time": "2022-06-23T14:48:34",
+        "upload_time_iso_8601": "2022-06-23T14:48:34.112465Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.12": [
+      {
+        "filename": "pyobs_core-0.19.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 321112,
+        "upload_time": "2022-06-24T09:05:07",
+        "upload_time_iso_8601": "2022-06-24T09:05:07.904882Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 199522,
+        "upload_time": "2022-06-24T09:05:06",
+        "upload_time_iso_8601": "2022-06-24T09:05:06.055611Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.2": [
+      {
+        "filename": "pyobs_core-0.19.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319798,
+        "upload_time": "2022-05-17T09:35:55",
+        "upload_time_iso_8601": "2022-05-17T09:35:55.146228Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198313,
+        "upload_time": "2022-05-17T09:35:52",
+        "upload_time_iso_8601": "2022-05-17T09:35:52.900898Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.3": [
+      {
+        "filename": "pyobs_core-0.19.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319803,
+        "upload_time": "2022-05-19T12:17:05",
+        "upload_time_iso_8601": "2022-05-19T12:17:05.643493Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198302,
+        "upload_time": "2022-05-19T12:17:03",
+        "upload_time_iso_8601": "2022-05-19T12:17:03.715044Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.4": [
+      {
+        "filename": "pyobs_core-0.19.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319898,
+        "upload_time": "2022-06-03T14:47:14",
+        "upload_time_iso_8601": "2022-06-03T14:47:14.223763Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198397,
+        "upload_time": "2022-06-03T14:47:12",
+        "upload_time_iso_8601": "2022-06-03T14:47:12.715233Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.5": [
+      {
+        "filename": "pyobs_core-0.19.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319894,
+        "upload_time": "2022-06-05T20:13:14",
+        "upload_time_iso_8601": "2022-06-05T20:13:14.067525Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198463,
+        "upload_time": "2022-06-05T20:13:12",
+        "upload_time_iso_8601": "2022-06-05T20:13:12.323594Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.6": [
+      {
+        "filename": "pyobs_core-0.19.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319920,
+        "upload_time": "2022-06-05T20:15:16",
+        "upload_time_iso_8601": "2022-06-05T20:15:16.273702Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198471,
+        "upload_time": "2022-06-05T20:15:14",
+        "upload_time_iso_8601": "2022-06-05T20:15:14.706251Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.7": [
+      {
+        "filename": "pyobs_core-0.19.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319884,
+        "upload_time": "2022-06-15T07:33:47",
+        "upload_time_iso_8601": "2022-06-15T07:33:47.996759Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198551,
+        "upload_time": "2022-06-15T07:33:46",
+        "upload_time_iso_8601": "2022-06-15T07:33:46.130517Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.8": [
+      {
+        "filename": "pyobs_core-0.19.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 320002,
+        "upload_time": "2022-06-15T08:10:44",
+        "upload_time_iso_8601": "2022-06-15T08:10:44.120092Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198618,
+        "upload_time": "2022-06-15T08:10:42",
+        "upload_time_iso_8601": "2022-06-15T08:10:42.071033Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.19.9": [
+      {
+        "filename": "pyobs_core-0.19.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 320028,
+        "upload_time": "2022-06-16T10:17:26",
+        "upload_time_iso_8601": "2022-06-16T10:17:26.702392Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.19.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198610,
+        "upload_time": "2022-06-16T10:17:25",
+        "upload_time_iso_8601": "2022-06-16T10:17:25.358444Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.20.0": [
+      {
+        "filename": "pyobs_core-0.20.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 320951,
+        "upload_time": "2022-06-27T13:18:02",
+        "upload_time_iso_8601": "2022-06-27T13:18:02.341328Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.20.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 199319,
+        "upload_time": "2022-06-27T13:17:45",
+        "upload_time_iso_8601": "2022-06-27T13:17:45.342754Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.20.1": [
+      {
+        "filename": "pyobs_core-0.20.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 320951,
+        "upload_time": "2022-06-27T13:42:33",
+        "upload_time_iso_8601": "2022-06-27T13:42:33.581749Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.20.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 199339,
+        "upload_time": "2022-06-27T13:42:11",
+        "upload_time_iso_8601": "2022-06-27T13:42:11.128764Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.20.2": [
+      {
+        "filename": "pyobs_core-0.20.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 321097,
+        "upload_time": "2022-07-01T12:03:12",
+        "upload_time_iso_8601": "2022-07-01T12:03:12.769182Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.20.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 199469,
+        "upload_time": "2022-07-01T12:03:10",
+        "upload_time_iso_8601": "2022-07-01T12:03:10.264214Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.20.3": [
+      {
+        "filename": "pyobs_core-0.20.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 321383,
+        "upload_time": "2022-07-27T14:26:40",
+        "upload_time_iso_8601": "2022-07-27T14:26:40.580344Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.20.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 199706,
+        "upload_time": "2022-07-27T14:26:38",
+        "upload_time_iso_8601": "2022-07-27T14:26:38.575606Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.20.4": [
+      {
+        "filename": "pyobs_core-0.20.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 321463,
+        "upload_time": "2022-07-29T08:00:05",
+        "upload_time_iso_8601": "2022-07-29T08:00:05.798763Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.20.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 199706,
+        "upload_time": "2022-07-29T08:00:04",
+        "upload_time_iso_8601": "2022-07-29T08:00:04.143036Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.20.5": [
+      {
+        "filename": "pyobs_core-0.20.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 323689,
+        "upload_time": "2022-08-01T12:49:24",
+        "upload_time_iso_8601": "2022-08-01T12:49:24.612521Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.20.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 201065,
+        "upload_time": "2022-08-01T12:49:23",
+        "upload_time_iso_8601": "2022-08-01T12:49:23.021159Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.21.0": [
+      {
+        "filename": "pyobs_core-0.21.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 330312,
+        "upload_time": "2022-08-25T12:20:31",
+        "upload_time_iso_8601": "2022-08-25T12:20:31.836028Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.21.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 206113,
+        "upload_time": "2022-08-25T12:20:24",
+        "upload_time_iso_8601": "2022-08-25T12:20:24.731737Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.22.0": [
+      {
+        "filename": "pyobs_core-0.22.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318157,
+        "upload_time": "2022-08-25T16:22:41",
+        "upload_time_iso_8601": "2022-08-25T16:22:41.973083Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.22.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197475,
+        "upload_time": "2022-08-25T16:22:39",
+        "upload_time_iso_8601": "2022-08-25T16:22:39.716955Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.22.1": [
+      {
+        "filename": "pyobs_core-0.22.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318179,
+        "upload_time": "2022-08-26T16:36:25",
+        "upload_time_iso_8601": "2022-08-26T16:36:25.298988Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.22.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197492,
+        "upload_time": "2022-08-26T16:36:23",
+        "upload_time_iso_8601": "2022-08-26T16:36:23.801334Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8": [
+      {
+        "filename": "pyobs_core-0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 163956,
+        "upload_time": "2019-11-17T13:31:56",
+        "upload_time_iso_8601": "2019-11-17T13:31:56.509361Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 102698,
+        "upload_time": "2019-11-17T13:31:59",
+        "upload_time_iso_8601": "2019-11-17T13:31:59.379554Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.1": [
+      {
+        "filename": "pyobs_core-0.8.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 163991,
+        "upload_time": "2019-11-17T14:09:17",
+        "upload_time_iso_8601": "2019-11-17T14:09:17.910935Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.8.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 102694,
+        "upload_time": "2019-11-17T14:09:21",
+        "upload_time_iso_8601": "2019-11-17T14:09:21.489161Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.2": [
+      {
+        "filename": "pyobs_core-0.8.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 163993,
+        "upload_time": "2019-11-17T14:11:50",
+        "upload_time_iso_8601": "2019-11-17T14:11:50.480289Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.8.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 102699,
+        "upload_time": "2019-11-17T14:11:52",
+        "upload_time_iso_8601": "2019-11-17T14:11:52.666784Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.3": [
+      {
+        "filename": "pyobs_core-0.8.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 163994,
+        "upload_time": "2019-11-17T14:15:33",
+        "upload_time_iso_8601": "2019-11-17T14:15:33.114674Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.8.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 102698,
+        "upload_time": "2019-11-17T14:15:35",
+        "upload_time_iso_8601": "2019-11-17T14:15:35.339811Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9": [
+      {
+        "filename": "pyobs_core-0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 201601,
+        "upload_time": "2020-03-06T12:53:06",
+        "upload_time_iso_8601": "2020-03-06T12:53:06.898395Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 124516,
+        "upload_time": "2020-03-06T12:53:08",
+        "upload_time_iso_8601": "2020-03-06T12:53:08.682782Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.0": [
+      {
+        "filename": "pyobs_core-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318152,
+        "upload_time": "2022-09-13T09:16:34",
+        "upload_time_iso_8601": "2022-09-13T09:16:34.499982Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197392,
+        "upload_time": "2022-09-13T09:16:32",
+        "upload_time_iso_8601": "2022-09-13T09:16:32.491858Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "pyobs_core-1.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318111,
+        "upload_time": "2022-09-20T11:03:17",
+        "upload_time_iso_8601": "2022-09-20T11:03:17.055488Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197446,
+        "upload_time": "2022-09-20T11:03:15",
+        "upload_time_iso_8601": "2022-09-20T11:03:15.145548Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1": [
+      {
+        "filename": "pyobs_core-1.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318196,
+        "upload_time": "2022-09-20T17:17:29",
+        "upload_time_iso_8601": "2022-09-20T17:17:29.823450Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-1.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197524,
+        "upload_time": "2022-09-20T17:17:28",
+        "upload_time_iso_8601": "2022-09-20T17:17:28.296942Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.2": [
+      {
+        "filename": "pyobs_core-1.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318198,
+        "upload_time": "2022-09-20T18:16:30",
+        "upload_time_iso_8601": "2022-09-20T18:16:30.149557Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-1.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197547,
+        "upload_time": "2022-09-20T18:16:27",
+        "upload_time_iso_8601": "2022-09-20T18:16:27.981529Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.3": [
+      {
+        "filename": "pyobs_core-1.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318226,
+        "upload_time": "2022-10-01T15:16:09",
+        "upload_time_iso_8601": "2022-10-01T15:16:09.336385Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-1.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197546,
+        "upload_time": "2022-10-01T15:16:07",
+        "upload_time_iso_8601": "2022-10-01T15:16:07.003518Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.4": [
+      {
+        "filename": "pyobs_core-1.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318249,
+        "upload_time": "2022-10-01T16:06:32",
+        "upload_time_iso_8601": "2022-10-01T16:06:32.663271Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-1.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197581,
+        "upload_time": "2022-10-01T16:06:30",
+        "upload_time_iso_8601": "2022-10-01T16:06:30.862914Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.5": [
+      {
+        "filename": "pyobs_core-1.1.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318244,
+        "upload_time": "2022-10-01T16:09:59",
+        "upload_time_iso_8601": "2022-10-01T16:09:59.878019Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-1.1.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197549,
+        "upload_time": "2022-10-01T16:09:58",
+        "upload_time_iso_8601": "2022-10-01T16:09:58.253738Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.6": [
+      {
+        "filename": "pyobs_core-1.1.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318258,
+        "upload_time": "2022-10-02T21:10:08",
+        "upload_time_iso_8601": "2022-10-02T21:10:08.146833Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-1.1.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197568,
+        "upload_time": "2022-10-02T21:10:06",
+        "upload_time_iso_8601": "2022-10-02T21:10:06.698393Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.7": [
+      {
+        "filename": "pyobs_core-1.1.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 318210,
+        "upload_time": "2022-10-02T21:16:15",
+        "upload_time_iso_8601": "2022-10-02T21:16:15.678662Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-1.1.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197543,
+        "upload_time": "2022-10-02T21:16:14",
+        "upload_time_iso_8601": "2022-10-02T21:16:14.191083Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.10.1": [
+      {
+        "filename": "pyobs_core-1.10.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 345565,
+        "upload_time": "2023-12-24T18:26:38",
+        "upload_time_iso_8601": "2023-12-24T18:26:38.499671Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.10.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 210619,
+        "upload_time": "2023-12-24T18:26:41",
+        "upload_time_iso_8601": "2023-12-24T18:26:41.154797Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.11.0": [
+      {
+        "filename": "pyobs_core-1.11.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 345796,
+        "upload_time": "2023-12-25T12:03:44",
+        "upload_time_iso_8601": "2023-12-25T12:03:44.674890Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.11.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 210793,
+        "upload_time": "2023-12-25T12:03:47",
+        "upload_time_iso_8601": "2023-12-25T12:03:47.191159Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.11.1": [
+      {
+        "filename": "pyobs_core-1.11.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 345800,
+        "upload_time": "2023-12-25T15:43:06",
+        "upload_time_iso_8601": "2023-12-25T15:43:06.987613Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.11.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 210766,
+        "upload_time": "2023-12-25T15:43:10",
+        "upload_time_iso_8601": "2023-12-25T15:43:10.076379Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.11.2": [
+      {
+        "filename": "pyobs_core-1.11.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 345795,
+        "upload_time": "2023-12-25T15:44:56",
+        "upload_time_iso_8601": "2023-12-25T15:44:56.259726Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.11.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 210784,
+        "upload_time": "2023-12-25T15:44:58",
+        "upload_time_iso_8601": "2023-12-25T15:44:58.395322Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.11.3": [
+      {
+        "filename": "pyobs_core-1.11.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 345800,
+        "upload_time": "2023-12-25T17:43:35",
+        "upload_time_iso_8601": "2023-12-25T17:43:35.771461Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.11.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 210766,
+        "upload_time": "2023-12-25T17:43:38",
+        "upload_time_iso_8601": "2023-12-25T17:43:38.144324Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.12.0": [
+      {
+        "filename": "pyobs_core-1.12.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 345936,
+        "upload_time": "2023-12-28T17:44:58",
+        "upload_time_iso_8601": "2023-12-28T17:44:58.206949Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.12.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 210877,
+        "upload_time": "2023-12-28T17:45:00",
+        "upload_time_iso_8601": "2023-12-28T17:45:00.966337Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.12.1": [
+      {
+        "filename": "pyobs_core-1.12.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 345913,
+        "upload_time": "2023-12-29T16:37:01",
+        "upload_time_iso_8601": "2023-12-29T16:37:01.190254Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.12.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 210871,
+        "upload_time": "2023-12-29T16:37:04",
+        "upload_time_iso_8601": "2023-12-29T16:37:04.335483Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.12.2": [
+      {
+        "filename": "pyobs_core-1.12.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 345917,
+        "upload_time": "2024-01-10T07:45:19",
+        "upload_time_iso_8601": "2024-01-10T07:45:19.881160Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.12.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 210890,
+        "upload_time": "2024-01-10T07:45:22",
+        "upload_time_iso_8601": "2024-01-10T07:45:22.274713Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.12.3": [
+      {
+        "filename": "pyobs_core-1.12.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 346384,
+        "upload_time": "2024-01-18T19:24:40",
+        "upload_time_iso_8601": "2024-01-18T19:24:40.071606Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.12.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 211034,
+        "upload_time": "2024-01-18T19:24:42",
+        "upload_time_iso_8601": "2024-01-18T19:24:42.889355Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.12.4": [
+      {
+        "filename": "pyobs_core-1.12.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 349532,
+        "upload_time": "2024-01-30T13:16:28",
+        "upload_time_iso_8601": "2024-01-30T13:16:28.683925Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.12.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 211951,
+        "upload_time": "2024-01-30T13:16:31",
+        "upload_time_iso_8601": "2024-01-30T13:16:31.527100Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.12.5": [
+      {
+        "filename": "pyobs_core-1.12.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 353367,
+        "upload_time": "2024-02-20T09:03:53",
+        "upload_time_iso_8601": "2024-02-20T09:03:53.086133Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.12.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 212919,
+        "upload_time": "2024-02-20T09:06:35",
+        "upload_time_iso_8601": "2024-02-20T09:06:35.037889Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.12.6": [
+      {
+        "filename": "pyobs_core-1.12.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 353365,
+        "upload_time": "2024-03-05T08:44:44",
+        "upload_time_iso_8601": "2024-03-05T08:44:44.433908Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.12.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 212897,
+        "upload_time": "2024-03-05T08:44:46",
+        "upload_time_iso_8601": "2024-03-05T08:44:46.499404Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.12.7": [
+      {
+        "filename": "pyobs_core-1.12.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 353303,
+        "upload_time": "2024-03-21T20:15:49",
+        "upload_time_iso_8601": "2024-03-21T20:15:49.472509Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.12.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 212892,
+        "upload_time": "2024-03-21T20:15:52",
+        "upload_time_iso_8601": "2024-03-21T20:15:52.289853Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.12.8": [
+      {
+        "filename": "pyobs_core-1.12.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 353304,
+        "upload_time": "2024-03-21T20:17:38",
+        "upload_time_iso_8601": "2024-03-21T20:17:38.262513Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.12.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 212860,
+        "upload_time": "2024-03-21T20:17:40",
+        "upload_time_iso_8601": "2024-03-21T20:17:40.005607Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.13.0": [
+      {
+        "filename": "pyobs_core-1.13.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 354628,
+        "upload_time": "2024-04-12T20:29:20",
+        "upload_time_iso_8601": "2024-04-12T20:29:20.927292Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.13.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 213454,
+        "upload_time": "2024-04-12T20:29:23",
+        "upload_time_iso_8601": "2024-04-12T20:29:23.509167Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.13.1": [
+      {
+        "filename": "pyobs_core-1.13.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 354626,
+        "upload_time": "2024-05-08T18:34:39",
+        "upload_time_iso_8601": "2024-05-08T18:34:39.884387Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.13.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 213474,
+        "upload_time": "2024-05-08T18:34:42",
+        "upload_time_iso_8601": "2024-05-08T18:34:42.414021Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.13.2": [
+      {
+        "filename": "pyobs_core-1.13.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 354623,
+        "upload_time": "2024-05-08T18:55:07",
+        "upload_time_iso_8601": "2024-05-08T18:55:07.179419Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.13.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 213456,
+        "upload_time": "2024-05-08T18:55:11",
+        "upload_time_iso_8601": "2024-05-08T18:55:11.092351Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.13.3": [
+      {
+        "filename": "pyobs_core-1.13.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.12,>=3.9",
+        "size": 354672,
+        "upload_time": "2024-05-10T17:08:09",
+        "upload_time_iso_8601": "2024-05-10T17:08:09.339477Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.13.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.12,>=3.9",
+        "size": 213505,
+        "upload_time": "2024-05-10T17:08:13",
+        "upload_time_iso_8601": "2024-05-10T17:08:13.023464Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.13.4": [
+      {
+        "filename": "pyobs_core-1.13.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 354669,
+        "upload_time": "2024-06-17T08:27:11",
+        "upload_time_iso_8601": "2024-06-17T08:27:11.874260Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.13.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 213507,
+        "upload_time": "2024-06-17T08:27:21",
+        "upload_time_iso_8601": "2024-06-17T08:27:21.586231Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.14.0": [
+      {
+        "filename": "pyobs_core-1.14.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 354788,
+        "upload_time": "2024-08-03T07:50:24",
+        "upload_time_iso_8601": "2024-08-03T07:50:24.845190Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.14.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 213528,
+        "upload_time": "2024-08-03T07:50:27",
+        "upload_time_iso_8601": "2024-08-03T07:50:27.424922Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.15.0": [
+      {
+        "filename": "pyobs_core-1.15.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 354899,
+        "upload_time": "2024-08-05T08:19:07",
+        "upload_time_iso_8601": "2024-08-05T08:19:07.554924Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.15.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 213663,
+        "upload_time": "2024-08-05T08:19:10",
+        "upload_time_iso_8601": "2024-08-05T08:19:10.053761Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.16.0": [
+      {
+        "filename": "pyobs_core-1.16.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 357226,
+        "upload_time": "2024-08-09T13:01:08",
+        "upload_time_iso_8601": "2024-08-09T13:01:08.221737Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.16.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 214326,
+        "upload_time": "2024-08-09T13:01:10",
+        "upload_time_iso_8601": "2024-08-09T13:01:10.870618Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.16.1": [
+      {
+        "filename": "pyobs_core-1.16.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 357235,
+        "upload_time": "2024-08-20T08:40:53",
+        "upload_time_iso_8601": "2024-08-20T08:40:53.035718Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.16.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 214330,
+        "upload_time": "2024-08-20T08:40:55",
+        "upload_time_iso_8601": "2024-08-20T08:40:55.038611Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.16.2": [
+      {
+        "filename": "pyobs_core-1.16.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 357426,
+        "upload_time": "2024-08-20T09:18:04",
+        "upload_time_iso_8601": "2024-08-20T09:18:04.229949Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.16.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 214518,
+        "upload_time": "2024-08-20T09:18:06",
+        "upload_time_iso_8601": "2024-08-20T09:18:06.152193Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.16.3": [
+      {
+        "filename": "pyobs_core-1.16.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 357409,
+        "upload_time": "2024-08-20T09:40:22",
+        "upload_time_iso_8601": "2024-08-20T09:40:22.375573Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.16.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 214512,
+        "upload_time": "2024-08-20T09:40:24",
+        "upload_time_iso_8601": "2024-08-20T09:40:24.034367Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.16.4": [
+      {
+        "filename": "pyobs_core-1.16.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 358343,
+        "upload_time": "2024-08-20T13:17:48",
+        "upload_time_iso_8601": "2024-08-20T13:17:48.978761Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.16.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 215064,
+        "upload_time": "2024-08-20T13:17:50",
+        "upload_time_iso_8601": "2024-08-20T13:17:50.694511Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.17.0": [
+      {
+        "filename": "pyobs_core-1.17.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 360051,
+        "upload_time": "2024-09-02T08:47:52",
+        "upload_time_iso_8601": "2024-09-02T08:47:52.964534Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.17.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 215754,
+        "upload_time": "2024-09-02T08:47:55",
+        "upload_time_iso_8601": "2024-09-02T08:47:55.241929Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.17.1": [
+      {
+        "filename": "pyobs_core-1.17.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 360074,
+        "upload_time": "2024-09-08T12:27:41",
+        "upload_time_iso_8601": "2024-09-08T12:27:41.144655Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.17.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 215762,
+        "upload_time": "2024-09-08T12:27:43",
+        "upload_time_iso_8601": "2024-09-08T12:27:43.197048Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.17.2": [
+      {
+        "filename": "pyobs_core-1.17.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 360051,
+        "upload_time": "2024-09-12T18:14:20",
+        "upload_time_iso_8601": "2024-09-12T18:14:20.107659Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.17.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 215753,
+        "upload_time": "2024-09-12T18:14:21",
+        "upload_time_iso_8601": "2024-09-12T18:14:21.750119Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.17.3": [
+      {
+        "filename": "pyobs_core-1.17.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 362658,
+        "upload_time": "2024-10-24T19:41:06",
+        "upload_time_iso_8601": "2024-10-24T19:41:06.855640Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.17.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 216780,
+        "upload_time": "2024-10-24T19:41:08",
+        "upload_time_iso_8601": "2024-10-24T19:41:08.446410Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.17.5": [
+      {
+        "filename": "pyobs_core-1.17.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 362704,
+        "upload_time": "2024-11-05T19:21:25",
+        "upload_time_iso_8601": "2024-11-05T19:21:25.784911Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.17.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 216832,
+        "upload_time": "2024-11-05T19:21:27",
+        "upload_time_iso_8601": "2024-11-05T19:21:27.818966Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.17.6": [
+      {
+        "filename": "pyobs_core-1.17.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 362720,
+        "upload_time": "2024-11-09T18:52:31",
+        "upload_time_iso_8601": "2024-11-09T18:52:31.619865Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.17.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 216839,
+        "upload_time": "2024-11-09T18:52:33",
+        "upload_time_iso_8601": "2024-11-09T18:52:33.604826Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.17.7": [
+      {
+        "filename": "pyobs_core-1.17.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 362760,
+        "upload_time": "2024-12-28T19:22:02",
+        "upload_time_iso_8601": "2024-12-28T19:22:02.247644Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.17.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 217060,
+        "upload_time": "2024-12-28T19:22:04",
+        "upload_time_iso_8601": "2024-12-28T19:22:04.856344Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.17.8": [
+      {
+        "filename": "pyobs_core-1.17.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 362782,
+        "upload_time": "2025-01-05T16:28:00",
+        "upload_time_iso_8601": "2025-01-05T16:28:00.598335Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.17.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 208110,
+        "upload_time": "2025-01-05T16:28:03",
+        "upload_time_iso_8601": "2025-01-05T16:28:03.170225Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.18.0": [
+      {
+        "filename": "pyobs_core-1.18.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 362858,
+        "upload_time": "2025-02-10T07:52:39",
+        "upload_time_iso_8601": "2025-02-10T07:52:39.971922Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.18.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 208209,
+        "upload_time": "2025-02-10T07:52:42",
+        "upload_time_iso_8601": "2025-02-10T07:52:42.361984Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.18.1": [
+      {
+        "filename": "pyobs_core-1.18.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 363681,
+        "upload_time": "2025-02-26T11:00:55",
+        "upload_time_iso_8601": "2025-02-26T11:00:55.110554Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.18.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 208613,
+        "upload_time": "2025-02-26T11:00:57",
+        "upload_time_iso_8601": "2025-02-26T11:00:57.329072Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.19.0": [
+      {
+        "filename": "pyobs_core-1.19.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 365991,
+        "upload_time": "2025-02-27T12:40:38",
+        "upload_time_iso_8601": "2025-02-27T12:40:38.802737Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.19.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 210329,
+        "upload_time": "2025-02-27T12:40:40",
+        "upload_time_iso_8601": "2025-02-27T12:40:40.755761Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "pyobs_core-1.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319214,
+        "upload_time": "2022-10-06T09:26:57",
+        "upload_time_iso_8601": "2022-10-06T09:26:57.133134Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs-core-1.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197887,
+        "upload_time": "2022-10-06T09:26:55",
+        "upload_time_iso_8601": "2022-10-06T09:26:55.349551Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.1": [
+      {
+        "filename": "pyobs_core-1.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319260,
+        "upload_time": "2022-10-21T10:38:29",
+        "upload_time_iso_8601": "2022-10-21T10:38:29.714600Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197989,
+        "upload_time": "2022-10-21T10:38:31",
+        "upload_time_iso_8601": "2022-10-21T10:38:31.435258Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.2": [
+      {
+        "filename": "pyobs_core-1.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319390,
+        "upload_time": "2022-11-29T12:20:03",
+        "upload_time_iso_8601": "2022-11-29T12:20:03.637459Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198082,
+        "upload_time": "2022-11-29T12:20:04",
+        "upload_time_iso_8601": "2022-11-29T12:20:04.877927Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.3": [
+      {
+        "filename": "pyobs_core-1.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319392,
+        "upload_time": "2022-12-13T13:38:04",
+        "upload_time_iso_8601": "2022-12-13T13:38:04.011053Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198058,
+        "upload_time": "2022-12-13T13:38:06",
+        "upload_time_iso_8601": "2022-12-13T13:38:06.028811Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.4": [
+      {
+        "filename": "pyobs_core-1.2.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319517,
+        "upload_time": "2022-12-15T12:34:48",
+        "upload_time_iso_8601": "2022-12-15T12:34:48.193708Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198156,
+        "upload_time": "2022-12-15T12:34:49",
+        "upload_time_iso_8601": "2022-12-15T12:34:49.532999Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.5": [
+      {
+        "filename": "pyobs_core-1.2.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319580,
+        "upload_time": "2022-12-19T14:10:22",
+        "upload_time_iso_8601": "2022-12-19T14:10:22.399508Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.2.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198242,
+        "upload_time": "2022-12-19T14:10:23",
+        "upload_time_iso_8601": "2022-12-19T14:10:23.759526Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.6": [
+      {
+        "filename": "pyobs_core-1.2.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319726,
+        "upload_time": "2023-01-10T21:00:42",
+        "upload_time_iso_8601": "2023-01-10T21:00:42.911129Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.2.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198362,
+        "upload_time": "2023-01-10T21:00:44",
+        "upload_time_iso_8601": "2023-01-10T21:00:44.652473Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.7": [
+      {
+        "filename": "pyobs_core-1.2.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319726,
+        "upload_time": "2023-01-14T08:56:22",
+        "upload_time_iso_8601": "2023-01-14T08:56:22.865607Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.2.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198349,
+        "upload_time": "2023-01-14T08:56:24",
+        "upload_time_iso_8601": "2023-01-14T08:56:24.805973Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.8": [
+      {
+        "filename": "pyobs_core-1.2.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319736,
+        "upload_time": "2023-01-23T14:47:07",
+        "upload_time_iso_8601": "2023-01-23T14:47:07.423258Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.2.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198375,
+        "upload_time": "2023-01-23T14:47:09",
+        "upload_time_iso_8601": "2023-01-23T14:47:09.287612Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.20.0": [
+      {
+        "filename": "pyobs_core-1.20.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.10",
+        "size": 366733,
+        "upload_time": "2025-03-01T13:14:54",
+        "upload_time_iso_8601": "2025-03-01T13:14:54.546835Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.20.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.10",
+        "size": 210643,
+        "upload_time": "2025-03-01T13:14:56",
+        "upload_time_iso_8601": "2025-03-01T13:14:56.645321Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.0": [
+      {
+        "filename": "pyobs_core-1.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319642,
+        "upload_time": "2023-02-04T16:35:28",
+        "upload_time_iso_8601": "2023-02-04T16:35:28.071846Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198263,
+        "upload_time": "2023-02-04T16:35:30",
+        "upload_time_iso_8601": "2023-02-04T16:35:30.046485Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.1": [
+      {
+        "filename": "pyobs_core-1.3.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319646,
+        "upload_time": "2023-02-07T14:01:49",
+        "upload_time_iso_8601": "2023-02-07T14:01:49.127640Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198272,
+        "upload_time": "2023-02-07T14:01:51",
+        "upload_time_iso_8601": "2023-02-07T14:01:51.027373Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.2": [
+      {
+        "filename": "pyobs_core-1.3.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319654,
+        "upload_time": "2023-02-13T14:08:09",
+        "upload_time_iso_8601": "2023-02-13T14:08:09.939439Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198285,
+        "upload_time": "2023-02-13T14:08:12",
+        "upload_time_iso_8601": "2023-02-13T14:08:12.014077Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.3": [
+      {
+        "filename": "pyobs_core-1.3.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319700,
+        "upload_time": "2023-02-21T09:51:29",
+        "upload_time_iso_8601": "2023-02-21T09:51:29.489692Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 198338,
+        "upload_time": "2023-02-21T09:51:31",
+        "upload_time_iso_8601": "2023-02-21T09:51:31.274832Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.4": [
+      {
+        "filename": "pyobs_core-1.3.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319720,
+        "upload_time": "2023-03-24T09:06:50",
+        "upload_time_iso_8601": "2023-03-24T09:06:50.723010Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.3.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197589,
+        "upload_time": "2023-03-24T09:06:52",
+        "upload_time_iso_8601": "2023-03-24T09:06:52.441640Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.5": [
+      {
+        "filename": "pyobs_core-1.3.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319720,
+        "upload_time": "2023-03-24T12:37:11",
+        "upload_time_iso_8601": "2023-03-24T12:37:11.034434Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.3.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197564,
+        "upload_time": "2023-03-24T12:37:12",
+        "upload_time_iso_8601": "2023-03-24T12:37:12.957303Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.6": [
+      {
+        "filename": "pyobs_core-1.3.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319720,
+        "upload_time": "2023-03-27T14:29:18",
+        "upload_time_iso_8601": "2023-03-27T14:29:18.123845Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.3.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197622,
+        "upload_time": "2023-03-27T14:29:19",
+        "upload_time_iso_8601": "2023-03-27T14:29:19.897721Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.7": [
+      {
+        "filename": "pyobs_core-1.3.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.11",
+        "size": 319720,
+        "upload_time": "2023-03-27T14:32:26",
+        "upload_time_iso_8601": "2023-03-27T14:32:26.048281Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.3.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.11",
+        "size": 197608,
+        "upload_time": "2023-03-27T14:32:28",
+        "upload_time_iso_8601": "2023-03-27T14:32:28.451462Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.0": [
+      {
+        "filename": "pyobs_core-1.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 319869,
+        "upload_time": "2023-05-08T08:42:28",
+        "upload_time_iso_8601": "2023-05-08T08:42:28.660972Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 197888,
+        "upload_time": "2023-05-08T08:42:30",
+        "upload_time_iso_8601": "2023-05-08T08:42:30.291497Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.1": [
+      {
+        "filename": "pyobs_core-1.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 321242,
+        "upload_time": "2023-06-12T09:48:08",
+        "upload_time_iso_8601": "2023-06-12T09:48:08.503796Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 198162,
+        "upload_time": "2023-06-12T09:48:10",
+        "upload_time_iso_8601": "2023-06-12T09:48:10.519478Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.10": [
+      {
+        "filename": "pyobs_core-1.4.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 325174,
+        "upload_time": "2023-08-29T09:20:42",
+        "upload_time_iso_8601": "2023-08-29T09:20:42.021023Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 200601,
+        "upload_time": "2023-08-29T09:20:44",
+        "upload_time_iso_8601": "2023-08-29T09:20:44.347459Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.11": [
+      {
+        "filename": "pyobs_core-1.4.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 325198,
+        "upload_time": "2023-09-06T12:22:35",
+        "upload_time_iso_8601": "2023-09-06T12:22:35.192262Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 200658,
+        "upload_time": "2023-09-06T12:22:36",
+        "upload_time_iso_8601": "2023-09-06T12:22:36.608127Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.12": [
+      {
+        "filename": "pyobs_core-1.4.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 326636,
+        "upload_time": "2023-09-12T10:27:58",
+        "upload_time_iso_8601": "2023-09-12T10:27:58.834866Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 201634,
+        "upload_time": "2023-09-12T10:28:00",
+        "upload_time_iso_8601": "2023-09-12T10:28:00.899464Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.13": [
+      {
+        "filename": "pyobs_core-1.4.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 326479,
+        "upload_time": "2023-09-12T18:51:10",
+        "upload_time_iso_8601": "2023-09-12T18:51:10.811489Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 201515,
+        "upload_time": "2023-09-12T18:51:12",
+        "upload_time_iso_8601": "2023-09-12T18:51:12.839512Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.14": [
+      {
+        "filename": "pyobs_core-1.4.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 326726,
+        "upload_time": "2023-09-14T20:40:18",
+        "upload_time_iso_8601": "2023-09-14T20:40:18.507284Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 201799,
+        "upload_time": "2023-09-14T20:40:19",
+        "upload_time_iso_8601": "2023-09-14T20:40:19.904342Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.2": [
+      {
+        "filename": "pyobs_core-1.4.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 321276,
+        "upload_time": "2023-07-07T08:47:41",
+        "upload_time_iso_8601": "2023-07-07T08:47:41.096273Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 198194,
+        "upload_time": "2023-07-07T08:47:42",
+        "upload_time_iso_8601": "2023-07-07T08:47:42.975137Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.3": [
+      {
+        "filename": "pyobs_core-1.4.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 321279,
+        "upload_time": "2023-07-14T07:56:28",
+        "upload_time_iso_8601": "2023-07-14T07:56:28.168854Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 198160,
+        "upload_time": "2023-07-14T07:56:29",
+        "upload_time_iso_8601": "2023-07-14T07:56:29.595860Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.5": [
+      {
+        "filename": "pyobs_core-1.4.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 324361,
+        "upload_time": "2023-07-21T10:50:44",
+        "upload_time_iso_8601": "2023-07-21T10:50:44.976064Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 199868,
+        "upload_time": "2023-07-21T10:50:47",
+        "upload_time_iso_8601": "2023-07-21T10:50:47.053321Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.6": [
+      {
+        "filename": "pyobs_core-1.4.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 324965,
+        "upload_time": "2023-07-31T10:54:58",
+        "upload_time_iso_8601": "2023-07-31T10:54:58.031921Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 200550,
+        "upload_time": "2023-07-31T10:55:00",
+        "upload_time_iso_8601": "2023-07-31T10:55:00.034547Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.8": [
+      {
+        "filename": "pyobs_core-1.4.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 325059,
+        "upload_time": "2023-08-03T07:55:06",
+        "upload_time_iso_8601": "2023-08-03T07:55:06.366557Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 200516,
+        "upload_time": "2023-08-03T07:55:08",
+        "upload_time_iso_8601": "2023-08-03T07:55:08.487520Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.9": [
+      {
+        "filename": "pyobs_core-1.4.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 325093,
+        "upload_time": "2023-08-29T09:06:10",
+        "upload_time_iso_8601": "2023-08-29T09:06:10.491533Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.4.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 200536,
+        "upload_time": "2023-08-29T09:06:12",
+        "upload_time_iso_8601": "2023-08-29T09:06:12.434777Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.0": [
+      {
+        "filename": "pyobs_core-1.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 328169,
+        "upload_time": "2023-09-17T16:30:45",
+        "upload_time_iso_8601": "2023-09-17T16:30:45.930191Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 202773,
+        "upload_time": "2023-09-17T16:30:47",
+        "upload_time_iso_8601": "2023-09-17T16:30:47.385821Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.1": [
+      {
+        "filename": "pyobs_core-1.5.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 328181,
+        "upload_time": "2023-09-18T09:25:43",
+        "upload_time_iso_8601": "2023-09-18T09:25:43.187545Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.5.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 202767,
+        "upload_time": "2023-09-18T09:25:44",
+        "upload_time_iso_8601": "2023-09-18T09:25:44.888911Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.2": [
+      {
+        "filename": "pyobs_core-1.5.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 329495,
+        "upload_time": "2023-09-20T12:17:28",
+        "upload_time_iso_8601": "2023-09-20T12:17:28.665453Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.5.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 203774,
+        "upload_time": "2023-09-20T12:17:31",
+        "upload_time_iso_8601": "2023-09-20T12:17:31.024389Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.3": [
+      {
+        "filename": "pyobs_core-1.5.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 329510,
+        "upload_time": "2023-09-20T18:55:45",
+        "upload_time_iso_8601": "2023-09-20T18:55:45.433247Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.5.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 203730,
+        "upload_time": "2023-09-20T18:55:47",
+        "upload_time_iso_8601": "2023-09-20T18:55:47.431122Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.4": [
+      {
+        "filename": "pyobs_core-1.5.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 329492,
+        "upload_time": "2023-09-20T18:59:48",
+        "upload_time_iso_8601": "2023-09-20T18:59:48.219199Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.5.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 203706,
+        "upload_time": "2023-09-20T18:59:49",
+        "upload_time_iso_8601": "2023-09-20T18:59:49.741679Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.5": [
+      {
+        "filename": "pyobs_core-1.5.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 329498,
+        "upload_time": "2023-09-20T19:12:18",
+        "upload_time_iso_8601": "2023-09-20T19:12:18.948165Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.5.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 203713,
+        "upload_time": "2023-09-20T19:12:20",
+        "upload_time_iso_8601": "2023-09-20T19:12:20.920533Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.6": [
+      {
+        "filename": "pyobs_core-1.5.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 329471,
+        "upload_time": "2023-09-21T12:12:04",
+        "upload_time_iso_8601": "2023-09-21T12:12:04.870914Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.5.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 203714,
+        "upload_time": "2023-09-21T12:12:06",
+        "upload_time_iso_8601": "2023-09-21T12:12:06.795296Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.7": [
+      {
+        "filename": "pyobs_core-1.5.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 329493,
+        "upload_time": "2023-10-08T15:54:30",
+        "upload_time_iso_8601": "2023-10-08T15:54:30.822112Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.5.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 203714,
+        "upload_time": "2023-10-08T15:54:32",
+        "upload_time_iso_8601": "2023-10-08T15:54:32.969203Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.8": [
+      {
+        "filename": "pyobs_core-1.5.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 329495,
+        "upload_time": "2023-10-09T14:05:40",
+        "upload_time_iso_8601": "2023-10-09T14:05:40.375030Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.5.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 203732,
+        "upload_time": "2023-10-09T14:05:42",
+        "upload_time_iso_8601": "2023-10-09T14:05:42.153605Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.0": [
+      {
+        "filename": "pyobs_core-1.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 334218,
+        "upload_time": "2023-11-07T21:00:05",
+        "upload_time_iso_8601": "2023-11-07T21:00:05.461788Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 206142,
+        "upload_time": "2023-11-07T21:00:13",
+        "upload_time_iso_8601": "2023-11-07T21:00:13.603466Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.1": [
+      {
+        "filename": "pyobs_core-1.6.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 334211,
+        "upload_time": "2023-11-09T20:14:20",
+        "upload_time_iso_8601": "2023-11-09T20:14:20.698561Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 206118,
+        "upload_time": "2023-11-09T20:14:23",
+        "upload_time_iso_8601": "2023-11-09T20:14:23.163676Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.10": [
+      {
+        "filename": "pyobs_core-1.6.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 337706,
+        "upload_time": "2023-12-07T13:56:42",
+        "upload_time_iso_8601": "2023-12-07T13:56:42.768703Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 207104,
+        "upload_time": "2023-12-07T13:56:44",
+        "upload_time_iso_8601": "2023-12-07T13:56:44.987386Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.11": [
+      {
+        "filename": "pyobs_core-1.6.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 337929,
+        "upload_time": "2023-12-08T18:53:44",
+        "upload_time_iso_8601": "2023-12-08T18:53:44.049588Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 207283,
+        "upload_time": "2023-12-08T18:53:46",
+        "upload_time_iso_8601": "2023-12-08T18:53:46.561532Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.12": [
+      {
+        "filename": "pyobs_core-1.6.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 338754,
+        "upload_time": "2023-12-10T19:13:45",
+        "upload_time_iso_8601": "2023-12-10T19:13:45.507131Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 207502,
+        "upload_time": "2023-12-10T19:13:48",
+        "upload_time_iso_8601": "2023-12-10T19:13:48.284290Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.13": [
+      {
+        "filename": "pyobs_core-1.6.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 338812,
+        "upload_time": "2023-12-11T09:35:16",
+        "upload_time_iso_8601": "2023-12-11T09:35:16.104721Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 207543,
+        "upload_time": "2023-12-11T09:35:19",
+        "upload_time_iso_8601": "2023-12-11T09:35:19.043609Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.14": [
+      {
+        "filename": "pyobs_core-1.6.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 338899,
+        "upload_time": "2023-12-11T18:31:14",
+        "upload_time_iso_8601": "2023-12-11T18:31:14.742427Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 207629,
+        "upload_time": "2023-12-11T18:31:17",
+        "upload_time_iso_8601": "2023-12-11T18:31:17.617792Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.15": [
+      {
+        "filename": "pyobs_core-1.6.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 338913,
+        "upload_time": "2023-12-17T18:32:57",
+        "upload_time_iso_8601": "2023-12-17T18:32:57.434605Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 207646,
+        "upload_time": "2023-12-17T18:33:00",
+        "upload_time_iso_8601": "2023-12-17T18:33:00.175618Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.2": [
+      {
+        "filename": "pyobs_core-1.6.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 334252,
+        "upload_time": "2023-11-10T19:44:45",
+        "upload_time_iso_8601": "2023-11-10T19:44:45.352413Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 206166,
+        "upload_time": "2023-11-10T19:44:47",
+        "upload_time_iso_8601": "2023-11-10T19:44:47.515202Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.3": [
+      {
+        "filename": "pyobs_core-1.6.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 334290,
+        "upload_time": "2023-11-10T19:53:03",
+        "upload_time_iso_8601": "2023-11-10T19:53:03.068265Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 206178,
+        "upload_time": "2023-11-10T19:53:05",
+        "upload_time_iso_8601": "2023-11-10T19:53:05.482868Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.4": [
+      {
+        "filename": "pyobs_core-1.6.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 334314,
+        "upload_time": "2023-11-13T12:28:04",
+        "upload_time_iso_8601": "2023-11-13T12:28:04.614379Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 206165,
+        "upload_time": "2023-11-13T12:28:07",
+        "upload_time_iso_8601": "2023-11-13T12:28:07.276607Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.5": [
+      {
+        "filename": "pyobs_core-1.6.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 334328,
+        "upload_time": "2023-11-16T14:27:53",
+        "upload_time_iso_8601": "2023-11-16T14:27:53.587973Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 206196,
+        "upload_time": "2023-11-16T14:27:55",
+        "upload_time_iso_8601": "2023-11-16T14:27:55.598900Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.6": [
+      {
+        "filename": "pyobs_core-1.6.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 334338,
+        "upload_time": "2023-11-20T19:19:07",
+        "upload_time_iso_8601": "2023-11-20T19:19:07.360113Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 206158,
+        "upload_time": "2023-11-20T19:19:10",
+        "upload_time_iso_8601": "2023-11-20T19:19:10.431926Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.7": [
+      {
+        "filename": "pyobs_core-1.6.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 336117,
+        "upload_time": "2023-11-21T10:11:30",
+        "upload_time_iso_8601": "2023-11-21T10:11:30.585444Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 206527,
+        "upload_time": "2023-11-21T10:11:33",
+        "upload_time_iso_8601": "2023-11-21T10:11:33.039551Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.8": [
+      {
+        "filename": "pyobs_core-1.6.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 337618,
+        "upload_time": "2023-12-02T13:17:30",
+        "upload_time_iso_8601": "2023-12-02T13:17:30.657411Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 207025,
+        "upload_time": "2023-12-02T13:17:33",
+        "upload_time_iso_8601": "2023-12-02T13:17:33.350226Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.9": [
+      {
+        "filename": "pyobs_core-1.6.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 337680,
+        "upload_time": "2023-12-04T15:46:38",
+        "upload_time_iso_8601": "2023-12-04T15:46:38.043477Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.6.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 207112,
+        "upload_time": "2023-12-04T15:46:40",
+        "upload_time_iso_8601": "2023-12-04T15:46:40.539600Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.7.0": [
+      {
+        "filename": "pyobs_core-1.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 340120,
+        "upload_time": "2023-12-18T19:03:28",
+        "upload_time_iso_8601": "2023-12-18T19:03:28.330112Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 207906,
+        "upload_time": "2023-12-18T19:03:30",
+        "upload_time_iso_8601": "2023-12-18T19:03:30.944479Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.7.1": [
+      {
+        "filename": "pyobs_core-1.7.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 340128,
+        "upload_time": "2023-12-19T18:46:35",
+        "upload_time_iso_8601": "2023-12-19T18:46:35.130558Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.7.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 207909,
+        "upload_time": "2023-12-19T18:46:38",
+        "upload_time_iso_8601": "2023-12-19T18:46:38.168371Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.8.0": [
+      {
+        "filename": "pyobs_core-1.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 343988,
+        "upload_time": "2023-12-20T10:06:14",
+        "upload_time_iso_8601": "2023-12-20T10:06:14.898116Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 209744,
+        "upload_time": "2023-12-20T10:06:17",
+        "upload_time_iso_8601": "2023-12-20T10:06:17.636061Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.9.0": [
+      {
+        "filename": "pyobs_core-1.9.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9,<3.12",
+        "size": 344832,
+        "upload_time": "2023-12-23T10:58:13",
+        "upload_time_iso_8601": "2023-12-23T10:58:13.568163Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "pyobs_core-1.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9,<3.12",
+        "size": 210311,
+        "upload_time": "2023-12-23T10:58:16",
+        "upload_time_iso_8601": "2023-12-23T10:58:16.306248Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

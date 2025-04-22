@@ -1,0 +1,658 @@
+{
+  "info": {
+    "author": "Galaxy Project and Community",
+    "author_email": "galaxy-committers@lists.galaxyproject.org",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Console",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: Academic Free License (AFL)",
+      "Natural Language :: English",
+      "Operating System :: POSIX",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Software Development",
+      "Topic :: Software Development :: Code Generators",
+      "Topic :: Software Development :: Testing"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/galaxyproject/galaxy",
+    "keywords": "Galaxy",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "galaxy-web-apps",
+    "package_url": "https://pypi.org/project/galaxy-web-apps/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/galaxy-web-apps/",
+    "project_urls": {
+      "Homepage": "https://github.com/galaxyproject/galaxy"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/galaxy-web-apps/24.2.1/",
+    "requires_dist": [
+      "galaxy-app",
+      "galaxy-data",
+      "galaxy-job-execution",
+      "galaxy-tool-util",
+      "galaxy-util[jstree,template]",
+      "galaxy-web-framework",
+      "galaxy-web-stack",
+      "a2wsgi",
+      "apispec",
+      "Babel",
+      "CT3>=3.3.3",
+      "fastapi>=0.101.0",
+      "gunicorn",
+      "gxformat2",
+      "Mako",
+      "MarkupSafe",
+      "Paste",
+      "pydantic>=2.7.4",
+      "PyJWT",
+      "python-dateutil",
+      "python-multipart",
+      "PyYAML",
+      "requests",
+      "Routes",
+      "SQLAlchemy!=2.0.36,<2.1,>=2.0",
+      "starlette",
+      "starlette-context",
+      "tuswsgi",
+      "typing-extensions",
+      "uvicorn",
+      "uvloop>=0.21.0",
+      "WebOb>=1.8.9",
+      "importlib-resources; python_version < \"3.9\""
+    ],
+    "requires_python": ">=3.8",
+    "summary": "Galaxy web apps",
+    "version": "24.2.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27697534,
+  "releases": {
+    "20.5.0": [
+      {
+        "filename": "galaxy_web_apps-20.5.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 1573978,
+        "upload_time": "2020-07-04T15:44:59",
+        "upload_time_iso_8601": "2020-07-04T15:44:59.145030Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-20.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 1310805,
+        "upload_time": "2020-07-04T15:45:03",
+        "upload_time_iso_8601": "2020-07-04T15:45:03.662712Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "23.0.2": [
+      {
+        "filename": "galaxy_web_apps-23.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 1984897,
+        "upload_time": "2023-06-13T17:16:30",
+        "upload_time_iso_8601": "2023-06-13T17:16:30.723837Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-23.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 1643655,
+        "upload_time": "2023-06-13T17:16:33",
+        "upload_time_iso_8601": "2023-06-13T17:16:33.272754Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "23.0.3": [
+      {
+        "filename": "galaxy_web_apps-23.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 1985068,
+        "upload_time": "2023-06-26T09:59:37",
+        "upload_time_iso_8601": "2023-06-26T09:59:37.849828Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-23.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 1644026,
+        "upload_time": "2023-06-26T09:59:40",
+        "upload_time_iso_8601": "2023-06-26T09:59:40.083264Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "23.0.4": [
+      {
+        "filename": "galaxy_web_apps-23.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 1985118,
+        "upload_time": "2023-06-30T22:11:57",
+        "upload_time_iso_8601": "2023-06-30T22:11:57.250042Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-23.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 1644170,
+        "upload_time": "2023-06-30T22:11:59",
+        "upload_time_iso_8601": "2023-06-30T22:11:59.615896Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "23.0.5": [
+      {
+        "filename": "galaxy_web_apps-23.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 1985076,
+        "upload_time": "2023-07-30T10:58:20",
+        "upload_time_iso_8601": "2023-07-30T10:58:20.621601Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-23.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 1644087,
+        "upload_time": "2023-07-30T10:58:23",
+        "upload_time_iso_8601": "2023-07-30T10:58:23.515581Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "23.0.6": [
+      {
+        "filename": "galaxy_web_apps-23.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 1985198,
+        "upload_time": "2023-10-23T17:35:40",
+        "upload_time_iso_8601": "2023-10-23T17:35:40.430633Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-23.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 1644524,
+        "upload_time": "2023-10-23T17:35:42",
+        "upload_time_iso_8601": "2023-10-23T17:35:42.840236Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "23.1.1": [
+      {
+        "filename": "galaxy_web_apps-23.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 1843719,
+        "upload_time": "2023-10-23T20:04:40",
+        "upload_time_iso_8601": "2023-10-23T20:04:40.348068Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-23.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 1547425,
+        "upload_time": "2023-10-23T20:04:42",
+        "upload_time_iso_8601": "2023-10-23T20:04:42.258483Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "23.1.2": [
+      {
+        "filename": "galaxy_web_apps-23.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 1843954,
+        "upload_time": "2023-11-29T18:33:30",
+        "upload_time_iso_8601": "2023-11-29T18:33:30.415884Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-23.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 1547684,
+        "upload_time": "2023-11-29T18:33:32",
+        "upload_time_iso_8601": "2023-11-29T18:33:32.591517Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "23.1.3": [
+      {
+        "filename": "galaxy_web_apps-23.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 1844017,
+        "upload_time": "2023-12-01T11:26:28",
+        "upload_time_iso_8601": "2023-12-01T11:26:28.911307Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-23.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 1547771,
+        "upload_time": "2023-12-01T11:26:31",
+        "upload_time_iso_8601": "2023-12-01T11:26:31.177831Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "23.1.4": [
+      {
+        "filename": "galaxy_web_apps-23.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 1844069,
+        "upload_time": "2024-01-04T15:28:59",
+        "upload_time_iso_8601": "2024-01-04T15:28:59.581026Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-23.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 1547917,
+        "upload_time": "2024-01-04T15:29:01",
+        "upload_time_iso_8601": "2024-01-04T15:29:01.187129Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "23.1.dev0": [
+      {
+        "filename": "galaxy_web_apps-23.1.dev0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 1841831,
+        "upload_time": "2024-02-12T19:35:07",
+        "upload_time_iso_8601": "2024-02-12T19:35:07.228103Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-23.1.dev0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 1543995,
+        "upload_time": "2024-02-12T19:35:08",
+        "upload_time_iso_8601": "2024-02-12T19:35:08.924674Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "23.2.1": [
+      {
+        "filename": "galaxy_web_apps-23.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 1579395,
+        "upload_time": "2024-02-22T03:58:59",
+        "upload_time_iso_8601": "2024-02-22T03:58:59.719455Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-23.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 1357302,
+        "upload_time": "2024-02-22T03:59:01",
+        "upload_time_iso_8601": "2024-02-22T03:59:01.378100Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "24.0.0": [
+      {
+        "filename": "galaxy_web_apps-24.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 1563840,
+        "upload_time": "2024-04-03T02:48:22",
+        "upload_time_iso_8601": "2024-04-03T02:48:22.444137Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy-web-apps-24.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 1363363,
+        "upload_time": "2024-04-03T02:48:24",
+        "upload_time_iso_8601": "2024-04-03T02:48:24.670064Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "24.0.1": [
+      {
+        "filename": "galaxy_web_apps-24.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 1564457,
+        "upload_time": "2024-05-02T13:51:37",
+        "upload_time_iso_8601": "2024-05-02T13:51:37.203352Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy_web_apps-24.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 1364462,
+        "upload_time": "2024-05-02T13:51:39",
+        "upload_time_iso_8601": "2024-05-02T13:51:39.323746Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "24.0.2": [
+      {
+        "filename": "galaxy_web_apps-24.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 1564624,
+        "upload_time": "2024-05-07T14:37:43",
+        "upload_time_iso_8601": "2024-05-07T14:37:43.060017Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy_web_apps-24.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 1364743,
+        "upload_time": "2024-05-07T14:37:45",
+        "upload_time_iso_8601": "2024-05-07T14:37:45.153984Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "24.0.3": [
+      {
+        "filename": "galaxy_web_apps-24.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 1565826,
+        "upload_time": "2024-06-28T11:38:42",
+        "upload_time_iso_8601": "2024-06-28T11:38:42.762007Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy_web_apps-24.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 1367389,
+        "upload_time": "2024-06-28T11:38:44",
+        "upload_time_iso_8601": "2024-06-28T11:38:44.675422Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "24.1.1": [
+      {
+        "filename": "galaxy_web_apps-24.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 1534047,
+        "upload_time": "2024-07-03T13:10:46",
+        "upload_time_iso_8601": "2024-07-03T13:10:46.088737Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy_web_apps-24.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 1358894,
+        "upload_time": "2024-07-03T13:10:48",
+        "upload_time_iso_8601": "2024-07-03T13:10:48.239686Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "24.1.2": [
+      {
+        "filename": "galaxy_web_apps-24.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 3816300,
+        "upload_time": "2024-09-25T13:42:39",
+        "upload_time_iso_8601": "2024-09-25T13:42:39.753417Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy_web_apps-24.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 3651594,
+        "upload_time": "2024-09-25T13:42:42",
+        "upload_time_iso_8601": "2024-09-25T13:42:42.210955Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "24.1.3": [
+      {
+        "filename": "galaxy_web_apps-24.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 3816685,
+        "upload_time": "2024-10-29T09:20:00",
+        "upload_time_iso_8601": "2024-10-29T09:20:00.494298Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy_web_apps-24.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 3652504,
+        "upload_time": "2024-10-29T09:20:02",
+        "upload_time_iso_8601": "2024-10-29T09:20:02.402457Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "24.1.4": [
+      {
+        "filename": "galaxy_web_apps-24.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 3816955,
+        "upload_time": "2024-12-11T12:59:48",
+        "upload_time_iso_8601": "2024-12-11T12:59:48.418831Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy_web_apps-24.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 3653029,
+        "upload_time": "2024-12-11T12:59:54",
+        "upload_time_iso_8601": "2024-12-11T12:59:54.077383Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "24.2.0": [
+      {
+        "filename": "galaxy_web_apps-24.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 3817943,
+        "upload_time": "2025-02-12T15:05:36",
+        "upload_time_iso_8601": "2025-02-12T15:05:36.219195Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy_web_apps-24.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 3657824,
+        "upload_time": "2025-02-12T15:05:39",
+        "upload_time_iso_8601": "2025-02-12T15:05:39.854626Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "24.2.1": [
+      {
+        "filename": "galaxy_web_apps-24.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 3818152,
+        "upload_time": "2025-02-28T12:52:03",
+        "upload_time_iso_8601": "2025-02-28T12:52:03.060269Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galaxy_web_apps-24.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 3658239,
+        "upload_time": "2025-02-28T12:52:07",
+        "upload_time_iso_8601": "2025-02-28T12:52:07.414041Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

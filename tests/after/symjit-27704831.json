@@ -1,0 +1,213 @@
+{
+  "info": {
+    "author": null,
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "symjit",
+    "package_url": "https://pypi.org/project/symjit/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/symjit/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/symjit/1.3.0/",
+    "requires_dist": null,
+    "requires_python": null,
+    "summary": null,
+    "version": "1.3.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27704831,
+  "releases": {
+    "1.2": [
+      {
+        "filename": "symjit-1.2-cp310-cp310-manylinux_2_34_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp310",
+        "requires_python": null,
+        "size": 329983,
+        "upload_time": "2025-02-19T21:53:28",
+        "upload_time_iso_8601": "2025-02-19T21:53:28.763785Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "symjit-1.2-cp311-cp311-manylinux_2_34_aarch64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp311",
+        "requires_python": null,
+        "size": 338740,
+        "upload_time": "2025-02-19T21:53:30",
+        "upload_time_iso_8601": "2025-02-19T21:53:30.470632Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "symjit-1.2-cp313-cp313-win_amd64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp313",
+        "requires_python": null,
+        "size": 199184,
+        "upload_time": "2025-02-19T21:53:32",
+        "upload_time_iso_8601": "2025-02-19T21:53:32.386948Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "symjit-1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 29452,
+        "upload_time": "2025-02-19T21:53:34",
+        "upload_time_iso_8601": "2025-02-19T21:53:34.212506Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.1": [
+      {
+        "filename": "symjit-1.2.1-cp310-cp310-manylinux_2_34_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp310",
+        "requires_python": null,
+        "size": 329969,
+        "upload_time": "2025-02-20T21:39:36",
+        "upload_time_iso_8601": "2025-02-20T21:39:36.086551Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "symjit-1.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 29465,
+        "upload_time": "2025-02-20T21:39:37",
+        "upload_time_iso_8601": "2025-02-20T21:39:37.798559Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.2": [
+      {
+        "filename": "symjit-1.2.2-cp312-cp312-manylinux_2_34_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp312",
+        "requires_python": null,
+        "size": 330420,
+        "upload_time": "2025-02-26T14:47:13",
+        "upload_time_iso_8601": "2025-02-26T14:47:13.967761Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "symjit-1.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 29032,
+        "upload_time": "2025-02-26T14:47:17",
+        "upload_time_iso_8601": "2025-02-26T14:47:17.181510Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.3": [
+      {
+        "filename": "symjit-1.2.3-cp312-cp312-manylinux_2_34_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp312",
+        "requires_python": null,
+        "size": 330425,
+        "upload_time": "2025-02-26T16:46:59",
+        "upload_time_iso_8601": "2025-02-26T16:46:59.374109Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "symjit-1.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 29075,
+        "upload_time": "2025-02-26T16:47:01",
+        "upload_time_iso_8601": "2025-02-26T16:47:01.165564Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.4": [
+      {
+        "filename": "symjit-1.2.4-cp312-cp312-manylinux_2_34_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp312",
+        "requires_python": null,
+        "size": 340756,
+        "upload_time": "2025-02-27T11:36:42",
+        "upload_time_iso_8601": "2025-02-27T11:36:42.280870Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "symjit-1.2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 29098,
+        "upload_time": "2025-02-27T11:36:43",
+        "upload_time_iso_8601": "2025-02-27T11:36:43.405018Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.0": [
+      {
+        "filename": "symjit-1.3.0-cp312-cp312-manylinux_2_34_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp312",
+        "requires_python": null,
+        "size": 341344,
+        "upload_time": "2025-02-28T21:00:00",
+        "upload_time_iso_8601": "2025-02-28T21:00:00.851605Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "symjit-1.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 30002,
+        "upload_time": "2025-02-28T21:00:02",
+        "upload_time_iso_8601": "2025-02-28T21:00:02.119628Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

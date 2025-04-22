@@ -1,0 +1,677 @@
+{
+  "info": {
+    "author": "TileDB, Inc.",
+    "author_email": "help@tiledb.io",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 2 - Pre-Alpha",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Information Technology",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: MacOS :: MacOS X",
+      "Operating System :: POSIX :: Linux",
+      "Operating System :: Unix",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Topic :: Scientific/Engineering :: Bio-Informatics",
+      "Topic :: Scientific/Engineering :: Image Processing",
+      "Topic :: Software Development :: Libraries :: Python Modules"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Provides-Extra",
+      "Requires-Dist"
+    ],
+    "home_page": "https://github.com/TileDB-Inc/TileDB-Bioimaging",
+    "keywords": "tiledb, bioimaging",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "tiledb-bioimg",
+    "package_url": "https://pypi.org/project/tiledb-bioimg/",
+    "platform": "any",
+    "project_url": "https://pypi.org/project/tiledb-bioimg/",
+    "project_urls": {
+      "Bug Tracker": "https://github.com/TileDB-Inc/TileDB-Bioimaging/issues",
+      "Documentation": "https://docs.tiledb.com",
+      "Homepage": "https://github.com/TileDB-Inc/TileDB-Bioimaging"
+    },
+    "provides_extra": [
+      "zarr",
+      "openslide",
+      "tiff",
+      "cloud",
+      "full"
+    ],
+    "release_url": "https://pypi.org/project/tiledb-bioimg/0.3.6/",
+    "requires_dist": [
+      "openslide-bin",
+      "pyeditdistance",
+      "tiledb>=0.19",
+      "tqdm",
+      "scikit-image",
+      "jsonpickle",
+      "requires",
+      "ome-zarr>=0.9.0; extra == \"zarr\"",
+      "openslide-python; extra == \"openslide\"",
+      "tifffile; extra == \"tiff\"",
+      "imagecodecs; extra == \"tiff\"",
+      "tiledb-cloud; extra == \"cloud\"",
+      "imagecodecs; extra == \"full\"",
+      "ome-zarr>=0.9.0; extra == \"full\"",
+      "openslide-python; extra == \"full\"",
+      "tifffile; extra == \"full\""
+    ],
+    "requires_python": ">=3.8",
+    "summary": "Package supports all bio-imaging functionality provided by TileDB",
+    "version": "0.3.6",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27679538,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "tiledb_bioimg-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 20188,
+        "upload_time": "2022-11-14T15:44:16",
+        "upload_time_iso_8601": "2022-11-14T15:44:16.581316Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb-bioimg-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 21463601,
+        "upload_time": "2022-11-14T15:44:18",
+        "upload_time_iso_8601": "2022-11-14T15:44:18.727771Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.12.15": [
+      {
+        "filename": "tiledb_bioimg-0.12.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 36199,
+        "upload_time": "2024-07-30T10:35:16",
+        "upload_time_iso_8601": "2024-07-30T10:35:16.192346Z",
+        "yanked": true,
+        "yanked_reason": "Typo"
+      },
+      {
+        "filename": "tiledb_bioimg-0.12.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32377449,
+        "upload_time": "2024-07-30T10:35:18",
+        "upload_time_iso_8601": "2024-07-30T10:35:18.272868Z",
+        "yanked": true,
+        "yanked_reason": "Typo"
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "tiledb_bioimg-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 35918,
+        "upload_time": "2023-02-18T07:22:30",
+        "upload_time_iso_8601": "2023-02-18T07:22:30.707192Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb-bioimg-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32330801,
+        "upload_time": "2023-02-18T07:22:33",
+        "upload_time_iso_8601": "2023-02-18T07:22:33.536977Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.1": [
+      {
+        "filename": "tiledb_bioimg-0.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 35997,
+        "upload_time": "2023-04-27T11:29:51",
+        "upload_time_iso_8601": "2023-04-27T11:29:51.803631Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb-bioimg-0.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32331607,
+        "upload_time": "2023-04-27T11:29:55",
+        "upload_time_iso_8601": "2023-04-27T11:29:55.486528Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.10": [
+      {
+        "filename": "tiledb_bioimg-0.2.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 32799,
+        "upload_time": "2024-03-04T15:34:32",
+        "upload_time_iso_8601": "2024-03-04T15:34:32.093954Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb-bioimg-0.2.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32346055,
+        "upload_time": "2024-03-04T15:34:34",
+        "upload_time_iso_8601": "2024-03-04T15:34:34.334365Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.11": [
+      {
+        "filename": "tiledb_bioimg-0.2.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 32820,
+        "upload_time": "2024-03-14T12:26:41",
+        "upload_time_iso_8601": "2024-03-14T12:26:41.780471Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb-bioimg-0.2.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32346068,
+        "upload_time": "2024-03-14T12:26:46",
+        "upload_time_iso_8601": "2024-03-14T12:26:46.987974Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.12": [
+      {
+        "filename": "tiledb_bioimg-0.2.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 33212,
+        "upload_time": "2024-04-26T15:10:58",
+        "upload_time_iso_8601": "2024-04-26T15:10:58.507702Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb_bioimg-0.2.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32346362,
+        "upload_time": "2024-04-26T15:11:01",
+        "upload_time_iso_8601": "2024-04-26T15:11:01.159482Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.13": [
+      {
+        "filename": "tiledb_bioimg-0.2.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 35630,
+        "upload_time": "2024-07-03T12:24:02",
+        "upload_time_iso_8601": "2024-07-03T12:24:02.582225Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb_bioimg-0.2.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32376930,
+        "upload_time": "2024-07-03T12:24:05",
+        "upload_time_iso_8601": "2024-07-03T12:24:05.165942Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.14": [
+      {
+        "filename": "tiledb_bioimg-0.2.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 36161,
+        "upload_time": "2024-07-29T11:03:17",
+        "upload_time_iso_8601": "2024-07-29T11:03:17.734355Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb_bioimg-0.2.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32377472,
+        "upload_time": "2024-07-29T11:03:20",
+        "upload_time_iso_8601": "2024-07-29T11:03:20.250224Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.15": [
+      {
+        "filename": "tiledb_bioimg-0.2.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 36183,
+        "upload_time": "2024-07-30T12:19:18",
+        "upload_time_iso_8601": "2024-07-30T12:19:18.984609Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb_bioimg-0.2.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32377429,
+        "upload_time": "2024-07-30T12:19:20",
+        "upload_time_iso_8601": "2024-07-30T12:19:20.904851Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.2": [
+      {
+        "filename": "tiledb_bioimg-0.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 27604,
+        "upload_time": "2023-06-15T10:30:19",
+        "upload_time_iso_8601": "2023-06-15T10:30:19.522529Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb-bioimg-0.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32339295,
+        "upload_time": "2023-06-15T10:30:22",
+        "upload_time_iso_8601": "2023-06-15T10:30:22.852781Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.3": [
+      {
+        "filename": "tiledb_bioimg-0.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 28191,
+        "upload_time": "2023-06-27T06:06:26",
+        "upload_time_iso_8601": "2023-06-27T06:06:26.731193Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb-bioimg-0.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32340186,
+        "upload_time": "2023-06-27T06:06:29",
+        "upload_time_iso_8601": "2023-06-27T06:06:29.535409Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.4": [
+      {
+        "filename": "tiledb_bioimg-0.2.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 31121,
+        "upload_time": "2023-07-07T16:20:52",
+        "upload_time_iso_8601": "2023-07-07T16:20:52.218028Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb-bioimg-0.2.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32342325,
+        "upload_time": "2023-07-07T16:20:55",
+        "upload_time_iso_8601": "2023-07-07T16:20:55.849154Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.5": [
+      {
+        "filename": "tiledb_bioimg-0.2.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 31140,
+        "upload_time": "2023-07-17T08:11:37",
+        "upload_time_iso_8601": "2023-07-17T08:11:37.076303Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb-bioimg-0.2.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32342346,
+        "upload_time": "2023-07-17T08:11:40",
+        "upload_time_iso_8601": "2023-07-17T08:11:40.396084Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.6": [
+      {
+        "filename": "tiledb_bioimg-0.2.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 32396,
+        "upload_time": "2023-10-17T07:56:03",
+        "upload_time_iso_8601": "2023-10-17T07:56:03.094939Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb-bioimg-0.2.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32345231,
+        "upload_time": "2023-10-17T07:56:05",
+        "upload_time_iso_8601": "2023-10-17T07:56:05.576955Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.9": [
+      {
+        "filename": "tiledb_bioimg-0.2.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 32562,
+        "upload_time": "2024-02-15T08:59:42",
+        "upload_time_iso_8601": "2024-02-15T08:59:42.122254Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb-bioimg-0.2.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 32345656,
+        "upload_time": "2024-02-15T08:59:45",
+        "upload_time_iso_8601": "2024-02-15T08:59:45.289634Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "tiledb_bioimg-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 39259,
+        "upload_time": "2024-08-01T13:59:23",
+        "upload_time_iso_8601": "2024-08-01T13:59:23.140602Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb_bioimg-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 32380787,
+        "upload_time": "2024-08-01T13:59:25",
+        "upload_time_iso_8601": "2024-08-01T13:59:25.907958Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.1": [
+      {
+        "filename": "tiledb_bioimg-0.3.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 43153,
+        "upload_time": "2024-09-20T10:47:01",
+        "upload_time_iso_8601": "2024-09-20T10:47:01.663581Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb_bioimg-0.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 38389423,
+        "upload_time": "2024-09-20T10:47:04",
+        "upload_time_iso_8601": "2024-09-20T10:47:04.409685Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.2": [
+      {
+        "filename": "tiledb_bioimg-0.3.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 43787,
+        "upload_time": "2024-10-24T09:14:03",
+        "upload_time_iso_8601": "2024-10-24T09:14:03.099120Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb_bioimg-0.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 38390224,
+        "upload_time": "2024-10-24T09:14:06",
+        "upload_time_iso_8601": "2024-10-24T09:14:06.719931Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.3": [
+      {
+        "filename": "tiledb_bioimg-0.3.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 43821,
+        "upload_time": "2024-11-19T16:21:22",
+        "upload_time_iso_8601": "2024-11-19T16:21:22.419609Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb_bioimg-0.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 38390188,
+        "upload_time": "2024-11-19T16:21:24",
+        "upload_time_iso_8601": "2024-11-19T16:21:24.933617Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.4": [
+      {
+        "filename": "tiledb_bioimg-0.3.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 43848,
+        "upload_time": "2025-01-17T16:55:12",
+        "upload_time_iso_8601": "2025-01-17T16:55:12.209360Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb_bioimg-0.3.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 38390204,
+        "upload_time": "2025-01-17T16:55:15",
+        "upload_time_iso_8601": "2025-01-17T16:55:15.949773Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.5": [
+      {
+        "filename": "tiledb_bioimg-0.3.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 43902,
+        "upload_time": "2025-01-22T14:05:49",
+        "upload_time_iso_8601": "2025-01-22T14:05:49.171991Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb_bioimg-0.3.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 38390319,
+        "upload_time": "2025-01-22T14:06:00",
+        "upload_time_iso_8601": "2025-01-22T14:06:00.109994Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.6": [
+      {
+        "filename": "tiledb_bioimg-0.3.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 44479,
+        "upload_time": "2025-02-27T14:18:32",
+        "upload_time_iso_8601": "2025-02-27T14:18:32.187706Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tiledb_bioimg-0.3.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 38390866,
+        "upload_time": "2025-02-27T14:18:35",
+        "upload_time_iso_8601": "2025-02-27T14:18:35.695880Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

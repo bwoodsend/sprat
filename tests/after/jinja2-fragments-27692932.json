@@ -1,0 +1,467 @@
+{
+  "info": {
+    "author": "Sergi Pons Freixes",
+    "author_email": "sergi@cub3.net",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Environment :: Web Environment",
+      "Framework :: FastAPI",
+      "Framework :: Flask",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+      "Topic :: Text Processing :: Markup :: HTML"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Classifier",
+      "Description",
+      "Description-Content-Type",
+      "Home-Page",
+      "Project-Url",
+      "Provides-Extra",
+      "Requires-Dist",
+      "Summary"
+    ],
+    "home_page": "https://github.com/sponsfreixes/jinja2-fragments",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "jinja2-fragments",
+    "package_url": "https://pypi.org/project/jinja2-fragments/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/jinja2-fragments/",
+    "project_urls": {
+      "Changes": "https://github.com/sponsfreixes/jinja2-fragments/blob/main/CHANGELOG.md",
+      "Homepage": "https://github.com/sponsfreixes/jinja2-fragments",
+      "Issue Tracker": "https://github.com/sponsfreixes/jinja2-fragments/issues",
+      "Source Code": "https://github.com/sponsfreixes/jinja2-fragments"
+    },
+    "provides_extra": [
+      "dev",
+      "tests"
+    ],
+    "release_url": "https://pypi.org/project/jinja2-fragments/1.8.0/",
+    "requires_dist": [
+      "jinja2>=3.1.0",
+      "pre-commit; extra == \"dev\"",
+      "quart>=0.18.0; extra == \"tests\"",
+      "flask>=2.1.0; extra == \"tests\"",
+      "fastapi; extra == \"tests\"",
+      "sanic; extra == \"tests\"",
+      "sanic_ext; extra == \"tests\"",
+      "sanic_testing; extra == \"tests\"",
+      "starlette[full]; extra == \"tests\"",
+      "pytest; extra == \"tests\"",
+      "pytest_asyncio; extra == \"tests\"",
+      "litestar[standard]; extra == \"tests\""
+    ],
+    "requires_python": null,
+    "summary": "Render Jinja2 template block as HTML page fragments on Python web frameworks.",
+    "version": "1.8.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27692932,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "jinja2_fragments-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4901,
+        "upload_time": "2022-09-05T06:08:07",
+        "upload_time_iso_8601": "2022-09-05T06:08:07.396891Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 4696,
+        "upload_time": "2022-09-05T06:08:10",
+        "upload_time_iso_8601": "2022-09-05T06:08:10.527946Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "jinja2_fragments-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 5244,
+        "upload_time": "2022-09-08T17:54:13",
+        "upload_time_iso_8601": "2022-09-08T17:54:13.431521Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5116,
+        "upload_time": "2022-09-08T17:54:15",
+        "upload_time_iso_8601": "2022-09-08T17:54:15.110079Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "jinja2_fragments-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 5987,
+        "upload_time": "2022-09-10T18:42:16",
+        "upload_time_iso_8601": "2022-09-10T18:42:16.520554Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5675,
+        "upload_time": "2022-09-10T18:42:18",
+        "upload_time_iso_8601": "2022-09-10T18:42:18.326761Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "jinja2_fragments-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6979,
+        "upload_time": "2022-09-18T23:30:00",
+        "upload_time_iso_8601": "2022-09-18T23:30:00.979455Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 7101,
+        "upload_time": "2022-09-18T23:30:04",
+        "upload_time_iso_8601": "2022-09-18T23:30:04.306018Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.0": [
+      {
+        "filename": "jinja2_fragments-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 8402,
+        "upload_time": "2023-08-31T01:16:34",
+        "upload_time_iso_8601": "2023-08-31T01:16:34.979606Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 11619,
+        "upload_time": "2023-08-31T01:16:37",
+        "upload_time_iso_8601": "2023-08-31T01:16:37.428580Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "jinja2_fragments-1.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 8418,
+        "upload_time": "2023-09-30T18:48:55",
+        "upload_time_iso_8601": "2023-09-30T18:48:55.313634Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 11945,
+        "upload_time": "2023-09-30T18:48:56",
+        "upload_time_iso_8601": "2023-09-30T18:48:56.910469Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "jinja2_fragments-1.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 8547,
+        "upload_time": "2023-10-22T19:15:25",
+        "upload_time_iso_8601": "2023-10-22T19:15:25.473455Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-1.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 12145,
+        "upload_time": "2023-10-22T19:15:27",
+        "upload_time_iso_8601": "2023-10-22T19:15:27.124485Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.1": [
+      {
+        "filename": "jinja2_fragments-1.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 8718,
+        "upload_time": "2023-10-27T00:40:46",
+        "upload_time_iso_8601": "2023-10-27T00:40:46.507292Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-1.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 12189,
+        "upload_time": "2023-10-27T00:40:48",
+        "upload_time_iso_8601": "2023-10-27T00:40:48.151007Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.0": [
+      {
+        "filename": "jinja2_fragments-1.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 10570,
+        "upload_time": "2024-01-30T01:44:48",
+        "upload_time_iso_8601": "2024-01-30T01:44:48.657483Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-1.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13719,
+        "upload_time": "2024-01-30T01:44:50",
+        "upload_time_iso_8601": "2024-01-30T01:44:50.485591Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.0": [
+      {
+        "filename": "jinja2_fragments-1.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 10686,
+        "upload_time": "2024-07-01T00:26:34",
+        "upload_time_iso_8601": "2024-07-01T00:26:34.738785Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-1.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13939,
+        "upload_time": "2024-07-01T00:26:36",
+        "upload_time_iso_8601": "2024-07-01T00:26:36.556967Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.1": [
+      {
+        "filename": "jinja2_fragments-1.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 10687,
+        "upload_time": "2024-07-04T01:38:53",
+        "upload_time_iso_8601": "2024-07-04T01:38:53.391677Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-1.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13979,
+        "upload_time": "2024-07-04T01:38:55",
+        "upload_time_iso_8601": "2024-07-04T01:38:55.676209Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.0": [
+      {
+        "filename": "jinja2_fragments-1.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 10582,
+        "upload_time": "2024-07-07T01:22:29",
+        "upload_time_iso_8601": "2024-07-07T01:22:29.093427Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-1.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13799,
+        "upload_time": "2024-07-07T01:22:30",
+        "upload_time_iso_8601": "2024-07-07T01:22:30.417082Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.0": [
+      {
+        "filename": "jinja2_fragments-1.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 11134,
+        "upload_time": "2024-08-22T05:40:23",
+        "upload_time_iso_8601": "2024-08-22T05:40:23.861303Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-1.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14667,
+        "upload_time": "2024-08-22T05:40:25",
+        "upload_time_iso_8601": "2024-08-22T05:40:25.362348Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.7.0": [
+      {
+        "filename": "jinja2_fragments-1.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 11186,
+        "upload_time": "2024-12-24T23:45:42",
+        "upload_time_iso_8601": "2024-12-24T23:45:42.077520Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-1.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14633,
+        "upload_time": "2024-12-24T23:45:44",
+        "upload_time_iso_8601": "2024-12-24T23:45:44.315696Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.8.0": [
+      {
+        "filename": "jinja2_fragments-1.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 11682,
+        "upload_time": "2025-02-28T06:51:04",
+        "upload_time_iso_8601": "2025-02-28T06:51:04.205786Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "jinja2_fragments-1.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 15121,
+        "upload_time": "2025-02-28T06:51:08",
+        "upload_time_iso_8601": "2025-02-28T06:51:08.044688Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

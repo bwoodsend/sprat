@@ -1,0 +1,473 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Dnetwork-Team <webdev2123@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Framework :: Django",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "one, two",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "dnetwork",
+    "package_url": "https://pypi.org/project/dnetwork/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/dnetwork/",
+    "project_urls": null,
+    "provides_extra": [
+      "dev",
+      "test",
+      "build"
+    ],
+    "release_url": "https://pypi.org/project/dnetwork/0.1.4.9.2/",
+    "requires_dist": [
+      "gql",
+      "requests-toolbelt",
+      "pytest",
+      "pytest-mock",
+      "pytest-cov",
+      "importlib-metadata; python_version > \"3.7\"",
+      "pytest; extra == \"dev\"",
+      "pytest-mock; extra == \"dev\"",
+      "pytest-cov; extra == \"dev\"",
+      "black; extra == \"dev\"",
+      "mypy; extra == \"dev\"",
+      "ruff; extra == \"dev\"",
+      "pytest; extra == \"test\"",
+      "pytest-mock; extra == \"test\"",
+      "pytest-cov; extra == \"test\"",
+      "build; extra == \"build\""
+    ],
+    "requires_python": ">=3.8",
+    "summary": "My project demo",
+    "version": "0.1.4.9.2",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27699399,
+  "releases": {
+    "0.0.1": [
+      {
+        "filename": "dnetwork-0.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20051,
+        "upload_time": "2025-01-09T19:47:44",
+        "upload_time_iso_8601": "2025-01-09T19:47:44.076876Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 16785,
+        "upload_time": "2025-01-09T19:47:46",
+        "upload_time_iso_8601": "2025-01-09T19:47:46.492927Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "dnetwork-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20050,
+        "upload_time": "2025-01-10T06:33:57",
+        "upload_time_iso_8601": "2025-01-10T06:33:57.544080Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 16794,
+        "upload_time": "2025-01-10T06:34:00",
+        "upload_time_iso_8601": "2025-01-10T06:34:00.099789Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.2": [
+      {
+        "filename": "dnetwork-0.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20050,
+        "upload_time": "2025-01-10T17:06:52",
+        "upload_time_iso_8601": "2025-01-10T17:06:52.838748Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 16800,
+        "upload_time": "2025-01-10T17:06:53",
+        "upload_time_iso_8601": "2025-01-10T17:06:53.912711Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.3": [
+      {
+        "filename": "dnetwork-0.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20085,
+        "upload_time": "2025-01-10T17:55:37",
+        "upload_time_iso_8601": "2025-01-10T17:55:37.682403Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 16816,
+        "upload_time": "2025-01-10T17:55:39",
+        "upload_time_iso_8601": "2025-01-10T17:55:39.143318Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4": [
+      {
+        "filename": "dnetwork-0.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20929,
+        "upload_time": "2025-01-12T09:55:11",
+        "upload_time_iso_8601": "2025-01-12T09:55:11.878370Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17330,
+        "upload_time": "2025-01-12T09:55:14",
+        "upload_time_iso_8601": "2025-01-12T09:55:14.201084Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4.1": [
+      {
+        "filename": "dnetwork-0.1.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20950,
+        "upload_time": "2025-01-12T10:55:34",
+        "upload_time_iso_8601": "2025-01-12T10:55:34.591368Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17321,
+        "upload_time": "2025-01-12T10:55:36",
+        "upload_time_iso_8601": "2025-01-12T10:55:36.900196Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4.2": [
+      {
+        "filename": "dnetwork-0.1.4.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20989,
+        "upload_time": "2025-01-19T14:44:51",
+        "upload_time_iso_8601": "2025-01-19T14:44:51.306074Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17373,
+        "upload_time": "2025-01-19T14:44:52",
+        "upload_time_iso_8601": "2025-01-19T14:44:52.459681Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4.3": [
+      {
+        "filename": "dnetwork-0.1.4.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20995,
+        "upload_time": "2025-01-19T21:41:59",
+        "upload_time_iso_8601": "2025-01-19T21:41:59.088549Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17384,
+        "upload_time": "2025-01-19T21:42:00",
+        "upload_time_iso_8601": "2025-01-19T21:42:00.156217Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4.4": [
+      {
+        "filename": "dnetwork-0.1.4.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 20999,
+        "upload_time": "2025-01-20T11:23:46",
+        "upload_time_iso_8601": "2025-01-20T11:23:46.098373Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17400,
+        "upload_time": "2025-01-20T11:23:47",
+        "upload_time_iso_8601": "2025-01-20T11:23:47.750038Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4.5": [
+      {
+        "filename": "dnetwork-0.1.4.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 21013,
+        "upload_time": "2025-02-01T14:33:20",
+        "upload_time_iso_8601": "2025-02-01T14:33:20.278035Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17407,
+        "upload_time": "2025-02-01T14:33:22",
+        "upload_time_iso_8601": "2025-02-01T14:33:22.119455Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4.6": [
+      {
+        "filename": "dnetwork-0.1.4.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 21031,
+        "upload_time": "2025-02-10T12:38:54",
+        "upload_time_iso_8601": "2025-02-10T12:38:54.408196Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17440,
+        "upload_time": "2025-02-10T12:38:56",
+        "upload_time_iso_8601": "2025-02-10T12:38:56.207366Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4.7": [
+      {
+        "filename": "dnetwork-0.1.4.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 21209,
+        "upload_time": "2025-02-13T14:30:57",
+        "upload_time_iso_8601": "2025-02-13T14:30:57.146820Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17659,
+        "upload_time": "2025-02-13T14:30:58",
+        "upload_time_iso_8601": "2025-02-13T14:30:58.210253Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4.8": [
+      {
+        "filename": "dnetwork-0.1.4.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 21284,
+        "upload_time": "2025-02-17T14:38:15",
+        "upload_time_iso_8601": "2025-02-17T14:38:15.190270Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17738,
+        "upload_time": "2025-02-17T14:38:16",
+        "upload_time_iso_8601": "2025-02-17T14:38:16.254776Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4.9": [
+      {
+        "filename": "dnetwork-0.1.4.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 21451,
+        "upload_time": "2025-02-25T16:11:10",
+        "upload_time_iso_8601": "2025-02-25T16:11:10.197021Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17889,
+        "upload_time": "2025-02-25T16:11:14",
+        "upload_time_iso_8601": "2025-02-25T16:11:14.277706Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4.9.1": [
+      {
+        "filename": "dnetwork-0.1.4.9.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 21474,
+        "upload_time": "2025-02-27T22:40:15",
+        "upload_time_iso_8601": "2025-02-27T22:40:15.516918Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.9.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17888,
+        "upload_time": "2025-02-27T22:40:17",
+        "upload_time_iso_8601": "2025-02-27T22:40:17.372259Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4.9.2": [
+      {
+        "filename": "dnetwork-0.1.4.9.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 21515,
+        "upload_time": "2025-02-28T14:54:07",
+        "upload_time_iso_8601": "2025-02-28T14:54:07.043418Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "dnetwork-0.1.4.9.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 17929,
+        "upload_time": "2025-02-28T14:54:08",
+        "upload_time_iso_8601": "2025-02-28T14:54:08.176425Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

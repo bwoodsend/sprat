@@ -1,0 +1,814 @@
+{
+  "info": {
+    "author": "Kammari Santhosh",
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/santhosh/",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "chatlite",
+    "package_url": "https://pypi.org/project/chatlite/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/chatlite/",
+    "project_urls": {
+      "Homepage": "https://github.com/santhosh/",
+      "Repository": "https://github.com/santhosh/"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/chatlite/0.0.62/",
+    "requires_dist": [
+      "fastapi<0.116.0,>=0.115.6",
+      "openai<2.0.0,>=1.58.1"
+    ],
+    "requires_python": "<4.0,>=3.10",
+    "summary": "ai powered chatapp for browsing and search",
+    "version": "0.0.62",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27255634,
+  "releases": {
+    "0.0.32": [
+      {
+        "filename": "chatlite-0.0.32-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 2622,
+        "upload_time": "2024-12-26T00:42:16",
+        "upload_time_iso_8601": "2024-12-26T00:42:16.924827Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.32.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 2179,
+        "upload_time": "2024-12-26T00:42:19",
+        "upload_time_iso_8601": "2024-12-26T00:42:19.429986Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.33": [
+      {
+        "filename": "chatlite-0.0.33-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 2660,
+        "upload_time": "2024-12-26T00:44:01",
+        "upload_time_iso_8601": "2024-12-26T00:44:01.486500Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 2200,
+        "upload_time": "2024-12-26T00:44:03",
+        "upload_time_iso_8601": "2024-12-26T00:44:03.839713Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.34": [
+      {
+        "filename": "chatlite-0.0.34-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 3226,
+        "upload_time": "2024-12-26T01:18:29",
+        "upload_time_iso_8601": "2024-12-26T01:18:29.656532Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.34.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 2343,
+        "upload_time": "2024-12-26T01:18:31",
+        "upload_time_iso_8601": "2024-12-26T01:18:31.917340Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.35": [
+      {
+        "filename": "chatlite-0.0.35-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 4082,
+        "upload_time": "2024-12-26T01:49:02",
+        "upload_time_iso_8601": "2024-12-26T01:49:02.421224Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.35.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 3047,
+        "upload_time": "2024-12-26T01:49:04",
+        "upload_time_iso_8601": "2024-12-26T01:49:04.672831Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.36": [
+      {
+        "filename": "chatlite-0.0.36-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 4067,
+        "upload_time": "2024-12-26T01:53:33",
+        "upload_time_iso_8601": "2024-12-26T01:53:33.779195Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.36.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 3054,
+        "upload_time": "2024-12-26T01:53:36",
+        "upload_time_iso_8601": "2024-12-26T01:53:36.135387Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.38": [
+      {
+        "filename": "chatlite-0.0.38-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 4067,
+        "upload_time": "2024-12-26T02:14:28",
+        "upload_time_iso_8601": "2024-12-26T02:14:28.549088Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.38.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 3057,
+        "upload_time": "2024-12-26T02:14:30",
+        "upload_time_iso_8601": "2024-12-26T02:14:30.742914Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.39": [
+      {
+        "filename": "chatlite-0.0.39-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 4066,
+        "upload_time": "2024-12-26T02:22:13",
+        "upload_time_iso_8601": "2024-12-26T02:22:13.541809Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.39.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 3039,
+        "upload_time": "2024-12-26T02:22:15",
+        "upload_time_iso_8601": "2024-12-26T02:22:15.835448Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.40": [
+      {
+        "filename": "chatlite-0.0.40-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 4084,
+        "upload_time": "2024-12-26T02:26:28",
+        "upload_time_iso_8601": "2024-12-26T02:26:28.151670Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.40.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 3051,
+        "upload_time": "2024-12-26T02:26:30",
+        "upload_time_iso_8601": "2024-12-26T02:26:30.407898Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.41": [
+      {
+        "filename": "chatlite-0.0.41-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 7866,
+        "upload_time": "2024-12-27T19:48:30",
+        "upload_time_iso_8601": "2024-12-27T19:48:30.994417Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.41.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 13115,
+        "upload_time": "2024-12-27T19:48:32",
+        "upload_time_iso_8601": "2024-12-27T19:48:32.941341Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.42": [
+      {
+        "filename": "chatlite-0.0.42-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 7864,
+        "upload_time": "2024-12-27T20:16:25",
+        "upload_time_iso_8601": "2024-12-27T20:16:25.416388Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.43": [
+      {
+        "filename": "chatlite-0.0.43-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9229,
+        "upload_time": "2024-12-28T00:17:49",
+        "upload_time_iso_8601": "2024-12-28T00:17:49.434890Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.43.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 14962,
+        "upload_time": "2024-12-28T00:17:52",
+        "upload_time_iso_8601": "2024-12-28T00:17:52.207915Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.44": [
+      {
+        "filename": "chatlite-0.0.44-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9401,
+        "upload_time": "2024-12-28T01:13:29",
+        "upload_time_iso_8601": "2024-12-28T01:13:29.310128Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.44.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15385,
+        "upload_time": "2024-12-28T01:13:31",
+        "upload_time_iso_8601": "2024-12-28T01:13:31.928127Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.45": [
+      {
+        "filename": "chatlite-0.0.45-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9345,
+        "upload_time": "2024-12-28T02:17:58",
+        "upload_time_iso_8601": "2024-12-28T02:17:58.782020Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.45.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15371,
+        "upload_time": "2024-12-28T02:18:00",
+        "upload_time_iso_8601": "2024-12-28T02:18:00.956642Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.46": [
+      {
+        "filename": "chatlite-0.0.46-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9753,
+        "upload_time": "2024-12-28T02:22:31",
+        "upload_time_iso_8601": "2024-12-28T02:22:31.287866Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.46.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15468,
+        "upload_time": "2024-12-28T02:22:33",
+        "upload_time_iso_8601": "2024-12-28T02:22:33.951436Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.47": [
+      {
+        "filename": "chatlite-0.0.47-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9765,
+        "upload_time": "2024-12-28T02:23:25",
+        "upload_time_iso_8601": "2024-12-28T02:23:25.758114Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.47.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15474,
+        "upload_time": "2024-12-28T02:23:28",
+        "upload_time_iso_8601": "2024-12-28T02:23:28.525674Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.48": [
+      {
+        "filename": "chatlite-0.0.48-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10212,
+        "upload_time": "2024-12-28T02:57:52",
+        "upload_time_iso_8601": "2024-12-28T02:57:52.408415Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.48.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16074,
+        "upload_time": "2024-12-28T02:57:55",
+        "upload_time_iso_8601": "2024-12-28T02:57:55.070904Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.49": [
+      {
+        "filename": "chatlite-0.0.49-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10220,
+        "upload_time": "2024-12-28T02:59:54",
+        "upload_time_iso_8601": "2024-12-28T02:59:54.359568Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.49.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16087,
+        "upload_time": "2024-12-28T02:59:56",
+        "upload_time_iso_8601": "2024-12-28T02:59:56.817125Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.50": [
+      {
+        "filename": "chatlite-0.0.50-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9848,
+        "upload_time": "2024-12-28T03:12:24",
+        "upload_time_iso_8601": "2024-12-28T03:12:24.443794Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.50.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15731,
+        "upload_time": "2024-12-28T03:12:27",
+        "upload_time_iso_8601": "2024-12-28T03:12:27.108386Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.51": [
+      {
+        "filename": "chatlite-0.0.51-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9914,
+        "upload_time": "2024-12-28T04:26:32",
+        "upload_time_iso_8601": "2024-12-28T04:26:32.706840Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.51.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15760,
+        "upload_time": "2024-12-28T04:26:35",
+        "upload_time_iso_8601": "2024-12-28T04:26:35.370511Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.52": [
+      {
+        "filename": "chatlite-0.0.52-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9918,
+        "upload_time": "2024-12-28T04:44:36",
+        "upload_time_iso_8601": "2024-12-28T04:44:36.407402Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.52.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15764,
+        "upload_time": "2024-12-28T04:44:38",
+        "upload_time_iso_8601": "2024-12-28T04:44:38.972672Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.53": [
+      {
+        "filename": "chatlite-0.0.53-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9981,
+        "upload_time": "2024-12-28T04:46:29",
+        "upload_time_iso_8601": "2024-12-28T04:46:29.054172Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.53.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15811,
+        "upload_time": "2024-12-28T04:46:31",
+        "upload_time_iso_8601": "2024-12-28T04:46:31.717616Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.54": [
+      {
+        "filename": "chatlite-0.0.54-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9994,
+        "upload_time": "2024-12-28T05:03:01",
+        "upload_time_iso_8601": "2024-12-28T05:03:01.719232Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.54.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15790,
+        "upload_time": "2024-12-28T05:03:04",
+        "upload_time_iso_8601": "2024-12-28T05:03:04.387562Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.55": [
+      {
+        "filename": "chatlite-0.0.55-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12072,
+        "upload_time": "2024-12-28T05:18:10",
+        "upload_time_iso_8601": "2024-12-28T05:18:10.408308Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.55.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 19799,
+        "upload_time": "2024-12-28T05:18:12",
+        "upload_time_iso_8601": "2024-12-28T05:18:12.975810Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.56": [
+      {
+        "filename": "chatlite-0.0.56-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12096,
+        "upload_time": "2024-12-28T05:28:52",
+        "upload_time_iso_8601": "2024-12-28T05:28:52.103980Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.56.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 19813,
+        "upload_time": "2024-12-28T05:28:55",
+        "upload_time_iso_8601": "2024-12-28T05:28:55.752542Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.57": [
+      {
+        "filename": "chatlite-0.0.57-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12137,
+        "upload_time": "2024-12-28T05:30:48",
+        "upload_time_iso_8601": "2024-12-28T05:30:48.492902Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.57.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 19840,
+        "upload_time": "2024-12-28T05:30:51",
+        "upload_time_iso_8601": "2024-12-28T05:30:51.159817Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.58": [
+      {
+        "filename": "chatlite-0.0.58-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12238,
+        "upload_time": "2024-12-28T06:12:18",
+        "upload_time_iso_8601": "2024-12-28T06:12:18.702002Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.58.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20179,
+        "upload_time": "2024-12-28T06:12:21",
+        "upload_time_iso_8601": "2024-12-28T06:12:21.029299Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.59": [
+      {
+        "filename": "chatlite-0.0.59-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12295,
+        "upload_time": "2024-12-28T06:56:44",
+        "upload_time_iso_8601": "2024-12-28T06:56:44.334770Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.59.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20355,
+        "upload_time": "2024-12-28T06:56:47",
+        "upload_time_iso_8601": "2024-12-28T06:56:47.102121Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.60": [
+      {
+        "filename": "chatlite-0.0.60-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12452,
+        "upload_time": "2025-01-30T06:32:01",
+        "upload_time_iso_8601": "2025-01-30T06:32:01.366593Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.60.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20660,
+        "upload_time": "2025-01-30T06:32:03",
+        "upload_time_iso_8601": "2025-01-30T06:32:03.779486Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.61": [
+      {
+        "filename": "chatlite-0.0.61-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12900,
+        "upload_time": "2025-02-02T05:15:52",
+        "upload_time_iso_8601": "2025-02-02T05:15:52.788141Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.61.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 22893,
+        "upload_time": "2025-02-02T05:15:55",
+        "upload_time_iso_8601": "2025-02-02T05:15:55.055125Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.62": [
+      {
+        "filename": "chatlite-0.0.62-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 14077,
+        "upload_time": "2025-02-03T06:24:20",
+        "upload_time_iso_8601": "2025-02-03T06:24:20.174304Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "chatlite-0.0.62.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 24176,
+        "upload_time": "2025-02-03T06:24:22",
+        "upload_time_iso_8601": "2025-02-03T06:24:22.815251Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

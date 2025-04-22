@@ -1,0 +1,451 @@
+{
+  "info": {
+    "author": "Shikhar Bhushan, Leonidas Poulopoulos, Ebben Aries, Einar Nilsen-Nygaard",
+    "author_email": "shikhar@schmizz.net, lpoulopoulos@verisign.com, exa@dscp.org, einarnn@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3.5",
+      "Programming Language :: Python :: 3.6",
+      "Programming Language :: Python :: 3.7",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: System :: Networking"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Classifier",
+      "Description",
+      "Home-Page",
+      "Keywords",
+      "License",
+      "Platform",
+      "Requires-Dist",
+      "Requires-Python",
+      "Summary"
+    ],
+    "home_page": "https://github.com/ncclient/ncclient",
+    "keywords": "NETCONF, NETCONF Python client, Juniper Optimization, Cisco NXOS Optimization",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "ncclient",
+    "package_url": "https://pypi.org/project/ncclient/",
+    "platform": "Posix; OS X; Windows",
+    "project_url": "https://pypi.org/project/ncclient/",
+    "project_urls": {
+      "Homepage": "https://github.com/ncclient/ncclient"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/ncclient/0.6.18/",
+    "requires_dist": [
+      "paramiko>=1.15.0",
+      "lxml>=3.3.0"
+    ],
+    "requires_python": ">=3.5",
+    "summary": "Python library for NETCONF clients",
+    "version": "0.6.18",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27713756,
+  "releases": {
+    "0.3.2": [
+      {
+        "filename": "ncclient-0.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17896,
+        "upload_time": "2014-01-30T23:41:54",
+        "upload_time_iso_8601": "2014-01-30T23:41:54.934045Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "ncclient-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22624,
+        "upload_time": "2014-01-31T00:08:51",
+        "upload_time_iso_8601": "2014-01-31T00:08:51.210765Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.1": [
+      {
+        "filename": "ncclient-0.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25462,
+        "upload_time": "2014-02-22T22:37:12",
+        "upload_time_iso_8601": "2014-02-22T22:37:12.512230Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.2": [
+      {
+        "filename": "ncclient-0.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 32701,
+        "upload_time": "2014-10-08T00:45:39",
+        "upload_time_iso_8601": "2014-10-08T00:45:39.733347Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.3": [
+      {
+        "filename": "ncclient-0.4.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 55094,
+        "upload_time": "2015-01-06T23:51:34",
+        "upload_time_iso_8601": "2015-01-06T23:51:34.856643Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.5": [
+      {
+        "filename": "ncclient-0.4.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 56816,
+        "upload_time": "2015-09-10T06:05:20",
+        "upload_time_iso_8601": "2015-09-10T06:05:20.001545Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.6": [
+      {
+        "filename": "ncclient-0.4.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 57618,
+        "upload_time": "2015-11-17T23:03:15",
+        "upload_time_iso_8601": "2015-11-17T23:03:15.044091Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.7": [
+      {
+        "filename": "ncclient-0.4.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 60224,
+        "upload_time": "2016-01-30T07:08:07",
+        "upload_time_iso_8601": "2016-01-30T07:08:07.557098Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.2": [
+      {
+        "filename": "ncclient-0.5.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 61456,
+        "upload_time": "2016-07-05T12:27:03",
+        "upload_time_iso_8601": "2016-07-05T12:27:03.814203Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.3": [
+      {
+        "filename": "ncclient-0.5.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 63151,
+        "upload_time": "2016-12-28T07:50:48",
+        "upload_time_iso_8601": "2016-12-28T07:50:48.135651Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.4": [
+      {
+        "filename": "ncclient-0.5.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.7.*",
+        "size": 69268,
+        "upload_time": "2018-07-02T18:14:20",
+        "upload_time_iso_8601": "2018-07-02T18:14:20.231071Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.0": [
+      {
+        "filename": "ncclient-0.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+        "size": 69473,
+        "upload_time": "2018-07-02T20:57:15",
+        "upload_time_iso_8601": "2018-07-02T20:57:15.431081Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.10": [
+      {
+        "filename": "ncclient-0.6.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 105349,
+        "upload_time": "2021-03-06T14:31:26",
+        "upload_time_iso_8601": "2021-03-06T14:31:26.772871Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.11": [
+      {
+        "filename": "ncclient-0.6.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 106223,
+        "upload_time": "2021-05-29T15:17:50",
+        "upload_time_iso_8601": "2021-05-29T15:17:50.460590Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.12": [
+      {
+        "filename": "ncclient-0.6.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 106320,
+        "upload_time": "2021-05-29T16:35:23",
+        "upload_time_iso_8601": "2021-05-29T16:35:23.564351Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.13": [
+      {
+        "filename": "ncclient-0.6.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 105739,
+        "upload_time": "2022-04-10T20:20:26",
+        "upload_time_iso_8601": "2022-04-10T20:20:26.636657Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.14": [
+      {
+        "filename": "ncclient-0.6.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "!=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*",
+        "size": 619125,
+        "upload_time": "2023-10-17T21:16:18",
+        "upload_time_iso_8601": "2023-10-17T21:16:18.011630Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.15": [
+      {
+        "filename": "ncclient-0.6.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 634885,
+        "upload_time": "2023-10-17T21:36:51",
+        "upload_time_iso_8601": "2023-10-17T21:36:51.563810Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.16": [
+      {
+        "filename": "ncclient-0.6.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7",
+        "size": 112619,
+        "upload_time": "2024-10-09T08:25:14",
+        "upload_time_iso_8601": "2024-10-09T08:25:14.472058Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.17": [
+      {
+        "filename": "ncclient-0.6.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.5",
+        "size": 112513,
+        "upload_time": "2025-02-22T16:15:33",
+        "upload_time_iso_8601": "2025-02-22T16:15:33.879240Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.18": [
+      {
+        "filename": "ncclient-0.6.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.5",
+        "size": 112404,
+        "upload_time": "2025-03-01T16:07:09",
+        "upload_time_iso_8601": "2025-03-01T16:07:09.543913Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.2": [
+      {
+        "filename": "ncclient-0.6.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+        "size": 85063,
+        "upload_time": "2018-08-21T09:57:01",
+        "upload_time_iso_8601": "2018-08-21T09:57:01.388582Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.3": [
+      {
+        "filename": "ncclient-0.6.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+        "size": 88022,
+        "upload_time": "2018-09-26T18:20:41",
+        "upload_time_iso_8601": "2018-09-26T18:20:41.827550Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.4": [
+      {
+        "filename": "ncclient-0.6.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+        "size": 88691,
+        "upload_time": "2019-04-07T17:48:58",
+        "upload_time_iso_8601": "2019-04-07T17:48:58.273911Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.6": [
+      {
+        "filename": "ncclient-0.6.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+        "size": 89677,
+        "upload_time": "2019-05-28T10:26:59",
+        "upload_time_iso_8601": "2019-05-28T10:26:59.458554Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.7": [
+      {
+        "filename": "ncclient-0.6.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 605112,
+        "upload_time": "2019-12-21T19:19:44",
+        "upload_time_iso_8601": "2019-12-21T19:19:44.385880Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.8": [
+      {
+        "filename": "ncclient-0.6.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 117374,
+        "upload_time": "2020-07-31T21:10:29",
+        "upload_time_iso_8601": "2020-07-31T21:10:29.409059Z",
+        "yanked": true,
+        "yanked_reason": "Unintental backwards incompatible change made."
+      }
+    ],
+    "0.6.9": [
+      {
+        "filename": "ncclient-0.6.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 118081,
+        "upload_time": "2020-08-08T21:37:13",
+        "upload_time_iso_8601": "2020-08-08T21:37:13.851930Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

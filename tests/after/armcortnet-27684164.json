@@ -1,0 +1,356 @@
+{
+  "info": {
+    "author": "gspangenberg",
+    "author_email": "gspangen@uwo.ca",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "armcortnet",
+    "package_url": "https://pypi.org/project/armcortnet/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/armcortnet/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/armcortnet/0.3.3/",
+    "requires_dist": [
+      "armcrop>=0.7.3",
+      "nnunetv2>=2.5",
+      "huggingface-hub>=0.25.1",
+      "vtk>=9.0",
+      "simpleitkutilities>=0.3.0"
+    ],
+    "requires_python": ">=3.11",
+    "summary": "An automated deep learning pipeline for segmentation of the scapula, humerus, and their respective subregions in CT scans.",
+    "version": "0.3.3",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27684164,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "armcortnet-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 3529,
+        "upload_time": "2025-02-14T16:59:27",
+        "upload_time_iso_8601": "2025-02-14T16:59:27.418929Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 2902,
+        "upload_time": "2025-02-14T16:59:29",
+        "upload_time_iso_8601": "2025-02-14T16:59:29.606378Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "armcortnet-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 4180,
+        "upload_time": "2025-02-14T17:16:06",
+        "upload_time_iso_8601": "2025-02-14T17:16:06.438724Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 3487,
+        "upload_time": "2025-02-14T17:16:08",
+        "upload_time_iso_8601": "2025-02-14T17:16:08.359375Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.1": [
+      {
+        "filename": "armcortnet-0.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 4209,
+        "upload_time": "2025-02-14T17:18:22",
+        "upload_time_iso_8601": "2025-02-14T17:18:22.282281Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 3513,
+        "upload_time": "2025-02-14T17:18:23",
+        "upload_time_iso_8601": "2025-02-14T17:18:23.890815Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.2": [
+      {
+        "filename": "armcortnet-0.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 4206,
+        "upload_time": "2025-02-14T17:21:04",
+        "upload_time_iso_8601": "2025-02-14T17:21:04.722619Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 3511,
+        "upload_time": "2025-02-14T17:21:05",
+        "upload_time_iso_8601": "2025-02-14T17:21:05.585531Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.3": [
+      {
+        "filename": "armcortnet-0.2.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 4216,
+        "upload_time": "2025-02-17T15:30:32",
+        "upload_time_iso_8601": "2025-02-17T15:30:32.742445Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.2.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 3515,
+        "upload_time": "2025-02-17T15:30:33",
+        "upload_time_iso_8601": "2025-02-17T15:30:33.631006Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.5": [
+      {
+        "filename": "armcortnet-0.2.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 4548,
+        "upload_time": "2025-02-17T16:50:13",
+        "upload_time_iso_8601": "2025-02-17T16:50:13.075979Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.2.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 3805,
+        "upload_time": "2025-02-17T16:50:18",
+        "upload_time_iso_8601": "2025-02-17T16:50:18.651546Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.6": [
+      {
+        "filename": "armcortnet-0.2.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 4380,
+        "upload_time": "2025-02-18T01:47:00",
+        "upload_time_iso_8601": "2025-02-18T01:47:00.906745Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.2.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 3657,
+        "upload_time": "2025-02-18T01:47:02",
+        "upload_time_iso_8601": "2025-02-18T01:47:02.594682Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.7": [
+      {
+        "filename": "armcortnet-0.2.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 4486,
+        "upload_time": "2025-02-18T02:26:15",
+        "upload_time_iso_8601": "2025-02-18T02:26:15.523380Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.2.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 3759,
+        "upload_time": "2025-02-18T02:26:17",
+        "upload_time_iso_8601": "2025-02-18T02:26:17.200414Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "armcortnet-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 6244,
+        "upload_time": "2025-02-25T17:37:29",
+        "upload_time_iso_8601": "2025-02-25T17:37:29.733905Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 5253,
+        "upload_time": "2025-02-25T17:37:30",
+        "upload_time_iso_8601": "2025-02-25T17:37:30.702364Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.1": [
+      {
+        "filename": "armcortnet-0.3.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 6463,
+        "upload_time": "2025-02-25T17:51:23",
+        "upload_time_iso_8601": "2025-02-25T17:51:23.762465Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 5446,
+        "upload_time": "2025-02-25T17:51:25",
+        "upload_time_iso_8601": "2025-02-25T17:51:25.471745Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.2": [
+      {
+        "filename": "armcortnet-0.3.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 6680,
+        "upload_time": "2025-02-26T19:45:25",
+        "upload_time_iso_8601": "2025-02-26T19:45:25.688352Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 5662,
+        "upload_time": "2025-02-26T19:45:28",
+        "upload_time_iso_8601": "2025-02-26T19:45:28.259753Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.3": [
+      {
+        "filename": "armcortnet-0.3.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 6750,
+        "upload_time": "2025-02-27T18:58:14",
+        "upload_time_iso_8601": "2025-02-27T18:58:14.572939Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "armcortnet-0.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 5722,
+        "upload_time": "2025-02-27T18:58:16",
+        "upload_time_iso_8601": "2025-02-27T18:58:16.293395Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

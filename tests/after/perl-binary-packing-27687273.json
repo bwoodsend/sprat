@@ -1,0 +1,144 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "\"Mikhail Belov(mishka251)\" <mishkabelka251@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "perl-binary-packing",
+    "package_url": "https://pypi.org/project/perl-binary-packing/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/perl-binary-packing/",
+    "project_urls": {
+      "Homepage": "https://github.com/mishka251/perl_binary_packing"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/perl-binary-packing/0.4.0/",
+    "requires_dist": null,
+    "requires_python": null,
+    "summary": "Binary pack/unpack with perl-style format",
+    "version": "0.4.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27687273,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "perl_binary_packing-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 7579,
+        "upload_time": "2024-01-06T19:15:54",
+        "upload_time_iso_8601": "2024-01-06T19:15:54.441699Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "perl_binary_packing-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 6729,
+        "upload_time": "2024-01-06T19:15:55",
+        "upload_time_iso_8601": "2024-01-06T19:15:55.974110Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "perl_binary_packing-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 11239,
+        "upload_time": "2024-10-22T15:37:41",
+        "upload_time_iso_8601": "2024-10-22T15:37:41.716244Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "perl_binary_packing-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 9071,
+        "upload_time": "2024-10-22T15:37:43",
+        "upload_time_iso_8601": "2024-10-22T15:37:43.050895Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "perl_binary_packing-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 11077,
+        "upload_time": "2025-02-27T19:53:01",
+        "upload_time_iso_8601": "2025-02-27T19:53:01.108845Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "perl_binary_packing-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 8970,
+        "upload_time": "2025-02-27T19:53:01",
+        "upload_time_iso_8601": "2025-02-27T19:53:01.900795Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "perl_binary_packing-0.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 11060,
+        "upload_time": "2025-02-27T21:33:54",
+        "upload_time_iso_8601": "2025-02-27T21:33:54.107459Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "perl_binary_packing-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 8938,
+        "upload_time": "2025-02-27T21:33:55",
+        "upload_time_iso_8601": "2025-02-27T21:33:55.185605Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

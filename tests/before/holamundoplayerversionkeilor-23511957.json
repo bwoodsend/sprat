@@ -1,0 +1,67 @@
+{
+  "info": {
+    "author": null,
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [],
+    "description": "# Player de prueba\r\nEste es un reproductor de prueba\r\n",
+    "description_content_type": null,
+    "docs_url": null,
+    "download_url": null,
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "holamundoplayerversionkeilor",
+    "package_url": "https://pypi.org/project/holamundoplayerversionkeilor/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/holamundoplayerversionkeilor/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/holamundoplayerversionkeilor/0.0.1/",
+    "requires_dist": null,
+    "requires_python": null,
+    "summary": null,
+    "version": "0.0.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 23511957,
+  "releases": {
+    "0.0.1": [
+      {
+        "filename": "holamundoplayerversionkeilor-0.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 14976,
+        "upload_time": "2024-06-03T23:56:07",
+        "upload_time_iso_8601": "2024-06-03T23:56:07.750769Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "holamundoplayerversionkeilor-0.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14252,
+        "upload_time": "2024-06-03T23:56:09",
+        "upload_time_iso_8601": "2024-06-03T23:56:09.551460Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

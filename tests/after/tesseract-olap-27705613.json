@@ -1,0 +1,1390 @@
+{
+  "info": {
+    "author": "Francisco Abarzua",
+    "author_email": "francisco@datawheel.us",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: Other/Proprietary License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Software Development :: Libraries :: Python Modules"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/Datawheel/tesseract-olap",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "Francisco Abarzua",
+    "maintainer_email": "francisco@datawheel.us",
+    "name": "tesseract-olap",
+    "package_url": "https://pypi.org/project/tesseract-olap/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/tesseract-olap/",
+    "project_urls": {
+      "Homepage": "https://github.com/Datawheel/tesseract-olap",
+      "Repository": "https://github.com/Datawheel/tesseract-olap"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/tesseract-olap/0.18.2/",
+    "requires_dist": [
+      "fnv-c<1.0,>=0.2",
+      "httpx<1.0,>=0.18",
+      "immutables<1.0,>=0.16",
+      "lfudacache==0.0.2",
+      "lxml>=4.6",
+      "orjson<4.0,>=3.8",
+      "polars<2.0,>=1.0",
+      "pydantic<3.0,>=2.7",
+      "pyparsing<4.0,>=3.1",
+      "PyPika<0.49.0,>=0.48.0",
+      "python-dateutil<3.0,>=2.9.0.post0",
+      "strenum<1.0,>=0.4",
+      "typing-extensions>=4.5",
+      "xlsxwriter<4.0,>=3.2",
+      "xmlschema<4.0,>=3.3",
+      "clickhouse-cityhash>=1.0.2.4; extra == \"clickhouse\"",
+      "clickhouse-driver[lz4]>=0.2.0; extra == \"clickhouse\"",
+      "redis<6.0,>=5.0; extra == \"redis\""
+    ],
+    "requires_python": "<4.0,>=3.9",
+    "summary": "A semantic layer for your data.",
+    "version": "0.18.2",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27705613,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "tesseract_olap-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7.9,<4.0.0",
+        "size": 46216,
+        "upload_time": "2022-06-29T21:34:33",
+        "upload_time_iso_8601": "2022-06-29T21:34:33.316529Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract-olap-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7.9,<4.0.0",
+        "size": 36123,
+        "upload_time": "2022-06-29T21:34:30",
+        "upload_time_iso_8601": "2022-06-29T21:34:30.722676Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "tesseract_olap-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 46393,
+        "upload_time": "2022-07-05T23:31:53",
+        "upload_time_iso_8601": "2022-07-05T23:31:53.051916Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract-olap-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 36324,
+        "upload_time": "2022-07-05T23:31:51",
+        "upload_time_iso_8601": "2022-07-05T23:31:51.683004Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.2": [
+      {
+        "filename": "tesseract_olap-0.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 46588,
+        "upload_time": "2022-07-12T18:56:08",
+        "upload_time_iso_8601": "2022-07-12T18:56:08.873845Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract-olap-0.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 36561,
+        "upload_time": "2022-07-12T18:56:07",
+        "upload_time_iso_8601": "2022-07-12T18:56:07.194139Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.1": [
+      {
+        "filename": "tesseract_olap-0.10.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 69847,
+        "upload_time": "2024-08-29T20:54:58",
+        "upload_time_iso_8601": "2024-08-29T20:54:58.780347Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.10.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 56031,
+        "upload_time": "2024-08-29T20:55:01",
+        "upload_time_iso_8601": "2024-08-29T20:55:01.042598Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.2": [
+      {
+        "filename": "tesseract_olap-0.10.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 70618,
+        "upload_time": "2024-09-05T21:29:20",
+        "upload_time_iso_8601": "2024-09-05T21:29:20.551464Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.10.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 56655,
+        "upload_time": "2024-09-05T21:29:22",
+        "upload_time_iso_8601": "2024-09-05T21:29:22.045197Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.3": [
+      {
+        "filename": "tesseract_olap-0.10.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 70923,
+        "upload_time": "2024-09-10T02:44:50",
+        "upload_time_iso_8601": "2024-09-10T02:44:50.316942Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.10.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 57006,
+        "upload_time": "2024-09-10T02:44:52",
+        "upload_time_iso_8601": "2024-09-10T02:44:52.876696Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.10.4": [
+      {
+        "filename": "tesseract_olap-0.10.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 72993,
+        "upload_time": "2024-09-16T21:16:21",
+        "upload_time_iso_8601": "2024-09-16T21:16:21.877132Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.10.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 58837,
+        "upload_time": "2024-09-16T21:16:23",
+        "upload_time_iso_8601": "2024-09-16T21:16:23.826028Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.11.0": [
+      {
+        "filename": "tesseract_olap-0.11.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 72992,
+        "upload_time": "2024-09-16T21:25:39",
+        "upload_time_iso_8601": "2024-09-16T21:25:39.954422Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.11.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 58833,
+        "upload_time": "2024-09-16T21:25:41",
+        "upload_time_iso_8601": "2024-09-16T21:25:41.558919Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.12.0": [
+      {
+        "filename": "tesseract_olap-0.12.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 74209,
+        "upload_time": "2024-10-28T16:06:39",
+        "upload_time_iso_8601": "2024-10-28T16:06:39.451695Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.12.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 59992,
+        "upload_time": "2024-10-28T16:06:41",
+        "upload_time_iso_8601": "2024-10-28T16:06:41.041946Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.12.1": [
+      {
+        "filename": "tesseract_olap-0.12.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 77256,
+        "upload_time": "2024-11-11T19:19:54",
+        "upload_time_iso_8601": "2024-11-11T19:19:54.846287Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.12.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 62827,
+        "upload_time": "2024-11-11T19:19:57",
+        "upload_time_iso_8601": "2024-11-11T19:19:57.450626Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.0": [
+      {
+        "filename": "tesseract_olap-0.14.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 82840,
+        "upload_time": "2024-11-27T21:16:01",
+        "upload_time_iso_8601": "2024-11-27T21:16:01.626608Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.14.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 67726,
+        "upload_time": "2024-11-27T21:16:04",
+        "upload_time_iso_8601": "2024-11-27T21:16:04.079816Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.1": [
+      {
+        "filename": "tesseract_olap-0.14.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 83671,
+        "upload_time": "2024-12-02T23:16:23",
+        "upload_time_iso_8601": "2024-12-02T23:16:23.117930Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.14.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 67741,
+        "upload_time": "2024-12-02T23:16:24",
+        "upload_time_iso_8601": "2024-12-02T23:16:24.489281Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.2": [
+      {
+        "filename": "tesseract_olap-0.14.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 84080,
+        "upload_time": "2024-12-10T02:32:59",
+        "upload_time_iso_8601": "2024-12-10T02:32:59.016605Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.14.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 68123,
+        "upload_time": "2024-12-10T02:33:01",
+        "upload_time_iso_8601": "2024-12-10T02:33:01.438168Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.3": [
+      {
+        "filename": "tesseract_olap-0.14.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 85499,
+        "upload_time": "2024-12-12T14:36:24",
+        "upload_time_iso_8601": "2024-12-12T14:36:24.308946Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.14.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 69232,
+        "upload_time": "2024-12-12T14:36:25",
+        "upload_time_iso_8601": "2024-12-12T14:36:25.712323Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.4": [
+      {
+        "filename": "tesseract_olap-0.14.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 85361,
+        "upload_time": "2024-12-13T15:53:26",
+        "upload_time_iso_8601": "2024-12-13T15:53:26.449064Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.14.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 69104,
+        "upload_time": "2024-12-13T15:53:27",
+        "upload_time_iso_8601": "2024-12-13T15:53:27.795369Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.14.6": [
+      {
+        "filename": "tesseract_olap-0.14.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 85348,
+        "upload_time": "2024-12-13T18:31:18",
+        "upload_time_iso_8601": "2024-12-13T18:31:18.408769Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.14.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 69086,
+        "upload_time": "2024-12-13T18:31:20",
+        "upload_time_iso_8601": "2024-12-13T18:31:20.989672Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.0": [
+      {
+        "filename": "tesseract_olap-0.15.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 91732,
+        "upload_time": "2024-12-24T15:46:39",
+        "upload_time_iso_8601": "2024-12-24T15:46:39.422377Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.15.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 73980,
+        "upload_time": "2024-12-24T15:46:40",
+        "upload_time_iso_8601": "2024-12-24T15:46:40.875671Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.1": [
+      {
+        "filename": "tesseract_olap-0.15.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 85089,
+        "upload_time": "2024-12-26T21:40:50",
+        "upload_time_iso_8601": "2024-12-26T21:40:50.636703Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.15.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 69753,
+        "upload_time": "2024-12-26T21:40:52",
+        "upload_time_iso_8601": "2024-12-26T21:40:52.804229Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.15.2": [
+      {
+        "filename": "tesseract_olap-0.15.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 85068,
+        "upload_time": "2024-12-27T19:33:27",
+        "upload_time_iso_8601": "2024-12-27T19:33:27.303308Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.15.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 69742,
+        "upload_time": "2024-12-27T19:33:30",
+        "upload_time_iso_8601": "2024-12-27T19:33:30.013468Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.0": [
+      {
+        "filename": "tesseract_olap-0.16.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 97414,
+        "upload_time": "2025-01-24T19:44:13",
+        "upload_time_iso_8601": "2025-01-24T19:44:13.686712Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.16.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 76992,
+        "upload_time": "2025-01-24T19:44:15",
+        "upload_time_iso_8601": "2025-01-24T19:44:15.785481Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.1": [
+      {
+        "filename": "tesseract_olap-0.16.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 98086,
+        "upload_time": "2025-01-28T19:30:56",
+        "upload_time_iso_8601": "2025-01-28T19:30:56.043470Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.16.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 77557,
+        "upload_time": "2025-01-28T19:31:06",
+        "upload_time_iso_8601": "2025-01-28T19:31:06.043677Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.16.2": [
+      {
+        "filename": "tesseract_olap-0.16.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 97433,
+        "upload_time": "2025-02-06T20:24:48",
+        "upload_time_iso_8601": "2025-02-06T20:24:48.547887Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.16.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 77284,
+        "upload_time": "2025-02-06T20:24:50",
+        "upload_time_iso_8601": "2025-02-06T20:24:50.494587Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.17.0": [
+      {
+        "filename": "tesseract_olap-0.17.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 94181,
+        "upload_time": "2025-02-14T21:12:19",
+        "upload_time_iso_8601": "2025-02-14T21:12:19.477029Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.17.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 74288,
+        "upload_time": "2025-02-14T21:12:20",
+        "upload_time_iso_8601": "2025-02-14T21:12:20.825380Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.0": [
+      {
+        "filename": "tesseract_olap-0.18.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 96612,
+        "upload_time": "2025-02-27T19:26:54",
+        "upload_time_iso_8601": "2025-02-27T19:26:54.888024Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.18.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 76089,
+        "upload_time": "2025-02-27T19:26:57",
+        "upload_time_iso_8601": "2025-02-27T19:26:57.841768Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.1": [
+      {
+        "filename": "tesseract_olap-0.18.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 96697,
+        "upload_time": "2025-02-28T20:40:12",
+        "upload_time_iso_8601": "2025-02-28T20:40:12.984247Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.18.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 76156,
+        "upload_time": "2025-02-28T20:40:14",
+        "upload_time_iso_8601": "2025-02-28T20:40:14.763229Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.18.2": [
+      {
+        "filename": "tesseract_olap-0.18.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.9",
+        "size": 96782,
+        "upload_time": "2025-02-28T22:26:02",
+        "upload_time_iso_8601": "2025-02-28T22:26:02.717816Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.18.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.9",
+        "size": 76248,
+        "upload_time": "2025-02-28T22:26:04",
+        "upload_time_iso_8601": "2025-02-28T22:26:04.448852Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "tesseract_olap-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 47896,
+        "upload_time": "2022-08-09T17:19:31",
+        "upload_time_iso_8601": "2022-08-09T17:19:31.845239Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract-olap-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 37702,
+        "upload_time": "2022-08-09T17:19:30",
+        "upload_time_iso_8601": "2022-08-09T17:19:30.508509Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.1": [
+      {
+        "filename": "tesseract_olap-0.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 48677,
+        "upload_time": "2022-08-16T15:30:37",
+        "upload_time_iso_8601": "2022-08-16T15:30:37.937115Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract-olap-0.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 38136,
+        "upload_time": "2022-08-16T15:30:36",
+        "upload_time_iso_8601": "2022-08-16T15:30:36.433588Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "tesseract_olap-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 49787,
+        "upload_time": "2022-09-09T21:32:49",
+        "upload_time_iso_8601": "2022-09-09T21:32:49.555660Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract-olap-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 39127,
+        "upload_time": "2022-09-09T21:32:47",
+        "upload_time_iso_8601": "2022-09-09T21:32:47.937622Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "tesseract_olap-0.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 50765,
+        "upload_time": "2022-09-13T04:50:58",
+        "upload_time_iso_8601": "2022-09-13T04:50:58.159492Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract-olap-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 39725,
+        "upload_time": "2022-09-13T04:50:56",
+        "upload_time_iso_8601": "2022-09-13T04:50:56.379008Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.0": [
+      {
+        "filename": "tesseract_olap-0.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 50139,
+        "upload_time": "2022-10-05T04:40:16",
+        "upload_time_iso_8601": "2022-10-05T04:40:16.456398Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract-olap-0.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 38304,
+        "upload_time": "2022-10-05T04:40:14",
+        "upload_time_iso_8601": "2022-10-05T04:40:14.974488Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.1": [
+      {
+        "filename": "tesseract_olap-0.5.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 50730,
+        "upload_time": "2022-10-19T01:14:43",
+        "upload_time_iso_8601": "2022-10-19T01:14:43.566048Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.5.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 39018,
+        "upload_time": "2022-10-19T01:14:45",
+        "upload_time_iso_8601": "2022-10-19T01:14:45.026989Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.0": [
+      {
+        "filename": "tesseract_olap-0.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 55179,
+        "upload_time": "2023-03-24T01:33:12",
+        "upload_time_iso_8601": "2023-03-24T01:33:12.572690Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 42982,
+        "upload_time": "2023-03-24T01:33:15",
+        "upload_time_iso_8601": "2023-03-24T01:33:15.120442Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.0": [
+      {
+        "filename": "tesseract_olap-0.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 56552,
+        "upload_time": "2023-05-19T01:51:29",
+        "upload_time_iso_8601": "2023-05-19T01:51:29.487946Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 42996,
+        "upload_time": "2023-05-19T01:51:32",
+        "upload_time_iso_8601": "2023-05-19T01:51:32.095178Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.1": [
+      {
+        "filename": "tesseract_olap-0.7.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 56859,
+        "upload_time": "2023-05-29T21:46:38",
+        "upload_time_iso_8601": "2023-05-29T21:46:38.218451Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.7.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 43283,
+        "upload_time": "2023-05-29T21:46:39",
+        "upload_time_iso_8601": "2023-05-29T21:46:39.913223Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.2": [
+      {
+        "filename": "tesseract_olap-0.7.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 56865,
+        "upload_time": "2023-06-02T01:09:37",
+        "upload_time_iso_8601": "2023-06-02T01:09:37.584212Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.7.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 43307,
+        "upload_time": "2023-06-02T01:09:39",
+        "upload_time_iso_8601": "2023-06-02T01:09:39.362626Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.7.3": [
+      {
+        "filename": "tesseract_olap-0.7.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7,<4.0",
+        "size": 58162,
+        "upload_time": "2023-08-29T23:38:06",
+        "upload_time_iso_8601": "2023-08-29T23:38:06.171244Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.7.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7,<4.0",
+        "size": 46015,
+        "upload_time": "2023-08-29T23:38:07",
+        "upload_time_iso_8601": "2023-08-29T23:38:07.906502Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.0": [
+      {
+        "filename": "tesseract_olap-0.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8,<4.0",
+        "size": 58158,
+        "upload_time": "2023-08-29T23:50:03",
+        "upload_time_iso_8601": "2023-08-29T23:50:03.992602Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8,<4.0",
+        "size": 46003,
+        "upload_time": "2023-08-29T23:50:05",
+        "upload_time_iso_8601": "2023-08-29T23:50:05.923461Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.1": [
+      {
+        "filename": "tesseract_olap-0.8.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8,<4.0",
+        "size": 58278,
+        "upload_time": "2023-10-10T21:51:36",
+        "upload_time_iso_8601": "2023-10-10T21:51:36.883173Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.8.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8,<4.0",
+        "size": 44740,
+        "upload_time": "2023-10-10T21:51:38",
+        "upload_time_iso_8601": "2023-10-10T21:51:38.588471Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.2": [
+      {
+        "filename": "tesseract_olap-0.8.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8,<4.0",
+        "size": 58378,
+        "upload_time": "2023-11-18T03:32:50",
+        "upload_time_iso_8601": "2023-11-18T03:32:50.220167Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.8.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8,<4.0",
+        "size": 44896,
+        "upload_time": "2023-11-18T03:32:51",
+        "upload_time_iso_8601": "2023-11-18T03:32:51.783292Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.8.3": [
+      {
+        "filename": "tesseract_olap-0.8.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8,<4.0",
+        "size": 58978,
+        "upload_time": "2024-02-14T19:29:52",
+        "upload_time_iso_8601": "2024-02-14T19:29:52.597049Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.8.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8,<4.0",
+        "size": 46466,
+        "upload_time": "2024-02-14T19:29:55",
+        "upload_time_iso_8601": "2024-02-14T19:29:55.152091Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.0": [
+      {
+        "filename": "tesseract_olap-0.9.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 64869,
+        "upload_time": "2024-03-21T21:18:39",
+        "upload_time_iso_8601": "2024-03-21T21:18:39.594214Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 52208,
+        "upload_time": "2024-03-21T21:18:41",
+        "upload_time_iso_8601": "2024-03-21T21:18:41.535461Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.1": [
+      {
+        "filename": "tesseract_olap-0.9.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 64859,
+        "upload_time": "2024-03-22T18:36:36",
+        "upload_time_iso_8601": "2024-03-22T18:36:36.795477Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.9.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 51173,
+        "upload_time": "2024-03-22T18:36:38",
+        "upload_time_iso_8601": "2024-03-22T18:36:38.917009Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.2": [
+      {
+        "filename": "tesseract_olap-0.9.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 66606,
+        "upload_time": "2024-04-03T16:41:22",
+        "upload_time_iso_8601": "2024-04-03T16:41:22.541786Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.9.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 52475,
+        "upload_time": "2024-04-03T16:41:24",
+        "upload_time_iso_8601": "2024-04-03T16:41:24.436190Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.3": [
+      {
+        "filename": "tesseract_olap-0.9.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 67379,
+        "upload_time": "2024-04-16T19:21:56",
+        "upload_time_iso_8601": "2024-04-16T19:21:56.326615Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.9.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 54337,
+        "upload_time": "2024-04-16T19:21:58",
+        "upload_time_iso_8601": "2024-04-16T19:21:58.207693Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.4": [
+      {
+        "filename": "tesseract_olap-0.9.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 67323,
+        "upload_time": "2024-04-19T21:02:09",
+        "upload_time_iso_8601": "2024-04-19T21:02:09.245671Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.9.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 53112,
+        "upload_time": "2024-04-19T21:02:10",
+        "upload_time_iso_8601": "2024-04-19T21:02:10.495536Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.5": [
+      {
+        "filename": "tesseract_olap-0.9.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 67179,
+        "upload_time": "2024-05-04T02:06:29",
+        "upload_time_iso_8601": "2024-05-04T02:06:29.959384Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.9.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 53031,
+        "upload_time": "2024-05-04T02:06:31",
+        "upload_time_iso_8601": "2024-05-04T02:06:31.812566Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.6": [
+      {
+        "filename": "tesseract_olap-0.9.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 67584,
+        "upload_time": "2024-05-28T17:03:46",
+        "upload_time_iso_8601": "2024-05-28T17:03:46.157334Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.9.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 53398,
+        "upload_time": "2024-05-28T17:03:48",
+        "upload_time_iso_8601": "2024-05-28T17:03:48.329109Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.7": [
+      {
+        "filename": "tesseract_olap-0.9.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 67595,
+        "upload_time": "2024-06-06T16:36:21",
+        "upload_time_iso_8601": "2024-06-06T16:36:21.223004Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.9.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 53450,
+        "upload_time": "2024-06-06T16:36:24",
+        "upload_time_iso_8601": "2024-06-06T16:36:24.130692Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.8": [
+      {
+        "filename": "tesseract_olap-0.9.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 67602,
+        "upload_time": "2024-06-06T20:30:01",
+        "upload_time_iso_8601": "2024-06-06T20:30:01.766711Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.9.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 53461,
+        "upload_time": "2024-06-06T20:30:10",
+        "upload_time_iso_8601": "2024-06-06T20:30:10.938223Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.9.9": [
+      {
+        "filename": "tesseract_olap-0.9.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.8",
+        "size": 68562,
+        "upload_time": "2024-07-15T20:33:45",
+        "upload_time_iso_8601": "2024-07-15T20:33:45.682925Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tesseract_olap-0.9.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.8",
+        "size": 53862,
+        "upload_time": "2024-07-15T20:33:50",
+        "upload_time_iso_8601": "2024-07-15T20:33:50.813134Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

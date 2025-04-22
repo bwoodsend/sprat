@@ -1,0 +1,80 @@
+{
+  "info": {
+    "author": "Leland McInnes",
+    "author_email": "leland.mcinnes@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "License :: OSI Approved :: BSD License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "description": ".. image:: doc/evoc_logo.png\n  :width: 600\n  :align: center\n  :alt: EVōC Logo\n\n====\nEVōC\n====\n\nEVōC (pronounced as \"evoke\") is Embedding Vector Oriented Clustering.\nEVōC is a library for fast and flexible clustering of large datasets of high dimensional embedding vectors. \nIf you have CLIP-vectors, outputs from sentence-transformers, or openAI, or Cohere embed, and you want\nto quickly get good clusters out this is the library for you. EVōC takes all the good parts of the \ncombination of UMAP + HDBSCAN for embedding clustering, improves upon them, and removes all \nthe time-consuming parts. By specializing directly to embedding vectors we can get good\nquality clustering with fewer hyper-parameters to tune and in a fraction of the time.\n\nEVōC is the library to use if you want:\n\n * Fast clustering of embedding vectors on CPU\n * Multi-granularity clustering, and automatic selection of the number of clusters\n * Clustering of int8 or binary quantized embedding vectors that works out-of-the-box\n\n As of now this is very much an early beta version of the library. Things can and will break right now.\n We would welcome feedback, use cases and feature suggestions however.\n\n-----------\nBasic Usage\n-----------\n\nEVōC follows the scikit-learn API, so it should be familiar to most users. You can use EVōC wherever\nyou might have previously been using other sklearn clustering algorithms. Here is a simple example\n\n.. code-block:: python\n\n    import evoc\n    from sklearn.datasets import make_blobs\n\n    data, _ = make_blobs(n_samples=100_000, n_features=1024, centers=100)\n\n    clusterer = evoc.EVoC()\n    cluster_labels = clusterer.fit_predict(data)\n\nSome more unique features include the generation of multiple layers of cluster granularity,\nthe ability to extract a hierarchy of clusters across those layers, and automatic duplicate \n(or very near duplicate) detection.\n\n.. code-block:: python\n\n    import evoc\n    from sklearn.datasets import make_blobs\n\n    data, _ = make_blobs(n_samples=100_000, n_features=1024, centers=100)\n\n    clusterer = evoc.EVoC()\n    cluster_labels = clusterer.fit_predict(data)\n    cluster_layers = clusterer.cluster_layers_\n    hierarchy = clusterer.cluster_tree_\n    potential_duplicates = clusterer.duplicates_\n\nThe cluster layers are a list of cluster label vectors with the first being the finest grained\nand later layers being coarser grained. This is ideal for layered topic modelling and use with\n`DataMapPlot <https://github.com/TutteInstitute/datamapplot>`_. See \n`this data map <https://lmcinnes.github.io/datamapplot_examples/ArXiv_data_map_example.html>`_\nfor an example of using these layered clusters in topic modelling (zoom in to access finer \ngrained topics).\n\n------------\nInstallation\n------------\n\nEVōC has a small set of dependencies:\n\n * numpy\n * scikit-learn\n * numba\n * tqdm\n * tbb\n\nAt some point in the near future ... you can install EVōC from PyPI using pip:\n\n.. code-block:: bash\n\n    pip install evoc\n\nFor now install the latest version of EVōC from source you can do so by cloning the repository and running:\n\n.. code-block:: bash\n\n    git clone https://github.com/TutteInstitute/evoc\n    cd evoc\n    pip install .\n\n-------\nLicense\n-------\n\nEVōC is BSD (2-clause) licensed. See the LICENSE file for details.\n\n------------\nContributing\n------------\n\nContributions are more than welcome! If you have ideas for features of projects please get in touch. Everything from\ncode to notebooks to examples and documentation are all *equally valuable* so please don't feel you can't contribute.\nTo contribute please `fork the project <https://github.com/TutteInstitute/evoc/issues#fork-destination-box>`_ make your\nchanges and submit a pull request. We will do our best to work through any issues with you and get your code merged in.\n",
+    "description_content_type": null,
+    "docs_url": null,
+    "download_url": null,
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": "https://github.com/TutteInstitute/evoc",
+    "keywords": "embedding vector, vector database, topic modelling, cluster, clustering",
+    "license": "BSD License",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "Leland McInnes",
+    "maintainer_email": "leland.mcinnes@gmail.com",
+    "name": "evoc",
+    "package_url": "https://pypi.org/project/evoc/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/evoc/",
+    "project_urls": {
+      "Homepage": "https://github.com/TutteInstitute/evoc"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/evoc/0.1.1/",
+    "requires_dist": [
+      "numpy>=1.21",
+      "scikit-learn>=1.1",
+      "numba>=0.59",
+      "tqdm"
+    ],
+    "requires_python": ">=3.9",
+    "summary": "Embedding Vector Oriented Clustering",
+    "version": "0.1.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 26431830,
+  "releases": {
+    "0.1.1": [
+      {
+        "filename": "evoc-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 38924,
+        "upload_time": "2024-12-09T20:07:30",
+        "upload_time_iso_8601": "2024-12-09T20:07:30.678438Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "evoc-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 32671,
+        "upload_time": "2024-12-09T20:07:32",
+        "upload_time_iso_8601": "2024-12-09T20:07:32.064040Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

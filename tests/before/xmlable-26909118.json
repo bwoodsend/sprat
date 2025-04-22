@@ -1,0 +1,339 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Oliver Killane <oliverkillane.business@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "lxml, xml, xmlschema, xsd",
+    "license_expression": null,
+    "license_files": [
+      "LICENSE"
+    ],
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "xmlable",
+    "package_url": "https://pypi.org/project/xmlable/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/xmlable/",
+    "project_urls": {
+      "Bug Tracker": "https://github.com/OliverKillane/xmlable/issues",
+      "Homepage": "https://github.com/OliverKillane/xmlable",
+      "Source": "https://github.com/OliverKillane/xmlable"
+    },
+    "provides_extra": [
+      "dev"
+    ],
+    "release_url": "https://pypi.org/project/xmlable/2.0.4/",
+    "requires_dist": [
+      "lxml-stubs==0.5.1",
+      "lxml==5.3.0",
+      "pyhumps==3.8.0",
+      "termcolor==2.5.0",
+      "black==24.10.0; extra == \"dev\"",
+      "mypy==1.14.1; extra == \"dev\"",
+      "pytest==8.3.4; extra == \"dev\""
+    ],
+    "requires_python": ">=3.11",
+    "summary": "A decorator for generating xsd, xml and parsers from dataclasses",
+    "version": "2.0.4",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 26909118,
+  "releases": {
+    "1.0.0": [
+      {
+        "filename": "xmlable-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 16321,
+        "upload_time": "2023-05-14T19:52:52",
+        "upload_time_iso_8601": "2023-05-14T19:52:52.279305Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xmlable-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 17555,
+        "upload_time": "2023-05-14T19:52:54",
+        "upload_time_iso_8601": "2023-05-14T19:52:54.660355Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.1": [
+      {
+        "filename": "xmlable-1.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 16048,
+        "upload_time": "2023-05-14T20:42:21",
+        "upload_time_iso_8601": "2023-05-14T20:42:21.403684Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xmlable-1.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 17286,
+        "upload_time": "2023-05-14T20:42:20",
+        "upload_time_iso_8601": "2023-05-14T20:42:20.094967Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "xmlable-1.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 16173,
+        "upload_time": "2023-05-18T20:24:11",
+        "upload_time_iso_8601": "2023-05-18T20:24:11.766529Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xmlable-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 17416,
+        "upload_time": "2023-05-18T20:24:13",
+        "upload_time_iso_8601": "2023-05-18T20:24:13.326729Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "xmlable-1.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 17230,
+        "upload_time": "2023-08-05T20:07:35",
+        "upload_time_iso_8601": "2023-08-05T20:07:35.839396Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xmlable-1.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 20126,
+        "upload_time": "2023-08-05T20:07:34",
+        "upload_time_iso_8601": "2023-08-05T20:07:34.243123Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.1": [
+      {
+        "filename": "xmlable-1.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 17266,
+        "upload_time": "2023-08-16T09:55:16",
+        "upload_time_iso_8601": "2023-08-16T09:55:16.872933Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xmlable-1.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 20137,
+        "upload_time": "2023-08-16T09:55:18",
+        "upload_time_iso_8601": "2023-08-16T09:55:18.349455Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.2": [
+      {
+        "filename": "xmlable-1.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 17272,
+        "upload_time": "2023-08-20T14:32:33",
+        "upload_time_iso_8601": "2023-08-20T14:32:33.372861Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xmlable-1.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 20372,
+        "upload_time": "2023-08-20T14:32:32",
+        "upload_time_iso_8601": "2023-08-20T14:32:32.477511Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.0": [
+      {
+        "filename": "xmlable-2.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 17668,
+        "upload_time": "2023-08-27T14:44:35",
+        "upload_time_iso_8601": "2023-08-27T14:44:35.671775Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xmlable-2.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 20972,
+        "upload_time": "2023-08-27T14:44:34",
+        "upload_time_iso_8601": "2023-08-27T14:44:34.740296Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.1": [
+      {
+        "filename": "xmlable-2.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 17675,
+        "upload_time": "2023-12-08T17:05:57",
+        "upload_time_iso_8601": "2023-12-08T17:05:57.350168Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xmlable-2.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 20979,
+        "upload_time": "2023-12-08T17:05:59",
+        "upload_time_iso_8601": "2023-12-08T17:05:59.033880Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.2": [
+      {
+        "filename": "xmlable-2.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 17679,
+        "upload_time": "2024-04-17T21:04:28",
+        "upload_time_iso_8601": "2024-04-17T21:04:28.798802Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xmlable-2.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 20977,
+        "upload_time": "2024-04-17T21:04:22",
+        "upload_time_iso_8601": "2024-04-17T21:04:22.327951Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.3": [
+      {
+        "filename": "xmlable-2.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 17696,
+        "upload_time": "2025-01-12T15:02:20",
+        "upload_time_iso_8601": "2025-01-12T15:02:20.284963Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xmlable-2.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 21213,
+        "upload_time": "2025-01-12T15:02:18",
+        "upload_time_iso_8601": "2025-01-12T15:02:18.161946Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.4": [
+      {
+        "filename": "xmlable-2.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 17963,
+        "upload_time": "2025-01-12T16:10:49",
+        "upload_time_iso_8601": "2025-01-12T16:10:49.695398Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xmlable-2.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 21450,
+        "upload_time": "2025-01-12T16:10:52",
+        "upload_time_iso_8601": "2025-01-12T16:10:52.391972Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

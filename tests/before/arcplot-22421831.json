@@ -1,0 +1,216 @@
+{
+  "info": {
+    "author": "Csaba Szallós Kis",
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12"
+    ],
+    "description": "# arcplot\n\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/szkics/arcplot/blob/main/LICENSE)\n[![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/release)\n[![Downloads](https://static.pepy.tech/badge/Arcplot)](https://pepy.tech/project/Arcplot)\n[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/szkics/arcplot)\n\n[arcplot](https://pypi.org/project/arcplot/) is a library based on matplotlib for seamless creation of custom arc diagrams.\n\narcplot is also presented in [Python Graph Gallery](https://python-graph-gallery.com/)'s [Arc diagram](https://python-graph-gallery.com/arc-diagram/) section. huge thanks for this to [Yan Holtz](https://github.com/holtzy) and [Joseph Barbier](https://github.com/JosephBARBIERDARNAL)!\n\n## usage\n\n### custom colors\n\n![alt text](https://raw.githubusercontent.com/szkics/arcplot/main/img/italian-railway-connections.png)\n\n```py\nfrom arcplot import ArcDiagram\n\nnodes = [\n    \"Rome\",\n    \"Naples\",\n    \"Florence\",\n    \"Bari\",\n    \"Taranto\",\n    \"Verona\",\n    \"Venice\",\n    \"Bologna\",\n    \"Bolzano\",\n    \"Milan\",\n    \"Turin\",\n    \"Genoa\",\n]\ntitle = \"Railway connections between Italian cities\"\narc_diagram = ArcDiagram(nodes, title)\ncustom_colors = [\n    \"#386641\",\n    \"#f2e8cf\",\n    \"#8b3422\",\n    \"#6f7714\",\n    \"#ff9b54\",\n    \"#e2d9c5\",\n    \"#9a8237\",\n    \"#dbab85\",\n    \"#d64620\",\n    \"#f6bd60\",\n    \"#283618\",\n    \"#a98467\",\n]\narc_diagram.set_custom_colors(custom_colors)\narc_diagram.set_background_color(\"#262522\")\narc_diagram.set_label_rotation_degree(45)\narc_diagram.connect(\n    \"Milan\", \"Genoa\", linewidth=119\n)  # passing the distance in km between the two cities as arc linewidth\narc_diagram.connect(\"Milan\", \"Verona\", linewidth=140)\narc_diagram.connect(\"Milan\", \"Turin\", linewidth=126)\narc_diagram.connect(\"Milan\", \"Bologna\", linewidth=201)\narc_diagram.connect(\"Rome\", \"Genoa\", linewidth=403)\narc_diagram.connect(\"Rome\", \"Florence\", linewidth=232)\narc_diagram.connect(\"Rome\", \"Naples\", linewidth=189)\narc_diagram.connect(\"Rome\", \"Bari\", linewidth=375)\narc_diagram.connect(\"Florence\", \"Genoa\", linewidth=200)\narc_diagram.connect(\"Florence\", \"Bologna\", linewidth=80)\narc_diagram.connect(\"Naples\", \"Taranto\", linewidth=252)\narc_diagram.connect(\"Naples\", \"Bari\", linewidth=219)\narc_diagram.connect(\"Venice\", \"Verona\", linewidth=120)\narc_diagram.connect(\"Venice\", \"Bologna\", linewidth=131)\narc_diagram.connect(\"Bolzano\", \"Verona\", linewidth=122)\narc_diagram.connect(\"Bari\", \"Taranto\", linewidth=78)\narc_diagram.connect(\"Genoa\", \"Turin\", linewidth=122)\narc_diagram.show_plot()\n```\n\n### custom line widths\n\n![alt text](https://raw.githubusercontent.com/szkics/arcplot/main/img/painters.png)\n\n```py\ntitle = \"Friendships Between Post-, Neo- and Impressionist Painters\"\nnodes = [\n    \"Vincent van Gogh\",\n    \"Paul Gauguin\",\n    \"Eugène Boch\",\n    \"Émile Bernard\",\n    \"Louis Anquetin\",\n    \"Henri de Toulouse-Lautrec\",\n    \"Paul Cézanne\",\n    \"Paul Signac\",\n    \"Georges Seurat\",\n    \"Camille Pissarro\",\n    \"Edgar Degas\",\n    \"Édouard Manet\",\n    \"Claude Monet\",\n    \"Pierre-Auguste Renoir\",\n]\n\nconnections = [\n    (\"Vincent van Gogh\", \"Paul Gauguin\"),\n    (\"Vincent van Gogh\", \"Émile Bernard\"),\n    (\"Vincent van Gogh\", \"Eugène Boch\"),\n    (\"Vincent van Gogh\", \"Paul Signac\"),\n    (\"Vincent van Gogh\", \"Henri de Toulouse-Lautrec\"),\n    (\"Vincent van Gogh\", \"Louis Anquetin\"),\n    (\"Vincent van Gogh\", \"Paul Cézanne\"),\n    (\"Paul Gauguin\", \"Émile Bernard\"),\n    (\"Paul Gauguin\", \"Eugène Boch\"),\n    (\"Émile Bernard\", \"Eugène Boch\"),\n    (\"Émile Bernard\", \"Henri de Toulouse-Lautrec\"),\n    (\"Émile Bernard\", \"Louis Anquetin\"),\n    (\"Émile Bernard\", \"Paul Cézanne\"),\n    (\"Henri de Toulouse-Lautrec\", \"Louis Anquetin\"),\n    (\"Henri de Toulouse-Lautrec\", \"Paul Signac\"),\n    (\"Paul Signac\", \"Georges Seurat\"),\n    (\"Paul Signac\", \"Camille Pissarro\"),\n    (\"Camille Pissarro\", \"Paul Cézanne\"),\n    (\"Camille Pissarro\", \"Paul Gauguin\"),\n    (\"Camille Pissarro\", \"Vincent van Gogh\"),\n    (\"Camille Pissarro\", \"Georges Seurat\"),\n    (\"Camille Pissarro\", \"Paul Signac\"),\n    (\"Camille Pissarro\", \"Édouard Manet\"),\n    (\"Camille Pissarro\", \"Claude Monet\"),\n    (\"Camille Pissarro\", \"Pierre-Auguste Renoir\"),\n    (\"Camille Pissarro\", \"Edgar Degas\"),\n    (\"Claude Monet\", \"Paul Signac\"),\n    (\"Claude Monet\", \"Pierre-Auguste Renoir\"),\n    (\"Claude Monet\", \"Édouard Manet\"),\n    (\"Édouard Manet\", \"Pierre-Auguste Renoir\"),\n    (\"Édouard Manet\", \"Edgar Degas\"),\n]\narc_diagram_painters = ArcDiagram(nodes, title)\n\narc_diagram_painters.set_label_rotation_degree(80)\narc_diagram_painters.set_legend_labels(\n    [\"Post-Impressionist\", \"Neo-Impressionist\", \"Impressionist\"]\n)\n\nfor connection in connections:\n    arc_diagram_painters.connect(connection[0], connection[1])\n\narc_diagram_painters.set_background_color(\"black\")\narc_diagram_painters.set_color_map(\"summer\")\narc_diagram_painters.save_plot_as(\"painters.png\")\n```\n\n### custom arc positions\n\n![alt text](https://raw.githubusercontent.com/szkics/arcplot/main/img/back_to_the_future.png)\n\n\n```py\nnodes = [\n    \"1885\",\n    \"1955\",\n    \"1985\",\n    \"1985A\",\n    \"2015\",\n]\n\ntitle = \"Back To The Future Time Travels \\n Top: Back To The Future \\n Bottom: Back To The Past\"\narc_diagram = ArcDiagram(nodes, title)\narc_diagram.set_background_color(\"#222124\")\narc_diagram.set_color_map(\"autumn\")\narc_diagram.connect(\"1885\", \"1985\")\narc_diagram.connect(\"1955\", \"1985\")\narc_diagram.connect(\"1985\", \"2015\")\narc_diagram.connect(\"2015\", \"1985A\", arc_position=\"below\")\narc_diagram.connect(\"2015\", \"1955\", arc_position=\"below\")\narc_diagram.connect(\"1985\", \"1955\", arc_position=\"below\")\narc_diagram.connect(\"1985A\", \"1955\", arc_position=\"below\")\narc_diagram.connect(\"1955\", \"1885\", arc_position=\"below\")\narc_diagram.save_plot_as(\"back_to_the_future.png\")\n```\n\n### wrapper around ArcDiagram which uses pandas DataFrame\n\n![alt text](https://raw.githubusercontent.com/szkics/arcplot/main/img/connections.png)\n\n```py\nfrom arcplot import show_arc_plot, save_arc_plot_as\nimport pandas as pd\n\ndf = pd.read_csv(\"./data/connections-dataset.csv\")\nshow_arc_plot(\n    df, start_node=\"from\", end_node=\"to\", weights=\"weights\", positions=\"position\"\n)\nsave_arc_plot_as(\n    df,\n    start_node=\"from\",\n    end_node=\"to\",\n    weights=\"weights\",\n    positions=\"position\",\n    title=\"Connections\",\n    file_name=\"./img/connections.png\",\n)\n```\n\n## function list\n\n```py\n### ArcDiagram class methods\nArcDiagram(nodes, title) # for initializing an ArcDiagram the entities to connect and the title is required.\n.set_background_color(string) # for setting background color of the matplotlib figure.\n.set_color_map(string) # for setting color map, choose from: https://matplotlib.org/stable/users/explain/colors/colormaps.html\n.set_custom_colors(color_list) # for setting colors of nodes from a custom color list, \n# the length of the color list must be the same as the length of the node list.\n.set_label_rotation_degree(45) # rotates the labels in 45 degree, default is 0.\n.set_legend_labels(list_of_labels) # adds a legend to the plot with configurable labels.\n.connect(start, end, linewidth=100, arc_position=\"below\") # for creating an arc between two entities\n# optional parameter linewidth sets linewidth proportionally to other arc linewidths.\n# arc_position=\"below\" draws arc below the x axis, default is \"above\". \n.show_plot() # for checking the results of the data visualization process.\n.save_plot_as(file_name, resolution=\"100\") # for saving file as an image with an optional resolution setting for higher-quality images.\n.help() # to get function list.\n\n### wrapper functions built on ArcDiagram\n\ncreate_arc_plot(\n    df: pd.DataFrame,\n    start_node: str,\n    end_node: str,\n    weights=None,\n    positions=None,\n    invert_positions: bool = False,\n    bg_color=\"white\",\n    cmap=\"viridis\",\n    title=\"My Diagram\",\n) # returns ArcDiagram\n\nshow_arc_plot(\n    df: pd.DataFrame,\n    start_node: str,\n    end_node: str,\n    weights=None,\n    positions=None,\n    invert_positions: bool = False,\n    bg_color=\"white\",\n    cmap=\"viridis\",\n    title=\"My Diagram\",\n) # for checking the results of the data visualization process.\n\nsave_arc_plot_as(\n    df: pd.DataFrame,\n    start_node: str,\n    end_node: str,\n    file_name: str,\n    weights=None,\n    positions=None,\n    invert_positions: bool = False,\n    bg_color=\"white\",\n    cmap=\"viridis\",\n    title=\"My Diagram\",\n    resolution=\"figure\"\n) # for saving file as an image with an optional resolution setting for higher-quality images.\n```\n\n## installation\n\n```bash\npip install arcplot==0.1.5\n```",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": null,
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license": "MIT",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "arcplot",
+    "package_url": "https://pypi.org/project/arcplot/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/arcplot/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/arcplot/0.1.5/",
+    "requires_dist": [
+      "contourpy==1.2.0",
+      "cycler==0.12.1",
+      "fonttools==4.48.1",
+      "kiwisolver==1.4.5",
+      "matplotlib==3.8.2",
+      "numpy==1.26.4",
+      "packaging==23.2",
+      "pillow==10.2.0",
+      "pyparsing==3.1.1",
+      "python-dateutil==2.8.2",
+      "six==1.16.0",
+      "pandas==2.2.1"
+    ],
+    "requires_python": "<4.0,>=3.10",
+    "summary": "arcplot is a library based on matplotlib for seamless creation of custom arc diagrams.",
+    "version": "0.1.5",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 22421831,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "arcplot-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 3846,
+        "upload_time": "2024-02-14T07:09:33",
+        "upload_time_iso_8601": "2024-02-14T07:09:33.796096Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "arcplot-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 3269,
+        "upload_time": "2024-02-14T07:09:35",
+        "upload_time_iso_8601": "2024-02-14T07:09:35.723459Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.1": [
+      {
+        "filename": "arcplot-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 3832,
+        "upload_time": "2024-02-14T08:24:30",
+        "upload_time_iso_8601": "2024-02-14T08:24:30.992496Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "arcplot-0.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 3245,
+        "upload_time": "2024-02-14T08:24:32",
+        "upload_time_iso_8601": "2024-02-14T08:24:32.797174Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.2": [
+      {
+        "filename": "arcplot-0.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 4558,
+        "upload_time": "2024-02-18T10:16:05",
+        "upload_time_iso_8601": "2024-02-18T10:16:05.965915Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "arcplot-0.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 4020,
+        "upload_time": "2024-02-18T10:16:07",
+        "upload_time_iso_8601": "2024-02-18T10:16:07.809008Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.3": [
+      {
+        "filename": "arcplot-0.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 5280,
+        "upload_time": "2024-02-24T11:12:07",
+        "upload_time_iso_8601": "2024-02-24T11:12:07.557429Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "arcplot-0.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 4739,
+        "upload_time": "2024-02-24T11:12:09",
+        "upload_time_iso_8601": "2024-02-24T11:12:09.330382Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4": [
+      {
+        "filename": "arcplot-0.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10,<4.0",
+        "size": 5489,
+        "upload_time": "2024-02-26T08:48:55",
+        "upload_time_iso_8601": "2024-02-26T08:48:55.785432Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "arcplot-0.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10,<4.0",
+        "size": 4974,
+        "upload_time": "2024-02-26T08:48:57",
+        "upload_time_iso_8601": "2024-02-26T08:48:57.595144Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.5": [
+      {
+        "filename": "arcplot-0.1.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 6945,
+        "upload_time": "2024-03-21T09:23:07",
+        "upload_time_iso_8601": "2024-03-21T09:23:07.013605Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "arcplot-0.1.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 6257,
+        "upload_time": "2024-03-21T09:23:08",
+        "upload_time_iso_8601": "2024-03-21T09:23:08.338291Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "info": {
+    "author": "Shikhar Bhushan, Leonidas Poulopoulos, Ebben Aries, Einar Nilsen-Nygaard",
+    "author_email": "shikhar@schmizz.net, lpoulopoulos@verisign.com, exa@dscp.org, einarnn@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 2.7",
+      "Programming Language :: Python :: 3.5",
+      "Programming Language :: Python :: 3.6",
+      "Programming Language :: Python :: 3.7",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: System :: Networking"
+    ],
+    "description": "ncclient: Python library for NETCONF clients\n--------------------------------------------\n\nncclient is a Python library that facilitates client-side scripting and\napplication development around the NETCONF protocol. ``ncclient`` was\ndeveloped by `Shikar Bhushan <http://schmizz.net>`. It is now\nmaintained by `Leonidas Poulopoulos (@leopoul) <http://ncclient.org>`\nand `Einar Nilsen-Nygaard (@einarnn)`.\n\nDocs:\n`http://ncclient.readthedocs.org <http://ncclient.readthedocs.org>`_\n\nGithub:\n`https://github.com/ncclient/ncclient <https://github.com/ncclient/ncclient>`_\n\nRequirements:\n^^^^^^^^^^^^^\n\n-  Python 2.7 or Python 3.4+\n-  setuptools 0.6+\n-  Paramiko 1.7+\n-  lxml 3.3.0+\n-  libxml2\n-  libxslt\n\nIf you are on Debian/Ubuntu install the following libs (via aptitude or\napt-get):\n\n-  libxml2-dev\n-  libxslt1-dev\n\nInstallation:\n^^^^^^^^^^^^^\n\n::\n\n    [ncclient] $ sudo python setup.py install\n\nor via pip:\n\n::\n\n    pip install ncclient\n\nExamples:\n^^^^^^^^^\n\n::\n\n    [ncclient] $ python examples/juniper/*.py\n\nUsage\n~~~~~\n\nGet device running config\n'''''''''''''''''''''''''\n\nUse either an interactive Python console (ipython) or integrate the\nfollowing in your code:\n\n::\n\n    from ncclient import manager\n\n    with manager.connect(host=host, port=830, username=user, hostkey_verify=False) as m:\n        c = m.get_config(source='running').data_xml\n        with open(\"%s.xml\" % host, 'w') as f:\n            f.write(c)\n\nAs of 0.4.1 ncclient integrates Juniper's and Cisco's forks, lots of new concepts\nhave been introduced that ease management of Juniper and Cisco devices respectively.\nThe biggest change is the introduction of device handlers in connection paramms.\nFor example to invoke Juniper's functions annd params one has to re-write the above with \n**device\\_params={'name':'junos'}**:\n\n::\n\n    from ncclient import manager\n\n    with manager.connect(host=host, port=830, username=user, hostkey_verify=False, device_params={'name':'junos'}) as m:\n        c = m.get_config(source='running').data_xml\n        with open(\"%s.xml\" % host, 'w') as f:\n            f.write(c)\n\nDevice handlers are easy to implement and prove to be futureproof.\n\nSupported device handlers\n'''''''''''''''''''''''''\n\n* Alcatel Lucent: `device_params={'name':'alu'}`\n* Ciena: `device_params={'name':'ciena'}`\n* Cisco:\n    - CSR: `device_params={'name':'csr'}`\n    - Nexus: `device_params={'name':'nexus'}`\n    - IOS XR: `device_params={'name':'iosxr'}`\n    - IOS XE: `device_params={'name':'iosxe'}`\n* H3C: `device_params={'name':'h3c'}`\n* HP Comware: `device_params={'name':'hpcomware'}`\n* Huawei:\n    - `device_params={'name':'huawei'}`\n    - `device_params={'name':'huaweiyang'}`\n* Juniper: `device_params={'name':'junos'}`\n* Server or anything not in above: `device_params={'name':'default'}`\n\nChanges \\| brief\n~~~~~~~~~~~~~~~~\n\n**v0.6.12**\n\n* Fix for accidental breakage of Juniper ExecuteRPC support\n\n**v0.6.11**\n\n* Support for custom client capabilities\n* Restructuring/refactoring of example scripts\n* Minor bugfixes\n* Minor unit test refactoring\n\n**v0.6.10**\n\n* NETCONF call-home (RFC8071) support\n* YANG 1.1 `action` support\n* Nokia SR OS device handler support\n* Removal of old ALU base-r13 API documentation\n* Increased test coverage\n* Variety of bugfixes and minor enhancements from a variety of contributors since 0.6.9 (see commit history)\n* Thanks to all contributors!\n\n**v0.6.9**\n\n* Fix for breaking API change\n\n**v0.6.8**\n\n* Pulled due to accidental breaking API change\n* Variety of small updates and bugfixes, but of note:\n    - Support for namespace prefixes for XPath queries\n    - `edit-config` parameter validation\n    - Support for multiple RPC errors\n    - API to get supported device types\n    - Support for subtree filters with multiple top-level tags\n* Thanks to all contributors!\n\n**v0.6.7**\n\n- Variety of bugfixes from a variety of contributors since 0.6.6 (see commit history)\n\n**v0.6.6**\n\n- Read ssh timeout from config file if not specified in method call\n- Tox support\n- Huge XML tree parser support\n- Adding optional bind address to connect\n\n**v0.6.5**\n\n- Updated README for 0.6.5 release\n\n**v0.6.4**\n\n- Pin selectors2 to Python versions <= 3.4\n- Fix config examples to actually use the nc namespace\n- Fix: correctly set port for paramiko when using ssh_config file\n- Test: add test to check ProxyCommand uses correct port\n- Update commits for py3\n- Enhance Alcatel-Lucent-support\n- Juniper RPC: allow specifying format in CompareConfiguration\n- Parsing of NETCONF 1.1 frames no longer decodes each chunk of bytes\n- Fix filter in create_subscription\n- Validate 'with-defaults' mode based on supported modes advertised in capability URI\n\n**v0.6.3**\n\n- Fix homepage link registered with PyPi\n- SSH Host Key checking\n- Updated junos.py to resolve RestrictedUser error\n- Close the channel when closing SSH session\n- Invoke self.parse() to ensure errors, if any, have been detected before check in ok()\n\n**v0.6.2**\n\n- Migration to user selectors instead of select, allowing higher scale operations\n- Improved netconf:base:1.1 parsing\n- Graceful exit on session close\n\n**v0.6.0**\n\n- Fix use of new Python 3.7 keyword, async\n- Re-enable Python 3.7\n\n**v0.5.4**\n\n- Rollup of minor changes since 0.5.3\n- Disablement of Python 3.7 due to async keyword issue\n\n**v0.5.3**\n\n- Add notifications support\n- Add support for ecdsa keys\n- Various bug fixes\n\n**v0.5.2**\n\n- Add support for Python 3\n- Improve Junos ioproc performance\n- Performance improvements\n- Updated test cases\n- Many bug and performance fixes\n\n\n**v0.4.7**\n\n- Add support for netconf 1.1\n\n**v0.4.6**\n\n- Fix multiple RPC error generation\n- Add support for cancel-commit and persist param\n- Add more examples\n\n**v0.4.5**\n\n- Add Huawei device support\n- Add cli command support for hpcomware v7 devices\n- Add H3C support, Support H3C CLI,Action,Get_bulk,Save,Rollback,etc.\n- Add alcatel lucent support\n\n- Rewrite multiple error handling\n- Add coveralls support, with shield in README.md\n- Set severity level to higher when multiple\n- Simplify logging and multi-error reporting\n- Keep stacktrace of errors\n- Check for known hosts on hostkey_verify only\n- Add check for device sending back null error_text\n- Fix RPC.raise_mode\n- Specifying hostkey_verify=False should not load_known_hosts\n- Check the correct field on rpc-error element\n\n**v0.4.3**\n\n- Nexus exec_command operation\n- Allow specifying multiple cmd elements in Cisco Nexus\n- Update rpc for nested rpc-errors\n- Prevent race condition in threading\n- Prevent hanging in session close\n\n**v0.4.2**\n\n- Support for paramiko ProxyCommand via ~/.ssh/config parsing\n- Add Juniper-specific commit operations\n- Add Huawei devices support\n- Tests/Travis support\n- ioproc transport support for Juniper devices\n- Update Cisco CSR device handler\n- Many minor and major fixes\n\n**v0.4.1**\n\n-  Switch between replies if custom handler is found\n-  Add Juniper, Cisco and default device handlers\n-  Allow preferred SSH subsystem name in device params\n-  Allow iteration over multiple SSH subsystem names.\n\n\n\n\nAcknowledgements\n~~~~~~~~~~~~~~~~\n-  v0.6.11: @musicinmybrain, @sstancu, @earies\n-  v0.6.10: @vnitinv, @omaxx, @einarnn, @musicinmybrain, @tonynii, @sstancu, Martin Volf, @fredgan, @avisom, Viktor Velichkin, @ogenstad, @earies\n-  v0.6.9: [Fred Gan](https://github.com/fredgan)\n-  v0.6.8: [Fred Gan](https://github.com/fredgan), @vnitinv, @kbijakowski, @iwanb, @badguy99, @liuyong, Andrew Mallory, William Lvory\n-  v0.6.7: @vnitinv, @chaitu-tk, @sidhujasminder, @crutcha, @markgoddard, @ganeshrn, @songxl, @doesitblend, @psikala, @xuxiaowei0512, @muffizone\n-  v0.6.6: @sstancu, @hemna, @ishayansheikh\n-  v0.6.4: @davidhankins, @mzagozen, @knobix, @markafarrell, @psikala, @moepman, @apt-itude, @yuekyang\n-  v0.6.3: @rdkls, @Anthony25, @rsmekala, @vnitinv, @siming85\n-  v0.6.2: @einarnn, @glennmatthews, @bryan-stripe, @nickylba\n-  v0.6.0: `Einar Nilsen-Nygaard`_\n-  v0.5.4: Various\n-  v0.5.3: `Justin Wilcox`_, `Stacy W. Smith`_, `Mircea Ulinic`_,\n   `Ebben Aries`_, `Einar Nilsen-Nygaard`_, `QijunPan`_\n-  v0.5.2: `Nitin Kumar`_, `Kristian Larsson`_, `palashgupta`_,\n   `Jonathan Provost`_, `Jainpriyal`_, `sharang`_, `pseguel`_,\n   `nnakamot`_, `Алексей Пастухов`_, `Christian Giese`_, `Peipei Guo`_,\n   `Time Warner Cable Openstack Team`_\n-  v0.4.7: `Einar Nilsen-Nygaard`_, `Vaibhav Bajpai`_, Norio Nakamoto\n-  v0.4.6: `Nitin Kumar`_, `Carl Moberg`_, `Stavros Kroustouris`_\n-  v0.4.5: `Sebastian Wiesinger`_, `Vincent Bernat`_, `Matthew Stone`_,\n   `Nitin Kumar`_\n-  v0.4.3: `Jeremy Schulman`_, `Ray Solomon`_, `Rick Sherman`_,\n   `subhak186`_\n-  v0.4.2: `katharh`_, `Francis Luong (Franco)`_, `Vincent Bernat`_,\n   `Juergen Brendel`_, `Quentin Loos`_, `Ray Solomon`_, `Sebastian\n   Wiesinger`_, `Ebben Aries`_\n-  v0.4.1: `Jeremy Schulman`_, `Ebben Aries`_, Juergen Brendel\n\n.. _Nitin Kumar: https://github.com/vnitinv\n.. _Kristian Larsson: https://github.com/plajjan\n.. _palashgupta: https://github.com/palashgupta\n.. _Jonathan Provost: https://github.com/JoProvost\n.. _Jainpriyal: https://github.com/Jainpriyal\n.. _sharang: https://github.com/sharang\n.. _pseguel: https://github.com/pseguel\n.. _nnakamot: https://github.com/nnakamot\n.. _Алексей Пастухов: https://github.com/p-alik\n.. _Christian Giese: https://github.com/GIC-de\n.. _Peipei Guo: https://github.com/peipeiguo\n.. _Time Warner Cable Openstack Team: https://github.com/twc-openstack\n.. _Einar Nilsen-Nygaard: https://github.com/einarnn\n.. _Vaibhav Bajpai: https://github.com/vbajpai\n.. _Carl Moberg: https://github.com/cmoberg\n.. _Stavros Kroustouris: https://github.com/kroustou\n.. _Sebastian Wiesinger: https://github.com/sebastianw\n.. _Vincent Bernat: https://github.com/vincentbernat\n.. _Matthew Stone: https://github.com/bigmstone\n.. _Jeremy Schulman: https://github.com/jeremyschulman\n.. _Ray Solomon: https://github.com/rsolomo\n.. _Rick Sherman: https://github.com/shermdog\n.. _subhak186: https://github.com/subhak186\n.. _katharh: https://github.com/katharh\n.. _Francis Luong (Franco): https://github.com/francisluong\n.. _Juergen Brendel: https://github.com/juergenbrendel\n.. _Quentin Loos: https://github.com/Kent1\n.. _Ebben Aries: https://github.com/earies\n.. _Justin Wilcox: https://github.com/jwwilcox\n.. _Stacy W. Smith: https://github.com/stacywsmith\n.. _Mircea Ulinic: https://github.com/mirceaulinic\n.. _QijunPan: https://github.com/QijunPan\n",
+    "description_content_type": null,
+    "docs_url": null,
+    "download_url": null,
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": "https://github.com/ncclient/ncclient",
+    "keywords": "NETCONF, NETCONF Python client, Juniper Optimization, Cisco NXOS Optimization",
+    "license": "Apache 2.0",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "ncclient",
+    "package_url": "https://pypi.org/project/ncclient/",
+    "platform": "Posix; OS X; Windows",
+    "project_url": "https://pypi.org/project/ncclient/",
+    "project_urls": {
+      "Homepage": "https://github.com/ncclient/ncclient"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/ncclient/0.6.16/",
+    "requires_dist": null,
+    "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7",
+    "summary": "Python library for NETCONF clients",
+    "version": "0.6.16",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 25390179,
+  "releases": {
+    "0.3.2": [
+      {
+        "filename": "ncclient-0.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17896,
+        "upload_time": "2014-01-30T23:41:54",
+        "upload_time_iso_8601": "2014-01-30T23:41:54.934045Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.0": [
+      {
+        "filename": "ncclient-0.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 22624,
+        "upload_time": "2014-01-31T00:08:51",
+        "upload_time_iso_8601": "2014-01-31T00:08:51.210765Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.1": [
+      {
+        "filename": "ncclient-0.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 25462,
+        "upload_time": "2014-02-22T22:37:12",
+        "upload_time_iso_8601": "2014-02-22T22:37:12.512230Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.2": [
+      {
+        "filename": "ncclient-0.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 32701,
+        "upload_time": "2014-10-08T00:45:39",
+        "upload_time_iso_8601": "2014-10-08T00:45:39.733347Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.3": [
+      {
+        "filename": "ncclient-0.4.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 55094,
+        "upload_time": "2015-01-06T23:51:34",
+        "upload_time_iso_8601": "2015-01-06T23:51:34.856643Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.5": [
+      {
+        "filename": "ncclient-0.4.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 56816,
+        "upload_time": "2015-09-10T06:05:20",
+        "upload_time_iso_8601": "2015-09-10T06:05:20.001545Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.6": [
+      {
+        "filename": "ncclient-0.4.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 57618,
+        "upload_time": "2015-11-17T23:03:15",
+        "upload_time_iso_8601": "2015-11-17T23:03:15.044091Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.4.7": [
+      {
+        "filename": "ncclient-0.4.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 60224,
+        "upload_time": "2016-01-30T07:08:07",
+        "upload_time_iso_8601": "2016-01-30T07:08:07.557098Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.2": [
+      {
+        "filename": "ncclient-0.5.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 61456,
+        "upload_time": "2016-07-05T12:27:03",
+        "upload_time_iso_8601": "2016-07-05T12:27:03.814203Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.3": [
+      {
+        "filename": "ncclient-0.5.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 63151,
+        "upload_time": "2016-12-28T07:50:48",
+        "upload_time_iso_8601": "2016-12-28T07:50:48.135651Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.5.4": [
+      {
+        "filename": "ncclient-0.5.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.7.*",
+        "size": 69268,
+        "upload_time": "2018-07-02T18:14:20",
+        "upload_time_iso_8601": "2018-07-02T18:14:20.231071Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.0": [
+      {
+        "filename": "ncclient-0.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+        "size": 69473,
+        "upload_time": "2018-07-02T20:57:15",
+        "upload_time_iso_8601": "2018-07-02T20:57:15.431081Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.10": [
+      {
+        "filename": "ncclient-0.6.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 105349,
+        "upload_time": "2021-03-06T14:31:26",
+        "upload_time_iso_8601": "2021-03-06T14:31:26.772871Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.11": [
+      {
+        "filename": "ncclient-0.6.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 106223,
+        "upload_time": "2021-05-29T15:17:50",
+        "upload_time_iso_8601": "2021-05-29T15:17:50.460590Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.12": [
+      {
+        "filename": "ncclient-0.6.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 106320,
+        "upload_time": "2021-05-29T16:35:23",
+        "upload_time_iso_8601": "2021-05-29T16:35:23.564351Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.13": [
+      {
+        "filename": "ncclient-0.6.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 105739,
+        "upload_time": "2022-04-10T20:20:26",
+        "upload_time_iso_8601": "2022-04-10T20:20:26.636657Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.14": [
+      {
+        "filename": "ncclient-0.6.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "!=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*",
+        "size": 619125,
+        "upload_time": "2023-10-17T21:16:18",
+        "upload_time_iso_8601": "2023-10-17T21:16:18.011630Z",
+        "yanked": true,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.15": [
+      {
+        "filename": "ncclient-0.6.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 634885,
+        "upload_time": "2023-10-17T21:36:51",
+        "upload_time_iso_8601": "2023-10-17T21:36:51.563810Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.16": [
+      {
+        "filename": "ncclient-0.6.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7",
+        "size": 112619,
+        "upload_time": "2024-10-09T08:25:14",
+        "upload_time_iso_8601": "2024-10-09T08:25:14.472058Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.2": [
+      {
+        "filename": "ncclient-0.6.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+        "size": 85063,
+        "upload_time": "2018-08-21T09:57:01",
+        "upload_time_iso_8601": "2018-08-21T09:57:01.388582Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.3": [
+      {
+        "filename": "ncclient-0.6.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+        "size": 88022,
+        "upload_time": "2018-09-26T18:20:41",
+        "upload_time_iso_8601": "2018-09-26T18:20:41.827550Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.4": [
+      {
+        "filename": "ncclient-0.6.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+        "size": 88691,
+        "upload_time": "2019-04-07T17:48:58",
+        "upload_time_iso_8601": "2019-04-07T17:48:58.273911Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.6": [
+      {
+        "filename": "ncclient-0.6.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+        "size": 89677,
+        "upload_time": "2019-05-28T10:26:59",
+        "upload_time_iso_8601": "2019-05-28T10:26:59.458554Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.7": [
+      {
+        "filename": "ncclient-0.6.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 605112,
+        "upload_time": "2019-12-21T19:19:44",
+        "upload_time_iso_8601": "2019-12-21T19:19:44.385880Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.6.8": [
+      {
+        "filename": "ncclient-0.6.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 117374,
+        "upload_time": "2020-07-31T21:10:29",
+        "upload_time_iso_8601": "2020-07-31T21:10:29.409059Z",
+        "yanked": true,
+        "yanked_reason": "Unintental backwards incompatible change made."
+      }
+    ],
+    "0.6.9": [
+      {
+        "filename": "ncclient-0.6.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "size": 118081,
+        "upload_time": "2020-08-08T21:37:13",
+        "upload_time_iso_8601": "2020-08-08T21:37:13.851930Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

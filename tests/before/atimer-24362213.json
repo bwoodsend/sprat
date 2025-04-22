@@ -1,0 +1,225 @@
+{
+  "info": {
+    "author": "Artur Wroblewski",
+    "author_email": "wrobell@riseup.net",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+      "Programming Language :: Python :: 3",
+      "Topic :: Software Development :: Libraries"
+    ],
+    "description": "`atimer` library implements asynchronous timer Python coroutine based on\nPOSIX timers. The coroutine can be used with Python `asyncio\n<https://docs.python.org/3/library/asyncio.html>`_ module API.\n\nThe main features of the timer, implemented by the library, are\n\n- expires at regular intervals\n- allows to track number of expirations if a long running task causes\n  overrun\n- starts synchronized with system clock at the edge of an interval\n- measures time while system is suspended\n\nThe `atimer` library is licensed under terms of GPL license, version 3, see\n`COPYING <https://www.gnu.org/licenses/gpl-3.0.en.html>`_ file for details.\n",
+    "description_content_type": "text/x-rst",
+    "docs_url": null,
+    "download_url": null,
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": "https://wrobell.dcmod.org/atimer/",
+    "keywords": null,
+    "license": "GPLv3+",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "atimer",
+    "package_url": "https://pypi.org/project/atimer/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/atimer/",
+    "project_urls": {
+      "Bug tracker": "https://gitlab.com/n23/atimer/issues",
+      "Homepage": "https://wrobell.dcmod.org/atimer/",
+      "Source Code": "https://gitlab.com/n23/atimer"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/atimer/1.2.0/",
+    "requires_dist": [
+      "mypy==1.11.0; extra == \"tests\"",
+      "ruff; extra == \"tests\"",
+      "pytest-cov; extra == \"tests\"",
+      "pytest-timeout; extra == \"tests\"",
+      "pytest-asyncio; extra == \"tests\"",
+      "uvloop; extra == \"tests\""
+    ],
+    "requires_python": ">=3.12",
+    "summary": "atimer - timer library for asyncio",
+    "version": "1.2.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 24362213,
+  "releases": {
+    "0.1.0": [
+      {
+        "filename": "atimer-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 2244,
+        "upload_time": "2017-02-24T00:23:22",
+        "upload_time_iso_8601": "2017-02-24T00:23:22.983955Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "atimer-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 23820,
+        "upload_time": "2018-12-07T19:44:58",
+        "upload_time_iso_8601": "2018-12-07T19:44:58.353402Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.1": [
+      {
+        "filename": "atimer-0.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24374,
+        "upload_time": "2018-12-07T19:53:07",
+        "upload_time_iso_8601": "2018-12-07T19:53:07.616375Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.2": [
+      {
+        "filename": "atimer-0.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 38366,
+        "upload_time": "2018-12-07T20:00:42",
+        "upload_time_iso_8601": "2018-12-07T20:00:42.528120Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "atimer-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 51854,
+        "upload_time": "2019-02-01T21:45:25",
+        "upload_time_iso_8601": "2019-02-01T21:45:25.770159Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.1": [
+      {
+        "filename": "atimer-0.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 52420,
+        "upload_time": "2019-03-05T22:09:10",
+        "upload_time_iso_8601": "2019-03-05T22:09:10.061871Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.2": [
+      {
+        "filename": "atimer-0.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 52499,
+        "upload_time": "2019-05-01T20:28:49",
+        "upload_time_iso_8601": "2019-05-01T20:28:49.337604Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.3": [
+      {
+        "filename": "atimer-0.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 53590,
+        "upload_time": "2020-05-13T23:30:08",
+        "upload_time_iso_8601": "2020-05-13T23:30:08.344031Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.0": [
+      {
+        "filename": "atimer-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 53662,
+        "upload_time": "2021-06-29T23:24:11",
+        "upload_time_iso_8601": "2021-06-29T23:24:11.337813Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.1": [
+      {
+        "filename": "atimer-1.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 51724,
+        "upload_time": "2022-01-18T22:06:14",
+        "upload_time_iso_8601": "2022-01-18T22:06:14.201375Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "filename": "atimer-1.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 69120,
+        "upload_time": "2023-07-21T19:09:38",
+        "upload_time_iso_8601": "2023-07-21T19:09:38.190497Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "atimer-1.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.12",
+        "size": 72895,
+        "upload_time": "2024-07-31T06:00:17",
+        "upload_time_iso_8601": "2024-07-31T06:00:17.887068Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "info": {
+    "author": "Yakir Reshef",
+    "author_email": "yakir@seas.harvard.edu",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "description": "",
+    "description_content_type": "",
+    "docs_url": null,
+    "download_url": "",
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": "http://github.com/yakirr/ypy",
+    "keywords": "",
+    "license": "MIT",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "",
+    "maintainer_email": "",
+    "name": "gprim",
+    "package_url": "https://pypi.org/project/gprim/",
+    "platform": "",
+    "project_url": "https://pypi.org/project/gprim/",
+    "project_urls": {
+      "Homepage": "http://github.com/yakirr/ypy"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/gprim/0.22/",
+    "requires_dist": null,
+    "requires_python": "",
+    "summary": "Utility functions for working with statistical genetic data",
+    "version": "0.22",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 3774199,
+  "releases": {
+    "0.21": [
+      {
+        "filename": "gprim-0.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5435,
+        "upload_time": "2017-10-30T21:36:50",
+        "upload_time_iso_8601": "2017-10-30T21:36:50.095973Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.22": [
+      {
+        "filename": "gprim-0.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 6336,
+        "upload_time": "2018-04-17T17:57:39",
+        "upload_time_iso_8601": "2018-04-17T17:57:39.140667Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

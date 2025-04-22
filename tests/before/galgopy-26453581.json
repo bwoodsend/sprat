@@ -1,0 +1,100 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Sattar Bayat <sattar.bayat@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "description": "![GAlgoPy](https://9uy6uxjgfktmbsba.public.blob.vercel-storage.com/GAlgoPy-2FOjRJYbQ9wcKq2sNSLDwMuAxLcgAi.png)\n\n# GAlgoPy (Genetic Algorithm Python)\n## Population Initialization Function\nThis repository contains a Python function, initialize_population, designed for initializing populations in genetic algorithms. The function is highly flexible, allowing users to customize the type of genes, the range of values, and whether repetition is allowed.\n\n### Features\nThe **initialize_population** function supports the following features:\n\n* **Binary Genes**: Initialize genes as binary values (0 or 1).\n* **Numeric Genes**: Define genes as numeric values within a specified range, with options for discrete integers or continuous uniform values.\n* **Binary Genes**: Initialize genes as binary values (0 or 1).\n* **Numeric Genes**: Define genes as numeric values within a specified range, with options for discrete integers or continuous uniform values.\n* **Alphabetic Genes**: Use letters (uppercase, lowercase, or both) as gene values.\n* **Custom Genes**: Define a custom set of values for genes.\n* **Repetition Control**: Optionally allow or disallow repetition of gene values within individuals.\n* **Uniform Distribution**: For numeric genes, optionally generate values with continuous uniform distribution.\n\n### Function Parameters\n* **pop_size (int)**: The number of individuals in the population.\n* **num_genes (int)**: The number of genes per individual.\n* **genes_type (str)**: Specifies the type of genes.Supported values:\n   * *'binary'*: Binary values (0 or 1).\n   * *'number'*: Numeric values within a specified range.\n   * *'letters'*: All alphabetic characters (uppercase and lowercase).\n   * *'uppercase_letters'*: Uppercase alphabetic characters only.\n   * *'lowercase_letters'*: Lowercase alphabetic characters only.\n   * *'custom'*: Custom values provided by the user.\n* **gene_range (list)**: A list [min, max] specifying the range of numeric genes (required for genes_type='number').\n* **uniform (bool)**: If True, generates continuous uniform values for numeric genes.\n* **custom_value (list)**: A list of custom values (required for genes_type='custom').\n* **allow_repetition (bool)**: If False, ensures genes are unique within an individual.\n### Returns\n* **np.ndarray**: A 2D NumPy array representing the initialized population. Each row corresponds to an individual, and each column corresponds to a gene.\n### Error Handling\nRaises **ValueError** if:\n* Required parameters (gene_range for 'number' or custom_value for 'custom') are missing.\n* There are insufficient unique values to satisfy the num_genes requirement when allow_repetition=False.\n* An invalid genes_type is provided.\n\n## Examples\nBinary Genes:\n```\npopulation = initialize_population(pop_size=5, num_genes=10, genes_type='binary')\n```\nNumeric Genes:\n```\npopulation = initialize_population(\n    pop_size=5,\n    num_genes=10,\n    genes_type='number',\n    gene_range=[1, 100]\n)\n```\nNumeric Genes (Continuous Uniform):\n```\npopulation = initialize_population(\n    pop_size=5,\n    num_genes=10,\n    genes_type='number',\n    gene_range=[0, 1],\n    uniform=True\n)\n```\nAlphabetic Genes:\n```\npopulation = initialize_population(\n    pop_size=5,\n    num_genes=5,\n    genes_type='letters'\n)\n```\nCustom Genes:\n```\npopulation = initialize_population(\n    pop_size=5,\n    num_genes=5,\n    genes_type='custom',\n    custom_value=['A', 'B', 'C', 1, 2]\n)\n```\nNumeric Genes Without Repetition:\n```\npopulation = initialize_population(\n    pop_size=5,\n    num_genes=5,\n    genes_type='number',\n    gene_range=[1, 10],\n    allow_repetition=False\n)\n```\n## How to Use\n1 - Import the function into your project:\n```\nfrom GAlgoPy import initialize_population\n```\n2 - Call the function with your desired parameters.\n\n3 - Use the generated population for your genetic algorithm.",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": null,
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "galgopy",
+    "package_url": "https://pypi.org/project/galgopy/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/galgopy/",
+    "project_urls": {
+      "Homepage": "https://github.com/Ar4mus/GAlgoPy",
+      "Issues": "https://github.com/pypa/GAlgoPy/issues"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/galgopy/0.0.4/",
+    "requires_dist": null,
+    "requires_python": ">=3.8",
+    "summary": "This package is used to perform genetic algorithms.",
+    "version": "0.0.4",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 26453581,
+  "releases": {
+    "0.0.2": [
+      {
+        "filename": "galgopy-0.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 5218,
+        "upload_time": "2024-12-10T19:26:33",
+        "upload_time_iso_8601": "2024-12-10T19:26:33.401235Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galgopy-0.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 7374,
+        "upload_time": "2024-12-10T19:26:35",
+        "upload_time_iso_8601": "2024-12-10T19:26:35.794716Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.4": [
+      {
+        "filename": "galgopy-0.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 5204,
+        "upload_time": "2024-12-10T22:10:21",
+        "upload_time_iso_8601": "2024-12-10T22:10:21.634062Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "galgopy-0.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 7395,
+        "upload_time": "2024-12-10T22:10:24",
+        "upload_time_iso_8601": "2024-12-10T22:10:24.035363Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

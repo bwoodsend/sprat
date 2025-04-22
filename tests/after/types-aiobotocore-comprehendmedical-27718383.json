@@ -1,0 +1,1553 @@
+{
+  "info": {
+    "author": "Vlad Emelianov",
+    "author_email": "vlad.emelianov.nz@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Console",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Natural Language :: English",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Typing :: Stubs Only"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Classifier",
+      "Description",
+      "Description-Content-Type",
+      "Home-Page",
+      "Keywords",
+      "License",
+      "Project-Url",
+      "Requires-Dist",
+      "Requires-Python",
+      "Summary"
+    ],
+    "home_page": "https://github.com/youtype/mypy_boto3_builder",
+    "keywords": "aiobotocore comprehendmedical aiobotocore-stubs type-annotations mypy typeshed autocomplete",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "types-aiobotocore-comprehendmedical",
+    "package_url": "https://pypi.org/project/types-aiobotocore-comprehendmedical/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/types-aiobotocore-comprehendmedical/",
+    "project_urls": {
+      "Documentation": "https://youtype.github.io/types_aiobotocore_docs/types_aiobotocore_comprehendmedical/",
+      "Homepage": "https://github.com/youtype/mypy_boto3_builder",
+      "Source": "https://github.com/youtype/mypy_boto3_builder",
+      "Tracker": "https://github.com/youtype/mypy_boto3_builder/issues"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/types-aiobotocore-comprehendmedical/2.21.0/",
+    "requires_dist": [
+      "typing-extensions; python_version < \"3.12\""
+    ],
+    "requires_python": ">=3.8",
+    "summary": "Type annotations for aiobotocore ComprehendMedical 2.21.0 service generated with mypy-boto3-builder 8.10.0",
+    "version": "2.21.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27718383,
+  "releases": {
+    "2.1.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 22988,
+        "upload_time": "2022-02-07T05:09:54",
+        "upload_time_iso_8601": "2022-02-07T05:09:54.218457Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 15628,
+        "upload_time": "2022-02-07T05:09:55",
+        "upload_time_iso_8601": "2022-02-07T05:09:55.605638Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.0.post1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.1.0.post1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 23255,
+        "upload_time": "2022-02-07T12:13:58",
+        "upload_time_iso_8601": "2022-02-07T12:13:58.554290Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.1.0.post1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 15957,
+        "upload_time": "2022-02-07T12:14:00",
+        "upload_time_iso_8601": "2022-02-07T12:14:00.737548Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24303,
+        "upload_time": "2022-02-12T13:53:53",
+        "upload_time_iso_8601": "2022-02-12T13:53:53.601333Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18352,
+        "upload_time": "2022-02-12T13:53:56",
+        "upload_time_iso_8601": "2022-02-12T13:53:56.329537Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.1.post1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.1.1.post1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24359,
+        "upload_time": "2022-02-17T06:39:31",
+        "upload_time_iso_8601": "2022-02-17T06:39:31.691229Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.1.1.post1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18367,
+        "upload_time": "2022-02-17T06:39:36",
+        "upload_time_iso_8601": "2022-02-17T06:39:36.656978Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.11.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.11.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25867,
+        "upload_time": "2024-01-20T01:22:57",
+        "upload_time_iso_8601": "2024-01-20T01:22:57.522136Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.11.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18501,
+        "upload_time": "2024-01-20T01:23:00",
+        "upload_time_iso_8601": "2024-01-20T01:23:00.359316Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.11.1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.11.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25863,
+        "upload_time": "2024-01-27T01:17:59",
+        "upload_time_iso_8601": "2024-01-27T01:17:59.183694Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.11.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18509,
+        "upload_time": "2024-01-27T01:18:01",
+        "upload_time_iso_8601": "2024-01-27T01:18:01.806034Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.11.2": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.11.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25865,
+        "upload_time": "2024-02-03T01:30:45",
+        "upload_time_iso_8601": "2024-02-03T01:30:45.687379Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.11.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18469,
+        "upload_time": "2024-02-03T01:30:48",
+        "upload_time_iso_8601": "2024-02-03T01:30:48.082883Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.12.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.12.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25882,
+        "upload_time": "2024-02-29T01:18:52",
+        "upload_time_iso_8601": "2024-02-29T01:18:52.233987Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.12.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18523,
+        "upload_time": "2024-02-29T01:18:56",
+        "upload_time_iso_8601": "2024-02-29T01:18:56.292258Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.12.1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.12.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25880,
+        "upload_time": "2024-03-05T01:18:47",
+        "upload_time_iso_8601": "2024-03-05T01:18:47.929505Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.12.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18515,
+        "upload_time": "2024-03-05T01:18:49",
+        "upload_time_iso_8601": "2024-03-05T01:18:49.253354Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.12.2": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.12.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25881,
+        "upload_time": "2024-04-03T01:32:34",
+        "upload_time_iso_8601": "2024-04-03T01:32:34.489065Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.12.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18505,
+        "upload_time": "2024-04-03T01:32:36",
+        "upload_time_iso_8601": "2024-04-03T01:32:36.722389Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.12.3": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.12.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25888,
+        "upload_time": "2024-04-12T01:20:25",
+        "upload_time_iso_8601": "2024-04-12T01:20:25.555057Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.12.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18562,
+        "upload_time": "2024-04-12T01:20:28",
+        "upload_time_iso_8601": "2024-04-12T01:20:28.069086Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.13.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.13.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25926,
+        "upload_time": "2024-05-17T01:25:43",
+        "upload_time_iso_8601": "2024-05-17T01:25:43.019908Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.13.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18582,
+        "upload_time": "2024-05-17T01:25:44",
+        "upload_time_iso_8601": "2024-05-17T01:25:44.843290Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.13.1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.13.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25940,
+        "upload_time": "2024-06-25T01:33:45",
+        "upload_time_iso_8601": "2024-06-25T01:33:45.551746Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.13.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18589,
+        "upload_time": "2024-06-25T01:33:51",
+        "upload_time_iso_8601": "2024-06-25T01:33:51.803328Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.13.2": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.13.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25941,
+        "upload_time": "2024-08-10T01:35:48",
+        "upload_time_iso_8601": "2024-08-10T01:35:48.365768Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.13.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18562,
+        "upload_time": "2024-08-10T01:35:49",
+        "upload_time_iso_8601": "2024-08-10T01:35:49.577162Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.13.3": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.13.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25950,
+        "upload_time": "2024-08-23T01:31:31",
+        "upload_time_iso_8601": "2024-08-23T01:31:31.347447Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.13.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18581,
+        "upload_time": "2024-08-23T01:31:32",
+        "upload_time_iso_8601": "2024-08-23T01:31:32.618149Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.14.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.14.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25947,
+        "upload_time": "2024-08-29T01:33:55",
+        "upload_time_iso_8601": "2024-08-29T01:33:55.099449Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.14.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18578,
+        "upload_time": "2024-08-29T01:33:56",
+        "upload_time_iso_8601": "2024-08-29T01:33:56.224261Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.15.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.15.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26178,
+        "upload_time": "2024-09-11T01:23:19",
+        "upload_time_iso_8601": "2024-09-11T01:23:19.338036Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.15.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18691,
+        "upload_time": "2024-09-11T01:23:20",
+        "upload_time_iso_8601": "2024-09-11T01:23:20.715981Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.15.1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.15.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26156,
+        "upload_time": "2024-09-23T07:13:05",
+        "upload_time_iso_8601": "2024-09-23T07:13:05.230977Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.15.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18691,
+        "upload_time": "2024-09-23T07:13:07",
+        "upload_time_iso_8601": "2024-09-23T07:13:07.429894Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.15.2": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.15.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26164,
+        "upload_time": "2024-10-10T01:31:16",
+        "upload_time_iso_8601": "2024-10-10T01:31:16.367586Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.15.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18676,
+        "upload_time": "2024-10-10T01:31:18",
+        "upload_time_iso_8601": "2024-10-10T01:31:18.326741Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.16.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.16.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26458,
+        "upload_time": "2024-12-18T01:29:43",
+        "upload_time_iso_8601": "2024-12-18T01:29:43.755664Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.16.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 19967,
+        "upload_time": "2024-12-18T01:29:44",
+        "upload_time_iso_8601": "2024-12-18T01:29:44.994025Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.16.1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.16.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26435,
+        "upload_time": "2024-12-27T01:33:11",
+        "upload_time_iso_8601": "2024-12-27T01:33:11.503230Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.16.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 19954,
+        "upload_time": "2024-12-27T01:33:12",
+        "upload_time_iso_8601": "2024-12-27T01:33:12.960600Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.17.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.17.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26586,
+        "upload_time": "2025-01-07T01:29:34",
+        "upload_time_iso_8601": "2025-01-07T01:29:34.517626Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.17.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 20015,
+        "upload_time": "2025-01-07T01:29:35",
+        "upload_time_iso_8601": "2025-01-07T01:29:35.888708Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.18.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.18.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26623,
+        "upload_time": "2025-01-18T01:24:07",
+        "upload_time_iso_8601": "2025-01-18T01:24:07.198750Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.18.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 20157,
+        "upload_time": "2025-01-18T01:24:09",
+        "upload_time_iso_8601": "2025-01-18T01:24:09.090570Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.19.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.19.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26625,
+        "upload_time": "2025-01-23T01:26:11",
+        "upload_time_iso_8601": "2025-01-23T01:26:11.636871Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.19.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 20182,
+        "upload_time": "2025-01-23T01:26:13",
+        "upload_time_iso_8601": "2025-01-23T01:26:13.080565Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24220,
+        "upload_time": "2022-03-23T00:42:35",
+        "upload_time_iso_8601": "2022-03-23T00:42:35.768889Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18227,
+        "upload_time": "2022-03-23T00:42:57",
+        "upload_time_iso_8601": "2022-03-23T00:42:57.837712Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.0.post1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.2.0.post1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24293,
+        "upload_time": "2022-03-23T01:44:01",
+        "upload_time_iso_8601": "2022-03-23T01:44:01.346191Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.2.0.post1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18318,
+        "upload_time": "2022-03-23T01:44:10",
+        "upload_time_iso_8601": "2022-03-23T01:44:10.671231Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.0.post2": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.2.0.post2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24395,
+        "upload_time": "2022-03-28T00:13:33",
+        "upload_time_iso_8601": "2022-03-28T00:13:33.318887Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.2.0.post2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18378,
+        "upload_time": "2022-03-28T00:13:40",
+        "upload_time_iso_8601": "2022-03-28T00:13:40.257658Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.20.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.20.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26710,
+        "upload_time": "2025-02-20T18:33:57",
+        "upload_time_iso_8601": "2025-02-20T18:33:57.210894Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.20.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 20230,
+        "upload_time": "2025-02-20T18:33:59",
+        "upload_time_iso_8601": "2025-02-20T18:33:59.411577Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.20.1.dev0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.20.1.dev0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26779,
+        "upload_time": "2025-02-26T01:27:31",
+        "upload_time_iso_8601": "2025-02-26T01:27:31.959210Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.20.1.dev0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 20234,
+        "upload_time": "2025-02-26T01:27:33",
+        "upload_time_iso_8601": "2025-02-26T01:27:33.410343Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.21.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.21.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 26697,
+        "upload_time": "2025-03-02T01:31:09",
+        "upload_time_iso_8601": "2025-03-02T01:31:09.176622Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.21.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 20187,
+        "upload_time": "2025-03-02T01:31:10",
+        "upload_time_iso_8601": "2025-03-02T01:31:10.511427Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24541,
+        "upload_time": "2022-05-06T01:29:24",
+        "upload_time_iso_8601": "2022-05-06T01:29:24.158507Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18513,
+        "upload_time": "2022-05-06T01:29:39",
+        "upload_time_iso_8601": "2022-05-06T01:29:39.833505Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.3.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24541,
+        "upload_time": "2022-05-07T01:32:30",
+        "upload_time_iso_8601": "2022-05-07T01:32:30.989909Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18518,
+        "upload_time": "2022-05-07T01:32:33",
+        "upload_time_iso_8601": "2022-05-07T01:32:33.667141Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.2": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.3.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24539,
+        "upload_time": "2022-05-10T01:28:00",
+        "upload_time_iso_8601": "2022-05-10T01:28:00.437582Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18498,
+        "upload_time": "2022-05-10T01:28:07",
+        "upload_time_iso_8601": "2022-05-10T01:28:07.640816Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.3": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.3.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24630,
+        "upload_time": "2022-06-09T01:38:30",
+        "upload_time_iso_8601": "2022-06-09T01:38:30.066673Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18502,
+        "upload_time": "2022-06-09T01:38:47",
+        "upload_time_iso_8601": "2022-06-09T01:38:47.064889Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.4": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.3.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24629,
+        "upload_time": "2022-06-29T01:47:22",
+        "upload_time_iso_8601": "2022-06-29T01:47:22.604755Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.3.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18504,
+        "upload_time": "2022-06-29T01:47:38",
+        "upload_time_iso_8601": "2022-06-29T01:47:38.776934Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.4.post1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.3.4.post1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.6",
+        "size": 24693,
+        "upload_time": "2022-07-13T21:02:47",
+        "upload_time_iso_8601": "2022-07-13T21:02:47.580047Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.3.4.post1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.6",
+        "size": 18553,
+        "upload_time": "2022-07-13T21:03:03",
+        "upload_time_iso_8601": "2022-07-13T21:03:03.198515Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.4.post2": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.3.4.post2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25487,
+        "upload_time": "2022-07-23T21:07:54",
+        "upload_time_iso_8601": "2022-07-23T21:07:54.531171Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.3.4.post2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19031,
+        "upload_time": "2022-07-23T21:08:02",
+        "upload_time_iso_8601": "2022-07-23T21:08:02.129037Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.4.post3": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.3.4.post3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25480,
+        "upload_time": "2022-08-04T17:03:13",
+        "upload_time_iso_8601": "2022-08-04T17:03:13.069392Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.3.4.post3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19024,
+        "upload_time": "2022-08-04T17:05:00",
+        "upload_time_iso_8601": "2022-08-04T17:05:00.820974Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25630,
+        "upload_time": "2022-08-26T02:12:18",
+        "upload_time_iso_8601": "2022-08-26T02:12:18.039032Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19120,
+        "upload_time": "2022-08-26T02:13:22",
+        "upload_time_iso_8601": "2022-08-26T02:13:22.843066Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.0.post1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.4.0.post1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25712,
+        "upload_time": "2022-09-27T13:58:57",
+        "upload_time_iso_8601": "2022-09-27T13:58:57.820532Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.4.0.post1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19210,
+        "upload_time": "2022-09-27T13:59:05",
+        "upload_time_iso_8601": "2022-09-27T13:59:05.423509Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25631,
+        "upload_time": "2022-11-30T01:31:52",
+        "upload_time_iso_8601": "2022-11-30T01:31:52.790546Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19113,
+        "upload_time": "2022-11-30T01:31:56",
+        "upload_time_iso_8601": "2022-11-30T01:31:56.717574Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.2": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.4.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25632,
+        "upload_time": "2022-12-23T01:23:37",
+        "upload_time_iso_8601": "2022-12-23T01:23:37.606941Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19163,
+        "upload_time": "2022-12-23T01:23:56",
+        "upload_time_iso_8601": "2022-12-23T01:23:56.224682Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.2.post2": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.4.2.post2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25717,
+        "upload_time": "2023-03-01T18:17:59",
+        "upload_time_iso_8601": "2023-03-01T18:17:59.562736Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.4.2.post2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19193,
+        "upload_time": "2023-03-01T18:18:11",
+        "upload_time_iso_8601": "2023-03-01T18:18:11.096346Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.2.post3": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.4.2.post3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25713,
+        "upload_time": "2023-03-11T13:07:56",
+        "upload_time_iso_8601": "2023-03-11T13:07:56.170401Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.4.2.post3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19199,
+        "upload_time": "2023-03-11T13:08:05",
+        "upload_time_iso_8601": "2023-03-11T13:08:05.806496Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26236,
+        "upload_time": "2023-03-08T01:40:16",
+        "upload_time_iso_8601": "2023-03-08T01:40:16.834038Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19464,
+        "upload_time": "2023-03-08T01:40:22",
+        "upload_time_iso_8601": "2023-03-08T01:40:22.267020Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.0.post1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.5.0.post1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26318,
+        "upload_time": "2023-03-11T12:29:39",
+        "upload_time_iso_8601": "2023-03-11T12:29:39.401702Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.5.0.post1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19560,
+        "upload_time": "2023-03-11T12:29:45",
+        "upload_time_iso_8601": "2023-03-11T12:29:45.093423Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.5.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26378,
+        "upload_time": "2023-06-28T01:47:04",
+        "upload_time_iso_8601": "2023-06-28T01:47:04.766486Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.5.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19569,
+        "upload_time": "2023-06-28T01:47:46",
+        "upload_time_iso_8601": "2023-06-28T01:47:46.623648Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.2": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.5.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26381,
+        "upload_time": "2023-07-08T01:46:58",
+        "upload_time_iso_8601": "2023-07-08T01:46:58.637138Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.5.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19593,
+        "upload_time": "2023-07-08T01:47:00",
+        "upload_time_iso_8601": "2023-07-08T01:47:00.690179Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.2.post1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.5.2.post1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 26509,
+        "upload_time": "2023-08-02T14:55:09",
+        "upload_time_iso_8601": "2023-08-02T14:55:09.953709Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.5.2.post1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 19642,
+        "upload_time": "2023-08-02T14:55:14",
+        "upload_time_iso_8601": "2023-08-02T14:55:14.114365Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.2.post2": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.5.2.post2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25970,
+        "upload_time": "2023-08-04T12:04:12",
+        "upload_time_iso_8601": "2023-08-04T12:04:12.437562Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.5.2.post2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 18692,
+        "upload_time": "2023-08-04T12:04:13",
+        "upload_time_iso_8601": "2023-08-04T12:04:13.590826Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.2.post3": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.5.2.post3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25971,
+        "upload_time": "2023-08-04T12:40:52",
+        "upload_time_iso_8601": "2023-08-04T12:40:52.401749Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.5.2.post3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 18690,
+        "upload_time": "2023-08-04T12:40:53",
+        "upload_time_iso_8601": "2023-08-04T12:40:53.663197Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.4": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.5.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25939,
+        "upload_time": "2023-08-08T01:27:13",
+        "upload_time_iso_8601": "2023-08-08T01:27:13.423696Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.5.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 18639,
+        "upload_time": "2023-08-08T01:27:15",
+        "upload_time_iso_8601": "2023-08-08T01:27:15.563714Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.6.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25938,
+        "upload_time": "2023-08-12T01:18:21",
+        "upload_time_iso_8601": "2023-08-12T01:18:21.011810Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 18626,
+        "upload_time": "2023-08-12T01:18:22",
+        "upload_time_iso_8601": "2023-08-12T01:18:22.002229Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.7.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25748,
+        "upload_time": "2023-10-18T01:34:34",
+        "upload_time_iso_8601": "2023-10-18T01:34:34.330050Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 18410,
+        "upload_time": "2023-10-18T01:34:35",
+        "upload_time_iso_8601": "2023-10-18T01:34:35.715459Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.8.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.8.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25894,
+        "upload_time": "2023-11-30T03:09:45",
+        "upload_time_iso_8601": "2023-11-30T03:09:45.522686Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 18478,
+        "upload_time": "2023-11-30T03:09:47",
+        "upload_time_iso_8601": "2023-11-30T03:09:47.042703Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.9.0": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.9.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.7",
+        "size": 25944,
+        "upload_time": "2023-12-13T20:01:59",
+        "upload_time_iso_8601": "2023-12-13T20:01:59.980450Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.7",
+        "size": 18493,
+        "upload_time": "2023-12-13T20:02:01",
+        "upload_time_iso_8601": "2023-12-13T20:02:01.570180Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.9.1": [
+      {
+        "filename": "types_aiobotocore_comprehendmedical-2.9.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 25822,
+        "upload_time": "2024-01-18T01:23:37",
+        "upload_time_iso_8601": "2024-01-18T01:23:37.102990Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "types-aiobotocore-comprehendmedical-2.9.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 18509,
+        "upload_time": "2024-01-18T01:23:39",
+        "upload_time_iso_8601": "2024-01-18T01:23:39.073352Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

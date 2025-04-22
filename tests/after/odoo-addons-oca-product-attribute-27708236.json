@@ -1,0 +1,1638 @@
+{
+  "info": {
+    "author": null,
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "Framework :: Odoo",
+      "Framework :: Odoo :: 16.0",
+      "Programming Language :: Python"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "odoo-addons-oca-product-attribute",
+    "package_url": "https://pypi.org/project/odoo-addons-oca-product-attribute/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/odoo-addons-oca-product-attribute/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/odoo-addons-oca-product-attribute/16.0.20250228.0/",
+    "requires_dist": [
+      "odoo-addon-base-product-mass-addition<16.1dev,>=16.0dev",
+      "odoo-addon-pos-product-cost-security<16.1dev,>=16.0dev",
+      "odoo-addon-product-abc-classification<16.1dev,>=16.0dev",
+      "odoo-addon-product-abc-classification-sale-stock<16.1dev,>=16.0dev",
+      "odoo-addon-product-assortment<16.1dev,>=16.0dev",
+      "odoo-addon-product-attachment-zipped-download<16.1dev,>=16.0dev",
+      "odoo-addon-product-attribute-archive<16.1dev,>=16.0dev",
+      "odoo-addon-product-attribute-company-favorite<16.1dev,>=16.0dev",
+      "odoo-addon-product-attribute-model-link<16.1dev,>=16.0dev",
+      "odoo-addon-product-attribute-value-menu<16.1dev,>=16.0dev",
+      "odoo-addon-product-category-active<16.1dev,>=16.0dev",
+      "odoo-addon-product-category-code<16.1dev,>=16.0dev",
+      "odoo-addon-product-category-code-unique<16.1dev,>=16.0dev",
+      "odoo-addon-product-category-description<16.1dev,>=16.0dev",
+      "odoo-addon-product-category-hr-department<16.1dev,>=16.0dev",
+      "odoo-addon-product-category-level<16.1dev,>=16.0dev",
+      "odoo-addon-product-category-product-qty<16.1dev,>=16.0dev",
+      "odoo-addon-product-category-type<16.1dev,>=16.0dev",
+      "odoo-addon-product-code-mandatory<16.1dev,>=16.0dev",
+      "odoo-addon-product-code-mixin<16.1dev,>=16.0dev",
+      "odoo-addon-product-code-regex-validation<16.1dev,>=16.0dev",
+      "odoo-addon-product-code-unique<16.1dev,>=16.0dev",
+      "odoo-addon-product-company-default<16.1dev,>=16.0dev",
+      "odoo-addon-product-cost-security<16.1dev,>=16.0dev",
+      "odoo-addon-product-country-restriction<16.1dev,>=16.0dev",
+      "odoo-addon-product-dimension<16.1dev,>=16.0dev",
+      "odoo-addon-product-english-name<16.1dev,>=16.0dev",
+      "odoo-addon-product-expiry-configurable<16.1dev,>=16.0dev",
+      "odoo-addon-product-get-price-helper<16.1dev,>=16.0dev",
+      "odoo-addon-product-internal-reference-generator<16.1dev,>=16.0dev",
+      "odoo-addon-product-logistics-uom<16.1dev,>=16.0dev",
+      "odoo-addon-product-lot-sequence<16.1dev,>=16.0dev",
+      "odoo-addon-product-main-supplierinfo<16.1dev,>=16.0dev",
+      "odoo-addon-product-manufacturer<16.1dev,>=16.0dev",
+      "odoo-addon-product-multi-category<16.1dev,>=16.0dev",
+      "odoo-addon-product-net-weight<16.1dev,>=16.0dev",
+      "odoo-addon-product-optional-product-quantity<16.1dev,>=16.0dev",
+      "odoo-addon-product-origin<16.1dev,>=16.0dev",
+      "odoo-addon-product-packaging-container-deposit<16.1dev,>=16.0dev",
+      "odoo-addon-product-packaging-dimension<16.1dev,>=16.0dev",
+      "odoo-addon-product-packaging-level<16.1dev,>=16.0dev",
+      "odoo-addon-product-packaging-level-purchasable<16.1dev,>=16.0dev",
+      "odoo-addon-product-packaging-level-salable<16.1dev,>=16.0dev",
+      "odoo-addon-product-pricelist-alternative<16.1dev,>=16.0dev",
+      "odoo-addon-product-pricelist-direct-print<16.1dev,>=16.0dev",
+      "odoo-addon-product-pricelist-direct-print-company-group<16.1dev,>=16.0dev",
+      "odoo-addon-product-pricelist-direct-print-website-sale<16.1dev,>=16.0dev",
+      "odoo-addon-product-pricelist-direct-print-xlsx<16.1dev,>=16.0dev",
+      "odoo-addon-product-pricelist-fixed-currency-rate<16.1dev,>=16.0dev",
+      "odoo-addon-product-pricelist-item-list-view<16.1dev,>=16.0dev",
+      "odoo-addon-product-pricelist-revision<16.1dev,>=16.0dev",
+      "odoo-addon-product-pricelist-simulation<16.1dev,>=16.0dev",
+      "odoo-addon-product-pricelist-simulation-margin<16.1dev,>=16.0dev",
+      "odoo-addon-product-pricelist-supplierinfo<16.1dev,>=16.0dev",
+      "odoo-addon-product-print-category<16.1dev,>=16.0dev",
+      "odoo-addon-product-product-template-link<16.1dev,>=16.0dev",
+      "odoo-addon-product-profile<16.1dev,>=16.0dev",
+      "odoo-addon-product-route-mto<16.1dev,>=16.0dev",
+      "odoo-addon-product-sale-description<16.1dev,>=16.0dev",
+      "odoo-addon-product-secondary-unit<16.1dev,>=16.0dev",
+      "odoo-addon-product-sequence<16.1dev,>=16.0dev",
+      "odoo-addon-product-set<16.1dev,>=16.0dev",
+      "odoo-addon-product-simple-seasonality<16.1dev,>=16.0dev",
+      "odoo-addon-product-standard-price-tax-included<16.1dev,>=16.0dev",
+      "odoo-addon-product-state<16.1dev,>=16.0dev",
+      "odoo-addon-product-sticker<16.1dev,>=16.0dev",
+      "odoo-addon-product-stock-state<16.1dev,>=16.0dev",
+      "odoo-addon-product-supplierinfo-archive<16.1dev,>=16.0dev",
+      "odoo-addon-product-supplierinfo-code<16.1dev,>=16.0dev",
+      "odoo-addon-product-supplierinfo-for-customer<16.1dev,>=16.0dev",
+      "odoo-addon-product-supplierinfo-import-by-barcode<16.1dev,>=16.0dev",
+      "odoo-addon-product-supplierinfo-revision<16.1dev,>=16.0dev",
+      "odoo-addon-product-supplierinfo-stock-picking-type<16.1dev,>=16.0dev",
+      "odoo-addon-product-template-has-one-variant<16.1dev,>=16.0dev",
+      "odoo-addon-product-template-tags<16.1dev,>=16.0dev",
+      "odoo-addon-product-total-weight-from-packaging<16.1dev,>=16.0dev",
+      "odoo-addon-product-uom-measure-type<16.1dev,>=16.0dev",
+      "odoo-addon-product-uom-po-domain<16.1dev,>=16.0dev",
+      "odoo-addon-product-uom-updatable<16.1dev,>=16.0dev",
+      "odoo-addon-product-uom-use-type<16.1dev,>=16.0dev",
+      "odoo-addon-product-usability<16.1dev,>=16.0dev",
+      "odoo-addon-product-variant-attribute-name-manager<16.1dev,>=16.0dev",
+      "odoo-addon-purchase-product-template-tags<16.1dev,>=16.0dev",
+      "odoo-addon-sale-product-template-tags<16.1dev,>=16.0dev",
+      "odoo-addon-stock-lot-is-archived<16.1dev,>=16.0dev",
+      "odoo-addon-stock-product-template-tags<16.1dev,>=16.0dev",
+      "odoo-addon-stock-production-lot-expired-date<16.1dev,>=16.0dev",
+      "odoo-addon-uom-category-active<16.1dev,>=16.0dev"
+    ],
+    "requires_python": null,
+    "summary": "Meta package for oca-product-attribute Odoo addons",
+    "version": "16.0.20250228.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27708236,
+  "releases": {
+    "15.0.20211125.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20211125.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1438,
+        "upload_time": "2021-11-26T04:31:57",
+        "upload_time_iso_8601": "2021-11-26T04:31:57.982296Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220111.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220111.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1451,
+        "upload_time": "2022-01-12T04:12:11",
+        "upload_time_iso_8601": "2022-01-12T04:12:11.069181Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220126.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220126.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1463,
+        "upload_time": "2022-01-27T04:21:07",
+        "upload_time_iso_8601": "2022-01-27T04:21:07.181118Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220127.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220127.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1471,
+        "upload_time": "2022-01-28T04:09:53",
+        "upload_time_iso_8601": "2022-01-28T04:09:53.380638Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220204.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220204.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1477,
+        "upload_time": "2022-02-05T04:12:00",
+        "upload_time_iso_8601": "2022-02-05T04:12:00.302336Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220211.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220211.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1491,
+        "upload_time": "2022-02-12T04:12:12",
+        "upload_time_iso_8601": "2022-02-12T04:12:12.006496Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220218.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220218.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1495,
+        "upload_time": "2022-02-19T04:16:08",
+        "upload_time_iso_8601": "2022-02-19T04:16:08.465535Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220309.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220309.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1507,
+        "upload_time": "2022-03-10T04:15:57",
+        "upload_time_iso_8601": "2022-03-10T04:15:57.714416Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220310.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220310.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1508,
+        "upload_time": "2022-03-11T04:15:21",
+        "upload_time_iso_8601": "2022-03-11T04:15:21.354399Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220322.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220322.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1520,
+        "upload_time": "2022-03-23T04:14:47",
+        "upload_time_iso_8601": "2022-03-23T04:14:47.300381Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220407.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220407.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1531,
+        "upload_time": "2022-04-08T03:58:22",
+        "upload_time_iso_8601": "2022-04-08T03:58:22.401316Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220526.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220526.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1542,
+        "upload_time": "2022-05-27T04:03:44",
+        "upload_time_iso_8601": "2022-05-27T04:03:44.417682Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220529.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220529.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1551,
+        "upload_time": "2022-05-30T04:01:18",
+        "upload_time_iso_8601": "2022-05-30T04:01:18.787793Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220614.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220614.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1556,
+        "upload_time": "2022-06-15T04:04:00",
+        "upload_time_iso_8601": "2022-06-15T04:04:00.785604Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220616.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220616.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1560,
+        "upload_time": "2022-06-17T04:03:45",
+        "upload_time_iso_8601": "2022-06-17T04:03:45.053224Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220703.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220703.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1564,
+        "upload_time": "2022-07-04T04:10:14",
+        "upload_time_iso_8601": "2022-07-04T04:10:14.995710Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220707.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220707.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1579,
+        "upload_time": "2022-07-08T04:12:29",
+        "upload_time_iso_8601": "2022-07-08T04:12:29.182760Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220721.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220721.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1586,
+        "upload_time": "2022-07-22T04:13:32",
+        "upload_time_iso_8601": "2022-07-22T04:13:32.286126Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220801.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220801.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1607,
+        "upload_time": "2022-08-02T04:14:23",
+        "upload_time_iso_8601": "2022-08-02T04:14:23.728673Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220802.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220802.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1613,
+        "upload_time": "2022-08-03T04:12:18",
+        "upload_time_iso_8601": "2022-08-03T04:12:18.199530Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220811.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220811.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1621,
+        "upload_time": "2022-08-12T04:12:21",
+        "upload_time_iso_8601": "2022-08-12T04:12:21.728261Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220825.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220825.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1627,
+        "upload_time": "2022-08-26T04:18:04",
+        "upload_time_iso_8601": "2022-08-26T04:18:04.464707Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220902.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220902.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1639,
+        "upload_time": "2022-09-03T04:14:05",
+        "upload_time_iso_8601": "2022-09-03T04:14:05.768071Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20220920.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20220920.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1647,
+        "upload_time": "2022-09-21T04:14:58",
+        "upload_time_iso_8601": "2022-09-21T04:14:58.920538Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20221020.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20221020.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1656,
+        "upload_time": "2022-10-21T04:16:39",
+        "upload_time_iso_8601": "2022-10-21T04:16:39.124262Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20221023.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20221023.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1664,
+        "upload_time": "2022-10-24T04:19:24",
+        "upload_time_iso_8601": "2022-10-24T04:19:24.174112Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20221115.1": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20221115.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1675,
+        "upload_time": "2022-11-16T06:14:03",
+        "upload_time_iso_8601": "2022-11-16T06:14:03.936594Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20221126.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20221126.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1683,
+        "upload_time": "2022-11-27T05:21:05",
+        "upload_time_iso_8601": "2022-11-27T05:21:05.983762Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20221221.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20221221.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1690,
+        "upload_time": "2022-12-22T04:53:59",
+        "upload_time_iso_8601": "2022-12-22T04:53:59.923427Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20221230.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20221230.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1694,
+        "upload_time": "2022-12-31T06:30:33",
+        "upload_time_iso_8601": "2022-12-31T06:30:33.778523Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230111.1": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230111.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1717,
+        "upload_time": "2023-01-12T06:15:20",
+        "upload_time_iso_8601": "2023-01-12T06:15:20.205249Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230114.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230114.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1724,
+        "upload_time": "2023-01-15T06:04:31",
+        "upload_time_iso_8601": "2023-01-15T06:04:31.397853Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230116.1": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230116.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1735,
+        "upload_time": "2023-01-17T06:00:36",
+        "upload_time_iso_8601": "2023-01-17T06:00:36.360711Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230127.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230127.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1748,
+        "upload_time": "2023-01-28T06:42:11",
+        "upload_time_iso_8601": "2023-01-28T06:42:11.012220Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230206.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230206.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1755,
+        "upload_time": "2023-02-07T06:25:12",
+        "upload_time_iso_8601": "2023-02-07T06:25:12.286246Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230209.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230209.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1761,
+        "upload_time": "2023-02-10T06:24:38",
+        "upload_time_iso_8601": "2023-02-10T06:24:38.223908Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230215.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230215.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1761,
+        "upload_time": "2023-02-16T07:05:31",
+        "upload_time_iso_8601": "2023-02-16T07:05:31.520054Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230308.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230308.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1768,
+        "upload_time": "2023-03-09T06:28:39",
+        "upload_time_iso_8601": "2023-03-09T06:28:39.361628Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230405.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230405.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1781,
+        "upload_time": "2023-04-06T06:19:37",
+        "upload_time_iso_8601": "2023-04-06T06:19:37.699169Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230410.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230410.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1787,
+        "upload_time": "2023-04-11T06:41:02",
+        "upload_time_iso_8601": "2023-04-11T06:41:02.540840Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230622.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230622.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1791,
+        "upload_time": "2023-06-23T04:34:09",
+        "upload_time_iso_8601": "2023-06-23T04:34:09.390666Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230906.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230906.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1791,
+        "upload_time": "2023-09-07T04:15:26",
+        "upload_time_iso_8601": "2023-09-07T04:15:26.407329Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20230922.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20230922.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1797,
+        "upload_time": "2023-09-23T04:22:14",
+        "upload_time_iso_8601": "2023-09-23T04:22:14.238167Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20231106.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20231106.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1804,
+        "upload_time": "2023-11-07T05:21:52",
+        "upload_time_iso_8601": "2023-11-07T05:21:52.334376Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20240207.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20240207.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1824,
+        "upload_time": "2024-02-08T05:56:38",
+        "upload_time_iso_8601": "2024-02-08T05:56:38.101628Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20240415.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20240415.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1842,
+        "upload_time": "2024-04-16T06:19:29",
+        "upload_time_iso_8601": "2024-04-16T06:19:29.348317Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20240523.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20240523.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1851,
+        "upload_time": "2024-05-24T06:38:15",
+        "upload_time_iso_8601": "2024-05-24T06:38:15.592828Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20240923.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20240923.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1834,
+        "upload_time": "2024-09-24T03:54:46",
+        "upload_time_iso_8601": "2024-09-24T03:54:46.219419Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "15.0.20241014.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-15.0.20241014.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1842,
+        "upload_time": "2024-10-15T03:57:13",
+        "upload_time_iso_8601": "2024-10-15T03:57:13.306170Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20221016.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20221016.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1428,
+        "upload_time": "2022-10-17T04:35:35",
+        "upload_time_iso_8601": "2022-10-17T04:35:35.387968Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20221019.2": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20221019.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1462,
+        "upload_time": "2022-10-20T04:15:01",
+        "upload_time_iso_8601": "2022-10-20T04:15:01.439615Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20221024.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20221024.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1470,
+        "upload_time": "2022-10-25T04:19:12",
+        "upload_time_iso_8601": "2022-10-25T04:19:12.407233Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20221025.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20221025.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1485,
+        "upload_time": "2022-10-26T04:17:10",
+        "upload_time_iso_8601": "2022-10-26T04:17:10.691193Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20221121.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20221121.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1488,
+        "upload_time": "2022-11-22T04:48:55",
+        "upload_time_iso_8601": "2022-11-22T04:48:55.719120Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20221122.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20221122.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1491,
+        "upload_time": "2022-11-23T05:05:54",
+        "upload_time_iso_8601": "2022-11-23T05:05:54.264423Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20221205.1": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20221205.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1505,
+        "upload_time": "2022-12-06T04:55:31",
+        "upload_time_iso_8601": "2022-12-06T04:55:31.729150Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20221230.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20221230.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1518,
+        "upload_time": "2022-12-31T06:31:11",
+        "upload_time_iso_8601": "2022-12-31T06:31:11.674199Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230210.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230210.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1537,
+        "upload_time": "2023-02-11T06:33:07",
+        "upload_time_iso_8601": "2023-02-11T06:33:07.883548Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230215.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230215.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1543,
+        "upload_time": "2023-02-16T07:06:07",
+        "upload_time_iso_8601": "2023-02-16T07:06:07.752889Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230317.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230317.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1561,
+        "upload_time": "2023-03-19T07:04:52",
+        "upload_time_iso_8601": "2023-03-19T07:04:52.832685Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230329.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230329.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1570,
+        "upload_time": "2023-03-30T06:34:56",
+        "upload_time_iso_8601": "2023-03-30T06:34:56.701359Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230403.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230403.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1592,
+        "upload_time": "2023-04-04T06:12:23",
+        "upload_time_iso_8601": "2023-04-04T06:12:23.358492Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230420.2": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230420.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1616,
+        "upload_time": "2023-04-21T05:58:04",
+        "upload_time_iso_8601": "2023-04-21T05:58:04.701979Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230425.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230425.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1626,
+        "upload_time": "2023-04-26T05:57:49",
+        "upload_time_iso_8601": "2023-04-26T05:57:49.636335Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230427.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230427.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1634,
+        "upload_time": "2023-04-28T06:20:59",
+        "upload_time_iso_8601": "2023-04-28T06:20:59.405275Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230531.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230531.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1651,
+        "upload_time": "2023-06-01T07:23:33",
+        "upload_time_iso_8601": "2023-06-01T07:23:33.967024Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230606.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230606.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1658,
+        "upload_time": "2023-06-07T04:35:57",
+        "upload_time_iso_8601": "2023-06-07T04:35:57.025592Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230607.2": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230607.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1687,
+        "upload_time": "2023-06-08T04:47:47",
+        "upload_time_iso_8601": "2023-06-08T04:47:47.348463Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230620.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230620.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1692,
+        "upload_time": "2023-06-21T04:35:52",
+        "upload_time_iso_8601": "2023-06-21T04:35:52.486488Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230623.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230623.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1710,
+        "upload_time": "2023-06-24T04:38:55",
+        "upload_time_iso_8601": "2023-06-24T04:38:55.777470Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230625.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230625.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1711,
+        "upload_time": "2023-06-26T04:36:17",
+        "upload_time_iso_8601": "2023-06-26T04:36:17.839716Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230629.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230629.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1719,
+        "upload_time": "2023-06-30T05:32:19",
+        "upload_time_iso_8601": "2023-06-30T05:32:19.793906Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230712.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230712.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1725,
+        "upload_time": "2023-07-13T04:42:04",
+        "upload_time_iso_8601": "2023-07-13T04:42:04.933916Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230718.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230718.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1728,
+        "upload_time": "2023-07-19T04:47:09",
+        "upload_time_iso_8601": "2023-07-19T04:47:09.940598Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230808.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230808.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1732,
+        "upload_time": "2023-08-09T04:38:51",
+        "upload_time_iso_8601": "2023-08-09T04:38:51.368538Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230901.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230901.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1742,
+        "upload_time": "2023-09-02T04:29:24",
+        "upload_time_iso_8601": "2023-09-02T04:29:24.100906Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230918.2": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230918.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1765,
+        "upload_time": "2023-09-19T04:06:29",
+        "upload_time_iso_8601": "2023-09-19T04:06:29.043075Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230920.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230920.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1770,
+        "upload_time": "2023-09-21T04:55:08",
+        "upload_time_iso_8601": "2023-09-21T04:55:08.892775Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230922.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230922.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1778,
+        "upload_time": "2023-09-23T04:23:00",
+        "upload_time_iso_8601": "2023-09-23T04:23:00.623582Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20230925.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20230925.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1789,
+        "upload_time": "2023-09-26T04:21:25",
+        "upload_time_iso_8601": "2023-09-26T04:21:25.289297Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20231009.1": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20231009.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1807,
+        "upload_time": "2023-10-11T05:44:34",
+        "upload_time_iso_8601": "2023-10-11T05:44:34.502586Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20231024.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20231024.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1819,
+        "upload_time": "2023-10-25T04:17:54",
+        "upload_time_iso_8601": "2023-10-25T04:17:54.035802Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20231030.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20231030.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1822,
+        "upload_time": "2023-10-31T05:29:20",
+        "upload_time_iso_8601": "2023-10-31T05:29:20.119471Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20231031.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20231031.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1823,
+        "upload_time": "2023-11-01T05:21:24",
+        "upload_time_iso_8601": "2023-11-01T05:21:24.913288Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20231106.3": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20231106.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1850,
+        "upload_time": "2023-11-07T05:23:36",
+        "upload_time_iso_8601": "2023-11-07T05:23:36.030692Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240104.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240104.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1949,
+        "upload_time": "2024-01-20T05:41:10",
+        "upload_time_iso_8601": "2024-01-20T05:41:10.681731Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240228.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240228.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1960,
+        "upload_time": "2024-02-29T05:39:56",
+        "upload_time_iso_8601": "2024-02-29T05:39:56.827409Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240311.4": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240311.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2006,
+        "upload_time": "2024-03-12T05:44:42",
+        "upload_time_iso_8601": "2024-03-12T05:44:42.410718Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240328.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240328.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2015,
+        "upload_time": "2024-03-29T06:45:29",
+        "upload_time_iso_8601": "2024-03-29T06:45:29.814359Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240415.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240415.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2022,
+        "upload_time": "2024-04-16T06:21:46",
+        "upload_time_iso_8601": "2024-04-16T06:21:46.413011Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240507.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240507.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2033,
+        "upload_time": "2024-05-08T05:33:45",
+        "upload_time_iso_8601": "2024-05-08T05:33:45.357806Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240511.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240511.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2040,
+        "upload_time": "2024-05-12T05:41:35",
+        "upload_time_iso_8601": "2024-05-12T05:41:35.624147Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240517.1": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240517.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2063,
+        "upload_time": "2024-05-18T05:48:58",
+        "upload_time_iso_8601": "2024-05-18T05:48:58.472797Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240529.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240529.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2070,
+        "upload_time": "2024-05-30T05:10:05",
+        "upload_time_iso_8601": "2024-05-30T05:10:05.433354Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240618.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240618.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2081,
+        "upload_time": "2024-06-19T07:12:00",
+        "upload_time_iso_8601": "2024-06-19T07:12:00.042766Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240731.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240731.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2061,
+        "upload_time": "2024-08-01T04:05:29",
+        "upload_time_iso_8601": "2024-08-01T04:05:29.750432Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240802.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240802.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2069,
+        "upload_time": "2024-08-03T03:59:59",
+        "upload_time_iso_8601": "2024-08-03T03:59:59.680619Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240827.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240827.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2083,
+        "upload_time": "2024-08-28T03:53:07",
+        "upload_time_iso_8601": "2024-08-28T03:53:07.478282Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20240903.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20240903.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2093,
+        "upload_time": "2024-09-04T03:55:06",
+        "upload_time_iso_8601": "2024-09-04T03:55:06.758619Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20241014.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20241014.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2097,
+        "upload_time": "2024-10-15T03:58:42",
+        "upload_time_iso_8601": "2024-10-15T03:58:42.807324Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20241106.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20241106.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2101,
+        "upload_time": "2024-11-07T03:59:18",
+        "upload_time_iso_8601": "2024-11-07T03:59:18.624312Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20241130.1": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20241130.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2128,
+        "upload_time": "2024-12-01T03:18:44",
+        "upload_time_iso_8601": "2024-12-01T03:18:44.161929Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20241216.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20241216.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2138,
+        "upload_time": "2024-12-17T03:19:11",
+        "upload_time_iso_8601": "2024-12-17T03:19:11.646464Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20250115.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20250115.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2145,
+        "upload_time": "2025-01-16T03:19:18",
+        "upload_time_iso_8601": "2025-01-16T03:19:18.321193Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20250116.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20250116.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2162,
+        "upload_time": "2025-01-17T03:19:31",
+        "upload_time_iso_8601": "2025-01-17T03:19:31.326752Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20250203.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20250203.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2169,
+        "upload_time": "2025-02-04T03:19:44",
+        "upload_time_iso_8601": "2025-02-04T03:19:44.225482Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20250209.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20250209.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2174,
+        "upload_time": "2025-02-10T03:22:17",
+        "upload_time_iso_8601": "2025-02-10T03:22:17.967105Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "16.0.20250228.0": [
+      {
+        "filename": "odoo_addons_oca_product_attribute-16.0.20250228.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 2175,
+        "upload_time": "2025-03-01T03:20:24",
+        "upload_time_iso_8601": "2025-03-01T03:20:24.730242Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

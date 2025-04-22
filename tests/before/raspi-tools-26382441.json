@@ -1,0 +1,283 @@
+{
+  "info": {
+    "author": "Elijah M",
+    "author_email": "gichiam22@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Operating System :: POSIX :: Linux",
+      "Programming Language :: Python :: 3",
+      "Topic :: System :: Hardware :: Hardware Drivers"
+    ],
+    "description": "# raspi-tools: Raspberry Pi Utility Library\n\n`raspi-tools` is a Python library that simplifies working with GPS modules, GPIO pins, and other Raspberry Pi functionalities. It includes components to manage GPS data, interact with GPIO pins, and more.\n\n---\n\n## Features\n\n1. **GPS Module (`GPSManager`)**\n\n   - Fetch GPS data using `gpsd`.\n   - Save GPS data to a database (`TinyDB`).\n   - Retrieve the last known GPS location.\n\n2. **GPIO Module (`BoardLED`)**\n   - Control Raspberry Pi’s built-in board LED.\n   - Flash, turn on, or turn off the LED.\n\n---\n\n## Installation\n\n### 1. Prerequisites\n\n#### Hardware Setup:\n\n- A Raspberry Pi with a GPS module (e.g. Neo6 GPS) connected to the UART port.\n\n#### System Dependencies:\n\n- Install `gpsd` and related tools:\n  ```bash\n  sudo apt update\n  sudo apt install gpsd gpsd-clients python3-gps -y\n  ```\n\n#### Configure `gpsd`:\n\n1. Open the `gpsd` configuration file:\n   ```bash\n   sudo nano /etc/default/gpsd\n   ```\n2. Update the following fields:\n   ```plaintext\n   DEVICES=\"/dev/serial0\"\n   GPSD_OPTIONS=\"-n\"\n   ```\n3. Restart `gpsd`:\n   ```bash\n   sudo systemctl restart gpsd\n   ```\n\n#### Verify GPS Functionality:\n\n1. Test with `cgps`:\n   ```bash\n   cgps -s\n   ```\n2. Check the `gpsd` service status:\n   ```bash\n   sudo systemctl status gpsd\n   ```\n\n---\n\n### 2. Library Installation\n\n#### Install from PyPI:\n\n```bash\npip install raspi-tools\n```\n\n#### Install from Source:\n\n1. Clone the repository:\n   ```bash\n   git clone <repository_url>\n   cd raspi-tools\n   ```\n2. Build and install:\n   ```bash\n   python3 -m build\n   pip install dist/raspi_tools-1.0.0.tar.gz\n   ```\n\n---\n\n## Usage\n\n### 1. GPSManager\n\n#### Fetch and Save GPS Data\n\n```python\nfrom raspi_tools import GPSManager\n\n# Initialize GPSManager\ngps_manager = GPSManager()\n\n# Fetch and save GPS data\ngps_manager.run()\n```\n\n#### Retrieve Last Known Location\n\n```python\n# Get the last saved GPS data\nlast_data = gps_manager.get_last_gps_data()\n\nif last_data:\n    print(f\"Latitude: {last_data.latitude}\")\n    print(f\"Longitude: {last_data.longitude}\")\nelse:\n    print(\"No GPS data available.\")\n```\n\n---\n\n### 2. BoardLED\n\n#### Control Raspberry Pi Board LED\n\n```python\nfrom raspi_tools import BoardLED\n\n# Initialize the LED manager\nled = BoardLED()\n\n# Turn the LED on\nled.on()\n\n# Turn the LED off\nled.off()\n\n# Flash the LED 5 times\nled.flash(times=5, interval=0.2)\n```\n\n---\n\n## Advanced Configuration\n\n### GPSManager Initialization\n\nYou can specify custom paths or configurations for GPS data storage:\n\n```python\ngps_manager = GPSManager(db_path=\"/custom/path/gps_data.json\", gpio_pin=20, timeout=300)\n```\n\n### BoardLED Initialization\n\nCustomize LED operations for different GPIO pins or external LEDs:\n\n```python\nled = BoardLED(pin=21)\nled.flash(times=3, interval=1.0)\n```\n\n---\n\n## FAQs\n\n### 1. Why is my GPS not providing data?\n\n- Ensure the GPS module is properly connected to the UART port.\n- Verify `gpsd` is running:\n  ```bash\n  sudo systemctl status gpsd\n  ```\n- Test GPS functionality with:\n  ```bash\n  cgps -s\n  ```\n\n### 2. How do I clear GPS data from the database?\n\nTo clear all stored GPS data:\n\n```python\nfrom tinydb import TinyDB\ndb = TinyDB('/path/to/gps_data.json')\ndb.truncate()\n```\n\n---\n\n## Troubleshooting\n\n1. **GPIO Errors**:\n\n   - If you encounter `GPIO not allocated`, ensure proper cleanup:\n     ```python\n     import RPi.GPIO as GPIO\n     GPIO.cleanup()\n     ```\n\n2. **GPS Fix Timeout**:\n\n   - Increase the timeout when fetching GPS data:\n     ```python\n     gps_manager = GPSManager(timeout=600)\n     gps_manager.run()\n     ```\n\n3. **Permissions Issues**:\n   - Ensure the script is run with appropriate permissions:\n     ```bash\n     sudo python3 your_script.py\n     ```\n\n---\n\n## Contributing\n\n1. Fork the repository.\n2. Create a new feature branch:\n   ```bash\n   git checkout -b feature-name\n   ```\n3. Make your changes and commit:\n   ```bash\n   git commit -m \"Description of changes\"\n   ```\n4. Push to the branch and open a pull request.\n\n---\n\n## License\n\nThis project is licensed under the MIT License.\n",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": null,
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "raspi-tools",
+    "package_url": "https://pypi.org/project/raspi-tools/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/raspi-tools/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/raspi-tools/1.0.8/",
+    "requires_dist": [
+      "gps",
+      "tinydb",
+      "tqdm"
+    ],
+    "requires_python": null,
+    "summary": "A Python library for Raspberry Pi tools including GPS and board LED utilities.",
+    "version": "1.0.8",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 26382441,
+  "releases": {
+    "1.0.0": [
+      {
+        "filename": "raspi_tools-1.0.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 1378,
+        "upload_time": "2024-12-06T02:48:09",
+        "upload_time_iso_8601": "2024-12-06T02:48:09.937450Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 1416,
+        "upload_time": "2024-12-06T02:48:11",
+        "upload_time_iso_8601": "2024-12-06T02:48:11.722649Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.1": [
+      {
+        "filename": "raspi_tools-1.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4076,
+        "upload_time": "2024-12-06T03:02:42",
+        "upload_time_iso_8601": "2024-12-06T03:02:42.797830Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3665,
+        "upload_time": "2024-12-06T03:02:44",
+        "upload_time_iso_8601": "2024-12-06T03:02:44.530854Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.2": [
+      {
+        "filename": "raspi_tools-1.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4118,
+        "upload_time": "2024-12-06T03:09:30",
+        "upload_time_iso_8601": "2024-12-06T03:09:30.167180Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3676,
+        "upload_time": "2024-12-06T03:09:31",
+        "upload_time_iso_8601": "2024-12-06T03:09:31.753672Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.3": [
+      {
+        "filename": "raspi_tools-1.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4103,
+        "upload_time": "2024-12-06T03:12:47",
+        "upload_time_iso_8601": "2024-12-06T03:12:47.455136Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3655,
+        "upload_time": "2024-12-06T03:12:49",
+        "upload_time_iso_8601": "2024-12-06T03:12:49.024861Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.4": [
+      {
+        "filename": "raspi_tools-1.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4129,
+        "upload_time": "2024-12-06T03:15:50",
+        "upload_time_iso_8601": "2024-12-06T03:15:50.770958Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3652,
+        "upload_time": "2024-12-06T03:15:52",
+        "upload_time_iso_8601": "2024-12-06T03:15:52.324269Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.5": [
+      {
+        "filename": "raspi_tools-1.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4140,
+        "upload_time": "2024-12-06T03:22:56",
+        "upload_time_iso_8601": "2024-12-06T03:22:56.755075Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3680,
+        "upload_time": "2024-12-06T03:22:58",
+        "upload_time_iso_8601": "2024-12-06T03:22:58.299255Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.6": [
+      {
+        "filename": "raspi_tools-1.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4428,
+        "upload_time": "2024-12-06T03:29:55",
+        "upload_time_iso_8601": "2024-12-06T03:29:55.447884Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 3957,
+        "upload_time": "2024-12-06T03:29:57",
+        "upload_time_iso_8601": "2024-12-06T03:29:57.094320Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.7": [
+      {
+        "filename": "raspi_tools-1.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 4587,
+        "upload_time": "2024-12-06T03:41:03",
+        "upload_time_iso_8601": "2024-12-06T03:41:03.387621Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 4123,
+        "upload_time": "2024-12-06T03:41:04",
+        "upload_time_iso_8601": "2024-12-06T03:41:04.841865Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.8": [
+      {
+        "filename": "raspi_tools-1.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6033,
+        "upload_time": "2024-12-06T03:56:01",
+        "upload_time_iso_8601": "2024-12-06T03:56:01.879928Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "raspi_tools-1.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 5523,
+        "upload_time": "2024-12-06T03:56:03",
+        "upload_time_iso_8601": "2024-12-06T03:56:03.496571Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

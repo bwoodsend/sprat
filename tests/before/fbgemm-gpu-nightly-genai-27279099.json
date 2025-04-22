@@ -1,0 +1,369 @@
+{
+  "info": {
+    "author": "FBGEMM Team",
+    "author_email": "packages@pytorch.org",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: BSD License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Scientific/Engineering :: Artificial Intelligence"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Classifier",
+      "Description",
+      "Description-Content-Type",
+      "Home-Page",
+      "Keywords",
+      "License",
+      "Requires-Dist"
+    ],
+    "home_page": "https://github.com/pytorch/fbgemm",
+    "keywords": "PyTorch, Recommendation Models, High Performance Computing, GPU, CUDA",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "fbgemm-gpu-nightly-genai",
+    "package_url": "https://pypi.org/project/fbgemm-gpu-nightly-genai/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/fbgemm-gpu-nightly-genai/",
+    "project_urls": {
+      "Homepage": "https://github.com/pytorch/fbgemm"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/fbgemm-gpu-nightly-genai/2025.2.4/",
+    "requires_dist": [
+      "numpy"
+    ],
+    "requires_python": null,
+    "summary": null,
+    "version": "2025.2.4",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27279099,
+  "releases": {
+    "2025.1.30": [
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.1.30-cp310-cp310-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp310",
+        "requires_python": null,
+        "size": 6021146,
+        "upload_time": "2025-01-30T13:22:42",
+        "upload_time_iso_8601": "2025-01-30T13:22:42.457045Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.1.30-cp311-cp311-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp311",
+        "requires_python": null,
+        "size": 5894828,
+        "upload_time": "2025-01-30T13:22:08",
+        "upload_time_iso_8601": "2025-01-30T13:22:08.389629Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.1.30-cp312-cp312-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp312",
+        "requires_python": null,
+        "size": 5894818,
+        "upload_time": "2025-01-30T13:30:32",
+        "upload_time_iso_8601": "2025-01-30T13:30:32.637839Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.1.30-cp313-cp313-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp313",
+        "requires_python": null,
+        "size": 5894826,
+        "upload_time": "2025-01-30T13:32:13",
+        "upload_time_iso_8601": "2025-01-30T13:32:13.237453Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.1.30-cp39-cp39-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp39",
+        "requires_python": null,
+        "size": 6021113,
+        "upload_time": "2025-01-30T13:32:58",
+        "upload_time_iso_8601": "2025-01-30T13:32:58.729640Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2025.1.31": [
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.1.31-cp310-cp310-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp310",
+        "requires_python": null,
+        "size": 6021239,
+        "upload_time": "2025-01-31T13:49:41",
+        "upload_time_iso_8601": "2025-01-31T13:49:41.167905Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.1.31-cp311-cp311-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp311",
+        "requires_python": null,
+        "size": 6021237,
+        "upload_time": "2025-01-31T13:49:20",
+        "upload_time_iso_8601": "2025-01-31T13:49:20.446352Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.1.31-cp312-cp312-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp312",
+        "requires_python": null,
+        "size": 5895275,
+        "upload_time": "2025-01-31T13:49:18",
+        "upload_time_iso_8601": "2025-01-31T13:49:18.978555Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.1.31-cp313-cp313-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp313",
+        "requires_python": null,
+        "size": 6021230,
+        "upload_time": "2025-01-31T13:49:28",
+        "upload_time_iso_8601": "2025-01-31T13:49:28.019700Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.1.31-cp39-cp39-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp39",
+        "requires_python": null,
+        "size": 6021212,
+        "upload_time": "2025-01-31T13:49:34",
+        "upload_time_iso_8601": "2025-01-31T13:49:34.555374Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2025.2.2": [
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.2-cp310-cp310-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp310",
+        "requires_python": null,
+        "size": 6019291,
+        "upload_time": "2025-02-02T13:20:36",
+        "upload_time_iso_8601": "2025-02-02T13:20:36.729795Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.2-cp311-cp311-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp311",
+        "requires_python": null,
+        "size": 6019289,
+        "upload_time": "2025-02-02T13:20:26",
+        "upload_time_iso_8601": "2025-02-02T13:20:26.160867Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.2-cp312-cp312-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp312",
+        "requires_python": null,
+        "size": 5893409,
+        "upload_time": "2025-02-02T13:20:42",
+        "upload_time_iso_8601": "2025-02-02T13:20:42.345651Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.2-cp313-cp313-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp313",
+        "requires_python": null,
+        "size": 6019291,
+        "upload_time": "2025-02-02T13:23:50",
+        "upload_time_iso_8601": "2025-02-02T13:23:50.357844Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.2-cp39-cp39-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp39",
+        "requires_python": null,
+        "size": 5893400,
+        "upload_time": "2025-02-02T13:23:53",
+        "upload_time_iso_8601": "2025-02-02T13:23:53.143062Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2025.2.3": [
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.3-cp310-cp310-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp310",
+        "requires_python": null,
+        "size": 5982959,
+        "upload_time": "2025-02-03T13:24:18",
+        "upload_time_iso_8601": "2025-02-03T13:24:18.165269Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.3-cp311-cp311-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp311",
+        "requires_python": null,
+        "size": 5855942,
+        "upload_time": "2025-02-03T13:24:22",
+        "upload_time_iso_8601": "2025-02-03T13:24:22.988271Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp312",
+        "requires_python": null,
+        "size": 5855934,
+        "upload_time": "2025-02-03T13:24:27",
+        "upload_time_iso_8601": "2025-02-03T13:24:27.533472Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.3-cp313-cp313-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp313",
+        "requires_python": null,
+        "size": 5855932,
+        "upload_time": "2025-02-03T13:24:24",
+        "upload_time_iso_8601": "2025-02-03T13:24:24.344218Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.3-cp39-cp39-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp39",
+        "requires_python": null,
+        "size": 5855921,
+        "upload_time": "2025-02-03T13:24:22",
+        "upload_time_iso_8601": "2025-02-03T13:24:22.156857Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2025.2.4": [
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.4-cp310-cp310-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp310",
+        "requires_python": null,
+        "size": 5990961,
+        "upload_time": "2025-02-04T13:23:56",
+        "upload_time_iso_8601": "2025-02-04T13:23:56.561221Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.4-cp311-cp311-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp311",
+        "requires_python": null,
+        "size": 5862262,
+        "upload_time": "2025-02-04T13:23:45",
+        "upload_time_iso_8601": "2025-02-04T13:23:45.875503Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.4-cp312-cp312-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp312",
+        "requires_python": null,
+        "size": 5862266,
+        "upload_time": "2025-02-04T13:23:53",
+        "upload_time_iso_8601": "2025-02-04T13:23:53.161179Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.4-cp313-cp313-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp313",
+        "requires_python": null,
+        "size": 5862258,
+        "upload_time": "2025-02-04T13:23:53",
+        "upload_time_iso_8601": "2025-02-04T13:23:53.296322Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "fbgemm_gpu_nightly_genai-2025.2.4-cp39-cp39-manylinux_2_28_x86_64.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "cp39",
+        "requires_python": null,
+        "size": 5862283,
+        "upload_time": "2025-02-04T13:23:52",
+        "upload_time_iso_8601": "2025-02-04T13:23:52.362477Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

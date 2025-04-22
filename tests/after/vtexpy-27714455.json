@@ -1,0 +1,1932 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Luis Vieira <lvieira@lvieira.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: Apache Software License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Topic :: Software Development :: Libraries",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Typing :: Typed"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "api, client, sdk, vtex",
+    "license_expression": "Apache-2.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "maintainer": null,
+    "maintainer_email": "Luis Vieira <lvieira@lvieira.com>",
+    "name": "vtexpy",
+    "package_url": "https://pypi.org/project/vtexpy/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/vtexpy/",
+    "project_urls": {
+      "documentation": "https://github.com/lvieirajr/vtex-python",
+      "homepage": "https://github.com/lvieirajr/vtex-python",
+      "repository": "https://github.com/lvieirajr/vtex-python"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/vtexpy/0.0.0b38/",
+    "requires_dist": [
+      "cachetools<6.0,>=5.0",
+      "httpx<1.0,>=0.17",
+      "pydantic<3.0,>=2.0",
+      "python-dateutil<3.0,>=2.9",
+      "tenacity<10.0,>=8.0",
+      "typing-extensions<5.0,>=3.10; python_version < \"3.12\""
+    ],
+    "requires_python": "<3.14,>=3.10",
+    "summary": "Unofficial VTEX API's Python SDK",
+    "version": "0.0.0b38",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27714455,
+  "releases": {
+    "0.0.0a0": [
+      {
+        "filename": "vtexpy-0.0.0a0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8,<4.0",
+        "size": 7055,
+        "upload_time": "2023-11-12T21:23:58",
+        "upload_time_iso_8601": "2023-11-12T21:23:58.531593Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8,<4.0",
+        "size": 5362,
+        "upload_time": "2023-11-12T21:24:00",
+        "upload_time_iso_8601": "2023-11-12T21:24:00.086127Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a1": [
+      {
+        "filename": "vtexpy-0.0.0a1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8,<4.0",
+        "size": 7183,
+        "upload_time": "2023-11-13T01:18:02",
+        "upload_time_iso_8601": "2023-11-13T01:18:02.885078Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8,<4.0",
+        "size": 5522,
+        "upload_time": "2023-11-13T01:18:04",
+        "upload_time_iso_8601": "2023-11-13T01:18:04.631630Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a10": [
+      {
+        "filename": "vtexpy-0.0.0a10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 14269,
+        "upload_time": "2024-07-30T04:17:43",
+        "upload_time_iso_8601": "2024-07-30T04:17:43.555808Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 10375,
+        "upload_time": "2024-07-30T04:17:44",
+        "upload_time_iso_8601": "2024-07-30T04:17:44.669970Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a11": [
+      {
+        "filename": "vtexpy-0.0.0a11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 14270,
+        "upload_time": "2024-07-30T05:22:44",
+        "upload_time_iso_8601": "2024-07-30T05:22:44.155738Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 10387,
+        "upload_time": "2024-07-30T05:22:45",
+        "upload_time_iso_8601": "2024-07-30T05:22:45.738591Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a12": [
+      {
+        "filename": "vtexpy-0.0.0a12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 15014,
+        "upload_time": "2024-07-30T08:44:19",
+        "upload_time_iso_8601": "2024-07-30T08:44:19.970847Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 10973,
+        "upload_time": "2024-07-30T08:44:31",
+        "upload_time_iso_8601": "2024-07-30T08:44:31.550819Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a13": [
+      {
+        "filename": "vtexpy-0.0.0a13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 15234,
+        "upload_time": "2024-07-30T23:13:34",
+        "upload_time_iso_8601": "2024-07-30T23:13:34.036380Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 11152,
+        "upload_time": "2024-07-30T23:13:35",
+        "upload_time_iso_8601": "2024-07-30T23:13:35.494780Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a14": [
+      {
+        "filename": "vtexpy-0.0.0a14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 15522,
+        "upload_time": "2024-07-31T00:40:59",
+        "upload_time_iso_8601": "2024-07-31T00:40:59.339077Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 11468,
+        "upload_time": "2024-07-31T00:41:00",
+        "upload_time_iso_8601": "2024-07-31T00:41:00.827381Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a15": [
+      {
+        "filename": "vtexpy-0.0.0a15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 15541,
+        "upload_time": "2024-07-31T00:55:54",
+        "upload_time_iso_8601": "2024-07-31T00:55:54.608895Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 11479,
+        "upload_time": "2024-07-31T00:55:56",
+        "upload_time_iso_8601": "2024-07-31T00:55:56.291832Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a16": [
+      {
+        "filename": "vtexpy-0.0.0a16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 15593,
+        "upload_time": "2024-08-01T01:11:23",
+        "upload_time_iso_8601": "2024-08-01T01:11:23.747399Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 11523,
+        "upload_time": "2024-08-01T01:11:25",
+        "upload_time_iso_8601": "2024-08-01T01:11:25.232277Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a17": [
+      {
+        "filename": "vtexpy-0.0.0a17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 15592,
+        "upload_time": "2024-08-01T01:15:28",
+        "upload_time_iso_8601": "2024-08-01T01:15:28.794138Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 11528,
+        "upload_time": "2024-08-01T01:15:30",
+        "upload_time_iso_8601": "2024-08-01T01:15:30.334592Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a18": [
+      {
+        "filename": "vtexpy-0.0.0a18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 15701,
+        "upload_time": "2024-08-01T02:19:17",
+        "upload_time_iso_8601": "2024-08-01T02:19:17.989171Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 11637,
+        "upload_time": "2024-08-01T02:19:20",
+        "upload_time_iso_8601": "2024-08-01T02:19:20.194302Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a19": [
+      {
+        "filename": "vtexpy-0.0.0a19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 15866,
+        "upload_time": "2024-08-01T04:51:15",
+        "upload_time_iso_8601": "2024-08-01T04:51:15.938142Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 11783,
+        "upload_time": "2024-08-01T04:51:17",
+        "upload_time_iso_8601": "2024-08-01T04:51:17.459838Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a2": [
+      {
+        "filename": "vtexpy-0.0.0a2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8,<4.0",
+        "size": 9315,
+        "upload_time": "2023-11-13T11:03:02",
+        "upload_time_iso_8601": "2023-11-13T11:03:02.480709Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8,<4.0",
+        "size": 6857,
+        "upload_time": "2023-11-13T11:03:03",
+        "upload_time_iso_8601": "2023-11-13T11:03:03.930544Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a20": [
+      {
+        "filename": "vtexpy-0.0.0a20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 16729,
+        "upload_time": "2024-08-01T22:48:32",
+        "upload_time_iso_8601": "2024-08-01T22:48:32.989570Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 12685,
+        "upload_time": "2024-08-01T22:48:34",
+        "upload_time_iso_8601": "2024-08-01T22:48:34.400092Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a21": [
+      {
+        "filename": "vtexpy-0.0.0a21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 16860,
+        "upload_time": "2024-08-02T15:14:53",
+        "upload_time_iso_8601": "2024-08-02T15:14:53.578194Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 12823,
+        "upload_time": "2024-08-02T15:14:54",
+        "upload_time_iso_8601": "2024-08-02T15:14:54.745766Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a22": [
+      {
+        "filename": "vtexpy-0.0.0a22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 18415,
+        "upload_time": "2024-08-03T06:35:22",
+        "upload_time_iso_8601": "2024-08-03T06:35:22.410821Z",
+        "yanked": true,
+        "yanked_reason": "A forgotten ipdb import was left in the code before publishing this version so calling list_orders will try to stop at the breakpoint."
+      },
+      {
+        "filename": "vtexpy-0.0.0a22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 13659,
+        "upload_time": "2024-08-03T06:35:24",
+        "upload_time_iso_8601": "2024-08-03T06:35:24.259471Z",
+        "yanked": true,
+        "yanked_reason": "A forgotten ipdb import was left in the code before publishing this version so calling list_orders will try to stop at the breakpoint."
+      }
+    ],
+    "0.0.0a23": [
+      {
+        "filename": "vtexpy-0.0.0a23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 18395,
+        "upload_time": "2024-08-03T07:05:47",
+        "upload_time_iso_8601": "2024-08-03T07:05:47.834959Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 13632,
+        "upload_time": "2024-08-03T07:05:49",
+        "upload_time_iso_8601": "2024-08-03T07:05:49.371091Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a24": [
+      {
+        "filename": "vtexpy-0.0.0a24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 18387,
+        "upload_time": "2024-08-03T07:11:00",
+        "upload_time_iso_8601": "2024-08-03T07:11:00.840539Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 13635,
+        "upload_time": "2024-08-03T07:11:01",
+        "upload_time_iso_8601": "2024-08-03T07:11:01.957504Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a25": [
+      {
+        "filename": "vtexpy-0.0.0a25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 18505,
+        "upload_time": "2024-08-20T22:13:23",
+        "upload_time_iso_8601": "2024-08-20T22:13:23.442764Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 13744,
+        "upload_time": "2024-08-20T22:13:25",
+        "upload_time_iso_8601": "2024-08-20T22:13:25.137705Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a26": [
+      {
+        "filename": "vtexpy-0.0.0a26-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 18614,
+        "upload_time": "2024-08-22T14:19:40",
+        "upload_time_iso_8601": "2024-08-22T14:19:40.630887Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 13834,
+        "upload_time": "2024-08-22T14:19:41",
+        "upload_time_iso_8601": "2024-08-22T14:19:41.889753Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a27": [
+      {
+        "filename": "vtexpy-0.0.0a27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 18567,
+        "upload_time": "2024-08-22T14:26:31",
+        "upload_time_iso_8601": "2024-08-22T14:26:31.876380Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 13804,
+        "upload_time": "2024-08-22T14:26:33",
+        "upload_time_iso_8601": "2024-08-22T14:26:33.373478Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a28": [
+      {
+        "filename": "vtexpy-0.0.0a28-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 18749,
+        "upload_time": "2024-08-30T07:02:40",
+        "upload_time_iso_8601": "2024-08-30T07:02:40.386329Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 14073,
+        "upload_time": "2024-08-30T07:02:41",
+        "upload_time_iso_8601": "2024-08-30T07:02:41.872642Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a29": [
+      {
+        "filename": "vtexpy-0.0.0a29-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 18846,
+        "upload_time": "2024-08-31T05:48:57",
+        "upload_time_iso_8601": "2024-08-31T05:48:57.696859Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a29.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 14168,
+        "upload_time": "2024-08-31T05:48:58",
+        "upload_time_iso_8601": "2024-08-31T05:48:58.856577Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a3": [
+      {
+        "filename": "vtexpy-0.0.0a3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 10916,
+        "upload_time": "2024-07-28T07:33:20",
+        "upload_time_iso_8601": "2024-07-28T07:33:20.314179Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 8092,
+        "upload_time": "2024-07-28T07:33:21",
+        "upload_time_iso_8601": "2024-07-28T07:33:21.772205Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a30": [
+      {
+        "filename": "vtexpy-0.0.0a30-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 18848,
+        "upload_time": "2024-08-31T07:36:26",
+        "upload_time_iso_8601": "2024-08-31T07:36:26.540736Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a30.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 14158,
+        "upload_time": "2024-08-31T07:36:28",
+        "upload_time_iso_8601": "2024-08-31T07:36:28.256040Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a31": [
+      {
+        "filename": "vtexpy-0.0.0a31-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 19544,
+        "upload_time": "2024-09-02T00:57:24",
+        "upload_time_iso_8601": "2024-09-02T00:57:24.853871Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a31.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 14628,
+        "upload_time": "2024-09-02T00:57:26",
+        "upload_time_iso_8601": "2024-09-02T00:57:26.085527Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a32": [
+      {
+        "filename": "vtexpy-0.0.0a32-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 19557,
+        "upload_time": "2024-09-04T21:43:42",
+        "upload_time_iso_8601": "2024-09-04T21:43:42.598175Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a32.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 14641,
+        "upload_time": "2024-09-04T21:43:44",
+        "upload_time_iso_8601": "2024-09-04T21:43:44.759984Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a33": [
+      {
+        "filename": "vtexpy-0.0.0a33-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 24831,
+        "upload_time": "2024-09-12T21:40:16",
+        "upload_time_iso_8601": "2024-09-12T21:40:16.844558Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 19053,
+        "upload_time": "2024-09-12T21:40:18",
+        "upload_time_iso_8601": "2024-09-12T21:40:18.867051Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a4": [
+      {
+        "filename": "vtexpy-0.0.0a4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 12386,
+        "upload_time": "2024-07-29T03:39:39",
+        "upload_time_iso_8601": "2024-07-29T03:39:39.831713Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 8951,
+        "upload_time": "2024-07-29T03:39:41",
+        "upload_time_iso_8601": "2024-07-29T03:39:41.232933Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a5": [
+      {
+        "filename": "vtexpy-0.0.0a5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 12454,
+        "upload_time": "2024-07-29T15:08:14",
+        "upload_time_iso_8601": "2024-07-29T15:08:14.883609Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 9030,
+        "upload_time": "2024-07-29T15:08:16",
+        "upload_time_iso_8601": "2024-07-29T15:08:16.186579Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a6": [
+      {
+        "filename": "vtexpy-0.0.0a6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 13071,
+        "upload_time": "2024-07-29T19:02:16",
+        "upload_time_iso_8601": "2024-07-29T19:02:16.917307Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 9522,
+        "upload_time": "2024-07-29T19:02:17",
+        "upload_time_iso_8601": "2024-07-29T19:02:17.952695Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a7": [
+      {
+        "filename": "vtexpy-0.0.0a7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 13028,
+        "upload_time": "2024-07-29T19:44:09",
+        "upload_time_iso_8601": "2024-07-29T19:44:09.103409Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 9487,
+        "upload_time": "2024-07-29T19:44:10",
+        "upload_time_iso_8601": "2024-07-29T19:44:10.180447Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a8": [
+      {
+        "filename": "vtexpy-0.0.0a8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 13454,
+        "upload_time": "2024-07-29T22:37:22",
+        "upload_time_iso_8601": "2024-07-29T22:37:22.543032Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 9620,
+        "upload_time": "2024-07-29T22:37:23",
+        "upload_time_iso_8601": "2024-07-29T22:37:23.945966Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0a9": [
+      {
+        "filename": "vtexpy-0.0.0a9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 14049,
+        "upload_time": "2024-07-30T00:07:42",
+        "upload_time_iso_8601": "2024-07-30T00:07:42.708005Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0a9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 10187,
+        "upload_time": "2024-07-30T00:07:43",
+        "upload_time_iso_8601": "2024-07-30T00:07:43.763675Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b1": [
+      {
+        "filename": "vtexpy-0.0.0b1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 24874,
+        "upload_time": "2024-09-13T01:29:13",
+        "upload_time_iso_8601": "2024-09-13T01:29:13.767658Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 19090,
+        "upload_time": "2024-09-13T01:29:15",
+        "upload_time_iso_8601": "2024-09-13T01:29:15.834460Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b10": [
+      {
+        "filename": "vtexpy-0.0.0b10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 25872,
+        "upload_time": "2024-09-16T19:43:57",
+        "upload_time_iso_8601": "2024-09-16T19:43:57.643203Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 19868,
+        "upload_time": "2024-09-16T19:43:59",
+        "upload_time_iso_8601": "2024-09-16T19:43:59.311125Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b11": [
+      {
+        "filename": "vtexpy-0.0.0b11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 26757,
+        "upload_time": "2024-09-17T05:00:05",
+        "upload_time_iso_8601": "2024-09-17T05:00:05.096318Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 20626,
+        "upload_time": "2024-09-17T05:00:06",
+        "upload_time_iso_8601": "2024-09-17T05:00:06.643292Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b12": [
+      {
+        "filename": "vtexpy-0.0.0b12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 26811,
+        "upload_time": "2024-09-18T00:11:34",
+        "upload_time_iso_8601": "2024-09-18T00:11:34.692194Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 20683,
+        "upload_time": "2024-09-18T00:11:36",
+        "upload_time_iso_8601": "2024-09-18T00:11:36.435411Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b13": [
+      {
+        "filename": "vtexpy-0.0.0b13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 27761,
+        "upload_time": "2024-09-18T02:23:03",
+        "upload_time_iso_8601": "2024-09-18T02:23:03.853095Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21275,
+        "upload_time": "2024-09-18T02:23:05",
+        "upload_time_iso_8601": "2024-09-18T02:23:05.048005Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b14": [
+      {
+        "filename": "vtexpy-0.0.0b14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 27758,
+        "upload_time": "2024-09-19T05:20:54",
+        "upload_time_iso_8601": "2024-09-19T05:20:54.959968Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21267,
+        "upload_time": "2024-09-19T05:20:56",
+        "upload_time_iso_8601": "2024-09-19T05:20:56.391166Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b15": [
+      {
+        "filename": "vtexpy-0.0.0b15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 27758,
+        "upload_time": "2024-09-22T07:46:28",
+        "upload_time_iso_8601": "2024-09-22T07:46:28.744470Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 20741,
+        "upload_time": "2024-09-22T07:46:30",
+        "upload_time_iso_8601": "2024-09-22T07:46:30.623572Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b16": [
+      {
+        "filename": "vtexpy-0.0.0b16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 27758,
+        "upload_time": "2024-09-22T08:37:07",
+        "upload_time_iso_8601": "2024-09-22T08:37:07.625757Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 20745,
+        "upload_time": "2024-09-22T08:37:09",
+        "upload_time_iso_8601": "2024-09-22T08:37:09.641070Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b17": [
+      {
+        "filename": "vtexpy-0.0.0b17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 28602,
+        "upload_time": "2024-09-23T23:18:31",
+        "upload_time_iso_8601": "2024-09-23T23:18:31.428529Z",
+        "yanked": true,
+        "yanked_reason": "Broken entrypoint caused it to not install properly"
+      },
+      {
+        "filename": "vtexpy-0.0.0b17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 21003,
+        "upload_time": "2024-09-23T23:18:34",
+        "upload_time_iso_8601": "2024-09-23T23:18:34.203266Z",
+        "yanked": true,
+        "yanked_reason": "Broken entrypoint caused it to not install properly"
+      }
+    ],
+    "0.0.0b18": [
+      {
+        "filename": "vtexpy-0.0.0b18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 28398,
+        "upload_time": "2024-09-23T23:32:38",
+        "upload_time_iso_8601": "2024-09-23T23:32:38.272041Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 21117,
+        "upload_time": "2024-09-23T23:32:40",
+        "upload_time_iso_8601": "2024-09-23T23:32:40.059249Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b19": [
+      {
+        "filename": "vtexpy-0.0.0b19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.9",
+        "size": 28457,
+        "upload_time": "2024-10-06T02:09:17",
+        "upload_time_iso_8601": "2024-10-06T02:09:17.770855Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.9",
+        "size": 21140,
+        "upload_time": "2024-10-06T02:09:19",
+        "upload_time_iso_8601": "2024-10-06T02:09:19.115566Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b2": [
+      {
+        "filename": "vtexpy-0.0.0b2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 25282,
+        "upload_time": "2024-09-13T19:54:41",
+        "upload_time_iso_8601": "2024-09-13T19:54:41.020800Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 19424,
+        "upload_time": "2024-09-13T19:54:42",
+        "upload_time_iso_8601": "2024-09-13T19:54:42.488499Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b20": [
+      {
+        "filename": "vtexpy-0.0.0b20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 28525,
+        "upload_time": "2024-10-08T15:24:58",
+        "upload_time_iso_8601": "2024-10-08T15:24:58.843564Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21291,
+        "upload_time": "2024-10-08T15:25:00",
+        "upload_time_iso_8601": "2024-10-08T15:25:00.199072Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b21": [
+      {
+        "filename": "vtexpy-0.0.0b21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 28510,
+        "upload_time": "2024-10-09T05:12:25",
+        "upload_time_iso_8601": "2024-10-09T05:12:25.395726Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21251,
+        "upload_time": "2024-10-09T05:12:27",
+        "upload_time_iso_8601": "2024-10-09T05:12:27.417719Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b22": [
+      {
+        "filename": "vtexpy-0.0.0b22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 28547,
+        "upload_time": "2024-10-15T21:30:18",
+        "upload_time_iso_8601": "2024-10-15T21:30:18.647596Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21255,
+        "upload_time": "2024-10-15T21:30:20",
+        "upload_time_iso_8601": "2024-10-15T21:30:20.504120Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b23": [
+      {
+        "filename": "vtexpy-0.0.0b23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 28610,
+        "upload_time": "2024-11-02T04:55:38",
+        "upload_time_iso_8601": "2024-11-02T04:55:38.251655Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21307,
+        "upload_time": "2024-11-02T04:55:40",
+        "upload_time_iso_8601": "2024-11-02T04:55:40.016797Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b24": [
+      {
+        "filename": "vtexpy-0.0.0b24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 28562,
+        "upload_time": "2024-11-04T14:27:14",
+        "upload_time_iso_8601": "2024-11-04T14:27:14.744321Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21258,
+        "upload_time": "2024-11-04T14:27:16",
+        "upload_time_iso_8601": "2024-11-04T14:27:16.174039Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b25": [
+      {
+        "filename": "vtexpy-0.0.0b25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 28585,
+        "upload_time": "2024-11-16T20:54:59",
+        "upload_time_iso_8601": "2024-11-16T20:54:59.144995Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21291,
+        "upload_time": "2024-11-16T20:55:01",
+        "upload_time_iso_8601": "2024-11-16T20:55:01.110846Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b26": [
+      {
+        "filename": "vtexpy-0.0.0b26-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 28586,
+        "upload_time": "2024-11-16T21:23:54",
+        "upload_time_iso_8601": "2024-11-16T21:23:54.516613Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21270,
+        "upload_time": "2024-11-16T21:23:56",
+        "upload_time_iso_8601": "2024-11-16T21:23:56.423323Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b27": [
+      {
+        "filename": "vtexpy-0.0.0b27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 29601,
+        "upload_time": "2024-11-22T07:33:54",
+        "upload_time_iso_8601": "2024-11-22T07:33:54.010782Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21818,
+        "upload_time": "2024-11-22T07:33:56",
+        "upload_time_iso_8601": "2024-11-22T07:33:56.031589Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b28": [
+      {
+        "filename": "vtexpy-0.0.0b28-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 29653,
+        "upload_time": "2024-11-22T07:51:21",
+        "upload_time_iso_8601": "2024-11-22T07:51:21.588468Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21899,
+        "upload_time": "2024-11-22T07:51:23",
+        "upload_time_iso_8601": "2024-11-22T07:51:23.588670Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b29": [
+      {
+        "filename": "vtexpy-0.0.0b29-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 29799,
+        "upload_time": "2024-11-22T08:25:09",
+        "upload_time_iso_8601": "2024-11-22T08:25:09.127382Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b29.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 22020,
+        "upload_time": "2024-11-22T08:25:10",
+        "upload_time_iso_8601": "2024-11-22T08:25:10.936713Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b3": [
+      {
+        "filename": "vtexpy-0.0.0b3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 25290,
+        "upload_time": "2024-09-13T20:08:10",
+        "upload_time_iso_8601": "2024-09-13T20:08:10.986444Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 19433,
+        "upload_time": "2024-09-13T20:08:12",
+        "upload_time_iso_8601": "2024-09-13T20:08:12.351441Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b30": [
+      {
+        "filename": "vtexpy-0.0.0b30-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 29739,
+        "upload_time": "2024-11-22T09:22:30",
+        "upload_time_iso_8601": "2024-11-22T09:22:30.957941Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b30.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21958,
+        "upload_time": "2024-11-22T09:22:32",
+        "upload_time_iso_8601": "2024-11-22T09:22:32.811042Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b31": [
+      {
+        "filename": "vtexpy-0.0.0b31-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 29744,
+        "upload_time": "2024-11-22T09:41:02",
+        "upload_time_iso_8601": "2024-11-22T09:41:02.654013Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b31.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21960,
+        "upload_time": "2024-11-22T09:41:04",
+        "upload_time_iso_8601": "2024-11-22T09:41:04.490770Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b32": [
+      {
+        "filename": "vtexpy-0.0.0b32-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 29745,
+        "upload_time": "2024-11-22T10:05:27",
+        "upload_time_iso_8601": "2024-11-22T10:05:27.660775Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b32.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21956,
+        "upload_time": "2024-11-22T10:05:29",
+        "upload_time_iso_8601": "2024-11-22T10:05:29.521912Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b33": [
+      {
+        "filename": "vtexpy-0.0.0b33-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 29664,
+        "upload_time": "2024-11-22T10:30:05",
+        "upload_time_iso_8601": "2024-11-22T10:30:05.330273Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21870,
+        "upload_time": "2024-11-22T10:30:07",
+        "upload_time_iso_8601": "2024-11-22T10:30:07.210019Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b34": [
+      {
+        "filename": "vtexpy-0.0.0b34-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 29715,
+        "upload_time": "2024-11-22T10:55:22",
+        "upload_time_iso_8601": "2024-11-22T10:55:22.318655Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b34.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21910,
+        "upload_time": "2024-11-22T10:55:24",
+        "upload_time_iso_8601": "2024-11-22T10:55:24.201878Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b35": [
+      {
+        "filename": "vtexpy-0.0.0b35-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 29713,
+        "upload_time": "2024-11-26T12:48:10",
+        "upload_time_iso_8601": "2024-11-26T12:48:10.946974Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b35.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21904,
+        "upload_time": "2024-11-26T12:48:12",
+        "upload_time_iso_8601": "2024-11-26T12:48:12.544328Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b36": [
+      {
+        "filename": "vtexpy-0.0.0b36-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 29224,
+        "upload_time": "2024-11-30T04:01:00",
+        "upload_time_iso_8601": "2024-11-30T04:01:00.034955Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b36.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21517,
+        "upload_time": "2024-11-30T04:01:02",
+        "upload_time_iso_8601": "2024-11-30T04:01:02.912091Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b37": [
+      {
+        "filename": "vtexpy-0.0.0b37-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 29225,
+        "upload_time": "2024-12-17T16:39:40",
+        "upload_time_iso_8601": "2024-12-17T16:39:40.161329Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b37.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 21512,
+        "upload_time": "2024-12-17T16:39:41",
+        "upload_time_iso_8601": "2024-12-17T16:39:41.882369Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b38": [
+      {
+        "filename": "vtexpy-0.0.0b38-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.10",
+        "size": 29310,
+        "upload_time": "2025-03-01T17:31:30",
+        "upload_time_iso_8601": "2025-03-01T17:31:30.632761Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b38.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.10",
+        "size": 47617,
+        "upload_time": "2025-03-01T17:31:31",
+        "upload_time_iso_8601": "2025-03-01T17:31:31.918482Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b4": [
+      {
+        "filename": "vtexpy-0.0.0b4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 25464,
+        "upload_time": "2024-09-14T18:31:53",
+        "upload_time_iso_8601": "2024-09-14T18:31:53.970394Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 19623,
+        "upload_time": "2024-09-14T18:31:55",
+        "upload_time_iso_8601": "2024-09-14T18:31:55.688111Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b5": [
+      {
+        "filename": "vtexpy-0.0.0b5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 25461,
+        "upload_time": "2024-09-14T18:44:56",
+        "upload_time_iso_8601": "2024-09-14T18:44:56.017214Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 19584,
+        "upload_time": "2024-09-14T18:44:57",
+        "upload_time_iso_8601": "2024-09-14T18:44:57.723854Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b6": [
+      {
+        "filename": "vtexpy-0.0.0b6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 25460,
+        "upload_time": "2024-09-14T22:57:28",
+        "upload_time_iso_8601": "2024-09-14T22:57:28.402064Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 19598,
+        "upload_time": "2024-09-14T22:57:30",
+        "upload_time_iso_8601": "2024-09-14T22:57:30.099836Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b7": [
+      {
+        "filename": "vtexpy-0.0.0b7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 25460,
+        "upload_time": "2024-09-15T02:08:53",
+        "upload_time_iso_8601": "2024-09-15T02:08:53.854376Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 19591,
+        "upload_time": "2024-09-15T02:08:55",
+        "upload_time_iso_8601": "2024-09-15T02:08:55.379562Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b8": [
+      {
+        "filename": "vtexpy-0.0.0b8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 25473,
+        "upload_time": "2024-09-15T02:13:46",
+        "upload_time_iso_8601": "2024-09-15T02:13:46.805240Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 19602,
+        "upload_time": "2024-09-15T02:13:48",
+        "upload_time_iso_8601": "2024-09-15T02:13:48.489849Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.0b9": [
+      {
+        "filename": "vtexpy-0.0.0b9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.14,>=3.9",
+        "size": 25482,
+        "upload_time": "2024-09-15T03:05:01",
+        "upload_time_iso_8601": "2024-09-15T03:05:01.081082Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "vtexpy-0.0.0b9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.14,>=3.9",
+        "size": 19598,
+        "upload_time": "2024-09-15T03:05:02",
+        "upload_time_iso_8601": "2024-09-15T03:05:02.439718Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

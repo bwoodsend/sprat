@@ -1,0 +1,89 @@
+{
+  "info": {
+    "author": "Ankit Gupta",
+    "author_email": "devankitgupta01@gmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/devankit01/pii_scanner",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "pii-Scanner",
+    "package_url": "https://pypi.org/project/pii-Scanner/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/pii-Scanner/",
+    "project_urls": {
+      "Homepage": "https://github.com/devankit01/pii_scanner"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/pii-Scanner/0.1.11/",
+    "requires_dist": [
+      "presidio-analyzer==2.2.32",
+      "openpyxl==3.1.5",
+      "pydantic==2.10.3",
+      "numpy==2.0.2",
+      "unstructured[docx,pptx]",
+      "unstructured[pdf]",
+      "python-stdnum==1.20"
+    ],
+    "requires_python": ">=3.10",
+    "summary": "A library for scanning Personally Identifiable Information (PII).",
+    "version": "0.1.11",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27278013,
+  "releases": {
+    "0.1.1": [
+      {
+        "filename": "pii_Scanner-0.1.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 11114,
+        "upload_time": "2024-12-12T16:28:09",
+        "upload_time_iso_8601": "2024-12-12T16:28:09.703002Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.10": [
+      {
+        "filename": "pii_Scanner-0.1.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 22204,
+        "upload_time": "2024-12-24T11:21:32",
+        "upload_time_iso_8601": "2024-12-24T11:21:32.981049Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.11": [
+      {
+        "filename": "pii_Scanner-0.1.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 22205,
+        "upload_time": "2025-02-04T12:10:44",
+        "upload_time_iso_8601": "2025-02-04T12:10:44.192616Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1948 @@
+{
+  "info": {
+    "author": "Posthog",
+    "author_email": "hey@posthog.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 2",
+      "Programming Language :: Python :: 2.6",
+      "Programming Language :: Python :: 2.7",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.2",
+      "Programming Language :: Python :: 3.3",
+      "Programming Language :: Python :: 3.4",
+      "Programming Language :: Python :: 3.5",
+      "Programming Language :: Python :: 3.6",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Classifier",
+      "Description",
+      "Home-Page",
+      "License",
+      "Maintainer",
+      "Maintainer-Email",
+      "Provides-Extra",
+      "Requires-Dist",
+      "Summary"
+    ],
+    "home_page": "https://github.com/posthog/posthog-python",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "PostHog",
+    "maintainer_email": "hey@posthog.com",
+    "name": "posthog",
+    "package_url": "https://pypi.org/project/posthog/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/posthog/",
+    "project_urls": {
+      "Homepage": "https://github.com/posthog/posthog-python"
+    },
+    "provides_extra": [
+      "dev",
+      "test",
+      "sentry",
+      "langchain"
+    ],
+    "release_url": "https://pypi.org/project/posthog/3.11.0/",
+    "requires_dist": [
+      "requests<3.0,>=2.7",
+      "six>=1.5",
+      "monotonic>=1.5",
+      "backoff>=1.10.0",
+      "python-dateutil>2.1",
+      "black; extra == \"dev\"",
+      "isort; extra == \"dev\"",
+      "flake8; extra == \"dev\"",
+      "flake8-print; extra == \"dev\"",
+      "pre-commit; extra == \"dev\"",
+      "mock>=2.0.0; extra == \"test\"",
+      "freezegun==0.3.15; extra == \"test\"",
+      "pylint; extra == \"test\"",
+      "flake8; extra == \"test\"",
+      "coverage; extra == \"test\"",
+      "pytest; extra == \"test\"",
+      "pytest-timeout; extra == \"test\"",
+      "pytest-asyncio; extra == \"test\"",
+      "django; extra == \"test\"",
+      "openai; extra == \"test\"",
+      "anthropic; extra == \"test\"",
+      "langgraph; extra == \"test\"",
+      "langchain-community>=0.2.0; extra == \"test\"",
+      "langchain-openai>=0.2.0; extra == \"test\"",
+      "langchain-anthropic>=0.2.0; extra == \"test\"",
+      "pydantic; extra == \"test\"",
+      "sentry-sdk; extra == \"sentry\"",
+      "django; extra == \"sentry\"",
+      "langchain>=0.2.0; extra == \"langchain\""
+    ],
+    "requires_python": null,
+    "summary": "Integrate PostHog into any python application.",
+    "version": "3.11.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27169073,
+  "releases": {
+    "1.0.0": [
+      {
+        "filename": "posthog-1.0.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 15587,
+        "upload_time": "2020-02-10T05:10:55",
+        "upload_time_iso_8601": "2020-02-10T05:10:55.639248Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 12876,
+        "upload_time": "2020-02-10T05:10:58",
+        "upload_time_iso_8601": "2020-02-10T05:10:58.127297Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.10": [
+      {
+        "filename": "posthog-1.0.10-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 31472,
+        "upload_time": "2020-04-01T16:24:42",
+        "upload_time_iso_8601": "2020-04-01T16:24:42.877506Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.0.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13577,
+        "upload_time": "2020-04-01T16:24:44",
+        "upload_time_iso_8601": "2020-04-01T16:24:44.496190Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.11": [
+      {
+        "filename": "posthog-1.0.11-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 31519,
+        "upload_time": "2020-04-30T09:10:37",
+        "upload_time_iso_8601": "2020-04-30T09:10:37.035067Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.0.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 12900,
+        "upload_time": "2020-04-30T09:10:38",
+        "upload_time_iso_8601": "2020-04-30T09:10:38.160275Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.6": [
+      {
+        "filename": "posthog-1.0.6-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 16720,
+        "upload_time": "2020-02-10T21:20:33",
+        "upload_time_iso_8601": "2020-02-10T21:20:33.188079Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13475,
+        "upload_time": "2020-02-10T21:20:34",
+        "upload_time_iso_8601": "2020-02-10T21:20:34.862781Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.7": [
+      {
+        "filename": "posthog-1.0.7-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 16745,
+        "upload_time": "2020-02-18T03:14:39",
+        "upload_time_iso_8601": "2020-02-18T03:14:39.254905Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13513,
+        "upload_time": "2020-02-18T03:14:40",
+        "upload_time_iso_8601": "2020-02-18T03:14:40.791750Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.8": [
+      {
+        "filename": "posthog-1.0.8-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 31386,
+        "upload_time": "2020-02-18T23:44:23",
+        "upload_time_iso_8601": "2020-02-18T23:44:23.511755Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13520,
+        "upload_time": "2020-02-18T23:44:24",
+        "upload_time_iso_8601": "2020-02-18T23:44:24.816906Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.9": [
+      {
+        "filename": "posthog-1.0.9-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 31430,
+        "upload_time": "2020-02-22T01:12:26",
+        "upload_time_iso_8601": "2020-02-22T01:12:26.380683Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 13563,
+        "upload_time": "2020-02-22T01:12:28",
+        "upload_time_iso_8601": "2020-02-22T01:12:28.003618Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.1": [
+      {
+        "filename": "posthog-1.1.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 35600,
+        "upload_time": "2020-09-29T13:34:02",
+        "upload_time_iso_8601": "2020-09-29T13:34:02.916583Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14385,
+        "upload_time": "2020-09-29T13:34:04",
+        "upload_time_iso_8601": "2020-09-29T13:34:04.594842Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.1.3": [
+      {
+        "filename": "posthog-1.1.3-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19029,
+        "upload_time": "2020-11-23T15:31:51",
+        "upload_time_iso_8601": "2020-11-23T15:31:51.647661Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 15134,
+        "upload_time": "2020-11-23T15:31:53",
+        "upload_time_iso_8601": "2020-11-23T15:31:53.238874Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.0": [
+      {
+        "filename": "posthog-1.2.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19303,
+        "upload_time": "2021-01-11T11:22:35",
+        "upload_time_iso_8601": "2021-01-11T11:22:35.559292Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 15553,
+        "upload_time": "2021-01-11T11:22:36",
+        "upload_time_iso_8601": "2021-01-11T11:22:36.687781Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.2.1": [
+      {
+        "filename": "posthog-1.2.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19307,
+        "upload_time": "2021-02-05T15:33:26",
+        "upload_time_iso_8601": "2021-02-05T15:33:26.947847Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 14687,
+        "upload_time": "2021-02-05T15:33:28",
+        "upload_time_iso_8601": "2021-02-05T15:33:28.390633Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.1": [
+      {
+        "filename": "posthog-1.3.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 19792,
+        "upload_time": "2021-05-07T11:20:28",
+        "upload_time_iso_8601": "2021-05-07T11:20:28.486942Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 16501,
+        "upload_time": "2021-05-07T11:20:30",
+        "upload_time_iso_8601": "2021-05-07T11:20:30.854630Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.0": [
+      {
+        "filename": "posthog-1.4.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 20001,
+        "upload_time": "2021-05-18T15:15:38",
+        "upload_time_iso_8601": "2021-05-18T15:15:38.660860Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17072,
+        "upload_time": "2021-05-18T15:15:40",
+        "upload_time_iso_8601": "2021-05-18T15:15:40.054496Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.1": [
+      {
+        "filename": "posthog-1.4.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 39188,
+        "upload_time": "2021-05-28T09:11:30",
+        "upload_time_iso_8601": "2021-05-28T09:11:30.003740Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18216,
+        "upload_time": "2021-05-28T09:11:31",
+        "upload_time_iso_8601": "2021-05-28T09:11:31.334552Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.2": [
+      {
+        "filename": "posthog-1.4.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 21753,
+        "upload_time": "2021-06-22T12:41:47",
+        "upload_time_iso_8601": "2021-06-22T12:41:47.539694Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19027,
+        "upload_time": "2021-06-22T12:41:49",
+        "upload_time_iso_8601": "2021-06-22T12:41:49.015948Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.3": [
+      {
+        "filename": "posthog-1.4.3-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 22291,
+        "upload_time": "2021-10-28T15:43:41",
+        "upload_time_iso_8601": "2021-10-28T15:43:41.666687Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.4.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19606,
+        "upload_time": "2021-10-28T15:43:42",
+        "upload_time_iso_8601": "2021-10-28T15:43:42.991569Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.4": [
+      {
+        "filename": "posthog-1.4.4-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 22359,
+        "upload_time": "2021-11-25T09:45:51",
+        "upload_time_iso_8601": "2021-11-25T09:45:51.953404Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.4.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19687,
+        "upload_time": "2021-11-25T09:45:53",
+        "upload_time_iso_8601": "2021-11-25T09:45:53.604920Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.5": [
+      {
+        "filename": "posthog-1.4.5-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 22418,
+        "upload_time": "2022-01-05T12:47:06",
+        "upload_time_iso_8601": "2022-01-05T12:47:06.070553Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.4.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19724,
+        "upload_time": "2022-01-05T12:47:07",
+        "upload_time_iso_8601": "2022-01-05T12:47:07.124513Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.6": [
+      {
+        "filename": "posthog-1.4.6-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 22478,
+        "upload_time": "2022-03-30T06:45:55",
+        "upload_time_iso_8601": "2022-03-30T06:45:55.053260Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.4.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19779,
+        "upload_time": "2022-03-30T06:45:56",
+        "upload_time_iso_8601": "2022-03-30T06:45:56.769258Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.7": [
+      {
+        "filename": "posthog-1.4.7-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 22540,
+        "upload_time": "2022-04-25T13:08:56",
+        "upload_time_iso_8601": "2022-04-25T13:08:56.064630Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.4.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19910,
+        "upload_time": "2022-04-25T13:08:57",
+        "upload_time_iso_8601": "2022-04-25T13:08:57.376023Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.8": [
+      {
+        "filename": "posthog-1.4.8-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 22558,
+        "upload_time": "2022-05-12T07:13:00",
+        "upload_time_iso_8601": "2022-05-12T07:13:00.754904Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.4.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19888,
+        "upload_time": "2022-05-12T07:13:02",
+        "upload_time_iso_8601": "2022-05-12T07:13:02.550508Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.9": [
+      {
+        "filename": "posthog-1.4.9-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 23050,
+        "upload_time": "2022-06-13T11:19:37",
+        "upload_time_iso_8601": "2022-06-13T11:19:37.442989Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-1.4.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20452,
+        "upload_time": "2022-06-13T11:19:38",
+        "upload_time_iso_8601": "2022-06-13T11:19:38.897902Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.0": [
+      {
+        "filename": "posthog-2.0.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 31408,
+        "upload_time": "2022-08-02T11:11:18",
+        "upload_time_iso_8601": "2022-08-02T11:11:18.771811Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-2.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28166,
+        "upload_time": "2022-08-02T11:11:20",
+        "upload_time_iso_8601": "2022-08-02T11:11:20.277595Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.0.1": [
+      {
+        "filename": "posthog-2.0.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 31901,
+        "upload_time": "2022-08-04T12:54:36",
+        "upload_time_iso_8601": "2022-08-04T12:54:36.587250Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-2.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28650,
+        "upload_time": "2022-08-04T12:54:37",
+        "upload_time_iso_8601": "2022-08-04T12:54:37.783975Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.0": [
+      {
+        "filename": "posthog-2.1.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 31867,
+        "upload_time": "2022-08-12T11:21:29",
+        "upload_time_iso_8601": "2022-08-12T11:21:29.323333Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-2.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28613,
+        "upload_time": "2022-08-12T11:21:30",
+        "upload_time_iso_8601": "2022-08-12T11:21:30.734755Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.1": [
+      {
+        "filename": "posthog-2.1.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 32303,
+        "upload_time": "2022-09-14T12:54:40",
+        "upload_time_iso_8601": "2022-09-14T12:54:40.937183Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-2.1.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 29020,
+        "upload_time": "2022-09-14T12:54:42",
+        "upload_time_iso_8601": "2022-09-14T12:54:42.318348Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.1.2": [
+      {
+        "filename": "posthog-2.1.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 32569,
+        "upload_time": "2022-09-15T14:27:12",
+        "upload_time_iso_8601": "2022-09-15T14:27:12.207453Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-2.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 29275,
+        "upload_time": "2022-09-15T14:27:14",
+        "upload_time_iso_8601": "2022-09-15T14:27:14.024473Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.2.0": [
+      {
+        "filename": "posthog-2.2.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 33235,
+        "upload_time": "2022-11-14T12:16:17",
+        "upload_time_iso_8601": "2022-11-14T12:16:17.340149Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-2.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 29945,
+        "upload_time": "2022-11-14T12:16:19",
+        "upload_time_iso_8601": "2022-11-14T12:16:19.130525Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.0": [
+      {
+        "filename": "posthog-2.3.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 34559,
+        "upload_time": "2023-01-31T18:05:43",
+        "upload_time_iso_8601": "2023-01-31T18:05:43.184186Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-2.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 31266,
+        "upload_time": "2023-01-31T18:05:44",
+        "upload_time_iso_8601": "2023-01-31T18:05:44.541255Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.3.1": [
+      {
+        "filename": "posthog-2.3.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 34745,
+        "upload_time": "2023-02-07T15:48:04",
+        "upload_time_iso_8601": "2023-02-07T15:48:04.896962Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-2.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 31437,
+        "upload_time": "2023-02-07T15:48:06",
+        "upload_time_iso_8601": "2023-02-07T15:48:06.394350Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.0": [
+      {
+        "filename": "posthog-2.4.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 36016,
+        "upload_time": "2023-03-16T10:48:24",
+        "upload_time_iso_8601": "2023-03-16T10:48:24.617318Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-2.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 32607,
+        "upload_time": "2023-03-16T10:48:26",
+        "upload_time_iso_8601": "2023-03-16T10:48:26.081826Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.4.2": [
+      {
+        "filename": "posthog-2.4.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 36111,
+        "upload_time": "2023-03-30T14:35:47",
+        "upload_time_iso_8601": "2023-03-30T14:35:47.476018Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-2.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 32683,
+        "upload_time": "2023-03-30T14:35:49",
+        "upload_time_iso_8601": "2023-03-30T14:35:49.366386Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2.5.0": [
+      {
+        "filename": "posthog-2.5.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 36282,
+        "upload_time": "2023-04-10T19:14:04",
+        "upload_time_iso_8601": "2023-04-10T19:14:04.959031Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-2.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 32828,
+        "upload_time": "2023-04-10T19:14:06",
+        "upload_time_iso_8601": "2023-04-10T19:14:06.636206Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.0.0": [
+      {
+        "filename": "posthog-3.0.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 36978,
+        "upload_time": "2023-04-17T11:08:01",
+        "upload_time_iso_8601": "2023-04-17T11:08:01.637229Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.0.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 33629,
+        "upload_time": "2023-04-17T11:08:04",
+        "upload_time_iso_8601": "2023-04-17T11:08:04.141390Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.0.1": [
+      {
+        "filename": "posthog-3.0.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 37199,
+        "upload_time": "2023-04-21T12:11:09",
+        "upload_time_iso_8601": "2023-04-21T12:11:09.614043Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 33826,
+        "upload_time": "2023-04-21T12:11:12",
+        "upload_time_iso_8601": "2023-04-21T12:11:12.177112Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.0.2": [
+      {
+        "filename": "posthog-3.0.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 37241,
+        "upload_time": "2023-08-17T17:04:08",
+        "upload_time_iso_8601": "2023-08-17T17:04:08.058206Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 33866,
+        "upload_time": "2023-08-17T17:04:09",
+        "upload_time_iso_8601": "2023-08-17T17:04:09.373001Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.1.0": [
+      {
+        "filename": "posthog-3.1.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 37553,
+        "upload_time": "2023-12-04T15:28:05",
+        "upload_time_iso_8601": "2023-12-04T15:28:05.981032Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 34420,
+        "upload_time": "2023-12-04T15:28:08",
+        "upload_time_iso_8601": "2023-12-04T15:28:08.089433Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.10.0": [
+      {
+        "filename": "posthog-3.10.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 71031,
+        "upload_time": "2025-01-24T21:10:25",
+        "upload_time_iso_8601": "2025-01-24T21:10:25.236922Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.10.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 60295,
+        "upload_time": "2025-01-24T21:10:27",
+        "upload_time_iso_8601": "2025-01-24T21:10:27.868150Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.11.0": [
+      {
+        "filename": "posthog-3.11.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 72005,
+        "upload_time": "2025-01-28T13:24:44",
+        "upload_time_iso_8601": "2025-01-28T13:24:44.136776Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.11.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 61344,
+        "upload_time": "2025-01-28T13:24:46",
+        "upload_time_iso_8601": "2025-01-28T13:24:46.045320Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.2.0": [
+      {
+        "filename": "posthog-3.2.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 39692,
+        "upload_time": "2024-01-09T11:23:11",
+        "upload_time_iso_8601": "2024-01-09T11:23:11.378145Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 36493,
+        "upload_time": "2024-01-09T11:23:13",
+        "upload_time_iso_8601": "2024-01-09T11:23:13.234602Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.3.0": [
+      {
+        "filename": "posthog-3.3.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 40618,
+        "upload_time": "2024-01-09T11:30:45",
+        "upload_time_iso_8601": "2024-01-09T11:30:45.848958Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 37564,
+        "upload_time": "2024-01-09T11:30:47",
+        "upload_time_iso_8601": "2024-01-09T11:30:47.275487Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.3.1": [
+      {
+        "filename": "posthog-3.3.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 40583,
+        "upload_time": "2024-01-10T14:35:01",
+        "upload_time_iso_8601": "2024-01-10T14:35:01.627712Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 37508,
+        "upload_time": "2024-01-10T14:35:04",
+        "upload_time_iso_8601": "2024-01-10T14:35:04.549941Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.3.2": [
+      {
+        "filename": "posthog-3.3.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 40663,
+        "upload_time": "2024-01-19T11:14:35",
+        "upload_time_iso_8601": "2024-01-19T11:14:35.406967Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 37574,
+        "upload_time": "2024-01-19T11:14:37",
+        "upload_time_iso_8601": "2024-01-19T11:14:37.253962Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.3.3": [
+      {
+        "filename": "posthog-3.3.3-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 40718,
+        "upload_time": "2024-01-26T15:53:23",
+        "upload_time_iso_8601": "2024-01-26T15:53:23.142295Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 37628,
+        "upload_time": "2024-01-26T15:53:25",
+        "upload_time_iso_8601": "2024-01-26T15:53:25.018031Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.3.4": [
+      {
+        "filename": "posthog-3.3.4-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 40754,
+        "upload_time": "2024-01-30T16:06:44",
+        "upload_time_iso_8601": "2024-01-30T16:06:44.020910Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.3.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 37652,
+        "upload_time": "2024-01-30T16:06:45",
+        "upload_time_iso_8601": "2024-01-30T16:06:45.596557Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.0": [
+      {
+        "filename": "posthog-3.4.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 41143,
+        "upload_time": "2024-02-05T12:15:00",
+        "upload_time_iso_8601": "2024-02-05T12:15:00.491463Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 38028,
+        "upload_time": "2024-02-05T12:15:02",
+        "upload_time_iso_8601": "2024-02-05T12:15:02.555323Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.1": [
+      {
+        "filename": "posthog-3.4.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 41141,
+        "upload_time": "2024-02-13T11:19:53",
+        "upload_time_iso_8601": "2024-02-13T11:19:53.902134Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 38028,
+        "upload_time": "2024-02-13T11:19:55",
+        "upload_time_iso_8601": "2024-02-13T11:19:55.589872Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.4.2": [
+      {
+        "filename": "posthog-3.4.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 41229,
+        "upload_time": "2024-02-20T15:43:39",
+        "upload_time_iso_8601": "2024-02-20T15:43:39.237128Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 38072,
+        "upload_time": "2024-02-20T15:43:41",
+        "upload_time_iso_8601": "2024-02-20T15:43:41.205400Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.5.0": [
+      {
+        "filename": "posthog-3.5.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 41300,
+        "upload_time": "2024-03-04T14:27:23",
+        "upload_time_iso_8601": "2024-03-04T14:27:23.346267Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 38142,
+        "upload_time": "2024-03-04T14:27:25",
+        "upload_time_iso_8601": "2024-03-04T14:27:25.461980Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.5.2": [
+      {
+        "filename": "posthog-3.5.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 41545,
+        "upload_time": "2024-08-21T16:58:51",
+        "upload_time_iso_8601": "2024-08-21T16:58:51.196285Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.5.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 38380,
+        "upload_time": "2024-08-21T16:58:52",
+        "upload_time_iso_8601": "2024-08-21T16:58:52.896373Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.6.0": [
+      {
+        "filename": "posthog-3.6.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 50624,
+        "upload_time": "2024-08-28T06:00:52",
+        "upload_time_iso_8601": "2024-08-28T06:00:52.365330Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 46518,
+        "upload_time": "2024-08-28T06:00:54",
+        "upload_time_iso_8601": "2024-08-28T06:00:54.107797Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.6.1": [
+      {
+        "filename": "posthog-3.6.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 51331,
+        "upload_time": "2024-09-03T05:11:14",
+        "upload_time_iso_8601": "2024-09-03T05:11:14.444951Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.6.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 47143,
+        "upload_time": "2024-09-03T05:11:16",
+        "upload_time_iso_8601": "2024-09-03T05:11:16.346150Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.6.2": [
+      {
+        "filename": "posthog-3.6.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 53038,
+        "upload_time": "2024-09-03T06:24:26",
+        "upload_time_iso_8601": "2024-09-03T06:24:26.721718Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.6.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 48209,
+        "upload_time": "2024-09-03T06:24:27",
+        "upload_time_iso_8601": "2024-09-03T06:24:27.870505Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.6.3": [
+      {
+        "filename": "posthog-3.6.3-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 53040,
+        "upload_time": "2024-09-03T07:13:50",
+        "upload_time_iso_8601": "2024-09-03T07:13:50.392810Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.6.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 48216,
+        "upload_time": "2024-09-03T07:13:52",
+        "upload_time_iso_8601": "2024-09-03T07:13:52.192997Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.6.4": [
+      {
+        "filename": "posthog-3.6.4-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 54152,
+        "upload_time": "2024-09-09T10:41:24",
+        "upload_time_iso_8601": "2024-09-09T10:41:24.941811Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.6.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 49455,
+        "upload_time": "2024-09-09T10:41:26",
+        "upload_time_iso_8601": "2024-09-09T10:41:26.344097Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.6.5": [
+      {
+        "filename": "posthog-3.6.5-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 54154,
+        "upload_time": "2024-09-10T08:28:16",
+        "upload_time_iso_8601": "2024-09-10T08:28:16.827548Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.6.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 49449,
+        "upload_time": "2024-09-10T08:28:18",
+        "upload_time_iso_8601": "2024-09-10T08:28:18.600593Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.6.6": [
+      {
+        "filename": "posthog-3.6.6-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 54258,
+        "upload_time": "2024-09-16T10:16:10",
+        "upload_time_iso_8601": "2024-09-16T10:16:10.424519Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.6.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 49583,
+        "upload_time": "2024-09-16T10:16:12",
+        "upload_time_iso_8601": "2024-09-16T10:16:12.228888Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.7.0": [
+      {
+        "filename": "posthog-3.7.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 54359,
+        "upload_time": "2024-10-03T16:16:44",
+        "upload_time_iso_8601": "2024-10-03T16:16:44.622923Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 49661,
+        "upload_time": "2024-10-03T16:16:46",
+        "upload_time_iso_8601": "2024-10-03T16:16:46.606642Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.7.2": [
+      {
+        "filename": "posthog-3.7.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 54400,
+        "upload_time": "2024-11-19T12:48:03",
+        "upload_time_iso_8601": "2024-11-19T12:48:03.282812Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.7.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 49693,
+        "upload_time": "2024-11-19T12:48:04",
+        "upload_time_iso_8601": "2024-11-19T12:48:04.528553Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.7.3": [
+      {
+        "filename": "posthog-3.7.3-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 54776,
+        "upload_time": "2024-11-25T19:52:00",
+        "upload_time_iso_8601": "2024-11-25T19:52:00.328105Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.7.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 50179,
+        "upload_time": "2024-11-25T19:52:02",
+        "upload_time_iso_8601": "2024-11-25T19:52:02.827631Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.7.4": [
+      {
+        "filename": "posthog-3.7.4-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 54777,
+        "upload_time": "2024-11-27T22:25:53",
+        "upload_time_iso_8601": "2024-11-27T22:25:53.358080Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.7.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 50174,
+        "upload_time": "2024-11-27T22:25:54",
+        "upload_time_iso_8601": "2024-11-27T22:25:54.610437Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.7.5": [
+      {
+        "filename": "posthog-3.7.5-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 54882,
+        "upload_time": "2025-01-03T21:01:31",
+        "upload_time_iso_8601": "2025-01-03T21:01:31.894905Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.7.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 50269,
+        "upload_time": "2025-01-03T21:01:34",
+        "upload_time_iso_8601": "2025-01-03T21:01:34.785497Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.8.0": [
+      {
+        "filename": "posthog-3.8.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 55003,
+        "upload_time": "2025-01-14T00:36:02",
+        "upload_time_iso_8601": "2025-01-14T00:36:02.598239Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.8.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 50593,
+        "upload_time": "2025-01-14T00:36:05",
+        "upload_time_iso_8601": "2025-01-14T00:36:05.151540Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.8.1": [
+      {
+        "filename": "posthog-3.8.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 56499,
+        "upload_time": "2025-01-14T01:25:34",
+        "upload_time_iso_8601": "2025-01-14T01:25:34.781505Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.8.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 51760,
+        "upload_time": "2025-01-14T01:25:37",
+        "upload_time_iso_8601": "2025-01-14T01:25:37.174198Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.8.2": [
+      {
+        "filename": "posthog-3.8.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 64663,
+        "upload_time": "2025-01-14T09:27:44",
+        "upload_time_iso_8601": "2025-01-14T09:27:44.855745Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.8.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 56862,
+        "upload_time": "2025-01-14T09:27:47",
+        "upload_time_iso_8601": "2025-01-14T09:27:47.545169Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.8.3": [
+      {
+        "filename": "posthog-3.8.3-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 64665,
+        "upload_time": "2025-01-14T09:51:25",
+        "upload_time_iso_8601": "2025-01-14T09:51:25.299213Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.8.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 56864,
+        "upload_time": "2025-01-14T09:51:26",
+        "upload_time_iso_8601": "2025-01-14T09:51:26.523143Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.8.4": [
+      {
+        "filename": "posthog-3.8.4-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 69793,
+        "upload_time": "2025-01-20T19:03:00",
+        "upload_time_iso_8601": "2025-01-20T19:03:00.532166Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.8.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 58969,
+        "upload_time": "2025-01-20T19:03:02",
+        "upload_time_iso_8601": "2025-01-20T19:03:02.624867Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.9.0": [
+      {
+        "filename": "posthog-3.9.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 70781,
+        "upload_time": "2025-01-21T23:34:22",
+        "upload_time_iso_8601": "2025-01-21T23:34:22.085968Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.9.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 60084,
+        "upload_time": "2025-01-21T23:34:24",
+        "upload_time_iso_8601": "2025-01-21T23:34:24.339598Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.9.1": [
+      {
+        "filename": "posthog-3.9.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 70780,
+        "upload_time": "2025-01-22T14:47:21",
+        "upload_time_iso_8601": "2025-01-22T14:47:21.820132Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.9.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 60042,
+        "upload_time": "2025-01-22T14:47:23",
+        "upload_time_iso_8601": "2025-01-22T14:47:23.859758Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.9.2": [
+      {
+        "filename": "posthog-3.9.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 70780,
+        "upload_time": "2025-01-22T15:28:36",
+        "upload_time_iso_8601": "2025-01-22T15:28:36.288093Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.9.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 60057,
+        "upload_time": "2025-01-22T15:28:38",
+        "upload_time_iso_8601": "2025-01-22T15:28:38.397379Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "3.9.3": [
+      {
+        "filename": "posthog-3.9.3-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 70952,
+        "upload_time": "2025-01-23T16:28:40",
+        "upload_time_iso_8601": "2025-01-23T16:28:40.611359Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "posthog-3.9.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 60223,
+        "upload_time": "2025-01-23T16:28:42",
+        "upload_time_iso_8601": "2025-01-23T16:28:42.580322Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "info": {
+    "author": "Sebastian Nowak",
+    "author_email": "sebastian@nowak.ninja",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "description": "awscli-plugin-proxy\n===================\n\nThis awscli plugin allows usage of proxy for AWS services as configured in profile configuration.\n\n------------\nInstallation\n------------\n\nThe easiest way to install awscli-plugin-proxy is to use `pip`:\n\n    $ pip install awscli-plugin-proxy\n\nYou can also install the latest package from GitHub source which can contain changes not yet pushed to PyPI:\n\n    $ pip install git+https://github.com/cyralinc/awscli-plugin-proxy.git\n\nor, if you install `awscli` via Homebrew, which bundles its own python, install as following:\n\n    $ /usr/local/opt/awscli/libexec/bin/pip install awscli-plugin-proxy\n\n\n---------------\nGetting Started\n---------------\n\nBefore using awscli-plugin-proxy plugin, you need to [configure awscli](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) first.\n\n**MUST**: Once that's done, to enable `awscli-plugin-proxy` plugin for S3, you can run:\n\n    $ aws configure set plugins.s3-proxy awscli_plugin_proxy\n\nThe above command adds below section to your aws config file. You can also directly edit your `~/.aws/config` with below configuration.\n\n    [plugins]\n    s3-proxy = awscli_plugin_s3_proxy\n\nTo add proxy configure to a profile (assuming you have a **test** profile), you can run:\n\n    $ aws configure --profile test set s3.proxy http://proxy-host.com:8080\n\nThe above command adds below section to your profile:\n\n\t[profile test]\n\ts3 =\n\t\tproxy = http://proxy-host.com:8080\n\ts3api =\n\t\tproxy = http://proxy-host.com:8080\n\nNow you can access S3 using proxy with profile:\n\n    $ aws s3 ls --profile test\n\nIf You want to use profile without passing it every time as parameter, use environment variable, ex:\n\n    export AWS_PROFILE=test\n\nAlternative (classic) method\n----------------------------\nYou can follow the [guide by AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-http-proxy.html) which describes how to use proxy using system environment variables. Here is the example:\n\n    export http_proxy=http://proxy-host.com:8080\n    export https_proxy=http://proxy-host.com:8080\n    export HTTP_PROXY=http://proxy-host.com:8080\n    export HTTPS_PROXY=http://proxy-host.com:8080\n\nRemember that after setting these variables, `ALL` clients using this settings will be going through proxy!\n\nAdditionally, if You are using awscli on EC2 host, add `NO_PROXY` variable to allow awscli communicate with metadata endpoint:\n\n    NO_PROXY=169.254.169.254\n",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": "https://codeload.github.com/cyralinc/awscli-plugin-proxy/zip/refs/heads/master",
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "dynamic": null,
+    "home_page": "https://github.com/cyralinc/awscli-plugin-proxy",
+    "keywords": "awscli,plugin,proxy",
+    "license": "",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": "",
+    "maintainer_email": "",
+    "name": "awscli-plugin-proxy",
+    "package_url": "https://pypi.org/project/awscli-plugin-proxy/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/awscli-plugin-proxy/",
+    "project_urls": {
+      "Download": "https://codeload.github.com/cyralinc/awscli-plugin-proxy/zip/refs/heads/master",
+      "Homepage": "https://github.com/cyralinc/awscli-plugin-proxy"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/awscli-plugin-proxy/0.5.1/",
+    "requires_dist": null,
+    "requires_python": "",
+    "summary": "Proxy plugin for AWS CLI (based on https://github.com/nowak-ninja/awscli-s3-proxy)",
+    "version": "0.5.1",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 21063168,
+  "releases": {
+    "0.5.1": [
+      {
+        "filename": "awscli_plugin_proxy-0.5.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 6999,
+        "upload_time": "2023-12-14T19:20:54",
+        "upload_time_iso_8601": "2023-12-14T19:20:54.501821Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "awscli-plugin-proxy-0.5.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 6629,
+        "upload_time": "2023-12-14T19:20:57",
+        "upload_time_iso_8601": "2023-12-14T19:20:57.015582Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

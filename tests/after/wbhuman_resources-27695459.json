@@ -1,0 +1,610 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "Christopher Wittlinger <c.wittlinger@stainly.com>",
+    "bugtrack_url": null,
+    "classifiers": [],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "wbhuman_resources",
+    "package_url": "https://pypi.org/project/wbhuman_resources/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/wbhuman_resources/",
+    "project_urls": null,
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/wbhuman_resources/1.46.11/",
+    "requires_dist": [
+      "wbcore",
+      "weasyprint==57.*",
+      "workalendar==17.*",
+      "xlsxwriter==3.*"
+    ],
+    "requires_python": null,
+    "summary": "A workbench module for managing human resources.",
+    "version": "1.46.11",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27695459,
+  "releases": {
+    "1.43.1": [
+      {
+        "filename": "wbhuman_resources-1.43.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162232,
+        "upload_time": "2025-01-06T10:20:19",
+        "upload_time_iso_8601": "2025-01-06T10:20:19.064564Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.43.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116638,
+        "upload_time": "2025-01-06T10:20:21",
+        "upload_time_iso_8601": "2025-01-06T10:20:21.419272Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.43.2": [
+      {
+        "filename": "wbhuman_resources-1.43.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162232,
+        "upload_time": "2025-01-06T15:29:52",
+        "upload_time_iso_8601": "2025-01-06T15:29:52.162348Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.43.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116639,
+        "upload_time": "2025-01-06T15:29:53",
+        "upload_time_iso_8601": "2025-01-06T15:29:53.343249Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.44.0": [
+      {
+        "filename": "wbhuman_resources-1.44.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162232,
+        "upload_time": "2025-01-16T08:07:47",
+        "upload_time_iso_8601": "2025-01-16T08:07:47.793793Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.44.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116639,
+        "upload_time": "2025-01-16T08:07:49",
+        "upload_time_iso_8601": "2025-01-16T08:07:49.219970Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.44.1": [
+      {
+        "filename": "wbhuman_resources-1.44.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162232,
+        "upload_time": "2025-01-17T10:25:46",
+        "upload_time_iso_8601": "2025-01-17T10:25:46.281638Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.44.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116638,
+        "upload_time": "2025-01-17T10:25:47",
+        "upload_time_iso_8601": "2025-01-17T10:25:47.565489Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.44.2": [
+      {
+        "filename": "wbhuman_resources-1.44.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162232,
+        "upload_time": "2025-01-20T15:55:24",
+        "upload_time_iso_8601": "2025-01-20T15:55:24.432708Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.44.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116637,
+        "upload_time": "2025-01-20T15:55:27",
+        "upload_time_iso_8601": "2025-01-20T15:55:27.239220Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.44.3": [
+      {
+        "filename": "wbhuman_resources-1.44.3-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162233,
+        "upload_time": "2025-02-03T12:42:11",
+        "upload_time_iso_8601": "2025-02-03T12:42:11.860903Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.44.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116641,
+        "upload_time": "2025-02-03T12:42:13",
+        "upload_time_iso_8601": "2025-02-03T12:42:13.844076Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.44.4": [
+      {
+        "filename": "wbhuman_resources-1.44.4-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162233,
+        "upload_time": "2025-02-03T14:36:09",
+        "upload_time_iso_8601": "2025-02-03T14:36:09.324165Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.44.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116634,
+        "upload_time": "2025-02-03T14:36:11",
+        "upload_time_iso_8601": "2025-02-03T14:36:11.183642Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.44.5": [
+      {
+        "filename": "wbhuman_resources-1.44.5-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162234,
+        "upload_time": "2025-02-04T14:39:25",
+        "upload_time_iso_8601": "2025-02-04T14:39:25.105913Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.44.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116638,
+        "upload_time": "2025-02-04T14:39:26",
+        "upload_time_iso_8601": "2025-02-04T14:39:26.256727Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.45.0": [
+      {
+        "filename": "wbhuman_resources-1.45.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162288,
+        "upload_time": "2025-02-07T10:09:22",
+        "upload_time_iso_8601": "2025-02-07T10:09:22.548426Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.45.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116652,
+        "upload_time": "2025-02-07T10:09:23",
+        "upload_time_iso_8601": "2025-02-07T10:09:23.858563Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.45.1": [
+      {
+        "filename": "wbhuman_resources-1.45.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162288,
+        "upload_time": "2025-02-10T15:49:06",
+        "upload_time_iso_8601": "2025-02-10T15:49:06.910892Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.45.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116654,
+        "upload_time": "2025-02-10T15:49:08",
+        "upload_time_iso_8601": "2025-02-10T15:49:08.059844Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.0": [
+      {
+        "filename": "wbhuman_resources-1.46.0-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162288,
+        "upload_time": "2025-02-13T12:04:35",
+        "upload_time_iso_8601": "2025-02-13T12:04:35.054676Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116655,
+        "upload_time": "2025-02-13T12:04:36",
+        "upload_time_iso_8601": "2025-02-13T12:04:36.914123Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.1": [
+      {
+        "filename": "wbhuman_resources-1.46.1-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162289,
+        "upload_time": "2025-02-14T09:43:27",
+        "upload_time_iso_8601": "2025-02-14T09:43:27.365524Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116652,
+        "upload_time": "2025-02-14T09:43:28",
+        "upload_time_iso_8601": "2025-02-14T09:43:28.551140Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.10": [
+      {
+        "filename": "wbhuman_resources-1.46.10-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162295,
+        "upload_time": "2025-02-27T14:39:48",
+        "upload_time_iso_8601": "2025-02-27T14:39:48.849656Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116658,
+        "upload_time": "2025-02-27T14:39:50",
+        "upload_time_iso_8601": "2025-02-27T14:39:50.022469Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.11": [
+      {
+        "filename": "wbhuman_resources-1.46.11-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162295,
+        "upload_time": "2025-02-28T10:17:08",
+        "upload_time_iso_8601": "2025-02-28T10:17:08.253127Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116649,
+        "upload_time": "2025-02-28T10:17:10",
+        "upload_time_iso_8601": "2025-02-28T10:17:10.006819Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.2": [
+      {
+        "filename": "wbhuman_resources-1.46.2-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162288,
+        "upload_time": "2025-02-19T07:23:26",
+        "upload_time_iso_8601": "2025-02-19T07:23:26.867222Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116646,
+        "upload_time": "2025-02-19T07:23:29",
+        "upload_time_iso_8601": "2025-02-19T07:23:29.961515Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.3": [
+      {
+        "filename": "wbhuman_resources-1.46.3-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162289,
+        "upload_time": "2025-02-19T13:41:22",
+        "upload_time_iso_8601": "2025-02-19T13:41:22.497854Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116650,
+        "upload_time": "2025-02-19T13:41:24",
+        "upload_time_iso_8601": "2025-02-19T13:41:24.792943Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.4": [
+      {
+        "filename": "wbhuman_resources-1.46.4-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162290,
+        "upload_time": "2025-02-19T14:31:22",
+        "upload_time_iso_8601": "2025-02-19T14:31:22.995395Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116655,
+        "upload_time": "2025-02-19T14:31:24",
+        "upload_time_iso_8601": "2025-02-19T14:31:24.078678Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.5": [
+      {
+        "filename": "wbhuman_resources-1.46.5-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162289,
+        "upload_time": "2025-02-20T10:19:42",
+        "upload_time_iso_8601": "2025-02-20T10:19:42.106099Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116653,
+        "upload_time": "2025-02-20T10:19:43",
+        "upload_time_iso_8601": "2025-02-20T10:19:43.321664Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.6": [
+      {
+        "filename": "wbhuman_resources-1.46.6-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162288,
+        "upload_time": "2025-02-24T17:13:53",
+        "upload_time_iso_8601": "2025-02-24T17:13:53.080800Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116658,
+        "upload_time": "2025-02-24T17:13:54",
+        "upload_time_iso_8601": "2025-02-24T17:13:54.964628Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.7": [
+      {
+        "filename": "wbhuman_resources-1.46.7-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162288,
+        "upload_time": "2025-02-25T08:38:43",
+        "upload_time_iso_8601": "2025-02-25T08:38:43.535024Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116657,
+        "upload_time": "2025-02-25T08:38:44",
+        "upload_time_iso_8601": "2025-02-25T08:38:44.760815Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.8": [
+      {
+        "filename": "wbhuman_resources-1.46.8-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162290,
+        "upload_time": "2025-02-25T09:22:20",
+        "upload_time_iso_8601": "2025-02-25T09:22:20.011102Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116660,
+        "upload_time": "2025-02-25T09:22:22",
+        "upload_time_iso_8601": "2025-02-25T09:22:22.094480Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.46.9": [
+      {
+        "filename": "wbhuman_resources-1.46.9-py2.py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py2.py3",
+        "requires_python": null,
+        "size": 162288,
+        "upload_time": "2025-02-25T10:30:03",
+        "upload_time_iso_8601": "2025-02-25T10:30:03.359363Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "wbhuman_resources-1.46.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 116661,
+        "upload_time": "2025-02-25T10:30:04",
+        "upload_time_iso_8601": "2025-02-25T10:30:04.596420Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

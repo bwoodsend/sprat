@@ -1,0 +1,465 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "daizutabi <daizutabi@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": null,
+    "license_expression": null,
+    "license_files": [
+      "LICENSE"
+    ],
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "xlviews",
+    "package_url": "https://pypi.org/project/xlviews/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/xlviews/",
+    "project_urls": {
+      "Documentation": "https://github.com/daizutabi/xlviews",
+      "Issues": "https://github.com/daizutabi/xlviews/issues",
+      "Source": "https://github.com/daizutabi/xlviews"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/xlviews/0.3.0/",
+    "requires_dist": [
+      "numpy>=2",
+      "pandas>=2",
+      "xlwings>=0.33"
+    ],
+    "requires_python": ">=3.11",
+    "summary": "A Python package for writing xlsx files.",
+    "version": "0.3.0",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27721682,
+  "releases": {
+    "0.0.1": [
+      {
+        "filename": "xlviews-0.0.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 2844,
+        "upload_time": "2024-12-28T23:54:34",
+        "upload_time_iso_8601": "2024-12-28T23:54:34.765598Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.0.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 16233,
+        "upload_time": "2024-12-28T23:54:37",
+        "upload_time_iso_8601": "2024-12-28T23:54:37.125732Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.0": [
+      {
+        "filename": "xlviews-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 47464,
+        "upload_time": "2025-01-09T13:43:56",
+        "upload_time_iso_8601": "2025-01-09T13:43:56.364027Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 56834,
+        "upload_time": "2025-01-09T13:43:57",
+        "upload_time_iso_8601": "2025-01-09T13:43:57.667321Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.10": [
+      {
+        "filename": "xlviews-0.1.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 54202,
+        "upload_time": "2025-02-18T13:06:59",
+        "upload_time_iso_8601": "2025-02-18T13:06:59.079411Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.1.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 58326,
+        "upload_time": "2025-02-18T13:07:01",
+        "upload_time_iso_8601": "2025-02-18T13:07:01.101244Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.11": [
+      {
+        "filename": "xlviews-0.1.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 54195,
+        "upload_time": "2025-02-18T13:25:29",
+        "upload_time_iso_8601": "2025-02-18T13:25:29.556897Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.1.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 58318,
+        "upload_time": "2025-02-18T13:25:31",
+        "upload_time_iso_8601": "2025-02-18T13:25:31.420593Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.2": [
+      {
+        "filename": "xlviews-0.1.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.10",
+        "size": 47730,
+        "upload_time": "2025-01-14T09:47:16",
+        "upload_time_iso_8601": "2025-01-14T09:47:16.973865Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.1.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.10",
+        "size": 61144,
+        "upload_time": "2025-01-14T09:47:19",
+        "upload_time_iso_8601": "2025-01-14T09:47:19.525505Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.3": [
+      {
+        "filename": "xlviews-0.1.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 48053,
+        "upload_time": "2025-01-19T01:38:28",
+        "upload_time_iso_8601": "2025-01-19T01:38:28.940747Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.1.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 61455,
+        "upload_time": "2025-01-19T01:38:30",
+        "upload_time_iso_8601": "2025-01-19T01:38:30.627381Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.4": [
+      {
+        "filename": "xlviews-0.1.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 47146,
+        "upload_time": "2025-01-24T21:05:43",
+        "upload_time_iso_8601": "2025-01-24T21:05:43.785876Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.1.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 61095,
+        "upload_time": "2025-01-24T21:05:45",
+        "upload_time_iso_8601": "2025-01-24T21:05:45.657963Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.5": [
+      {
+        "filename": "xlviews-0.1.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 47617,
+        "upload_time": "2025-01-25T07:30:13",
+        "upload_time_iso_8601": "2025-01-25T07:30:13.633709Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.1.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 61996,
+        "upload_time": "2025-01-25T07:30:17",
+        "upload_time_iso_8601": "2025-01-25T07:30:17.199652Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.6": [
+      {
+        "filename": "xlviews-0.1.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 55613,
+        "upload_time": "2025-02-08T05:27:30",
+        "upload_time_iso_8601": "2025-02-08T05:27:30.122984Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.1.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 68743,
+        "upload_time": "2025-02-08T05:27:31",
+        "upload_time_iso_8601": "2025-02-08T05:27:31.946005Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.7": [
+      {
+        "filename": "xlviews-0.1.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 56976,
+        "upload_time": "2025-02-09T07:57:50",
+        "upload_time_iso_8601": "2025-02-09T07:57:50.788303Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.1.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 66548,
+        "upload_time": "2025-02-09T07:57:52",
+        "upload_time_iso_8601": "2025-02-09T07:57:52.570076Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.8": [
+      {
+        "filename": "xlviews-0.1.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 54172,
+        "upload_time": "2025-02-17T01:36:22",
+        "upload_time_iso_8601": "2025-02-17T01:36:22.370737Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.1.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 58219,
+        "upload_time": "2025-02-17T01:36:24",
+        "upload_time_iso_8601": "2025-02-17T01:36:24.108744Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.9": [
+      {
+        "filename": "xlviews-0.1.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 54359,
+        "upload_time": "2025-02-18T12:20:38",
+        "upload_time_iso_8601": "2025-02-18T12:20:38.828033Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.1.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 58511,
+        "upload_time": "2025-02-18T12:20:40",
+        "upload_time_iso_8601": "2025-02-18T12:20:40.071149Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.0": [
+      {
+        "filename": "xlviews-0.2.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 54200,
+        "upload_time": "2025-02-18T19:51:05",
+        "upload_time_iso_8601": "2025-02-18T19:51:05.233822Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.2.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 58143,
+        "upload_time": "2025-02-18T19:51:07",
+        "upload_time_iso_8601": "2025-02-18T19:51:07.777025Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.1": [
+      {
+        "filename": "xlviews-0.2.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 54197,
+        "upload_time": "2025-02-19T03:48:30",
+        "upload_time_iso_8601": "2025-02-19T03:48:30.863339Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.2.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 58138,
+        "upload_time": "2025-02-19T03:48:36",
+        "upload_time_iso_8601": "2025-02-19T03:48:36.050159Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.2.2": [
+      {
+        "filename": "xlviews-0.2.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 56307,
+        "upload_time": "2025-02-19T11:14:40",
+        "upload_time_iso_8601": "2025-02-19T11:14:40.731368Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.2.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 59186,
+        "upload_time": "2025-02-19T11:14:42",
+        "upload_time_iso_8601": "2025-02-19T11:14:42.704586Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.3.0": [
+      {
+        "filename": "xlviews-0.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.11",
+        "size": 60419,
+        "upload_time": "2025-03-02T08:55:26",
+        "upload_time_iso_8601": "2025-03-02T08:55:26.496191Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "xlviews-0.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.11",
+        "size": 325940,
+        "upload_time": "2025-03-02T08:55:28",
+        "upload_time_iso_8601": "2025-03-02T08:55:28.598450Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1536 @@
+{
+  "info": {
+    "author": "Henry Letellier",
+    "author_email": "henrysoftwarehouse@protonmail.com",
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": [
+      "Author",
+      "Author-Email",
+      "Classifier",
+      "Description",
+      "Description-Content-Type",
+      "Home-Page",
+      "Requires-Dist",
+      "Summary"
+    ],
+    "home_page": "https://github.com/Hanra-s-work/tty_ov",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "tty-ov",
+    "package_url": "https://pypi.org/project/tty-ov/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/tty-ov/",
+    "project_urls": {
+      "Homepage": "https://github.com/Hanra-s-work/tty_ov"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/tty-ov/1.0.67/",
+    "requires_dist": [
+      "colorama==0.4.6",
+      "prettytable==3.14.0",
+      "ask_question==1.2.8",
+      "colourise-output==1.1.6",
+      "prompt-toolkit==3.0.50"
+    ],
+    "requires_python": null,
+    "summary": "A module that emulates a few core functionalities of a tty (see the inner help for a list of functions).",
+    "version": "1.0.67",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27724427,
+  "releases": {
+    "1.0.10": [
+      {
+        "filename": "tty_ov-1.0.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 16888,
+        "upload_time": "2023-09-27T13:45:44",
+        "upload_time_iso_8601": "2023-09-27T13:45:44.075468Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17198,
+        "upload_time": "2023-09-27T13:45:45",
+        "upload_time_iso_8601": "2023-09-27T13:45:45.472689Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.11": [
+      {
+        "filename": "tty_ov-1.0.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 17633,
+        "upload_time": "2023-09-28T13:32:39",
+        "upload_time_iso_8601": "2023-09-28T13:32:39.551862Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17876,
+        "upload_time": "2023-09-28T13:32:41",
+        "upload_time_iso_8601": "2023-09-28T13:32:41.108620Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.12": [
+      {
+        "filename": "tty_ov-1.0.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 17630,
+        "upload_time": "2023-10-09T11:47:24",
+        "upload_time_iso_8601": "2023-10-09T11:47:24.116653Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 17874,
+        "upload_time": "2023-10-09T11:47:25",
+        "upload_time_iso_8601": "2023-10-09T11:47:25.674128Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.13": [
+      {
+        "filename": "tty_ov-1.0.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 18292,
+        "upload_time": "2023-10-09T15:16:56",
+        "upload_time_iso_8601": "2023-10-09T15:16:56.310607Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18537,
+        "upload_time": "2023-10-09T15:16:57",
+        "upload_time_iso_8601": "2023-10-09T15:16:57.397146Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.14": [
+      {
+        "filename": "tty_ov-1.0.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 18337,
+        "upload_time": "2023-10-09T18:57:14",
+        "upload_time_iso_8601": "2023-10-09T18:57:14.910356Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18647,
+        "upload_time": "2023-10-09T18:57:16",
+        "upload_time_iso_8601": "2023-10-09T18:57:16.496083Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.15": [
+      {
+        "filename": "tty_ov-1.0.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 18537,
+        "upload_time": "2023-10-10T08:19:13",
+        "upload_time_iso_8601": "2023-10-10T08:19:13.258357Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18904,
+        "upload_time": "2023-10-10T08:19:15",
+        "upload_time_iso_8601": "2023-10-10T08:19:15.590539Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.16": [
+      {
+        "filename": "tty_ov-1.0.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 18603,
+        "upload_time": "2023-10-12T13:58:08",
+        "upload_time_iso_8601": "2023-10-12T13:58:08.731217Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 18964,
+        "upload_time": "2023-10-12T13:58:10",
+        "upload_time_iso_8601": "2023-10-12T13:58:10.255569Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.17": [
+      {
+        "filename": "tty_ov-1.0.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 19228,
+        "upload_time": "2023-10-18T09:38:19",
+        "upload_time_iso_8601": "2023-10-18T09:38:19.118533Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19541,
+        "upload_time": "2023-10-18T09:38:20",
+        "upload_time_iso_8601": "2023-10-18T09:38:20.652717Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.18": [
+      {
+        "filename": "tty_ov-1.0.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 19346,
+        "upload_time": "2023-11-03T15:22:39",
+        "upload_time_iso_8601": "2023-11-03T15:22:39.328583Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19660,
+        "upload_time": "2023-11-03T15:22:42",
+        "upload_time_iso_8601": "2023-11-03T15:22:42.931079Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.19": [
+      {
+        "filename": "tty_ov-1.0.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20397,
+        "upload_time": "2023-11-21T15:54:07",
+        "upload_time_iso_8601": "2023-11-21T15:54:07.595405Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19944,
+        "upload_time": "2023-11-21T15:54:09",
+        "upload_time_iso_8601": "2023-11-21T15:54:09.847074Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.20": [
+      {
+        "filename": "tty_ov-1.0.20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20396,
+        "upload_time": "2024-08-14T13:12:18",
+        "upload_time_iso_8601": "2024-08-14T13:12:18.311148Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19925,
+        "upload_time": "2024-08-14T13:12:19",
+        "upload_time_iso_8601": "2024-08-14T13:12:19.295043Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.21": [
+      {
+        "filename": "tty_ov-1.0.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20395,
+        "upload_time": "2024-08-14T13:14:14",
+        "upload_time_iso_8601": "2024-08-14T13:14:14.238235Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19923,
+        "upload_time": "2024-08-14T13:14:15",
+        "upload_time_iso_8601": "2024-08-14T13:14:15.823847Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.22": [
+      {
+        "filename": "tty_ov-1.0.22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20396,
+        "upload_time": "2024-08-14T14:59:54",
+        "upload_time_iso_8601": "2024-08-14T14:59:54.584529Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19918,
+        "upload_time": "2024-08-14T14:59:55",
+        "upload_time_iso_8601": "2024-08-14T14:59:55.871161Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.23": [
+      {
+        "filename": "tty_ov-1.0.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20395,
+        "upload_time": "2024-08-14T15:04:16",
+        "upload_time_iso_8601": "2024-08-14T15:04:16.983899Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19904,
+        "upload_time": "2024-08-14T15:04:18",
+        "upload_time_iso_8601": "2024-08-14T15:04:18.242620Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.24": [
+      {
+        "filename": "tty_ov-1.0.24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20394,
+        "upload_time": "2024-08-14T15:06:08",
+        "upload_time_iso_8601": "2024-08-14T15:06:08.454411Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19920,
+        "upload_time": "2024-08-14T15:06:10",
+        "upload_time_iso_8601": "2024-08-14T15:06:10.034747Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.25": [
+      {
+        "filename": "tty_ov-1.0.25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20394,
+        "upload_time": "2024-08-14T20:11:14",
+        "upload_time_iso_8601": "2024-08-14T20:11:14.187447Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19917,
+        "upload_time": "2024-08-14T20:11:15",
+        "upload_time_iso_8601": "2024-08-14T20:11:15.526905Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.27": [
+      {
+        "filename": "tty_ov-1.0.27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20393,
+        "upload_time": "2024-08-14T22:22:18",
+        "upload_time_iso_8601": "2024-08-14T22:22:18.801268Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19920,
+        "upload_time": "2024-08-14T22:22:20",
+        "upload_time_iso_8601": "2024-08-14T22:22:20.055695Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.28": [
+      {
+        "filename": "tty_ov-1.0.28-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20395,
+        "upload_time": "2024-08-15T02:12:38",
+        "upload_time_iso_8601": "2024-08-15T02:12:38.806809Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19917,
+        "upload_time": "2024-08-15T02:12:40",
+        "upload_time_iso_8601": "2024-08-15T02:12:40.082615Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.30": [
+      {
+        "filename": "tty_ov-1.0.30-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20392,
+        "upload_time": "2024-08-19T21:31:20",
+        "upload_time_iso_8601": "2024-08-19T21:31:20.531336Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.30.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19921,
+        "upload_time": "2024-08-19T21:31:22",
+        "upload_time_iso_8601": "2024-08-19T21:31:22.342696Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.31": [
+      {
+        "filename": "tty_ov-1.0.31-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20393,
+        "upload_time": "2024-08-20T21:30:31",
+        "upload_time_iso_8601": "2024-08-20T21:30:31.302700Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.31.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19922,
+        "upload_time": "2024-08-20T21:30:32",
+        "upload_time_iso_8601": "2024-08-20T21:30:32.673796Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.32": [
+      {
+        "filename": "tty_ov-1.0.32-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20391,
+        "upload_time": "2024-08-24T16:33:27",
+        "upload_time_iso_8601": "2024-08-24T16:33:27.724057Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.32.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19909,
+        "upload_time": "2024-08-24T16:33:29",
+        "upload_time_iso_8601": "2024-08-24T16:33:29.062935Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.33": [
+      {
+        "filename": "tty_ov-1.0.33-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20398,
+        "upload_time": "2024-08-27T20:16:36",
+        "upload_time_iso_8601": "2024-08-27T20:16:36.789009Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19920,
+        "upload_time": "2024-08-27T20:16:38",
+        "upload_time_iso_8601": "2024-08-27T20:16:38.142920Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.35": [
+      {
+        "filename": "tty_ov-1.0.35-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20391,
+        "upload_time": "2024-08-27T20:25:16",
+        "upload_time_iso_8601": "2024-08-27T20:25:16.015223Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.35.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19916,
+        "upload_time": "2024-08-27T20:25:16",
+        "upload_time_iso_8601": "2024-08-27T20:25:16.884452Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.36": [
+      {
+        "filename": "tty_ov-1.0.36-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20392,
+        "upload_time": "2024-08-28T20:27:18",
+        "upload_time_iso_8601": "2024-08-28T20:27:18.601198Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.36.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19912,
+        "upload_time": "2024-08-28T20:27:19",
+        "upload_time_iso_8601": "2024-08-28T20:27:19.487383Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.37": [
+      {
+        "filename": "tty_ov-1.0.37-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20393,
+        "upload_time": "2024-09-02T18:40:32",
+        "upload_time_iso_8601": "2024-09-02T18:40:32.929306Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.37.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19910,
+        "upload_time": "2024-09-02T18:40:34",
+        "upload_time_iso_8601": "2024-09-02T18:40:34.181420Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.38": [
+      {
+        "filename": "tty_ov-1.0.38-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20393,
+        "upload_time": "2024-09-03T13:21:12",
+        "upload_time_iso_8601": "2024-09-03T13:21:12.891548Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.38.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19913,
+        "upload_time": "2024-09-03T13:21:14",
+        "upload_time_iso_8601": "2024-09-03T13:21:14.309178Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.39": [
+      {
+        "filename": "tty_ov-1.0.39-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20394,
+        "upload_time": "2024-09-05T04:39:45",
+        "upload_time_iso_8601": "2024-09-05T04:39:45.922179Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.39.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19922,
+        "upload_time": "2024-09-05T04:39:47",
+        "upload_time_iso_8601": "2024-09-05T04:39:47.099088Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.40": [
+      {
+        "filename": "tty_ov-1.0.40-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20392,
+        "upload_time": "2024-09-06T21:36:33",
+        "upload_time_iso_8601": "2024-09-06T21:36:33.475964Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.40.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19909,
+        "upload_time": "2024-09-06T21:36:34",
+        "upload_time_iso_8601": "2024-09-06T21:36:34.822249Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.41": [
+      {
+        "filename": "tty_ov-1.0.41-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20391,
+        "upload_time": "2024-09-10T13:32:54",
+        "upload_time_iso_8601": "2024-09-10T13:32:54.147007Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.41.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19925,
+        "upload_time": "2024-09-10T13:32:55",
+        "upload_time_iso_8601": "2024-09-10T13:32:55.712701Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.42": [
+      {
+        "filename": "tty_ov-1.0.42-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20393,
+        "upload_time": "2024-09-14T20:15:21",
+        "upload_time_iso_8601": "2024-09-14T20:15:21.039305Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.42.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19915,
+        "upload_time": "2024-09-14T20:15:22",
+        "upload_time_iso_8601": "2024-09-14T20:15:22.118860Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.43": [
+      {
+        "filename": "tty_ov-1.0.43-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20391,
+        "upload_time": "2024-09-15T16:13:06",
+        "upload_time_iso_8601": "2024-09-15T16:13:06.293052Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.43.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19915,
+        "upload_time": "2024-09-15T16:13:07",
+        "upload_time_iso_8601": "2024-09-15T16:13:07.875144Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.44": [
+      {
+        "filename": "tty_ov-1.0.44-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20392,
+        "upload_time": "2024-09-16T15:42:12",
+        "upload_time_iso_8601": "2024-09-16T15:42:12.083946Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.44.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19904,
+        "upload_time": "2024-09-16T15:42:13",
+        "upload_time_iso_8601": "2024-09-16T15:42:13.008391Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.45": [
+      {
+        "filename": "tty_ov-1.0.45-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20391,
+        "upload_time": "2024-09-25T10:53:28",
+        "upload_time_iso_8601": "2024-09-25T10:53:28.309845Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.45.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19927,
+        "upload_time": "2024-09-25T10:53:29",
+        "upload_time_iso_8601": "2024-09-25T10:53:29.662724Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.46": [
+      {
+        "filename": "tty_ov-1.0.46-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20392,
+        "upload_time": "2024-10-06T19:13:00",
+        "upload_time_iso_8601": "2024-10-06T19:13:00.762158Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.46.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19909,
+        "upload_time": "2024-10-06T19:13:01",
+        "upload_time_iso_8601": "2024-10-06T19:13:01.845130Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.47": [
+      {
+        "filename": "tty_ov-1.0.47-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20392,
+        "upload_time": "2024-10-16T12:09:21",
+        "upload_time_iso_8601": "2024-10-16T12:09:21.070227Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.47.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19901,
+        "upload_time": "2024-10-16T12:09:22",
+        "upload_time_iso_8601": "2024-10-16T12:09:22.029106Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.48": [
+      {
+        "filename": "tty_ov-1.0.48-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20391,
+        "upload_time": "2024-10-29T11:07:44",
+        "upload_time_iso_8601": "2024-10-29T11:07:44.960817Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.48.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19906,
+        "upload_time": "2024-10-29T11:07:46",
+        "upload_time_iso_8601": "2024-10-29T11:07:46.398645Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.49": [
+      {
+        "filename": "tty_ov-1.0.49-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20393,
+        "upload_time": "2024-10-30T13:02:42",
+        "upload_time_iso_8601": "2024-10-30T13:02:42.789172Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.49.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19914,
+        "upload_time": "2024-10-30T13:02:46",
+        "upload_time_iso_8601": "2024-10-30T13:02:46.652737Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.50": [
+      {
+        "filename": "tty_ov-1.0.50-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20392,
+        "upload_time": "2024-11-08T22:22:29",
+        "upload_time_iso_8601": "2024-11-08T22:22:29.888621Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.50.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19918,
+        "upload_time": "2024-11-08T22:22:30",
+        "upload_time_iso_8601": "2024-11-08T22:22:30.814350Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.51": [
+      {
+        "filename": "tty_ov-1.0.51-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20395,
+        "upload_time": "2024-11-11T21:43:01",
+        "upload_time_iso_8601": "2024-11-11T21:43:01.635086Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.51.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19925,
+        "upload_time": "2024-11-11T21:43:03",
+        "upload_time_iso_8601": "2024-11-11T21:43:03.355162Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.52": [
+      {
+        "filename": "tty_ov-1.0.52-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20394,
+        "upload_time": "2024-11-13T12:10:41",
+        "upload_time_iso_8601": "2024-11-13T12:10:41.869819Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.52.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19927,
+        "upload_time": "2024-11-13T12:10:43",
+        "upload_time_iso_8601": "2024-11-13T12:10:43.408929Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.53": [
+      {
+        "filename": "tty_ov-1.0.53-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20393,
+        "upload_time": "2024-11-20T22:58:33",
+        "upload_time_iso_8601": "2024-11-20T22:58:33.401042Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.53.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19934,
+        "upload_time": "2024-11-20T22:58:34",
+        "upload_time_iso_8601": "2024-11-20T22:58:34.442220Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.54": [
+      {
+        "filename": "tty_ov-1.0.54-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20393,
+        "upload_time": "2024-11-23T01:31:26",
+        "upload_time_iso_8601": "2024-11-23T01:31:26.469177Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.54.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19908,
+        "upload_time": "2024-11-23T01:31:28",
+        "upload_time_iso_8601": "2024-11-23T01:31:28.066014Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.55": [
+      {
+        "filename": "tty_ov-1.0.55-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20394,
+        "upload_time": "2024-12-01T15:04:11",
+        "upload_time_iso_8601": "2024-12-01T15:04:11.718375Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.55.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19911,
+        "upload_time": "2024-12-01T15:04:14",
+        "upload_time_iso_8601": "2024-12-01T15:04:14.560906Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.56": [
+      {
+        "filename": "tty_ov-1.0.56-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20393,
+        "upload_time": "2025-01-05T18:32:57",
+        "upload_time_iso_8601": "2025-01-05T18:32:57.567693Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.56.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 19914,
+        "upload_time": "2025-01-05T18:32:59",
+        "upload_time_iso_8601": "2025-01-05T18:32:59.665197Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.57": [
+      {
+        "filename": "tty_ov-1.0.57-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20443,
+        "upload_time": "2025-01-08T21:46:39",
+        "upload_time_iso_8601": "2025-01-08T21:46:39.411720Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.57.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20016,
+        "upload_time": "2025-01-08T21:46:40",
+        "upload_time_iso_8601": "2025-01-08T21:46:40.454969Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.58": [
+      {
+        "filename": "tty_ov-1.0.58-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20444,
+        "upload_time": "2025-01-20T10:18:41",
+        "upload_time_iso_8601": "2025-01-20T10:18:41.225645Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.58.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20012,
+        "upload_time": "2025-01-20T10:18:44",
+        "upload_time_iso_8601": "2025-01-20T10:18:44.660253Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.59": [
+      {
+        "filename": "tty_ov-1.0.59-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20444,
+        "upload_time": "2025-01-20T17:40:14",
+        "upload_time_iso_8601": "2025-01-20T17:40:14.331691Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.59.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20013,
+        "upload_time": "2025-01-20T17:40:15",
+        "upload_time_iso_8601": "2025-01-20T17:40:15.438054Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.60": [
+      {
+        "filename": "tty_ov-1.0.60-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20443,
+        "upload_time": "2025-01-24T14:13:56",
+        "upload_time_iso_8601": "2025-01-24T14:13:56.253334Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.60.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20024,
+        "upload_time": "2025-01-24T14:13:58",
+        "upload_time_iso_8601": "2025-01-24T14:13:58.109260Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.61": [
+      {
+        "filename": "tty_ov-1.0.61-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20444,
+        "upload_time": "2025-01-31T16:35:02",
+        "upload_time_iso_8601": "2025-01-31T16:35:02.716420Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.61.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20013,
+        "upload_time": "2025-01-31T16:35:04",
+        "upload_time_iso_8601": "2025-01-31T16:35:04.393320Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.62": [
+      {
+        "filename": "tty_ov-1.0.62-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20442,
+        "upload_time": "2025-02-20T15:14:26",
+        "upload_time_iso_8601": "2025-02-20T15:14:26.028260Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.62.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20016,
+        "upload_time": "2025-02-20T15:14:28",
+        "upload_time_iso_8601": "2025-02-20T15:14:28.249690Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.63": [
+      {
+        "filename": "tty_ov-1.0.63-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20445,
+        "upload_time": "2025-02-25T16:26:18",
+        "upload_time_iso_8601": "2025-02-25T16:26:18.154370Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.63.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20019,
+        "upload_time": "2025-02-25T16:26:19",
+        "upload_time_iso_8601": "2025-02-25T16:26:19.471255Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.64": [
+      {
+        "filename": "tty_ov-1.0.64-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20446,
+        "upload_time": "2025-02-26T22:56:15",
+        "upload_time_iso_8601": "2025-02-26T22:56:15.275788Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.64.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20029,
+        "upload_time": "2025-02-26T22:56:16",
+        "upload_time_iso_8601": "2025-02-26T22:56:16.231345Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.65": [
+      {
+        "filename": "tty_ov-1.0.65-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20446,
+        "upload_time": "2025-02-27T19:48:24",
+        "upload_time_iso_8601": "2025-02-27T19:48:24.287397Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.65.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20016,
+        "upload_time": "2025-02-27T19:48:25",
+        "upload_time_iso_8601": "2025-02-27T19:48:25.909166Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.66": [
+      {
+        "filename": "tty_ov-1.0.66-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20446,
+        "upload_time": "2025-02-27T22:36:36",
+        "upload_time_iso_8601": "2025-02-27T22:36:36.490143Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.66.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20013,
+        "upload_time": "2025-02-27T22:36:38",
+        "upload_time_iso_8601": "2025-02-27T22:36:38.199497Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.67": [
+      {
+        "filename": "tty_ov-1.0.67-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 20445,
+        "upload_time": "2025-03-02T13:54:22",
+        "upload_time_iso_8601": "2025-03-02T13:54:22.281652Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.67.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20033,
+        "upload_time": "2025-03-02T13:54:24",
+        "upload_time_iso_8601": "2025-03-02T13:54:24.243750Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.8": [
+      {
+        "filename": "tty_ov-1.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 15641,
+        "upload_time": "2023-09-25T15:11:30",
+        "upload_time_iso_8601": "2023-09-25T15:11:30.093588Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 15517,
+        "upload_time": "2023-09-25T15:11:31",
+        "upload_time_iso_8601": "2023-09-25T15:11:31.772320Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.9": [
+      {
+        "filename": "tty_ov-1.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 16065,
+        "upload_time": "2023-09-26T14:14:53",
+        "upload_time_iso_8601": "2023-09-26T14:14:53.051781Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "tty_ov-1.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 16391,
+        "upload_time": "2023-09-26T14:14:54",
+        "upload_time_iso_8601": "2023-09-26T14:14:54.661929Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

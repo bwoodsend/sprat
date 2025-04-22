@@ -1,0 +1,2074 @@
+{
+  "info": {
+    "author": "Kammari Santhosh",
+    "author_email": null,
+    "bugtrack_url": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": "https://github.com/santhosh/",
+    "keywords": null,
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "litegen",
+    "package_url": "https://pypi.org/project/litegen/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/litegen/",
+    "project_urls": {
+      "Homepage": "https://github.com/santhosh/",
+      "Repository": "https://github.com/santhosh/"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/litegen/0.0.80/",
+    "requires_dist": [
+      "openai<2.0.0,>=1.58.1",
+      "ollama<0.5.0,>=0.4.5"
+    ],
+    "requires_python": "<4.0,>=3.10",
+    "summary": "All popular Framework HF integration kit",
+    "version": "0.0.80",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 27718043,
+  "releases": {
+    "0.0.10": [
+      {
+        "filename": "litegen-0.0.10-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16113,
+        "upload_time": "2024-12-31T02:23:35",
+        "upload_time_iso_8601": "2024-12-31T02:23:35.886906Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.10.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11954,
+        "upload_time": "2024-12-31T02:23:37",
+        "upload_time_iso_8601": "2024-12-31T02:23:37.328224Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.11": [
+      {
+        "filename": "litegen-0.0.11-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16139,
+        "upload_time": "2024-12-31T02:25:27",
+        "upload_time_iso_8601": "2024-12-31T02:25:27.462089Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.11.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11980,
+        "upload_time": "2024-12-31T02:25:29",
+        "upload_time_iso_8601": "2024-12-31T02:25:29.908678Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.12": [
+      {
+        "filename": "litegen-0.0.12-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16173,
+        "upload_time": "2024-12-31T02:30:28",
+        "upload_time_iso_8601": "2024-12-31T02:30:28.583614Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.12.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12018,
+        "upload_time": "2024-12-31T02:30:32",
+        "upload_time_iso_8601": "2024-12-31T02:30:32.136685Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.13": [
+      {
+        "filename": "litegen-0.0.13-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16130,
+        "upload_time": "2024-12-31T02:31:08",
+        "upload_time_iso_8601": "2024-12-31T02:31:08.274605Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.13.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11976,
+        "upload_time": "2024-12-31T02:31:10",
+        "upload_time_iso_8601": "2024-12-31T02:31:10.785711Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.14": [
+      {
+        "filename": "litegen-0.0.14-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16119,
+        "upload_time": "2024-12-31T02:32:19",
+        "upload_time_iso_8601": "2024-12-31T02:32:19.870121Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.14.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11985,
+        "upload_time": "2024-12-31T02:32:23",
+        "upload_time_iso_8601": "2024-12-31T02:32:23.448949Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.15": [
+      {
+        "filename": "litegen-0.0.15-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16121,
+        "upload_time": "2024-12-31T02:33:00",
+        "upload_time_iso_8601": "2024-12-31T02:33:00.510520Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.15.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11984,
+        "upload_time": "2024-12-31T02:33:01",
+        "upload_time_iso_8601": "2024-12-31T02:33:01.737668Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.16": [
+      {
+        "filename": "litegen-0.0.16-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 14093,
+        "upload_time": "2024-12-31T02:33:48",
+        "upload_time_iso_8601": "2024-12-31T02:33:48.292499Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.16.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10306,
+        "upload_time": "2024-12-31T02:33:51",
+        "upload_time_iso_8601": "2024-12-31T02:33:51.099208Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.17": [
+      {
+        "filename": "litegen-0.0.17-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 13460,
+        "upload_time": "2024-12-31T06:42:57",
+        "upload_time_iso_8601": "2024-12-31T06:42:57.481211Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.17.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9753,
+        "upload_time": "2024-12-31T06:42:59",
+        "upload_time_iso_8601": "2024-12-31T06:42:59.539087Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.18": [
+      {
+        "filename": "litegen-0.0.18-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 13270,
+        "upload_time": "2025-01-05T13:04:44",
+        "upload_time_iso_8601": "2025-01-05T13:04:44.732379Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.18.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10668,
+        "upload_time": "2025-01-05T13:04:48",
+        "upload_time_iso_8601": "2025-01-05T13:04:48.826934Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.19": [
+      {
+        "filename": "litegen-0.0.19-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 13392,
+        "upload_time": "2025-01-05T13:58:52",
+        "upload_time_iso_8601": "2025-01-05T13:58:52.922439Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.19.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10886,
+        "upload_time": "2025-01-05T13:58:56",
+        "upload_time_iso_8601": "2025-01-05T13:58:56.157891Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.2": [
+      {
+        "filename": "litegen-0.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12667,
+        "upload_time": "2024-12-30T11:51:56",
+        "upload_time_iso_8601": "2024-12-30T11:51:56.642560Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9469,
+        "upload_time": "2024-12-30T11:51:59",
+        "upload_time_iso_8601": "2024-12-30T11:51:59.654802Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.20": [
+      {
+        "filename": "litegen-0.0.20-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 5297,
+        "upload_time": "2025-01-05T14:01:34",
+        "upload_time_iso_8601": "2025-01-05T14:01:34.351395Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.20.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 4129,
+        "upload_time": "2025-01-05T14:01:35",
+        "upload_time_iso_8601": "2025-01-05T14:01:35.526212Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.21": [
+      {
+        "filename": "litegen-0.0.21-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 5287,
+        "upload_time": "2025-01-05T14:46:34",
+        "upload_time_iso_8601": "2025-01-05T14:46:34.080851Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.21.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 4117,
+        "upload_time": "2025-01-05T14:46:36",
+        "upload_time_iso_8601": "2025-01-05T14:46:36.322013Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.22": [
+      {
+        "filename": "litegen-0.0.22-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 5303,
+        "upload_time": "2025-01-06T14:31:55",
+        "upload_time_iso_8601": "2025-01-06T14:31:55.035168Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.22.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 4127,
+        "upload_time": "2025-01-06T14:31:57",
+        "upload_time_iso_8601": "2025-01-06T14:31:57.328350Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.23": [
+      {
+        "filename": "litegen-0.0.23-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10845,
+        "upload_time": "2025-01-09T07:37:59",
+        "upload_time_iso_8601": "2025-01-09T07:37:59.417862Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.23.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9706,
+        "upload_time": "2025-01-09T07:38:01",
+        "upload_time_iso_8601": "2025-01-09T07:38:01.081224Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.24": [
+      {
+        "filename": "litegen-0.0.24-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11284,
+        "upload_time": "2025-01-10T15:58:10",
+        "upload_time_iso_8601": "2025-01-10T15:58:10.538742Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.24.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10086,
+        "upload_time": "2025-01-10T15:58:13",
+        "upload_time_iso_8601": "2025-01-10T15:58:13.479962Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.25": [
+      {
+        "filename": "litegen-0.0.25-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11297,
+        "upload_time": "2025-01-10T17:08:09",
+        "upload_time_iso_8601": "2025-01-10T17:08:09.009487Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.25.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10091,
+        "upload_time": "2025-01-10T17:08:12",
+        "upload_time_iso_8601": "2025-01-10T17:08:12.441516Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.26": [
+      {
+        "filename": "litegen-0.0.26-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11384,
+        "upload_time": "2025-01-10T17:33:38",
+        "upload_time_iso_8601": "2025-01-10T17:33:38.029611Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.26.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10183,
+        "upload_time": "2025-01-10T17:33:41",
+        "upload_time_iso_8601": "2025-01-10T17:33:41.083783Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.27": [
+      {
+        "filename": "litegen-0.0.27-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11395,
+        "upload_time": "2025-01-10T18:27:36",
+        "upload_time_iso_8601": "2025-01-10T18:27:36.400822Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.27.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10192,
+        "upload_time": "2025-01-10T18:27:38",
+        "upload_time_iso_8601": "2025-01-10T18:27:38.107061Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.28": [
+      {
+        "filename": "litegen-0.0.28-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11442,
+        "upload_time": "2025-01-11T07:44:27",
+        "upload_time_iso_8601": "2025-01-11T07:44:27.149116Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.28.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10246,
+        "upload_time": "2025-01-11T07:44:30",
+        "upload_time_iso_8601": "2025-01-11T07:44:30.014603Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.29": [
+      {
+        "filename": "litegen-0.0.29-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11478,
+        "upload_time": "2025-01-12T09:26:37",
+        "upload_time_iso_8601": "2025-01-12T09:26:37.818779Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.29.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 10191,
+        "upload_time": "2025-01-12T09:26:40",
+        "upload_time_iso_8601": "2025-01-12T09:26:40.550378Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.3": [
+      {
+        "filename": "litegen-0.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12668,
+        "upload_time": "2024-12-30T11:53:28",
+        "upload_time_iso_8601": "2024-12-30T11:53:28.298422Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9472,
+        "upload_time": "2024-12-30T11:53:29",
+        "upload_time_iso_8601": "2024-12-30T11:53:29.562371Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.30": [
+      {
+        "filename": "litegen-0.0.30-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 13993,
+        "upload_time": "2025-01-13T11:02:00",
+        "upload_time_iso_8601": "2025-01-13T11:02:00.932924Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.30.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12301,
+        "upload_time": "2025-01-13T11:02:04",
+        "upload_time_iso_8601": "2025-01-13T11:02:04.242251Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.31": [
+      {
+        "filename": "litegen-0.0.31-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17633,
+        "upload_time": "2025-01-13T11:11:30",
+        "upload_time_iso_8601": "2025-01-13T11:11:30.753769Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.31.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15205,
+        "upload_time": "2025-01-13T11:11:33",
+        "upload_time_iso_8601": "2025-01-13T11:11:33.410886Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.32": [
+      {
+        "filename": "litegen-0.0.32-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17630,
+        "upload_time": "2025-01-13T11:12:02",
+        "upload_time_iso_8601": "2025-01-13T11:12:02.920366Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.32.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15208,
+        "upload_time": "2025-01-13T11:12:06",
+        "upload_time_iso_8601": "2025-01-13T11:12:06.177666Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.33": [
+      {
+        "filename": "litegen-0.0.33-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17634,
+        "upload_time": "2025-01-18T10:23:42",
+        "upload_time_iso_8601": "2025-01-18T10:23:42.314382Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.33.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15214,
+        "upload_time": "2025-01-18T10:23:45",
+        "upload_time_iso_8601": "2025-01-18T10:23:45.123542Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.34": [
+      {
+        "filename": "litegen-0.0.34-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17646,
+        "upload_time": "2025-01-29T00:44:11",
+        "upload_time_iso_8601": "2025-01-29T00:44:11.801338Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.34.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15181,
+        "upload_time": "2025-01-29T00:44:14",
+        "upload_time_iso_8601": "2025-01-29T00:44:14.157894Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.35": [
+      {
+        "filename": "litegen-0.0.35-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17648,
+        "upload_time": "2025-01-29T00:45:38",
+        "upload_time_iso_8601": "2025-01-29T00:45:38.438953Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.35.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15182,
+        "upload_time": "2025-01-29T00:45:40",
+        "upload_time_iso_8601": "2025-01-29T00:45:40.231796Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.36": [
+      {
+        "filename": "litegen-0.0.36-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17646,
+        "upload_time": "2025-01-29T00:46:02",
+        "upload_time_iso_8601": "2025-01-29T00:46:02.291953Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.36.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15187,
+        "upload_time": "2025-01-29T00:46:04",
+        "upload_time_iso_8601": "2025-01-29T00:46:04.034208Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.37": [
+      {
+        "filename": "litegen-0.0.37-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17645,
+        "upload_time": "2025-01-29T00:46:32",
+        "upload_time_iso_8601": "2025-01-29T00:46:32.308321Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.37.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15179,
+        "upload_time": "2025-01-29T00:46:34",
+        "upload_time_iso_8601": "2025-01-29T00:46:34.565116Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.38": [
+      {
+        "filename": "litegen-0.0.38-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17673,
+        "upload_time": "2025-01-29T00:48:20",
+        "upload_time_iso_8601": "2025-01-29T00:48:20.964267Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.38.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15213,
+        "upload_time": "2025-01-29T00:48:25",
+        "upload_time_iso_8601": "2025-01-29T00:48:25.042437Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.39": [
+      {
+        "filename": "litegen-0.0.39-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17601,
+        "upload_time": "2025-01-29T00:49:19",
+        "upload_time_iso_8601": "2025-01-29T00:49:19.764094Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.39.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15160,
+        "upload_time": "2025-01-29T00:49:22",
+        "upload_time_iso_8601": "2025-01-29T00:49:22.724556Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.4": [
+      {
+        "filename": "litegen-0.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12582,
+        "upload_time": "2024-12-30T12:18:37",
+        "upload_time_iso_8601": "2024-12-30T12:18:37.337389Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9409,
+        "upload_time": "2024-12-30T12:18:39",
+        "upload_time_iso_8601": "2024-12-30T12:18:39.566246Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.40": [
+      {
+        "filename": "litegen-0.0.40-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17638,
+        "upload_time": "2025-01-29T00:58:12",
+        "upload_time_iso_8601": "2025-01-29T00:58:12.806514Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.40.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15170,
+        "upload_time": "2025-01-29T00:58:14",
+        "upload_time_iso_8601": "2025-01-29T00:58:14.674688Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.41": [
+      {
+        "filename": "litegen-0.0.41-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17689,
+        "upload_time": "2025-01-29T01:03:36",
+        "upload_time_iso_8601": "2025-01-29T01:03:36.920445Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.41.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15197,
+        "upload_time": "2025-01-29T01:03:39",
+        "upload_time_iso_8601": "2025-01-29T01:03:39.033999Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.43": [
+      {
+        "filename": "litegen-0.0.43-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17591,
+        "upload_time": "2025-01-29T01:05:12",
+        "upload_time_iso_8601": "2025-01-29T01:05:12.340342Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.43.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15159,
+        "upload_time": "2025-01-29T01:05:15",
+        "upload_time_iso_8601": "2025-01-29T01:05:15.533239Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.44": [
+      {
+        "filename": "litegen-0.0.44-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17634,
+        "upload_time": "2025-01-29T01:06:48",
+        "upload_time_iso_8601": "2025-01-29T01:06:48.002260Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.44.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15190,
+        "upload_time": "2025-01-29T01:06:50",
+        "upload_time_iso_8601": "2025-01-29T01:06:50.363580Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.45": [
+      {
+        "filename": "litegen-0.0.45-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17635,
+        "upload_time": "2025-01-29T01:07:05",
+        "upload_time_iso_8601": "2025-01-29T01:07:05.616825Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.45.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15192,
+        "upload_time": "2025-01-29T01:07:07",
+        "upload_time_iso_8601": "2025-01-29T01:07:07.355606Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.46": [
+      {
+        "filename": "litegen-0.0.46-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17897,
+        "upload_time": "2025-01-29T01:13:44",
+        "upload_time_iso_8601": "2025-01-29T01:13:44.665121Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.46.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15341,
+        "upload_time": "2025-01-29T01:13:46",
+        "upload_time_iso_8601": "2025-01-29T01:13:46.913287Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.47": [
+      {
+        "filename": "litegen-0.0.47-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 19979,
+        "upload_time": "2025-01-31T14:24:51",
+        "upload_time_iso_8601": "2025-01-31T14:24:51.764763Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.47.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15918,
+        "upload_time": "2025-01-31T14:24:54",
+        "upload_time_iso_8601": "2025-01-31T14:24:54.116414Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.48": [
+      {
+        "filename": "litegen-0.0.48-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 19971,
+        "upload_time": "2025-01-31T14:26:33",
+        "upload_time_iso_8601": "2025-01-31T14:26:33.148569Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.48.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15907,
+        "upload_time": "2025-01-31T14:26:35",
+        "upload_time_iso_8601": "2025-01-31T14:26:35.499219Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.49": [
+      {
+        "filename": "litegen-0.0.49-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20015,
+        "upload_time": "2025-01-31T14:30:50",
+        "upload_time_iso_8601": "2025-01-31T14:30:50.580163Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.49.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15937,
+        "upload_time": "2025-01-31T14:30:52",
+        "upload_time_iso_8601": "2025-01-31T14:30:52.822418Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.5": [
+      {
+        "filename": "litegen-0.0.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 12583,
+        "upload_time": "2024-12-30T12:18:56",
+        "upload_time_iso_8601": "2024-12-30T12:18:56.759918Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 9412,
+        "upload_time": "2024-12-30T12:18:57",
+        "upload_time_iso_8601": "2024-12-30T12:18:57.995313Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.50": [
+      {
+        "filename": "litegen-0.0.50-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20127,
+        "upload_time": "2025-01-31T14:43:36",
+        "upload_time_iso_8601": "2025-01-31T14:43:36.329910Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.50.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16055,
+        "upload_time": "2025-01-31T14:43:38",
+        "upload_time_iso_8601": "2025-01-31T14:43:38.774874Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.51": [
+      {
+        "filename": "litegen-0.0.51-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20136,
+        "upload_time": "2025-01-31T14:44:40",
+        "upload_time_iso_8601": "2025-01-31T14:44:40.357034Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.51.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16067,
+        "upload_time": "2025-01-31T14:44:42",
+        "upload_time_iso_8601": "2025-01-31T14:44:42.484827Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.52": [
+      {
+        "filename": "litegen-0.0.52-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20137,
+        "upload_time": "2025-01-31T14:46:27",
+        "upload_time_iso_8601": "2025-01-31T14:46:27.015682Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.52.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16062,
+        "upload_time": "2025-01-31T14:46:29",
+        "upload_time_iso_8601": "2025-01-31T14:46:29.172434Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.53": [
+      {
+        "filename": "litegen-0.0.53-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20141,
+        "upload_time": "2025-01-31T14:47:12",
+        "upload_time_iso_8601": "2025-01-31T14:47:12.802707Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.53.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16076,
+        "upload_time": "2025-01-31T14:47:14",
+        "upload_time_iso_8601": "2025-01-31T14:47:14.538899Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.54": [
+      {
+        "filename": "litegen-0.0.54-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20141,
+        "upload_time": "2025-01-31T14:47:58",
+        "upload_time_iso_8601": "2025-01-31T14:47:58.797134Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.54.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16078,
+        "upload_time": "2025-01-31T14:48:00",
+        "upload_time_iso_8601": "2025-01-31T14:48:00.809238Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.55": [
+      {
+        "filename": "litegen-0.0.55-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20135,
+        "upload_time": "2025-01-31T14:49:01",
+        "upload_time_iso_8601": "2025-01-31T14:49:01.918423Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.55.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16066,
+        "upload_time": "2025-01-31T14:49:04",
+        "upload_time_iso_8601": "2025-01-31T14:49:04.101683Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.56": [
+      {
+        "filename": "litegen-0.0.56-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20232,
+        "upload_time": "2025-01-31T14:56:31",
+        "upload_time_iso_8601": "2025-01-31T14:56:31.072917Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.56.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16123,
+        "upload_time": "2025-01-31T14:56:33",
+        "upload_time_iso_8601": "2025-01-31T14:56:33.422607Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.57": [
+      {
+        "filename": "litegen-0.0.57-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20245,
+        "upload_time": "2025-01-31T20:15:28",
+        "upload_time_iso_8601": "2025-01-31T20:15:28.676870Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.57.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16130,
+        "upload_time": "2025-01-31T20:15:32",
+        "upload_time_iso_8601": "2025-01-31T20:15:32.204315Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.58": [
+      {
+        "filename": "litegen-0.0.58-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20245,
+        "upload_time": "2025-01-31T20:16:09",
+        "upload_time_iso_8601": "2025-01-31T20:16:09.022961Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.58.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16133,
+        "upload_time": "2025-01-31T20:16:11",
+        "upload_time_iso_8601": "2025-01-31T20:16:11.380191Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.59": [
+      {
+        "filename": "litegen-0.0.59-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20684,
+        "upload_time": "2025-02-01T17:42:40",
+        "upload_time_iso_8601": "2025-02-01T17:42:40.154897Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.59.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16501,
+        "upload_time": "2025-02-01T17:42:42",
+        "upload_time_iso_8601": "2025-02-01T17:42:42.653636Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.6": [
+      {
+        "filename": "litegen-0.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17875,
+        "upload_time": "2024-12-31T02:08:01",
+        "upload_time_iso_8601": "2024-12-31T02:08:01.586706Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 13073,
+        "upload_time": "2024-12-31T02:08:04",
+        "upload_time_iso_8601": "2024-12-31T02:08:04.147375Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.60": [
+      {
+        "filename": "litegen-0.0.60-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20691,
+        "upload_time": "2025-02-01T17:42:58",
+        "upload_time_iso_8601": "2025-02-01T17:42:58.013262Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.60.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16517,
+        "upload_time": "2025-02-01T17:43:00",
+        "upload_time_iso_8601": "2025-02-01T17:43:00.316796Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.61": [
+      {
+        "filename": "litegen-0.0.61-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21149,
+        "upload_time": "2025-02-01T17:49:11",
+        "upload_time_iso_8601": "2025-02-01T17:49:11.792924Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.61.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17004,
+        "upload_time": "2025-02-01T17:49:14",
+        "upload_time_iso_8601": "2025-02-01T17:49:14.706009Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.62": [
+      {
+        "filename": "litegen-0.0.62-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21134,
+        "upload_time": "2025-02-02T02:37:58",
+        "upload_time_iso_8601": "2025-02-02T02:37:58.403478Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.62.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17004,
+        "upload_time": "2025-02-02T02:38:00",
+        "upload_time_iso_8601": "2025-02-02T02:38:00.650963Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.63": [
+      {
+        "filename": "litegen-0.0.63-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21136,
+        "upload_time": "2025-02-02T02:38:14",
+        "upload_time_iso_8601": "2025-02-02T02:38:14.438069Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.63.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17007,
+        "upload_time": "2025-02-02T02:38:16",
+        "upload_time_iso_8601": "2025-02-02T02:38:16.830212Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.64": [
+      {
+        "filename": "litegen-0.0.64-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21144,
+        "upload_time": "2025-02-02T02:39:55",
+        "upload_time_iso_8601": "2025-02-02T02:39:55.145019Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.64.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17017,
+        "upload_time": "2025-02-02T02:39:58",
+        "upload_time_iso_8601": "2025-02-02T02:39:58.006418Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.65": [
+      {
+        "filename": "litegen-0.0.65-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21147,
+        "upload_time": "2025-02-02T02:41:59",
+        "upload_time_iso_8601": "2025-02-02T02:41:59.750911Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.65.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17016,
+        "upload_time": "2025-02-02T02:42:02",
+        "upload_time_iso_8601": "2025-02-02T02:42:02.098779Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.66": [
+      {
+        "filename": "litegen-0.0.66-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21173,
+        "upload_time": "2025-02-02T04:47:16",
+        "upload_time_iso_8601": "2025-02-02T04:47:16.653759Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.66.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17045,
+        "upload_time": "2025-02-02T04:47:19",
+        "upload_time_iso_8601": "2025-02-02T04:47:19.002414Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.67": [
+      {
+        "filename": "litegen-0.0.67-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21181,
+        "upload_time": "2025-02-05T11:14:42",
+        "upload_time_iso_8601": "2025-02-05T11:14:42.911597Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.67.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17103,
+        "upload_time": "2025-02-05T11:14:45",
+        "upload_time_iso_8601": "2025-02-05T11:14:45.257389Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.68": [
+      {
+        "filename": "litegen-0.0.68-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21191,
+        "upload_time": "2025-02-05T11:17:11",
+        "upload_time_iso_8601": "2025-02-05T11:17:11.291344Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.68.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17114,
+        "upload_time": "2025-02-05T11:17:14",
+        "upload_time_iso_8601": "2025-02-05T11:17:14.087803Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.69": [
+      {
+        "filename": "litegen-0.0.69-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21250,
+        "upload_time": "2025-02-06T23:01:47",
+        "upload_time_iso_8601": "2025-02-06T23:01:47.851379Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.69.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17171,
+        "upload_time": "2025-02-06T23:01:50",
+        "upload_time_iso_8601": "2025-02-06T23:01:50.555134Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.7": [
+      {
+        "filename": "litegen-0.0.7-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 18125,
+        "upload_time": "2024-12-31T02:18:42",
+        "upload_time_iso_8601": "2024-12-31T02:18:42.496269Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.7.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 13290,
+        "upload_time": "2024-12-31T02:18:44",
+        "upload_time_iso_8601": "2024-12-31T02:18:44.970171Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.70": [
+      {
+        "filename": "litegen-0.0.70-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21307,
+        "upload_time": "2025-02-06T23:06:36",
+        "upload_time_iso_8601": "2025-02-06T23:06:36.327087Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.70.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17195,
+        "upload_time": "2025-02-06T23:06:39",
+        "upload_time_iso_8601": "2025-02-06T23:06:39.006865Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.71": [
+      {
+        "filename": "litegen-0.0.71-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21341,
+        "upload_time": "2025-02-13T17:38:42",
+        "upload_time_iso_8601": "2025-02-13T17:38:42.481916Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.71.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17246,
+        "upload_time": "2025-02-13T17:38:45",
+        "upload_time_iso_8601": "2025-02-13T17:38:45.156738Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.72": [
+      {
+        "filename": "litegen-0.0.72-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21939,
+        "upload_time": "2025-02-27T11:02:11",
+        "upload_time_iso_8601": "2025-02-27T11:02:11.787784Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.72.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 17627,
+        "upload_time": "2025-02-27T11:02:13",
+        "upload_time_iso_8601": "2025-02-27T11:02:13.845267Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.73": [
+      {
+        "filename": "litegen-0.0.73-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20650,
+        "upload_time": "2025-03-01T12:37:14",
+        "upload_time_iso_8601": "2025-03-01T12:37:14.556863Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.73.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 15351,
+        "upload_time": "2025-03-01T12:37:16",
+        "upload_time_iso_8601": "2025-03-01T12:37:16.669982Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.74": [
+      {
+        "filename": "litegen-0.0.74-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 26444,
+        "upload_time": "2025-03-01T22:29:54",
+        "upload_time_iso_8601": "2025-03-01T22:29:54.445560Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.74.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20790,
+        "upload_time": "2025-03-01T22:29:56",
+        "upload_time_iso_8601": "2025-03-01T22:29:56.566653Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.75": [
+      {
+        "filename": "litegen-0.0.75-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 26461,
+        "upload_time": "2025-03-01T22:32:57",
+        "upload_time_iso_8601": "2025-03-01T22:32:57.519365Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.75.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20789,
+        "upload_time": "2025-03-01T22:32:58",
+        "upload_time_iso_8601": "2025-03-01T22:32:58.950688Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.76": [
+      {
+        "filename": "litegen-0.0.76-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 26515,
+        "upload_time": "2025-03-01T22:56:21",
+        "upload_time_iso_8601": "2025-03-01T22:56:21.135244Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.76.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 20847,
+        "upload_time": "2025-03-01T22:56:23",
+        "upload_time_iso_8601": "2025-03-01T22:56:23.293299Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.77": [
+      {
+        "filename": "litegen-0.0.77-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 26941,
+        "upload_time": "2025-03-02T00:34:50",
+        "upload_time_iso_8601": "2025-03-02T00:34:50.744064Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.77.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21222,
+        "upload_time": "2025-03-02T00:34:52",
+        "upload_time_iso_8601": "2025-03-02T00:34:52.238201Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.78": [
+      {
+        "filename": "litegen-0.0.78-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 27050,
+        "upload_time": "2025-03-02T01:06:51",
+        "upload_time_iso_8601": "2025-03-02T01:06:51.168599Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.78.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21295,
+        "upload_time": "2025-03-02T01:06:52",
+        "upload_time_iso_8601": "2025-03-02T01:06:52.700117Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.79": [
+      {
+        "filename": "litegen-0.0.79-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 27107,
+        "upload_time": "2025-03-02T01:16:11",
+        "upload_time_iso_8601": "2025-03-02T01:16:11.714477Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.79.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21346,
+        "upload_time": "2025-03-02T01:16:13",
+        "upload_time_iso_8601": "2025-03-02T01:16:13.867180Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.8": [
+      {
+        "filename": "litegen-0.0.8-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 18139,
+        "upload_time": "2024-12-31T02:20:41",
+        "upload_time_iso_8601": "2024-12-31T02:20:41.692624Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.8.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 13314,
+        "upload_time": "2024-12-31T02:20:43",
+        "upload_time_iso_8601": "2024-12-31T02:20:43.124530Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.80": [
+      {
+        "filename": "litegen-0.0.80-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 27160,
+        "upload_time": "2025-03-02T01:24:48",
+        "upload_time_iso_8601": "2025-03-02T01:24:48.230003Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.80.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 21411,
+        "upload_time": "2025-03-02T01:24:49",
+        "upload_time_iso_8601": "2025-03-02T01:24:49.730758Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.0.9": [
+      {
+        "filename": "litegen-0.0.9-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<4.0,>=3.10",
+        "size": 16124,
+        "upload_time": "2024-12-31T02:23:02",
+        "upload_time_iso_8601": "2024-12-31T02:23:02.700203Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "litegen-0.0.9.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<4.0,>=3.10",
+        "size": 11958,
+        "upload_time": "2024-12-31T02:23:05",
+        "upload_time_iso_8601": "2024-12-31T02:23:05.284923Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}
