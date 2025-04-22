@@ -87,13 +87,13 @@ async def main(packages_xml=None, delta_xml=None, since_serial=None):
                     existing[id].unlink()
             existing[id] = path
 
-        tasks = collections.deque(maxlen=1000)
+        tasks = collections.deque(maxlen=5)
         for (name, serial) in project_serials:
             if _path := existing.get(sprat.sluggify(name)):
                 if split_path(_path)[1] != serial:
                     assert serial > split_path(_path)[1]
                     _path.unlink()
-            if len(tasks) == 1000:
+            if len(tasks) == tasks.maxlen:
                 await tasks[0]
             tasks.append(asyncio.create_task(fetch(session, name, serial)))
         for task in tasks:
