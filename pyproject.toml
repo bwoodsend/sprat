@@ -6,7 +6,7 @@ requires-python = ">=3.7"
 license = "BlueOak-1.0.0"
 authors = [{name="Brénainn Woodsend", email="bwoodsend@gmail.com"}]
 keywords = ["pypi", "search"]
-dependencies = ["appdirs", "portalocker"]
+dependencies = ["platformdirs", "filelock"]
 
 [project.scripts]
 sprat = "sprat.__main__:cli"

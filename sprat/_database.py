@@ -6,10 +6,10 @@ import bisect
 import collections
 import os
 
-import appdirs
+import platformdirs
 
 cache_root = Path(os.environ.get("SPRAT_CACHE_ROOT") or
-                  appdirs.user_cache_dir("sprat", False, "v1", False))
+                  platformdirs.user_cache_dir("sprat", False, "v1", False))
 
 
 def sluggify(name):
@@ -350,11 +350,11 @@ def classifier_sort_key(classifier):
 
 
 def update(database_file=None):
-    import shutil, portalocker
+    import shutil, filelock
 
     cache_root.mkdir(parents=True, exist_ok=True)
     try:
-        with portalocker.Lock(cache_root / "lock", fail_when_locked=True):
+        with filelock.FileLock(cache_root / "lock", timeout=0):
             work_dir = cache_root / "work"
             work_dir.mkdir(exist_ok=True)
 
@@ -393,5 +393,5 @@ def update(database_file=None):
             else:
                 work_dir.rename(dest_dir)
                 shutil.rmtree(graveyard_dir)
-    except portalocker.AlreadyLocked:
+    except filelock.Timeout:
         raise UpdateAlreadyInProgressError from None
