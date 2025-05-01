@@ -199,17 +199,21 @@ def hash_id(id):
 def _read_database(path):
     path = Path(path)
     with (gzip.open if path.suffix == ".gz" else open)(path, "rb") as f:
-        buffer = f.read(500_000)
-        while True:
-            chunks = buffer.split(b"\n\n")
-            for chunk in chunks[:-1]:
-                name, payload = chunk.split(b"\n", maxsplit=1)
-                yield (name[2:], payload + b"\n")
-            remainder = chunks[-1]
-            buffer = remainder + f.read(500_000)
-            if len(buffer) == len(remainder):
-                break
-        assert not remainder, remainder
+        yield from _read_database_raw(f, 500_000)
+
+
+def _read_database_raw(f, chunk_size):
+    buffer = f.read(chunk_size)
+    while True:
+        chunks = buffer.split(b"\n\n")
+        for chunk in chunks[:-1]:
+            name, payload = chunk.split(b"\n", maxsplit=1)
+            yield (name[2:], payload + b"\n")
+        remainder = chunks[-1]
+        buffer = remainder + f.read(chunk_size)
+        if len(buffer) == len(remainder):
+            break
+    assert not remainder, remainder
 
 
 def disassemble(source, dest_dir):

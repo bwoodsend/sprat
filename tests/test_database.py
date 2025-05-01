@@ -1,9 +1,11 @@
 import textwrap
 import random
 import copy
+import io
+
+import pytest
 
 import sprat
-
 
 
 def _index(text):
@@ -94,3 +96,18 @@ def test_fuzz():
         history += delta
         assert sprat.Package.parse("foo", _join(history)) == self
         old = self
+
+
+@pytest.mark.parametrize("seed", range(20))
+@pytest.mark.parametrize("size", [1, 2, 10, 1000])
+def test_read_database(seed, size):
+    _random = random.Random(seed)
+    file = io.BytesIO()
+    for i in range(size):
+        file.write(b"n:%s\nx:%s\n\n" % (b"a" * _random.randint(0, 10),
+                                        b"b" * _random.randint(0, 10)))
+    _random = random.Random(seed)
+    file.seek(0)
+    for (name, chunk) in sprat._database._read_database_raw(file, 50):
+        assert name == b"a" * _random.randint(0, 10)
+        assert chunk == b"x:%s\n" % (b"b" * _random.randint(0, 10))
