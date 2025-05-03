@@ -97,6 +97,9 @@ def test_update(tmp_path, monkeypatch):
         with pytest.raises(sprat.NoSuchPackageError):
             sprat.lookup("simple-conf-manager")
         old_shipyard_trello = sprat.lookup("shipyard-trello")
+        old_zombie_adventure = sprat.lookup("ZombieAdventure")
+        assert "Homepage" in old_zombie_adventure.urls
+        assert "Download" not in old_zombie_adventure.urls
 
     with fake_upstream(before):
         sprat.update()
@@ -122,6 +125,7 @@ def test_update(tmp_path, monkeypatch):
         assert len(sprat.lookup("h3pandas").keywords) == 0
         assert len(sprat.lookup("simple-conf-manager").versions) == 0
         assert sprat.lookup("shipyard-trello") == old_shipyard_trello
+        assert sprat.lookup("ZombieAdventure") == old_zombie_adventure
 
 
 def test_error_recovery(tmp_path, monkeypatch):
