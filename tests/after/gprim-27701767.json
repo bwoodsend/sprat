@@ -32,7 +32,7 @@
       "ypy"
     ],
     "requires_python": ">=3",
-    "summary": "Utility functions for working with statistical genetic data",
+    "summary": "Utility functions for working with statistical \\genetic data",
     "version": "0.23",
     "yanked": false,
     "yanked_reason": null

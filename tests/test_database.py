@@ -2,8 +2,11 @@ import textwrap
 import random
 import copy
 import io
+from pathlib import Path
+import tempfile
 
 import pytest
+import trove_classifiers
 
 import sprat
 
@@ -111,3 +114,124 @@ def test_read_database(seed, size):
     for (name, chunk) in sprat._database._read_database_raw(file, 50):
         assert name == b"a" * _random.randint(0, 10)
         assert chunk == b"x:%s\n" % (b"b" * _random.randint(0, 10))
+
+
+@pytest.fixture(scope="module")
+def fake_workspace():
+    from test_update import fake_upstream, packed
+    with tempfile.TemporaryDirectory() as workspace:
+        old_cache_root = sprat._database.cache_root
+        try:
+            sprat._database.cache_root = Path(workspace)
+            with fake_upstream(packed()[1]):
+                sprat.update()
+            yield workspace
+        finally:
+            sprat._database.cache_root = old_cache_root
+
+
+def test_raw_iter_unique_and_ordered(fake_workspace):
+    names = [i[0] for i in sprat.raw_iter()]
+    assert len(names) > 140
+    assert len(names) == len(set(names))
+    assert names == sorted(names, key=sprat.sluggify_b)
+
+
+def test_bulk_lookup(fake_workspace):
+    names = [i[0].decode() for i in sprat.raw_iter()]
+    for (name, package) in zip(names, sprat.bulk_lookup(names)):
+        assert name == package.name
+
+    random.Random(0).shuffle(names)
+    for (name, package) in zip(names, sprat.bulk_lookup(names)):
+        assert name == package.name
+
+    packages = list(sprat.bulk_lookup(["rp", "RP", "jk.-Flexdata", "RP", "rp"]))
+    assert [i.name for i in packages] == ["rp", "rp", "jk_flexdata", "rp", "rp"]
+
+    packages_iter = sprat.bulk_lookup(["rp", "a..B_C", "rp", "noodles"])
+    assert next(packages_iter) == sprat.lookup("rp")
+    with pytest.raises(sprat.NoSuchPackageError, match="a..B_C"):
+        next(packages_iter)
+
+
+def test_with_prefix(fake_workspace):
+    assert list(sprat.with_prefix("m")) == list(sprat.bulk_lookup([
+        "MagmaPandas", "marimo", "marimo-base", "mcp-server-elastic",
+        "methodwebscan", "miracle-helper", "monkdb", "moyopy"
+    ]))
+    assert list(sprat.with_prefix("MaRiMo")) == list(sprat.bulk_lookup([
+        "marimo", "marimo-base"
+    ]))
+    assert list(sprat.with_prefix("pytest")) == list(sprat.bulk_lookup([
+        "pytest-broadcaster", "pytest-mongo"
+    ]))
+    assert list(sprat.with_prefix("sight")) == []
+    assert list(sprat.with_prefix("shipyard-")) == [sprat.lookup("shipyard-trello")]
+    assert list(sprat.with_prefix("shipyard_")) == [sprat.lookup("shipyard-trello")]
+    assert list(sprat.with_prefix("shipyard-trello")) == [sprat.lookup("shipyard-trello")]
+
+    assert list(sprat.raw_iter()) == list(sprat.raw_with_prefix(""))
+
+
+def test_crude_search(fake_workspace):
+    names = {i.name for i in sprat.crude_search("configuration")}
+    assert "pan-analyzer" in names
+    assert "clipped" in names
+    assert "sage-conf" not in names
+
+    names = {i.name for i in sprat.crude_search("configuration", False)}
+    assert "sage-conf" in names
+
+    assert [i.name for i in sprat.crude_search("aa-metenox")] == ["aa-metenox"]
+    assert [i.name for i in sprat.crude_search("n:aa-metenox")] == ["aa-metenox"]
+    assert [i.name for i in sprat.crude_search("aa-metenox")] == ["aa-metenox"]
+    assert next(sprat.crude_search("v:0.0.1.13610532696")).name == "zuspec-be-py"
+
+    assert [i.name for i in sprat.crude_search(r"\\G")] == []
+    assert [i.name for i in sprat.crude_search(r"\\G", False)] == ["gprim"]
+    assert [i.name for i in sprat.crude_search(r"\\\w", False)] == ["gprim"]
+    assert [i.name for i in sprat.crude_search(r"\\\W", False)] == []
+    assert [i.name for i in sprat.crude_search(r"\\\d", False)] == []
+    assert [i.name for i in sprat.crude_search(r"\\\D", False)] == ["gprim"]
+
+    assert [i.name for i in sprat.crude_search(r"^^^genetic$$$", False)] == ["gprim"]
+
+    assert not any(sprat.crude_search("(azazaz)*"))
+
+    names = [i.name for i in sprat.crude_search(".*")]
+    assert len(names) == len(set(names))
+
+
+def test_iter_no_versions(fake_workspace):
+    for package in sprat.iter(ignore_versions=True):
+        assert package.versions == {}
+
+
+def test_classifier_sort():
+    reference = trove_classifiers.sorted_classifiers
+    for (lesser, greater) in zip(reference[:-1], reference[1:]):
+        assert sprat.classifier_sort_key(lesser) < sprat.classifier_sort_key(greater)
+
+    unordered = reference.copy()
+    random.Random(0).shuffle(unordered)
+    assert sorted(unordered, key=sprat.classifier_sort_key) == reference
+
+
+@pytest.mark.parametrize("function", [
+    sprat.raw_iter,
+    lambda: sprat.with_prefix("a"),
+    lambda: sprat.raw_crude_search("3.12"),
+])
+def test_interrupted_iterable(fake_workspace, function):
+    count = 0
+    iterable = function()
+    while True:
+        for (i, _) in enumerate(iterable):
+            count += 1
+            if i == 3:
+                break
+        else:
+            break
+    assert count == sum(1 for _ in function())
+    assert count > 3
