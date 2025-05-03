@@ -34,6 +34,7 @@ class Package:
     versions: dict
 
     def __init__(self, name="", classifiers=None, keywords=None, license_expression="", summary="", urls=None, versions=None):
+        assert isinstance(name, str)
         self.name = name
         self.classifiers = classifiers or set()
         self.keywords = keywords or set()
@@ -113,7 +114,7 @@ class Package:
 
     @classmethod
     def parse(cls, name, source, ignore_versions=False):
-        self = cls(name)
+        self = cls(name.decode())
         self._update(source, ignore_versions=ignore_versions)
         return self
 
@@ -254,7 +255,7 @@ def database_path(database_id):
 
 
 def with_prefix(prefix):
-    return (Package(*i) for i in raw_with_prefix(prefix))
+    return (Package.parse(*i) for i in raw_with_prefix(prefix))
 
 
 def raw_with_prefix(prefix):
@@ -277,8 +278,7 @@ def raw_with_prefix(prefix):
 
 
 def iter(ignore_versions=False):
-    return (Package.parse(name.decode(), chunk, ignore_versions)
-            for (name, chunk) in raw_iter())
+    return (Package.parse(*i, ignore_versions) for i in raw_iter())
 
 
 def raw_iter():
@@ -287,8 +287,7 @@ def raw_iter():
 
 
 def crude_search(pattern, case_sensitive=True):
-    return (Package.parse(name.decode(), chunk)
-            for (name, chunk) in raw_crude_search(pattern, case_sensitive))
+    return (Package.parse(*i) for i in raw_crude_search(pattern, case_sensitive))
 
 
 def raw_crude_search(pattern, case_sensitive=True):
@@ -328,7 +327,7 @@ def bulk_lookup(names):
             for (name, block) in database_iter:
                 id = sluggify_b(name)
                 if id == target_id:
-                    packages[id] = Package.parse(name.decode(), block)
+                    packages[id] = Package.parse(name, block)
                     break
             else:
                 raise NoSuchPackageError(target_name)
@@ -345,7 +344,7 @@ def lookup(name):
     id = sluggify(name).encode()
     for (_name, block) in _read_database(database_path(hash_id(id))):
         if sluggify_b(_name) == id:
-            return Package.parse(_name.decode(), block)
+            return Package.parse(_name, block)
     raise NoSuchPackageError(name)
 
 

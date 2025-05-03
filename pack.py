@@ -169,14 +169,15 @@ def update(old_database, new_database, files):
     packages = {}
     for (name, block) in _read_database(old_database):
         if name not in ids:
-            name = sprat.sluggify_b(name)
-        if name in ids:
-            id = name.decode()
+            id = sprat.sluggify_b(name)
+        else:
+            id = name
+        if id in ids:
             try:
                 if id in packages:
                     packages[id]._update(block)
                 else:
-                    packages[id] = sprat.Package.parse(id, block)
+                    packages[id] = sprat.Package.parse(name, block)
             except sprat._database.PackageDeleted:
                 packages.pop(id, None)
     try:
@@ -186,12 +187,12 @@ def update(old_database, new_database, files):
             f = sys.stdout
         for file in files:
             name, _ = split_path(file)
-            id = sprat.sluggify(name)
+            id = sprat.sluggify(name).encode()
             old = packages.get(id, UpstreamPackage.null)
             new_data = load_json(file)
             if new_data.get("empty"):
                 if old is not UpstreamPackage.null:
-                    delta = [("n", id), ("N", "")]
+                    delta = [("n", name), ("N", "")]
                 else:
                     delta = []
             else:

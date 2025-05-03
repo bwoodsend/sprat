@@ -17,7 +17,7 @@ def _join(delta):
 
 
 def test_requires_python():
-    old = sprat.Package.parse("foo", _index("""
+    old = sprat.Package.parse(b"foo", _index("""
         n:foo
         v:0.19.0
         p:>=3.8
@@ -78,7 +78,7 @@ def test_fuzz():
     history = old.delta(old.null)
     for i in range(1000):
         self = _random_package(i)
-        assert sprat.Package.parse("foo", _join(self.delta(self.null)))
+        assert sprat.Package.parse(b"foo", _join(self.delta(self.null)))
 
         delta = self.delta(old)
         new = self
@@ -94,7 +94,7 @@ def test_fuzz():
         assert self == new
 
         history += delta
-        assert sprat.Package.parse("foo", _join(history)) == self
+        assert sprat.Package.parse(b"foo", _join(history)) == self
         old = self
 
 

@@ -16,7 +16,7 @@ def info(options):
                 new = []
                 for (name, chunk) in sprat.raw_with_prefix(glob.split("*")[0]):
                     if regex.fullmatch(name):
-                        new.append(sprat.Package.parse(name.decode(), chunk))
+                        new.append(sprat.Package.parse(name, chunk))
                 if not new:
                     die(1, f"No package matching pattern '{glob}'")
                 packages += new
@@ -153,7 +153,7 @@ def search(options):
 
     highlighter = Highlighter(options.terms, options.name, options.summary, options.keyword, options.classifier)
     for (name, block) in filtered:
-        package = sprat.Package.parse(name.decode(), block, ignore_versions=True)
+        package = sprat.Package.parse(name, block, ignore_versions=True)
         if filter.filter(package):
             found += 1
             if options.quiet:
