@@ -13,7 +13,10 @@ def info(options):
             packages = []
             for glob in options.packages:
                 regex = re.compile(glob.encode().replace(b"*", b".*"))
-                new = [sprat.Package.parse(i[0].decode(), i[1]) for i in sprat.with_prefix(glob.split("*")[0]) if regex.fullmatch(i[0])]
+                new = []
+                for (name, chunk) in sprat.raw_with_prefix(glob.split("*")[0]):
+                    if regex.fullmatch(name):
+                        new.append(sprat.Package.parse(name.decode(), chunk))
                 if not new:
                     die(1, f"No package matching pattern '{glob}'")
                 packages += new
@@ -120,7 +123,7 @@ def search(options):
             die(2, "Empty search terms are not allowed")
     if len(all_terms) == 0:
         if options.quiet:
-            for (id, block) in sprat.iter():
+            for (id, block) in sprat.raw_iter():
                 print(id.decode())
             return True
     try:
@@ -129,13 +132,13 @@ def search(options):
     except ValueError:
         prefix = ""
     if prefix:
-        filtered = sprat.with_prefix(prefix[:_literal_length(prefix)])
+        filtered = sprat.raw_with_prefix(prefix[:_literal_length(prefix)])
     else:
         if all_terms:
             term = max(all_terms, key=lambda t: 2 * len(t) - len(re.escape(t)))
-            filtered = sprat.crude_search(term, case_sensitive=False)
+            filtered = sprat.raw_crude_search(term, case_sensitive=False)
         else:
-            filtered = sprat.iter()
+            filtered = sprat.raw_iter()
     filter = Filter(options.terms, options.name, options.summary, options.keyword, options.classifier)
 
     if filter.name and not (prefix and len(filter.name) == 1 == len(filter.all)):

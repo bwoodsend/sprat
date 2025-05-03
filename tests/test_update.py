@@ -68,7 +68,7 @@ def packed():
 def test_uninitialised(tmp_path, monkeypatch):
     monkeypatch.setattr(sprat._database, "cache_root", tmp_path)
     with pytest.raises(sprat.DatabaseUninitializedError, match="sprat.update"):
-        next(sprat.iter())
+        next(sprat.raw_iter())
 
 
 def test_update(tmp_path, monkeypatch):
@@ -192,4 +192,4 @@ def test_concurrent_update(tmp_path, monkeypatch):
             server_settings["wait"] = False
             thread.join()
 
-    assert any(sprat.with_prefix("pytest-"))
+    assert any(sprat.raw_with_prefix("pytest-"))

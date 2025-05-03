@@ -254,8 +254,12 @@ def database_path(database_id):
 
 
 def with_prefix(prefix):
+    return (Package(*i) for i in raw_with_prefix(prefix))
+
+
+def raw_with_prefix(prefix):
     if not prefix:
-        yield from iter()
+        yield from raw_iter()
         return
     prefix = sluggify(prefix).encode()
     start = prefix
@@ -272,12 +276,22 @@ def with_prefix(prefix):
             yield name, block
 
 
-def iter():
+def iter(ignore_versions=False):
+    return (Package.parse(name.decode(), chunk, ignore_versions)
+            for (name, chunk) in raw_iter())
+
+
+def raw_iter():
     for database_id in range(len(anchors) + 1):
         yield from _read_database(database_path(database_id))
 
 
 def crude_search(pattern, case_sensitive=True):
+    return (Package.parse(name.decode(), chunk)
+            for (name, chunk) in raw_crude_search(pattern, case_sensitive))
+
+
+def raw_crude_search(pattern, case_sensitive=True):
     if not case_sensitive:
         pattern = re.sub(r"(\\\\)|(\\.)|(.)", lambda m: m[1] or m[2] or m[3].lower(), pattern)
     pattern = re.compile(pattern.encode().lstrip(b"^").rstrip(b"$"))
