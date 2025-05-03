@@ -55,13 +55,14 @@ def fake_upstream(content):
 
 @lru_cache()
 def packed():
-    with tempfile.NamedTemporaryFile(suffix=".gz") as f:
-        pack.cli(["-o", f.name, *map(str, Path("tests/before").glob("*.json"))])
-        f.seek(0)
-        before = f.read()
-        pack.cli(["--update", f.name, "-o", f.name, *map(str, Path("tests/after").glob("*.json"))])
-        f.seek(0)
-        after = f.read()
+    here = Path(__file__).parent
+    files = [list((here / i).glob("*.json")) for i in ("before", "after")]
+    with tempfile.TemporaryDirectory() as temp:
+        index = Path(temp) / "index.gz"
+        pack.cli(["-o", str(index), *map(str, files[0])])
+        before = index.read_bytes()
+        pack.cli(["--update", str(index), "-o", str(index), *map(str, files[1])])
+        after = index.read_bytes()
     return before, after
 
 
