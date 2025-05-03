@@ -1,0 +1,989 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "dbt Labs <info@dbtlabs.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "License :: OSI Approved :: Apache Software License",
+      "Operating System :: MacOS :: MacOS X",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: POSIX :: Linux",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "adapter, adapters, athena, database, dbt, dbt Cloud, dbt Core, dbt Labs, dbt-core, elt",
+    "license_expression": null,
+    "license_files": [
+      "LICENSE"
+    ],
+    "maintainer": null,
+    "maintainer_email": "dbt Labs <info@dbtlabs.com>",
+    "name": "docker-bash-volume-watcher",
+    "package_url": "https://pypi.org/project/docker-bash-volume-watcher/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/docker-bash-volume-watcher/",
+    "project_urls": {
+      "Changelog": "https://github.com/dbt-labs/dbt-adapters/blob/main/dbt-athena/CHANGELOG.md",
+      "Documentation": "https://docs.getdbt.com",
+      "Homepage": "https://github.com/dbt-labs/dbt-adapters/tree/main/dbt-athena",
+      "Issues": "https://github.com/dbt-labs/dbt-adapters/issues",
+      "Repository": "https://github.com/dbt-labs/dbt-adapters.git#subdirectory=dbt-athena"
+    },
+    "provides_extra": null,
+    "release_url": "https://pypi.org/project/docker-bash-volume-watcher/1.9.4/",
+    "requires_dist": [
+      "dbt-athena==1.9.4"
+    ],
+    "requires_python": ">=3.9.0",
+    "summary": "A fake package that took docker-bash-volume-watcher's place",
+    "version": "1.9.4",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 28773730,
+  "releases": {
+    "1.0.2": [
+      {
+        "filename": "docker_bash_volume_watcher-1.0.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 24914,
+        "upload_time": "2022-10-25T16:03:19",
+        "upload_time_iso_8601": "2022-10-25T16:03:19.750868Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.0.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20856,
+        "upload_time": "2022-10-25T16:03:21",
+        "upload_time_iso_8601": "2022-10-25T16:03:21.177940Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.3": [
+      {
+        "filename": "docker_bash_volume_watcher-1.0.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 24906,
+        "upload_time": "2022-10-25T19:20:58",
+        "upload_time_iso_8601": "2022-10-25T19:20:58.639084Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.0.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 20872,
+        "upload_time": "2022-10-25T19:20:59",
+        "upload_time_iso_8601": "2022-10-25T19:20:59.788908Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.0.4": [
+      {
+        "filename": "docker_bash_volume_watcher-1.0.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 25637,
+        "upload_time": "2022-11-15T07:51:41",
+        "upload_time_iso_8601": "2022-11-15T07:51:41.892731Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.0.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21383,
+        "upload_time": "2022-11-15T07:51:43",
+        "upload_time_iso_8601": "2022-11-15T07:51:43.371153Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.0": [
+      {
+        "filename": "docker_bash_volume_watcher-1.3.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 25679,
+        "upload_time": "2022-11-15T13:12:33",
+        "upload_time_iso_8601": "2022-11-15T13:12:33.980153Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.3.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 21460,
+        "upload_time": "2022-11-15T13:12:35",
+        "upload_time_iso_8601": "2022-11-15T13:12:35.507867Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.1": [
+      {
+        "filename": "docker_bash_volume_watcher-1.3.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 28899,
+        "upload_time": "2022-11-18T08:24:27",
+        "upload_time_iso_8601": "2022-11-18T08:24:27.264614Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.3.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 24694,
+        "upload_time": "2022-11-18T08:24:28",
+        "upload_time_iso_8601": "2022-11-18T08:24:28.455850Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.2": [
+      {
+        "filename": "docker_bash_volume_watcher-1.3.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 36415,
+        "upload_time": "2022-11-24T10:07:35",
+        "upload_time_iso_8601": "2022-11-24T10:07:35.905088Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.3.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 28851,
+        "upload_time": "2022-11-24T10:07:37",
+        "upload_time_iso_8601": "2022-11-24T10:07:37.293448Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.3": [
+      {
+        "filename": "docker_bash_volume_watcher-1.3.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 36401,
+        "upload_time": "2022-12-08T10:20:33",
+        "upload_time_iso_8601": "2022-12-08T10:20:33.585897Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.3.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 29874,
+        "upload_time": "2022-12-08T10:20:35",
+        "upload_time_iso_8601": "2022-12-08T10:20:35.449828Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.4": [
+      {
+        "filename": "docker_bash_volume_watcher-1.3.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 37412,
+        "upload_time": "2023-01-04T13:08:13",
+        "upload_time_iso_8601": "2023-01-04T13:08:13.261929Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.3.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 31165,
+        "upload_time": "2023-01-04T13:08:14",
+        "upload_time_iso_8601": "2023-01-04T13:08:14.641792Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.3.5": [
+      {
+        "filename": "docker_bash_volume_watcher-1.3.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 37715,
+        "upload_time": "2023-01-20T11:06:23",
+        "upload_time_iso_8601": "2023-01-20T11:06:23.162660Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.3.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 31441,
+        "upload_time": "2023-01-20T11:06:24",
+        "upload_time_iso_8601": "2023-01-20T11:06:24.598580Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.0": [
+      {
+        "filename": "docker_bash_volume_watcher-1.4.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 40271,
+        "upload_time": "2023-02-09T06:17:25",
+        "upload_time_iso_8601": "2023-02-09T06:17:25.482008Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.4.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 33910,
+        "upload_time": "2023-02-09T06:17:27",
+        "upload_time_iso_8601": "2023-02-09T06:17:27.114968Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.1": [
+      {
+        "filename": "docker_bash_volume_watcher-1.4.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 44672,
+        "upload_time": "2023-03-07T07:41:14",
+        "upload_time_iso_8601": "2023-03-07T07:41:14.492117Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.4.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 37334,
+        "upload_time": "2023-03-07T07:41:16",
+        "upload_time_iso_8601": "2023-03-07T07:41:16.268520Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.2": [
+      {
+        "filename": "docker_bash_volume_watcher-1.4.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 47855,
+        "upload_time": "2023-03-31T11:27:13",
+        "upload_time_iso_8601": "2023-03-31T11:27:13.435955Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.4.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 41223,
+        "upload_time": "2023-03-31T11:27:15",
+        "upload_time_iso_8601": "2023-03-31T11:27:15.268001Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.3": [
+      {
+        "filename": "docker_bash_volume_watcher-1.4.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 49623,
+        "upload_time": "2023-04-17T14:02:25",
+        "upload_time_iso_8601": "2023-04-17T14:02:25.904035Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.4.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 43514,
+        "upload_time": "2023-04-17T14:02:27",
+        "upload_time_iso_8601": "2023-04-17T14:02:27.668997Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.4": [
+      {
+        "filename": "docker_bash_volume_watcher-1.4.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 51223,
+        "upload_time": "2023-05-03T08:00:11",
+        "upload_time_iso_8601": "2023-05-03T08:00:11.873702Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.4.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 45295,
+        "upload_time": "2023-05-03T08:00:14",
+        "upload_time_iso_8601": "2023-05-03T08:00:14.000207Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.4.5": [
+      {
+        "filename": "docker_bash_volume_watcher-1.4.5-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 51501,
+        "upload_time": "2023-05-04T10:11:55",
+        "upload_time_iso_8601": "2023-05-04T10:11:55.111309Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.4.5.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 45954,
+        "upload_time": "2023-05-04T10:11:56",
+        "upload_time_iso_8601": "2023-05-04T10:11:56.427313Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.0": [
+      {
+        "filename": "docker_bash_volume_watcher-1.5.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 53074,
+        "upload_time": "2023-05-15T13:38:25",
+        "upload_time_iso_8601": "2023-05-15T13:38:25.235904Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.5.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 47739,
+        "upload_time": "2023-05-15T13:38:26",
+        "upload_time_iso_8601": "2023-05-15T13:38:26.706379Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.1": [
+      {
+        "filename": "docker_bash_volume_watcher-1.5.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 58054,
+        "upload_time": "2023-06-21T10:38:28",
+        "upload_time_iso_8601": "2023-06-21T10:38:28.380418Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.5.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 53555,
+        "upload_time": "2023-06-21T10:38:30",
+        "upload_time_iso_8601": "2023-06-21T10:38:30.324308Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.5.2": [
+      {
+        "filename": "docker_bash_volume_watcher-1.5.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 62296,
+        "upload_time": "2023-08-16T12:36:38",
+        "upload_time_iso_8601": "2023-08-16T12:36:38.351487Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.5.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 56439,
+        "upload_time": "2023-08-16T12:36:40",
+        "upload_time_iso_8601": "2023-08-16T12:36:40.416369Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.0": [
+      {
+        "filename": "docker_bash_volume_watcher-1.6.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": null,
+        "size": 63088,
+        "upload_time": "2023-08-22T11:58:36",
+        "upload_time_iso_8601": "2023-08-22T11:58:36.332053Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.6.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": null,
+        "size": 57286,
+        "upload_time": "2023-08-22T11:58:37",
+        "upload_time_iso_8601": "2023-08-22T11:58:37.748495Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.1": [
+      {
+        "filename": "docker_bash_volume_watcher-1.6.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 64102,
+        "upload_time": "2023-09-11T09:01:00",
+        "upload_time_iso_8601": "2023-09-11T09:01:00.341007Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.6.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 58645,
+        "upload_time": "2023-09-11T09:01:04",
+        "upload_time_iso_8601": "2023-09-11T09:01:04.511766Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.2": [
+      {
+        "filename": "docker_bash_volume_watcher-1.6.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 65333,
+        "upload_time": "2023-09-27T11:09:43",
+        "upload_time_iso_8601": "2023-09-27T11:09:43.657617Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.6.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 59569,
+        "upload_time": "2023-09-27T11:09:44",
+        "upload_time_iso_8601": "2023-09-27T11:09:44.880670Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.3": [
+      {
+        "filename": "docker_bash_volume_watcher-1.6.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 66143,
+        "upload_time": "2023-10-10T14:08:57",
+        "upload_time_iso_8601": "2023-10-10T14:08:57.590900Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.6.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 61142,
+        "upload_time": "2023-10-10T14:08:59",
+        "upload_time_iso_8601": "2023-10-10T14:08:59.865636Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.6.4": [
+      {
+        "filename": "docker_bash_volume_watcher-1.6.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 68302,
+        "upload_time": "2023-10-30T18:46:00",
+        "upload_time_iso_8601": "2023-10-30T18:46:00.270861Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.6.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 72089,
+        "upload_time": "2023-10-30T18:46:02",
+        "upload_time_iso_8601": "2023-10-30T18:46:02.201056Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.7.0": [
+      {
+        "filename": "docker_bash_volume_watcher-1.7.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 69089,
+        "upload_time": "2023-11-10T09:46:14",
+        "upload_time_iso_8601": "2023-11-10T09:46:14.949503Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.7.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 73043,
+        "upload_time": "2023-11-10T09:46:16",
+        "upload_time_iso_8601": "2023-11-10T09:46:16.826839Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.7.1": [
+      {
+        "filename": "docker_bash_volume_watcher-1.7.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 72326,
+        "upload_time": "2024-01-05T12:04:53",
+        "upload_time_iso_8601": "2024-01-05T12:04:53.918073Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.7.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 75949,
+        "upload_time": "2024-01-05T12:04:55",
+        "upload_time_iso_8601": "2024-01-05T12:04:55.806787Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.7.2": [
+      {
+        "filename": "docker_bash_volume_watcher-1.7.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 83655,
+        "upload_time": "2024-02-06T09:32:41",
+        "upload_time_iso_8601": "2024-02-06T09:32:41.168009Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker-bash-volume-watcher-1.7.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 89012,
+        "upload_time": "2024-02-06T09:32:43",
+        "upload_time_iso_8601": "2024-02-06T09:32:43.066623Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.8.0b1": [
+      {
+        "filename": "docker_bash_volume_watcher-1.8.0b1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.8",
+        "size": 82575,
+        "upload_time": "2024-04-15T19:25:12",
+        "upload_time_iso_8601": "2024-04-15T19:25:12.832740Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker_bash_volume_watcher-1.8.0b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.8",
+        "size": 85240,
+        "upload_time": "2024-04-15T19:25:14",
+        "upload_time_iso_8601": "2024-04-15T19:25:14.971649Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.8.0rc1": [
+      {
+        "filename": "docker_bash_volume_watcher-1.8.0rc1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.8",
+        "size": 82663,
+        "upload_time": "2024-05-07T07:24:23",
+        "upload_time_iso_8601": "2024-05-07T07:24:23.788349Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker_bash_volume_watcher-1.8.0rc1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.8",
+        "size": 85357,
+        "upload_time": "2024-05-07T07:24:26",
+        "upload_time_iso_8601": "2024-05-07T07:24:26.092442Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.8.1": [
+      {
+        "filename": "docker_bash_volume_watcher-1.8.1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.8",
+        "size": 83324,
+        "upload_time": "2024-05-13T10:49:18",
+        "upload_time_iso_8601": "2024-05-13T10:49:18.003410Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker_bash_volume_watcher-1.8.1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.8",
+        "size": 87166,
+        "upload_time": "2024-05-13T10:49:20",
+        "upload_time_iso_8601": "2024-05-13T10:49:20.002423Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.8.2": [
+      {
+        "filename": "docker_bash_volume_watcher-1.8.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.8",
+        "size": 84261,
+        "upload_time": "2024-05-28T18:19:00",
+        "upload_time_iso_8601": "2024-05-28T18:19:00.453867Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker_bash_volume_watcher-1.8.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.8",
+        "size": 88534,
+        "upload_time": "2024-05-28T18:19:02",
+        "upload_time_iso_8601": "2024-05-28T18:19:02.705914Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.8.3": [
+      {
+        "filename": "docker_bash_volume_watcher-1.8.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.8",
+        "size": 84872,
+        "upload_time": "2024-06-27T16:37:41",
+        "upload_time_iso_8601": "2024-06-27T16:37:41.812391Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker_bash_volume_watcher-1.8.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.8",
+        "size": 89317,
+        "upload_time": "2024-06-27T16:37:58",
+        "upload_time_iso_8601": "2024-06-27T16:37:58.214435Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.8.4": [
+      {
+        "filename": "docker_bash_volume_watcher-1.8.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": "<3.13,>=3.8",
+        "size": 84988,
+        "upload_time": "2024-08-28T12:54:26",
+        "upload_time_iso_8601": "2024-08-28T12:54:26.717646Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker_bash_volume_watcher-1.8.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": "<3.13,>=3.8",
+        "size": 89405,
+        "upload_time": "2024-08-28T12:54:28",
+        "upload_time_iso_8601": "2024-08-28T12:54:28.250259Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.9.0b1": [
+      {
+        "filename": "docker_bash_volume_watcher-1.9.0b1-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9.0",
+        "size": 12903,
+        "upload_time": "2024-10-17T21:12:55",
+        "upload_time_iso_8601": "2024-10-17T21:12:55.448436Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker_bash_volume_watcher-1.9.0b1.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9.0",
+        "size": 24652,
+        "upload_time": "2024-10-17T21:12:57",
+        "upload_time_iso_8601": "2024-10-17T21:12:57.317774Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.9.2": [
+      {
+        "filename": "docker_bash_volume_watcher-1.9.2-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9.0",
+        "size": 17117,
+        "upload_time": "2025-03-07T18:26:12",
+        "upload_time_iso_8601": "2025-03-07T18:26:12.940576Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker_bash_volume_watcher-1.9.2.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9.0",
+        "size": 28851,
+        "upload_time": "2025-03-07T18:26:14",
+        "upload_time_iso_8601": "2025-03-07T18:26:14.739557Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.9.3": [
+      {
+        "filename": "docker_bash_volume_watcher-1.9.3-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9.0",
+        "size": 17119,
+        "upload_time": "2025-04-07T21:00:46",
+        "upload_time_iso_8601": "2025-04-07T21:00:46.428086Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker_bash_volume_watcher-1.9.3.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9.0",
+        "size": 28836,
+        "upload_time": "2025-04-07T21:00:47",
+        "upload_time_iso_8601": "2025-04-07T21:00:47.883133Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "1.9.4": [
+      {
+        "filename": "docker_bash_volume_watcher-1.9.4-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9.0",
+        "size": 17118,
+        "upload_time": "2025-04-28T23:07:38",
+        "upload_time_iso_8601": "2025-04-28T23:07:38.497988Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "docker_bash_volume_watcher-1.9.4.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9.0",
+        "size": 28835,
+        "upload_time": "2025-04-28T23:07:40",
+        "upload_time_iso_8601": "2025-04-28T23:07:40.307284Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  }
+}

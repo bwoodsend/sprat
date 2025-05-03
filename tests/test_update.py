@@ -56,14 +56,16 @@ def fake_upstream(content):
 @lru_cache()
 def packed():
     here = Path(__file__).parent
-    files = [list((here / i).glob("*.json")) for i in ("before", "after")]
+    files = [list((here / str(i)).glob("*.json")) for i in (1, 2, 3)]
     with tempfile.TemporaryDirectory() as temp:
         index = Path(temp) / "index.gz"
         pack.cli(["-o", str(index), *map(str, files[0])])
-        before = index.read_bytes()
+        part_1 = index.read_bytes()
         pack.cli(["--update", str(index), "-o", str(index), *map(str, files[1])])
-        after = index.read_bytes()
-    return before, after
+        part_2 = index.read_bytes()
+        pack.cli(["--update", str(index), "-o", str(index), *map(str, files[2])])
+        part_3 = index.read_bytes()
+    return part_1, part_2, part_3
 
 
 def test_uninitialised(tmp_path, monkeypatch):
@@ -74,9 +76,9 @@ def test_uninitialised(tmp_path, monkeypatch):
 
 def test_update(tmp_path, monkeypatch):
     monkeypatch.setattr(sprat._database, "cache_root", tmp_path)
-    before, after = packed()
+    states = packed()
 
-    with fake_upstream(before):
+    with fake_upstream(states[0]):
         sprat.update()
         mtimes = ((tmp_path / "database.gz").stat().st_mtime,
                   (tmp_path / "unpacked" / "12").stat().st_mtime)
@@ -86,6 +88,7 @@ def test_update(tmp_path, monkeypatch):
         sprat.lookup("awscli-plugin-proxy")
         with pytest.raises(sprat.NoSuchPackageError):
             sprat.lookup("corex")
+        assert "Docker" in sprat.lookup("docker-bash-volume-watcher").summary
         with pytest.raises(sprat.NoSuchPackageError):
             sprat.lookup("nexus-cat")
         assert "0.18" in sprat.lookup("x2polygons").versions
@@ -102,12 +105,12 @@ def test_update(tmp_path, monkeypatch):
         assert "Homepage" in old_zombie_adventure.urls
         assert "Download" not in old_zombie_adventure.urls
 
-    with fake_upstream(before):
+    with fake_upstream(states[0]):
         sprat.update()
         assert ((tmp_path / "database.gz").stat().st_mtime,
                 (tmp_path / "unpacked" / "12").stat().st_mtime) == mtimes
 
-    with fake_upstream(after):
+    with fake_upstream(states[1]):
         sprat.update()
         assert "1.1.0" in sprat.lookup("r2x").versions
         assert sprat.lookup("jk-flexdata").name == "jk_flexdata"
@@ -116,6 +119,8 @@ def test_update(tmp_path, monkeypatch):
             sprat.lookup("awscli-plugin-proxy")
         with pytest.raises(sprat.NoSuchPackageError):
             sprat.lookup("corex")
+        with pytest.raises(sprat.NoSuchPackageError):
+            sprat.lookup("docker-bash-volume-watcher")
         sprat.lookup("nexus-cat")
         assert "0.18" not in sprat.lookup("x2polygons").versions
         assert "yanked" not in sprat.lookup("StreamingCommunity").versions["2.5.0"]
@@ -128,10 +133,17 @@ def test_update(tmp_path, monkeypatch):
         assert sprat.lookup("shipyard-trello") == old_shipyard_trello
         assert sprat.lookup("ZombieAdventure") == old_zombie_adventure
 
+    with fake_upstream(states[2]):
+        sprat.update()
+        with pytest.raises(sprat.NoSuchPackageError):
+            sprat.lookup("corex")
+        assert "fake" in sprat.lookup("docker-bash-volume-watcher").summary
+        assert sprat.lookup("ZombieAdventure") == old_zombie_adventure
+
 
 def test_error_recovery(tmp_path, monkeypatch):
     monkeypatch.setattr(sprat._database, "cache_root", tmp_path)
-    before, after = packed()
+    before, after, _ = packed()
     original_repack_database = sprat._database.repack_database
 
     def bad_repack_database(path, dest):

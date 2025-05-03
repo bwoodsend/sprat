@@ -60,9 +60,6 @@ class UpstreamPackage(sprat.Package):
 
     @classmethod
     def _from_json(cls, name, data):
-        if data.get("empty"):
-            return cls(name, set(), set(), "", "", {}, {})
-
         info = data["info"]
         releases = data["releases"]
 

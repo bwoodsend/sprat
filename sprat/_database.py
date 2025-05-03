@@ -162,9 +162,9 @@ class Package:
                 self.license_expression = value
             elif key == "Y":
                 del self._last_modified_version["yanked"]
-            elif key == "N":
+            elif key == "N":  # pragma: no branch
                 raise PackageDeleted
-            else:
+            else:  # pragma: no cover
                 assert 0, (key, value)
 
 
