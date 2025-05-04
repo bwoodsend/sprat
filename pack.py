@@ -20,13 +20,13 @@ SpecifierSet = lru_cache()(SpecifierSet)
 
 
 class UpstreamPackage(sprat.Package):
-    def __init__(self, name, classifiers, keywords, license_expression, summary, urls, versions):
-        super().__init__(name, classifiers, keywords, license_expression, summary, urls, versions)
+    def __init__(self, name, classifiers, keywords, license, summary, urls, versions):
+        super().__init__(name, classifiers, keywords, license, summary, urls, versions)
 
         sanitize(name, "\r\n")
         [sanitize(i, "\r\n") for i in classifiers]
         [sanitize(i, "\r\n,") for i in keywords if i.strip()]
-        sanitize(license_expression, "\r\n")
+        sanitize(license, "\r\n")
         self.summary = " ".join(summary.split())
 
         self.urls = {}

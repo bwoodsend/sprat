@@ -28,17 +28,17 @@ class Package:
     name: str
     classifiers: set
     keywords: set
-    license_expression: str
+    license: str
     summary: str
     urls: dict
     versions: dict
 
-    def __init__(self, name="", classifiers=None, keywords=None, license_expression="", summary="", urls=None, versions=None):
+    def __init__(self, name="", classifiers=None, keywords=None, license="", summary="", urls=None, versions=None):
         assert isinstance(name, str)
         self.name = name
         self.classifiers = classifiers or set()
         self.keywords = keywords or set()
-        self.license_expression = license_expression
+        self.license = license
         self.summary = summary
         self.urls = urls or {}
         self.versions = versions or {}
@@ -53,8 +53,8 @@ class Package:
             out.append(("k", keyword))
         for keyword in sorted(old.keywords - self.keywords):
             out.append(("K", keyword))
-        if self.license_expression != old.license_expression:
-            out.append(("l", self.license_expression))
+        if self.license != old.license:
+            out.append(("l", self.license))
         if self.summary != old.summary:
             out.append(("s", self.summary))
         for (key, url) in sorted(self.urls.items()):
@@ -159,7 +159,7 @@ class Package:
             elif key == "K":
                 self.keywords.remove(value)
             elif key == "l":
-                self.license_expression = value
+                self.license = value
             elif key == "Y":
                 del self._last_modified_version["yanked"]
             elif key == "N":  # pragma: no branch

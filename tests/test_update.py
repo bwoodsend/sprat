@@ -93,7 +93,7 @@ def test_update(tmp_path, monkeypatch):
             sprat.lookup("nexus-cat")
         assert "0.18" in sprat.lookup("x2polygons").versions
         assert "yanked" in sprat.lookup("StreamingCommunity").versions["2.5.0"]
-        assert sprat.lookup("pylywsdxx").license_expression == ""
+        assert sprat.lookup("pylywsdxx").license == ""
         assert sprat.lookup("node-hermes-core").summary == ""
         assert "Programming Language :: Python :: 3" \
             in sprat.lookup("qt-interface-utils").classifiers
@@ -124,7 +124,7 @@ def test_update(tmp_path, monkeypatch):
         sprat.lookup("nexus-cat")
         assert "0.18" not in sprat.lookup("x2polygons").versions
         assert "yanked" not in sprat.lookup("StreamingCommunity").versions["2.5.0"]
-        assert sprat.lookup("pylywsdxx").license_expression == "MIT"
+        assert sprat.lookup("pylywsdxx").license == "MIT"
         assert "Node Hermes" in sprat.lookup("node-hermes-core").summary
         assert "Programming Language :: Python :: 3" \
             not in sprat.lookup("qt-interface-utils").classifiers

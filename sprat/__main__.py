@@ -74,7 +74,7 @@ def info(options):
                 ("Summary", package.summary),
                 ("Keywords", ", ".join(sorted(package.keywords))),
                 *urls,
-                ("License", package.license_expression),
+                ("License", package.license),
                 *classifiers,
                 *versions,
                 ("", ""),
@@ -92,7 +92,7 @@ def jsonify(package):
         "keywords": sorted(package.keywords),
         "urls": package.urls,
         "classifiers": sorted(package.classifiers, key=sprat.classifier_sort_key),
-        "license": package.license_expression,
+        "license": package.license,
         "versions": package.versions,
     }, separators=(",", ":"))
 
