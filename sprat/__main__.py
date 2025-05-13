@@ -65,9 +65,8 @@ def info(options):
                     versions.append(("", entry))
                     if "yanked" in info:
                         if info["yanked"]:
-                            reason = textwrap.wrap(info["yanked"])
-                            versions.append(("", RED + reason[0] + GREY))
-                            versions += (("", RED + i + GREY) for i in reason[1:])
+                            for line in textwrap.wrap(info["yanked"]):
+                                versions.append(("", " " + RED + line + GREY))
                 versions[0] = ("Versions", versions[0][1])
             else:
                 versions = []
