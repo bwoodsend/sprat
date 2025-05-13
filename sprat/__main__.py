@@ -7,28 +7,31 @@ import textwrap
 import sprat
 
 
+def expand_package_globs(packages):
+    if any("*" in i for i in packages):
+        for glob in packages:
+            regex = re.compile(sprat.sluggify(glob).encode().replace(b"*", b".*"))
+            found = False
+            for (name, chunk) in sprat.raw_with_prefix(glob.split("*")[0]):
+                if regex.fullmatch(sprat.sluggify_b(name)):
+                    found = True
+                    yield sprat.Package.parse(name, chunk)
+            if not found:
+                die(1, f"No package matching pattern '{glob}'")
+    else:
+        yield from sprat.bulk_lookup(packages)
+
+
 def info(options):
     try:
-        if any("*" in i for i in options.packages):
-            packages = []
-            for glob in options.packages:
-                regex = re.compile(glob.encode().replace(b"*", b".*"))
-                new = []
-                for (name, chunk) in sprat.raw_with_prefix(glob.split("*")[0]):
-                    if regex.fullmatch(name):
-                        new.append(sprat.Package.parse(name, chunk))
-                if not new:
-                    die(1, f"No package matching pattern '{glob}'")
-                packages += new
-        else:
-            packages = sprat.bulk_lookup(options.packages)
+        packages = expand_package_globs(options.packages)
         lines = []
         if options.json:
             for package in packages:
                 print(jsonify(package))
             return
 
-        for package in packages:
+        for (i, package) in enumerate(packages):
             try:
                 latest = [i for i in package.versions if "yanked" not in package.versions[i]][-1]
             except IndexError:
@@ -68,7 +71,7 @@ def info(options):
                 versions[0] = ("Versions", versions[0][1])
             else:
                 versions = []
-            lines += [
+            lines = [
                 ("Name", package.name),
                 ("Version", latest),
                 ("Summary", package.summary),
@@ -77,9 +80,20 @@ def info(options):
                 ("License", package.license),
                 *classifiers,
                 *versions,
-                ("", ""),
             ]
-        print_info_table(lines)
+            if i != 0:
+                print()
+            # URLs are the only keys of variable length. Several of the common
+            # ones are 13 characters long (Issue Tracker, Documentation, Release
+            # Notes) and anything longer is much rarer.
+            if options.urls or options.all:
+                print_info_table(lines, min_width=13)
+            # The key `Classifiers` is 11 characters long.
+            elif options.classifiers:
+                print_info_table(lines, width=11)
+            # `Keywords` is 8 characters long.
+            else:
+                print_info_table(lines, width=8)
     except sprat.NoSuchPackageError as ex:
         die(1, f"No such package '{ex.args[0]}'")
 
@@ -97,9 +111,12 @@ def jsonify(package):
     }, separators=(",", ":"))
 
 
-def print_info_table(lines):
-    width = max(len(i[0]) for i in lines) + 2
-    for (caption, content) in lines[:-1]:
+def print_info_table(lines, width=None, min_width=None):
+    if min_width:
+        width = max(min_width, max(len(i[0]) for i in lines)) + 2
+    else:
+        width = width + 2
+    for (caption, content) in lines:
         if caption == "Name":
             print(RESET, caption.ljust(width), ": ", content, sep="")
         else:
@@ -189,7 +206,7 @@ def search(options):
                 classifier_lines.append(("Classifiers" if not classifier_lines else "", highlighted))
             if classifier_match:
                 lines += classifier_lines
-            [print(i.ljust(13), ": ", j, sep="") for (i, j) in lines]
+            print_info_table(lines, width=11)
 
     return found > 0
 
@@ -222,7 +239,6 @@ def color_textwrap(text, indentation, width):
     last_space = None
     breaking_space = []
     for match in re.finditer("\x1b\\[(?:37|0|31)m|(\\s+)|([^\\s\x1b]+)", text):
-        #print(word_length, line_length, last_space, match)
         if match[1]:  # whitespace
             last_space = match
             line_length += word_length
