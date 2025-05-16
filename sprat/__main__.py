@@ -32,16 +32,17 @@ def info(options):
             return
 
         for (i, package) in enumerate(packages):
-            try:
-                latest = [i for i in package.versions if "yanked" not in package.versions[i]][-1]
-            except IndexError:
-                latest = ""
+            latest = ""
+            for version in package.versions:
+                if "yanked" not in package.versions[version]:
+                    latest = version
             if options.urls or options.all:
                 urls = sorted(package.urls.items())
             else:
-                urls = [(i, j) for (i, j) in package.urls.items() if i == "Homepage"]
+                urls = [i for i in package.urls.items() if i[0] == "Homepage"]
             if options.classifiers or options.all:
-                _classifiers = sorted(package.classifiers, key=sprat.classifier_sort_key)
+                _classifiers = sorted(package.classifiers,
+                                      key=sprat.classifier_sort_key)
                 classifiers = [("Classifiers", i) for i in _classifiers[:1]]
                 classifiers += [("", i) for i in _classifiers[1:]]
             else:
@@ -49,7 +50,8 @@ def info(options):
             if (options.versions or options.all) and package.versions:
                 version_width = 0
                 for (version, info) in package.versions.items():
-                    version_width = max(version_width, len(version) + 8 * ("yanked" in info))
+                    version_width = max(version_width,
+                                        len(version) + 8 * ("yanked" in info))
                 versions = []
                 last_requires_python = ""
                 for (version, info) in package.versions.items():
@@ -123,7 +125,8 @@ def print_info_table(lines, width=None, min_width=None):
 
 
 def _literal_length(regex):
-    length = next((i for (i, c) in enumerate(regex) if c != "-" and re.escape(c) != c), len(regex))
+    length = next((i for (i, c) in enumerate(regex) if c != "-" and re.escape(c) != c),
+                  len(regex))
     if 1 <= length < len(regex) and regex[length] in "*?{":
         length -= 1
     return length
@@ -131,7 +134,8 @@ def _literal_length(regex):
 
 def search(options):
     all_terms = []
-    for _terms in (options.terms, options.name, options.summary, options.keyword, options.classifier):
+    for _terms in (options.terms, options.name, options.summary,
+                   options.keyword, options.classifier):
         if _terms:
             all_terms += _terms
     for term in all_terms:
@@ -143,7 +147,7 @@ def search(options):
                 print(id.decode())
             return True
     try:
-        prefixes = (pattern[1:] for pattern in options.name or () if pattern.startswith("^"))
+        prefixes = (p[1:] for p in options.name or () if p.startswith("^"))
         prefix = max(prefixes, key=_literal_length)
     except ValueError:
         prefix = ""
@@ -155,7 +159,8 @@ def search(options):
             filtered = sprat.raw_crude_search(term, case_sensitive=False)
         else:
             filtered = sprat.raw_iter()
-    filter = Filter(options.terms, options.name, options.summary, options.keyword, options.classifier)
+    filter = Filter(options.terms, options.name, options.summary,
+                    options.keyword, options.classifier)
 
     if filter.name and not (prefix and len(filter.name) == 1 == len(filter.all)):
         filtered = (i for i in filtered if filter.filter_name(i[0].decode()))
@@ -167,7 +172,8 @@ def search(options):
             found += 1
         return found
 
-    highlighter = Highlighter(options.terms, options.name, options.summary, options.keyword, options.classifier)
+    highlighter = Highlighter(options.terms, options.name, options.summary,
+                              options.keyword, options.classifier)
     for (name, block) in filtered:
         package = sprat.Package.parse(name, block, ignore_versions=True)
         if filter.filter(package):
@@ -193,7 +199,8 @@ def search(options):
             if package.keywords:
                 _joined = ", ".join(highlighter.keyword.raw(GREY, w)[0] for w in package.keywords)
                 lines.append(("Keywords", GREY + _joined + RESET))
-            homepage = package.urls.get("Homepage", f"https://pypi.org/p/{package.name}")
+            homepage = package.urls.get("Homepage",
+                                        f"https://pypi.org/project/{package.name}")
             lines.append(("Homepage", GREY + homepage + RESET))
 
             classifier_match = False
@@ -202,7 +209,10 @@ def search(options):
                 highlighted, n = highlighter.classifier.raw(GREY, classifier)
                 highlighted = GREY + highlighted + RESET
                 classifier_match |= bool(n)
-                classifier_lines.append(("Classifiers" if not classifier_lines else "", highlighted))
+                if classifier_lines:
+                    classifier_lines.append(("", highlighted))
+                else:
+                    classifier_lines.append(("Classifiers", highlighted))
             if classifier_match:
                 lines += classifier_lines
             print_info_table(lines, width=11)
@@ -276,7 +286,7 @@ class Filter:
         self.summary = self._precompile(summary)
         self.keyword = self._precompile(keyword)
         self.classifier = self._precompile(classifier)
-        self.all = sum((self.any, self.name, self.summary, self.keyword, self.classifier), [])
+        self.all = self.any + self.name + self.summary + self.keyword + self.classifier
 
     @staticmethod
     def _precompile(terms):
@@ -289,9 +299,9 @@ class Filter:
         return all(pattern.search(name) for pattern in self.name)
 
     def filter(self, package):
-        import itertools
+        flat = [package.summary, package.name, *package.keywords, *package.classifiers]
         for pattern in self.any:
-            if not any(map(pattern.search, itertools.chain((package.summary, package.name), package.keywords, package.classifiers))):
+            if not any(map(pattern.search, flat)):
                 return False
         if not self.filter_name(package.name):
             return False
@@ -363,13 +373,16 @@ def die(code, message):
 
 def _parse_args(args=None):
     import argparse
+    _ = lambda x: re.sub(r"\s+", " ", x)
     parser = argparse.ArgumentParser("sprat")
     subparsers = parser.add_subparsers(required=True, metavar="COMMAND", dest="command")
 
     update = subparsers.add_parser("update", help="Download latest index")
     update.add_argument("--index-file", metavar="FILE")
 
-    search = subparsers.add_parser("search", help="List packages matching a pattern or other criteria")
+
+    search = subparsers.add_parser("search", help= \
+        "List packages matching a pattern or other criteria")
     search.add_argument("terms", nargs="*")
     search.add_argument("--name", "-n", action="append", dest="name")
     search.add_argument("--summary", "-s", action="append", dest="summary")
@@ -377,17 +390,24 @@ def _parse_args(args=None):
     search.add_argument("--classifiers", "-c", action="append", dest="classifier")
     search.add_argument("--long", "-l", action="store_true")
     search.add_argument("--quiet", "-q", action="store_true")
-    search.add_argument("--json",  "-j", action="store_true", help="Export to JSON")
+    search.add_argument("--json",  "-j", action="store_true", help= \
+        "Export to JSON")
 
-    info = subparsers.add_parser("info", help="Show details of a given package")
+    info = subparsers.add_parser("info", help= \
+        "Show details of a given package")
     info.add_argument("packages", nargs="+")
-    info.add_argument("--urls", "-u", action="store_true", help="Show all URLs, defaults to just the Homepage")
-    info.add_argument("--classifiers", "-c", action="store_true", help="Show classifiers")
-    info.add_argument("--versions", "-v", action="store_true", help="List releases")
-    info.add_argument("--all", "-a", action="store_true", help='Show everything, equivalent to --urls --classifiers --versions plus any future "show more" options')
-    info.add_argument("--json",  "-j", action="store_true", help="Export to JSON, implies --all")
+    info.add_argument("--urls", "-u", action="store_true", help= \
+        "Show all URLs, defaults to just the Homepage")
+    info.add_argument("--classifiers", "-c", action="store_true", help= \
+        "Show classifiers")
+    info.add_argument("--versions", "-v", action="store_true", help= \
+        "List releases")
+    info.add_argument("--all", "-a", action="store_true", help= \
+        'Show everything, equivalent to --urls --classifiers --versions '
+        'plus any future "show more" options')
+    info.add_argument("--json",  "-j", action="store_true", help= \
+        "Export to JSON, implies --all")
 
-#    print(parser.parse_args(args))
     return parser.parse_args(args)
 
 

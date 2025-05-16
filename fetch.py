@@ -45,12 +45,16 @@ def parse_delta(tree, project_serials, true_names):
 
 
 async def main(packages_xml=None, delta_xml=None, since_serial=None):
-    async with aiohttp.ClientSession("https://pypi.org/",
-                                     headers={"User-Agent": "sprat/v0.1.0 (PyPI search and indexing tool)"}) as session:
+    user_agent = "sprat/v0.1.0 (PyPI search and indexing tool)"
+    async with aiohttp.ClientSession(
+            "https://pypi.org/", headers={"User-Agent": user_agent}) as session:
         if packages_xml:
             with open(packages_xml) as f:
                 tree = ElementTree.fromstring(f.read())
-            project_serials = [(i.find("name").text, int(i.find("value/int").text)) for i in tree.find("params/param/value/struct")]
+            project_serials = []
+            for item in tree.find("params/param/value/struct"):
+                project_serials.append((item.find("name").text,
+                                        int(item.find("value/int").text)))
             project_serials.sort(key=lambda x: x[1])
         else:
             project_serials = {}

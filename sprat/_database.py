@@ -33,7 +33,8 @@ class Package:
     urls: dict
     versions: dict
 
-    def __init__(self, name="", classifiers=None, keywords=None, license="", summary="", urls=None, versions=None):
+    def __init__(self, name="", classifiers=None, keywords=None, license="",
+                 summary="", urls=None, versions=None):
         assert isinstance(name, str)
         self.name = name
         self.classifiers = classifiers or set()
@@ -224,8 +225,9 @@ def disassemble(source, dest_dir):
             dest_files[hash_id(sluggify_b(name))].write(b"n:%s\n%s\n" % (name, chunk))
     finally:
         [i.close() for i in dest_files]
-    [repack_database(dest_dir / f"_{i:02}", dest_dir / f"{i:02}") for i in range(len(anchors) + 1)]
-    [(dest_dir / f"_{i:02}").unlink() for i in range(len(anchors) + 1)]
+    for i in range(len(anchors) + 1):
+        repack_database(dest_dir / f"_{i:02}", dest_dir / f"{i:02}")
+        (dest_dir / f"_{i:02}").unlink()
 
 
 def repack_database(path, dest):
@@ -240,7 +242,7 @@ def repack_database(path, dest):
         else:
             package_blocks[id] = (name, source)
     with open(dest, "wb") as f:
-        f.writelines(map(b"n:%s\n%s\n".__mod__, (i[1] for i in sorted(package_blocks.items()))))
+        f.writelines(b"n:%s\n%s\n" % i[1] for i in sorted(package_blocks.items()))
 
 
 class PackageDeleted(Exception):
