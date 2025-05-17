@@ -24,7 +24,7 @@
       "Summary"
     ],
     "home_page": "https://github.com/zeegin/pygments-bsl",
-    "keywords": null,
+    "keywords": "\n\n,,,foo,,  bar\npop ,,\n",
     "license_expression": null,
     "license_files": null,
     "maintainer": null,

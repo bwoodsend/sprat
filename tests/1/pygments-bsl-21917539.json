@@ -21,7 +21,7 @@
     },
     "dynamic": null,
     "home_page": "https://github.com/zeegin/pygments-bsl",
-    "keywords": "",
+    "keywords": "\n\n,,,foo,,  bar ,,\n",
     "license": "MIT License",
     "license_expression": null,
     "license_files": null,

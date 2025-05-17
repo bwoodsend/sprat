@@ -208,6 +208,16 @@ def test_iter_no_versions(fake_workspace):
         assert package.versions == {}
 
 
+def test_keyword_splitting_heuristics(fake_workspace):
+    assert sprat.lookup("aim").keywords == set()
+    assert sprat.lookup("rp").keywords == {"go_away"}
+    assert sprat.lookup("pydocmaker").keywords == set()
+    assert sprat.lookup("pygments-bsl").keywords == {"foo", "bar", "pop"}
+    assert sprat.lookup("BenchExec").keywords == {"benchmarking", "resource measurement"}
+    assert sprat.lookup("disnake-dyn-components").keywords == \
+        {"disnake", "discord", "bot", "buttons", "modals", "selectmenu"}
+
+
 def test_classifier_sort():
     reference = trove_classifiers.sorted_classifiers
     for (lesser, greater) in zip(reference[:-1], reference[1:]):

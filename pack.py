@@ -77,10 +77,18 @@ class UpstreamPackage(sprat.Package):
             versions.append((version, _info))
         versions.sort(key=lambda x: min(file["upload_time"] for file in releases[x[0]]))
 
+        # There's no standard delimiter for keywords. Assume the package uses
+        # either commas or line breaks then fall back to whitespace if no splits
+        # are already made.
+        keywords = re.findall("[^,\n]+", info["keywords"] or "")
+        keywords = set(filter(None, map(str.strip, keywords)))
+        if len(keywords) == 1:
+            keywords = set(next(iter(keywords)).split())
+
         return cls(
             info["name"],
             set(info["classifiers"]),
-            {i.strip() for i in re.findall("[^,\n]+", info["keywords"] or "")},
+            keywords,
             info["license_expression"] or "",
             info["summary"] or "",
             info["project_urls"] or {},
