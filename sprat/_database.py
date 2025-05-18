@@ -296,6 +296,7 @@ def raw_crude_search(pattern, case_sensitive=True):
     if not case_sensitive:
         pattern = re.sub(r"(\\\\)|(\\.)|(.)", lambda m: m[1] or m[2] or m[3].lower(), pattern)
     pattern = re.compile(pattern.encode().lstrip(b"^").rstrip(b"$"))
+    name = None
     for database_id in range(len(anchors) + 1):
         source = database_path(database_id).read_bytes()
         end = -1
@@ -304,12 +305,27 @@ def raw_crude_search(pattern, case_sensitive=True):
                 continue
             if not match[0]:
                 continue
+            if b"\n" in match[0]:
+                yield from _slow_raw_crude_search(pattern, name)
+                return
             start = source.rfind(b"\n\n", 0, match.start())
             start = 0 if start == -1 else start + 2
             end = source.find(b"\n\n", match.end())
             _source = source[start:end]
             name, block = _source.split(b"\n", maxsplit=1)
-            yield name[2:], block
+            name = name[2:]
+            yield name, block
+
+
+def _slow_raw_crude_search(pattern, initial):
+    """A variant of raw_crude_search() which won't allow multiline matches to
+    span across multiple package blocks"""
+    _iter = raw_iter()
+    if initial is not None:
+        next(name for (name, _) in _iter if name == initial)  # pragma: no branch
+    for (name, block) in _iter:
+        if pattern.search(name) or pattern.search(block):
+            yield name, block
 
 
 def bulk_lookup(names):

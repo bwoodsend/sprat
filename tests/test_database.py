@@ -245,3 +245,22 @@ def test_interrupted_iterable(fake_workspace, function):
             break
     assert count == sum(1 for _ in function())
     assert count > 3
+
+
+def test_multiline_regex_protection(fake_workspace):
+    assert not any(sprat.crude_search("\n\n"))
+
+    for (i, j) in zip(sprat.iter(), sprat.crude_search("[^%]{,1000}")):
+        assert i == j
+
+    contains_z = [n for (n, b) in sprat.raw_iter() if b"z" in b or b"z" in n]
+    assert [i[0] for i in sprat.raw_crude_search("z")] == contains_z
+    assert [i[0] for i in sprat.raw_crude_search("z(.|\n){,10}")] == contains_z
+    assert [i[0] for i in sprat.raw_crude_search("z(.|\n)*")] == contains_z
+    assert [i[0] for i in sprat.raw_crude_search("(.|\n){,10}z(.|\n)*")] == contains_z
+
+
+@pytest.mark.parametrize("pattern", [r"[\s\S]+", r"[\s\S]", "\n"])
+def test_multiline_regex_block_merge_protection(fake_workspace, pattern):
+    for (name, block) in sprat.raw_crude_search(pattern):
+        assert b"\n\n" not in block
