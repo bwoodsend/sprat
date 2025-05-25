@@ -371,12 +371,12 @@ def _parse_args(args=None):
     parser = argparse.ArgumentParser("sprat")
     subparsers = parser.add_subparsers(required=True, metavar="COMMAND", dest="command")
 
-    update = subparsers.add_parser("update", help="Download latest index")
+    update = subparsers.add_parser("update", help= \
+        "Download latest package database")
     update.add_argument("--index-file", metavar="FILE")
 
-
     search = subparsers.add_parser("search", help= \
-        "List packages matching a pattern or other criteria")
+        "Find packages by regex patterns")
     search.add_argument("terms", nargs="*")
     search.add_argument("--name", "-n", action="append", dest="name")
     search.add_argument("--summary", "-s", action="append", dest="summary")
