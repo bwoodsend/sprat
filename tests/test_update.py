@@ -11,7 +11,7 @@ import time
 
 import pytest
 
-sys.path.insert(0, str(Path(__file__, "../..").resolve()))
+sys.path.append(str(Path(__file__, "../..").resolve()))
 import sprat
 import pack
 

@@ -1,8 +1,11 @@
 import random
 import io
 import contextlib
+import sys
+from pathlib import Path
 
 import sprat
+sys.path.append(str(Path(__file__).parents[1]))
 import pack
 
 
