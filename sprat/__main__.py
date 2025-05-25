@@ -147,8 +147,10 @@ def search(options):
                 print(id.decode())
             return True
     try:
-        prefixes = (p[1:] for p in options.name or () if p.startswith("^"))
+        prefixes = [p[1:] for p in options.name or () if p.startswith("^")]
         prefix = max(prefixes, key=_literal_length)
+        if not _literal_length(prefix):
+            prefix = ""
     except ValueError:
         prefix = ""
     if prefix:
@@ -162,7 +164,7 @@ def search(options):
     filter = Filter(options.terms, options.name, options.summary,
                     options.keyword, options.classifier)
 
-    if filter.name and not (prefix and len(filter.name) == 1 == len(filter.all)):
+    if filter.name:
         filtered = (i for i in filtered if filter.filter_name(i[0].decode()))
 
     found = 0
@@ -175,8 +177,8 @@ def search(options):
     highlighter = Highlighter(options.terms, options.name, options.summary,
                               options.keyword, options.classifier)
     for (name, block) in filtered:
-        package = sprat.Package.parse(name, block, ignore_versions=True)
-        if filter.filter(package):
+        package = sprat.Package.parse(name, block, ignore_versions=not options.json)
+        if filter.filter_body(package):
             found += 1
             if options.quiet:
                 print(name.decode())
@@ -222,11 +224,11 @@ def search(options):
 
 if "FORCE_COLOR" in os.environ:
     color_output = True
-elif "ANSI_COLORS_DISABLED" in os.environ or "NO_COLOR" in os.environ:
+elif "ANSI_COLORS_DISABLED" in os.environ or "NO_COLOR" in os.environ:  # pragma: no cover
     color_output = False
-elif os.environ.get("TERM") == "dumb":
+elif os.environ.get("TERM") == "dumb":  # pragma: no cover
     color_output = False
-else:
+else:  # pragma: no cover
     try:
         color_output = os.isatty(sys.stdout.fileno())
     except (io.UnsupportedOperation, AttributeError):
@@ -236,7 +238,7 @@ if color_output:
     RESET = "\x1b[0m"
     GREY = "\x1b[37m"
     RED = "\x1b[31m"
-else:
+else:  # pragma: no cover
     RESET = GREY = RED = ""
 
 
@@ -267,8 +269,6 @@ def color_textwrap(text, indentation, width):
     start = 0
     chunks = []
     for match in breaking_space:
-        if match is None:  # word too long to wrap
-            continue
         chunks.append(indentation)
         chunks.append(text[start:match.start()])
         chunks.append("\n")
@@ -292,19 +292,14 @@ class Filter:
     def _precompile(terms):
         return [re.compile(i, flags=re.I) for i in terms or []]
 
-    def strongest(self):
-        return max(self.all, key=lambda p: 2 * len(p.pattern) - len(re.escape(p.pattern)))
-
     def filter_name(self, name):
         return all(pattern.search(name) for pattern in self.name)
 
-    def filter(self, package):
+    def filter_body(self, package):
         flat = [package.summary, package.name, *package.keywords, *package.classifiers]
         for pattern in self.any:
             if not any(map(pattern.search, flat)):
                 return False
-        if not self.filter_name(package.name):
-            return False
         if not all(pattern.search(package.summary) for pattern in self.summary):
             return False
         for pattern in self.keyword:
@@ -358,7 +353,7 @@ def cli(args=None):
                 sys.exit(1)
     except KeyboardInterrupt:
         sys.exit(130)
-    except sprat.UpdateAlreadyInProgressError:
+    except sprat.UpdateAlreadyInProgressError:  # pragma: no cover
         die(128, "Database is locked. A sprat update is already in progress")
     except BrokenPipeError:
         pass
@@ -373,7 +368,6 @@ def die(code, message):
 
 def _parse_args(args=None):
     import argparse
-    _ = lambda x: re.sub(r"\s+", " ", x)
     parser = argparse.ArgumentParser("sprat")
     subparsers = parser.add_subparsers(required=True, metavar="COMMAND", dest="command")
 

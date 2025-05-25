@@ -1,0 +1,50 @@
+[0mName      : pytest-broadcaster
+Version   : [37m0.11.0[0m
+Summary   : [37mPytest plugin to broadcast pytest output to various destinations[0m
+Keywords  : [37m[0m
+License   : [37m[0m
+
+[0mName      : pytest-mongo
+Version   : [37m3.2.0[0m
+Summary   : [37mMongoDB process and client fixtures plugin for Pytest.[0m
+Keywords  : [37mfixture, mongo, mongodb, pytest, tests[0m
+License   : [37m[0m
+
+[0mName      : curvanato
+Version   : [37m1.2.0[0m
+Summary   : [37mAnatomical curvature processing for medical images.[0m
+Keywords  : [37mcaudate, curvanato, medical image processing[0m
+Homepage  : [37mhttps://github.com/stnava/curvanato[0m
+License   : [37m[0m
+
+[0mName      : marimo
+Version   : [37m0.11.13[0m
+Summary   : [37mA library for making reactive notebooks and apps[0m
+Keywords  : [37m[0m
+Homepage  : [37mhttps://github.com/marimo-team/marimo[0m
+License   : [37m[0m
+
+[0mName      : nonebot-plugin-sanyao
+Version   : [37m0.3.1[0m
+Summary   : [37m三爻易数排盘[0m
+Keywords  : [37m[0m
+Homepage  : [37mhttps://github.com/afterow/nonebot-plugin-sanyao[0m
+License   : [37m[0m
+
+[0mName      : pytest-mongo
+Version   : [37m3.2.0[0m
+Summary   : [37mMongoDB process and client fixtures plugin for Pytest.[0m
+Keywords  : [37mfixture, mongo, mongodb, pytest, tests[0m
+License   : [37m[0m
+
+[0mName      : shipyard-trello
+Version   : [37m0.1.1[0m
+Summary   : [37mA local client for connecting a working with Trello.[0m
+Keywords  : [37m[0m
+License   : [37m[0m
+
+[0mName      : shipyard-trello
+Version   : [37m0.1.1[0m
+Summary   : [37mA local client for connecting a working with Trello.[0m
+Keywords  : [37m[0m
+License   : [37m[0m

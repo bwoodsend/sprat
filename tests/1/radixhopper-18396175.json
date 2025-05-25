@@ -1,0 +1,113 @@
+{
+  "info": {
+    "author": null,
+    "author_email": "aarmn <aarmn80@gmail.com>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy"
+    ],
+    "docs_url": null,
+    "download_url": null,
+    "dynamic": null,
+    "home_page": null,
+    "keywords": "bases, conversion, cyclic fractions, math, mathematics, number system, radix",
+    "license_expression": null,
+    "license_files": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "name": "radixhopper",
+    "package_url": "https://pypi.org/project/radixhopper/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/radixhopper/",
+    "project_urls": {
+      "Documentation": "https://github.com/aarmn/radixhopper#readme",
+      "Issues": "https://github.com/aarmn/radixhopper/issues",
+      "Source": "https://github.com/aarmn/radixhopper"
+    },
+    "provides_extra": [
+      "cli",
+      "dev",
+      "streamlit"
+    ],
+    "release_url": "https://pypi.org/project/radixhopper/0.0.6/",
+    "requires_dist": [
+      "pydantic>=2.8.2",
+      "fire>=0.4.0; extra == \"cli\"",
+      "rich; extra == \"cli\"",
+      "black>=21.0; extra == \"dev\"",
+      "flake8>=3.9; extra == \"dev\"",
+      "isort>=5.0; extra == \"dev\"",
+      "pytest-cov>=2.0; extra == \"dev\"",
+      "pytest>=6.0; extra == \"dev\"",
+      "streamlit; extra == \"streamlit\""
+    ],
+    "requires_python": ">=3.8",
+    "summary": "A Python library for efficient radix-based number system conversions, specializing in cyclic fractions handling, for bases 2 through 36.",
+    "version": "0.0.6",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 18396175,
+  "releases": {
+    "0.0.6": [
+      {
+        "filename": "radixhopper-0.0.6-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 7441,
+        "upload_time": "2024-09-03T06:24:48",
+        "upload_time_iso_8601": "2024-09-03T06:24:48.660546Z",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "filename": "radixhopper-0.0.6.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 6074,
+        "upload_time": "2024-09-03T06:24:50",
+        "upload_time_iso_8601": "2024-09-03T06:24:50.069839Z",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "0.1.0": [
+      {
+        "filename": "radixhopper-0.1.0-py3-none-any.whl",
+        "has_sig": false,
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.8",
+        "size": 16714,
+        "upload_time": "2025-04-08T20:01:59",
+        "upload_time_iso_8601": "2025-04-08T20:01:59.273919Z",
+        "yanked": true,
+        "yanked_reason": "fatal got into upstream"
+      },
+      {
+        "filename": "radixhopper-0.1.0.tar.gz",
+        "has_sig": false,
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.8",
+        "size": 109459,
+        "upload_time": "2025-04-08T20:02:01",
+        "upload_time_iso_8601": "2025-04-08T20:02:01.039153Z",
+        "yanked": true,
+        "yanked_reason": "fatal got into upstream"
+      }
+    ]
+  }
+}

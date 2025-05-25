@@ -1,0 +1,8 @@
+[0mName      : radixhopper
+Version   : [37m0.0.6[0m
+Summary   : [37mA Python library for efficient radix-based number system conversions, specializing in cyclic fractions handling, for bases 2 through 36.[0m
+Keywords  : [37mbases, conversion, cyclic fractions, math, mathematics, number system, radix[0m
+License   : [37m[0m
+Versions  : [37m0.0.6          : Python>=3.8[0m
+          : [37m[31m0.1.0 (yanked) :[37m[0m
+          : [37m [31mfatal got into upstream[37m[0m

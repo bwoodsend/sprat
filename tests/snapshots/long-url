@@ -1,0 +1,27 @@
+[0mName           : SQLDbWrpr
+Version        : [37m4.3.0[0m
+Summary        : [37mWrapper for importing CSV and Text files into MySQL and Postgress[0m
+Keywords       : [37m[0m
+Changelog      : [37mhttps://github.com/BrightEdgeeServices/PythonTemplateIt/blob/enhancement/master/ReleaseNotes.md[0m
+Homepage       : [37mhttps://github.com/BrightEdgeeServices/PythonTemplateIt[0m
+Issue Tracker  : [37mhttps://github.com/BrightEdgeeServices/PythonTemplateIt/issues[0m
+Source Code    : [37mhttps://github.com/BrightEdgeeServices/PythonTemplateIt.git[0m
+License        : [37m[0m
+
+[0mName                              : ChromePasswordsStealer
+Version                           : [37m1.0.2[0m
+Summary                           : [37mThis module steals chrome and chromium passwords on Windows[0m
+Keywords                          : [37mChrome, Decrypt, Google, Passwords, Recovery, Security, Steal[0m
+Documentation                     : [37mhttps://mauricelambert.github.io/info/python/security/ChromePasswordsStealer.html[0m
+Homepage                          : [37mhttps://github.com/mauricelambert/ChromePasswordsStealer[0m
+Python Executable                 : [37mhttps://mauricelambert.github.io/info/python/security/ChromePasswordsStealer.pyz[0m
+Windows Executable - Github       : [37mhttps://github.com/mauricelambert/ChromePasswordsStealer/releases/latest[0m
+Windows Executable - SourceForge  : [37mhttps://sourceforge.net/projects/chromepasswordsstealer/files/latest/download[0m
+License                           : [37m[0m
+
+[0mName           : posthog
+Version        : [37m3.18.0[0m
+Summary        : [37mIntegrate PostHog into any python application.[0m
+Keywords       : [37m[0m
+Homepage       : [37mhttps://github.com/posthog/posthog-python[0m
+License        : [37m[0m

@@ -1,0 +1,22 @@
+[0mName         : posthog
+Version      : [37m3.18.0[0m
+Summary      : [37mIntegrate PostHog into any python application.[0m
+Keywords     : [37m[0m
+Homepage     : [37mhttps://github.com/posthog/posthog-python[0m
+License      : [37m[0m
+Classifiers  : [37mDevelopment Status :: 5 - Production/Stable[0m
+             : [37mIntended Audience :: Developers[0m
+             : [37mLicense :: OSI Approved :: MIT License[0m
+             : [37mOperating System :: OS Independent[0m
+             : [37mProgramming Language :: Python[0m
+             : [37mProgramming Language :: Python :: 3.9[0m
+             : [37mProgramming Language :: Python :: 3.10[0m
+             : [37mProgramming Language :: Python :: 3.11[0m
+             : [37mProgramming Language :: Python :: 3.12[0m
+             : [37mProgramming Language :: Python :: 3.13[0m
+
+[0mName         : aim-ui
+Version      : [37m3.28.0.dev20250301[0m
+Summary      : [37mAim UI[0m
+Keywords     : [37m[0m
+License      : [37m[0m

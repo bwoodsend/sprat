@@ -1,0 +1,18 @@
+[0mName           : x2polygons
+Version        : [37m0.172[0m
+Summary        : [37mDistance computation between matching georeferenced polygons[0m
+Keywords       : [37mGIS, spatial analysis[0m
+License        : [37m[0m
+Classifiers    : [37mDevelopment Status :: 5 - Production/Stable[0m
+               : [37mIntended Audience :: Developers[0m
+               : [37mIntended Audience :: Science/Research[0m
+               : [37mLicense :: OSI Approved :: GNU General Public License v2 (GPLv2)[0m
+               : [37mOperating System :: Microsoft :: Windows :: Windows 10[0m
+               : [37mProgramming Language :: Python :: 3[0m
+               : [37mTopic :: Scientific/Engineering :: GIS[0m
+               : [37mTopic :: Scientific/Engineering :: Information Analysis[0m
+               : [37mTopic :: Scientific/Engineering :: Mathematics[0m
+               : [37mTopic :: Scientific/Engineering :: Visualization[0m
+Versions       : [37m0.17   :[0m
+               : [37m0.171  :[0m
+               : [37m0.172  :[0m

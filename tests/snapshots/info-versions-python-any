@@ -1,0 +1,22 @@
+[0mName      : SQLDbWrpr
+Version   : [37m4.3.0[0m
+Summary   : [37mWrapper for importing CSV and Text files into MySQL and Postgress[0m
+Keywords  : [37m[0m
+Homepage  : [37mhttps://github.com/BrightEdgeeServices/PythonTemplateIt[0m
+License   : [37m[0m
+Versions  : [37m3.3.9   : Python>=3.6[0m
+          : [37m3.3.10  :[0m
+          : [37m3.3.11  :[0m
+          : [37m4.0.0   : Python=any[0m
+          : [37m4.0.1   :[0m
+          : [37m4.0.2   :[0m
+          : [37m4.0.3   :[0m
+          : [37m4.0.4   :[0m
+          : [37m4.0.5   :[0m
+          : [37m4.0.6   :[0m
+          : [37m4.1.0   :[0m
+          : [37m4.1.1   :[0m
+          : [37m4.1.2   :[0m
+          : [37m4.1.4   : Python<=12.0,>=3.8[0m
+          : [37m4.2.0   : Python<4.0.0,>=3.12.2[0m
+          : [37m4.3.0   : Python>=3.10[0m
