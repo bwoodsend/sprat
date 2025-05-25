@@ -23,20 +23,21 @@ class UpstreamPackage(sprat.Package):
     def __init__(self, name, classifiers, keywords, license, summary, urls, versions):
         super().__init__(name, classifiers, keywords, license, summary, urls, versions)
 
-        sanitize(name, "\r\n")
-        [sanitize(i, "\r\n") for i in classifiers]
-        [sanitize(i, "\r\n,") for i in keywords if i.strip()]
-        sanitize(license, "\r\n")
+        sanitize(name)
+        [sanitize(i) for i in classifiers]
+        [sanitize(i, ",") for i in keywords]
+        sanitize(license)
         self.summary = " ".join(summary.split())
+        sanitize(self.summary)
 
         self.urls = {}
         for (key, url) in urls.items():
             key = normalize_url_label(key)
             url = url.strip()
-            if not url or url.lower() == "unknown":
+            if url.lower() == "unknown":
                 continue
-            sanitize(key, "\r\n=")
-            sanitize(url, "\r\n")
+            sanitize(key, "=")
+            sanitize(url)
             if not url:
                 raise SanitationError(f"Url {repr(key)} is empty")
             self.urls[key] = url
@@ -47,10 +48,16 @@ class UpstreamPackage(sprat.Package):
                 Version(version)
             except InvalidVersion:
                 continue
-            sanitize(version, "\r\n")
+            sanitize(version)
             if yanked_reason := info.get("yanked"):
-                info["yanked"] = re.sub("[\r\n]+", " ", yanked_reason)
-            if requires_python := info.get("requires_python"):
+                yanked_reason = re.sub("[\r\n]+", " ", yanked_reason)
+                sanitize(yanked_reason)
+                info["yanked"] = yanked_reason
+            requires_python = info.get("requires_python")
+            if requires_python is not None:
+                requires_python = requires_python.strip()
+                if not requires_python:
+                    continue
                 try:
                     SpecifierSet(requires_python)
                 except InvalidSpecifier:
@@ -131,10 +138,16 @@ class SanitationError(Exception):
     pass
 
 
-def sanitize(string, bad_characters):
+def sanitize(string, bad_characters=None):
+    bad_characters = "\r\n" + (bad_characters or "")
     pattern = re.compile("[" + bad_characters + "]+")
-    if pattern.search(string):
-        raise SanitationError(f"{repr(string)} contains illegal characters {pattern.findall(string)}")
+    bad = pattern.findall(string)
+    if bad:
+        raise SanitationError(f"{repr(string)} contains characters {bad}")
+    if [i.encode() for i in string.splitlines()] != string.encode().splitlines():
+        raise SanitationError(f"{repr(string)} contains inconsistent line breaks")
+    if not string.isprintable():
+        raise SanitationError(f"{repr(string)} contains unprintable characters")
 
 
 def load_json(path):
