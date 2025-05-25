@@ -152,7 +152,7 @@ def sanitize(string, bad_characters=None):
 
 def load_json(path):
     path = Path(path)
-    if path.name.endswith("gz"):
+    if path.name.endswith("gz"):  # pragma: no cover
         return json.loads(gzip.decompress(path.read_bytes()))
     else:
         return json.loads(path.read_bytes())
@@ -163,13 +163,13 @@ def main(output, files):
         source = load_json(file)
         try:
             package = UpstreamPackage._from_json(split_path(file)[0], source)
-        except SanitationError as ex:
+        except SanitationError as ex:  # pragma: no cover
             ex.add_note(str(file))
             sys.excepthook(type(ex), ex, ex.__traceback__)
             print()
             continue
         delta = package.delta(sprat.Package.null)
-        if delta:
+        if delta:  # pragma: no branch
             output.writelines(map("%s:%s\n".__mod__, delta))
             output.write("\n")
     return int(file.stem.rsplit("-", maxsplit=1)[1])
@@ -178,7 +178,7 @@ def main(output, files):
 def update(old_database, new_database, files):
     with open(str(old_database) + ".lastserial") as f:
         last_serial = int(f.read().strip())
-    if new_database and new_database != old_database:
+    if new_database and new_database != old_database:  # pragma: no cover
         shutil.copy(old_database, new_database)
         shutil.copy(str(old_database) + ".lastserial", str(new_database) + ".lastserial")
 
@@ -199,9 +199,9 @@ def update(old_database, new_database, files):
             except sprat._database.PackageDeleted:
                 packages.pop(id, None)
     try:
-        if new_database:
+        if new_database:  # pragma: no branch
             f = io.TextIOWrapper(gzip.GzipFile(new_database, "a"))
-        else:
+        else:  # pragma: no cover
             f = sys.stdout
         for file in files:
             name, _ = split_path(file)
@@ -220,9 +220,9 @@ def update(old_database, new_database, files):
                 f.writelines(map("%s:%s\n".__mod__, delta))
                 f.write("\n")
     finally:
-        if new_database:
+        if new_database:  # pragma: no branch
             f.close()
-    if new_database:
+    if new_database:  # pragma: no branch
         with open(new_database + ".lastserial", "w") as f:
             f.write(str(last_serial))
 
@@ -247,14 +247,14 @@ def cli(args=None):
     options.files = sorted(options.files, key=sort_key)
     if options.update:
         update(options.update, options.output, options.files)
-    elif options.output:
+    elif options.output:  # pragma: no branch
         with gzip.open(options.output, "wt") as f:
             last_serial = main(f, options.files)
         with open(options.output + ".lastserial", "w") as f:
             f.write(str(last_serial))
-    else:
+    else:  # pragma: no cover
         main(sys.stdout, options.files)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     cli()

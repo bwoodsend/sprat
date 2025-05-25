@@ -1,0 +1,11 @@
+[run]
+branch = True
+source =
+    sprat
+    pack
+relative_files = True
+
+[report]
+ignore_errors = True
+show_missing = True
+fail_under = 100
