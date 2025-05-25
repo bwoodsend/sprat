@@ -49,7 +49,8 @@ class UpstreamPackage(sprat.Package):
             except InvalidVersion:
                 continue
             sanitize(version)
-            if yanked_reason := info.get("yanked"):
+            yanked_reason = info.get("yanked")
+            if yanked_reason:
                 yanked_reason = re.sub("[\r\n]+", " ", yanked_reason)
                 sanitize(yanked_reason)
                 info["yanked"] = yanked_reason

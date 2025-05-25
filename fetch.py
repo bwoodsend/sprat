@@ -93,7 +93,8 @@ async def main(packages_xml=None, delta_xml=None, since_serial=None):
 
         tasks = collections.deque(maxlen=5)
         for (name, serial) in project_serials:
-            if _path := existing.get(sprat.sluggify(name)):
+            _path = existing.get(sprat.sluggify(name))
+            if _path:
                 if split_path(_path)[1] != serial:
                     assert serial > split_path(_path)[1]
                     _path.unlink()
