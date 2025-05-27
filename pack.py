@@ -201,7 +201,8 @@ def update(old_database, new_database, files):
                 packages.pop(id, None)
     try:
         if new_database:  # pragma: no branch
-            f = io.TextIOWrapper(gzip.GzipFile(new_database, "a"))
+            f = io.TextIOWrapper(gzip.GzipFile(new_database, "a"),
+                                 newline="\n", encoding="utf-8")
         else:  # pragma: no cover
             f = sys.stdout
         for file in files:
@@ -249,7 +250,7 @@ def cli(args=None):
     if options.update:
         update(options.update, options.output, options.files)
     elif options.output:  # pragma: no branch
-        with gzip.open(options.output, "wt") as f:
+        with gzip.open(options.output, "wt", encoding="utf-8", newline="\n") as f:
             last_serial = main(f, options.files)
         with open(options.output + ".lastserial", "w") as f:
             f.write(str(last_serial))
