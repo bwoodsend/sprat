@@ -388,45 +388,51 @@ def update(database_file=None):
     import shutil, filelock
 
     cache_root.mkdir(parents=True, exist_ok=True)
+    lock = None
     try:
-        with filelock.FileLock(cache_root / "lock", timeout=0):
-            work_dir = cache_root / "work"
-            work_dir.mkdir(exist_ok=True)
+        lock = filelock.FileLock(cache_root / "lock", timeout=0)
+        lock.acquire()
+    except (filelock.Timeout, OSError):
+        raise UpdateAlreadyInProgressError from None
+    else:
+        work_dir = cache_root / "work"
+        work_dir.mkdir(exist_ok=True)
 
-            download_no_op = False
-            if database_file is None:  # pragma: no branch
-                from urllib.request import urlopen, Request
-                database_file = cache_root / "database.gz"
-                headers = {}
-                try:
-                    headers["Range"] = f"bytes={database_file.stat().st_size}-"
-                except FileNotFoundError:
-                    pass
-                url = os.environ.get("SPRAT_INDEX_URL") \
-                    or "https://github.com/bwoodsend/sprat/releases/download/v1/database.gz"
-                with urlopen(Request(url, headers=headers)) as response:
-                    if int(response.headers["Content-Length"]) != 0:
-                        with open(database_file, "ab") as f:
-                            shutil.copyfileobj(response, f)
-                    else:
-                        download_no_op = True
-
-            dest_dir = cache_root / "unpacked"
-            graveyard_dir = cache_root / "graveyard"
-            if download_no_op and dest_dir.exists():
-                if dest_dir.stat().st_mtime > database_file.stat().st_mtime:
-                    return
-            disassemble(database_file, work_dir)
+        download_no_op = False
+        if database_file is None:  # pragma: no branch
+            from urllib.request import urlopen, Request
+            database_file = cache_root / "database.gz"
+            headers = {}
             try:
-                shutil.rmtree(graveyard_dir)
+                headers["Range"] = f"bytes={database_file.stat().st_size}-"
             except FileNotFoundError:
                 pass
-            try:
-                dest_dir.rename(graveyard_dir)
-            except FileNotFoundError:
-                work_dir.rename(dest_dir)
-            else:
-                work_dir.rename(dest_dir)
-                shutil.rmtree(graveyard_dir)
-    except filelock.Timeout:
-        raise UpdateAlreadyInProgressError from None
+            url = os.environ.get("SPRAT_INDEX_URL") \
+                or "https://github.com/bwoodsend/sprat/releases/download/v1/database.gz"
+            with urlopen(Request(url, headers=headers)) as response:
+                if int(response.headers["Content-Length"]) != 0:
+                    with open(database_file, "ab") as f:
+                        shutil.copyfileobj(response, f)
+                else:
+                    download_no_op = True
+
+        dest_dir = cache_root / "unpacked"
+        graveyard_dir = cache_root / "graveyard"
+        if download_no_op and dest_dir.exists():
+            if dest_dir.stat().st_mtime > database_file.stat().st_mtime:
+                return
+        disassemble(database_file, work_dir)
+        try:
+            shutil.rmtree(graveyard_dir)
+        except FileNotFoundError:
+            pass
+        try:
+            dest_dir.rename(graveyard_dir)
+        except FileNotFoundError:
+            work_dir.rename(dest_dir)
+        else:
+            work_dir.rename(dest_dir)
+            shutil.rmtree(graveyard_dir)
+    finally:
+        if lock is not None:  # pragma: no branch
+            lock.release()
