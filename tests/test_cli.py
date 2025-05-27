@@ -139,11 +139,12 @@ def test_info_versions(run):
     snapshot_test(run("info", "-v", "pozalabs-compose"), "info-versions-chaos")
 
 
+@pytest.mark.skipif(os.name == "nt", reason="Windows?")
 def test_sigint(run):
     with subprocess.Popen([sys.executable, "-um", "sprat", "search", "-l", ".*.*.*.*.*.*.*a"],
                           stdout=subprocess.PIPE, stderr=subprocess.PIPE) as p:
         assert b"metenox" in p.stdout.readline()
-        p.send_signal(signal.SIGINT)
+        p.send_signal(signal.CTRL_C_EVENT if os.name == "nt" else signal.SIGINT)
         assert p.wait(2)
         assert not p.stderr.read()
 

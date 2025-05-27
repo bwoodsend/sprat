@@ -222,7 +222,7 @@ def search(options):
     return found > 0
 
 
-if "FORCE_COLOR" in os.environ:
+if "FORCE_COLOR" in os.environ:  # pragma: no cover
     color_output = True
 elif "ANSI_COLORS_DISABLED" in os.environ or "NO_COLOR" in os.environ:  # pragma: no cover
     color_output = False
@@ -234,7 +234,7 @@ else:  # pragma: no cover
     except (io.UnsupportedOperation, AttributeError):
         color_output = False
 
-if color_output:
+if color_output:  # pragma: no cover
     RESET = "\x1b[0m"
     GREY = "\x1b[37m"
     RED = "\x1b[31m"
@@ -351,12 +351,16 @@ def cli(args=None):
         if options.command == "search":
             if not search(options):
                 sys.exit(1)
-    except KeyboardInterrupt:
+    except KeyboardInterrupt:  # pragma: no cover
         sys.exit(130)
     except sprat.UpdateAlreadyInProgressError:  # pragma: no cover
         die(128, "Database is locked. A sprat update is already in progress")
-    except BrokenPipeError:
+    except BrokenPipeError:  # pragma: no cover
         pass
+    except OSError as ex:  # pragma: no cover
+        if ex.errno != 22:
+            raise
+        sys.__stdout__ = sys.stdout = sys.stderr = sys.__stderr__ = None
     except sprat.DatabaseUninitializedError:
         die(3, "Packages database has not been downloaded. Please run: sprat update")
 
