@@ -162,6 +162,8 @@ def load_json(path):
 def main(output, files):
     for file in map(Path, files):
         source = load_json(file)
+        if source.get("empty"):
+            continue
         try:
             package = UpstreamPackage._from_json(split_path(file)[0], source)
         except SanitationError as ex:  # pragma: no cover
