@@ -31,6 +31,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.whl
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -52,6 +53,7 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
+*.pstats
 
 # Translations
 *.mo
@@ -121,3 +123,6 @@ ENV/
 
 # Generated
 pypi
+*.gz
+*.gz.lastserial
+*.xml
