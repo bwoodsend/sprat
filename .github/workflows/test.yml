@@ -24,10 +24,17 @@ jobs:
         shell: bash
       - run: pytest --cov
 
-  old-python:
+  docker:
+    strategy:
+      matrix:
+        image:
+          - 'python:3.7-alpine'
+          - 'pypy:3.11-slim'
+          - 'pypy:3.10-slim'
+      fail-fast: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: |
-          docker run -v "$(pwd):/io" -t -e FORCE_COLOR=1 python:3.7-alpine \
+          docker run -v "$(pwd):/io" --network=host -t -e FORCE_COLOR=1 ${{ matrix.image }} \
           sh -c "cd /io && pip install . -r tests/requirements.txt pytest-cov && pytest"
