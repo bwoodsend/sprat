@@ -8,6 +8,8 @@ import os
 import tempfile
 from functools import lru_cache
 import time
+import shutil
+import builtins
 
 import pytest
 
@@ -210,3 +212,37 @@ def test_concurrent_update(tmp_path, monkeypatch):
             thread.join()
 
     assert any(sprat.raw_with_prefix("pytest-"))
+
+
+def test_obstructed_update(tmp_path, monkeypatch):
+    monkeypatch.setattr(sprat._database, "cache_root", tmp_path)
+    states = packed()
+    seen = set()
+
+    def windowsify(module, name):
+        original = getattr(module, name)
+
+        def windowsified(*args, **kwargs):
+            if name == "open" and not ("a" in args[1] or "w" in args[1]):
+                pass
+            elif not os.path.exists(args[0]):
+                pass
+            elif (name, args) not in seen:
+                seen.add((name, args))
+                error = OSError(name, *args)
+                error.errno = 22
+                raise error
+            return original(*args, **kwargs)
+
+        monkeypatch.setattr(module, name, windowsified)
+
+    windowsify(shutil, "rmtree")
+    windowsify(builtins, "open")
+    windowsify(Path, "unlink")
+    windowsify(Path, "rename")
+
+    with pytest.warns(UserWarning, match="Retrying in 0.0 seconds"):
+        with fake_upstream(states[0]):
+            sprat.update()
+        with fake_upstream(states[1]):
+            sprat.update()

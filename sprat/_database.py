@@ -5,6 +5,8 @@ from dataclasses import dataclass
 import bisect
 import collections
 import os
+import time
+import warnings
 
 import platformdirs
 
@@ -227,7 +229,7 @@ def disassemble(source, dest_dir):
         [i.close() for i in dest_files]
     for i in range(len(anchors) + 1):
         repack_database(dest_dir / f"_{i:02}", dest_dir / f"{i:02}")
-        (dest_dir / f"_{i:02}").unlink()
+        windows_proof(Path.unlink, dest_dir / f"_{i:02}")
 
 
 def repack_database(path, dest):
@@ -384,6 +386,48 @@ def classifier_sort_key(classifier):
     return (start, [int(i) for i in re.findall(r"\d+", numbers)], end)
 
 
+def windows_proof(function, file, *args, **kwargs):
+    """Add retries to a function which modifies or deletes an existing file"""
+    for i in range(1000):  # pragma: no branch
+        try:
+            return function(file, *args, **kwargs)
+        except OSError as ex:
+            if not _retryable_exception(ex):
+                raise
+            if i == 7:  # pragma: no cover
+                raise
+            warnings.warn(
+                f'Another process is blocking access to "{file}". '
+                "This is most likely to be an antivirus. "
+                f"Retrying in {i / 2:.1f} seconds"
+            )
+            time.sleep(i / 2)
+
+
+def _retryable_exception(ex):
+    """Test if ``ex`` is an error that can be raised by antivirus interference"""
+    if isinstance(ex, PermissionError):  # pragma: no cover
+        return True
+
+    # Windows-specific errno and winerror codes.
+    # https://learn.microsoft.com/en-us/cpp/c-runtime-library/errno-constants
+    ERRNOs = {
+        13,  # EACCES (would typically be a PermissionError instead)
+        22,  # EINVAL (reported to be caused by Crowdstrike; see pyinstaller/pyinstaller#7840)
+    }
+    # https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499-
+    WINERRORs = {
+        5,  # ERROR_ACCESS_DENIED (reported in pyinstaller/pyinstaller#7825)
+        32,  # ERROR_SHARING_VIOLATION (exclusive lock via `CreateFileW` flags, or via `_locked`).
+        110,  # ERROR_OPEN_FAILED (reported in pyinstaller/pyinstaller#8138)
+    }
+    if ex.errno in ERRNOs or getattr(ex, "winerror", -1) in WINERRORs:
+        return True
+
+    return False
+
+
+
 def update(database_file=None):
     import shutil, filelock
 
@@ -411,7 +455,7 @@ def update(database_file=None):
                 or "https://github.com/bwoodsend/sprat/releases/download/v1/database.gz"
             with urlopen(Request(url, headers=headers)) as response:
                 if int(response.headers["Content-Length"]) != 0:
-                    with open(database_file, "ab") as f:
+                    with windows_proof(open, database_file, "ab") as f:
                         shutil.copyfileobj(response, f)
                 else:
                     download_no_op = True
@@ -423,16 +467,16 @@ def update(database_file=None):
                 return
         disassemble(database_file, work_dir)
         try:
-            shutil.rmtree(graveyard_dir)
+            windows_proof(shutil.rmtree, graveyard_dir)
         except FileNotFoundError:
             pass
         try:
-            dest_dir.rename(graveyard_dir)
+            windows_proof(dest_dir.rename, graveyard_dir)
         except FileNotFoundError:
-            work_dir.rename(dest_dir)
+            windows_proof(work_dir.rename, dest_dir)
         else:
-            work_dir.rename(dest_dir)
-            shutil.rmtree(graveyard_dir)
+            windows_proof(work_dir.rename, dest_dir)
+            windows_proof(shutil.rmtree, graveyard_dir)
     finally:
         if lock is not None:  # pragma: no branch
             lock.release()
