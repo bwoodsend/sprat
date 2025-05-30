@@ -39,7 +39,7 @@ class UpstreamPackage(sprat.Package):
             sanitize(key, "=")
             sanitize(url)
             if not url:
-                raise SanitationError(f"Url {repr(key)} is empty")
+                continue
             self.urls[key] = url
 
         sanitized_versions = {}
