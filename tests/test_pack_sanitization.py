@@ -10,7 +10,8 @@ import pack
 
 
 def fuzz_string(r):
-    return "".join(chr(r.randrange(0, 300)) for _ in range(r.randrange(5)))
+    max = random.choice((300, sys.maxunicode))
+    return "".join(chr(r.randrange(max)) for _ in range(r.randrange(5)))
 
 
 def fuzz_list(r):

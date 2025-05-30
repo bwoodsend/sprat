@@ -145,6 +145,10 @@ def sanitize(string, bad_characters=None):
     bad = pattern.findall(string)
     if bad:
         raise SanitationError(f"{repr(string)} contains characters {bad}")
+    try:
+        string.encode()
+    except UnicodeEncodeError as ex:
+        raise SanitationError(repr(ex))
     if [i.encode() for i in string.splitlines()] != string.encode().splitlines():
         raise SanitationError(f"{repr(string)} contains inconsistent line breaks")
 
