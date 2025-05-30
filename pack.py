@@ -147,8 +147,6 @@ def sanitize(string, bad_characters=None):
         raise SanitationError(f"{repr(string)} contains characters {bad}")
     if [i.encode() for i in string.splitlines()] != string.encode().splitlines():
         raise SanitationError(f"{repr(string)} contains inconsistent line breaks")
-    if not string.isprintable():
-        raise SanitationError(f"{repr(string)} contains unprintable characters")
 
 
 def load_json(path):
