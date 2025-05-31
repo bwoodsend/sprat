@@ -1,6 +1,5 @@
 import random
 import io
-import contextlib
 import sys
 from pathlib import Path
 
@@ -10,8 +9,10 @@ import pack
 
 
 def fuzz_string(r):
-    max = random.choice((300, sys.maxunicode))
-    return "".join(chr(r.randrange(max)) for _ in range(r.randrange(5)))
+    if r.random() < 0.5:
+        return "".join(chr(r.randrange(300)) for _ in range(r.randrange(5)))
+    else:
+        return "".join(chr(r.randrange(sys.maxunicode)) for _ in range(r.randrange(1, 3)))
 
 
 def fuzz_list(r):
@@ -21,7 +22,7 @@ def fuzz_list(r):
 def fuzz(make_package):
 
     def test():
-        for i in range(10000):
+        for i in range(100000):
             try:
                 package = make_package(random.Random(i))
             except pack.SanitationError:
@@ -30,9 +31,8 @@ def fuzz(make_package):
             serialised = "".join(map("%s:%s\n".__mod__, delta)).encode() + b"\n"
             x, = sprat._database._read_database_raw(io.BytesIO(serialised), 10000)
             unpacked = sprat.Package.parse(*x)
-            with contextlib.suppress(AttributeError):
-                del unpacked._last_modified_version
-            assert unpacked.__dict__ == package.__dict__
+            for field in sprat.Package.__dataclass_fields__:
+                assert getattr(unpacked, field) == getattr(package, field)
 
     test.__name__ = make_package.__name__
     return test
