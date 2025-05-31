@@ -374,7 +374,7 @@ class NoSuchPackageError(Exception):
 
 class DatabaseUninitializedError(Exception):
     def __str__(self):
-        return "Packages database has not been downloaded. Please call: sprat.update()"
+        return "Packages database has not been downloaded. Please call: sprat.sync()"
 
 
 class UpdateAlreadyInProgressError(Exception):
@@ -428,7 +428,7 @@ def _retryable_exception(ex):
 
 
 
-def update(database_file=None):
+def sync(database_file=None):
     import shutil, filelock
 
     cache_root.mkdir(parents=True, exist_ok=True)

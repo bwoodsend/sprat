@@ -118,13 +118,13 @@ def test_read_database(seed, size):
 
 @pytest.fixture(scope="module")
 def fake_workspace():
-    from test_update import fake_upstream, packed
+    from test_sync import fake_upstream, packed
     with tempfile.TemporaryDirectory() as workspace:
         old_cache_root = sprat._database.cache_root
         try:
             sprat._database.cache_root = Path(workspace)
             with fake_upstream(packed()[1]):
-                sprat.update()
+                sprat.sync()
             yield workspace
         finally:
             sprat._database.cache_root = old_cache_root

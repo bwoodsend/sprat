@@ -21,13 +21,13 @@ RED = "\x1b[31m"
 
 @pytest.fixture(scope="module")
 def fake_root():
-    from test_update import fake_upstream, packed
+    from test_sync import fake_upstream, packed
     with tempfile.TemporaryDirectory() as workspace:
         old_cache_root = sprat._database.cache_root
         try:
             sprat._database.cache_root = Path(workspace)
             with fake_upstream(packed()[1]):
-                cli(["update"])
+                cli(["sync"])
             yield workspace
         finally:
             sprat._database.cache_root = old_cache_root
@@ -193,7 +193,7 @@ def test_uninitialized(monkeypatch, tmp_path):
                        env={**os.environ, "SPRAT_CACHE_ROOT": str(tmp_path)},
                        stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     assert p.returncode == 3
-    assert b"sprat update" in p.stderr
+    assert b"sprat sync" in p.stderr
 
 
 def test_search_prefix(run):

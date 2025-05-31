@@ -9,7 +9,7 @@ from ._database import (
     raw_with_prefix,
     sluggify,
     sluggify_b,
-    update,
+    sync,
     with_prefix,
     DatabaseUninitializedError,
     NoSuchPackageError,

@@ -72,16 +72,16 @@ def packed():
 
 def test_uninitialised(tmp_path, monkeypatch):
     monkeypatch.setattr(sprat._database, "cache_root", tmp_path)
-    with pytest.raises(sprat.DatabaseUninitializedError, match="sprat.update"):
+    with pytest.raises(sprat.DatabaseUninitializedError, match="sprat.sync"):
         next(sprat.raw_iter())
 
 
-def test_update(tmp_path, monkeypatch):
+def test_sync(tmp_path, monkeypatch):
     monkeypatch.setattr(sprat._database, "cache_root", tmp_path)
     states = packed()
 
     with fake_upstream(states[0]):
-        sprat.update()
+        sprat.sync()
         mtimes = ((tmp_path / "database.gz").stat().st_mtime,
                   (tmp_path / "unpacked" / "12").stat().st_mtime)
         assert "1.1.0" not in sprat.lookup("r2x").versions
@@ -108,12 +108,12 @@ def test_update(tmp_path, monkeypatch):
         assert "Download" not in old_zombie_adventure.urls
 
     with fake_upstream(states[0]):
-        sprat.update()
+        sprat.sync()
         assert ((tmp_path / "database.gz").stat().st_mtime,
                 (tmp_path / "unpacked" / "12").stat().st_mtime) == mtimes
 
     with fake_upstream(states[1]):
-        sprat.update()
+        sprat.sync()
         assert "1.1.0" in sprat.lookup("r2x").versions
         assert sprat.lookup("jk-flexdata").name == "jk_flexdata"
         assert sprat.lookup("SM16inpind").name == "sm16inpind"
@@ -136,7 +136,7 @@ def test_update(tmp_path, monkeypatch):
         assert sprat.lookup("ZombieAdventure") == old_zombie_adventure
 
     with fake_upstream(states[2]):
-        sprat.update()
+        sprat.sync()
         with pytest.raises(sprat.NoSuchPackageError):
             sprat.lookup("corex")
         assert "fake" in sprat.lookup("docker-bash-volume-watcher").summary
@@ -156,7 +156,7 @@ def test_error_recovery(tmp_path, monkeypatch):
     with fake_upstream(before):
         monkeypatch.setattr(sprat._database, "repack_database", bad_repack_database)
         with pytest.raises(RuntimeError):
-            sprat.update()
+            sprat.sync()
         assert (tmp_path / "work" / "02").exists()
         assert not (tmp_path / "work" / "03").exists()
         assert (tmp_path / "work" / "_03").exists()
@@ -165,7 +165,7 @@ def test_error_recovery(tmp_path, monkeypatch):
 
     with fake_upstream(before):
         sprat._database.repack_database = original_repack_database
-        sprat.update()
+        sprat.sync()
         assert not (tmp_path / "work").exists()
         sprat.lookup("aa-metenox")
         sprat.lookup("xss-utils")
@@ -173,30 +173,30 @@ def test_error_recovery(tmp_path, monkeypatch):
     with fake_upstream(after):
         monkeypatch.setattr(sprat._database, "repack_database", bad_repack_database)
         with pytest.raises(RuntimeError):
-            sprat.update()
+            sprat.sync()
         assert "1.2.0" not in sprat.lookup("aa-metenox").versions
         with pytest.raises(RuntimeError):
-            sprat.update()
+            sprat.sync()
         assert "0.7.1" not in sprat.lookup("xss-utils").versions
 
     with fake_upstream(after):
         sprat._database.repack_database = original_repack_database
         (tmp_path / "graveyard").mkdir()
         (tmp_path / "graveyard" / "1").touch()
-        sprat.update()
+        sprat.sync()
         assert not (tmp_path / "work").exists()
         assert not (tmp_path / "graveyard").exists()
         assert "1.2.0" in sprat.lookup("aa-metenox").versions
         assert "0.7.1" in sprat.lookup("xss-utils").versions
 
 
-def test_concurrent_update(tmp_path, monkeypatch):
+def test_concurrent_sync(tmp_path, monkeypatch):
     monkeypatch.setattr(sprat._database, "cache_root", tmp_path)
 
     with fake_upstream(packed()[0]) as server_settings:
         try:
             server_settings["wait"] = True
-            thread = threading.Thread(target=sprat.update)
+            thread = threading.Thread(target=sprat.sync)
             thread.start()
             for _ in range(10):
                 if (tmp_path / "database.gz").exists():
@@ -206,7 +206,7 @@ def test_concurrent_update(tmp_path, monkeypatch):
                 raise
 
             with pytest.raises(sprat.UpdateAlreadyInProgressError):
-                sprat.update()
+                sprat.sync()
         finally:
             server_settings["wait"] = False
             thread.join()
@@ -214,7 +214,7 @@ def test_concurrent_update(tmp_path, monkeypatch):
     assert any(sprat.raw_with_prefix("pytest-"))
 
 
-def test_obstructed_update(tmp_path, monkeypatch):
+def test_obstructed_sync(tmp_path, monkeypatch):
     monkeypatch.setattr(sprat._database, "cache_root", tmp_path)
     states = packed()
     seen = set()
@@ -243,6 +243,6 @@ def test_obstructed_update(tmp_path, monkeypatch):
 
     with pytest.warns(UserWarning, match="Retrying in 0.0 seconds"):
         with fake_upstream(states[0]):
-            sprat.update()
+            sprat.sync()
         with fake_upstream(states[1]):
-            sprat.update()
+            sprat.sync()

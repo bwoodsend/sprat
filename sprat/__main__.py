@@ -344,8 +344,8 @@ class Highlighter:
 def cli(args=None):
     try:
         options = _parse_args(args)
-        if options.command == "update":
-            sprat.update(options.index_file)
+        if options.command == "sync":
+            sprat.sync(options.index_file)
         if options.command == "info":
             info(options)
         if options.command == "search":
@@ -354,7 +354,7 @@ def cli(args=None):
     except KeyboardInterrupt:  # pragma: no cover
         sys.exit(130)
     except sprat.UpdateAlreadyInProgressError:  # pragma: no cover
-        die(128, "Database is locked. A sprat update is already in progress")
+        die(128, "Database is locked. A sprat sync is already in progress")
     except BrokenPipeError:  # pragma: no cover
         pass
     except OSError as ex:  # pragma: no cover
@@ -362,7 +362,7 @@ def cli(args=None):
             raise
         sys.__stdout__ = sys.stdout = sys.stderr = sys.__stderr__ = None
     except sprat.DatabaseUninitializedError:
-        die(3, "Packages database has not been downloaded. Please run: sprat update")
+        die(3, "Packages database has not been downloaded. Please run: sprat sync")
 
 
 def die(code, message):
@@ -375,9 +375,9 @@ def _parse_args(args=None):
     parser = argparse.ArgumentParser("sprat")
     subparsers = parser.add_subparsers(required=True, metavar="COMMAND", dest="command")
 
-    update = subparsers.add_parser("update", help= \
+    sync = subparsers.add_parser("sync", help= \
         "Download latest package database")
-    update.add_argument("--index-file", metavar="FILE")
+    sync.add_argument("--index-file", metavar="FILE")
 
     search = subparsers.add_parser("search", help= \
         "Find packages by regex patterns")
