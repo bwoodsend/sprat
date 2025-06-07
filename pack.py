@@ -210,7 +210,7 @@ def update(old_database, new_database, files):
         else:  # pragma: no cover
             f = sys.stdout
         for file in files:
-            name, _ = split_path(file)
+            name, last_serial = split_path(file)
             id = sprat.sluggify(name).encode()
             old = packages.get(id, UpstreamPackage.null)
             new_data = load_json(file)

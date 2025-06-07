@@ -45,6 +45,7 @@ def parse_delta(tree, project_serials, true_names):
 
 
 async def main(packages_xml=None, delta_xml=None, since_serial=None):
+    Path("pypi").mkdir(exist_ok=True)
     user_agent = "sprat/v0.1.0 (PyPI search and indexing tool)"
     async with aiohttp.ClientSession(
             "https://pypi.org/", headers={"User-Agent": user_agent}) as session:

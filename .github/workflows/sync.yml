@@ -1,0 +1,35 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 50 3/4 * * *
+
+permissions:
+  contents: write
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.13
+
+      - run: echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
+      - run: gh release download database-v1
+      - run: stat --format '%s' database.gz && cat database.gz.lastserial
+      - run: sha256sum database.gz*
+      - run: cp database.gz old.gz
+
+      - run: pip install . aiohttp packaging
+      - run: python fetch.py --since-serial "$(cat database.gz.lastserial)"
+      - run: python pack.py --update database.gz --output database.gz
+      - run: stat --format '%s' database.gz && cat database.gz.lastserial
+      - run: sha256sum database.gz*
+      - run: ./common-prefix old.gz database.gz
+
+      - run: sprat sync --index=database.gz
+      - run: sprat info -a '*' > /dev/null
+
+      - run: gh release upload --clobber database-v1 database.gz.lastserial
+      - run: gh release upload --clobber database-v1 database.gz

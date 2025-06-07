@@ -452,7 +452,7 @@ def sync(database_file=None):
             except FileNotFoundError:
                 pass
             url = os.environ.get("SPRAT_INDEX_URL") \
-                or "https://github.com/bwoodsend/sprat/releases/download/v1/database.gz"
+                or "https://github.com/bwoodsend/sprat/releases/download/database-v1/database.gz"
             with urlopen(Request(url, headers=headers)) as response:
                 if int(response.headers["Content-Length"]) != 0:
                     with windows_proof(open, database_file, "ab") as f:
