@@ -445,20 +445,30 @@ def sync(database_file=None):
         download_no_op = False
         if database_file is None:  # pragma: no branch
             from urllib.request import urlopen, Request
+            from urllib.error import HTTPError
             database_file = cache_root / "database.gz"
             headers = {}
             try:
-                headers["Range"] = f"bytes={database_file.stat().st_size}-"
+                current_size = database_file.stat().st_size
+                headers["Range"] = f"bytes={current_size}-"
             except FileNotFoundError:
-                pass
+                current_size = 0
             url = os.environ.get("SPRAT_INDEX_URL") \
                 or "https://github.com/bwoodsend/sprat/releases/download/database-v1/database.gz"
-            with urlopen(Request(url, headers=headers)) as response:
-                if int(response.headers["Content-Length"]) != 0:
-                    with windows_proof(open, database_file, "ab") as f:
-                        shutil.copyfileobj(response, f)
-                else:
+            try:
+                with urlopen(Request(url, headers=headers)) as response:
+                    if int(response.headers["Content-Length"]) != 0:
+                        with windows_proof(open, database_file, "ab") as f:
+                            shutil.copyfileobj(response, f)
+                    else:
+                        download_no_op = True
+            except HTTPError as ex:
+                if ex.code == 416:  # pragma: no branch
+                    assert ex.headers["Content-Range"].endswith(str(current_size)), \
+                        (dict(ex.headers), current_size)
                     download_no_op = True
+                else:  # pragma: no cover
+                    raise
 
         dest_dir = cache_root / "unpacked"
         graveyard_dir = cache_root / "graveyard"

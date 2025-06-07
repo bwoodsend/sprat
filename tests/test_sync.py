@@ -27,15 +27,18 @@ def fake_upstream(content):
             if "Range" in self.headers:
                 match = re.match(r"bytes=(\d*)-(\d*)", self.headers["Range"])
                 range = (int(match[1] or 0), int(match[2] or len(content)))
+                if range[0] >= len(content) and settings.get("416_on_empty"):
+                    self.send_response(416)
+                    self.send_header("content-range", f"bytes */{len(content)}")
+                    self.end_headers()
+                    return
                 self.send_response(206)
-                if not settings.get("disable_content_length"):
-                    self.send_header("Content-Length", range[1] - range[0])
+                self.send_header("Content-Length", range[1] - range[0])
                 self.end_headers()
                 self.wfile.write(content[range[0]: range[1]])
             else:
                 self.send_response(200)
-                if not settings.get("disable_content_length"):
-                    self.send_header("Content-Length", len(content))
+                self.send_header("Content-Length", len(content))
                 self.end_headers()
                 while settings.get("wait"):
                     time.sleep(0.5)
@@ -108,6 +111,12 @@ def test_sync(tmp_path, monkeypatch):
         assert "Download" not in old_zombie_adventure.urls
 
     with fake_upstream(states[0]):
+        sprat.sync()
+        assert ((tmp_path / "database.gz").stat().st_mtime,
+                (tmp_path / "unpacked" / "12").stat().st_mtime) == mtimes
+
+    with fake_upstream(states[0]) as server_settings:
+        server_settings["416_on_empty"] = True
         sprat.sync()
         assert ((tmp_path / "database.gz").stat().st_mtime,
                 (tmp_path / "unpacked" / "12").stat().st_mtime) == mtimes
