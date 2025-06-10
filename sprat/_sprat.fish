@@ -23,5 +23,6 @@ complete -c sprat -n "__fish_seen_subcommand_from search" -f -l classifiers -s c
 complete -c sprat -n "__fish_seen_subcommand_from search" -f -l keywords -s k -d 'Search in keywords'
 
 # sprat update
+complete -c sprat -n "__fish_seen_subcommand_from sync" -f -l quiet -s q -d 'Suppres status output'
 # Hide --index flag unless user seems to already know it exists
 complete -c sprat -n "__fish_seen_subcommand_from sync" -n '__fish_seen_argument --index || commandline -t | string match -rq i' -F -r -l index

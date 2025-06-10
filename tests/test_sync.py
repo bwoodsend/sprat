@@ -26,28 +26,35 @@ def fake_upstream(content):
         def do_GET(self):
             if "Range" in self.headers:
                 match = re.match(r"bytes=(\d*)-(\d*)", self.headers["Range"])
-                range = (int(match[1] or 0), int(match[2] or len(content)))
-                if range[0] >= len(content) and settings.get("416_on_empty"):
+                range_ = (int(match[1] or 0), int(match[2] or len(content)))
+                if range_[0] >= len(content) and settings.get("416_on_empty"):
                     self.send_response(416)
                     self.send_header("content-range", f"bytes */{len(content)}")
                     self.end_headers()
                     return
                 self.send_response(206)
-                self.send_header("Content-Length", range[1] - range[0])
+                self.send_header("Content-Length", range_[1] - range_[0])
                 self.end_headers()
-                self.wfile.write(content[range[0]: range[1]])
+                self._write(content[range_[0]: range_[1]])
             else:
                 self.send_response(200)
                 self.send_header("Content-Length", len(content))
                 self.end_headers()
                 while settings.get("wait"):
-                    time.sleep(0.5)
-                self.wfile.write(content)
+                    time.sleep(0.1)
+                self._write(content)
 
         def log_message(self, format, *args):
             pass
 
-    with ThreadingHTTPServer(("127.0.0.1", 0), RequestHandler) as httpd:
+        def _write(self, content):
+            for i in range(0, len(content), 1000):
+                self.wfile.write(content[i: i + 1000])
+                if settings.get("slow"):
+                    time.sleep(0.5)
+
+    with ThreadingHTTPServer(("127.0.0.1", 12378), RequestHandler) as httpd:
+        settings["port"] = httpd.server_port
         try:
             thread = threading.Thread(target=httpd.serve_forever)
             thread.start()
@@ -160,7 +167,7 @@ def test_error_recovery(tmp_path, monkeypatch):
     def bad_repack_database(path, dest):
         if "3" in path.name:
             raise RuntimeError
-        original_repack_database(path, dest)
+        return original_repack_database(path, dest)
 
     with fake_upstream(before):
         monkeypatch.setattr(sprat._database, "repack_database", bad_repack_database)
@@ -255,3 +262,23 @@ def test_obstructed_sync(tmp_path, monkeypatch):
             sprat.sync()
         with fake_upstream(states[1]):
             sprat.sync()
+
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--state", choices=(1, 2, 3), default=3)
+    parser.add_argument("--slow", action="store_true")
+    options = parser.parse_args()
+
+    with fake_upstream(packed()[options.state - 1]) as settings:
+        if options.slow:
+            settings["slow"] = True
+        print(f"export SPRAT_INDEX_URL=http://127.0.0.1:{settings['port']}")
+        print('export SPRAT_CACHE_ROOT="$(mktemp -d)"')
+        try:
+            while True:
+                time.sleep(1)
+        except KeyboardInterrupt:
+            pass

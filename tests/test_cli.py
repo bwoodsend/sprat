@@ -13,6 +13,7 @@ import pytest
 
 import sprat
 from sprat.__main__ import color_textwrap, cli
+from test_sync import fake_upstream, packed
 
 RESET = "\x1b[0m"
 GREY = "\x1b[37m"
@@ -21,13 +22,12 @@ RED = "\x1b[31m"
 
 @pytest.fixture(scope="module")
 def fake_root():
-    from test_sync import fake_upstream, packed
     with tempfile.TemporaryDirectory() as workspace:
         old_cache_root = sprat._database.cache_root
         try:
             sprat._database.cache_root = Path(workspace)
             with fake_upstream(packed()[1]):
-                cli(["sync"])
+                cli(["sync", "-q"])
             yield workspace
         finally:
             sprat._database.cache_root = old_cache_root
@@ -290,3 +290,13 @@ def test_search_json(run):
     assert [i["name"] for i in packages] == ["aa-metenox", "ZombieAdventure"]
     assert "1.1.0b2" in packages[0]["versions"]
     assert packages[1]["versions"] == {}
+
+
+def test_sync(run, monkeypatch, tmp_path, capsys):
+    monkeypatch.setattr(sprat._database, "cache_root", tmp_path)
+    _strip_size = lambda x: re.sub(r"\([\d.]+ kB\)", "(xx.x kB)", x)
+    with fake_upstream(packed()[0]):
+        snapshot_test(_strip_size(run("sync")), "sync-initial")
+        assert "Already in sync" in run("sync")
+    with fake_upstream(packed()[2]):
+        snapshot_test(_strip_size(run("sync")), "sync-update")

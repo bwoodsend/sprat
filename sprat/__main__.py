@@ -341,11 +341,55 @@ class Highlighter:
                 return y, 0
 
 
+class SyncProgress(sprat.SyncProgress):
+    def write(self, x):
+        print(x, end="", flush=True)
+
+    def start_download(self, total_size, **ignored):
+        self.max = total_size
+        self.steps = "".join(f"...{i}%" for i in range(10, 110, 10))
+        self.step = -1
+        if total_size >= 1e6:  # pragma: no cover
+            _size = f"{total_size / 1e6:.1f} MB"
+        else:
+            _size = f"{total_size / 1e3:.1f} kB"
+        self.write(f"Syncing ({_size}):\n" + GREY)
+
+    def _update(self, x):
+        for self.step in range(self.step + 1, (len(self.steps) * x) // self.max):
+            self.write(self.steps[self.step])
+
+    def update_download(self, size, **ignored):
+        self._update(size)
+
+    def finish_download(self, **ignored):
+        self.write(RESET + "\n")
+
+    def start_unpack(self, total_parts, **ignored):
+        self.write(f"Unpacking ({total_parts}):\n" + GREY)
+        self.max = total_parts
+        step, start = divmod(total_parts, 7)
+        self.steps = "".join(f"...{i}" for i in range(start, total_parts + 7, 7))
+        self.step = -1
+
+    def update_unpack(self, part, **ignored):
+        self._update(part)
+
+    finish_unpack = finish_download
+
+    def announce_done(self, total_packages, **ignored):
+        self.write(f"Sync complete. Total packages: {total_packages:3,}\n")
+
+    def announce_no_op(self, **ignored):
+        self.write("Already in sync with the latest database updates\n")
+
+
 def cli(args=None):
     try:
         options = _parse_args(args)
         if options.command == "sync":
-            sprat.sync(options.index_file)
+            sprat.sync(sprat.SyncProgress() if options.quiet else SyncProgress(),
+                        options.index_file)
         if options.command == "info":
             info(options)
         if options.command == "search":
@@ -377,7 +421,9 @@ def _parse_args(args=None):
 
     sync = subparsers.add_parser("sync", help= \
         "Download latest package database")
-    sync.add_argument("--index-file", metavar="FILE")
+    sync.add_argument("--index-file", metavar="FILE", help=argparse.SUPPRESS)
+    sync.add_argument("--quiet", "-q", action="store_true", help= \
+        "Suppress progress output")
 
     search = subparsers.add_parser("search", help= \
         "Find packages by regex patterns")

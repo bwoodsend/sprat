@@ -14,5 +14,6 @@ from ._database import (
     DatabaseUninitializedError,
     NoSuchPackageError,
     Package,
+    SyncProgress,
     UpdateAlreadyInProgressError,
 )

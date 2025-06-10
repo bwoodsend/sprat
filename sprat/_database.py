@@ -220,16 +220,21 @@ def _read_database_raw(f, chunk_size):
     assert not remainder, remainder
 
 
-def disassemble(source, dest_dir):
+def disassemble(source, dest_dir, progress):
     try:
         dest_files = [open(dest_dir / f"_{i:02}", "wb") for i in range(len(anchors) + 1)]
         for (name, chunk) in _read_database(source):
             dest_files[hash_id(sluggify_b(name))].write(b"n:%s\n%s\n" % (name, chunk))
     finally:
         [i.close() for i in dest_files]
+    total = 0
+    progress.start_unpack(total_parts=len(anchors) + 1)
     for i in range(len(anchors) + 1):
-        repack_database(dest_dir / f"_{i:02}", dest_dir / f"{i:02}")
+        total += repack_database(dest_dir / f"_{i:02}", dest_dir / f"{i:02}")
         windows_proof(Path.unlink, dest_dir / f"_{i:02}")
+        progress.update_unpack(part=i + 1)
+    progress.finish_unpack()
+    return total
 
 
 def repack_database(path, dest):
@@ -245,6 +250,7 @@ def repack_database(path, dest):
             package_blocks[id] = (name, source)
     with open(dest, "wb") as f:
         f.writelines(b"n:%s\n%s\n" % i[1] for i in sorted(package_blocks.items()))
+    return len(package_blocks)
 
 
 class PackageDeleted(Exception):
@@ -428,9 +434,10 @@ def _retryable_exception(ex):
 
 
 
-def sync(database_file=None):
+def sync(progress=None, database_file=None):
     import shutil, filelock
 
+    progress = progress or SyncProgress()
     cache_root.mkdir(parents=True, exist_ok=True)
     lock = None
     try:
@@ -457,25 +464,36 @@ def sync(database_file=None):
                 or "https://github.com/bwoodsend/sprat/releases/download/database-v1/database.gz"
             try:
                 with urlopen(Request(url, headers=headers)) as response:
-                    if int(response.headers["Content-Length"]) != 0:
+                    expected_length = int(response.headers["Content-Length"])
+                    if expected_length != 0:
+                        progress.start_download(total_size=expected_length)
                         with windows_proof(open, database_file, "ab") as f:
-                            shutil.copyfileobj(response, f)
+                            total_read = 0
+                            while True:
+                                read = f.write(response.read1())
+                                if read == 0:
+                                    break
+                                total_read += read
+                                progress.update_download(size=total_read)
+                        progress.finish_download()
                     else:
                         download_no_op = True
-            except HTTPError as ex:
-                if ex.code == 416:  # pragma: no branch
-                    assert ex.headers["Content-Range"].endswith(str(current_size)), \
-                        (dict(ex.headers), current_size)
-                    download_no_op = True
-                else:  # pragma: no cover
-                    raise
+            except HTTPError as response:
+                with response:
+                    if response.code == 416:  # pragma: no branch
+                        assert response.headers["Content-Range"].endswith(str(current_size)), \
+                            (dict(response.headers), current_size)
+                        download_no_op = True
+                    else:  # pragma: no cover
+                        raise
 
         dest_dir = cache_root / "unpacked"
         graveyard_dir = cache_root / "graveyard"
         if download_no_op and dest_dir.exists():
             if dest_dir.stat().st_mtime > database_file.stat().st_mtime:
+                progress.announce_no_op()
                 return
-        disassemble(database_file, work_dir)
+        total = disassemble(database_file, work_dir, progress)
         try:
             windows_proof(shutil.rmtree, graveyard_dir)
         except FileNotFoundError:
@@ -487,6 +505,56 @@ def sync(database_file=None):
         else:
             windows_proof(work_dir.rename, dest_dir)
             windows_proof(shutil.rmtree, graveyard_dir)
+        progress.announce_done(total_packages=total)
     finally:
         if lock is not None:  # pragma: no branch
             lock.release()
+
+
+class SyncProgress:
+    """A base class for progress-indicating sprat.sync()
+
+    sprat.sync() will call this class's methods sketched out below::
+
+        if not_up_to_date:
+            start_download(total_size=number_of_bytes_to_download)
+            while still_downloading:
+                 update_download(size=number_of_bytes_downloaded_so_far)
+            finish_download()
+
+            start_unpack(total_parts=number_of_database_parts_to_unpack)
+            for each database part:
+                update_unpack(part=number_of_database_parts_unpacked_so_far)
+            finish_unpack()
+
+            announce_done(total_packages=number_of_packages_now_in_database)
+        else:
+            announce_no_op()
+
+    Overrides of methods should add a ``**ignored`` parameter so that new
+    keyword parameters can be passed in without breaking the override.
+
+    """
+    def start_download(self, *, total_size):
+        pass
+
+    def update_download(self, *, size):
+        pass
+
+    def finish_download(self):
+        pass
+
+    def start_unpack(self, *, total_parts):
+        pass
+
+    def update_unpack(self, *, part):
+        pass
+
+    def finish_unpack(self):
+        pass
+
+    def announce_done(self, *, total_packages):
+        pass
+
+    def announce_no_op(self):
+        pass

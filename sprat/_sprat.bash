@@ -47,7 +47,7 @@ _sprat_completion() {
             ;;
         sync)
             if [[ $cur == -* ]]; then
-                COMPREPLY=($(compgen -W "--index" -- "$cur"))
+                COMPREPLY=($(compgen -W "-q --quiet --index" -- "$cur"))
             fi
             ;;
     esac
