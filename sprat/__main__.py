@@ -422,34 +422,34 @@ def _parse_args(args=None):
     sync = subparsers.add_parser("sync", help= \
         "Download latest package database")
     sync.add_argument("--index-file", metavar="FILE", help=argparse.SUPPRESS)
-    sync.add_argument("--quiet", "-q", action="store_true", help= \
+    sync.add_argument("-q", "--quiet", action="store_true", help= \
         "Suppress progress output")
 
     search = subparsers.add_parser("search", help= \
         "Find packages by regex patterns")
     search.add_argument("terms", nargs="*")
-    search.add_argument("--name", "-n", action="append", dest="name")
-    search.add_argument("--summary", "-s", action="append", dest="summary")
-    search.add_argument("--keywords", "-k", action="append", dest="keyword")
-    search.add_argument("--classifiers", "-c", action="append", dest="classifier")
-    search.add_argument("--long", "-l", action="store_true")
-    search.add_argument("--quiet", "-q", action="store_true")
-    search.add_argument("--json",  "-j", action="store_true", help= \
+    search.add_argument("-n", "--name", action="append", dest="name")
+    search.add_argument("-s", "--summary", action="append", dest="summary")
+    search.add_argument("-k", "--keywords", action="append", dest="keyword")
+    search.add_argument("-c", "--classifiers", action="append", dest="classifier")
+    search.add_argument("-l", "--long", action="store_true")
+    search.add_argument("-q", "--quiet", action="store_true")
+    search.add_argument("-j", "--json", action="store_true", help= \
         "Export to JSON")
 
     info = subparsers.add_parser("info", help= \
         "Show details of a given package")
     info.add_argument("packages", nargs="+")
-    info.add_argument("--urls", "-u", action="store_true", help= \
+    info.add_argument("-u", "--urls", action="store_true", help= \
         "Show all URLs, defaults to just the Homepage")
-    info.add_argument("--classifiers", "-c", action="store_true", help= \
+    info.add_argument("-c", "--classifiers", action="store_true", help= \
         "Show classifiers")
-    info.add_argument("--versions", "-v", action="store_true", help= \
+    info.add_argument("-v", "--versions", action="store_true", help= \
         "List releases")
-    info.add_argument("--all", "-a", action="store_true", help= \
+    info.add_argument("-a", "--all", action="store_true", help= \
         'Show everything, equivalent to --urls --classifiers --versions '
         'plus any future "show more" options')
-    info.add_argument("--json",  "-j", action="store_true", help= \
+    info.add_argument("-j", "--json", action="store_true", help= \
         "Export to JSON, implies --all")
 
     return parser.parse_args(args)

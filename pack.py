@@ -246,7 +246,7 @@ def split_path(path):
 def cli(args=None):
     parser = argparse.ArgumentParser()
     parser.add_argument("files", nargs="*")
-    parser.add_argument("--output", "-o")
+    parser.add_argument("-o", "--output")
     parser.add_argument("--update")
     options = parser.parse_args(args)
     options.files = [Path(i) for i in options.files] or list(Path("pypi").glob("*.jsongz"))
