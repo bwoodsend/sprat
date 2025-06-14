@@ -161,8 +161,11 @@ def search(options):
             filtered = sprat.raw_crude_search(term, case_sensitive=False)
         else:
             filtered = sprat.raw_iter()
-    filter = Filter(options.terms, options.name, options.summary,
-                    options.keyword, options.classifier)
+    try:
+        filter = Filter(options.terms, options.name, options.summary,
+                        options.keyword, options.classifier)
+    except re.error as ex:
+        die(2, f'Invalid search pattern "{ex.pattern}", {ex}')
 
     if filter.name:
         filtered = (i for i in filtered if filter.filter_name(i[0].decode()))

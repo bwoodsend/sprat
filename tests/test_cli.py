@@ -284,6 +284,17 @@ def test_empty_search(run, capsys, args):
     assert "Empty search terms are not allowed" in capsys.readouterr().err
 
 
+@pytest.mark.parametrize("args", [("(",), ("-q", "("), ("-n", "^aa("), ("foo", "(")])
+def test_invalid_regex(run, capsys, args):
+    with pytest.raises(SystemExit):
+        run("search", *args)
+    error = capsys.readouterr().err
+    if args[0] == "-n":
+        assert 'Invalid search pattern "^aa(", missing ), unterminated' in error
+    else:
+        assert 'Invalid search pattern "(", missing ), unterminated' in error
+
+
 def test_search_json(run):
     output = run("search", "-j", "zombie|aa-metenox")
     packages = [json.loads(i) for i in output.splitlines()]
