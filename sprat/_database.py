@@ -211,8 +211,8 @@ def _read_database_raw(f, chunk_size):
     while True:
         chunks = buffer.split(b"\n\n")
         for chunk in chunks[:-1]:
-            name, payload = chunk.split(b"\n", maxsplit=1)
-            yield (name[2:], payload + b"\n")
+            idx = chunk.find(b"\n")
+            yield chunk[2: idx], chunk[idx + 1:] + b"\n"
         remainder = chunks[-1]
         buffer = remainder + f.read(chunk_size)
         if len(buffer) == len(remainder):
@@ -249,7 +249,11 @@ def repack_database(path, dest):
         else:
             package_blocks[id] = (name, source)
     with open(dest, "wb") as f:
-        f.writelines(b"n:%s\n%s\n" % i[1] for i in sorted(package_blocks.items()))
+        template = b"n:%s\n%s\n" * len(package_blocks)
+        values = []
+        for i in sorted(package_blocks.items()):
+            values.extend(i[1])
+        f.write(template % tuple(values))
     return len(package_blocks)
 
 
