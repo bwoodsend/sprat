@@ -290,9 +290,9 @@ def test_invalid_regex(run, capsys, args):
         run("search", *args)
     error = capsys.readouterr().err
     if args[0] == "-n":
-        assert 'Invalid search pattern "^aa(", missing ), unterminated' in error
+        assert 'search pattern "^aa(", missing ), unterminated' in error
     else:
-        assert 'Invalid search pattern "(", missing ), unterminated' in error
+        assert 'search pattern "(", missing ), unterminated' in error
 
 
 def test_search_json(run):

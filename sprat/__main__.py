@@ -165,7 +165,7 @@ def search(options):
         filter = Filter(options.terms, options.name, options.summary,
                         options.keyword, options.classifier)
     except re.error as ex:
-        die(2, f'Invalid search pattern "{ex.pattern}", {ex}')
+        die(2, f'Invalid regex search pattern "{ex.pattern}", {ex}')
 
     if filter.name:
         filtered = (i for i in filtered if filter.filter_name(i[0].decode()))
