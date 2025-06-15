@@ -34,7 +34,9 @@ from source run::
     cd sprat
     pip install -e .
 
-Later, if you want to update, run::
+Later, if you want to update, run:
+
+.. code-block:: bash
 
     git pull
     pip install -e .  # Only needed if dependencies have changed
@@ -66,7 +68,7 @@ Searching for packages
 
 Basic search (hopefully self explanatory):
 
-.. code-block:: bash
+.. code-block::
 
     # Find a package containing "pytest plugin" and "json"
     $ sprat search 'pytest plugin' json
@@ -166,7 +168,7 @@ Querying packages
 
 The ``info`` command displays information about a given package:
 
-.. code-block:: bash
+.. code-block::
 
     $ sprat info meson-python
     Name      : meson-python
@@ -182,7 +184,7 @@ classifiers. By default its shows only the homepage URL and no classifiers or
 versions. Extra information can be shown using the ``-c/--classifiers``,
 ``-u/--urls``, ``-v/--versions`` or ``-a/--all`` flags.
 
-.. code-block:: console
+.. code-block::
 
     $ sprat info meson-python -a
     Name           : meson-python
@@ -371,14 +373,14 @@ package.
   Note that it is possible for a package to not have any versions. Each version
   may optionally contain:
 
-    - `requires_python
-      <https://packaging.python.org/en/latest/specifications/pyproject-toml/#requires-python>`_
-      (``str``): Filtered for validity via `packaging.specifiers.SpecifierSet()
-      <https://packaging.pypa.io/en/stable/specifiers.html#packaging.specifiers.SpecifierSet>`_.
-  
-    - ``yanked`` (``str``): The reason for the release being yanked or possibly
-      an empty string to indicate being yanked without explanation. Line-breaks
-      and indentation are removed.
+  - `requires_python
+    <https://packaging.python.org/en/latest/specifications/pyproject-toml/#requires-python>`_
+    (``str``): Filtered for validity via `packaging.specifiers.SpecifierSet()
+    <https://packaging.pypa.io/en/stable/specifiers.html#packaging.specifiers.SpecifierSet>`_.
+
+  - ``yanked`` (``str``): The reason for the release being yanked or possibly
+    an empty string to indicate being yanked without explanation. Line-breaks
+    and indentation are removed.
 
 Packages or versions that are deleted are not exposed in any way. They will
 simply disappear.
