@@ -2,22 +2,51 @@
 Welcome to sprat!
 =================
 
-A long time ago, ``pip`` had a handy ``search`` command which, using PyPI's
-search APIs, provided a nice in-console way to discover packages. Excessive
-machine usage and the size of PyPI's index overloaded PyPI's servers to the
-point where the API had to be killed.
+``sprat`` is a command line tool (and Python library) for searching PyPI,
+replacing what was once known as ``pip search``.
 
-Overtime, people turned to web scraping `pypi.org/search
-<https://pypi.org/search/>`_, again disrupting PyPI to the point where a
-defensive layer of browser verification was needed to ward the robots off.
+.. code-block:: bash
 
-And there's still no machine friendly way to search PyPI...
+    $ sprat search opengl 3d --classifiers 'Python :: 3.13'
+    flitter-lang
+        Flitter is a functional programming language and declarative system for
+        describing 2D and 3D visuals
+    ps2mc-browser
+        A PS2 save file viewer with OpenGL 3D icon rendering support.
+    pyglm
+        OpenGL Mathematics library for Python
+    ...
 
-``sprat`` is a command line tool (and Python API) for searching PyPI. But in
-order to avoid the same fate as ``pip search``, it does not talk to PyPI
-directly. A single database of project metadata is built externally, all
-``sprat`` users downloads that database then ``sprat`` does its DoS-inducing
-searching locally. (This should sound familiar to anyone whose used
+.. code-block:: bash
+
+    $ sprat info norwegianblue
+    Name      : norwegianblue
+    Version   : 0.22.0
+    Summary   : CLI to show end-of-life dates for a number of products
+    Keywords  : cli, end-of-life, endoflife, eol
+    Homepage  : https://github.com/hugovk/norwegianblue
+    License   : MIT
+
+
+Background
+----------
+
+Some time ago, you could discover packages on PyPI using the ``pip search``
+command. This command was a wrapper around a PyPI search API which unfortunately
+was so overloaded with excessive machine usage that it had to be turned off
+indefinitely.
+
+Overtime, people moved to web scraping `pypi.org/search
+<https://pypi.org/search/>`_, which again disrupted PyPI to the point where
+browser verification had to be installed to block such usage.
+
+And then ``sprat`` came along to fill the gap. But in order to avoid the same
+fate as ``pip search``, ``sprat`` does not talk to PyPI directly. A `single
+database <https://github.com/bwoodsend/sprat/releases/tag/database-v1>`_ of
+project metadata is `built externally
+<https://github.com/bwoodsend/sprat/actions/workflows/sync.yml>`_, all ``sprat``
+users download that database then ``sprat`` does all its searching offline.
+(This should sound familiar to anyone whose used
 ``pacman``/``apt``/``apk``/``dnf``/etc – it's the same thing they do.) Updates
 are incrementally synced from PyPI to the database and from the database to
 ``sprat`` making both parts of the transaction as economic as possible.
@@ -26,9 +55,9 @@ are incrementally synced from PyPI to the database and from the database to
 Installation
 ------------
 
-I'm keeping ``sprat`` off PyPI until it gains some traction and I'm more
-confident that PyPI's current growth spurt won't kill it. To install ``sprat``
-from source run::
+``sprat`` is staying off PyPI until it shows signs of gaining traction (and I'm
+more confident that PyPI's current growth spurt won't kill it). To install
+``sprat`` from source run::
 
     git clone https://github.com/bwoodsend/sprat.git
     cd sprat
@@ -54,13 +83,15 @@ those shells then you can install the appropriate completion file using:
 CLI Usage
 ---------
 
-Using ``sprat`` first requires downloading its database::
+Before ``sprat`` can do anything, it needs to first download its database::
 
     sprat sync
 
 Over time, as packages and releases are subsequently uploaded to PyPI, run
 ``sync`` again for those uploads to propagate. ``sprat`` will never
 automatically resynchronise no matter how stale its local database is.
+
+All other ``sprat`` operations run offline.
 
 
 Searching for packages
@@ -97,8 +128,8 @@ Basic search (hopefully self explanatory):
         A pytest plugin to generate JSON reports, with ATX support.
 
 ``sprat``\ 's search output favours compactness over completeness of
-information. Once you've applied enough filtering, you may wish to switch to
-``-l/--long`` format.
+information. Once you've applied sufficient filtering that the output isn't a
+mile long, you can switch to ``-l/--long`` format.
 
 .. code-block:: bash
 
@@ -122,9 +153,9 @@ information. Once you've applied enough filtering, you may wish to switch to
 
     ...
 
-So far, a package is considered a match if each term is found in **any** of the
-package's name, summary, keywords and classifiers. Search terms can target
-specific fields using:
+Without flags, a package is considered a match if each term is found in any of
+the its searchable fields (name, summary, keywords and classifiers). Search
+terms can target specific fields using:
 
 .. code-block:: bash
 
@@ -133,9 +164,9 @@ specific fields using:
     sprat search --keyword ASGI
     sprat search --classifier 'Programming Language :: Python :: 3.14'
 
-Search terms are regexs. Use regex syntax to get wildcards (``.*``), whole words
-(``\bword\b``) or whole terms (``^whole term$``), character ranges (``[a-z]``),
-unions (``foo|bar``), etc.
+Search terms are regexs. Using regex syntax, you can have wildcards (``.*``),
+whole word (``\bword\b``) or whole term (``^whole term$``) matches, character
+ranges (``[a-z]``), unions (``foo|bar``), etc.
 
 .. code-block:: bash
 
@@ -150,8 +181,8 @@ unions (``foo|bar``), etc.
     # Handle American vs British english
     sprat search 'visuali[sz]ation'
 
-There are half-hearted *machine readable* formats ``-q/--quiet``, listing only
-package names and ``-j/--json`` which outputs JSONL.
+There are half-hearted *machine readable* formats: ``-q/--quiet`` lists only
+package names and ``-j/--json`` outputs in JSONL.
 
 .. code-block:: bash
 
@@ -160,7 +191,7 @@ package names and ``-j/--json`` which outputs JSONL.
     # Do weird custom data slicing with jq
     sprat search -j | jq '{(.name): (.versions | length)}'
 
-There is also the `Python API`_ for anything the CLI doesn't cover.
+For anything the CLI doesn't cover, there is the `Python API`_.
 
 
 Querying packages
@@ -179,7 +210,7 @@ The ``info`` command displays information about a given package:
     License   : MIT
 
 Again, ``sprat`` errs on the side of trying not to swamp the terminal with text,
-particularly given the overenthusiasm with which many packages adopt URLs and
+particularly given the enthusiasm with which many packages add URLs and
 classifiers. By default its shows only the homepage URL and no classifiers or
 versions. Extra information can be shown using the ``-c/--classifiers``,
 ``-u/--urls``, ``-v/--versions`` or ``-a/--all`` flags.
@@ -263,7 +294,7 @@ scripts.
 Python API
 ----------
 
-Using the Python API typically boils down to either ``sprat.lookup()`` for
+Simple usage of the Python API distils down to either ``sprat.lookup()`` for
 information on a specific package or ``sprat.iter()`` for searching.
 
 .. code-block:: python
@@ -272,8 +303,7 @@ information on a specific package or ``sprat.iter()`` for searching.
 
     # Lookup a package by name
     package = sprat.lookup("numpy")
-
-    # Lookup packages in bulk. This is faster than individual lookups if the
+    # Or Lookup packages in bulk. This is faster than individual lookups if the
     # names are close alphabetically.
     names = ["pytest", "pytest-cov", "pytest-echo"]
     packages = dict(zip(names, sprat.bulk_lookup(names)))
@@ -283,12 +313,11 @@ information on a specific package or ``sprat.iter()`` for searching.
         if "eggs" in package.summary:
             print(package.name)
 
-If you're not concerned about performance then that is all you need to know.
+If you're not concerned about performance then that is all you need.
 
 Unpacking every piece of information for every package on PyPI can be slow.
-sprat's API tries to expose the optimization that its database structure
-provides (without exposing the structure itself in a way that would make it
-impossible to evolve).
+sprat's API tries to expose the optimisations that its database structure
+provides without exposing the internals of the structure itself.
 
 .. code-block:: python
 
@@ -298,7 +327,7 @@ impossible to evolve).
         if "eggs" in package.summary:
             print(package.name)
 
-    # Keyword or regex searches can be optimised by finding search terms in the
+    # Literal or regex searches can be optimised by finding search terms in the
     # raw, unparsed (clear text) database then only unpacking the packages with
     # matches. This process does not discriminate between the package's fields
     # so more precise filtering is still required on the subset that get
@@ -331,7 +360,7 @@ Supported Fields
 ----------------
 
 ``sprat`` collects the following information about each package. All fields par
-the per-version fields reflect their values as of latest version of a given
+the per-version fields reflect their values as of the latest version of a given
 package.
 
 * `name
@@ -364,7 +393,7 @@ package.
 * `license
   <https://packaging.python.org/en/latest/specifications/declaring-project-metadata/#license>`_
   (``str``): Strictly the new *license expression* field. ``sprat`` makes no
-  effort to amalgamate with the legacy license field or license classifiers.
+  effort to amalgamate it with the legacy license field or license classifiers.
 
 * ``versions`` (``dict[str, dict]``): Listed in order of release date rather
   than lowest highest version, filtered for validity via
@@ -382,8 +411,9 @@ package.
     an empty string to indicate being yanked without explanation. Line-breaks
     and indentation are removed.
 
-Packages or versions that are deleted are not exposed in any way. They will
-simply disappear.
+Packages or versions that are deleted from PyPI are not exposed in any way.
+``sprat`` will simply act like they never existed. Quarantined packages are
+treated as if they were deleted.
 
 
 Unsupported Fields
@@ -409,6 +439,7 @@ Fields that are unlikely to be supported:
 
 * Author/Maintainer: Have too much uncertainty surrounding Author vs Author +
   Author-Email vs an Author-Email containing both the author and email address.
+  Additionally, PyPI's JSON API can only expose one of each.
 
 * Dependencies: Can be dynamic, can vary between wheels and aren't available
   using PyPI's JSON API.
