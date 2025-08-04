@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y retry
       - uses: actions/setup-python@v5
         with:
           python-version: 3.13
@@ -31,5 +32,5 @@ jobs:
       - run: sprat sync --index=database.gz
       - run: sprat info -a '*' > /dev/null
 
-      - run: gh release upload --clobber database-v1 database.gz.lastserial
-      - run: gh release upload --clobber database-v1 database.gz
+      - run: retry -d 1,2,4,8,16,60 -t10 -- gh release upload --clobber database-v1 database.gz.lastserial
+      - run: retry -d 1,2,4,8,16,60 -t10 -- gh release upload --clobber database-v1 database.gz
