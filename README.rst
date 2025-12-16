@@ -2,8 +2,8 @@
 Welcome to sprat!
 =================
 
-``sprat`` is a command line tool (and Python library) for searching PyPI,
-replacing what was once known as ``pip search``.
+``sprat`` is a command line tool and Python library for searching PyPI,
+replacing what was once ``pip search``.
 
 .. code-block:: bash
 
@@ -31,46 +31,47 @@ replacing what was once known as ``pip search``.
 Background
 ----------
 
-Some time ago, you could discover packages on PyPI using the ``pip search``
-command. This command was a wrapper around a PyPI search API which unfortunately
-was so overloaded with excessive machine usage that it had to be turned off
+Some time ago, packages on PyPI could be discovered using the ``pip search``
+command – a CLI wrapper around a PyPI search API which was unfortunately so
+overloaded with excessive machine usage that it had to be switched off
 indefinitely.
 
-Overtime, people moved to web scraping `pypi.org/search
+Overtime, people have moved to web scraping `pypi.org/search
 <https://pypi.org/search/>`_, which again disrupted PyPI to the point where
 browser verification had to be installed to block such usage.
 
-And then ``sprat`` came along to fill the gap. But in order to avoid the same
-fate as ``pip search``, ``sprat`` does not talk to PyPI directly. A `single
-database <https://github.com/bwoodsend/sprat/releases/tag/database-v1>`_ of
-project metadata is `built externally
+``sprat`` also seeks to provide CLI and programmatic searching of PyPI but, in
+order to avoid the same fate as ``pip search``, ``sprat`` does not talk to PyPI
+directly. A `single database
+<https://github.com/bwoodsend/sprat/releases/tag/database-v1>`_ of project
+metadata is `built externally
 <https://github.com/bwoodsend/sprat/actions/workflows/sync.yml>`_, all ``sprat``
 users download that database then ``sprat`` does all its searching offline.
-(This should sound familiar to anyone whose used
-``pacman``/``apt``/``apk``/``dnf``/etc – it's the same thing they do.) Updates
-are incrementally synced from PyPI to the database and from the database to
-``sprat`` making both parts of the transaction as economic as possible.
+(This should sound familiar to anyone whose used package mangers like ``apt`` or
+``dnf``.) Updates are incrementally synced from PyPI to the database and from
+the database to ``sprat`` making both parts of the transaction as economic as
+possible.
 
 
 Installation
 ------------
 
-``sprat`` is staying off PyPI until it shows signs of gaining traction (and I'm
-more confident that PyPI's current growth spurt won't kill it). To install
-``sprat`` from source run::
+``sprat`` is remaining off PyPI until it shows signs of being used (and I'm more
+confident that PyPI's accelerating growth won't kill it). To install ``sprat``
+from source run::
 
     git clone https://github.com/bwoodsend/sprat.git
     cd sprat
     pip install -e .
 
-Later, if you want to update, run:
+Later, to update, run:
 
 .. code-block:: bash
 
     git pull
     pip install -e .  # Only needed if dependencies have changed
 
-The ``sprat`` command comes with bash and fish completions. If you use either of
+The ``sprat`` command comes with bash and fish completions. If using either of
 those shells then you can install the appropriate completion file using:
 
 .. code-block:: bash
@@ -83,13 +84,13 @@ those shells then you can install the appropriate completion file using:
 CLI Usage
 ---------
 
-Before ``sprat`` can do anything, it needs to first download its database::
+Before ``sprat`` can do anything, it needs to download its database::
 
     sprat sync
 
-Over time, as packages and releases are subsequently uploaded to PyPI, run
-``sync`` again for those uploads to propagate. ``sprat`` will never
-automatically resynchronise no matter how stale its local database is.
+As packages and releases are subsequently uploaded to PyPI, run ``sync`` again
+for those uploads to propagate. ``sprat`` will never automatically resynchronise
+– no matter how stale its local database is.
 
 All other ``sprat`` operations run offline.
 
@@ -128,8 +129,8 @@ Basic search (hopefully self explanatory):
         A pytest plugin to generate JSON reports, with ATX support.
 
 ``sprat``\ 's search output favours compactness over completeness of
-information. Once you've applied sufficient filtering that the output isn't a
-mile long, you can switch to ``-l/--long`` format.
+information. Once you've applied sufficient filtering that the output isn't
+unusably long, you can switch to ``-l/--long`` format.
 
 .. code-block:: bash
 
@@ -164,9 +165,9 @@ terms can target specific fields using:
     sprat search --keyword ASGI
     sprat search --classifier 'Programming Language :: Python :: 3.14'
 
-Search terms are regexs. Using regex syntax, you can have wildcards (``.*``),
-whole word (``\bword\b``) or whole term (``^whole term$``) matches, character
-ranges (``[a-z]``), unions (``foo|bar``), etc.
+Search terms are regexs. Regex patterns give you wildcards (``.*``), whole word
+(``\bword\b``) or whole term (``^whole term$``) matches, character ranges
+(``[a-z]``), unions (``foo|bar``), etc.
 
 .. code-block:: bash
 
@@ -178,7 +179,7 @@ ranges (``[a-z]``), unions (``foo|bar``), etc.
     sprat search --name '^pytest-'
     # Search with wildcard
     sprat search --name '^poetry-.*-plugin'
-    # Handle American vs British english
+    # Handle localised spellings
     sprat search 'visuali[sz]ation'
 
 There are half-hearted *machine readable* formats: ``-q/--quiet`` lists only
@@ -191,7 +192,7 @@ package names and ``-j/--json`` outputs in JSONL.
     # Do weird custom data slicing with jq
     sprat search -j | jq '{(.name): (.versions | length)}'
 
-For anything the CLI doesn't cover, there is the `Python API`_.
+There's a `Python API`_ for anything the CLI doesn't cover.
 
 
 Querying packages
@@ -209,10 +210,10 @@ The ``info`` command displays information about a given package:
     Homepage  : https://github.com/mesonbuild/meson-python
     License   : MIT
 
-Again, ``sprat`` errs on the side of trying not to swamp the terminal with text,
-particularly given the enthusiasm with which many packages add URLs and
-classifiers. By default its shows only the homepage URL and no classifiers or
-versions. Extra information can be shown using the ``-c/--classifiers``,
+Again, ``sprat`` errs on the side of trying not to swamp the terminal with text
+(particularly given the overenthusiasm with which some packages add URLs and
+classifiers). By default, only the homepage URL and no classifiers or versions
+are displayed. Extra information can be shown using the ``-c/--classifiers``,
 ``-u/--urls``, ``-v/--versions`` or ``-a/--all`` flags.
 
 .. code-block::
@@ -294,8 +295,9 @@ scripts.
 Python API
 ----------
 
-Simple usage of the Python API distils down to either ``sprat.lookup()`` for
-information on a specific package or ``sprat.iter()`` for searching.
+Most simple usage of ``sprat``\ 's Python API distils down to calling either
+``sprat.lookup()`` for information on a specific package or ``sprat.iter()`` for
+searching.
 
 .. code-block:: python
 
@@ -303,8 +305,7 @@ information on a specific package or ``sprat.iter()`` for searching.
 
     # Lookup a package by name
     package = sprat.lookup("numpy")
-    # Or Lookup packages in bulk. This is faster than individual lookups if the
-    # names are close alphabetically.
+    # Or Lookup packages in bulk. This is more optimized than individual lookups.
     names = ["pytest", "pytest-cov", "pytest-echo"]
     packages = dict(zip(names, sprat.bulk_lookup(names)))
 
@@ -313,16 +314,14 @@ information on a specific package or ``sprat.iter()`` for searching.
         if "eggs" in package.summary:
             print(package.name)
 
-If you're not concerned about performance then that is all you need.
-
-Unpacking every piece of information for every package on PyPI can be slow.
-sprat's API tries to expose the optimisations that its database structure
-provides without exposing the internals of the structure itself.
+If performance isn't an issue then that is all you need. The rest of the API is
+just variations of ``sprat.iter()`` with opportunistic optimisations and
+shortcuts.
 
 .. code-block:: python
 
-    # Unpacking each package's version information is the most expensive. When
-    # version information isn't needed you can skip parsing it.
+    # Unpacking each package's version information is expensive. When version
+    # information isn't needed you can skip parsing it.
     for package in sprat.iter(ignore_versions=True):
         if "eggs" in package.summary:
             print(package.name)
@@ -332,7 +331,7 @@ provides without exposing the internals of the structure itself.
     # matches. This process does not discriminate between the package's fields
     # so more precise filtering is still required on the subset that get
     # through.
-    for package in sprat.crude_search("eggs"):  # <-- This is a regex
+    for package in sprat.crude_search("eggs"):  # <-- "eggs" is a regex
         if "eggs" in package.summary:
             print(package.name)
     
@@ -347,7 +346,7 @@ provides without exposing the internals of the structure itself.
     # skip unnecessarily parsing packages.
     for (name, data) in sprat.raw_iter():
         # When working with raw names, be careful to sluggify them to avoid case
-        # sensitivity and ``-`` vs ``_`` vs ``.`` bugs.
+        # sensitivity and - vs _ vs . bugs.
         if b"eggs" not in sprat.sluggify_b(name):
             continue
         # PyPI names are guaranteed to be ASCII.
@@ -427,34 +426,36 @@ support in the future:
 
 Fields that are unlikely to be supported:
 
-* Long descriptions: The sum of all long descriptions on PyPI is over 10GB.
-  Additionally their contents vary from a short list of URLs to the whole
-  documentation to irrelevant developer guides.
+* Long descriptions: The sum of all long descriptions on PyPI is (as of time of
+  writing) 1.1 GB and whose contents vary from a handful of URLs to the whole
+  documentation to some likely irrelevant developer guide – none of which
+  provide good quality search data.
 
-* Download counts: Are always in motion so would ruin incremental syncing.
+* Download counts: Are always in motion so they'd ruin incremental syncing.
 
-* Legacy licence specifier: Has no definition as to what it means. May contain a
-  sufficiently precise identifier, a vague identifier (Apache, BSD), a random
-  summary sentence or the entire contents of the license file.
+* Legacy licence specifiers: Lack any definition as to what they really mean.
+  They may be a well defined SPDX identifier, an ambiguous identifier (Apache,
+  BSD), a random summary sentence or the entire contents of the license file.
 
-* Author/Maintainer: Have too much uncertainty surrounding Author vs Author +
-  Author-Email vs an Author-Email containing both the author and email address.
-  Additionally, PyPI's JSON API can only expose one of each.
+* Authors/Maintainers: There's too much uncertainty around Author versus Author
+  + Author-Email versus an Author-Email containing both the author and email
+  address. Additionally, PyPI's JSON API only exposes one of each.
 
-* Dependencies: Can be dynamic, can vary between wheels and aren't available
-  using PyPI's JSON API.
+* Dependencies: Can be dynamic or or inconsistent between wheels, even within a
+  single version, and aren't available using PyPI's JSON API.
 
 
 Deploying sprat
 ---------------
 
-``sprat`` is intended for console/terminal bashing and light informal scripting.
-Doing more with it is likely to lead to troubles (outlined below).
+``sprat`` was written for console/terminal bashing and light informal scripting.
+There are non-obvious reasons why doing more with it is likely a bad idea:
 
-As ``sprat`` evolves, its database format will need changes. When the format
-changes, old versions of ``sprat`` will no longer be able to receive database
-updates. To that end, ``sprat`` must never be put somewhere where it can not be
-updated (e.g. a statically bundled end user application).
+As ``sprat`` and the world of Python packaging evolve, ``sprat``\ 's database
+format will need changes. When the format changes, old versions of ``sprat``
+will no longer be able to sync database updates. To that end, ``sprat`` must
+never be put somewhere where it can not be easily updated such as a statically
+bundled end user application.
 
 Searches in ``sprat`` are regex driven which, if the regex is untrusted, means
 ReDoS attacks via `explosive quantifiers
@@ -465,5 +466,5 @@ ReDoS attacks via `explosive quantifiers
     # How long do you think this will take to finish?
     sprat search '.*.*.*.*.*.*.*0$'
 
-Anyone nuts enough to put ``sprat`` in a web server should avoid using unescaped
+Anyone considering putting ``sprat`` in a web server should disallow or escape
 user-defined regex patterns as inputs and/or limit response execution time.
