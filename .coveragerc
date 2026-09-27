@@ -4,6 +4,7 @@ source =
     sprat
     pack
 relative_files = True
+patch = subprocess
 
 [report]
 ignore_errors = True
