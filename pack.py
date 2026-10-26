@@ -36,7 +36,12 @@ class UpstreamPackage(sprat.Package):
             url = url.strip()
             if url.lower() == "unknown":
                 continue
-            sanitize(key, "=")
+            try:
+                sanitize(key, "=")
+            except SanitationError:
+                # Huggingface has started using "Hugging Face TP=2 model" labels.
+                # This will require a fairly nasty database rethink to support.
+                continue
             sanitize(url)
             if not url:
                 continue
