@@ -230,6 +230,9 @@ def update(old_database, new_database, files):
             if delta:
                 f.writelines(map("%s:%s\n".__mod__, delta))
                 f.write("\n")
+    except SanitationError as ex:
+        ex.add_note(file)
+        raise
     finally:
         if new_database:  # pragma: no branch
             f.close()
